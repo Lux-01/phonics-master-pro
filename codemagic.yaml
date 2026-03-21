@@ -1,0 +1,30 @@
+workflows:
+  android-build:
+    name: Build Android APK
+    instance_type: linux
+    environment:
+      flutter: stable  # Latest stable Flutter
+      xcode: latest
+    cache:
+      cache_paths:
+        - $HOME/.gradle/caches
+        - $HOME/.pub-cache
+    scripts:
+      - name: Create local.properties
+        script: |
+          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
+          echo "flutter.versionCode=1" >> android/local.properties
+          echo "flutter.versionName=1.0.0" >> android/local.properties
+      
+      - name: Create placeholder assets
+        script: |
+          mkdir -p assets/audio assets/images assets/animations assets/fonts
+          touch assets/audio/.gitkeep assets/images/.gitkeep assets/animations/.gitkeep assets/fonts/.gitkeep
+      
+      - name: Get dependencies
+        script: flutter pub get
+      
+      - name: Build APK
+        script: flutter build apk --release
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk
