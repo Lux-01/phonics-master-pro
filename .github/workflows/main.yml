@@ -24,6 +24,9 @@ jobs:
         flutter-version: '3.19.0'
         channel: 'stable'
     
+    - name: Create placeholder assets
+      run: mkdir -p assets/audio assets/images assets/animations assets/fonts && touch assets/audio/.gitkeep assets/images/.gitkeep assets/animations/.gitkeep assets/fonts/.gitkeep
+    
     - name: Get dependencies
       run: flutter pub get
     
