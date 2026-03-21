@@ -3,7 +3,7 @@ workflows:
     name: Build Android APK
     instance_type: linux
     environment:
-      flutter: stable  # Latest stable Flutter
+      flutter: 3.19.0  # Pin to older version that works with bundled Gradle
       xcode: latest
     cache:
       cache_paths:
