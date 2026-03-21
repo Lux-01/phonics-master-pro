@@ -46,11 +46,6 @@ dependencies:
   
   # Speech Recognition
   speech_to_text: ^6.5.0
-  
-  # Analytics
-  firebase_core: ^2.24.2
-  firebase_analytics: ^10.8.0
-  firebase_crashlytics: ^3.4.2
 
 dev_dependencies:
   flutter_test:
@@ -68,11 +63,3 @@ flutter:
     - assets/audio/
     - assets/images/
     - assets/animations/
-    - assets/fonts/
-  
-  fonts:
-    - family: OpenDyslexic
-      fonts:
-        - asset: assets/fonts/OpenDyslexic-Regular.otf
-        - asset: assets/fonts/OpenDyslexic-Bold.otf
-          weight: 700
