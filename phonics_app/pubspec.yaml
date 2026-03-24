@@ -1,0 +1,32 @@
+name: phonicsmaster_pro
+description: PhonicsMaster Pro - Interactive phonics learning app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.36
+  audio_service: ^0.18.14
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  rive: ^0.12.4
+  confetti: ^0.7.0
+  google_fonts: ^6.1.0
+  speech_to_text: ^6.6.0
+  firebase_core: ^2.24.2
+  firebase_analytics: ^10.8.0
+  firebase_crashlytics: ^3.4.9
+  flutter_riverpod: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/animations/
+    - assets/fonts/
