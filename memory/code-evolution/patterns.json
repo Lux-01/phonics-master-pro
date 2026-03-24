@@ -1,0 +1,13 @@
+{
+  "refactor_patterns": [
+    {
+      "description": "Extract method for clarity",
+      "success_rate": 0.8,
+      "times_used": 1,
+      "first_seen": "2026-03-09T04:12:02.152611"
+    }
+  ],
+  "fix_patterns": [],
+  "optimization_patterns": [],
+  "success_patterns": []
+}

@@ -1,0 +1,16 @@
+{
+  "skills": {
+    "autonomous-trading-strategist": {
+      "total_uses": 3,
+      "successful_uses": 2,
+      "failed_uses": 1,
+      "total_duration": 12.7,
+      "avg_duration": 4.233333333333333,
+      "success_rate": 0.6666666666666666,
+      "last_used": "2026-03-18T04:44:49.711013"
+    }
+  },
+  "business": {},
+  "system": {},
+  "last_updated": "2026-03-18T04:44:49.711020"
+}

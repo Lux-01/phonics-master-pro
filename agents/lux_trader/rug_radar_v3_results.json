@@ -1,0 +1,16 @@
+{
+  "strategy": "Rug-Radar v3.0",
+  "version": "3.0",
+  "improvements": [
+    "15% target",
+    "Quick-flip",
+    "Streak boost",
+    "180 trades"
+  ],
+  "start": 1.0,
+  "end": 78.78188095905927,
+  "multiplier": 78.78188095905927,
+  "trades": 165,
+  "wins": 107,
+  "rugs": 10
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-23T09:45:35.902080",
+  "sol_price_usd": 86.36191231589126,
+  "sol_price_verified": true,
+  "market_trend": "UNKNOWN",
+  "total_tokens_scanned": 0,
+  "meme_tokens_filtered": [],
+  "starting_capital_sol": 1.0,
+  "starting_capital_usd": 86.36191231589126,
+  "backtest_period": "September 23, 2025 to March 23, 2026 (6 months)"
+}

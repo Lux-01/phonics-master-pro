@@ -1,0 +1,800 @@
+{
+  "test_execution_001": {
+    "job_id": "test_execution_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.719395",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.721415"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_execution_001"
+  },
+  "test_checkpoint_001": {
+    "job_id": "test_checkpoint_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.735548",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.737769"
+      },
+      {
+        "phase": "design",
+        "status": "waiting_approval",
+        "description": "Approval needed for design phase",
+        "artifacts": [
+          "design.md"
+        ],
+        "requested_at": "2026-03-23T14:06:20.739633"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_checkpoint_001"
+  },
+  "test_resolve_001": {
+    "job_id": "test_resolve_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.747770",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.749717"
+      },
+      {
+        "phase": "design",
+        "status": "approved",
+        "description": "Approval needed for design phase",
+        "artifacts": [],
+        "requested_at": "2026-03-23T14:06:20.756619",
+        "notes": "",
+        "resolved_at": "2026-03-23T14:06:20.758640"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_resolve_001"
+  },
+  "test_feedback_001": {
+    "job_id": "test_feedback_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "review",
+    "started_at": "2026-03-23T14:06:20.768274",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "revision_1",
+        "description": "Address client feedback: Please make a few changes to the auth system...",
+        "phase": "implementation",
+        "estimated_hours": 4,
+        "completed": false,
+        "from_feedback": true
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.775363"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_feedback_001",
+    "feedback": [
+      {
+        "received_at": "2026-03-23T14:06:20.777768",
+        "feedback": "Please make a few changes to the auth system",
+        "action_type": "revision",
+        "processed": false
+      },
+      {
+        "received_at": "2026-03-23T14:06:20.785642",
+        "feedback": "Great work, approved!",
+        "action_type": "approval",
+        "processed": true,
+        "resolution": "Client approved - no action needed"
+      }
+    ]
+  },
+  "test_phase_001": {
+    "job_id": "test_phase_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "research",
+    "started_at": "2026-03-23T14:06:20.794100",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.795930"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_phase_001"
+  },
+  "test_checkpoint_detect_001": {
+    "job_id": "test_checkpoint_detect_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.806742",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.813310"
+      },
+      {
+        "phase": "design",
+        "status": "waiting_approval",
+        "description": "Approval needed for design phase",
+        "artifacts": [],
+        "requested_at": "2026-03-23T14:06:20.815098"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_checkpoint_detect_001"
+  },
+  "test_status_001": {
+    "job_id": "test_status_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.823081",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.824963"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_status_001"
+  },
+  "test_complete_001": {
+    "job_id": "test_complete_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:20.832822",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.834792"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_complete_001"
+  },
+  "test_complete_real_001": {
+    "job_id": "test_complete_real_001",
+    "client": "TestClient",
+    "requirements_text": "\n        Build a Python web application with user authentication.\n        \n        Requirements:\n        - User login/registration\n        - Task management\n        - PostgreSQL database\n        - API endpoints\n        ",
+    "status": "completed",
+    "started_at": "2026-03-23T14:06:20.842427",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:20.844584"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_complete_real_001",
+    "completed_at": "2026-03-23T14:06:20.851710"
+  },
+  "test_checkpoint_integration": {
+    "job_id": "test_checkpoint_integration",
+    "client": "Test",
+    "requirements_text": "Build a web app",
+    "status": "requirements",
+    "started_at": "2026-03-23T14:06:21.030768",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:06:21.032537"
+      }
+    ],
+    "artifacts": [],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/test_checkpoint_integration"
+  },
+  "job_demo_001": {
+    "job_id": "job_demo_001",
+    "client": "Demo Client",
+    "requirements_text": "\nBuild a Python FastAPI backend with React frontend for a task management system.\n\nRequirements:\n- User authentication (JWT)\n- CRUD operations for tasks\n- Real-time updates via WebSocket\n- PostgreSQL database\n- Docker containerization\n- API documentation\n\nTimeline: 2-3 weeks\nBudget: Flexible based on scope\n    ",
+    "status": "implementation",
+    "started_at": "2026-03-23T14:18:35.463597",
+    "tasks": [
+      {
+        "task_id": "design_ux",
+        "description": "Design UX/UI mockups",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 8,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "frontend_dev",
+        "description": "Develop frontend interface",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 16,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "api_design",
+        "description": "Design API endpoints",
+        "phase": "ExecutionPhase.DESIGN",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "backend_dev",
+        "description": "Develop backend API",
+        "phase": "ExecutionPhase.IMPLEMENTATION",
+        "estimated_hours": 20,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "testing",
+        "description": "Write and run tests",
+        "phase": "ExecutionPhase.TESTING",
+        "estimated_hours": 4,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "documentation",
+        "description": "Create documentation",
+        "phase": "ExecutionPhase.DOCUMENTATION",
+        "estimated_hours": 2,
+        "completed": false,
+        "actual_hours": 0.0
+      },
+      {
+        "task_id": "revision_1",
+        "description": "Address client feedback: Great work! Can you make a small revision to the task filtering?...",
+        "phase": "implementation",
+        "estimated_hours": 4,
+        "completed": false,
+        "from_feedback": true
+      }
+    ],
+    "checkpoints": [
+      {
+        "phase": "requirements",
+        "status": "waiting_approval",
+        "description": "Parse requirements and create task breakdown",
+        "requested_at": "2026-03-23T14:18:35.465772"
+      },
+      {
+        "phase": "design",
+        "status": "waiting_approval",
+        "description": "Approval needed for design phase",
+        "artifacts": [
+          "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/job_demo_001_deliverable.zip"
+        ],
+        "requested_at": "2026-03-23T14:18:35.473218"
+      }
+    ],
+    "artifacts": [
+      "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/job_demo_001_deliverable.zip"
+    ],
+    "output_dir": "/home/skux/.openclaw/workspace/skills/omnibot/execution/execution_data/outputs/job_demo_001",
+    "completed_at": "2026-03-23T14:18:35.503522",
+    "feedback": [
+      {
+        "received_at": "2026-03-23T14:18:35.507209",
+        "feedback": "Great work! Can you make a small revision to the task filtering?",
+        "action_type": "revision",
+        "processed": false
+      }
+    ]
+  }
+}

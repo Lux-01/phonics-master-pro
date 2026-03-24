@@ -1,0 +1,1254 @@
+2026-03-09 09:15:10,313 - SEE - INFO - Starting skill analysis...
+2026-03-09 09:15:10,329 - SEE - ERROR - Error analyzing skill aloe: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,338 - SEE - ERROR - Error analyzing skill autonomous-agent: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,353 - SEE - ERROR - Error analyzing skill autonomous-code-architect: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,356 - SEE - ERROR - Error analyzing skill autonomous-goal-generator: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,367 - SEE - ERROR - Error analyzing skill autonomous-opportunity-engine: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,372 - SEE - ERROR - Error analyzing skill autonomous-trading-strategist: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,378 - SEE - ERROR - Error analyzing skill autonomous-workflow-builder: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,381 - SEE - ERROR - Error analyzing skill captcha-solver: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,384 - SEE - ERROR - Error analyzing skill chart-analyzer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,388 - SEE - ERROR - Error analyzing skill code-evolution-tracker: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,390 - SEE - ERROR - Error analyzing skill context-optimizer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,392 - SEE - ERROR - Error analyzing skill decision-log: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,394 - SEE - ERROR - Error analyzing skill event-bus: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,401 - SEE - ERROR - Error analyzing skill income-optimizer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,404 - SEE - ERROR - Error analyzing skill integration-orchestrator: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,408 - SEE - ERROR - Error analyzing skill knowledge-graph-engine: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,415 - SEE - ERROR - Error analyzing skill long-term-project-manager: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,421 - SEE - ERROR - Error analyzing skill memory-manager: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,426 - SEE - ERROR - Error analyzing skill multi-agent-coordinator: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,433 - SEE - ERROR - Error analyzing skill research-synthesizer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,437 - SEE - ERROR - Error analyzing skill sensory-input-layer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,444 - SEE - ERROR - Error analyzing skill skill-activation-manager: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,468 - SEE - ERROR - Error analyzing skill skill-evolution-engine: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,471 - SEE - ERROR - Error analyzing skill stealth-browser: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,474 - SEE - ERROR - Error analyzing skill tool-orchestrator: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,477 - SEE - ERROR - Error analyzing skill workspace-organizer: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+Traceback (most recent call last):
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 933, in analyze_all_skills
+    skill_health = await self.analyze_skill(skill_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/skill_evolution_engine.py", line 968, in analyze_skill
+    health = SkillHealth(
+             ^^^^^^^^^^^^
+TypeError: SkillHealth.__init__() got an unexpected keyword argument 'recommendations'
+2026-03-09 09:15:10,478 - SEE - INFO - Analyzed 0 skills
+2026-03-09 09:15:10,479 - SEE - INFO - Detecting system gaps...
+2026-03-09 09:15:10,555 - SEE - INFO - Generating improvement proposals...
+2026-03-09 09:15:10,555 - SEE - INFO - Generated 0 proposals
+2026-03-09 09:16:25,995 - SEE - INFO - Starting skill analysis...
+2026-03-09 09:16:26,008 - SEE - INFO - Analyzed aloe: score=95, findings=1
+2026-03-09 09:16:26,017 - SEE - INFO - Analyzed autonomous-agent: score=95, findings=1
+2026-03-09 09:16:26,031 - SEE - INFO - Analyzed autonomous-code-architect: score=100, findings=0
+2026-03-09 09:16:26,042 - SEE - INFO - Analyzed autonomous-goal-generator: score=55, findings=5
+2026-03-09 09:16:26,053 - SEE - INFO - Analyzed autonomous-opportunity-engine: score=95, findings=1
+2026-03-09 09:16:26,060 - SEE - INFO - Analyzed autonomous-trading-strategist: score=100, findings=0
+2026-03-09 09:16:26,072 - SEE - INFO - Analyzed autonomous-workflow-builder: score=95, findings=1
+2026-03-09 09:16:26,092 - SEE - INFO - Analyzed captcha-solver: score=80, findings=3
+2026-03-09 09:16:26,105 - SEE - INFO - Analyzed chart-analyzer: score=75, findings=4
+2026-03-09 09:16:26,119 - SEE - INFO - Analyzed code-evolution-tracker: score=85, findings=2
+2026-03-09 09:16:26,140 - SEE - INFO - Analyzed context-optimizer: score=80, findings=3
+2026-03-09 09:16:26,145 - SEE - INFO - Analyzed decision-log: score=95, findings=1
+2026-03-09 09:16:26,157 - SEE - INFO - Analyzed event-bus: score=55, findings=5
+2026-03-09 09:16:26,169 - SEE - INFO - Analyzed income-optimizer: score=95, findings=1
+2026-03-09 09:16:26,179 - SEE - INFO - Analyzed integration-orchestrator: score=65, findings=4
+2026-03-09 09:16:26,187 - SEE - INFO - Analyzed knowledge-graph-engine: score=95, findings=1
+2026-03-09 09:16:26,195 - SEE - INFO - Analyzed long-term-project-manager: score=95, findings=1
+2026-03-09 09:16:26,203 - SEE - INFO - Analyzed memory-manager: score=90, findings=2
+2026-03-09 09:16:26,211 - SEE - INFO - Analyzed multi-agent-coordinator: score=95, findings=1
+2026-03-09 09:16:26,219 - SEE - INFO - Analyzed research-synthesizer: score=90, findings=2
+2026-03-09 09:16:26,226 - SEE - INFO - Analyzed sensory-input-layer: score=100, findings=0
+2026-03-09 09:16:26,238 - SEE - INFO - Analyzed skill-activation-manager: score=95, findings=1
+2026-03-09 09:16:26,253 - SEE - INFO - Analyzed skill-evolution-engine: score=90, findings=1
+2026-03-09 09:16:26,270 - SEE - INFO - Analyzed stealth-browser: score=80, findings=3
+2026-03-09 09:16:26,284 - SEE - INFO - Analyzed tool-orchestrator: score=95, findings=1
+2026-03-09 09:16:26,295 - SEE - INFO - Analyzed workspace-organizer: score=80, findings=3
+2026-03-09 09:16:26,297 - SEE - INFO - Analyzed 26 skills
+2026-03-09 09:16:26,299 - SEE - INFO - Detecting system gaps...
+2026-03-09 09:16:26,377 - SEE - INFO - Generating improvement proposals...
+2026-03-09 09:16:26,387 - SEE - INFO - Generated 4 proposals
+2026-03-09 09:17:24,290 - SEE - INFO - Starting skill analysis...
+2026-03-09 09:17:24,304 - SEE - INFO - Analyzed aloe: score=95, findings=1
+2026-03-09 09:17:24,324 - SEE - INFO - Analyzed autonomous-agent: score=95, findings=1
+2026-03-09 09:17:24,340 - SEE - INFO - Analyzed autonomous-code-architect: score=100, findings=0
+2026-03-09 09:17:24,354 - SEE - INFO - Analyzed autonomous-goal-generator: score=70, findings=4
+2026-03-09 09:17:24,369 - SEE - INFO - Analyzed autonomous-opportunity-engine: score=95, findings=1
+2026-03-09 09:17:24,380 - SEE - INFO - Analyzed autonomous-trading-strategist: score=100, findings=0
+2026-03-09 09:17:24,390 - SEE - INFO - Analyzed autonomous-workflow-builder: score=95, findings=1
+2026-03-09 09:17:24,401 - SEE - INFO - Analyzed captcha-solver: score=80, findings=3
+2026-03-09 09:17:24,410 - SEE - INFO - Analyzed chart-analyzer: score=75, findings=4
+2026-03-09 09:17:24,419 - SEE - INFO - Analyzed code-evolution-tracker: score=85, findings=2
+2026-03-09 09:17:24,432 - SEE - INFO - Analyzed context-optimizer: score=80, findings=3
+2026-03-09 09:17:24,438 - SEE - INFO - Analyzed decision-log: score=95, findings=1
+2026-03-09 09:17:24,446 - SEE - INFO - Analyzed event-bus: score=70, findings=4
+2026-03-09 09:17:24,456 - SEE - INFO - Analyzed income-optimizer: score=95, findings=1
+2026-03-09 09:17:24,466 - SEE - INFO - Analyzed integration-orchestrator: score=80, findings=3
+2026-03-09 09:17:24,475 - SEE - INFO - Analyzed knowledge-graph-engine: score=95, findings=1
+2026-03-09 09:17:24,487 - SEE - INFO - Analyzed long-term-project-manager: score=95, findings=1
+2026-03-09 09:17:24,494 - SEE - INFO - Analyzed memory-manager: score=90, findings=2
+2026-03-09 09:17:24,504 - SEE - INFO - Analyzed multi-agent-coordinator: score=95, findings=1
+2026-03-09 09:17:24,511 - SEE - INFO - Analyzed research-synthesizer: score=90, findings=2
+2026-03-09 09:17:24,521 - SEE - INFO - Analyzed sensory-input-layer: score=100, findings=0
+2026-03-09 09:17:24,532 - SEE - INFO - Analyzed skill-activation-manager: score=95, findings=1
+2026-03-09 09:17:24,543 - SEE - INFO - Analyzed skill-evolution-engine: score=90, findings=1
+2026-03-09 09:17:24,554 - SEE - INFO - Analyzed stealth-browser: score=80, findings=3
+2026-03-09 09:17:24,560 - SEE - INFO - Analyzed tool-orchestrator: score=95, findings=1
+2026-03-09 09:17:24,569 - SEE - INFO - Analyzed workspace-organizer: score=80, findings=3
+2026-03-09 09:17:24,570 - SEE - INFO - Analyzed 26 skills
+2026-03-09 09:17:24,571 - SEE - INFO - Detecting system gaps...
+2026-03-09 09:17:24,650 - SEE - INFO - Generating improvement proposals...
+2026-03-09 09:17:24,652 - SEE - INFO - Generated 1 proposals
+2026-03-13 16:43:14,003 - SEE - INFO - Starting skill analysis...
+2026-03-13 16:43:14,024 - SEE - INFO - Analyzed aloe: score=95, findings=1
+2026-03-13 16:43:14,047 - SEE - INFO - Analyzed archive: score=75, findings=4
+2026-03-13 16:43:14,057 - SEE - INFO - Analyzed autonomous-agent: score=95, findings=1
+2026-03-13 16:43:14,080 - SEE - INFO - Analyzed autonomous-code-architect: score=100, findings=0
+2026-03-13 16:43:14,093 - SEE - INFO - Analyzed autonomous-goal-generator: score=70, findings=4
+2026-03-13 16:43:14,109 - SEE - INFO - Analyzed autonomous-maintenance-repair: score=75, findings=4
+2026-03-13 16:43:14,121 - SEE - INFO - Analyzed autonomous-opportunity-engine: score=95, findings=1
+2026-03-13 16:43:14,132 - SEE - INFO - Analyzed autonomous-scheduler: score=80, findings=3
+2026-03-13 16:43:14,145 - SEE - INFO - Analyzed autonomous-tool-builder: score=85, findings=2
+2026-03-13 16:43:14,153 - SEE - INFO - Analyzed autonomous-trading-strategist: score=100, findings=0
+2026-03-13 16:43:14,166 - SEE - INFO - Analyzed autonomous-workflow-builder: score=95, findings=1
+2026-03-13 16:43:14,178 - SEE - INFO - Analyzed business-strategy-engine: score=75, findings=4
+2026-03-13 16:43:14,191 - SEE - INFO - Analyzed captcha-solver: score=80, findings=3
+2026-03-13 16:43:14,205 - SEE - INFO - Analyzed chart-analyzer: score=75, findings=4
+2026-03-13 16:43:14,212 - SEE - INFO - Analyzed code-evolution-tracker: score=85, findings=2
+2026-03-13 16:43:14,224 - SEE - INFO - Analyzed context-optimizer: score=80, findings=3
+2026-03-13 16:43:14,230 - SEE - INFO - Analyzed decision-log: score=95, findings=1
+2026-03-13 16:43:14,249 - SEE - INFO - Analyzed dist: score=75, findings=4
+2026-03-13 16:43:14,259 - SEE - INFO - Analyzed event-bus: score=70, findings=4
+2026-03-13 16:43:14,270 - SEE - INFO - Analyzed income-stream-expansion-engine: score=70, findings=4
+2026-03-13 16:43:14,280 - SEE - INFO - Analyzed integration-orchestrator: score=95, findings=1
+2026-03-13 16:43:14,290 - SEE - INFO - Analyzed knowledge-graph-engine: score=95, findings=1
+2026-03-13 16:43:14,302 - SEE - INFO - Analyzed kpi-performance-tracker: score=90, findings=1
+2026-03-13 16:43:14,311 - SEE - INFO - Analyzed long-term-project-manager: score=95, findings=1
+2026-03-13 16:43:14,320 - SEE - INFO - Analyzed memory-manager: score=90, findings=2
+2026-03-13 16:43:14,334 - SEE - INFO - Analyzed multi-agent-coordinator: score=85, findings=2
+2026-03-13 16:43:14,341 - SEE - INFO - Analyzed research-synthesizer: score=90, findings=2
+2026-03-13 16:43:14,353 - SEE - INFO - Analyzed sensory-input-layer: score=100, findings=0
+2026-03-13 16:43:14,368 - SEE - INFO - Analyzed skill-activation-manager: score=95, findings=1
+2026-03-13 16:43:14,380 - SEE - INFO - Analyzed skill-evolution-engine: score=90, findings=1
+2026-03-13 16:43:14,391 - SEE - INFO - Analyzed stealth-browser: score=80, findings=3
+2026-03-13 16:43:14,401 - SEE - INFO - Analyzed tool-orchestrator: score=95, findings=1
+2026-03-13 16:43:14,409 - SEE - INFO - Analyzed website-designer: score=90, findings=2
+2026-03-13 16:43:14,420 - SEE - INFO - Analyzed workspace-organizer: score=80, findings=3
+2026-03-13 16:43:14,421 - SEE - INFO - Analyzed 34 skills
+2026-03-13 16:43:14,422 - SEE - INFO - Detecting system gaps...
+2026-03-13 16:43:14,520 - SEE - INFO - Generating improvement proposals...
+2026-03-13 16:43:14,528 - SEE - INFO - Generated 1 proposals
+2026-03-13 17:51:37,809 - SEE - INFO - Starting skill analysis...
+2026-03-13 17:51:37,826 - SEE - INFO - Analyzed aloe: score=95, findings=1
+2026-03-13 17:51:37,845 - SEE - INFO - Analyzed archive: score=75, findings=4
+2026-03-13 17:51:37,857 - SEE - INFO - Analyzed autonomous-agent: score=95, findings=1
+2026-03-13 17:51:37,879 - SEE - INFO - Analyzed autonomous-code-architect: score=100, findings=0
+2026-03-13 17:51:37,894 - SEE - INFO - Analyzed autonomous-goal-generator: score=70, findings=4
+2026-03-13 17:51:37,906 - SEE - INFO - Analyzed autonomous-maintenance-repair: score=75, findings=4
+2026-03-13 17:51:37,921 - SEE - INFO - Analyzed autonomous-opportunity-engine: score=95, findings=1
+2026-03-13 17:51:37,932 - SEE - INFO - Analyzed autonomous-scheduler: score=80, findings=3
+2026-03-13 17:51:37,941 - SEE - INFO - Analyzed autonomous-tool-builder: score=85, findings=2
+2026-03-13 17:51:37,951 - SEE - INFO - Analyzed autonomous-trading-strategist: score=100, findings=0
+2026-03-13 17:51:37,965 - SEE - INFO - Analyzed autonomous-workflow-builder: score=95, findings=1
+2026-03-13 17:51:37,981 - SEE - INFO - Analyzed business-strategy-engine: score=75, findings=4
+2026-03-13 17:51:38,000 - SEE - INFO - Analyzed captcha-solver: score=80, findings=3
+2026-03-13 17:51:38,011 - SEE - INFO - Analyzed chart-analyzer: score=75, findings=4
+2026-03-13 17:51:38,019 - SEE - INFO - Analyzed code-evolution-tracker: score=85, findings=2
+2026-03-13 17:51:38,032 - SEE - INFO - Analyzed context-optimizer: score=80, findings=3
+2026-03-13 17:51:38,038 - SEE - INFO - Analyzed decision-log: score=95, findings=1
+2026-03-13 17:51:38,050 - SEE - INFO - Analyzed dist: score=75, findings=4
+2026-03-13 17:51:38,065 - SEE - INFO - Analyzed event-bus: score=70, findings=4
+2026-03-13 17:51:38,082 - SEE - INFO - Analyzed income-stream-expansion-engine: score=70, findings=4
+2026-03-13 17:51:38,093 - SEE - INFO - Analyzed integration-orchestrator: score=95, findings=1
+2026-03-13 17:51:38,102 - SEE - INFO - Analyzed knowledge-graph-engine: score=95, findings=1
+2026-03-13 17:51:38,113 - SEE - INFO - Analyzed kpi-performance-tracker: score=90, findings=1
+2026-03-13 17:51:38,122 - SEE - INFO - Analyzed long-term-project-manager: score=95, findings=1
+2026-03-13 17:51:38,131 - SEE - INFO - Analyzed memory-manager: score=90, findings=2
+2026-03-13 17:51:38,146 - SEE - INFO - Analyzed multi-agent-coordinator: score=85, findings=2
+2026-03-13 17:51:38,154 - SEE - INFO - Analyzed research-synthesizer: score=90, findings=2
+2026-03-13 17:51:38,164 - SEE - INFO - Analyzed sensory-input-layer: score=100, findings=0
+2026-03-13 17:51:38,178 - SEE - INFO - Analyzed skill-activation-manager: score=95, findings=1
+2026-03-13 17:51:38,191 - SEE - INFO - Analyzed skill-evolution-engine: score=90, findings=1
+2026-03-13 17:51:38,205 - SEE - INFO - Analyzed stealth-browser: score=80, findings=3
+2026-03-13 17:51:38,217 - SEE - INFO - Analyzed tool-orchestrator: score=95, findings=1
+2026-03-13 17:51:38,228 - SEE - INFO - Analyzed website-designer: score=90, findings=2
+2026-03-13 17:51:38,243 - SEE - INFO - Analyzed workspace-organizer: score=80, findings=3
+2026-03-13 17:51:38,245 - SEE - INFO - Analyzed 34 skills
+2026-03-13 17:51:38,246 - SEE - INFO - Detecting system gaps...
+2026-03-13 17:51:38,341 - SEE - INFO - Generating improvement proposals...
+2026-03-13 17:51:38,349 - SEE - INFO - Generated 1 proposals
+2026-03-23 14:04:46,644 - root - WARNING - Could not import SEE: cannot import name 'SEEAuditor' from 'see_auditor' (/home/skux/.openclaw/workspace/skills/skill-evolution-engine/see_auditor.py)
+2026-03-23 14:05:07,950 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:07,960 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:07,962 - Omnibot.PlatformScanners - INFO - Updated preferences: dict_keys(['skills', 'min_hourly_rate', 'excluded_keywords'])
+2026-03-23 14:05:07,963 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:07,965 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:07,968 - Omnibot.ProposalGenerator - INFO - Generating proposal for Python Backend Developer
+2026-03-23 14:05:07,968 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:07,974 - Omnibot.ProposalGenerator - INFO - Generating proposal for Web Developer
+2026-03-23 14:05:07,974 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:07,976 - Omnibot.ProposalGenerator - INFO - Proposal prop_1774235107.974537 queued for review
+2026-03-23 14:05:07,977 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:05:07,977 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:07,978 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:05:07,980 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:05:07,988 - Omnibot.PlatformScanners - INFO - Found 2 opportunities
+2026-03-23 14:05:08,006 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:08,010 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:08,010 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_execution_001 for TestClient
+2026-03-23 14:05:08,013 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_execution_001
+2026-03-23 14:05:08,014 - Omnibot.RequirementsParser - INFO - Parsing requirements for project: Test Project
+2026-03-23 14:05:08,021 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_001 for TestClient
+2026-03-23 14:05:08,025 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_001
+2026-03-23 14:05:08,028 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_001: design
+2026-03-23 14:05:08,028 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_resolve_001 for TestClient
+2026-03-23 14:05:08,031 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_resolve_001
+2026-03-23 14:05:08,040 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_resolve_001: design
+2026-03-23 14:05:08,041 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint design approved for test_resolve_001
+2026-03-23 14:05:08,042 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_feedback_001 for TestClient
+2026-03-23 14:05:08,045 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_feedback_001
+2026-03-23 14:05:08,053 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:08,055 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:08,057 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_phase_001 for TestClient
+2026-03-23 14:05:08,060 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_phase_001
+2026-03-23 14:05:08,068 - Omnibot.JobExecutionOrchestrator - INFO - Executing phase research for test_phase_001
+2026-03-23 14:05:08,069 - Omnibot.JobExecutionOrchestrator - INFO - Researching best practices...
+2026-03-23 14:05:08,080 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_detect_001 for TestClient
+2026-03-23 14:05:08,084 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_detect_001
+2026-03-23 14:05:08,092 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_detect_001: design
+2026-03-23 14:05:08,093 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_status_001 for TestClient
+2026-03-23 14:05:08,096 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_status_001
+2026-03-23 14:05:08,104 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_001 for TestClient
+2026-03-23 14:05:08,110 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_001
+2026-03-23 14:05:08,117 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_real_001 for TestClient
+2026-03-23 14:05:08,121 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_real_001
+2026-03-23 14:05:08,132 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:12,854 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:12,855 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:12,856 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:12,856 - Omnibot.PlatformScanners - INFO - Updated preferences: dict_keys(['skills', 'min_hourly_rate', 'excluded_keywords'])
+2026-03-23 14:05:12,857 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:12,858 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:12,860 - Omnibot.ProposalGenerator - INFO - Generating proposal for Python Backend Developer
+2026-03-23 14:05:12,860 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:12,862 - Omnibot.ProposalGenerator - INFO - Generating proposal for Web Developer
+2026-03-23 14:05:12,862 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:12,870 - Omnibot.ProposalGenerator - INFO - Proposal prop_1774235112.862439 queued for review
+2026-03-23 14:05:12,871 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:05:12,871 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:12,872 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:05:12,873 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:05:12,874 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:05:12,878 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:12,879 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:12,879 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_execution_001 for TestClient
+2026-03-23 14:05:12,881 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_execution_001
+2026-03-23 14:05:12,883 - Omnibot.RequirementsParser - INFO - Parsing requirements for project: Test Project
+2026-03-23 14:05:12,891 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_001 for TestClient
+2026-03-23 14:05:12,893 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_001
+2026-03-23 14:05:12,896 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_001: design
+2026-03-23 14:05:12,896 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_resolve_001 for TestClient
+2026-03-23 14:05:12,898 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_resolve_001
+2026-03-23 14:05:12,914 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_resolve_001: design
+2026-03-23 14:05:12,916 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint design approved for test_resolve_001
+2026-03-23 14:05:12,917 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_feedback_001 for TestClient
+2026-03-23 14:05:12,918 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_feedback_001
+2026-03-23 14:05:12,926 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:12,927 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:12,930 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_phase_001 for TestClient
+2026-03-23 14:05:12,937 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_phase_001
+2026-03-23 14:05:12,939 - Omnibot.JobExecutionOrchestrator - INFO - Executing phase research for test_phase_001
+2026-03-23 14:05:12,939 - Omnibot.JobExecutionOrchestrator - INFO - Researching best practices...
+2026-03-23 14:05:12,947 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_detect_001 for TestClient
+2026-03-23 14:05:12,949 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_detect_001
+2026-03-23 14:05:12,966 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_detect_001: design
+2026-03-23 14:05:12,967 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_status_001 for TestClient
+2026-03-23 14:05:12,969 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_status_001
+2026-03-23 14:05:12,977 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_001 for TestClient
+2026-03-23 14:05:12,984 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_001
+2026-03-23 14:05:12,987 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_real_001 for TestClient
+2026-03-23 14:05:12,994 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_real_001
+2026-03-23 14:05:13,006 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:13,017 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:13,017 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:13,018 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:13,019 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:13,020 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:13,020 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:05:13,020 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:13,021 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:05:13,022 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:05:13,023 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:05:13,024 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:13,024 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:13,025 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:13,026 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:13,026 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:13,027 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_integration for Test
+2026-03-23 14:05:13,037 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_integration
+2026-03-23 14:05:13,039 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:47,818 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:47,818 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:47,819 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:47,820 - Omnibot.PlatformScanners - INFO - Updated preferences: dict_keys(['skills', 'min_hourly_rate', 'excluded_keywords'])
+2026-03-23 14:05:47,821 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:47,823 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:47,824 - Omnibot.ProposalGenerator - INFO - Generating proposal for Python Backend Developer
+2026-03-23 14:05:47,824 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:47,826 - Omnibot.ProposalGenerator - INFO - Generating proposal for Web Developer
+2026-03-23 14:05:47,826 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:05:47,832 - Omnibot.ProposalGenerator - INFO - Proposal prop_1774235147.826956 queued for review
+2026-03-23 14:05:47,833 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:05:47,833 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:47,834 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:05:47,842 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:05:47,843 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:05:47,847 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:47,847 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:47,847 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_execution_001 for TestClient
+2026-03-23 14:05:47,853 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_execution_001
+2026-03-23 14:05:47,856 - Omnibot.RequirementsParser - INFO - Parsing requirements for project: Test Project
+2026-03-23 14:05:47,863 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_001 for TestClient
+2026-03-23 14:05:47,865 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_001
+2026-03-23 14:05:47,869 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_001: design
+2026-03-23 14:05:47,869 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_resolve_001 for TestClient
+2026-03-23 14:05:47,877 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_resolve_001
+2026-03-23 14:05:47,886 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_resolve_001: design
+2026-03-23 14:05:47,888 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint design approved for test_resolve_001
+2026-03-23 14:05:47,889 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_feedback_001 for TestClient
+2026-03-23 14:05:47,896 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_feedback_001
+2026-03-23 14:05:47,898 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:47,900 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:05:47,908 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_phase_001 for TestClient
+2026-03-23 14:05:47,910 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_phase_001
+2026-03-23 14:05:47,917 - Omnibot.JobExecutionOrchestrator - INFO - Executing phase research for test_phase_001
+2026-03-23 14:05:47,917 - Omnibot.JobExecutionOrchestrator - INFO - Researching best practices...
+2026-03-23 14:05:47,920 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_detect_001 for TestClient
+2026-03-23 14:05:47,922 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_detect_001
+2026-03-23 14:05:47,931 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_detect_001: design
+2026-03-23 14:05:47,931 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_status_001 for TestClient
+2026-03-23 14:05:47,933 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_status_001
+2026-03-23 14:05:47,941 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_001 for TestClient
+2026-03-23 14:05:47,943 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_001
+2026-03-23 14:05:47,950 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_real_001 for TestClient
+2026-03-23 14:05:47,952 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_real_001
+2026-03-23 14:05:47,963 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:47,964 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:47,968 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:47,971 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:47,988 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:47,992 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:47,993 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,000 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,005 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,008 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,008 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,009 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,009 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,010 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,015 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,018 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,020 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,024 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,028 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,033 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,036 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,039 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,045 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,051 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,054 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,055 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,057 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,058 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,059 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,060 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,060 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,061 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,061 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,062 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,063 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,064 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,065 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,065 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,067 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,070 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,073 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,074 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,076 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,079 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,080 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,081 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,083 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,084 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,084 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,085 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,085 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,086 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,087 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,088 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,089 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,090 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,090 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,092 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,095 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,097 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,099 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,100 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,101 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,104 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,106 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,107 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,108 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,109 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,110 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,110 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,111 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,112 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,112 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,113 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,114 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,115 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,116 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,117 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,121 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,123 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,125 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,126 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,130 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:05:48,133 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,134 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,136 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,137 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,138 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,139 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,139 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,140 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,140 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,141 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,142 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,143 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,144 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,144 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,146 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,149 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,152 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,153 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,157 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,159 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,160 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,161 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,162 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,163 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,163 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,164 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:05:48,164 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,165 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,166 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,167 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,168 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,169 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,170 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,174 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,176 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,178 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:05:48,179 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:48,180 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:48,181 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:48,182 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:48,182 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:48,182 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:05:48,182 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:05:48,183 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:05:48,185 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:05:48,186 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:05:48,187 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:05:48,188 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:05:48,189 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:05:48,190 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:05:48,190 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:05:48,190 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_integration for Test
+2026-03-23 14:05:48,192 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_integration
+2026-03-23 14:05:48,197 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,745 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:05,746 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:05,747 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:05,748 - Omnibot.PlatformScanners - INFO - Updated preferences: dict_keys(['skills', 'min_hourly_rate', 'excluded_keywords'])
+2026-03-23 14:06:05,748 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:05,750 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:05,752 - Omnibot.ProposalGenerator - INFO - Generating proposal for Python Backend Developer
+2026-03-23 14:06:05,752 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:05,753 - Omnibot.ProposalGenerator - INFO - Generating proposal for Web Developer
+2026-03-23 14:06:05,754 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:05,762 - Omnibot.ProposalGenerator - INFO - Proposal prop_1774235165.754422 queued for review
+2026-03-23 14:06:05,763 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:06:05,763 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:05,763 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:06:05,764 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:06:05,765 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:06:05,769 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:05,770 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:05,770 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_execution_001 for TestClient
+2026-03-23 14:06:05,772 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_execution_001
+2026-03-23 14:06:05,775 - Omnibot.RequirementsParser - INFO - Parsing requirements for project: Test Project
+2026-03-23 14:06:05,782 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_001 for TestClient
+2026-03-23 14:06:05,784 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_001
+2026-03-23 14:06:05,788 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_001: design
+2026-03-23 14:06:05,788 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_resolve_001 for TestClient
+2026-03-23 14:06:05,797 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_resolve_001
+2026-03-23 14:06:05,807 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_resolve_001: design
+2026-03-23 14:06:05,809 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint design approved for test_resolve_001
+2026-03-23 14:06:05,809 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_feedback_001 for TestClient
+2026-03-23 14:06:05,812 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_feedback_001
+2026-03-23 14:06:05,819 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:06:05,826 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:06:05,828 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_phase_001 for TestClient
+2026-03-23 14:06:05,830 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_phase_001
+2026-03-23 14:06:05,837 - Omnibot.JobExecutionOrchestrator - INFO - Executing phase research for test_phase_001
+2026-03-23 14:06:05,837 - Omnibot.JobExecutionOrchestrator - INFO - Researching best practices...
+2026-03-23 14:06:05,839 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_detect_001 for TestClient
+2026-03-23 14:06:05,842 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_detect_001
+2026-03-23 14:06:05,850 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_detect_001: design
+2026-03-23 14:06:05,850 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_status_001 for TestClient
+2026-03-23 14:06:05,852 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_status_001
+2026-03-23 14:06:05,860 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_001 for TestClient
+2026-03-23 14:06:05,862 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_001
+2026-03-23 14:06:05,874 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_real_001 for TestClient
+2026-03-23 14:06:05,877 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_real_001
+2026-03-23 14:06:05,884 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,885 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,889 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,892 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,894 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,897 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,899 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,900 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,901 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,902 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,903 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,903 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,904 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,904 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,905 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,906 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,907 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,908 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,909 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,910 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,913 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,916 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,917 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,919 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,922 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,923 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,925 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,926 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,927 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,928 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,928 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,929 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,929 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,930 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,931 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,932 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,932 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,933 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,935 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,940 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,943 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,944 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,946 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,949 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,950 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,952 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,953 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,955 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,956 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,956 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,957 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,958 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,959 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,960 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,961 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,962 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,962 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,964 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,967 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,970 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,971 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,972 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,973 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:05,977 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,978 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,979 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,980 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,982 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,982 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,983 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,983 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:05,984 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,985 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,986 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,986 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,987 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,988 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,989 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,993 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,995 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,996 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:05,998 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:06,001 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:06,004 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,006 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,007 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,008 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,010 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,010 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,011 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,011 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,012 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,013 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,013 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,014 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,015 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,016 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,017 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,021 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,023 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,024 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,028 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,029 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,031 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,032 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,033 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,034 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,034 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,035 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:06,035 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,036 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,037 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,038 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,039 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,040 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,041 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,045 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,047 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,048 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:06,050 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:06,050 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:06,051 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:06,052 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:06,052 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:06,052 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:06:06,053 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:06,053 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:06:06,056 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:06:06,058 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:06:06,059 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:06,059 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:06,060 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:06,061 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:06,061 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:06,062 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_integration for Test
+2026-03-23 14:06:06,063 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_integration
+2026-03-23 14:06:06,068 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,689 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:20,689 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:20,691 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:20,691 - Omnibot.PlatformScanners - INFO - Updated preferences: dict_keys(['skills', 'min_hourly_rate', 'excluded_keywords'])
+2026-03-23 14:06:20,692 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:20,693 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:20,695 - Omnibot.ProposalGenerator - INFO - Generating proposal for Python Backend Developer
+2026-03-23 14:06:20,695 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:20,697 - Omnibot.ProposalGenerator - INFO - Generating proposal for Web Developer
+2026-03-23 14:06:20,698 - Omnibot.ClientResearcher - INFO - Researching client: TestCorp on upwork
+2026-03-23 14:06:20,706 - Omnibot.ProposalGenerator - INFO - Proposal prop_1774235180.698664 queued for review
+2026-03-23 14:06:20,706 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:06:20,706 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:20,707 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:06:20,715 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:06:20,716 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:06:20,718 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:20,718 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:20,719 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_execution_001 for TestClient
+2026-03-23 14:06:20,721 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_execution_001
+2026-03-23 14:06:20,727 - Omnibot.RequirementsParser - INFO - Parsing requirements for project: Test Project
+2026-03-23 14:06:20,735 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_001 for TestClient
+2026-03-23 14:06:20,737 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_001
+2026-03-23 14:06:20,746 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_001: design
+2026-03-23 14:06:20,747 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_resolve_001 for TestClient
+2026-03-23 14:06:20,749 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_resolve_001
+2026-03-23 14:06:20,758 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_resolve_001: design
+2026-03-23 14:06:20,767 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint design approved for test_resolve_001
+2026-03-23 14:06:20,768 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_feedback_001 for TestClient
+2026-03-23 14:06:20,775 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_feedback_001
+2026-03-23 14:06:20,777 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:06:20,785 - Omnibot.JobExecutionOrchestrator - INFO - Processing feedback for job test_feedback_001
+2026-03-23 14:06:20,793 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_phase_001 for TestClient
+2026-03-23 14:06:20,795 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_phase_001
+2026-03-23 14:06:20,803 - Omnibot.JobExecutionOrchestrator - INFO - Executing phase research for test_phase_001
+2026-03-23 14:06:20,803 - Omnibot.JobExecutionOrchestrator - INFO - Researching best practices...
+2026-03-23 14:06:20,806 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_detect_001 for TestClient
+2026-03-23 14:06:20,813 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_detect_001
+2026-03-23 14:06:20,822 - Omnibot.JobExecutionOrchestrator - INFO - Checkpoint created for test_checkpoint_detect_001: design
+2026-03-23 14:06:20,822 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_status_001 for TestClient
+2026-03-23 14:06:20,824 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_status_001
+2026-03-23 14:06:20,832 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_001 for TestClient
+2026-03-23 14:06:20,834 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_001
+2026-03-23 14:06:20,842 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_complete_real_001 for TestClient
+2026-03-23 14:06:20,844 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_complete_real_001
+2026-03-23 14:06:20,854 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,855 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,859 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,863 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,864 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,867 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,869 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,870 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,871 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,873 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,873 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,874 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,874 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,875 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,876 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,877 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,878 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,879 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,879 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,881 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,884 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,886 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,887 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,889 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,892 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,894 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,896 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,897 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,898 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,899 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,899 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,900 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,900 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,901 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,902 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,903 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,904 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,904 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,906 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,909 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,912 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,913 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,915 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,918 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,919 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,920 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,921 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,923 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,923 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,924 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,924 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,925 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,926 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,927 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,928 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,929 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,929 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,931 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,934 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,936 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,938 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,939 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,940 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,943 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,945 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,946 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,947 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,949 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,949 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,950 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,950 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,951 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,951 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,952 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,953 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,954 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,955 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,956 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,960 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,962 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,963 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,965 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,969 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:20,972 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,973 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,974 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,975 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,977 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,978 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,978 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,979 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:20,979 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,980 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,981 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,982 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,983 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,983 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,985 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,988 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,991 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,992 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,996 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,997 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:20,999 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,000 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,001 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:21,002 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:21,002 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:21,003 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:21,003 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,004 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,005 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,006 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,007 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,007 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,009 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,012 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,015 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,016 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:21,017 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:21,018 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:21,019 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:21,020 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:21,020 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:21,020 - Omnibot.PlatformScanners - INFO - Scanning all platforms...
+2026-03-23 14:06:21,020 - Omnibot.PlatformScanners - INFO - Scanning Upwork...
+2026-03-23 14:06:21,021 - Omnibot.PlatformScanners - INFO - Scanning LinkedIn...
+2026-03-23 14:06:21,024 - Omnibot.PlatformScanners - INFO - Scanning AngelList...
+2026-03-23 14:06:21,026 - Omnibot.PlatformScanners - INFO - Found 0 opportunities
+2026-03-23 14:06:21,027 - Omnibot.PlatformScanners - INFO - Loaded 2 previous jobs
+2026-03-23 14:06:21,028 - Omnibot.PlatformScanners - INFO - PlatformScanners initialized
+2026-03-23 14:06:21,029 - Omnibot.ClientResearcher - INFO - ClientResearcher initialized
+2026-03-23 14:06:21,030 - Omnibot.JobExecutionOrchestrator - INFO - JobExecutionOrchestrator initialized
+2026-03-23 14:06:21,030 - Omnibot.RequirementsParser - INFO - RequirementsParser initialized
+2026-03-23 14:06:21,030 - Omnibot.JobExecutionOrchestrator - INFO - Starting job test_checkpoint_integration for Test
+2026-03-23 14:06:21,032 - Omnibot.JobExecutionOrchestrator - INFO - Parsing requirements for test_checkpoint_integration
+2026-03-23 14:06:21,035 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:59,836 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:06:59,840 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,842 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,843 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,844 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,846 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,846 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,847 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,847 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,848 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,849 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,850 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,851 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,852 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,852 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,854 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,858 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,861 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,862 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,866 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,868 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,869 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,870 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,871 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,872 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,872 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,873 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,873 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,874 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,875 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,876 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,877 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,878 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,879 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,883 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,887 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,888 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,891 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,893 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,894 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,895 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,897 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,898 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,898 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,899 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,899 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,900 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,901 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,902 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,903 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,904 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,905 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,909 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,912 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,913 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,918 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,919 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,920 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,921 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,923 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,923 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,924 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,924 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:06:59,925 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,926 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,927 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,928 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,928 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,929 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,931 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,935 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,938 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:06:59,939 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,427 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:18:30,433 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,448 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,456 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,460 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,474 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,474 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,475 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,475 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,476 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,479 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,484 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,488 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,490 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,494 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,496 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,507 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,514 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,518 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,527 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,528 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,530 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,531 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,533 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,533 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,534 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,534 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,537 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,538 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,539 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,540 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,541 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,542 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,543 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,547 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,551 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,552 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,558 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,559 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,561 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,562 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,563 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,564 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,564 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,565 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,565 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,566 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,567 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,568 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,570 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,572 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,573 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,577 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,580 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,581 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,585 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,588 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,590 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,591 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,593 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,594 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,594 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,595 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:30,596 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,597 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,598 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,598 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,599 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,600 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,602 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,607 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,610 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:30,611 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,597 - Omnibot.SkillEvolutionBridge - INFO - SEE integration active
+2026-03-23 14:18:35,601 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,603 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,605 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,607 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,608 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,609 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,609 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,610 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,610 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,611 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,612 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,613 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,614 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,615 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,616 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,620 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,624 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,625 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,629 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,631 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,632 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,633 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,634 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,635 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,635 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,636 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,637 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,638 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,639 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,640 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,641 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,642 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,643 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,647 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,650 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,651 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,656 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,658 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,659 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,660 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,661 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,662 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,662 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,663 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,663 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,665 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,666 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,667 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,667 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,668 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,671 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,676 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,679 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,680 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,684 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,686 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,688 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,690 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,691 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,692 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,692 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,693 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_calculate_health_score'
+2026-03-23 14:18:35,693 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,694 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,695 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,696 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,696 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,697 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,699 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,705 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,708 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'
+2026-03-23 14:18:35,709 - Omnibot.SkillEvolutionBridge - ERROR - SEE analysis failed: 'SkillAuditor' object has no attribute '_quick_scan_file'

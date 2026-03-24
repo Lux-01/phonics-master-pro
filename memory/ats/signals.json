@@ -1,0 +1,16 @@
+[
+  {
+    "token": "SOL",
+    "type": "buy",
+    "confidence": 0.64,
+    "rationale": "Strategy: mean_reversion. Market: sideways",
+    "timestamp": "2026-03-09T04:20:34.880326",
+    "strategy": "mean_reversion",
+    "exit_targets": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "stop_loss": -0.07
+  }
+]

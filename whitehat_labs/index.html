@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteHat Labs | Ethical Hacking Community & Challenges</title>
+    <meta name="description" content="Join the premier ethical hacking community. Share knowledge, solve CTF challenges, learn cybersecurity, and connect with security professionals worldwide.">
+    <meta property="og:title" content="WhiteHat Labs | Ethical Hacking Community">
+    <meta property="og:description" content="Learn, share, and grow with the world's best ethical hackers.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ETHICAL HACKING COMMUNITY - CYBERPUNK DARK THEME */
+        :root {
+            --primary: #0a0a0f;
+            --primary-light: #12121a;
+            --secondary: #1a1a2e;
+            --accent: #00ff88;
+            --accent-glow: rgba(0,255,136,0.3);
+            --accent-secondary: #00d4ff;
+            --text: #e0e0e0;
+            --text-muted: #888888;
+            --text-dim: #555555;
+            --white: #ffffff;
+            --danger: #ff3366;
+            --warning: #ffaa00;
+            --success: #00ff88;
+            --shadow: rgba(0,0,0,0.5);
+            --glass: rgba(18,18,26,0.95);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body { 
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6; 
+            color: var(--text);
+            background: var(--primary);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 20px var(--accent-glow); }
+            50% { box-shadow: 0 0 40px var(--accent-glow), 0 0 60px var(--accent-glow); }
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+
+        @keyframes scanline {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100vh); }
+        }
+
+        @keyframes matrix {
+            0% { opacity: 0; transform: translateY(-20px); }
+            50% { opacity: 1; }
+            100% { opacity: 0; transform: translateY(20px); }
+        }
+
+        /* GLASSMORPHISM HEADER */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.4s ease;
+            padding: 1.2rem 0;
+            border-bottom: 1px solid rgba(0,255,136,0.1);
+        }
+
+        header.scrolled {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 4px 30px var(--shadow);
+            padding: 0.8rem 0;
+        }
+
+        header.hidden { transform: translateY(-100%); }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .logo::before {
+            content: "◈";
+            color: var(--accent);
+            animation: pulse 2s infinite;
+        }
+
+        .logo:hover { text-shadow: 0 0 20px var(--accent-glow); }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .nav-links a { 
+            color: var(--text); 
+            text-decoration: none; 
+            font-weight: 500;
+            font-size: 0.9rem;
+            position: relative;
+            transition: color 0.3s;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s;
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        .nav-links a:hover { color: var(--accent); }
+        .nav-links a:hover::after { width: 100%; }
+
+        .nav-cta {
+            background: transparent;
+            color: var(--accent);
+            padding: 0.8rem 1.5rem;
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            font-weight: 600;
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-cta:hover {
+            background: var(--accent);
+            color: var(--primary);
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: 
+                radial-gradient(ellipse at top, rgba(0,212,255,0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom, rgba(0,255,136,0.05) 0%, transparent 50%),
+                var(--primary);
+            position: relative;
+            overflow: hidden;
+            padding: 120px 2rem 80px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(0,255,136,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0,255,136,0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+        }
+
+        .hero-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content { animation: fadeInUp 1s ease forwards; }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(0,255,136,0.1);
+            border: 1px solid rgba(0,255,136,0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 500;
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-badge::before {
+            content: "●";
+            color: var(--accent);
+            animation: pulse 1.5s infinite;
+        }
+
+        .hero h1 { 
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--white);
+            line-height: 1.1;
+        }
+
+        .hero h1 .accent { color: var(--accent); }
+        .hero h1 .accent-secondary { color: var(--accent-secondary); }
+
+        .typing-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-secondary);
+            margin-bottom: 2rem;
+            border-right: 2px solid var(--accent);
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(40) forwards, blink 0.75s step-end infinite;
+            width: 0;
+        }
+
+        .hero p { 
+            font-size: 1.1rem; 
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            font-family: 'JetBrains Mono', monospace;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px var(--accent-glow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--accent);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid var(--accent);
+            transition: all 0.3s;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(0,255,136,0.1);
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        /* HERO VISUAL - TERMINAL */
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .terminal {
+            background: var(--secondary);
+            border: 1px solid rgba(0,255,136,0.2);
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 40px rgba(0,255,136,0.1);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .terminal-header {
+            background: var(--primary-light);
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border-bottom: 1px solid rgba(0,255,136,0.1);
+        }
+
+        .terminal-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .terminal-dot.red { background: var(--danger); }
+        .terminal-dot.yellow { background: var(--warning); }
+        .terminal-dot.green { background: var(--success); }
+
+        .terminal-title {
+            margin-left: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .terminal-body {
+            padding: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.8;
+        }
+
+        .terminal-line { margin-bottom: 0.5rem; }
+        .terminal-prompt { color: var(--accent); }
+        .terminal-command { color: var(--white); }
+        .terminal-output { color: var(--text-muted); }
+        .terminal-success { color: var(--success); }
+        .terminal-error { color: var(--danger); }
+
+        /* STATS BAR */
+        .stats-bar {
+            background: var(--primary-light);
+            border-top: 1px solid rgba(0,255,136,0.1);
+            border-bottom: 1px solid rgba(0,255,136,0.1);
+            padding: 2rem 0;
+        }
+
+        .stats-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* SECTIONS */
+        section { padding: 100px 2rem; }
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-label {
+            display: inline-block;
+            background: rgba(0,255,136,0.1);
+            border: 1px solid rgba(0,255,136,0.3);
+            color: var(--accent);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* FEATURES */
+        .features { background: var(--primary); }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--primary-light);
+            border: 1px solid rgba(0,255,136,0.1);
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(0,255,136,0.3);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3), 0 0 30px rgba(0,255,136,0.1);
+        }
+
+        .feature-card:hover::before { transform: scaleX(1); }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(0,255,136,0.1);
+            border: 1px solid rgba(0,255,136,0.2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover .feature-icon {
+            background: rgba(0,255,136,0.2);
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* CHALLENGES */
+        .challenges { background: var(--primary-light); }
+
+        .challenges-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .challenge-card {
+            background: var(--secondary);
+            border: 1px solid rgba(0,255,136,0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .challenge-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
+        .challenge-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .challenge-difficulty {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .difficulty-easy { background: rgba(0,255,136,0.2); color: var(--success); }
+        .difficulty-medium { background: rgba(255,170,0,0.2); color: var(--warning); }
+        .difficulty-hard { background: rgba(255,51,102,0.2); color: var(--danger); }
+
+        .challenge-points {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .challenge-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--white);
+        }
+
+        .challenge-card p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .challenge-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* LEADERBOARD */
+        .leaderboard { background: var(--primary); }
+
+        .leaderboard-container {
+            background: var(--primary-light);
+            border: 1px solid rgba(0,255,136,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .leaderboard-header {
+            background: var(--secondary);
+            padding: 1rem 1.5rem;
+            display: grid;
+            grid-template-columns: 60px 1fr 100px 100px;
+            gap: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .leaderboard-row {
+            padding: 1rem 1.5rem;
+            display: grid;
+            grid-template-columns: 60px 1fr 100px 100px;
+            gap: 1rem;
+            align-items: center;
+            border-bottom: 1px solid rgba(0,255,136,0.05);
+            transition: background 0.3s;
+        }
+
+        .leaderboard-row:hover { background: rgba(0,255,136,0.05); }
+        .leaderboard-row:last-child { border-bottom: none; }
+
+        .rank {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .rank-1 { color: #FFD700; }
+        .rank-2 { color: #C0C0C0; }
+        .rank-3 { color: #CD7F32; }
+        .rank-other { color: var(--text-muted); }
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .user-name {
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .user-level {
+            font-size: 0.75rem;
+            color: var(--accent);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .score {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .solved {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+        }
+
+        /* RESOURCES */
+        .resources { background: var(--primary-light); }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .resource-category {
+            background: var(--secondary);
+            border: 1px solid rgba(0,255,136,0.1);
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        .resource-category h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .resource-list { list-style: none; }
+
+        .resource-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(0,255,136,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .resource-list li:last-child { border-bottom: none; }
+
+        .resource-list a {
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: color 0.3s;
+        }
+
+        .resource-list a:hover { color: var(--accent); }
+
+        .resource-tag {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .tag-new { background: rgba(0,255,136,0.2); color: var(--success); }
+        .tag-popular { background: rgba(0,212,255,0.2); color: var(--accent-secondary); }
+
+        /* COMMUNITY */
+        .community { background: var(--primary); }
+
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .community-card {
+            background: var(--primary-light);
+            border: 1px solid rgba(0,255,136,0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.4s;
+        }
+
+        .community-card:hover {
+            border-color: rgba(0,255,136,0.3);
+            transform: translateY(-5px);
+        }
+
+        .community-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .community-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            color: var(--white);
+        }
+
+        .community-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .community-stats {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 0.9rem;
+        }
+
+        /* CTA SECTION */
+        .cta-section {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary-light) 100%);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0,255,136,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0,212,255,0.1) 0%, transparent 50%);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-section h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .cta-section p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #050508;
+            border-top: 1px solid rgba(0,255,136,0.1);
+            padding: 4rem 2rem 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto 3rem;
+        }
+
+        .footer-brand .logo { margin-bottom: 1rem; display: inline-block; }
+        .footer-brand p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(0,255,136,0.1);
+            border: 1px solid rgba(0,255,136,0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        .footer-column h4 {
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-column ul { list-style: none; }
+        .footer-column li { margin-bottom: 0.75rem; }
+
+        .footer-column a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .footer-column a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(0,255,136,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-bottom p {
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* ANIMATE ON SCROLL */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* LOADING */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+
+        .loading.hidden { opacity: 0; visibility: hidden; }
+
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(0,255,136,0.2);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* MOBILE */
+        @media (max-width: 1024px) {
+            .hero-container { grid-template-columns: 1fr; text-align: center; }
+            .hero-content { order: 2; }
+            .hero-visual { order: 1; }
+            .hero h1 { font-size: 3rem; }
+            .typing-text { margin: 0 auto 2rem; }
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .challenges-grid { grid-template-columns: repeat(2, 1fr); }
+            .resources-grid { grid-template-columns: 1fr; }
+            .community-grid { grid-template-columns: 1fr; }
+            .stats-container { grid-template-columns: repeat(2, 1fr); }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2.5rem; }
+            .section-title { font-size: 2rem; }
+            .features-grid,
+            .challenges-grid { grid-template-columns: 1fr; }
+            .leaderboard-header,
+            .leaderboard-row { grid-template-columns: 40px 1fr 80px; }
+            .leaderboard-header span:nth-child(4),
+            .leaderboard-row .solved { display: none; }
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+            .social-links { justify-content: center; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            section { padding: 60px 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading -->
+    <div class="loading" id="loading"><div class="loader"></div></div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">WhiteHat Labs</a>
+            <ul class="nav-links">
+                <li><a href="#challenges">Challenges</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <a href="#" class="nav-cta">> Join Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Community Online</div>
+                <h1>Master the Art of <span class="accent">Ethical</span> <span class="accent-secondary">Hacking</span></h1>
+                <div class="typing-text">Learn. Hack. Secure. Repeat.</div>
+                <p>Join 15,000+ security professionals, bug bounty hunters, and ethical hackers. Solve CTF challenges, share knowledge, and level up your skills.</p>
+                <div class="hero-buttons">
+                    <a href="#challenges" class="btn-primary">> Start Hacking</a>
+                    <a href="#community" class="btn-secondary"># Join Discord</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dot red"></div>
+                        <div class="terminal-dot yellow"></div>
+                        <div class="terminal-dot green"></div>
+                        <span class="terminal-title">whitehat@labs:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-command">whoami</span></div>
+                        <div class="terminal-line terminal-output">ethical_hacker</div>
+                        <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-command">./init_challenge.sh</span></div>
+                        <div class="terminal-line terminal-success">[+] Loading environment...</div>
+                        <div class="terminal-line terminal-success">[+] Challenge: Web Exploitation 101</div>
+                        <div class="terminal-line terminal-success">[+] Difficulty: Medium</div>
+                        <div class="terminal-line terminal-success">[+] Points: 500</div>
+                        <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-command"></span><span class="terminal-output">_</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number">15,420</div>
+                <div class="stat-label">Members</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">847</div>
+                <div class="stat-label">Challenges</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2.4M</div>
+                <div class="stat-label">Flags Captured</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Platform Features</span>
+                <h2 class="section-title">Everything You Need</h2>
+                <p class="section-subtitle">A complete ecosystem for ethical hackers to learn, practice, and grow</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🎯</div>
+                    <h3>CTF Challenges</h3>
+                    <p>Hundreds of hands-on challenges across Web, Crypto, Forensics, Pwn, and Reversing. From beginner to advanced.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Global Leaderboard</h3>
+                    <p>Compete with hackers worldwide. Earn points, badges, and climb the ranks. Monthly prizes for top performers.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">📚</div>
+                    <h3>Learning Paths</h3>
+                    <p>Structured courses from OWASP Top 10 to Advanced Exploitation. Track your progress and earn certificates.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">💬</div>
+                    <h3>Active Forums</h3>
+                    <p>Discuss techniques, share writeups, ask questions. Our community of experts is here to help you grow.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Labs & Sandboxes</h3>
+                    <p>Practice in safe, isolated environments. Spin up vulnerable machines and test your skills without risk.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">💼</div>
+                    <h3>Career Support</h3>
+                    <p>Job board, resume reviews, interview prep. Connect with companies hiring security professionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges -->
+    <section class="challenges" id="challenges">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Live Challenges</span>
+                <h2 class="section-title">Featured CTFs</h2>
+                <p class="section-subtitle">Test your skills with our latest challenges. New ones added weekly.</p>
+            </div>
+            
+            <div class="challenges-grid">
+                <div class="challenge-card animate-on-scroll">
+                    <div class="challenge-header">
+                        <span class="challenge-difficulty difficulty-easy">EASY</span>
+                        <span class="challenge-points">+250 pts</span>
+                    </div>
+                    <h3>SQL Injection 101</h3>
+                    <p>Learn the basics of SQL injection vulnerabilities</p>
+                    <div class="challenge-meta">
+                        <span>👤 1,234 attempts</span>
+                        <span>✅ 892 solves</span>
+                    </div>
+                </div>
+                
+                <div class="challenge-card animate-on-scroll">
+                    <div class="challenge-header">
+                        <span class="challenge-difficulty difficulty-medium">MEDIUM</span>
+                        <span class="challenge-points">+500 pts</span>
+                    </div>
+                    <h3>XSS Masterclass</h3>
+                    <p>Advanced cross-site scripting techniques</p>
+                    <div class="challenge-meta">
+                        <span>👤 892 attempts</span>
+                        <span>✅ 456 solves</span>
+                    </div>
+                </div>
+                
+                <div class="challenge-card animate-on-scroll">
+                    <div class="challenge-header">
+                        <span class="challenge-difficulty difficulty-hard">HARD</span>
+                        <span class="challenge-points">+1000 pts</span>
+                    </div>
+                    <h3>Buffer Overflow</h3>
+                    <p>Exploit memory corruption vulnerabilities</p>
+                    <div class="challenge-meta">
+                        <span>👤 567 attempts</span>
+                        <span>✅ 123 solves</span>
+                    </div>
+                </div>
+                
+                <div class="challenge-card animate-on-scroll">
+                    <div class="challenge-header">
+                        <span class="challenge-difficulty difficulty-medium">MEDIUM</span>
+                        <span class="challenge-points">+750 pts</span>
+                    </div>
+                    <h3>JWT Forensics</h3>
+                    <p>Analyze and exploit JSON Web Tokens</p>
+                    <div class="challenge-meta">
+                        <span>👤 723 attempts</span>
+                        <span>✅ 389 solves</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="leaderboard" id="leaderboard">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Top Hackers</span>
+                <h2 class="section-title">Global Leaderboard</h2>
+                <p class="section-subtitle">The best of the best. Can you make it to the top?</p>
+            </div>
+            
+            <div class="leaderboard-container animate-on-scroll">
+                <div class="leaderboard-header">
+                    <span>Rank</span>
+                    <span>Hacker</span>
+                    <span>Score</span>
+                    <span>Solved</span>
+                </div>
+                
+                <div class="leaderboard-row">
+                    <span class="rank rank-1">#1</span>
+                    <div class="user">
+                        <div class="user-avatar">0x</div>
+                        <div>
+                            <div class="user-name">0xPhantom</div>
+                            <div class="user-level">Elite Hacker</div>
+                        </div>
+                    </div>
+                    <span class="score">125,420</span>
+                    <span class="solved">642/847</span>
+                </div>
+                
+                <div class="leaderboard-row">
+                    <span class="rank rank-2">#2</span>
+                    <div class="user">
+                        <div class="user-avatar">NF</div>
+                        <div>
+                            <div class="user-name">NightFury</div>
+                            <div class="user-level">Pro Hacker</div>
+                        </div>
+                    </div>
+                    <span class="score">118,890</span>
+                    <span class="solved">601/847</span>
+                </div>
+                
+                <div class="leaderboard-row">
+                    <span class="rank rank-3">#3</span>
+                    <div class="user">
+                        <div class="user-avatar">CS</div>
+                        <div>
+                            <div class="user-name">CyberSamurai</div>
+                            <div class="user-level">Pro Hacker</div>
+                        </div>
+                    </div>
+                    <span class="score">112,340</span>
+                    <span class="solved">578/847</span>
+                </div>
+                
+                <div class="leaderboard-row">
+                    <span class="rank rank-other">#4</span>
+                    <div class="user">
+                        <div class="user-avatar">RH</div>
+                        <div>
+                            <div class="user-name">RedHat_99</div>
+                            <div class="user-level">Advanced</div>
+                        </div>
+                    </div>
+                    <span class="score">98,750</span>
+                    <span class="solved">512/847</span>
+                </div>
+                
+                <div class="leaderboard-row">
+                    <span class="rank rank-other">#5</span>
+                    <div class="user">
+                        <div class="user-avatar">BS</div>
+                        <div>
+                            <div class="user-name">ByteSlayer</div>
+                            <div class="user-level">Advanced</div>
+                        </div>
+                    </div>
+                    <span class="score">94,200</span>
+                    <span class="solved">489/847</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Knowledge Base</span>
+                <h2 class="section-title">Learning Resources</h2>
+                <p class="section-subtitle">Curated tools, tutorials, and references for every skill level</p>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-category animate-on-scroll">
+                    <h3>🛠️ Essential Tools</h3>
+                    <ul class="resource-list">
+                        <li>
+                            <a href="#"><span>🔍</span> Burp Suite Pro</a>
+                            <span class="resource-tag tag-popular">POPULAR</span>
+                        </li>
+                        <li>
+                            <a href="#"><span>🌐</span> Nmap Network Scanner</a>
+                            <span class="resource-tag tag-new">NEW</span>
+                        </li>
+                        <li>
+                            <a href="#"><span>🔓</span> Metasploit Framework</a>
+                        </li>
+                        <li>
+                            <a href="#"><span>📝</span> SQLmap Injection Tool</a>
+                        </li>
+                        <li>
+                            <a href="#"><span>⚡</span> Wireshark Analyzer</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category animate-on-scroll">
+                    <h3>📖 Learning Paths</h3>
+                    <ul class="resource-list">
+                        <li>
+                            <a href="#"><span>🌐</span> OWASP Top 10 Course</a>
+                            <span class="resource-tag tag-popular">POPULAR</span>
+                        </li>
+                        <li>
+                            <a href="#"><span>🔐</span> Cryptography Fundamentals</a>
+                        </li>
+                        <li>
+                            <a href="#"><span>💻</span> Reverse Engineering 101</a>
+                            <span class="resource-tag tag-new">NEW</span>
+                        </li>
+                        <li>
+                            <a href="#"><span>🎯</span> Bug Bounty Hunting</a>
+                        </li>
+                        <li>
+                            <a href="#"><span>☁️</span> Cloud Security Basics</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section class="community" id="community">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Join The Community</span>
+                <h2 class="section-title">Connect & Collaborate</h2>
+                <p class="section-subtitle">Be part of a global network of security enthusiasts</p>
+            </div>
+            
+            <div class="community-grid">
+                <div class="community-card animate-on-scroll">
+                    <div class="community-icon">💬</div>
+                    <h3>Discord Server</h3>
+                    <p>Real-time chat with 8,000+ members. Get help, share findings, and make friends.</p>
+                    <div class="community-stats">8,247 online now</div>
+                </div>
+                
+                <div class="community-card animate-on-scroll">
+                    <div class="community-icon">📝</div>
+                    <h3>Forums</h3>
+                    <p>In-depth discussions, writeups, and knowledge sharing. Searchable archive of solutions.</p>
+                    <div class="community-stats">45,000+ threads</div>
+                </div>
+                
+                <div class="community-card animate-on-scroll">
+                    <div class="community-icon">🎥</div>
+                    <h3>Live Events</h3>
+                    <p>Weekly workshops, CTF competitions, and guest talks from industry experts.</p>
+                    <div class="community-stats">Next: Tomorrow 8PM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <span class="section-label">Start Your Journey</span>
+                <h2>Ready to Become an Ethical Hacker?</h2>
+                <p>Join 15,000+ hackers learning, sharing, and growing together. Free to join, forever.</p>
+                <a href="#" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 3rem;">> Create Free Account</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">WhiteHat Labs</a>
+                <p>The premier community for ethical hackers, security researchers, and cybersecurity enthusiasts. Learn, hack, and secure the digital world.</p>
+                
+                <div class="social-links">
+                    <a href="#" title="GitHub">⚡</a>
+                    <a href="#" title="Twitter">🐦</a>
+                    <a href="#" title="Discord">💬</a>
+                    <a href="#" title="YouTube">▶️</a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="#">Challenges</a></li>
+                    <li><a href="#">Leaderboard</a></li>
+                    <li><a href="#">Learning Paths</a></li>
+                    <li><a href="#">Labs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Forums</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Code of Conduct</a></li>
+                    <li><a href="#">Responsible Disclosure</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 WhiteHat Labs. All rights reserved.</p>
+            <p>> Hack ethically. Stay curious. Never stop learning.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Loading
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 500);
+        });
+
+        // Sticky Header
+        let lastScroll = 0;
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 200) {
+                header.classList.add('hidden');
+            } else {
+                header.classList.remove('hidden');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Scroll Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

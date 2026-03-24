@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-09T09:17:24.466580",
+  "type": "skill_analyzed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "integration-orchestrator",
+    "health_score": 80,
+    "findings_count": 3
+  }
+}

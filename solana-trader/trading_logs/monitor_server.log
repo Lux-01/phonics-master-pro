@@ -1,0 +1,1448 @@
+
+╔═══════════════════════════════════════════════════════╗
+║     🤖 Swing Trader Monitor Server v2.3              ║
+╠═══════════════════════════════════════════════════════╣
+║  Status: 🔴 STOPPED                          ║
+║  URL: http://localhost:8080                      ║
+╚═══════════════════════════════════════════════════════╝
+
+Open your browser and navigate to: http://localhost:8080
+
+Press Ctrl+C to stop the server
+
+[Monitor] Starting bot...
+[Bot stdout]: 
+🚀 Swing Trader v2.3 Starting...
+
+[Bot stdout]:    Features: Break-even | Blacklist | Circuit Breaker
+   Entry Mode: 📉 DIP BUYING (buy low, sell high)
+   Trigger: Price down >= 8% from 6h ago
+   Max Dip: 15% (avoiding dead coins)
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:02:08
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:02:40
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:03:12
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:03:45
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:04:17
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:04:49
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:05:21
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:05:53
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:06:25
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:06:58
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:07:30
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:08:03
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:08:35
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:09:06
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:09:38
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:10:10
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:10:42
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:11:14
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:11:46
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:12:18
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:12:50
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:13:22
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:13:54
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:14:26
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:14:58
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:15:31
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:16:03
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:16:35
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:17:08
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:17:40
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:18:12
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:18:45
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:19:17
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:19:49
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:20:21
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:20:53
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:21:25
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:21:58
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:22:30
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:23:02
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:23:35
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:24:07
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:24:39
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:25:11
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:25:44
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:26:16
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:26:48
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:27:20
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:27:52
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:28:24
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:28:56
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:29:28
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:30:00
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:30:32
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:31:04
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:31:37
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:32:09
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:32:41
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:33:14
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:33:46
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:34:18
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:34:51
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:35:23
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:35:55
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:36:27
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:36:59
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:37:30
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:38:03
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:38:35
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:39:08
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:39:41
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:40:13
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:40:45
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:41:17
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:41:49
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:42:21
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:42:54
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:43:26
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:43:58
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:44:30
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:45:02
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:45:34
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:46:05
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:46:37
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:47:09
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:47:42
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:48:13
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:48:45
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:49:17
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:49:50
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:50:22
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:50:54
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:51:26
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:51:59
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:52:31
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:53:03
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:53:35
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:54:08
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:54:39
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:55:12
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:55:44
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:56:16
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:56:48
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:57:21
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:57:53
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:58:25
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:58:57
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 23:59:29
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 23/02/2026, 00:00:02
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 23/02/2026, 00:00:34
+   Mode: 🟢 24/7 Trading (no time restrictions)
+
+[Bot stdout]:    Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+
+[Monitor] Stopping bot...
+[Monitor] Starting bot...
+[Bot stdout]: 
+🚀 Swing Trader v2.3 Starting...
+   Features: Break-even | Blacklist | Circuit Breaker
+   Entry Mode: 🚀 BREAKOUT (buy high, sell higher)
+   Entry Mode: 🚀 BREAKOUT (buy high, sell higher)
+   Trigger: Price up >= 5% from 6h ago
+   Time Window: 🟢 24/7 Trading (no restrictions)
+
+
+[Monitor] Stopping bot...

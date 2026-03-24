@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-02-27T09:51:43.301Z",
+  "wallet": "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5",
+  "config": {
+    "numTrades": 5,
+    "positionSizeSol": 0.01,
+    "slippageBps": 100,
+    "minVolume24h": 10000,
+    "minMarketCap": 5000,
+    "maxMarketCap": 200000
+  },
+  "summary": {
+    "successful": 4,
+    "failed": 1
+  },
+  "trades": [
+    {
+      "status": "SUCCESS",
+      "tradeNum": 1,
+      "txSignature": "2wP4252RAmmSegucUQMU7TmW9BYCxxBwhkZcMHw8FE7a7f4LaP5pYRJLE5hTBkKMtcZzFLZfDGcg9oeZsqAw48CN",
+      "token": "UNKNOWN",
+      "tokenAddress": "GiFoBEGnHGXmJdpaNqjMHBkYP5QcyPYqutwREiec3RBi",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 90,
+      "slippage": "1%",
+      "solscanLink": "https://solscan.io/tx/2wP4252RAmmSegucUQMU7TmW9BYCxxBwhkZcMHw8FE7a7f4LaP5pYRJLE5hTBkKMtcZzFLZfDGcg9oeZsqAw48CN",
+      "timestamp": "2026-02-27T09:51:21.105Z"
+    },
+    {
+      "status": "FAILED",
+      "tradeNum": 2,
+      "error": "Request failed with status code 400",
+      "timestamp": "2026-02-27T09:51:26.595Z"
+    },
+    {
+      "status": "SUCCESS",
+      "tradeNum": 3,
+      "txSignature": "47dgkr4wF8XwP3V4nfuLbaSFFucqv7FiPNp9FL4tz25K5f3WVcrtwXtopy6J2FY4azHzXmykTviHkj8PE29dS2EG",
+      "token": "UNKNOWN",
+      "tokenAddress": "kjqPLo7Yez23kb9vAcoWqRG7hw6MeTNFAH5dtZQpump",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 80,
+      "slippage": "1%",
+      "solscanLink": "https://solscan.io/tx/47dgkr4wF8XwP3V4nfuLbaSFFucqv7FiPNp9FL4tz25K5f3WVcrtwXtopy6J2FY4azHzXmykTviHkj8PE29dS2EG",
+      "timestamp": "2026-02-27T09:51:29.273Z"
+    },
+    {
+      "status": "SUCCESS",
+      "tradeNum": 4,
+      "txSignature": "2pEawCLmvTyuyPtbjsXFnM5HgrqTjJjKJRHwzfwGYgbWqrQiK9FXxRA7cRAxygvLiJafAz2etP7BVWAYuScVvxEv",
+      "token": "UNKNOWN",
+      "tokenAddress": "2ieDnfWLzrat7zGFz4qFh5FMg75WkQrvmWaAHeSZoxHZ",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 80,
+      "slippage": "1%",
+      "solscanLink": "https://solscan.io/tx/2pEawCLmvTyuyPtbjsXFnM5HgrqTjJjKJRHwzfwGYgbWqrQiK9FXxRA7cRAxygvLiJafAz2etP7BVWAYuScVvxEv",
+      "timestamp": "2026-02-27T09:51:36.265Z"
+    },
+    {
+      "status": "SUCCESS",
+      "tradeNum": 5,
+      "txSignature": "2SCV3Xoruh29n9Z8bh4NY8em5QXRfBSrt69J4hTRLMtX7LH1Lb9ZWsUQ5dw4TXw8tPmsd9eLPUH2B2YPKYNJ9WSa",
+      "token": "UNKNOWN",
+      "tokenAddress": "8QHLfMj1a9e19Kt8g25NCr9ahWLLmFBw47tk9kscpump",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 80,
+      "slippage": "1%",
+      "solscanLink": "https://solscan.io/tx/2SCV3Xoruh29n9Z8bh4NY8em5QXRfBSrt69J4hTRLMtX7LH1Lb9ZWsUQ5dw4TXw8tPmsd9eLPUH2B2YPKYNJ9WSa",
+      "timestamp": "2026-02-27T09:51:43.300Z"
+    }
+  ]
+}

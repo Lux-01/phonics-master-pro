@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-13T17:51:37.841154",
+  "type": "audit_completed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "archive",
+    "audit_file": "/home/skux/.openclaw/workspace/memory/see/audit_history/archive_20260313_175137.md"
+  }
+}

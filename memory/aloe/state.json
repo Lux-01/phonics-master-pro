@@ -1,0 +1,464 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-03-08T17:32:51.646525",
+  "patterns": {
+    "pat_f745fa92": {
+      "id": "pat_f745fa92",
+      "type": "success",
+      "signature": "file=/tmp/test.txt|tool=read",
+      "description": "task succeeded: Test task execution",
+      "context_keys": [
+        "tool",
+        "file"
+      ],
+      "outcome_template": {
+        "success": true,
+        "key_metrics": [],
+        "common_tags": [
+          "test",
+          "file_operation"
+        ],
+        "context_structure": [
+          "tool",
+          "file"
+        ]
+      },
+      "occurrences": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "created_at": "2026-03-08T17:32:51.598362",
+      "last_seen": "2026-03-08T17:32:51.598400",
+      "confidence": 0.3,
+      "metadata": {
+        "source_tags": [
+          "test",
+          "file_operation"
+        ],
+        "context_summary": {
+          "tool": "read",
+          "file": "/tmp/test.txt"
+        }
+      }
+    },
+    "pat_58dd1651": {
+      "id": "pat_58dd1651",
+      "type": "success",
+      "signature": "endpoint=test|method=GET",
+      "description": "API succeeded: API call example",
+      "context_keys": [
+        "endpoint",
+        "method"
+      ],
+      "outcome_template": {
+        "success": true,
+        "key_metrics": [],
+        "common_tags": [],
+        "context_structure": [
+          "endpoint",
+          "method"
+        ]
+      },
+      "occurrences": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "created_at": "2026-03-08T17:32:51.601081",
+      "last_seen": "2026-03-08T17:32:51.601090",
+      "confidence": 0.3,
+      "metadata": {
+        "source_tags": [],
+        "context_summary": {
+          "endpoint": "test",
+          "method": "GET"
+        }
+      }
+    },
+    "pat_97a5c622": {
+      "id": "pat_97a5c622",
+      "type": "success",
+      "signature": "type=test",
+      "description": "task succeeded: Test task 0",
+      "context_keys": [
+        "type"
+      ],
+      "outcome_template": {
+        "success": true,
+        "key_metrics": [],
+        "common_tags": [],
+        "context_structure": [
+          "type"
+        ]
+      },
+      "occurrences": 5,
+      "success_count": 5,
+      "failure_count": 0,
+      "created_at": "2026-03-08T17:32:51.607397",
+      "last_seen": "2026-03-08T17:32:51.619761",
+      "confidence": 0.706,
+      "metadata": {
+        "source_tags": [],
+        "context_summary": {
+          "type": "test"
+        }
+      }
+    },
+    "pat_1272fe4b": {
+      "id": "pat_1272fe4b",
+      "type": "success",
+      "signature": "action=price|service=birdeye",
+      "description": "API succeeded: API request",
+      "context_keys": [
+        "service",
+        "action"
+      ],
+      "outcome_template": {
+        "success": true,
+        "key_metrics": [],
+        "common_tags": [],
+        "context_structure": [
+          "service",
+          "action"
+        ]
+      },
+      "occurrences": 3,
+      "success_count": 3,
+      "failure_count": 0,
+      "created_at": "2026-03-08T17:32:51.624806",
+      "last_seen": "2026-03-08T17:32:51.632779",
+      "confidence": 0.7,
+      "metadata": {
+        "source_tags": [],
+        "context_summary": {
+          "service": "birdeye",
+          "action": "price"
+        }
+      }
+    },
+    "pat_415193c2": {
+      "id": "pat_415193c2",
+      "type": "success",
+      "signature": "persist=True",
+      "description": "task succeeded: Persistence test",
+      "context_keys": [
+        "persist"
+      ],
+      "outcome_template": {
+        "success": true,
+        "key_metrics": [],
+        "common_tags": [],
+        "context_structure": [
+          "persist"
+        ]
+      },
+      "occurrences": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "created_at": "2026-03-08T17:32:51.637246",
+      "last_seen": "2026-03-08T17:32:51.637254",
+      "confidence": 0.3,
+      "metadata": {
+        "source_tags": [],
+        "context_summary": {
+          "persist": true
+        }
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "id": "out_b6a7cc795a71",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.598105",
+      "task_description": "Test task execution",
+      "context": {
+        "tool": "read",
+        "file": "/tmp/test.txt"
+      },
+      "success": true,
+      "result_data": {
+        "content": "test data"
+      },
+      "metrics": {},
+      "tags": [
+        "test",
+        "file_operation"
+      ]
+    },
+    {
+      "id": "out_83faa21685e8",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.600939",
+      "task_description": "API call example",
+      "context": {
+        "endpoint": "test",
+        "method": "GET"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_f8f8f1ca2215",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.607301",
+      "task_description": "Test task 0",
+      "context": {
+        "type": "test"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_6074c4239b3d",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.610572",
+      "task_description": "Test task 1",
+      "context": {
+        "type": "test"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_cf5ee32e52e6",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.613331",
+      "task_description": "Test task 2",
+      "context": {
+        "type": "test"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_c27ad0c7907e",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.616442",
+      "task_description": "Test task 3",
+      "context": {
+        "type": "test"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_28e7df39a5e3",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.619700",
+      "task_description": "Test task 4",
+      "context": {
+        "type": "test"
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_5ad267383afa",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.624710",
+      "task_description": "API request",
+      "context": {
+        "service": "birdeye",
+        "action": "price"
+      },
+      "success": true,
+      "result_data": {
+        "price": 1.23
+      },
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_dad0f6b1eb1e",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.629009",
+      "task_description": "API request",
+      "context": {
+        "service": "birdeye",
+        "action": "price"
+      },
+      "success": true,
+      "result_data": {
+        "price": 1.23
+      },
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_d4d857e42dd4",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.632679",
+      "task_description": "API request",
+      "context": {
+        "service": "birdeye",
+        "action": "price"
+      },
+      "success": true,
+      "result_data": {
+        "price": 1.23
+      },
+      "metrics": {},
+      "tags": []
+    },
+    {
+      "id": "out_a4d1af5822b3",
+      "pattern_id": null,
+      "timestamp": "2026-03-08T17:32:51.637173",
+      "task_description": "Persistence test",
+      "context": {
+        "persist": true
+      },
+      "success": true,
+      "result_data": {},
+      "metrics": {},
+      "tags": []
+    }
+  ],
+  "pattern_index": {
+    "success": [
+      "pat_f745fa92",
+      "pat_58dd1651",
+      "pat_97a5c622",
+      "pat_1272fe4b",
+      "pat_415193c2"
+    ],
+    "key:tool": [
+      "pat_f745fa92"
+    ],
+    "key:file": [
+      "pat_f745fa92"
+    ],
+    "key:endpoint": [
+      "pat_58dd1651"
+    ],
+    "key:method": [
+      "pat_58dd1651"
+    ],
+    "key:type": [
+      "pat_97a5c622"
+    ],
+    "key:service": [
+      "pat_1272fe4b"
+    ],
+    "key:action": [
+      "pat_1272fe4b"
+    ],
+    "key:persist": [
+      "pat_415193c2"
+    ]
+  },
+  "metrics": {
+    "total_outcomes": 11,
+    "total_patterns": 5,
+    "learning_rate": 5,
+    "avg_confidence": 0.461,
+    "prediction_accuracy": 0.0
+  },
+  "config": {
+    "auto_prune": true,
+    "prune_threshold_days": 90,
+    "max_patterns": 1000,
+    "learning_enabled": true,
+    "min_confidence_for_prediction": 0.6
+  },
+  "event_log": [
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.599866",
+      "data": {
+        "outcome_id": "out_b6a7cc795a71",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.603771",
+      "data": {
+        "outcome_id": "out_83faa21685e8",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.608696",
+      "data": {
+        "outcome_id": "out_f8f8f1ca2215",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.611810",
+      "data": {
+        "outcome_id": "out_6074c4239b3d",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.614759",
+      "data": {
+        "outcome_id": "out_cf5ee32e52e6",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.617789",
+      "data": {
+        "outcome_id": "out_c27ad0c7907e",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.621235",
+      "data": {
+        "outcome_id": "out_28e7df39a5e3",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.626618",
+      "data": {
+        "outcome_id": "out_5ad267383afa",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.630643",
+      "data": {
+        "outcome_id": "out_dad0f6b1eb1e",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.634565",
+      "data": {
+        "outcome_id": "out_d4d857e42dd4",
+        "success": true
+      }
+    },
+    {
+      "type": "outcome_recorded",
+      "timestamp": "2026-03-08T17:32:51.639063",
+      "data": {
+        "outcome_id": "out_a4d1af5822b3",
+        "success": true
+      }
+    }
+  ]
+}

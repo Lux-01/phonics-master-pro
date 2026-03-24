@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-13T16:43:14.290780",
+  "type": "skill_analyzed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "knowledge-graph-engine",
+    "health_score": 95,
+    "findings_count": 1
+  }
+}

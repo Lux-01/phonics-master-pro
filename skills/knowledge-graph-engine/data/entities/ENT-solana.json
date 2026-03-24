@@ -1,0 +1,12 @@
+{
+  "id": "ENT-solana",
+  "type": "technology",
+  "name": "Solana",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "blockchain",
+    "layer1"
+  ],
+  "created": "2026-03-20T04:52:13.793007"
+}

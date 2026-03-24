@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-20T15:57:31.311248",
+  "token_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "token_symbol": "EXAMPLE",
+  "metrics": {
+    "price": 0.045,
+    "market_cap": 450000,
+    "volume_24h": 120000,
+    "volume_vs_avg": 3.2,
+    "price_change_24h": 23.0,
+    "liquidity_usd": 200000,
+    "liquidity_locked": true,
+    "holders": 1250,
+    "top10_pct": 35.4,
+    "age_hours": 4.5
+  },
+  "risk_score": {
+    "contract": 85,
+    "liquidity": 40,
+    "holder": 30,
+    "volume": 64,
+    "narrative": 80,
+    "overall": 59
+  },
+  "narrative": {
+    "detected": "Unknown",
+    "confidence": 0.7,
+    "trending": true
+  },
+  "grade": "B+",
+  "thesis": "# EXAMPLE Investment Thesis\n\n## Executive Summary\nEXAMPLE is graded **B+** with an overall risk score of 59/100.\n\n## Market Context\n- Market Cap: $450,000\n- Price: $0.045000 (+23.0% 24h)\n- Volume: $120,000 (3.2x average)\n\n## Token Analysis\n**Liquidity:** $200,000 (locked \u2705)\n**Holders:** 1,250 (Top 10%: 35.4%)\n**Age:** 4.5 hours\n\n## Risk Assessment\n| Category | Score |\n|----------|-------|\n| Contract Risk | 85/100 |\n| Liquidity Risk | 40/100 |\n| Holder Risk | 30/100 |\n| Volume Risk | 64/100 |\n| Narrative Risk | 80/100 |\n| **Overall** | **59/100** |\n\n## Narrative\nUnknown (trending \ud83d\udd25)\n\n## Conclusion\n\u26a0\ufe0f Proceed with caution\n"
+}

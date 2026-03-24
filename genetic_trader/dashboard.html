@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Genetic Trading Dashboard - LIVE</title>
+    <meta http-equiv="refresh" content="30">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0a0a0f; color: #e0e0e0; padding: 20px; }
+        .header { text-align: center; margin-bottom: 30px; padding: 20px; background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 10px; border: 1px solid #00ff88; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { border-color: #00ff88; } 50% { border-color: #0088ff; } }
+        .header h1 { color: #00ff88; font-size: 2.5em; margin-bottom: 10px; }
+        .header .subtitle { color: #888; }
+        .header .timestamp { color: #66ccff; margin-top: 10px; }
+        .header .mode { color: #ffaa00; font-weight: bold; margin-top: 5px; font-size: 1.1em; }
+        .live-indicator { display: inline-block; width: 10px; height: 10px; background: #ff4444; border-radius: 50%; margin-right: 8px; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+        
+        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 30px; }
+        .summary-card { background: #151528; padding: 20px; border-radius: 10px; border-left: 4px solid #00ff88; transition: transform 0.2s; }
+        .summary-card:hover { transform: translateY(-3px); background: #1a1a35; }
+        .summary-card.warning { border-color: #ffaa00; }
+        .summary-card.danger { border-color: #ff4444; }
+        .summary-card.info { border-color: #66ccff; }
+        .summary-card h3 { color: #888; font-size: 0.9em; margin-bottom: 10px; text-transform: uppercase; }
+        .summary-card .value { font-size: 1.8em; font-weight: bold; }
+        .summary-card .value.positive { color: #00ff88; }
+        .summary-card .value.negative { color: #ff4444; }
+        .summary-card .value.neutral { color: #66ccff; }
+        
+        .grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom: 30px; }
+        .panel { background: #151528; border-radius: 10px; padding: 20px; border: 1px solid #333; }
+        .panel h2 { color: #00ff88; margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+        
+        table { width: 100%; border-collapse: collapse; }
+        th { text-align: left; padding: 12px; color: #888; font-size: 0.85em; text-transform: uppercase; border-bottom: 2px solid #00ff88; }
+        td { padding: 12px; border-bottom: 1px solid #333; }
+        tr:hover { background: #1a1a35; }
+        .rank { font-weight: bold; color: #00ff88; font-size: 1.2em; }
+        .rank-1 { color: gold; font-size: 1.5em; text-shadow: 0 0 10px gold; }
+        .rank-2 { color: silver; font-size: 1.3em; }
+        .rank-3 { color: #cd7f32; font-size: 1.2em; }
+        
+        .strategy-card { background: #1a1a2e; padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 3px solid; transition: all 0.2s; }
+        .strategy-card:hover { background: #1f1f3a; transform: translateX(5px); }
+        .strategy-card.neutral { border-color: #888; opacity: 0.7; }
+        .strategy-card.active { border-color: #00ff88; box-shadow: 0 0 15px rgba(0,255,136,0.1); }
+        .strategy-card.waiting { border-color: #ffaa00; }
+        .strategy-card.winner { border-color: gold; background: linear-gradient(90deg, #1a1a2e, #2a2518); }
+        .strategy-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .strategy-name { font-weight: bold; color: #fff; font-size: 1.1em; }
+        .strategy-stats { display: flex; gap: 20px; color: #888; font-size: 0.9em; }
+        .position-info { color: #66ccff; font-size: 0.85em; margin-top: 5px; font-family: monospace; }
+        .pnl-display { font-family: monospace; font-size: 1.1em; }
+        .pnl-positive { color: #00ff88; }
+        .pnl-negative { color: #ff4444; }
+        .pnl-neutral { color: #888; }
+        
+        .holdings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 15px; }
+        .holding-card { background: #1a1a2e; padding: 15px; border-radius: 8px; border: 1px solid #333; transition: all 0.2s; }
+        .holding-card:hover { border-color: #66ccff; box-shadow: 0 0 10px rgba(102,204,255,0.2); }
+        .holding-card.new { border-color: #00ff88; }
+        .holding-card.established { border-color: #66ccff; }
+        .holding-card h4 { color: #fff; margin-bottom: 10px; font-size: 1.2em; display: flex; align-items: center; gap: 8px; }
+        .token-symbol { color: #00ff88; font-weight: bold; }
+        .holding-detail { display: flex; justify-content: space-between; margin: 5px 0; color: #aaa; font-size: 0.9em; }
+        .holding-detail span:first-child { color: #666; }
+        .holding-age { color: #ffaa00; }
+        .holding-mcap { color: #66ccff; }
+        .holding-entry { color: #ff6b6b; font-family: monospace; }
+        .holding-strats { color: #888; font-size: 0.8em; margin-top: 8px; }
+        
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; text-transform: uppercase; margin: 2px; font-weight: bold; }
+        .badge-new { background: #00ff88; color: #000; }
+        .badge-established { background: #66ccff; color: #000; }
+        .badge-micro { background: #ff4444; color: #fff; }
+        .badge-small { background: #ffaa00; color: #000; }
+        .badge-large { background: #00ff88; color: #000; }
+        .badge-active { background: #00ff88; color: #000; animation: glow 2s infinite; }
+        .badge-waiting { background: #ffaa00; color: #000; }
+        .badge-winner { background: gold; color: #000; }
+        @keyframes glow { 0%, 100% { box-shadow: 0 0 5px #00ff88; } 50% { box-shadow: 0 0 15px #00ff88; } }
+        
+        .notice { background: linear-gradient(90deg, #1a1a2e, #1a2a1a); padding: 15px; border-radius: 8px; border-left: 4px solid #00ff88; margin-bottom: 20px; }
+        .notice h3 { color: #00ff88; margin-bottom: 10px; }
+        .notice p { color: #aaa; font-size: 0.9em; }
+        
+        .refresh-banner { background: #1a1a2e; padding: 10px 20px; border-radius: 20px; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+        .refresh-banner span { color: #888; }
+        .refresh-btn { background: #00ff88; color: #000; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-weight: bold; transition: all 0.2s; }
+        .refresh-btn:hover { background: #00cc6a; transform: scale(1.05); }
+        .refresh-btn:active { transform: scale(0.95); }
+
+        .trade-history { max-height: 300px; overflow-y: auto; }
+        .trade-item { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; padding: 10px; border-bottom: 1px solid #333; font-size: 0.85em; align-items: center; }
+        .trade-item.header { font-weight: bold; color: #888; border-bottom: 2px solid #00ff88; position: sticky; top: 0; background: #151528; }
+        .trade-win { color: #00ff88; }
+        .trade-loss { color: #ff4444; }
+        
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #151528; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #444; }
+
+        .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+        .dot-open { background: #00ff88; box-shadow: 0 0 5px #00ff88; }
+        .dot-closed { background: #888; }
+
+        .pnl-bar { height: 4px; background: #333; border-radius: 2px; margin-top: 5px; overflow: hidden; }
+        .pnl-bar-fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
+        .pnl-bar-fill.positive { background: #00ff88; }
+        .pnl-bar-fill.negative { background: #ff4444; }
+        
+        .cycle-badge { background: #0088ff; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧬 Genetic Trading Dashboard</h1>
+        <p class="subtitle">10 Evolving Strategies • Live Market Data • Real P&L Tracking</p>
+        <p class="mode"><span class="live-indicator"></span>🔴 LIVE MODE v2 - Real DexScreener API</p>
+        <p class="timestamp">Last Updated: 2026-03-22 20:15:58</p>
+        <span class="cycle-badge">Cycle #3</span>
+    </div>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <div class="refresh-banner">
+            <span>🔄 Auto-refresh:</span>
+            <button class="refresh-btn" onclick="location.reload()">Refresh Now</button>
+        </div>
+    </div>
+    
+    <div class="notice">
+        <h3>📊 System Status: ACTIVE</h3>
+        <p><strong>Cycle #3 | 10 Total Trades | 5 Open Positions | 5 Strategies Waiting</strong></p>
+        <p>Real P&L tracking active. Previous Cycle #3 exits done with v2 engine (live price fetching). Current positions entered 20:12 - will exit with real P&L calculation.</p>
+    </div>
+    
+    <div class="summary-grid">
+        <div class="summary-card">
+            <h3>💰 Total P&L</h3>
+            <div class="value neutral">0.0000 SOL</div>
+            <div class="pnl-bar"><div class="pnl-bar-fill" style="width: 50%"></div></div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>📈 Win Rate</h3>
+            <div class="value neutral">0.0%</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">0 wins / 0 losses</div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>🔄 Trades</h3>
+            <div class="value">10 Total</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">5 closed / 5 open</div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>⏱️ Held Longest</h3>
+            <div class="value" style="font-size: 1.4em;">6.5h</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">Time stop strategy</div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>💵 Capital</h3>
+            <div class="value">11.40 SOL</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">Initial: 12.00 SOL</div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>💵 Invested</h3>
+            <div class="value">0.60 SOL</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">5 positions open</div>
+        </div>
+        
+        <div class="summary-card">
+            <h3>💵 Cash</h3>
+            <div class="value">10.80 SOL</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">Available for entries</div>
+        </div>
+        
+        <div class="summary-card info">
+            <h3>🎯 Tokens</h3>
+            <div class="value">3 Unique</div>
+            <div style="font-size: 0.8em; color: #888; margin-top: 5px;">MEME, meme, DOG</div>
+        </div>
+    </div>
+    
+    <div class="grid-2">
+        <div class="panel">
+            <h2>🏆 Strategy Leaderboard</h2>
+            
+            <div class="strategy-card waiting">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank rank-1">1</span>
+                        <span class="strategy-name">Momentum Surge</span>
+                        <span class="badge badge-waiting">WAITING</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>0 trades</span>
+                    </div>
+                </div>
+                <div style="color: #666; font-size: 0.85em;">Waiting for volume spike + breakout...</div>
+            </div>
+            
+            <div class="strategy-card waiting">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank rank-2">2</span>
+                        <span class="strategy-name">Mean Reversion Dip</span>
+                        <span class="badge badge-waiting">WAITING</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>0 trades</span>
+                    </div>
+                </div>
+                <div style="color: #666; font-size: 0.85em;">Scanning for -10% to -15% dips...</div>
+            </div>
+            
+            <div class="strategy-card waiting">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank rank-3">3</span>
+                        <span class="strategy-name">Whale Shadow</span>
+                        <span class="badge badge-waiting">WAITING</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>0 trades</span>
+                    </div>
+                </div>
+                <div style="color: #666; font-size: 0.85em;">Tracking whale wallet activity...</div>
+            </div>
+            
+            <div class="strategy-card waiting">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">4</span>
+                        <span class="strategy-name">RSI Oversold</span>
+                        <span class="badge badge-waiting">WAITING</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>0 trades</span>
+                    </div>
+                </div>
+                <div style="color: #666; font-size: 0.85em;">Waiting for RSI &lt; 30 signals...</div>
+            </div>
+            
+            <div class="strategy-card waiting">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">5</span>
+                        <span class="strategy-name">Breakout Hunter</span>
+                        <span class="badge badge-waiting">WAITING</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>0 trades</span>
+                    </div>
+                </div>
+                <div style="color: #666; font-size: 0.85em;">Monitoring resistance levels...</div>
+            </div>
+            
+            <div class="strategy-card active">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">6</span>
+                        <span class="strategy-name">Social Sentiment</span>
+                        <span class="badge badge-active">ACTIVE</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>2 trades</span>
+                    </div>
+                </div>
+                <div class="position-info"><span class="status-dot dot-open"></span>MEME @ $0.00000254 (Cycle #3, 0.12 SOL)</div>
+                <div style="color: #666; font-size: 0.8em; margin-top: 5px;">Previous: MEME exit (breakeven)</div>
+            </div>
+            
+            <div class="strategy-card active">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">7</span>
+                        <span class="strategy-name">Liquidity Surfing</span>
+                        <span class="badge badge-active">ACTIVE</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>2 trades</span>
+                    </div>
+                </div>
+                <div class="position-info"><span class="status-dot dot-open"></span>meme @ $0.00000278 (Cycle #3, 0.12 SOL)</div>
+                <div style="color: #666; font-size: 0.8em; margin-top: 5px;">Previous: meme exit (breakeven)</div>
+            </div>
+            
+            <div class="strategy-card active">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">8</span>
+                        <span class="strategy-name">EMA Cross</span>
+                        <span class="badge badge-active">ACTIVE</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>2 trades</span>
+                    </div>
+                </div>
+                <div class="position-info"><span class="status-dot dot-open"></span>MEME @ $0.00235 (Cycle #3, 0.12 SOL)</div>
+                <div style="color: #666; font-size: 0.8em; margin-top: 5px;">Previous: meme exit (breakeven)</div>
+            </div>
+            
+            <div class="strategy-card active">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">9</span>
+                        <span class="strategy-name">Range Trader</span>
+                        <span class="badge badge-active">ACTIVE</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>2 trades</span>
+                    </div>
+                </div>
+                <div class="position-info"><span class="status-dot dot-open"></span>MEME @ $0.00235 (Cycle #3, 0.12 SOL)</div>
+                <div style="color: #666; font-size: 0.8em; margin-top: 5px;">Previous: DOG exit (breakeven)</div>
+            </div>
+            
+            <div class="strategy-card active">
+                <div class="strategy-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span class="rank">10</span>
+                        <span class="strategy-name">News Arbitrage</span>
+                        <span class="badge badge-active">ACTIVE</span>
+                    </div>
+                    <div class="strategy-stats">
+                        <span class="pnl-display pnl-neutral">0.0000 SOL</span>
+                        <span>2 trades</span>
+                    </div>
+                </div>
+                <div class="position-info"><span class="status-dot dot-open"></span>meme @ $0.00000278 (Cycle #3, 0.12 SOL)</div>
+                <div style="color: #666; font-size: 0.8em; margin-top: 5px;">Previous: meme exit (breakeven)</div>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <h2>📊 Current Holdings</h2>
+            
+            <div class="holding-card new">
+                <h4>
+                    <span class="token-symbol">MEME</span> 
+                    <span class="badge badge-new">NEW</span>
+                </h4>
+                <div class="holding-detail">
+                    <span>Strategies</span>
+                    <span>Social Sentiment, EMA Cross, Range Trader (3x)</span>
+                </div>
+                <div class="holding-detail">
+                    <span>Total Invested</span>
+                    <span style="color: #00ff88;">0.36 SOL</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-entry">Entry Price</span>
+                    <span class="holding-entry">$0.00000254 - $0.00235</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-mcap">Market Cap</span>
+                    <span class="holding-mcap">~$2.5k - $162M (different pools)</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-age">Entry Time</span>
+                    <span class="holding-age">20:12 (Cycle #3)</span>
+                </div>
+                <div class="holding-strats">⏱️ Will exit on 6h time stop with real P&L</div>
+            </div>
+            
+            <div class="holding-card established">
+                <h4>
+                    <span class="token-symbol">meme</span> 
+                    <span class="badge badge-established">ESTABLISHED</span>
+                </h4>
+                <div class="holding-detail">
+                    <span>Strategies</span>
+                    <span>Liquidity Surfing, News Arbitrage (2x)</span>
+                </div>
+                <div class="holding-detail">
+                    <span>Total Invested</span>
+                    <span style="color: #00ff88;">0.24 SOL</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-entry">Entry Price</span>
+                    <span class="holding-entry">$0.00000278</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-mcap">Market Cap</span>
+                    <span class="holding-mcap">$2.7k</span>
+                </div>
+                <div class="holding-detail">
+                    <span class="holding-age">Age</span>
+                    <span class="holding-age">71 days</span>
+                </div>
+                <div class="holding-strats">⏱️ Will exit on 6h time stop with real P&L</div>
+            </div>
+
+            <div style="margin-top: 20px; padding: 15px; background: #1a1a2e; border-radius: 8px; border: 1px solid #333;">
+                <h4 style="color: #00ff88; margin-bottom: 10px;">📈 Token Diversity</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 0.9em;">
+                    <div><span style="color: #888;">By Age:</span> New (3) | Old (2)</div>
+                    <div><span style="color: #888;">By Size:</span> Micro (2) | Large (3)</div>
+                    <div><span style="color: #888;">Active:</span> 5 positions</div>
+                    <div><span style="color: #888;">Waiting:</span> 5 strategies</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel" style="margin-bottom: 30px;">
+        <h2>📋 Recent Trade History</h2>
+        <div class="trade-history">
+            <div class="trade-item header">
+                <span>Time</span>
+                <span>Strategy</span>
+                <span>Token</span>
+                <span>Type</span>
+                <span>P&L</span>
+            </div>
+            
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>News Arbitrage</span>
+                <span>meme</span>
+                <span style="color: #00ff88;">ENTRY</span>
+                <span style="color: #888;">-</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Range Trader</span>
+                <span>MEME</span>
+                <span style="color: #00ff88;">ENTRY</span>
+                <span style="color: #888;">-</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>EMA Cross</span>
+                <span>MEME</span>
+                <span style="color: #00ff88;">ENTRY</span>
+                <span style="color: #888;">-</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Liquidity Surfing</span>
+                <span>meme</span>
+                <span style="color: #00ff88;">ENTRY</span>
+                <span style="color: #888;">-</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Social Sentiment</span>
+                <span>MEME</span>
+                <span style="color: #00ff88;">ENTRY</span>
+                <span style="color: #888;">-</span>
+            </div>
+            
+            <div class="trade-item" style="border-top: 2px solid #333; margin-top: 10px; padding-top: 15px;">
+                <span>20:12</span>
+                <span>News Arbitrage</span>
+                <span>meme</span>
+                <span style="color: #ff4444;">EXIT</span>
+                <span style="color: #888;">$0 (6.5h)</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Range Trader</span>
+                <span>DOG</span>
+                <span style="color: #ff4444;">EXIT</span>
+                <span style="color: #888;">$0 (6.5h)</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>EMA Cross</span>
+                <span>meme</span>
+                <span style="color: #ff4444;">EXIT</span>
+                <span style="color: #888;">$0 (6.5h)</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Liquidity Surfing</span>
+                <span>meme</span>
+                <span style="color: #ff4444;">EXIT</span>
+                <span style="color: #888;">$0 (6.5h)</span>
+            </div>
+            <div class="trade-item">
+                <span>20:12</span>
+                <span>Social Sentiment</span>
+                <span>MEME</span>
+                <span style="color: #ff4444;">EXIT</span>
+                <span style="color: #888;">$0 (6.5h)</span>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
+        <div class="panel">
+            <h2>⚙️ Strategy Configurations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Strategy</th>
+                        <th>TF</th>
+                        <th>Risk</th>
+                        <th>Target</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Momentum Surge</td><td>1h</td><td style="color: #ff4444;">High</td><td>Volume + breakout</td></tr>
+                    <tr><td>Mean Reversion</td><td>30m</td><td style="color: #ffaa00;">Med</td><td>-10% to -15% dips</td></tr>
+                    <tr><td>Whale Shadow</td><td>RT</td><td style="color: #ffaa00;">Med</td><td>Whale copy</td></tr>
+                    <tr><td>RSI Oversold</td><td>15m</td><td style="color: #ffaa00;">Med</td><td>RSI &lt; 30</td></tr>
+                    <tr><td>Breakout Hunter</td><td>1h</td><td style="color: #ff4444;">High</td><td>Resistance break</td></tr>
+                    <tr><td>Social Sentiment</td><td>15m</td><td style="color: #ff4444;">High</td><td>New launches</td></tr>
+                    <tr><td>Liquidity Surfing</td><td>30m</td><td style="color: #ffaa00;">Med</td><td>Liquidity waves</td></tr>
+                    <tr><td>EMA Cross</td><td>1h</td><td style="color: #00ff88;">Low</td><td>EMA 9/21</td></tr>
+                    <tr><td>Range Trader</td><td>30m</td><td style="color: #00ff88;">Low</td><td>Support/resistance</td></tr>
+                    <tr><td>News Arbitrage</td><td>5m</td><td style="color: #ff0000;">V.High</td><td>&lt;60s reaction</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="panel">
+            <h2>🔧 System Info</h2>
+            <div style="line-height: 2;">
+                <div><strong>Version:</strong> v2.0 LIVE</div>
+                <div><strong>Data Source:</strong> DexScreener API</div>
+                <div><strong>P&L Mode:</strong> <span style="color: #00ff88;">Real Price Tracking</span></div>
+                <div><strong>Position Size:</strong> 0.12 SOL per trade</div>
+                <div><strong>Time Stop:</strong> 6 hours</div>
+                <div><strong>Strategies:</strong> 10 active</div>
+                <div><strong>Evolution:</strong> Gen 0</div>
+                <div><strong>Cycle:</strong> #3</div>
+                <div style="margin-top: 10px; padding: 10px; background: #1a1a2e; border-radius: 5px; font-size: 0.85em; color: #888;">
+                    <strong>Next Expected Exit:</strong><br>
+                    Current positions (entered 20:12) will exit at 02:12 with real P&L calculation.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="text-align: center; padding: 20px; border-top: 1px solid #333; margin-top: 30px; color: #666; font-size: 0.85em;">
+        <p>🧬 Genetic Trading System v2.0 | Updated: 2026-03-22 20:15 | Cycle #3</p>
+        <p style="margin-top: 10px;">Real DexScreener API • Live Price Fetching • Evolving Strategies</p>
+    </div>
+</body>
+</html>

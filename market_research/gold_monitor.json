@@ -1,0 +1,67 @@
+{
+  "current_price": 2175.5,
+  "24h_change": "+1.2%",
+  "trend": "BULLISH",
+  "support_levels": [
+    2150.0,
+    2120.0,
+    2080.0
+  ],
+  "resistance_levels": [
+    2200.0,
+    2250.0,
+    2300.0
+  ],
+  "conflict_correlation": {
+    "description": "Gold acts as safe haven during geopolitical tensions",
+    "typical_move": "+2-5% on major escalation",
+    "lag_time": "0-24 hours",
+    "sustained_rally": "If conflict persists >1 week"
+  },
+  "monitoring_keywords": [
+    "escalation",
+    "conflict",
+    "war",
+    "tensions",
+    "sanctions",
+    "geopolitical",
+    "crisis",
+    "attack",
+    "invasion",
+    "ceasefire broken"
+  ],
+  "current_geopolitical_risks": [
+    {
+      "region": "Middle East",
+      "risk_level": "HIGH",
+      "impact_on_gold": "+3-5% potential",
+      "last_event": "Ongoing tensions"
+    },
+    {
+      "region": "Eastern Europe",
+      "risk_level": "MEDIUM",
+      "impact_on_gold": "+1-2% potential",
+      "last_event": "Continued conflict"
+    },
+    {
+      "region": "South China Sea",
+      "risk_level": "MEDIUM",
+      "impact_on_gold": "+2-3% potential",
+      "last_event": "Naval tensions"
+    }
+  ],
+  "trading_strategy": {
+    "entry": "Buy on confirmed escalation news",
+    "stop_loss": "2% below entry",
+    "take_profit": "5-8% above entry",
+    "position_size": "5-10% of portfolio max",
+    "hold_time": "Until de-escalation signals"
+  },
+  "news_sources": [
+    "Reuters Geopolitical",
+    "Bloomberg Markets",
+    "ForexLive",
+    "ZeroHedge (for sentiment)",
+    "Twitter/X Geopolitical accounts"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "success_patterns": [
+    {
+      "context": "SOL/USDC pair",
+      "decision_type": "general",
+      "rationale_keywords": [
+        "based",
+        "pattern",
+        "analysis",
+        "historical"
+      ],
+      "outcome": "success",
+      "impact": 4,
+      "timestamp": "2026-03-18T04:35:24.270342"
+    }
+  ],
+  "failure_patterns": [],
+  "decision_patterns": [],
+  "tool_patterns": [],
+  "last_updated": "2026-03-18T04:35:24.270355",
+  "extracted_patterns": {
+    "by_category": {
+      "general": {
+        "total": 2,
+        "success_rate": 1.0,
+        "common_rationales": []
+      }
+    },
+    "high_success_approaches": [],
+    "common_failure_modes": [],
+    "optimal_timing": {}
+  }
+}

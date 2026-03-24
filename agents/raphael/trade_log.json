@@ -1,0 +1,63 @@
+[
+  {
+    "type": "ENTRY",
+    "token": "BONK (DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263)",
+    "size": 0.25,
+    "entryPrice": 0.000005814,
+    "pnlSol": 0,
+    "pnlPercent": 0,
+    "reason": "Rule #12 Selling Exhaustion - -6.84% dump, mean reversion play. Grade B setup.",
+    "timestamp": "2026-02-23T02:08:00Z"
+  },
+  {
+    "type": "ENTRY",
+    "token": "Seagulls (7vk7EtRrBT6BRVvC6B5GT3M9hSJmeJv1QyhvC8x7pump)",
+    "size": 0.15,
+    "entryPrice": 0.00005306,
+    "pnlSol": 0,
+    "pnlPercent": 0,
+    "reason": "Rule #12 Selling Exhaustion - -15.31% dump in 5min after +65% pump. Grade C micro cap mean reversion.",
+    "timestamp": "2026-02-23T02:11:00Z"
+  },
+  {
+    "type": "EXIT",
+    "token": "Seagulls (7vk7EtRrBT6BRVvC6B5GT3M9hSJmeJv1QyhvC8x7pump)",
+    "size": 0.15,
+    "entryPrice": 0.00005306,
+    "exitPrice": 0.00004024,
+    "pnlSol": -0.0079,
+    "pnlPercent": -24.1,
+    "reason": "STOP LOSS - Hard stop triggered. Micro cap liquidity failure. Lesson: Grade C gaps down fast.",
+    "timestamp": "2026-02-23T02:14:30Z"
+  },
+  {
+    "type": "ENTRY",
+    "token": "JUP (JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN)",
+    "size": 0.25,
+    "entryPrice": 0.1429,
+    "pnlSol": 0,
+    "pnlPercent": 0,
+    "reason": "Rule #12 Selling Exhaustion - -8.62% dump with $744k volume. Grade A- setup with strong liquidity.",
+    "timestamp": "2026-02-23T02:15:00Z"
+  },
+  {
+    "type": "ENTRY",
+    "token": "HENRY (865GVDdESzXiNvygSUt7yFeJLrXDyn5UpGNfYuxfpump)",
+    "size": 0.2,
+    "entryPrice": 0.0002413,
+    "pnlSol": 0,
+    "pnlPercent": 0,
+    "reason": "Rule #12 Selling Exhaustion - -46.57% dump with $305k volume. Grade B. Better liquidity than Seagulls ($43k vs $17k).",
+    "timestamp": "2026-02-23T02:38:00Z"
+  },
+  {
+    "type": "SKIP",
+    "token": "BIG Token (8ZBEUKAHwdH33FWZUQpMqY9zT31bxxSVVQ4xen1744f1)",
+    "size": 0,
+    "entryPrice": 0,
+    "pnlSol": 0,
+    "pnlPercent": 0,
+    "reason": "Rule #19 Liquidity - $11k too low (Seagulls risk). Rule conflict: -42% vs +91% = uncertainty. Grade C.",
+    "timestamp": "2026-02-23T02:38:30Z"
+  }
+]

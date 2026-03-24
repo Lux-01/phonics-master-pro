@@ -1,0 +1,20 @@
+================================================================================
+🦞 EARLY ENTRY MONITOR v1.0 STARTED
+================================================================================
+
+Check interval: Every 5 minutes
+Alert threshold: Score >= 8
+Target window: 0-2 hours after launch
+Telegram alerts: ENABLED
+
+Starting at: 2026-03-04 22:43:33
+================================================================================
+
+[22:43:33] Scanning for early entries...
+   No new launches
+
+✅ Initial scan complete.
+   Set up cron job to run every 5 minutes:
+   */5 * * * * cd /home/skux/.openclaw/workspace && python3 early_entry_monitor.py
+
+Or run manually: ./run_early_monitor.sh

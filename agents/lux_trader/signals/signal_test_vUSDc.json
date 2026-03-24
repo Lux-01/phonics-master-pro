@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-20T15:45:00",
+  "token": "vUSDc",
+  "token_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "grade": "A+",
+  "score": 85,
+  "market_cap": 25000,
+  "liquidity": 12000,
+  "volume_24h": 50000,
+  "age_hours": 6,
+  "top10_pct": 35,
+  "source": "Stage7_Test",
+  "confidence": 85
+}

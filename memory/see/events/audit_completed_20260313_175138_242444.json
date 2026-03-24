@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-13T17:51:38.242424",
+  "type": "audit_completed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "workspace-organizer",
+    "audit_file": "/home/skux/.openclaw/workspace/memory/see/audit_history/workspace-organizer_20260313_175138.md"
+  }
+}

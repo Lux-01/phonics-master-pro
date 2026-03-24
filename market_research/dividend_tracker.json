@@ -1,0 +1,157 @@
+{
+  "top_picks": {
+    "SCHD": {
+      "name": "Schwab US Dividend Equity ETF",
+      "yield": 3.45,
+      "category": "ETF - Broad Dividend",
+      "ex_div_date": "2024-03-20",
+      "frequency": "Quarterly",
+      "rating": "STRONG BUY",
+      "reason": "Low cost, quality screening, consistent growth"
+    },
+    "VYM": {
+      "name": "Vanguard High Dividend Yield ETF",
+      "yield": 2.89,
+      "category": "ETF - High Yield",
+      "ex_div_date": "2024-03-18",
+      "frequency": "Quarterly",
+      "rating": "BUY",
+      "reason": "Diversified, low expense ratio"
+    },
+    "JEPI": {
+      "name": "JPMorgan Equity Premium Income",
+      "yield": 7.12,
+      "category": "ETF - Covered Call",
+      "ex_div_date": "2024-03-28",
+      "frequency": "Monthly",
+      "rating": "BUY",
+      "reason": "High yield, options strategy"
+    },
+    "JNJ": {
+      "name": "Johnson & Johnson",
+      "yield": 3.02,
+      "category": "Healthcare - Blue Chip",
+      "ex_div_date": "2024-03-25",
+      "frequency": "Quarterly",
+      "rating": "STRONG BUY",
+      "reason": "Dividend Aristocrat (61 years), defensive"
+    },
+    "PG": {
+      "name": "Procter & Gamble",
+      "yield": 2.41,
+      "category": "Consumer Staples",
+      "ex_div_date": "2024-04-18",
+      "frequency": "Quarterly",
+      "rating": "STRONG BUY",
+      "reason": "Dividend King (67 years), recession proof"
+    },
+    "KO": {
+      "name": "Coca-Cola",
+      "yield": 3.15,
+      "category": "Consumer Staples",
+      "ex_div_date": "2024-03-14",
+      "frequency": "Quarterly",
+      "rating": "BUY",
+      "reason": "Dividend King (61 years), global brand"
+    },
+    "V": {
+      "name": "Visa Inc",
+      "yield": 0.72,
+      "category": "Financial Services",
+      "ex_div_date": "2024-05-16",
+      "frequency": "Quarterly",
+      "rating": "STRONG BUY",
+      "reason": "Low yield but massive growth, dividend growth"
+    },
+    "MSFT": {
+      "name": "Microsoft",
+      "yield": 0.71,
+      "category": "Technology",
+      "ex_div_date": "2024-05-15",
+      "frequency": "Quarterly",
+      "rating": "STRONG BUY",
+      "reason": "AI leader, consistent dividend growth"
+    },
+    "ABBV": {
+      "name": "AbbVie Inc",
+      "yield": 3.45,
+      "category": "Healthcare",
+      "ex_div_date": "2024-04-12",
+      "frequency": "Quarterly",
+      "rating": "BUY",
+      "reason": "High yield, Humira cliff priced in"
+    },
+    "O": {
+      "name": "Realty Income",
+      "yield": 5.89,
+      "category": "REIT",
+      "ex_div_date": "2024-03-28",
+      "frequency": "Monthly",
+      "rating": "BUY",
+      "reason": "Monthly dividend, triple-net lease stability"
+    }
+  },
+  "upcoming_ex_div": [
+    {
+      "date": "2024-03-14",
+      "ticker": "KO",
+      "amount": "$0.485",
+      "yield": "3.15%"
+    },
+    {
+      "date": "2024-03-18",
+      "ticker": "VYM",
+      "amount": "$0.821",
+      "yield": "2.89%"
+    },
+    {
+      "date": "2024-03-20",
+      "ticker": "SCHD",
+      "amount": "$0.654",
+      "yield": "3.45%"
+    },
+    {
+      "date": "2024-03-25",
+      "ticker": "JNJ",
+      "amount": "$1.19",
+      "yield": "3.02%"
+    },
+    {
+      "date": "2024-03-28",
+      "ticker": "O",
+      "amount": "$0.257",
+      "yield": "5.89%"
+    },
+    {
+      "date": "2024-03-28",
+      "ticker": "JEPI",
+      "amount": "$0.423",
+      "yield": "7.12%"
+    },
+    {
+      "date": "2024-04-12",
+      "ticker": "ABBV",
+      "amount": "$1.55",
+      "yield": "3.45%"
+    },
+    {
+      "date": "2024-04-18",
+      "ticker": "PG",
+      "amount": "$0.95",
+      "yield": "2.41%"
+    },
+    {
+      "date": "2024-05-15",
+      "ticker": "MSFT",
+      "amount": "$0.75",
+      "yield": "0.71%"
+    },
+    {
+      "date": "2024-05-16",
+      "ticker": "V",
+      "amount": "$0.52",
+      "yield": "0.72%"
+    }
+  ],
+  "last_updated": "2026-03-14T17:28:15.216138"
+}

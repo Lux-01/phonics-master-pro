@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu | Bean & Bloom Coffee Roasters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .menu-filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .roast-level {
+            display: flex;
+            gap: 4px;
+            margin-top: 0.5rem;
+        }
+        
+        .roast-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ddd;
+        }
+        
+        .roast-dot.filled {
+            background: var(--primary);
+        }
+        
+        .roast-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-coffee"></i>
+                <span>Bean & Bloom</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions" style="display: flex; align-items: center; gap: 1.5rem;">
+                <div class="cart-icon" style="position: relative; cursor: pointer; color: var(--text-dark);">
+                    <i class="fas fa-shopping-cart" style="font-size: 1.2rem;"></i>
+                    <span class="cart-count" style="position: absolute; top: -8px; right: -8px; background: var(--primary); color: white; width: 20px; height: 20px; border-radius: 50%; font-size: 0.75rem; display: none; align-items: center; justify-content: center; font-weight: 600;">0</span>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920&fit=crop') center/cover; height: 45vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; margin-top: 70px;">
+        <div>
+            <h1 style="font-family: var(--font-heading); font-size: 3.5rem; margin-bottom: 1rem;">Our Menu</h1>
+            <p style="font-size: 1.25rem; opacity: 0.9;">Single origin beans, expertly roasted</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" style="padding: 5rem 0;">
+        <div class="container">
+            <h2 class="section-title">Our Coffee Selection</h2>
+            
+            <!-- Filters -->
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All Coffee</button>
+                <button class="filter-btn" data-filter="light">Light Roast</button>
+                <button class="filter-btn" data-filter="medium">Medium Roast</button>
+                <button class="filter-btn" data-filter="dark">Dark Roast</button>
+                <button class="filter-btn" data-filter="blend">Blends</button>
+            </div>
+            
+            <!-- Coffee Grid -->
+            <div class="products-grid" id="menu-grid">
+                
+                <!-- Light Roasts -->
+                <div class="product-card" data-category="light" data-product-id="ethiopian-yirgacheffe">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=400&fit=crop" alt="Ethiopian Yirgacheffe">
+                        <span class="product-badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Ethiopian Yirgacheffe</h3>
+                                <p class="roast-label">Light Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Floral notes with hints of citrus, bergamot, and jasmine. Light-bodied with a tea-like finish.
+                            <br><br>
+                            <strong>Origin:</strong> Ethiopia, Gedio Zone<br>
+                            <strong>Process:</strong> Washed<br>
+                            <strong>Altitude:</strong> 1,800-2,200m
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$24.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="light" data-product-id="kenyan-aa">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1511537632536-b7a4759a176a?w=400&h=400&fit=crop" alt="Kenyan AA">
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Kenyan AA</h3>
+                                <p class="roast-label">Light Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Bright acidity with black currant, grapefruit, and wine-like complexity. Full body with a clean finish.
+                            <br><br>
+                            <strong>Origin:</strong> Kenya, Nyeri Region<br>
+                            <strong>Process:</strong> Washed<br>
+                            <strong>Altitude:</strong> 1,600-2,100m
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$26.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Medium Roasts -->
+                <div class="product-card" data-category="medium" data-product-id="colombian-supremo">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop" alt="Colombian Supremo">
+                        <span class="product-badge" style="background: var(--accent); color: var(--text-dark);">Smooth</span>
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Colombian Supremo</h3>
+                                <p class="roast-label">Medium Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Rich and smooth with caramel sweetness, subtle fruit notes, and a nutty finish. Perfectly balanced.
+                            <br><br>
+                            <strong>Origin:</strong> Colombia, Huila Region<br>
+                            <strong>Process:</strong> Washed<br>
+                            <strong>Altitude:</strong> 1,500-1,900m
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$22.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="medium" data-product-id="guatemalan-antigua">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1580933073521-624be1279116?w=400&h=400&fit=crop" alt="Guatemalan Antigua">
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Guatemalan Antigua</h3>
+                                <p class="roast-label">Medium Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Complex with cocoa, spice, and subtle smoke. Medium body with a lingering sweet finish.
+                            <br><br>
+                            <strong>Origin:</strong> Guatemala, Antigua Valley<br>
+                            <strong>Process:</strong> Washed<br>
+                            <strong>Altitude:</strong> 1,500-1,700m
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$23.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dark Roasts -->
+                <div class="product-card" data-category="dark" data-product-id="sumatra-mandheling">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=400&h=400&fit=crop" alt="Sumatra Mandheling">
+                        <span class="product-badge">Dark Roast</span>
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Sumatra Mandheling</h3>
+                                <p class="roast-label">Dark Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Bold and earthy with intense dark chocolate, herbal notes, and a syrupy body. Low acidity.
+                            <br><br>
+                            <strong>Origin:</strong> Indonesia, North Sumatra<br>
+                            <strong>Process:</strong> Semi-washed<br>
+                            <strong>Altitude:</strong> 1,200-1,500m
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$26.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="dark" data-product-id="french-roast">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=400&fit=crop" alt="French Roast">
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>French Roast</h3>
+                                <p class="roast-label">Dark Roast</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Intense and smoky with caramelized sugar notes and a heavy, velvety body. Our darkest roast.
+                            <br><br>
+                            <strong>Origin:</strong> Blend<br>
+                            <strong>Process:</strong> Multiple<br>
+                            <strong>Profile:</strong> Smoky, bold
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$20.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Blends -->
+                <div class="product-card" data-category="blend" data-product-id="house-blend">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=400&h=400&fit=crop" alt="House Blend">
+                        <span class="product-badge" style="background: #4a7c59;">Signature</span>
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>House Blend</h3>
+                                <p class="roast-label">Medium Roast Blend</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Our signature blend, carefully crafted for balance and versatility. Perfect for espresso or drip.
+                            <br><br>
+                            <strong>Components:</strong> Colombia, Brazil, Ethiopia<br>
+                            <strong>Profile:</strong> Chocolate, nutty, balanced<br>
+                            <strong>Best for:</strong> Espresso, drip
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$21.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="blend" data-product-id="espresso-blend">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1610889556327-61be58277e5d?w=400&h=400&fit=crop" alt="Espresso Blend">
+                    </div>
+                    <div class="product-info">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <h3>Espresso Blend</h3>
+                                <p class="roast-label">Medium-Dark Blend</p>
+                                <div class="roast-level">
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot filled"></span>
+                                    <span class="roast-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-desc" style="margin-top: 1rem;">
+                            Developed specifically for espresso. Rich crema with notes of dark chocolate and caramel.
+                            <br><br>
+                            <strong>Components:</strong> Brazil, Guatemala, Sumatra<br>
+                            <strong>Profile:</strong> Dark chocolate, caramel, heavy body<br>
+                            <strong>Best for:</strong> Espresso, moka pot
+                        </p>
+                        
+                        <div class="product-footer" style="margin-top: 1.5rem;">
+                            <div>
+                                <span class="price">$23.00</span>
+                                <span style="color: var(--text-muted); font-size: 0.85rem;"> / 12oz</span>
+                            </div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- Subscription CTA -->
+            <div style="background: var(--bg-light); padding: 3rem; border-radius: 12px; margin-top: 4rem; text-align: center;">
+                <i class="fas fa-infinity" style="font-size: 3rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                
+                <h3 style="font-family: var(--font-heading); font-size: 1.8rem; margin-bottom: 1rem;">Never Run Out of Coffee</h3>
+                
+                <p style="color: var(--text-light); margin-bottom: 1.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+                    Subscribe and save 15% on every order. Choose your favorites, set your schedule, and we'll handle the rest.
+                </p>
+                
+                <a href="#" class="btn btn-primary">Start Subscription</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-coffee"></i>
+                        <span>Bean & Bloom</span>
+                    </a>
+                    <p>Artisan coffee roasters dedicated to quality, sustainability, and the perfect cup.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Roast Street, Coffee District</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@beanandbloom.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 7am-6pm</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bean & Bloom Coffee Roasters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" style="position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1999; opacity: 0; visibility: hidden; transition: all 0.3s;"></div>
+    
+    <div class="cart-drawer" style="position: fixed; top: 0; right: 0; width: 100%; max-width: 420px; height: 100vh; background: white; z-index: 2000; transform: translateX(100%); transition: transform 0.3s ease; display: flex; flex-direction: column; box-shadow: -4px 0 24px rgba(0,0,0,0.15);">
+        <div class="cart-header" style="padding: 1.5rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin: 0;">Your Cart</h3>
+            <button class="close-cart" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-dark); padding: 0.5rem;"><i class="fas fa-times"></i></button>
+        </div>
+        
+        <div class="cart-body" style="flex: 1; overflow-y: auto; padding: 1.5rem;">
+            <div class="empty-cart" style="text-align: center; color: var(--text-light);">
+                <i class="fas fa-shopping-cart" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.3;"></i>
+                <p>Your cart is empty</p>
+                <p style="font-size: 0.9rem; opacity: 0.7;">Add some coffee and come back!</p>
+            </div>
+            <div class="cart-items"></div>
+        </div>
+        
+        <div class="cart-footer" style="padding: 1.5rem; border-top: 1px solid var(--border); background: var(--bg-light);">
+            <div class="cart-subtotal" style="display: flex; justify-content: space-between; margin-bottom: 1rem; font-size: 1.1rem;">
+                <span>Subtotal</span>
+                <span class="cart-total-amount" style="font-weight: 600;">$0.00</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; text-align: center;">Shipping & taxes calculated at checkout</p>
+            <button id="checkout-btn" class="btn btn-primary" style="width: 100%; padding: 1rem; font-size: 1.1rem;" disabled>
+                Checkout <i class="fas fa-arrow-right"></i>
+            </button>
+            <div style="text-align: center; margin-top: 1rem;">
+                <i class="fab fa-cc-stripe" style="font-size: 1.5rem; color: var(--text-muted); margin: 0 0.5rem;"></i>
+                <i class="fab fa-cc-visa" style="font-size: 1.5rem; color: var(--text-muted); margin: 0 0.5rem;"></i>
+                <i class="fab fa-cc-mastercard" style="font-size: 1.5rem; color: var(--text-muted); margin: 0 0.5rem;"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Menu Filter Functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                productCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 50);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

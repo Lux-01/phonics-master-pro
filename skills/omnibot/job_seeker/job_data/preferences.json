@@ -1,0 +1,26 @@
+{
+  "skills": [
+    "python",
+    "web development",
+    "automation",
+    "wordpress",
+    "api",
+    "selenium",
+    "data entry"
+  ],
+  "min_hourly_rate": 50,
+  "min_project_budget": 200,
+  "preferred_job_types": [
+    "freelance",
+    "contract"
+  ],
+  "excluded_keywords": [
+    "unpaid",
+    "internship",
+    "equity only"
+  ],
+  "platforms": [
+    "airtasker"
+  ],
+  "remote_only": true
+}

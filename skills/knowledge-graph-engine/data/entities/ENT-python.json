@@ -1,0 +1,12 @@
+{
+  "id": "ENT-python",
+  "type": "technology",
+  "name": "Python",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "language",
+    "programming"
+  ],
+  "created": "2026-03-20T04:52:13.794300"
+}

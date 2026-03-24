@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-03-18T04:35:24.274158",
+    "event_type": "decision_outcome",
+    "data": {
+      "decision_id": "d79f402b797a",
+      "decision": "Test trading strategy",
+      "rationale": "Based on historical pattern analysis",
+      "expected": "Positive returns",
+      "actual": "success",
+      "impact_score": 4,
+      "aligned": true,
+      "recorded_at": "2026-03-18T04:35:24.268121",
+      "notes": "Strategy performed well"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "signal_id": "SIG-20260320-015243-EHiXCnYm",
+    "timestamp": "2026-03-20T01:52:43.419801",
+    "token": {
+      "ca": "EHiXCnYmqc2bb1gLKdpWV6kwA1um9uW1zSP5JkC7pump",
+      "name": "ALIENS"
+    },
+    "scanner": {
+      "version": "v5.4",
+      "grade": "A \u2705",
+      "score": 15
+    },
+    "metrics": {
+      "age_hours": 0.2,
+      "top10_pct": 27.4,
+      "mcap": 71855,
+      "liq": 21624,
+      "vol24": 176085
+    },
+    "outcome": {
+      "status": "RUG",
+      "profit_pct": null,
+      "time_to_outcome_hours": 1.0677777777777778e-06,
+      "lesson": "Age < 30min = high rug risk"
+    }
+  }
+]

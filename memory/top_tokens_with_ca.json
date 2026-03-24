@@ -1,0 +1,71 @@
+{
+  "scan_time": "2026-03-20T23:08:00",
+  "tokens": [
+    {
+      "symbol": "Solana",
+      "ca": "De4ULouuU2cAQkhKuYrsrFtJGRRmcSwQD5esmnAUpump",
+      "grade": "A",
+      "score": 10,
+      "mcap": 233366,
+      "liq": 45368.26,
+      "vol": 497468.65,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/ggzbfpktozv6hyiahkh2ynvzbzsja4pcetcmjntgexim"
+    },
+    {
+      "symbol": "Spiderman",
+      "ca": "ASwb21az441NXoGP524CHnjnSKYdCpzpqsHoaDi5pump",
+      "grade": "A",
+      "score": 10,
+      "mcap": 135242,
+      "liq": 30625.63,
+      "vol": 560432.75,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/3jg6jgit7axpe85ucjknng533dr7dj3vxytyzaftrvun"
+    },
+    {
+      "symbol": "WhiteHouse",
+      "ca": "7oXNE1dbpHUp6dn1JF8pRgCtzfCy4P2FuBneWjZHpump",
+      "grade": "A",
+      "score": 10,
+      "mcap": 311946,
+      "liq": 72956.36,
+      "vol": 142593.56,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/ephw3pf79sd7dbssrmx9wc1btisjfkng7vndwg7mjx4i"
+    },
+    {
+      "symbol": "PFP",
+      "ca": "5TfqNKZbn9AnNtzq8bbkyhKgcPGTfNDc9wNzFrTBpump",
+      "grade": "B",
+      "score": 8,
+      "mcap": 577235,
+      "liq": 111491.63,
+      "vol": 2913.92,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/gdfcd7l8x1giudfz1wthnheb352k3ni37rswtjgmglpt"
+    },
+    {
+      "symbol": "Grandma",
+      "ca": "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump",
+      "grade": "B",
+      "score": 8,
+      "mcap": 384717,
+      "liq": 79019.22,
+      "vol": 24326.61,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/8vgsczewcxwmurtrfvsxungxhnvoeymmkh4hyqowgobc"
+    },
+    {
+      "symbol": "RYS",
+      "ca": "8gHPxqgHj6JQ2sQtMSghQYVN5qRP8wm5T6HNejuwpump",
+      "grade": "B",
+      "score": 8,
+      "mcap": 337006,
+      "liq": 94294.87,
+      "vol": 1722.6,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/bux9tn5doe5hcqpcmqmkykidxc8zgbk5whhkujdaabiq"
+    }
+  ]
+}

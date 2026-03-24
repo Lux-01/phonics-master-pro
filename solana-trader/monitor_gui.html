@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swing Trader Monitor v2.3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        /* Header with Status Light */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(255,255,255,0.1);
+        }
+        
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .title h1 {
+            font-size: 28px;
+            background: linear-gradient(135deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .version {
+            font-size: 12px;
+            color: #666;
+            background: rgba(255,255,255,0.1);
+            padding: 3px 10px;
+            border-radius: 15px;
+        }
+        
+        .status-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0,0,0,0.3);
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+        
+        .status-light {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #ff4444;
+            box-shadow: 0 0 10px #ff4444, 0 0 20px #ff4444;
+            animation: pulse-red 2s infinite;
+        }
+        
+        .status-light.active {
+            background: #00ff88;
+            box-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+            animation: pulse-green 2s infinite;
+        }
+        
+        @keyframes pulse-red {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+        
+        @keyframes pulse-green {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.1); }
+        }
+        
+        .status-text {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        /* Circuit Breaker Banner */
+        .circuit-breaker {
+            background: linear-gradient(135deg, rgba(255,68,68,0.2), rgba(170,0,255,0.2));
+            border: 2px solid #ff4444;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            display: none;
+        }
+        
+        .circuit-breaker.active {
+            display: block;
+            animation: pulse-border 2s infinite;
+        }
+        
+        @keyframes pulse-border {
+            0%, 100% { border-color: #ff4444; }
+            50% { border-color: #ff8888; }
+        }
+        
+        .circuit-title {
+            font-size: 24px;
+            color: #ff4444;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .circuit-text {
+            font-size: 16px;
+            color: #ccc;
+        }
+        
+        /* Session Stats Panel */
+        .stats-panel {
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .stats-title {
+            font-size: 14px;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            border: 2px solid transparent;
+        }
+        
+        .stat-card.warning {
+            border-color: #ffaa00;
+            background: rgba(255,170,0,0.1);
+        }
+        
+        .stat-card.danger {
+            border-color: #ff4444;
+            background: rgba(255,68,68,0.1);
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .stat-value.positive { color: #00ff88; }
+        .stat-value.negative { color: #ff4444; }
+        .stat-value.warning { color: #ffaa00; }
+        
+        /* Control Buttons */
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        
+        .btn:active {
+            transform: translateY(-1px);
+        }
+        
+        .btn-start {
+            background: linear-gradient(135deg, #00ff88, #00cc6a);
+            color: #000;
+        }
+        
+        .btn-stop {
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: #fff;
+        }
+        
+        .btn-scale {
+            background: linear-gradient(135deg, #ffaa00, #ff7700);
+            color: #000;
+        }
+        
+        .btn-sell {
+            background: linear-gradient(135deg, #aa00ff, #7700cc);
+            color: #fff;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        /* Main Content Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        /* PnL Display */
+        .pnl-display {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, rgba(0,255,136,0.1), rgba(0,212,255,0.1));
+            border-radius: 15px;
+            margin-bottom: 0;
+        }
+        
+        .pnl-label {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        
+        .pnl-value {
+            font-size: 64px;
+            font-weight: 700;
+        }
+        
+        .pnl-value.positive {
+            color: #00ff88;
+            text-shadow: 0 0 20px rgba(0,255,136,0.5);
+        }
+        
+        .pnl-value.negative {
+            color: #ff4444;
+            text-shadow: 0 0 20px rgba(255,68,68,0.5);
+        }
+        
+        /* Info Panel */
+        .info-panel {
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 25px;
+        }
+        
+        .info-section {
+            margin-bottom: 25px;
+        }
+        
+        .info-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            color: #00d4ff;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0,212,255,0.3);
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .info-item {
+            background: rgba(255,255,255,0.05);
+            padding: 12px;
+            border-radius: 10px;
+            border-left: 3px solid #00d4ff;
+        }
+        
+        .info-label {
+            font-size: 11px;
+            color: #888;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        
+        .info-value {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .info-value.positive { color: #00ff88; }
+        .info-value.negative { color: #ff4444; }
+        .info-value.warning { color: #ffaa00; }
+        
+        /* Triggers Section */
+        .triggers-panel {
+            grid-column: 1 / -1;
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .triggers-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        
+        .trigger-card {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .trigger-card.active {
+            border-color: #00ff88;
+            background: rgba(0,255,136,0.1);
+            box-shadow: 0 0 20px rgba(0,255,136,0.3);
+        }
+        
+        .trigger-card.warning {
+            border-color: #ffaa00;
+            background: rgba(255,170,0,0.1);
+        }
+        
+        .trigger-card.danger {
+            border-color: #ff4444;
+            background: rgba(255,68,68,0.1);
+        }
+        
+        .trigger-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .trigger-label {
+            font-size: 11px;
+            color: #888;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        
+        .trigger-price {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .trigger-status {
+            font-size: 11px;
+            color: #aaa;
+            margin-top: 5px;
+        }
+        
+        /* Blacklist Panel */
+        .blacklist-panel {
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .blacklist-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .blacklist-item {
+            background: rgba(255,68,68,0.2);
+            border: 1px solid rgba(255,68,68,0.5);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+        
+        .blacklist-empty {
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+        }
+        
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .time {
+            font-size: 14px;
+            color: #aaa;
+        }
+        
+        .features {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .feature-tag {
+            background: rgba(0,212,255,0.2);
+            color: #00d4ff;
+            padding: 4px 10px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+        
+        /* Loading overlay */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        
+        .loading.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(0,212,255,0.3);
+            border-top-color: #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* No position state */
+        .no-position {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+        }
+        
+        .no-position-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+        
+        .no-position h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="title">
+                <h1>🤖 Swing Trader</h1>
+                <span class="version">v2.3</span>
+            </div>
+            <div class="status-container">
+                <div class="status-light" id="statusLight"></div>
+                <span class="status-text" id="statusText">STOPPED</span>
+            </div>
+        </div>
+        
+        <!-- Circuit Breaker Banner -->
+        <div class="circuit-breaker" id="circuitBreaker">
+            <div class="circuit-title">🛑 CIRCUIT BREAKER ACTIVE</div>
+            <div class="circuit-text">
+                3 consecutive losses detected<br>
+                Trading paused for <span id="cooldownRemaining">--</span> minutes<br>
+                <small>Protecting capital from bad market conditions</small>
+            </div>
+        </div>
+        
+        <!-- Session Stats -->
+        <div class="stats-panel">
+            <div class="stats-title">📊 Session Performance</div>
+            <div class="stats-grid">
+                <div class="stat-card" id="winsCard">
+                    <div class="stat-label">Wins</div>
+                    <div class="stat-value positive" id="winsCount">0</div>
+                </div>
+                <div class="stat-card" id="lossesCard">
+                    <div class="stat-label">Losses</div>
+                    <div class="stat-value negative" id="lossesCount">0</div>
+                </div>
+                <div class="stat-card" id="consecutiveCard">
+                    <div class="stat-label">Consecutive Losses</div>
+                    <div class="stat-value" id="consecutiveCount">0</div>
+                </div>
+                <div class="stat-card" id="totalCard">
+                    <div class="stat-label">Total Trades</div>
+                    <div class="stat-value" id="totalCount">0</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Control Buttons -->
+        <div class="controls">
+            <button class="btn btn-start" id="btnStart" onclick="startBot()">▶️ Run Bot</button>
+            <button class="btn btn-stop" id="btnStop" onclick="stopBot()">⏹️ Stop Bot</button>
+            <button class="btn btn-scale" id="btnScale" onclick="scalePosition()" disabled>💰 Sell 50%</button>
+            <button class="btn btn-sell" id="btnSell" onclick="sellAll()" disabled>🔴 Sell 100%</button>
+        </div>
+        
+        <!-- Main Content -->
+        <div id="mainContent">
+            <div class="content-grid">
+                <!-- PnL Display -->
+                <div class="pnl-display" id="pnlDisplay">
+                    <div class="pnl-label">CURRENT P&L</div>
+                    <div class="pnl-value" id="pnlValue">--</div>
+                </div>
+                
+                <!-- Position Info -->
+                <div class="info-panel" id="positionInfo">
+                    <div class="info-section">
+                        <div class="section-title">📈 Position Details</div>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <div class="info-label">Token</div>
+                                <div class="info-value" id="tokenName">--</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Entry Price</div>
+                                <div class="info-value" id="entryPrice">--</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Current Price</div>
+                                <div class="info-value" id="currentPrice">--</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Peak Price</div>
+                                <div class="info-value" id="peakPrice">--</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Tokens</div>
+                                <div class="info-value" id="tokenAmount">--</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Scaled</div>
+                                <div class="info-value" id="scaledStatus">--</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Triggers Panel -->
+            <div class="triggers-panel">
+                <div class="section-title">🎯 Bot Thinking / Trade Plan</div>
+                <div class="triggers-grid">
+                    <div class="trigger-card" id="beTrigger">
+                        <div class="trigger-icon">🛡️</div>
+                        <div class="trigger-label">Break-Even</div>
+                        <div class="trigger-price" id="bePrice">--</div>
+                        <div class="trigger-status" id="beStatus">Waiting for +10%</div>
+                    </div>
+                    <div class="trigger-card" id="scaleTrigger">
+                        <div class="trigger-icon">🎯</div>
+                        <div class="trigger-label">Scale Target</div>
+                        <div class="trigger-price" id="scalePrice">--</div>
+                        <div class="trigger-status" id="scaleStatus">Waiting for +20%</div>
+                    </div>
+                    <div class="trigger-card" id="trailTrigger">
+                        <div class="trigger-icon">🔴</div>
+                        <div class="trigger-label">Trailing Stop</div>
+                        <div class="trigger-price" id="trailPrice">--</div>
+                        <div class="trigger-status" id="trailStatus">-10% from peak</div>
+                    </div>
+                    <div class="trigger-card" id="hardStopTrigger">
+                        <div class="trigger-icon">📉</div>
+                        <div class="trigger-label">Hard Stop</div>
+                        <div class="trigger-price" id="hardStopPrice">--</div>
+                        <div class="trigger-status" id="hardStopStatus">-7% or BE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- No Position State -->
+        <div class="no-position" id="noPosition" style="display: none;">
+            <div class="no-position-icon">📭</div>
+            <h3>No Open Position</h3>
+            <p>Bot is scanning for entry signals...</p>
+        </div>
+        
+        <!-- Blacklist Panel -->
+        <div class="blacklist-panel">
+            <div class="section-title">🚫 Token Blacklist</div>
+            <div class="info-label">Recent exits (30 min cooldown)</div>
+            <div class="blacklist-items" id="blacklistItems">
+                <div class="blacklist-empty">No tokens blacklisted</div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="time" id="sydneyTime">Sydney: --:--:--</div>
+            <div class="features">
+                <span class="feature-tag">🛡️ Break-Even</span>
+                <span class="feature-tag">🚫 Blacklist</span>
+                <span class="feature-tag">🛑 Circuit Breaker</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script>
+        // Position data
+        let position = null;
+        let sessionStats = null;
+        let blacklist = {};
+        let currentPrice = 0;
+        let peakPrice = 0;
+        
+        // Fetch bot status
+        async function checkBotStatus() {
+            try {
+                const response = await fetch('/api/bot-status');
+                const data = await response.json();
+                updateStatus(data.running);
+            } catch (e) {
+                updateStatus(false);
+            }
+        }
+        
+        function updateStatus(isRunning) {
+            const light = document.getElementById('statusLight');
+            const text = document.getElementById('statusText');
+            const btnStart = document.getElementById('btnStart');
+            const btnStop = document.getElementById('btnStop');
+            
+            if (isRunning) {
+                light.classList.add('active');
+                text.textContent = 'RUNNING';
+                text.style.color = '#00ff88';
+                btnStart.disabled = true;
+                btnStop.disabled = false;
+            } else {
+                light.classList.remove('active');
+                text.textContent = 'STOPPED';
+                text.style.color = '#ff4444';
+                btnStart.disabled = false;
+                btnStop.disabled = true;
+            }
+        }
+        
+        // Fetch session stats
+        async function fetchSessionStats() {
+            try {
+                const response = await fetch('/api/session-stats');
+                sessionStats = await response.json();
+                updateSessionStats();
+            } catch (e) {}
+        }
+        
+        function updateSessionStats() {
+            if (!sessionStats) return;
+            
+            document.getElementById('winsCount').textContent = sessionStats.totalWins || 0;
+            document.getElementById('lossesCount').textContent = sessionStats.totalLosses || 0;
+            document.getElementById('consecutiveCount').textContent = sessionStats.consecutiveLosses || 0;
+            document.getElementById('totalCount').textContent = (sessionStats.totalWins || 0) + (sessionStats.totalLosses || 0);
+            
+            // Circuit breaker
+            const cbDiv = document.getElementById('circuitBreaker');
+            if (sessionStats.cooldownActive) {
+                cbDiv.classList.add('active');
+                document.getElementById('cooldownRemaining').textContent = sessionStats.cooldownRemaining;
+            } else {
+                cbDiv.classList.remove('active');
+            }
+            
+            // Highlight warning on consecutive losses
+            const consecCard = document.getElementById('consecutiveCard');
+            if (sessionStats.consecutiveLosses >= 2) {
+                consecCard.classList.add('warning');
+            } else {
+                consecCard.classList.remove('warning');
+            }
+            if (sessionStats.consecutiveLosses >= 3) {
+                consecCard.classList.add('danger');
+            } else {
+                consecCard.classList.remove('danger');
+            }
+        }
+        
+        // Fetch blacklist
+        async function fetchBlacklist() {
+            try {
+                const response = await fetch('/api/blacklist');
+                blacklist = await response.json();
+                updateBlacklist();
+            } catch (e) {}
+        }
+        
+        function updateBlacklist() {
+            const container = document.getElementById('blacklistItems');
+            const tokens = Object.keys(blacklist);
+            
+            if (tokens.length === 0) {
+                container.innerHTML = '<div class="blacklist-empty">No tokens blacklisted</div>';
+                return;
+            }
+            
+            container.innerHTML = tokens.map(token => 
+                `<div class="blacklist-item">${token} (${blacklist[token]} min)</div>`
+            ).join('');
+        }
+        
+        // Fetch position
+        async function fetchPosition() {
+            try {
+                const response = await fetch('/api/position');
+                position = await response.json();
+                updateDisplay();
+            } catch (e) {
+                position = null;
+                showNoPosition();
+            }
+        }
+        
+        async function getPrice() {
+            if (!position) return 0;
+            try {
+                const res = await fetch(`https://api.dexscreener.com/latest/dex/tokens/${position.mint}`);
+                const data = await res.json();
+                if (data.pairs && data.pairs[0]) {
+                    return parseFloat(data.pairs[0].priceUsd);
+                }
+            } catch (e) {}
+            return position.entryPrice;
+        }
+        
+        function showNoPosition() {
+            document.getElementById('mainContent').style.display = 'none';
+            document.getElementById('noPosition').style.display = 'block';
+            document.getElementById('btnScale').disabled = true;
+            document.getElementById('btnSell').disabled = true;
+        }
+        
+        function showPosition() {
+            document.getElementById('mainContent').style.display = 'block';
+            document.getElementById('noPosition').style.display = 'none';
+            document.getElementById('btnScale').disabled = false;
+            document.getElementById('btnSell').disabled = false;
+        }
+        
+        async function updateDisplay() {
+            if (!position) {
+                showNoPosition();
+                return;
+            }
+            
+            showPosition();
+            
+            const price = await getPrice();
+            currentPrice = price;
+            
+            if (price > peakPrice) {
+                peakPrice = price;
+            }
+            
+            const entryPrice = position.entryPrice;
+            const pnl = ((price - entryPrice) / entryPrice) * 100;
+            const invested = position.solInvested * 85;
+            const currentValue = position.tokensRemaining * price;
+            
+            // Update PnL
+            const pnlEl = document.getElementById('pnlValue');
+            pnlEl.textContent = (pnl >= 0 ? '+' : '') + pnl.toFixed(2) + '%';
+            pnlEl.className = 'pnl-value ' + (pnl >= 0 ? 'positive' : 'negative');
+            
+            // Update position details
+            document.getElementById('tokenName').textContent = position.token;
+            document.getElementById('entryPrice').textContent = '$' + entryPrice.toFixed(8);
+            document.getElementById('currentPrice').textContent = '$' + price.toFixed(8);
+            document.getElementById('peakPrice').textContent = '$' + (position.peakPrice || peakPrice).toFixed(8);
+            document.getElementById('tokenAmount').textContent = position.tokensRemaining.toFixed(2);
+            document.getElementById('scaledStatus').textContent = position.scaled ? '✅ YES' : '⏳ NO';
+            document.getElementById('scaledStatus').className = 'info-value ' + (position.scaled ? 'positive' : '');
+            
+            // Calculate triggers
+            const beTriggerPrice = entryPrice * 1.10;
+            const beStopPrice = entryPrice * 1.005;
+            const scaleTarget = entryPrice * 1.20;
+            const hardStop = position.beTriggered ? beStopPrice : entryPrice * 0.93;
+            const trailStop = (position.peakPrice || peakPrice) * 0.90;
+            
+            // Update BE trigger card
+            const beCard = document.getElementById('beTrigger');
+            const beActive = pnl >= 10 || position.beTriggered;
+            beCard.className = 'trigger-card ' + (beActive ? 'active' : '');
+            document.getElementById('bePrice').textContent = '$' + beStopPrice.toFixed(8);
+            document.getElementById('beStatus').textContent = beActive 
+                ? '✅ ACTIVE - Protecting entry' 
+                : 'Waiting for +10%';
+            
+            // Update scale card
+            const scaleCard = document.getElementById('scaleTrigger');
+            const scaleActive = pnl >= 20;
+            scaleCard.className = 'trigger-card ' + (scaleActive ? 'active' : '');
+            document.getElementById('scalePrice').textContent = '$' + scaleTarget.toFixed(8);
+            document.getElementById('scaleStatus').textContent = position.scaled
+                ? '✅ COMPLETE'
+                : (scaleActive ? '🔥 HIT! Executing...' : ((pnl/20)*100).toFixed(1) + '% of target');
+            
+            // Update trail stop card
+            const fromPeak = ((price - (position.peakPrice || peakPrice)) / (position.peakPrice || peakPrice)) * 100;
+            const trailCard = document.getElementById('trailTrigger');
+            const trailNear = fromPeak <= -8;
+            const trailActive = fromPeak <= -10;
+            trailCard.className = 'trigger-card ' + (trailActive ? 'danger' : (trailNear ? 'warning' : ''));
+            document.getElementById('trailPrice').textContent = '$' + trailStop.toFixed(8);
+            document.getElementById('trailStatus').textContent = fromPeak.toFixed(1) + '% from peak';
+            
+            // Update hard stop card
+            const hardCard = document.getElementById('hardStopTrigger');
+            const hardNear = pnl <= -5;
+            const hardActive = price <= hardStop;
+            hardCard.className = 'trigger-card ' + (hardActive ? 'danger' : (hardNear ? 'warning' : ''));
+            document.getElementById('hardStopPrice').textContent = '$' + hardStop.toFixed(8);
+            document.getElementById('hardStopStatus').textContent = position.beTriggered
+                ? '🛡️ BE Protected (was -7%)'
+                : '-7% from entry';
+            
+            // Update time
+            const now = new Date().toLocaleString('en-AU', { 
+                timeZone: 'Australia/Sydney',
+                hour12: false 
+            });
+            document.getElementById('sydneyTime').textContent = 'Sydney: ' + now;
+        }
+        
+        // Button actions
+        function startBot() {
+            showLoading();
+            fetch('/api/start-bot', { method: 'POST' })
+                .then(() => checkBotStatus())
+                .finally(() => hideLoading());
+        }
+        
+        function stopBot() {
+            showLoading();
+            fetch('/api/stop-bot', { method: 'POST' })
+                .then(() => checkBotStatus())
+                .finally(() => hideLoading());
+        }
+        
+        function scalePosition() {
+            alert('Scale functionality requires direct bot control. Use the command line: node swing_bot.js');
+        }
+        
+        function sellAll() {
+            if (!confirm('Are you sure you want to sell 100% of the position?')) {
+                return;
+            }
+            alert('Sell functionality requires direct bot control. Use the command line: node swing_bot.js');
+        }
+        
+        function showLoading() {
+            document.getElementById('loading').classList.add('show');
+        }
+        
+        function hideLoading() {
+            document.getElementById('loading').classList.remove('show');
+        }
+        
+        // Initialize
+        async function init() {
+            await checkBotStatus();
+            await fetchSessionStats();
+            await fetchBlacklist();
+            await fetchPosition();
+            updateDisplay();
+        }
+        
+        // Auto refresh
+        init();
+        setInterval(() => {
+            checkBotStatus();
+            fetchSessionStats();
+            fetchBlacklist();
+            fetchPosition();
+            updateDisplay();
+        }, 5000);
+    </script>
+</body>
+</html>

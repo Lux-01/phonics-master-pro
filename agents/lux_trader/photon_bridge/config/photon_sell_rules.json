@@ -1,0 +1,154 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-23",
+  "description": "Default sell rules for LuxTrader ↔ Photon bridge",
+  "wallet": "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5",
+  
+  "default_rules": {
+    "profit_target_1": {
+      "name": "First Profit Target",
+      "trigger": "+15%",
+      "trigger_pct": 0.15,
+      "action": "SELL_50_PERCENT",
+      "sell_pct": 0.50,
+      "move_stop_to_breakeven": true,
+      "order_type": "market",
+      "slippage_bps": 100,
+      "enabled": true,
+      "executed": false,
+      "notes": "Take 50% profit at +15%, move stop to breakeven"
+    },
+    "profit_target_2": {
+      "name": "Second Profit Target",
+      "trigger": "+30%",
+      "trigger_pct": 0.30,
+      "action": "SELL_REMAINING",
+      "sell_pct": 1.00,
+      "requires_tier_1_executed": true,
+      "order_type": "market",
+      "slippage_bps": 150,
+      "enabled": true,
+      "executed": false,
+      "notes": "Sell remaining 50% at +30% for full 22.5% position profit"
+    },
+    "stop_loss": {
+      "name": "Stop Loss",
+      "trigger": "-7%",
+      "trigger_pct": -0.07,
+      "action": "SELL_100_PERCENT",
+      "sell_pct": 1.00,
+      "order_type": "market",
+      "slippage_bps": 200,
+      "enabled": true,
+      "executed": false,
+      "notes": "Hard stop at -7% to protect capital"
+    },
+    "time_stop": {
+      "name": "Time-Based Exit",
+      "trigger": "4_hours",
+      "trigger_hours": 4,
+      "action": "SELL_100_PERCENT",
+      "sell_pct": 1.00,
+      "order_type": "market",
+      "slippage_bps": 100,
+      "enabled": true,
+      "executed": false,
+      "notes": "Exit after 4 hours max hold time"
+    },
+    "emergency_rug": {
+      "name": "Emergency Rug Detection",
+      "trigger": "rug_detected",
+      "action": "SELL_100_PERCENT_IMMEDIATE",
+      "sell_pct": 1.00,
+      "order_type": "market",
+      "slippage_bps": 500,
+      "enabled": true,
+      "executed": false,
+      "notes": "Emergency exit on rug pull signals"
+    }
+  },
+  
+  "advanced": {
+    "trailing_stop": {
+      "enabled": false,
+      "activation_pct": 0.20,
+      "trailing_percentage": 0.10,
+      "description": "Activate trailing stop after +20% profit, trail at 10%"
+    },
+    "copy_whale_sells": {
+      "enabled": false,
+      "whale_threshold_sol": 100,
+      "copy_action": "SELL_50_PERCENT",
+      "description": "Monitor tracked whale wallets and copy their sells"
+    },
+    "momentum_protection": {
+      "enabled": true,
+      "price_drop_pct": -0.20,
+      "action": "ALERT_AND_HODL",
+      "description": "If price drops 20% quickly, alert but don't sell (prevent panic dumps)"
+    },
+    "volume_watch": {
+      "enabled": true,
+      "volume_drop_threshold": 0.50,
+      "timeframe_hours": 1,
+      "action": "ALERT",
+      "description": "Alert if volume drops 50% in 1 hour (momentum loss warning)"
+    }
+  },
+  
+  "stage_config": {
+    "stage_9_semi_auto": {
+      "require_approval_for_sell": false,
+      "auto_execute_rules": true,
+      "max_concurrent_positions": 5,
+      "description": "Photon rules active, automatic execution"
+    },
+    "stage_10_full_auto": {
+      "require_approval_for_sell": false,
+      "auto_execute_rules": true,
+      "max_concurrent_positions": 10,
+      "description": "Fully autonomous, Photon handles all exits"
+    },
+    "virtual_trading": {
+      "enabled": true,
+      "simulate_execution": true,
+      "log_to_file": true,
+      "description": "Simulate Photon sells without real execution"
+    }
+  },
+  
+  "position_sizing": {
+    "base_position_sol": 0.01,
+    "max_position_sol": 0.02,
+    "grade_a_plus_multiplier": 1.0,
+    "grade_a_multiplier": 0.8,
+    "grade_b_plus_multiplier": 0.5,
+    "description": "Position sizing by grade"
+  },
+  
+  "risk_management": {
+    "max_daily_trades": 5,
+    "max_daily_loss_sol": 0.1,
+    "max_concurrent_positions": 5,
+    "cooldown_between_trades_minutes": 5,
+    "circuit_breaker_loss_pct": -0.20,
+    "description": "Risk limits for trading session"
+  },
+  
+  "execution": {
+    "photon_fee_pct": 0.5,
+    "jupiter_fallback": true,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 2,
+    "timeout_seconds": 30,
+    "description": "Execution settings and fallbacks"
+  },
+  
+  "logging": {
+    "log_all_trades": true,
+    "log_file": "photon_bridge_trades.jsonl",
+    "performance_file": "photon_performance.json",
+    "alert_on_execution": true,
+    "description": "Logging configuration"
+  }
+}

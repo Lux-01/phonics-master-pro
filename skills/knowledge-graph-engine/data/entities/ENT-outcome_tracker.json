@@ -1,0 +1,12 @@
+{
+  "id": "ENT-outcome_tracker",
+  "type": "skill",
+  "name": "Outcome Tracker",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "tracking",
+    "outcomes"
+  ],
+  "created": "2026-03-20T04:52:13.780455"
+}

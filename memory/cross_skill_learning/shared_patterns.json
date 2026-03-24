@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pattern_1774099478.943282",
+    "source_skill": "pattern-extractor",
+    "pattern": {
+      "name": "volume_spike_entry",
+      "confidence": 0.85
+    },
+    "applicable_skills": [
+      "autonomous-trading-strategist",
+      "aoe"
+    ],
+    "timestamp": "2026-03-22T00:24:38.943290",
+    "adoptions": []
+  }
+]

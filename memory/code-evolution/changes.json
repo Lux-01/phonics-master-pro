@@ -1,0 +1,22 @@
+[
+  {
+    "file_path": "/test/file.py",
+    "change_type": "refactor",
+    "description": "Test refactor",
+    "before_hash": "",
+    "after_hash": "",
+    "improvements": [],
+    "performance_gain": 0.0,
+    "timestamp": "2026-03-09T04:12:02.149818"
+  },
+  {
+    "file_path": "/test/file.py",
+    "change_type": "optimize",
+    "description": "Test optimize",
+    "before_hash": "",
+    "after_hash": "",
+    "improvements": [],
+    "performance_gain": 15.5,
+    "timestamp": "2026-03-09T04:12:02.151668"
+  }
+]

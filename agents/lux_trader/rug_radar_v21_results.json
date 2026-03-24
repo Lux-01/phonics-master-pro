@@ -1,0 +1,10 @@
+{
+  "strategy": "Rug-Radar v2.1",
+  "version": "2.1",
+  "start": 1.0,
+  "end": 30.85658764967188,
+  "multiplier": 30.85658764967188,
+  "trades": 128,
+  "wins": 105,
+  "rugs": 4
+}

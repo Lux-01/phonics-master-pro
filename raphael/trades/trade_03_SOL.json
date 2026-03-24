@@ -1,0 +1,27 @@
+{
+  "trade_num": 3,
+  "timestamp": "2026-02-23T23:15:00.256170",
+  "sydney_time": "2026-02-23 23:15",
+  "token": "SOL",
+  "mint": "So11111111111111111111111111111111111111112",
+  "grade": "A+",
+  "entry_price": 80.05,
+  "exit_price": 75.5432,
+  "size_sol": 0.01,
+  "slippage_bps": 100,
+  "rules_passed": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    10,
+    22
+  ],
+  "tx_signature": "SIM_TX_3_1771848900",
+  "pnl_pct": -5.63,
+  "pnl_sol": -0.000563,
+  "duration_min": 23,
+  "status": "COMPLETED",
+  "balance_after": 1.0009
+}

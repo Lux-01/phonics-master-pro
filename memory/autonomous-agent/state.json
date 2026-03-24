@@ -1,0 +1,150 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-03-08T17:32:51.380251",
+  "tasks": {
+    "ad2be127": {
+      "id": "ad2be127",
+      "description": "Low priority",
+      "status": "TaskStatus.PENDING",
+      "priority": 5,
+      "created_at": "2026-03-08T17:32:51.375480",
+      "started_at": null,
+      "completed_at": null,
+      "attempts": 0,
+      "max_attempts": 3,
+      "context": {},
+      "observation": {},
+      "orientation": {},
+      "decision": {},
+      "action_result": {},
+      "error": null,
+      "parent_id": null,
+      "subtasks": []
+    },
+    "ef3a66e4": {
+      "id": "ef3a66e4",
+      "description": "High priority",
+      "status": "TaskStatus.PENDING",
+      "priority": 1,
+      "created_at": "2026-03-08T17:32:51.377532",
+      "started_at": null,
+      "completed_at": null,
+      "attempts": 0,
+      "max_attempts": 3,
+      "context": {},
+      "observation": {},
+      "orientation": {},
+      "decision": {},
+      "action_result": {},
+      "error": null,
+      "parent_id": null,
+      "subtasks": []
+    },
+    "2bd89a0c": {
+      "id": "2bd89a0c",
+      "description": "Medium priority",
+      "status": "TaskStatus.PENDING",
+      "priority": 3,
+      "created_at": "2026-03-08T17:32:51.379423",
+      "started_at": null,
+      "completed_at": null,
+      "attempts": 0,
+      "max_attempts": 3,
+      "context": {},
+      "observation": {},
+      "orientation": {},
+      "decision": {},
+      "action_result": {},
+      "error": null,
+      "parent_id": null,
+      "subtasks": []
+    }
+  },
+  "task_queue": [
+    "ef3a66e4",
+    "2bd89a0c",
+    "ad2be127"
+  ],
+  "completed_tasks": [],
+  "failed_tasks": [],
+  "current_task": null,
+  "metrics": {
+    "tasks_completed": 0,
+    "tasks_failed": 0,
+    "avg_completion_time": 0.0,
+    "success_rate": 1.0,
+    "total_cycles": 1
+  },
+  "event_log": [
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.360105",
+      "data": {
+        "task_id": "8fda0d36",
+        "description": "Test task"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.362194",
+      "data": {
+        "task_id": "b977b23f",
+        "description": "OODA test"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.364347",
+      "data": {
+        "task_id": "2bb5db2c",
+        "description": "Persistence test"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.367048",
+      "data": {
+        "task_id": "13f49319",
+        "description": "Recovery test"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.370174",
+      "data": {
+        "task_id": "7b9999a2",
+        "description": "Metrics test"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.376313",
+      "data": {
+        "task_id": "ad2be127",
+        "description": "Low priority"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.378348",
+      "data": {
+        "task_id": "ef3a66e4",
+        "description": "High priority"
+      }
+    },
+    {
+      "type": "task_created",
+      "timestamp": "2026-03-08T17:32:51.380198",
+      "data": {
+        "task_id": "2bd89a0c",
+        "description": "Medium priority"
+      }
+    }
+  ],
+  "config": {
+    "auto_retry": true,
+    "escalation_threshold": 3,
+    "max_concurrent": 5,
+    "log_level": "INFO"
+  }
+}

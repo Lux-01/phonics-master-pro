@@ -1,0 +1,13 @@
+{
+  "strategy": "Whale Tracker v2.2",
+  "version": "2.2",
+  "improvements": [
+    "50% on A+",
+    "Multi-exit",
+    "Score 8+"
+  ],
+  "start": 1.0,
+  "end": 29.35907397467029,
+  "multiplier": 29.35907397467029,
+  "trades": 65
+}

@@ -1,0 +1,82 @@
+OPENCLAW INSTALLER PACKAGE
+===========================
+
+For: cjalloh64@gmail.com
+Date: March 13, 2026
+
+CONTENTS:
+---------
+1. INSTALL-OPENCLAW.bat       - Main installer launcher
+2. openclaw-windows-installer.ps1  - PowerShell installation script
+3. INSTALLATION-GUIDE.md      - Full installation guide
+4. README.md                  - Quick start
+
+WHAT THIS INSTALLS:
+-------------------
+- WSL2 (Windows Subsystem for Linux 2)
+- Ubuntu 22.04
+- Node.js 22
+- Ollama AI server
+- Kimi-K2.5 AI model (~4GB)
+- OpenClaw gateway
+
+INSTALLATION (EASY METHOD):
+----------------------------
+
+1. Extract this ZIP file to a folder (e.g., Desktop\openclaw-install)
+
+2. Right-click on INSTALL-OPENCLAW.bat
+   → Select "Run as administrator"
+
+3. Wait 20-30 minutes for installation
+   → Reboot when prompted
+
+4. After reboot, run Terminal/WSL and type:
+   → openclaw
+
+5. Open browser: http://localhost:3000
+
+FOR FULL GUIDE: See INSTALLATION-GUIDE.md
+
+---
+
+UNINSTALLING LINUX (If needed):
+-------------------------------
+
+To REMOVE WSL2/Linux from your system:
+
+1. Open PowerShell as Administrator
+2. Run these commands ONE BY ONE:
+
+   # Uninstall Ubuntu
+   wsl --unregister Ubuntu-22.04
+
+   # Turn off WSL
+   wsl --shutdown
+   dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux /norestart
+
+   # Turn off Virtual Machine Platform
+   dism.exe /online /disable-feature /featurename:VirtualMachinePlatform /norestart
+
+   # Remove WSL kernel
+   wsl --update --rollback
+
+3. Restart your computer
+
+4. To free up space (optional):
+   - Delete C:\Users\YOURNAME\AppData\Local\Packages\Ubuntu*
+   - Delete C:\Users\YOURNAME\.openclaw\ (if exists)
+
+This completely removes Linux from your Windows PC.
+
+---
+
+TECHNICAL SUPPORT:
+------------------
+- Docs: https://docs.openclaw.ai
+- Discord: https://discord.com/invite/clawd
+- Check logs: ~/.openclaw/logs/
+
+Questions? Ask your coworker who sent this!
+
+Happy AI-ing! 🤖

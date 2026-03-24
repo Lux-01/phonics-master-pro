@@ -1,0 +1,258 @@
+{
+  "demo_version": "v3.1",
+  "timestamp": "2026-03-23T10:24:52.192154",
+  "results": [
+    {
+      "token": "BONK_REAL",
+      "description": "Real organic holder base",
+      "base_score": 13,
+      "penalty": 0,
+      "final_score": 13,
+      "blocked": false,
+      "flags": [],
+      "details": {
+        "age_variance": {
+          "flagged": false,
+          "variance_hours": 7540537.702689196,
+          "penalty": 0,
+          "wallet_count": 35,
+          "median_age_hours": 488099.07163486
+        },
+        "micro_buys": {
+          "flagged": false,
+          "avg_buy_usd": 103.09,
+          "min_buy_usd": 16.202270540441287,
+          "max_buy_usd": 199.71407155807182,
+          "buy_count": 108,
+          "penalty": 0
+        },
+        "funding": {
+          "flagged": false,
+          "common_source": null,
+          "common_funding_pct": 25.7,
+          "wallets_funded": 9,
+          "total_wallets": 35,
+          "penalty": 0
+        },
+        "timing": {
+          "flagged": false,
+          "cv": 1.195,
+          "severity": "low",
+          "mean_interval_sec": 33.6,
+          "sample_intervals": [
+            11.99930477142334,
+            22.00066590309143,
+            4.99837327003479,
+            19.002136707305908,
+            13.998784303665161
+          ],
+          "penalty": 0
+        }
+      }
+    },
+    {
+      "token": "SUSHI_BOT",
+      "description": "Mixed: 40 shell wallets with micro-buys + 15 real",
+      "base_score": 10,
+      "penalty": -5,
+      "final_score": 5,
+      "blocked": false,
+      "flags": [
+        "common_funding"
+      ],
+      "details": {
+        "age_variance": {
+          "flagged": false,
+          "variance_hours": 4133355.0336565645,
+          "penalty": 0,
+          "wallet_count": 55,
+          "median_age_hours": 491875.44146222965
+        },
+        "micro_buys": {
+          "flagged": false,
+          "avg_buy_usd": 55.82,
+          "min_buy_usd": 1.0390639134754542,
+          "max_buy_usd": 197.0112050302142,
+          "buy_count": 91,
+          "penalty": 0
+        },
+        "funding": {
+          "flagged": true,
+          "common_source": "DEV_FUND_WALLET_1",
+          "common_funding_pct": 72.7,
+          "wallets_funded": 40,
+          "total_wallets": 55,
+          "penalty": -5
+        },
+        "timing": {
+          "flagged": false,
+          "cv": 1.565,
+          "severity": "low",
+          "mean_interval_sec": 38.0,
+          "sample_intervals": [
+            11.999998331069946,
+            5.000129222869873,
+            7.9999778270721436,
+            38.999945402145386,
+            94.00003337860107
+          ],
+          "penalty": 0
+        }
+      }
+    },
+    {
+      "token": "FAKE_CLUSTER",
+      "description": "Full shell cluster: 60 bot wallets",
+      "base_score": 9,
+      "penalty": -12,
+      "final_score": 0,
+      "blocked": true,
+      "flags": [
+        "cluster_age",
+        "micro_buys",
+        "common_funding"
+      ],
+      "details": {
+        "age_variance": {
+          "flagged": true,
+          "variance_hours": 0.021966729442380564,
+          "penalty": -4,
+          "wallet_count": 60,
+          "median_age_hours": 492837.6656042983
+        },
+        "micro_buys": {
+          "flagged": true,
+          "avg_buy_usd": 2.65,
+          "min_buy_usd": 1.0979195661427728,
+          "max_buy_usd": 3.998717250632354,
+          "buy_count": 115,
+          "penalty": -3
+        },
+        "funding": {
+          "flagged": true,
+          "common_source": "DEV_FUND_WALLET_1",
+          "common_funding_pct": 100.0,
+          "wallets_funded": 60,
+          "total_wallets": 60,
+          "penalty": -5
+        },
+        "timing": {
+          "flagged": false,
+          "cv": 0.879,
+          "severity": "low",
+          "mean_interval_sec": 31.0,
+          "sample_intervals": [
+            57.0,
+            3.0,
+            1.0,
+            53.0,
+            1.0
+          ],
+          "penalty": 0
+        }
+      }
+    },
+    {
+      "token": "MIXED_OK",
+      "description": "Mostly organic with 15 suspicious wallets",
+      "base_score": 13,
+      "penalty": 0,
+      "final_score": 13,
+      "blocked": false,
+      "flags": [],
+      "details": {
+        "age_variance": {
+          "flagged": false,
+          "variance_hours": 10646100.604491893,
+          "penalty": 0,
+          "wallet_count": 60,
+          "median_age_hours": 489105.43477212056
+        },
+        "micro_buys": {
+          "flagged": false,
+          "avg_buy_usd": 82.17,
+          "min_buy_usd": 1.0417559653027035,
+          "max_buy_usd": 199.00613483427085,
+          "buy_count": 177,
+          "penalty": 0
+        },
+        "funding": {
+          "flagged": false,
+          "common_source": null,
+          "common_funding_pct": 25.0,
+          "wallets_funded": 15,
+          "total_wallets": 60,
+          "penalty": 0
+        },
+        "timing": {
+          "flagged": false,
+          "cv": 5.126,
+          "severity": "low",
+          "mean_interval_sec": 40.8,
+          "sample_intervals": [
+            4.0,
+            58.0,
+            0.0,
+            1.0,
+            59.0
+          ],
+          "penalty": 0
+        }
+      }
+    },
+    {
+      "token": "BULL_RUNNER",
+      "description": "Perfect organic token",
+      "base_score": 13,
+      "penalty": 0,
+      "final_score": 13,
+      "blocked": false,
+      "flags": [],
+      "details": {
+        "age_variance": {
+          "flagged": false,
+          "variance_hours": 5763648.330397024,
+          "penalty": 0,
+          "wallet_count": 50,
+          "median_age_hours": 488043.834495081
+        },
+        "micro_buys": {
+          "flagged": false,
+          "avg_buy_usd": 106.97,
+          "min_buy_usd": 18.51571870852952,
+          "max_buy_usd": 199.49354474426272,
+          "buy_count": 158,
+          "penalty": 0
+        },
+        "funding": {
+          "flagged": false,
+          "common_source": null,
+          "common_funding_pct": 16.0,
+          "wallets_funded": 8,
+          "total_wallets": 50,
+          "penalty": 0
+        },
+        "timing": {
+          "flagged": false,
+          "cv": 1.053,
+          "severity": "low",
+          "mean_interval_sec": 22.7,
+          "sample_intervals": [
+            18.998517274856567,
+            12.000913143157959,
+            5.999281406402588,
+            13.00005555152893,
+            55.00089931488037
+          ],
+          "penalty": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "blocked": 1,
+    "flagged": 2,
+    "clean": 3
+  }
+}

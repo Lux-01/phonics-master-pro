@@ -1,0 +1,2958 @@
+{
+  "strategy": "Skylar Final Rules Test v2.0",
+  "evolved_from": "5-month balance test",
+  "rules_applied": [
+    "Wait for 2 green candles before entry (128x proven)",
+    "Exit at +15% - don't wait for more (86x proven)",
+    "Enter within first 6 hours (49x proven)",
+    "Prefer coins under $18-20k cap (10x total)"
+  ],
+  "duration_days": 30,
+  "starting_balance": 1.0,
+  "final_balance": 3.8533,
+  "profit_sol": 2.8533,
+  "roi_pct": 285.33,
+  "total_trades": 136,
+  "wins": 115,
+  "losses": 21,
+  "win_rate": 84.56,
+  "peak_balance": 3.8763,
+  "max_drawdown_pct": 1.8,
+  "opportunities_seen": 154,
+  "opportunities_taken": 136,
+  "selectivity_pct": 88.3,
+  "trades": [
+    {
+      "trade_num": 1,
+      "symbol": "BETA2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1,
+      "pnl_pct": 9.31,
+      "pnl_sol": 0.0093,
+      "balance_before": 1.0,
+      "balance_after": 1.0093,
+      "total_return_pct": 0.93,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 2,
+      "symbol": "ELONAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1009,
+      "pnl_pct": 9.94,
+      "pnl_sol": 0.01,
+      "balance_before": 1.0093,
+      "balance_after": 1.0193,
+      "total_return_pct": 1.93,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 3,
+      "symbol": "CHAD2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1019,
+      "pnl_pct": 9.51,
+      "pnl_sol": 0.0097,
+      "balance_before": 1.0193,
+      "balance_after": 1.029,
+      "total_return_pct": 2.9,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 4,
+      "symbol": "MOG",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1029,
+      "pnl_pct": -5.01,
+      "pnl_sol": -0.0052,
+      "balance_before": 1.029,
+      "balance_after": 1.0239,
+      "total_return_pct": 2.39,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 5,
+      "symbol": "BETA",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1024,
+      "pnl_pct": 14.27,
+      "pnl_sol": 0.0146,
+      "balance_before": 1.0239,
+      "balance_after": 1.0385,
+      "total_return_pct": 3.85,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 6,
+      "symbol": "TRENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1038,
+      "pnl_pct": 13.22,
+      "pnl_sol": 0.0137,
+      "balance_before": 1.0385,
+      "balance_after": 1.0522,
+      "total_return_pct": 5.22,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 1,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 7,
+      "symbol": "MOONS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1052,
+      "pnl_pct": 8.59,
+      "pnl_sol": 0.009,
+      "balance_before": 1.0522,
+      "balance_after": 1.0613,
+      "total_return_pct": 6.13,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 8,
+      "symbol": "TRENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1061,
+      "pnl_pct": 11.82,
+      "pnl_sol": 0.0125,
+      "balance_before": 1.0613,
+      "balance_after": 1.0738,
+      "total_return_pct": 7.38,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 9,
+      "symbol": "CATS",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1074,
+      "pnl_pct": -3.17,
+      "pnl_sol": -0.0034,
+      "balance_before": 1.0738,
+      "balance_after": 1.0704,
+      "total_return_pct": 7.04,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 10,
+      "symbol": "BETA",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.107,
+      "pnl_pct": 13.14,
+      "pnl_sol": 0.0141,
+      "balance_before": 1.0704,
+      "balance_after": 1.0845,
+      "total_return_pct": 8.45,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 11,
+      "symbol": "GIGA",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1084,
+      "pnl_pct": 10.63,
+      "pnl_sol": 0.0115,
+      "balance_before": 1.0845,
+      "balance_after": 1.096,
+      "total_return_pct": 9.6,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 12,
+      "symbol": "MOG2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1096,
+      "pnl_pct": 14.17,
+      "pnl_sol": 0.0155,
+      "balance_before": 1.096,
+      "balance_after": 1.1115,
+      "total_return_pct": 11.15,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 13,
+      "symbol": "SHIBX",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.1112,
+      "pnl_pct": 13.94,
+      "pnl_sol": 0.0155,
+      "balance_before": 1.1115,
+      "balance_after": 1.127,
+      "total_return_pct": 12.7,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 2,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 14,
+      "symbol": "CAT",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1127,
+      "pnl_pct": 13.43,
+      "pnl_sol": 0.0151,
+      "balance_before": 1.127,
+      "balance_after": 1.1421,
+      "total_return_pct": 14.21,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 15,
+      "symbol": "SHIBX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1142,
+      "pnl_pct": 12.87,
+      "pnl_sol": 0.0147,
+      "balance_before": 1.1421,
+      "balance_after": 1.1569,
+      "total_return_pct": 15.69,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 16,
+      "symbol": "MEME",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1157,
+      "pnl_pct": 9.19,
+      "pnl_sol": 0.0106,
+      "balance_before": 1.1569,
+      "balance_after": 1.1675,
+      "total_return_pct": 16.75,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 17,
+      "symbol": "CAT2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1167,
+      "pnl_pct": 10.34,
+      "pnl_sol": 0.0121,
+      "balance_before": 1.1675,
+      "balance_after": 1.1796,
+      "total_return_pct": 17.96,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 18,
+      "symbol": "MEME",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.118,
+      "pnl_pct": -3.38,
+      "pnl_sol": -0.004,
+      "balance_before": 1.1796,
+      "balance_after": 1.1756,
+      "total_return_pct": 17.56,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 19,
+      "symbol": "SIGMA2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1176,
+      "pnl_pct": 10.52,
+      "pnl_sol": 0.0124,
+      "balance_before": 1.1756,
+      "balance_after": 1.1879,
+      "total_return_pct": 18.79,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 3,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 20,
+      "symbol": "APE2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1188,
+      "pnl_pct": 8.9,
+      "pnl_sol": 0.0106,
+      "balance_before": 1.1879,
+      "balance_after": 1.1985,
+      "total_return_pct": 19.85,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 21,
+      "symbol": "BETAX",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.1199,
+      "pnl_pct": 9.62,
+      "pnl_sol": 0.0115,
+      "balance_before": 1.1985,
+      "balance_after": 1.21,
+      "total_return_pct": 21.0,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 22,
+      "symbol": "POPC",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.121,
+      "pnl_pct": 17.48,
+      "pnl_sol": 0.0212,
+      "balance_before": 1.21,
+      "balance_after": 1.2312,
+      "total_return_pct": 23.12,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 23,
+      "symbol": "PEPEAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1231,
+      "pnl_pct": 13.14,
+      "pnl_sol": 0.0162,
+      "balance_before": 1.2312,
+      "balance_after": 1.2474,
+      "total_return_pct": 24.74,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 24,
+      "symbol": "DEGEN2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1247,
+      "pnl_pct": 16.91,
+      "pnl_sol": 0.0211,
+      "balance_before": 1.2474,
+      "balance_after": 1.2685,
+      "total_return_pct": 26.85,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 25,
+      "symbol": "FLOKIS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1268,
+      "pnl_pct": 15.16,
+      "pnl_sol": 0.0192,
+      "balance_before": 1.2685,
+      "balance_after": 1.2877,
+      "total_return_pct": 28.77,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 26,
+      "symbol": "DOGEX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1288,
+      "pnl_pct": 14.45,
+      "pnl_sol": 0.0186,
+      "balance_before": 1.2877,
+      "balance_after": 1.3063,
+      "total_return_pct": 30.63,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 4,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 27,
+      "symbol": "TREN",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1306,
+      "pnl_pct": 12.77,
+      "pnl_sol": 0.0167,
+      "balance_before": 1.3063,
+      "balance_after": 1.323,
+      "total_return_pct": 32.3,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 5,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 28,
+      "symbol": "CAT",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1323,
+      "pnl_pct": -4.56,
+      "pnl_sol": -0.006,
+      "balance_before": 1.323,
+      "balance_after": 1.317,
+      "total_return_pct": 31.7,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 5,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 29,
+      "symbol": "BONK2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1317,
+      "pnl_pct": 9.27,
+      "pnl_sol": 0.0122,
+      "balance_before": 1.317,
+      "balance_after": 1.3292,
+      "total_return_pct": 32.92,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 5,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 30,
+      "symbol": "SIGMAX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1329,
+      "pnl_pct": 11.43,
+      "pnl_sol": 0.0152,
+      "balance_before": 1.3292,
+      "balance_after": 1.3444,
+      "total_return_pct": 34.44,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 5,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 31,
+      "symbol": "WOJAKAI",
+      "grade": "A",
+      "result": "bag_hold",
+      "position_size": 0.1344,
+      "pnl_pct": -10.48,
+      "pnl_sol": -0.0141,
+      "balance_before": 1.3444,
+      "balance_after": 1.3303,
+      "total_return_pct": 33.03,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 5,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 32,
+      "symbol": "POPCS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.133,
+      "pnl_pct": 9.14,
+      "pnl_sol": 0.0122,
+      "balance_before": 1.3303,
+      "balance_after": 1.3424,
+      "total_return_pct": 34.24,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 33,
+      "symbol": "MEMEAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1342,
+      "pnl_pct": 15.74,
+      "pnl_sol": 0.0211,
+      "balance_before": 1.3424,
+      "balance_after": 1.3636,
+      "total_return_pct": 36.36,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 34,
+      "symbol": "MOGAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1364,
+      "pnl_pct": 9.56,
+      "pnl_sol": 0.013,
+      "balance_before": 1.3636,
+      "balance_after": 1.3766,
+      "total_return_pct": 37.66,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 35,
+      "symbol": "POPC2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1377,
+      "pnl_pct": 11.88,
+      "pnl_sol": 0.0164,
+      "balance_before": 1.3766,
+      "balance_after": 1.393,
+      "total_return_pct": 39.3,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 36,
+      "symbol": "MOG",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1393,
+      "pnl_pct": -3.41,
+      "pnl_sol": -0.0047,
+      "balance_before": 1.393,
+      "balance_after": 1.3882,
+      "total_return_pct": 38.82,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 37,
+      "symbol": "SHIBX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1388,
+      "pnl_pct": 12.73,
+      "pnl_sol": 0.0177,
+      "balance_before": 1.3882,
+      "balance_after": 1.4059,
+      "total_return_pct": 40.59,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 6,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 38,
+      "symbol": "MEMES",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1406,
+      "pnl_pct": 11.21,
+      "pnl_sol": 0.0158,
+      "balance_before": 1.4059,
+      "balance_after": 1.4216,
+      "total_return_pct": 42.16,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 39,
+      "symbol": "SHIBS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1422,
+      "pnl_pct": 12.48,
+      "pnl_sol": 0.0177,
+      "balance_before": 1.4216,
+      "balance_after": 1.4394,
+      "total_return_pct": 43.94,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 40,
+      "symbol": "BETA",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1439,
+      "pnl_pct": 8.7,
+      "pnl_sol": 0.0125,
+      "balance_before": 1.4394,
+      "balance_after": 1.4519,
+      "total_return_pct": 45.19,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 41,
+      "symbol": "BETA",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1452,
+      "pnl_pct": 10.05,
+      "pnl_sol": 0.0146,
+      "balance_before": 1.4519,
+      "balance_after": 1.4665,
+      "total_return_pct": 46.65,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 42,
+      "symbol": "WOJAK2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1466,
+      "pnl_pct": 10.22,
+      "pnl_sol": 0.015,
+      "balance_before": 1.4665,
+      "balance_after": 1.4815,
+      "total_return_pct": 48.15,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 43,
+      "symbol": "WOJAKS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1481,
+      "pnl_pct": 10.47,
+      "pnl_sol": 0.0155,
+      "balance_before": 1.4815,
+      "balance_after": 1.497,
+      "total_return_pct": 49.7,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 7,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 44,
+      "symbol": "TRENAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1497,
+      "pnl_pct": 12.16,
+      "pnl_sol": 0.0182,
+      "balance_before": 1.497,
+      "balance_after": 1.5152,
+      "total_return_pct": 51.52,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 8,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 45,
+      "symbol": "GIGAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1515,
+      "pnl_pct": 8.27,
+      "pnl_sol": 0.0125,
+      "balance_before": 1.5152,
+      "balance_after": 1.5277,
+      "total_return_pct": 52.77,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 8,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 46,
+      "symbol": "TREN",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1528,
+      "pnl_pct": 16.56,
+      "pnl_sol": 0.0253,
+      "balance_before": 1.5277,
+      "balance_after": 1.553,
+      "total_return_pct": 55.3,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 8,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 47,
+      "symbol": "DOGE",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1553,
+      "pnl_pct": 11.09,
+      "pnl_sol": 0.0172,
+      "balance_before": 1.553,
+      "balance_after": 1.5702,
+      "total_return_pct": 57.02,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 8,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 48,
+      "symbol": "ELON",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.157,
+      "pnl_pct": 15.65,
+      "pnl_sol": 0.0246,
+      "balance_before": 1.5702,
+      "balance_after": 1.5948,
+      "total_return_pct": 59.48,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 49,
+      "symbol": "ALPHAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1595,
+      "pnl_pct": 11.15,
+      "pnl_sol": 0.0178,
+      "balance_before": 1.5948,
+      "balance_after": 1.6126,
+      "total_return_pct": 61.26,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 50,
+      "symbol": "WOJAKX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1613,
+      "pnl_pct": 17.25,
+      "pnl_sol": 0.0278,
+      "balance_before": 1.6126,
+      "balance_after": 1.6404,
+      "total_return_pct": 64.04,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 51,
+      "symbol": "GIGAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.164,
+      "pnl_pct": 14.67,
+      "pnl_sol": 0.0241,
+      "balance_before": 1.6404,
+      "balance_after": 1.6645,
+      "total_return_pct": 66.45,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 52,
+      "symbol": "BONKS",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1664,
+      "pnl_pct": -5.25,
+      "pnl_sol": -0.0087,
+      "balance_before": 1.6645,
+      "balance_after": 1.6557,
+      "total_return_pct": 65.57,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 53,
+      "symbol": "CAT",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1656,
+      "pnl_pct": 16.96,
+      "pnl_sol": 0.0281,
+      "balance_before": 1.6557,
+      "balance_after": 1.6838,
+      "total_return_pct": 68.38,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 54,
+      "symbol": "ELON2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1684,
+      "pnl_pct": 8.86,
+      "pnl_sol": 0.0149,
+      "balance_before": 1.6838,
+      "balance_after": 1.6987,
+      "total_return_pct": 69.87,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 55,
+      "symbol": "MEME2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1699,
+      "pnl_pct": 15.36,
+      "pnl_sol": 0.0261,
+      "balance_before": 1.6987,
+      "balance_after": 1.7248,
+      "total_return_pct": 72.48,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 9,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 56,
+      "symbol": "FLOKI2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1725,
+      "pnl_pct": 9.73,
+      "pnl_sol": 0.0168,
+      "balance_before": 1.7248,
+      "balance_after": 1.7416,
+      "total_return_pct": 74.16,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 57,
+      "symbol": "CHAD",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1742,
+      "pnl_pct": 13.66,
+      "pnl_sol": 0.0238,
+      "balance_before": 1.7416,
+      "balance_after": 1.7654,
+      "total_return_pct": 76.54,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 58,
+      "symbol": "BONKS",
+      "grade": "A+",
+      "result": "bag_hold",
+      "position_size": 0.1765,
+      "pnl_pct": -13.12,
+      "pnl_sol": -0.0231,
+      "balance_before": 1.7654,
+      "balance_after": 1.7423,
+      "total_return_pct": 74.23,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 59,
+      "symbol": "SIGMAX",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1742,
+      "pnl_pct": -4.95,
+      "pnl_sol": -0.0086,
+      "balance_before": 1.7423,
+      "balance_after": 1.7336,
+      "total_return_pct": 73.36,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 60,
+      "symbol": "MOG",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1734,
+      "pnl_pct": 11.79,
+      "pnl_sol": 0.0204,
+      "balance_before": 1.7336,
+      "balance_after": 1.7541,
+      "total_return_pct": 75.41,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 61,
+      "symbol": "DEGENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1754,
+      "pnl_pct": 11.62,
+      "pnl_sol": 0.0204,
+      "balance_before": 1.7541,
+      "balance_after": 1.7745,
+      "total_return_pct": 77.45,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 10,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 62,
+      "symbol": "CHAD",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1774,
+      "pnl_pct": 8.78,
+      "pnl_sol": 0.0156,
+      "balance_before": 1.7745,
+      "balance_after": 1.7901,
+      "total_return_pct": 79.01,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 11,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 63,
+      "symbol": "ELONS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.179,
+      "pnl_pct": 16.29,
+      "pnl_sol": 0.0292,
+      "balance_before": 1.7901,
+      "balance_after": 1.8192,
+      "total_return_pct": 81.92,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 11,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 64,
+      "symbol": "APES",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1819,
+      "pnl_pct": 17.04,
+      "pnl_sol": 0.031,
+      "balance_before": 1.8192,
+      "balance_after": 1.8502,
+      "total_return_pct": 85.02,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 11,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 65,
+      "symbol": "ELON2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.185,
+      "pnl_pct": 10.76,
+      "pnl_sol": 0.0199,
+      "balance_before": 1.8502,
+      "balance_after": 1.8701,
+      "total_return_pct": 87.01,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 11,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 66,
+      "symbol": "APE",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.187,
+      "pnl_pct": -4.42,
+      "pnl_sol": -0.0083,
+      "balance_before": 1.8701,
+      "balance_after": 1.8618,
+      "total_return_pct": 86.18,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 11,
+      "phase": "BULL"
+    },
+    {
+      "trade_num": 67,
+      "symbol": "MOGX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1862,
+      "pnl_pct": 16.39,
+      "pnl_sol": 0.0305,
+      "balance_before": 1.8618,
+      "balance_after": 1.8924,
+      "total_return_pct": 89.24,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 12,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 68,
+      "symbol": "MOONX",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1892,
+      "pnl_pct": -3.23,
+      "pnl_sol": -0.0061,
+      "balance_before": 1.8924,
+      "balance_after": 1.8862,
+      "total_return_pct": 88.62,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 12,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 69,
+      "symbol": "POPC",
+      "grade": "A",
+      "result": "win",
+      "position_size": 0.1886,
+      "pnl_pct": 9.07,
+      "pnl_sol": 0.0171,
+      "balance_before": 1.8862,
+      "balance_after": 1.9033,
+      "total_return_pct": 90.33,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 12,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 70,
+      "symbol": "ELON",
+      "grade": "A",
+      "result": "stop_loss",
+      "position_size": 0.1903,
+      "pnl_pct": -3.29,
+      "pnl_sol": -0.0063,
+      "balance_before": 1.9033,
+      "balance_after": 1.8971,
+      "total_return_pct": 89.71,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 12,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 71,
+      "symbol": "GIGAX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1897,
+      "pnl_pct": 13.55,
+      "pnl_sol": 0.0257,
+      "balance_before": 1.8971,
+      "balance_after": 1.9228,
+      "total_return_pct": 92.28,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 13,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 72,
+      "symbol": "DEGENAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1923,
+      "pnl_pct": 8.64,
+      "pnl_sol": 0.0166,
+      "balance_before": 1.9228,
+      "balance_after": 1.9394,
+      "total_return_pct": 93.94,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 14,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 73,
+      "symbol": "SIGMA",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.1939,
+      "pnl_pct": -5.02,
+      "pnl_sol": -0.0097,
+      "balance_before": 1.9394,
+      "balance_after": 1.9297,
+      "total_return_pct": 92.97,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 14,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 74,
+      "symbol": "SIGMA2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.193,
+      "pnl_pct": 8.66,
+      "pnl_sol": 0.0167,
+      "balance_before": 1.9297,
+      "balance_after": 1.9464,
+      "total_return_pct": 94.64,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 15,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 75,
+      "symbol": "WOJAKX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1946,
+      "pnl_pct": 14.51,
+      "pnl_sol": 0.0282,
+      "balance_before": 1.9464,
+      "balance_after": 1.9746,
+      "total_return_pct": 97.46,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 15,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 76,
+      "symbol": "SHIBS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.1975,
+      "pnl_pct": 15.7,
+      "pnl_sol": 0.031,
+      "balance_before": 1.9746,
+      "balance_after": 2.0056,
+      "total_return_pct": 100.56,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 16,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 77,
+      "symbol": "TREN2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2006,
+      "pnl_pct": 17.6,
+      "pnl_sol": 0.0353,
+      "balance_before": 2.0056,
+      "balance_after": 2.0409,
+      "total_return_pct": 104.09,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 16,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 78,
+      "symbol": "ELONX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2041,
+      "pnl_pct": 13.39,
+      "pnl_sol": 0.0273,
+      "balance_before": 2.0409,
+      "balance_after": 2.0682,
+      "total_return_pct": 106.82,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 17,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 79,
+      "symbol": "TREN2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2068,
+      "pnl_pct": 11.03,
+      "pnl_sol": 0.0228,
+      "balance_before": 2.0682,
+      "balance_after": 2.0911,
+      "total_return_pct": 109.11,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 17,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 80,
+      "symbol": "ELON2",
+      "grade": "A",
+      "result": "win",
+      "position_size": 0.2091,
+      "pnl_pct": 9.97,
+      "pnl_sol": 0.0208,
+      "balance_before": 2.0911,
+      "balance_after": 2.1119,
+      "total_return_pct": 111.19,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 17,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 81,
+      "symbol": "WOJAK2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2112,
+      "pnl_pct": 9.42,
+      "pnl_sol": 0.0199,
+      "balance_before": 2.1119,
+      "balance_after": 2.1318,
+      "total_return_pct": 113.18,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 18,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 82,
+      "symbol": "MEMES",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2132,
+      "pnl_pct": 10.83,
+      "pnl_sol": 0.0231,
+      "balance_before": 2.1318,
+      "balance_after": 2.1549,
+      "total_return_pct": 115.49,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 18,
+      "phase": "BEAR"
+    },
+    {
+      "trade_num": 83,
+      "symbol": "DEGENAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2155,
+      "pnl_pct": 13.82,
+      "pnl_sol": 0.0298,
+      "balance_before": 2.1549,
+      "balance_after": 2.1847,
+      "total_return_pct": 118.47,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 19,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 84,
+      "symbol": "BETA2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2185,
+      "pnl_pct": 9.22,
+      "pnl_sol": 0.0202,
+      "balance_before": 2.1847,
+      "balance_after": 2.2048,
+      "total_return_pct": 120.48,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 19,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 85,
+      "symbol": "CHADX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2205,
+      "pnl_pct": 14.9,
+      "pnl_sol": 0.0329,
+      "balance_before": 2.2048,
+      "balance_after": 2.2377,
+      "total_return_pct": 123.77,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 19,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 86,
+      "symbol": "GIGAX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2238,
+      "pnl_pct": 10.41,
+      "pnl_sol": 0.0233,
+      "balance_before": 2.2377,
+      "balance_after": 2.261,
+      "total_return_pct": 126.1,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 20,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 87,
+      "symbol": "WOJAK",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2261,
+      "pnl_pct": 15.97,
+      "pnl_sol": 0.0361,
+      "balance_before": 2.261,
+      "balance_after": 2.2971,
+      "total_return_pct": 129.71,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 20,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 88,
+      "symbol": "CHADAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2297,
+      "pnl_pct": 10.62,
+      "pnl_sol": 0.0244,
+      "balance_before": 2.2971,
+      "balance_after": 2.3215,
+      "total_return_pct": 132.15,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 20,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 89,
+      "symbol": "SIGMAAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2321,
+      "pnl_pct": 15.83,
+      "pnl_sol": 0.0367,
+      "balance_before": 2.3215,
+      "balance_after": 2.3582,
+      "total_return_pct": 135.82,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 20,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 90,
+      "symbol": "TREN",
+      "grade": "B",
+      "result": "bag_hold",
+      "position_size": 0.2358,
+      "pnl_pct": -15.81,
+      "pnl_sol": -0.0373,
+      "balance_before": 2.3582,
+      "balance_after": 2.321,
+      "total_return_pct": 132.1,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 21,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 91,
+      "symbol": "TRENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2321,
+      "pnl_pct": 12.81,
+      "pnl_sol": 0.0297,
+      "balance_before": 2.321,
+      "balance_after": 2.3507,
+      "total_return_pct": 135.07,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 21,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 92,
+      "symbol": "MOONAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2351,
+      "pnl_pct": 17.23,
+      "pnl_sol": 0.0405,
+      "balance_before": 2.3507,
+      "balance_after": 2.3912,
+      "total_return_pct": 139.12,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 21,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 93,
+      "symbol": "MEMES",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.2391,
+      "pnl_pct": 11.21,
+      "pnl_sol": 0.0268,
+      "balance_before": 2.3912,
+      "balance_after": 2.418,
+      "total_return_pct": 141.8,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 21,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 94,
+      "symbol": "POPC",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2418,
+      "pnl_pct": 15.72,
+      "pnl_sol": 0.038,
+      "balance_before": 2.418,
+      "balance_after": 2.456,
+      "total_return_pct": 145.6,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 21,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 95,
+      "symbol": "SIGMAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2456,
+      "pnl_pct": 16.77,
+      "pnl_sol": 0.0412,
+      "balance_before": 2.456,
+      "balance_after": 2.4972,
+      "total_return_pct": 149.72,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 22,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 96,
+      "symbol": "TRENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2497,
+      "pnl_pct": 14.47,
+      "pnl_sol": 0.0361,
+      "balance_before": 2.4972,
+      "balance_after": 2.5333,
+      "total_return_pct": 153.33,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 22,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 97,
+      "symbol": "ALPHAX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2533,
+      "pnl_pct": 8.94,
+      "pnl_sol": 0.0226,
+      "balance_before": 2.5333,
+      "balance_after": 2.556,
+      "total_return_pct": 155.6,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 22,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 98,
+      "symbol": "MOON2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2556,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.0384,
+      "balance_before": 2.556,
+      "balance_after": 2.5943,
+      "total_return_pct": 159.43,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 23,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 99,
+      "symbol": "MOGAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2594,
+      "pnl_pct": 13.86,
+      "pnl_sol": 0.036,
+      "balance_before": 2.5943,
+      "balance_after": 2.6303,
+      "total_return_pct": 163.03,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 23,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 100,
+      "symbol": "POPC",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.263,
+      "pnl_pct": 12.31,
+      "pnl_sol": 0.0324,
+      "balance_before": 2.6303,
+      "balance_after": 2.6627,
+      "total_return_pct": 166.27,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 23,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 101,
+      "symbol": "BETAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2663,
+      "pnl_pct": 9.18,
+      "pnl_sol": 0.0244,
+      "balance_before": 2.6627,
+      "balance_after": 2.6871,
+      "total_return_pct": 168.71,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 23,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 102,
+      "symbol": "ALPHA",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.2687,
+      "pnl_pct": -5.96,
+      "pnl_sol": -0.016,
+      "balance_before": 2.6871,
+      "balance_after": 2.6711,
+      "total_return_pct": 167.11,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 23,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 103,
+      "symbol": "TREN",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2671,
+      "pnl_pct": 10.07,
+      "pnl_sol": 0.0269,
+      "balance_before": 2.6711,
+      "balance_after": 2.698,
+      "total_return_pct": 169.8,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 104,
+      "symbol": "WOJAKS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2698,
+      "pnl_pct": 10.08,
+      "pnl_sol": 0.0272,
+      "balance_before": 2.698,
+      "balance_after": 2.7252,
+      "total_return_pct": 172.52,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 105,
+      "symbol": "SIGMAAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2725,
+      "pnl_pct": 16.09,
+      "pnl_sol": 0.0438,
+      "balance_before": 2.7252,
+      "balance_after": 2.769,
+      "total_return_pct": 176.9,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 106,
+      "symbol": "ALPHAX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2769,
+      "pnl_pct": 17.09,
+      "pnl_sol": 0.0473,
+      "balance_before": 2.769,
+      "balance_after": 2.8163,
+      "total_return_pct": 181.63,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 107,
+      "symbol": "TRENAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2816,
+      "pnl_pct": 17.9,
+      "pnl_sol": 0.0504,
+      "balance_before": 2.8163,
+      "balance_after": 2.8667,
+      "total_return_pct": 186.67,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 108,
+      "symbol": "DOGE2",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.2867,
+      "pnl_pct": -5.34,
+      "pnl_sol": -0.0153,
+      "balance_before": 2.8667,
+      "balance_after": 2.8514,
+      "total_return_pct": 185.14,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 24,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 109,
+      "symbol": "DOGES",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2851,
+      "pnl_pct": 14.94,
+      "pnl_sol": 0.0426,
+      "balance_before": 2.8514,
+      "balance_after": 2.894,
+      "total_return_pct": 189.4,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 25,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 110,
+      "symbol": "ALPHAS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2894,
+      "pnl_pct": 16.92,
+      "pnl_sol": 0.049,
+      "balance_before": 2.894,
+      "balance_after": 2.943,
+      "total_return_pct": 194.3,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 25,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 111,
+      "symbol": "ELONAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2943,
+      "pnl_pct": 12.35,
+      "pnl_sol": 0.0363,
+      "balance_before": 2.943,
+      "balance_after": 2.9793,
+      "total_return_pct": 197.93,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 25,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 112,
+      "symbol": "MOON2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.2979,
+      "pnl_pct": 10.04,
+      "pnl_sol": 0.0299,
+      "balance_before": 2.9793,
+      "balance_after": 3.0092,
+      "total_return_pct": 200.92,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 25,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 113,
+      "symbol": "MOG",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3009,
+      "pnl_pct": 10.45,
+      "pnl_sol": 0.0314,
+      "balance_before": 3.0092,
+      "balance_after": 3.0407,
+      "total_return_pct": 204.07,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 114,
+      "symbol": "MOGS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3041,
+      "pnl_pct": 17.76,
+      "pnl_sol": 0.054,
+      "balance_before": 3.0407,
+      "balance_after": 3.0947,
+      "total_return_pct": 209.47,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 115,
+      "symbol": "BONK",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3095,
+      "pnl_pct": 15.75,
+      "pnl_sol": 0.0488,
+      "balance_before": 3.0947,
+      "balance_after": 3.1434,
+      "total_return_pct": 214.34,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 116,
+      "symbol": "POPCX",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.3143,
+      "pnl_pct": -4.0,
+      "pnl_sol": -0.0126,
+      "balance_before": 3.1434,
+      "balance_after": 3.1309,
+      "total_return_pct": 213.09,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 117,
+      "symbol": "MOONX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3131,
+      "pnl_pct": 17.49,
+      "pnl_sol": 0.0548,
+      "balance_before": 3.1309,
+      "balance_after": 3.1856,
+      "total_return_pct": 218.56,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 118,
+      "symbol": "POPCX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3186,
+      "pnl_pct": 16.53,
+      "pnl_sol": 0.0527,
+      "balance_before": 3.1856,
+      "balance_after": 3.2383,
+      "total_return_pct": 223.83,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 26,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 119,
+      "symbol": "BONKX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3238,
+      "pnl_pct": 12.38,
+      "pnl_sol": 0.0401,
+      "balance_before": 3.2383,
+      "balance_after": 3.2784,
+      "total_return_pct": 227.84,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 27,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 120,
+      "symbol": "MOON2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3278,
+      "pnl_pct": 14.46,
+      "pnl_sol": 0.0474,
+      "balance_before": 3.2784,
+      "balance_after": 3.3258,
+      "total_return_pct": 232.58,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 27,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 121,
+      "symbol": "DEGENS",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3326,
+      "pnl_pct": 15.97,
+      "pnl_sol": 0.0531,
+      "balance_before": 3.3258,
+      "balance_after": 3.3789,
+      "total_return_pct": 237.89,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 27,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 122,
+      "symbol": "ALPHAS",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.3379,
+      "pnl_pct": 10.21,
+      "pnl_sol": 0.0345,
+      "balance_before": 3.3789,
+      "balance_after": 3.4134,
+      "total_return_pct": 241.34,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 27,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 123,
+      "symbol": "GIGA2",
+      "grade": "A+",
+      "result": "bag_hold",
+      "position_size": 0.3413,
+      "pnl_pct": -15.2,
+      "pnl_sol": -0.0519,
+      "balance_before": 3.4134,
+      "balance_after": 3.3615,
+      "total_return_pct": 236.15,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 27,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 124,
+      "symbol": "PEPE2",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.3362,
+      "pnl_pct": 12.51,
+      "pnl_sol": 0.0421,
+      "balance_before": 3.3615,
+      "balance_after": 3.4036,
+      "total_return_pct": 240.36,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 28,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 125,
+      "symbol": "APEX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3404,
+      "pnl_pct": 17.66,
+      "pnl_sol": 0.0601,
+      "balance_before": 3.4036,
+      "balance_after": 3.4637,
+      "total_return_pct": 246.37,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 28,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 126,
+      "symbol": "DEGEN2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3464,
+      "pnl_pct": 15.15,
+      "pnl_sol": 0.0525,
+      "balance_before": 3.4637,
+      "balance_after": 3.5162,
+      "total_return_pct": 251.62,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 28,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 127,
+      "symbol": "SHIB2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3516,
+      "pnl_pct": 13.54,
+      "pnl_sol": 0.0476,
+      "balance_before": 3.5162,
+      "balance_after": 3.5638,
+      "total_return_pct": 256.38,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 28,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 128,
+      "symbol": "MEMEAI",
+      "grade": "B",
+      "result": "win",
+      "position_size": 0.3564,
+      "pnl_pct": 16.23,
+      "pnl_sol": 0.0578,
+      "balance_before": 3.5638,
+      "balance_after": 3.6217,
+      "total_return_pct": 262.17,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 29,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 129,
+      "symbol": "PEPE2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3622,
+      "pnl_pct": 16.46,
+      "pnl_sol": 0.0596,
+      "balance_before": 3.6217,
+      "balance_after": 3.6813,
+      "total_return_pct": 268.13,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 29,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 130,
+      "symbol": "MEMEAI",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3681,
+      "pnl_pct": 10.76,
+      "pnl_sol": 0.0396,
+      "balance_before": 3.6813,
+      "balance_after": 3.7209,
+      "total_return_pct": 272.09,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 29,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 131,
+      "symbol": "CHADX",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.3721,
+      "pnl_pct": -4.91,
+      "pnl_sol": -0.0183,
+      "balance_before": 3.7209,
+      "balance_after": 3.7026,
+      "total_return_pct": 270.26,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 29,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 132,
+      "symbol": "PEPEAI",
+      "grade": "B",
+      "result": "stop_loss",
+      "position_size": 0.3703,
+      "pnl_pct": -5.4,
+      "pnl_sol": -0.02,
+      "balance_before": 3.7026,
+      "balance_after": 3.6826,
+      "total_return_pct": 268.26,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 29,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 133,
+      "symbol": "MEMEX",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3683,
+      "pnl_pct": 16.59,
+      "pnl_sol": 0.0611,
+      "balance_before": 3.6826,
+      "balance_after": 3.7437,
+      "total_return_pct": 274.37,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 30,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 134,
+      "symbol": "MEME2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.3744,
+      "pnl_pct": 17.65,
+      "pnl_sol": 0.0661,
+      "balance_before": 3.7437,
+      "balance_after": 3.8098,
+      "total_return_pct": 280.98,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 30,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 135,
+      "symbol": "FLOKI2",
+      "grade": "A+",
+      "result": "win",
+      "position_size": 0.381,
+      "pnl_pct": 17.45,
+      "pnl_sol": 0.0665,
+      "balance_before": 3.8098,
+      "balance_after": 3.8763,
+      "total_return_pct": 287.63,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 30,
+      "phase": "RECOVERY"
+    },
+    {
+      "trade_num": 136,
+      "symbol": "DOGE2",
+      "grade": "A+",
+      "result": "stop_loss",
+      "position_size": 0.3876,
+      "pnl_pct": -5.93,
+      "pnl_sol": -0.023,
+      "balance_before": 3.8763,
+      "balance_after": 3.8533,
+      "total_return_pct": 285.33,
+      "applied_rules": [
+        "Wait for 2 green candles before entry",
+        "Enter within first 6 hours",
+        "Prefer under $18k cap",
+        "Exit at +15% - don't wait for more"
+      ],
+      "day": 30,
+      "phase": "RECOVERY"
+    }
+  ],
+  "daily_balances": [
+    {
+      "day": 1,
+      "phase": "BULL",
+      "trades": 6,
+      "balance": 1.0522,
+      "opportunities": 7
+    },
+    {
+      "day": 2,
+      "phase": "BULL",
+      "trades": 7,
+      "balance": 1.127,
+      "opportunities": 8
+    },
+    {
+      "day": 3,
+      "phase": "BULL",
+      "trades": 6,
+      "balance": 1.1879,
+      "opportunities": 6
+    },
+    {
+      "day": 4,
+      "phase": "BULL",
+      "trades": 7,
+      "balance": 1.3063,
+      "opportunities": 8
+    },
+    {
+      "day": 5,
+      "phase": "BULL",
+      "trades": 5,
+      "balance": 1.3303,
+      "opportunities": 5
+    },
+    {
+      "day": 6,
+      "phase": "BULL",
+      "trades": 6,
+      "balance": 1.4059,
+      "opportunities": 6
+    },
+    {
+      "day": 7,
+      "phase": "BULL",
+      "trades": 6,
+      "balance": 1.497,
+      "opportunities": 6
+    },
+    {
+      "day": 8,
+      "phase": "BULL",
+      "trades": 4,
+      "balance": 1.5702,
+      "opportunities": 6
+    },
+    {
+      "day": 9,
+      "phase": "BULL",
+      "trades": 8,
+      "balance": 1.7248,
+      "opportunities": 8
+    },
+    {
+      "day": 10,
+      "phase": "BULL",
+      "trades": 6,
+      "balance": 1.7745,
+      "opportunities": 6
+    },
+    {
+      "day": 11,
+      "phase": "BULL",
+      "trades": 5,
+      "balance": 1.8618,
+      "opportunities": 6
+    },
+    {
+      "day": 12,
+      "phase": "BEAR",
+      "trades": 4,
+      "balance": 1.8971,
+      "opportunities": 4
+    },
+    {
+      "day": 13,
+      "phase": "BEAR",
+      "trades": 1,
+      "balance": 1.9228,
+      "opportunities": 2
+    },
+    {
+      "day": 14,
+      "phase": "BEAR",
+      "trades": 2,
+      "balance": 1.9297,
+      "opportunities": 4
+    },
+    {
+      "day": 15,
+      "phase": "BEAR",
+      "trades": 2,
+      "balance": 1.9746,
+      "opportunities": 2
+    },
+    {
+      "day": 16,
+      "phase": "BEAR",
+      "trades": 2,
+      "balance": 2.0409,
+      "opportunities": 4
+    },
+    {
+      "day": 17,
+      "phase": "BEAR",
+      "trades": 3,
+      "balance": 2.1119,
+      "opportunities": 4
+    },
+    {
+      "day": 18,
+      "phase": "BEAR",
+      "trades": 2,
+      "balance": 2.1549,
+      "opportunities": 4
+    },
+    {
+      "day": 19,
+      "phase": "RECOVERY",
+      "trades": 3,
+      "balance": 2.2377,
+      "opportunities": 4
+    },
+    {
+      "day": 20,
+      "phase": "RECOVERY",
+      "trades": 4,
+      "balance": 2.3582,
+      "opportunities": 4
+    },
+    {
+      "day": 21,
+      "phase": "RECOVERY",
+      "trades": 5,
+      "balance": 2.456,
+      "opportunities": 5
+    },
+    {
+      "day": 22,
+      "phase": "RECOVERY",
+      "trades": 3,
+      "balance": 2.556,
+      "opportunities": 4
+    },
+    {
+      "day": 23,
+      "phase": "RECOVERY",
+      "trades": 5,
+      "balance": 2.6711,
+      "opportunities": 6
+    },
+    {
+      "day": 24,
+      "phase": "RECOVERY",
+      "trades": 6,
+      "balance": 2.8514,
+      "opportunities": 6
+    },
+    {
+      "day": 25,
+      "phase": "RECOVERY",
+      "trades": 4,
+      "balance": 3.0092,
+      "opportunities": 4
+    },
+    {
+      "day": 26,
+      "phase": "RECOVERY",
+      "trades": 6,
+      "balance": 3.2383,
+      "opportunities": 6
+    },
+    {
+      "day": 27,
+      "phase": "RECOVERY",
+      "trades": 5,
+      "balance": 3.3615,
+      "opportunities": 5
+    },
+    {
+      "day": 28,
+      "phase": "RECOVERY",
+      "trades": 4,
+      "balance": 3.5638,
+      "opportunities": 4
+    },
+    {
+      "day": 29,
+      "phase": "RECOVERY",
+      "trades": 5,
+      "balance": 3.6826,
+      "opportunities": 6
+    },
+    {
+      "day": 30,
+      "phase": "RECOVERY",
+      "trades": 4,
+      "balance": 3.8533,
+      "opportunities": 4
+    }
+  ]
+}

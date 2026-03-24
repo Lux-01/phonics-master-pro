@@ -1,0 +1,1244 @@
+{
+  "aloe": {
+    "skill_id": "aloe",
+    "name": "aloe",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:37.820234",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-agent": {
+    "skill_id": "autonomous-agent",
+    "name": "autonomous-agent",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:37.853188",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-code-architect": {
+    "skill_id": "autonomous-code-architect",
+    "name": "autonomous-code-architect",
+    "health_score": 100,
+    "last_audit": "2026-03-13T17:51:37.870580",
+    "findings": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-goal-generator": {
+    "skill_id": "autonomous-goal-generator",
+    "name": "autonomous-goal-generator",
+    "health_score": 70,
+    "last_audit": "2026-03-13T17:51:37.881780",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Skill missing description",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add 'description:' to frontmatter explaining what this skill does",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-opportunity-engine": {
+    "skill_id": "autonomous-opportunity-engine",
+    "name": "autonomous-opportunity-engine",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:37.917173",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-trading-strategist": {
+    "skill_id": "autonomous-trading-strategist",
+    "name": "autonomous-trading-strategist",
+    "health_score": 100,
+    "last_audit": "2026-03-13T17:51:37.947458",
+    "findings": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-workflow-builder": {
+    "skill_id": "autonomous-workflow-builder",
+    "name": "autonomous-workflow-builder",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:37.957685",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "captcha-solver": {
+    "skill_id": "captcha-solver",
+    "name": "captcha-solver",
+    "health_score": 80,
+    "last_audit": "2026-03-13T17:51:37.988507",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "chart-analyzer": {
+    "skill_id": "chart-analyzer",
+    "name": "chart-analyzer",
+    "health_score": 75,
+    "last_audit": "2026-03-13T17:51:38.002307",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No tool references detected",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Document which tools this skill uses",
+        "confidence": 0.7
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "code-evolution-tracker": {
+    "skill_id": "code-evolution-tracker",
+    "name": "code-evolution-tracker",
+    "health_score": 85,
+    "last_audit": "2026-03-13T17:51:38.014962",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "context-optimizer": {
+    "skill_id": "context-optimizer",
+    "name": "context-optimizer",
+    "health_score": 80,
+    "last_audit": "2026-03-13T17:51:38.022689",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "decision-log": {
+    "skill_id": "decision-log",
+    "name": "decision-log",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.034964",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "event-bus": {
+    "skill_id": "event-bus",
+    "name": "event-bus",
+    "health_score": 70,
+    "last_audit": "2026-03-13T17:51:38.052350",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Skill missing description",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add 'description:' to frontmatter explaining what this skill does",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "income-optimizer": {
+    "skill_id": "income-optimizer",
+    "name": "income-optimizer",
+    "health_score": 95,
+    "last_audit": "2026-03-09T09:17:24.452947",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "integration-orchestrator": {
+    "skill_id": "integration-orchestrator",
+    "name": "integration-orchestrator",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.088084",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "knowledge-graph-engine": {
+    "skill_id": "knowledge-graph-engine",
+    "name": "knowledge-graph-engine",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.097942",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "long-term-project-manager": {
+    "skill_id": "long-term-project-manager",
+    "name": "long-term-project-manager",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.118782",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "memory-manager": {
+    "skill_id": "memory-manager",
+    "name": "memory-manager",
+    "health_score": 90,
+    "last_audit": "2026-03-13T17:51:38.127663",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "multi-agent-coordinator": {
+    "skill_id": "multi-agent-coordinator",
+    "name": "multi-agent-coordinator",
+    "health_score": 85,
+    "last_audit": "2026-03-13T17:51:38.141443",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "research-synthesizer": {
+    "skill_id": "research-synthesizer",
+    "name": "research-synthesizer",
+    "health_score": 90,
+    "last_audit": "2026-03-13T17:51:38.150339",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "sensory-input-layer": {
+    "skill_id": "sensory-input-layer",
+    "name": "sensory-input-layer",
+    "health_score": 100,
+    "last_audit": "2026-03-13T17:51:38.160581",
+    "findings": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "skill-activation-manager": {
+    "skill_id": "skill-activation-manager",
+    "name": "skill-activation-manager",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.173175",
+    "findings": [
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "skill-evolution-engine": {
+    "skill_id": "skill-evolution-engine",
+    "name": "skill-evolution-engine",
+    "health_score": 90,
+    "last_audit": "2026-03-13T17:51:38.185664",
+    "findings": [
+      {
+        "type": "OUTDATED",
+        "description": "Jupiter API v4 is deprecated, use v6",
+        "severity": "high",
+        "location": "SKILL.md content",
+        "suggestion": "Update to newer v4 version",
+        "confidence": 0.9
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "stealth-browser": {
+    "skill_id": "stealth-browser",
+    "name": "stealth-browser",
+    "health_score": 80,
+    "last_audit": "2026-03-13T17:51:38.194822",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "tool-orchestrator": {
+    "skill_id": "tool-orchestrator",
+    "name": "tool-orchestrator",
+    "health_score": 95,
+    "last_audit": "2026-03-13T17:51:38.213663",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "workspace-organizer": {
+    "skill_id": "workspace-organizer",
+    "name": "workspace-organizer",
+    "health_score": 80,
+    "last_audit": "2026-03-13T17:51:38.232158",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": [
+      "[MEDIUM] Missing testing strategy documentation",
+      "[MEDIUM] No CLI documentation",
+      "[MEDIUM] No usage examples provided"
+    ]
+  },
+  "archive": {
+    "skill_id": "archive",
+    "name": "archive",
+    "health_score": 75,
+    "last_audit": "2026-03-13T17:51:37.830640",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No tool references detected",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Document which tools this skill uses",
+        "confidence": 0.7
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-maintenance-repair": {
+    "skill_id": "autonomous-maintenance-repair",
+    "name": "autonomous-maintenance-repair",
+    "health_score": 75,
+    "last_audit": "2026-03-13T17:51:37.899842",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No tool references detected",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Document which tools this skill uses",
+        "confidence": 0.7
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-scheduler": {
+    "skill_id": "autonomous-scheduler",
+    "name": "autonomous-scheduler",
+    "health_score": 80,
+    "last_audit": "2026-03-13T17:51:37.924037",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "autonomous-tool-builder": {
+    "skill_id": "autonomous-tool-builder",
+    "name": "autonomous-tool-builder",
+    "health_score": 85,
+    "last_audit": "2026-03-13T17:51:37.934195",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "business-strategy-engine": {
+    "skill_id": "business-strategy-engine",
+    "name": "business-strategy-engine",
+    "health_score": 75,
+    "last_audit": "2026-03-13T17:51:37.967824",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No tool references detected",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Document which tools this skill uses",
+        "confidence": 0.7
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "dist": {
+    "skill_id": "dist",
+    "name": "dist",
+    "health_score": 75,
+    "last_audit": "2026-03-13T17:51:38.040982",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      },
+      {
+        "type": "INEFFICIENT",
+        "description": "High integration complexity (8 dependencies)",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Consider simplifying integrations or documenting dependency graph",
+        "confidence": 0.6
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "income-stream-expansion-engine": {
+    "skill_id": "income-stream-expansion-engine",
+    "name": "income-stream-expansion-engine",
+    "health_score": 70,
+    "last_audit": "2026-03-13T17:51:38.071268",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Skill missing description",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add 'description:' to frontmatter explaining what this skill does",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      },
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "kpi-performance-tracker": {
+    "skill_id": "kpi-performance-tracker",
+    "name": "kpi-performance-tracker",
+    "health_score": 90,
+    "last_audit": "2026-03-13T17:51:38.108720",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Commands section",
+        "severity": "medium",
+        "location": "SKILL.md",
+        "suggestion": "Add Commands section with usage examples",
+        "confidence": 1.0
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  },
+  "website-designer": {
+    "skill_id": "website-designer",
+    "name": "website-designer",
+    "health_score": 90,
+    "last_audit": "2026-03-13T17:51:38.223721",
+    "findings": [
+      {
+        "type": "DOCUMENTATION",
+        "description": "Missing Storage section",
+        "severity": "low",
+        "location": null,
+        "suggestion": "Add Storage section documenting file paths",
+        "confidence": 1.0
+      },
+      {
+        "type": "MISSING",
+        "description": "No error handling documentation found",
+        "severity": "medium",
+        "location": null,
+        "suggestion": "Add Error Handling section with common failure modes",
+        "confidence": 0.8
+      }
+    ],
+    "metrics": {
+      "success_rate": 0.0,
+      "avg_execution_time": 0.0,
+      "error_rate": 0.0,
+      "usage_count": 0,
+      "last_execution": null,
+      "tool_calls": {}
+    },
+    "version": "1.0.0",
+    "status": "active",
+    "recommendations": []
+  }
+}

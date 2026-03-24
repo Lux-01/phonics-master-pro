@@ -1,0 +1,34 @@
+{
+  "name": "Weekly Skill Activation Audit - Sunday 9AM",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 9 * * 0",
+    "tz": "Australia/Sydney"
+  },
+  "sessionTarget": "isolated",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "🔄 **Weekly Skill Activation Audit**
+
+Run the skill activation audit using the integration orchestrator:
+
+1. Execute the audit script:
+   ```bash
+   python /home/skux/.openclaw/workspace/skills/integration-orchestrator/integration_orchestrator.py audit
+   ```
+
+2. Review the output for:
+   - Number of active skills
+   - Number of dormant skills  
+   - Suggestions for skill activation
+
+3. Check `memory/skill_activation_state.json` for the updated state
+
+4. Take action on any high-priority suggestions
+
+The audit checks all skills in the skills/ directory and evaluates their health."
+  },
+  "delivery": {
+    "mode": "none"
+  }
+}

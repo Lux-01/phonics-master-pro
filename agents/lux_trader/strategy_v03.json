@@ -1,0 +1,67 @@
+{
+  "version": "0.3",
+  "max_positions": 3,
+  "position_size_sol": null,
+  "position_size_pct": 0.40,
+  "target_profit": 0.20,
+  "scale_out_enabled": true,
+  "scale_out_levels": [
+    {"pct": 0.10, "portion": 0.50, "action": "take_profit"},
+    {"pct": 0.20, "portion": 0.25, "action": "take_profit"},
+    {"pct": 0.0, "portion": 0.25, "action": "trailing_stop", "trail_pct": 0.05}
+  ],
+  "stop_loss": -0.07,
+  "stop_loss_breakeven": 0.08,
+  "time_stop_minutes": 240,
+  "min_liquidity": 20000,
+  "max_age_hours": 18,
+  "min_score": 80,
+  "rug_score_max": 30,
+  "rug_filter": {
+    "min_liquidity_locked_pct": 80,
+    "max_dev_wallet_sells_30min": 2,
+    "min_contract_age_hours": 2,
+    "min_holder_count": 50
+  },
+  "evolution_note": "Auto-evolved: Multi-exit scaling, $20K liquidity filter, rug pre-screening",
+  "evolved_at": "2026-03-13T09:40:00+11:00",
+  "evolved_from": "v0.2 (7.1x return, 13% rug rate)",
+  "learned_rules": [
+    {
+      "rule": "multi_exit_scaling",
+      "insight": "50% at 10% + 25% at 20% + 25% trailing captures gains while riding winners longer",
+      "action": "Scale out positions in 3 tiers",
+      "weight": 0.95
+    },
+    {
+      "rule": "rug_prevention",
+      "insight": "Rugs cost 21x more than stop losses ($20K liquidity cuts rug rate 50%)",
+      "action": "Skip if liquidity < $20K, holders < 50, or dev sells detected",
+      "weight": 0.90
+    },
+    {
+      "rule": "breakeven_stop",
+      "insight": "Move stop to breakeven+ after +8% profit protects capital",
+      "action": "Stop becomes +1% after hitting +8%",
+      "weight": 0.85
+    },
+    {
+      "rule": "A+_only_higher_size",
+      "insight": "A+ at 80+ score with 40% position (vs 30%) increases returns",
+      "action": "40% position size for A+, skip A/B",
+      "weight": 0.80
+    },
+    {
+      "rule": "freshness_filter",
+      "insight": "Older coins (>18h) have less momentum, skip them",
+      "action": "Max age 18 hours",
+      "weight": 0.75
+    },
+    {
+      "rule": "time_optimization",
+      "insight": "Week 2-6 show higher win rates than Week 1 (ramp up gradually)",
+      "action": "Start month with smaller sizes, scale up",
+      "weight": 0.70
+    }
+  ]
+}

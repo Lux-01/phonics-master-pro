@@ -1,0 +1,2306 @@
+{
+  "run_date": "2026-03-14T00:27:21.621250",
+  "duration": "1 year (simulated)",
+  "starting_capital": 1.0,
+  "ending_capital": 240.89739773255891,
+  "total_pnl": 239.89739773255891,
+  "roi_pct": 23989.739773255893,
+  "multiplier": 240.89739773255891,
+  "total_trades": 994,
+  "wins": 682,
+  "losses": 312,
+  "win_rate": 68.61167002012073,
+  "avg_trade_pnl": 7.719440875736114,
+  "weights_final": {
+    "luxtrader": 0.23820057793239047,
+    "rug_radar": 0.20267946145949597,
+    "mean_reverter": 0.24960610544573444,
+    "whale_tracker": 0.14180504422294304,
+    "social_sentinel": 0.028635389455670315,
+    "skylar": 0.13657553498617872,
+    "breakout_hunter": 0.0024978864975869924
+  },
+  "weights_history": [
+    {
+      "trade": 0,
+      "capital": 1.0,
+      "weights": {
+        "luxtrader": 0.4,
+        "rug_radar": 0.15,
+        "mean_reverter": 0.2,
+        "whale_tracker": 0.1,
+        "social_sentinel": 0.08,
+        "skylar": 0.05,
+        "breakout_hunter": 0.02
+      }
+    },
+    {
+      "trade": 100,
+      "capital": 1.529057779392222,
+      "weights": {
+        "luxtrader": 0.21653333876741132,
+        "rug_radar": 0.19293877151155647,
+        "mean_reverter": 0.21480278252169688,
+        "whale_tracker": 0.1763887520922912,
+        "social_sentinel": 0.07882103490933173,
+        "skylar": 0.11863501880167171,
+        "breakout_hunter": 0.0018803013960406185
+      }
+    },
+    {
+      "trade": 200,
+      "capital": 2.6203118048416503,
+      "weights": {
+        "luxtrader": 0.2137281741219509,
+        "rug_radar": 0.17914574052726512,
+        "mean_reverter": 0.23415812179218587,
+        "whale_tracker": 0.18312990887074856,
+        "social_sentinel": 0.12278455731861007,
+        "skylar": 0.06455034911946247,
+        "breakout_hunter": 0.0025031482497770647
+      }
+    },
+    {
+      "trade": 300,
+      "capital": 4.548169305779886,
+      "weights": {
+        "luxtrader": 0.2658479096942149,
+        "rug_radar": 0.19999015260235836,
+        "mean_reverter": 0.27525794381076457,
+        "whale_tracker": 0.1096569671108624,
+        "social_sentinel": 0.027140177803302596,
+        "skylar": 0.11901016878775107,
+        "breakout_hunter": 0.003096680190746023
+      }
+    },
+    {
+      "trade": 400,
+      "capital": 7.402650926671533,
+      "weights": {
+        "luxtrader": 0.2294424590978,
+        "rug_radar": 0.16618684367570163,
+        "mean_reverter": 0.2759795430302685,
+        "whale_tracker": 0.1819000384304767,
+        "social_sentinel": 0.014117401605995436,
+        "skylar": 0.12876960549256206,
+        "breakout_hunter": 0.003604108667195649
+      }
+    },
+    {
+      "trade": 500,
+      "capital": 12.638088264135119,
+      "weights": {
+        "luxtrader": 0.2014188262136644,
+        "rug_radar": 0.17447432590635875,
+        "mean_reverter": 0.20940747305878776,
+        "whale_tracker": 0.16686400032851492,
+        "social_sentinel": 0.1032076377146344,
+        "skylar": 0.1425966548335769,
+        "breakout_hunter": 0.002031081944462883
+      }
+    },
+    {
+      "trade": 600,
+      "capital": 21.43417068323708,
+      "weights": {
+        "luxtrader": 0.22299538957477524,
+        "rug_radar": 0.1749191818803811,
+        "mean_reverter": 0.2675008693992776,
+        "whale_tracker": 0.12483754239744226,
+        "social_sentinel": 0.076555271427155,
+        "skylar": 0.12989964172506274,
+        "breakout_hunter": 0.0032921035959059715
+      }
+    },
+    {
+      "trade": 700,
+      "capital": 46.90586148561372,
+      "weights": {
+        "luxtrader": 0.21959505108913616,
+        "rug_radar": 0.18452887239688257,
+        "mean_reverter": 0.23011338970875903,
+        "whale_tracker": 0.17748385909893388,
+        "social_sentinel": 0.03757536554264893,
+        "skylar": 0.14836686271394836,
+        "breakout_hunter": 0.002336599449691
+      }
+    },
+    {
+      "trade": 800,
+      "capital": 62.31859576968021,
+      "weights": {
+        "luxtrader": 0.26885159096954264,
+        "rug_radar": 0.16963177535783824,
+        "mean_reverter": 0.2897097934343663,
+        "whale_tracker": 0.17823194276632148,
+        "social_sentinel": 0.016212692196043776,
+        "skylar": 0.07350863560616076,
+        "breakout_hunter": 0.003853569669726715
+      }
+    },
+    {
+      "trade": 900,
+      "capital": 105.07916475010637,
+      "weights": {
+        "luxtrader": 0.21552157941479488,
+        "rug_radar": 0.19018786100194532,
+        "mean_reverter": 0.2130621636116025,
+        "whale_tracker": 0.1509467758032723,
+        "social_sentinel": 0.09060887994051356,
+        "skylar": 0.13779048009091927,
+        "breakout_hunter": 0.0018822601369521224
+      }
+    },
+    {
+      "trade": 1000,
+      "capital": 147.724427377629,
+      "weights": {
+        "luxtrader": 0.25270741489511805,
+        "rug_radar": 0.1640138321534669,
+        "mean_reverter": 0.3190439645967324,
+        "whale_tracker": 0.11008609525975724,
+        "social_sentinel": 0.05702317062298514,
+        "skylar": 0.09255021898478923,
+        "breakout_hunter": 0.004575303487151007
+      }
+    }
+  ],
+  "trades": [
+    {
+      "capital_before": 1.0,
+      "capital_after": 1.013665,
+      "position_sol": 0.07500000000000001,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 18.22,
+      "profit_sol": 0.013665000000000002,
+      "composite_score": 85.45127961186961,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "CHADDEX"
+    },
+    {
+      "capital_before": 1.013665,
+      "capital_after": 1.024992706375,
+      "position_sol": 0.07602487500000002,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 14.899999999999999,
+      "profit_sol": 0.011327706375000003,
+      "composite_score": 85.18609801895883,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "LUNADEX"
+    },
+    {
+      "capital_before": 1.024992706375,
+      "capital_after": 1.0381689876154505,
+      "position_sol": 0.07687445297812501,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 17.14,
+      "profit_sol": 0.013176281240450626,
+      "composite_score": 81.8709417540107,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "SHIBAI"
+    },
+    {
+      "capital_before": 1.0381689876154505,
+      "capital_after": 1.0451532694796335,
+      "position_sol": 0.0778626740711588,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 8.97,
+      "profit_sol": 0.006984281864182944,
+      "composite_score": 84.39255110031634,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "DEGENINU"
+    },
+    {
+      "capital_before": 1.0451532694796335,
+      "capital_after": 1.0525059227304228,
+      "position_sol": 0.07838649521097252,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 9.38,
+      "profit_sol": 0.0073526532507892225,
+      "composite_score": 85.5343207688112,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "BETA"
+    },
+    {
+      "capital_before": 1.0525059227304228,
+      "capital_after": 1.057526375981847,
+      "position_sol": 0.07893794420478172,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 6.36,
+      "profit_sol": 0.005020453251424117,
+      "composite_score": 82.27864802488119,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "FLOKIAI"
+    },
+    {
+      "capital_before": 1.057526375981847,
+      "capital_after": 1.0701294465676106,
+      "position_sol": 0.07931447819863853,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 15.89,
+      "profit_sol": 0.012603070585763664,
+      "composite_score": 75.86626519251357,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "FLOKIAI"
+    },
+    {
+      "capital_before": 1.0701294465676106,
+      "capital_after": 1.0771923009149569,
+      "position_sol": 0.0802597084925708,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 8.8,
+      "profit_sol": 0.007062854347346231,
+      "composite_score": 79.67333763467353,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "MEME"
+    },
+    {
+      "capital_before": 1.0771923009149569,
+      "capital_after": 1.0672390440545028,
+      "position_sol": 0.08078942256862177,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -12.32,
+      "profit_sol": -0.009953256860454203,
+      "composite_score": 82.61883305979988,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "BARKINU"
+    },
+    {
+      "capital_before": 1.0672390440545028,
+      "capital_after": 1.0747150535581045,
+      "position_sol": 0.08004292830408771,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 9.34,
+      "profit_sol": 0.007476009503601792,
+      "composite_score": 79.5408366734321,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "FLOKIINU"
+    },
+    {
+      "capital_before": 1.0747150535581045,
+      "capital_after": 1.0660985256162023,
+      "position_sol": 0.08060362901685784,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -10.69,
+      "profit_sol": -0.008616527941902104,
+      "composite_score": 89.64079574040103,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "DOGEX"
+    },
+    {
+      "capital_before": 1.0660985256162023,
+      "capital_after": 1.0853922436835415,
+      "position_sol": 0.07995738942121519,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 24.13,
+      "profit_sol": 0.019293718067339226,
+      "composite_score": 79.20242009213149,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "SIGMA"
+    },
+    {
+      "capital_before": 1.0853922436835415,
+      "capital_after": 1.080304467541275,
+      "position_sol": 0.08140441827626563,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -6.25,
+      "profit_sol": -0.005087776142266602,
+      "composite_score": 86.26185984712565,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "ZETATOKEN"
+    },
+    {
+      "capital_before": 1.080304467541275,
+      "capital_after": 1.076091280117864,
+      "position_sol": 0.08102283506559563,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -5.2,
+      "profit_sol": -0.004213187423410973,
+      "composite_score": 81.53139256351406,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "APEAI"
+    },
+    {
+      "capital_before": 1.076091280117864,
+      "capital_after": 1.0608861103297984,
+      "position_sol": 0.0807068460088398,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -18.84,
+      "profit_sol": -0.01520516978806542,
+      "composite_score": 81.46141735950569,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "BONK"
+    },
+    {
+      "capital_before": 1.0608861103297984,
+      "capital_after": 1.0773165839635312,
+      "position_sol": 0.0795664582747349,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 20.65,
+      "profit_sol": 0.016430473633732755,
+      "composite_score": 77.94353481534361,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "SIGMAAI"
+    },
+    {
+      "capital_before": 1.0773165839635312,
+      "capital_after": 1.0943570390303745,
+      "position_sol": 0.08079874379726486,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 21.09,
+      "profit_sol": 0.01704045506684316,
+      "composite_score": 82.6287086010157,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "STARCOIN"
+    },
+    {
+      "capital_before": 1.0943570390303745,
+      "capital_after": 1.1012104499873023,
+      "position_sol": 0.0820767779272781,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 8.35,
+      "profit_sol": 0.006853410956927721,
+      "composite_score": 82.12565956662921,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "ALPHADAO"
+    },
+    {
+      "capital_before": 1.1012104499873023,
+      "capital_after": 1.1103615088266967,
+      "position_sol": 0.08259078374904769,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 11.08,
+      "profit_sol": 0.009151058839394483,
+      "composite_score": 79.0506430953093,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker"
+      ],
+      "outcome": "win",
+      "symbol": "WOOFDEX"
+    },
+    {
+      "capital_before": 1.1103615088266967,
+      "capital_after": 1.1043489012564,
+      "position_sol": 0.08327711316200226,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -7.22,
+      "profit_sol": -0.006012607570296563,
+      "composite_score": 83.08686438005294,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "BETADEX"
+    },
+    {
+      "capital_before": 1.1043489012564,
+      "capital_after": 1.10176472482746,
+      "position_sol": 0.08282616759423002,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -3.12,
+      "profit_sol": -0.002584176428939977,
+      "composite_score": 83.60249464135892,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "DEGENX"
+    },
+    {
+      "capital_before": 1.10176472482746,
+      "capital_after": 1.090848990816232,
+      "position_sol": 0.08263235436205951,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -13.209999999999999,
+      "profit_sol": -0.010915734011228062,
+      "composite_score": 80.11899984857425,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "ELON"
+    },
+    {
+      "capital_before": 1.090848990816232,
+      "capital_after": 1.0862919691570971,
+      "position_sol": 0.08181367431121742,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -5.57,
+      "profit_sol": -0.00455702165913481,
+      "composite_score": 76.80065678530902,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "MOONX"
+    },
+    {
+      "capital_before": 1.0862919691570971,
+      "capital_after": 1.1024804352274609,
+      "position_sol": 0.0814718976867823,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 19.87,
+      "profit_sol": 0.016188466070363644,
+      "composite_score": 78.60311364442626,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "MEME"
+    },
+    {
+      "capital_before": 1.1024804352274609,
+      "capital_after": 1.1217958924526459,
+      "position_sol": 0.08268603264205958,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 23.36,
+      "profit_sol": 0.019315457225185118,
+      "composite_score": 75.55838189617687,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "ELONDEX"
+    },
+    {
+      "capital_before": 1.1217958924526459,
+      "capital_after": 1.1189353129268915,
+      "position_sol": 0.08413469193394846,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -3.4000000000000004,
+      "profit_sol": -0.0028605795257542477,
+      "composite_score": 80.98513596226076,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "DOGECOIN"
+    },
+    {
+      "capital_before": 1.1189353129268915,
+      "capital_after": 1.1231564963949083,
+      "position_sol": 0.08392014846951687,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 5.03,
+      "profit_sol": 0.004221183468016699,
+      "composite_score": 77.32255199198337,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "CHADDAO"
+    },
+    {
+      "capital_before": 1.1231564963949083,
+      "capital_after": 1.1408293638656821,
+      "position_sol": 0.08423673722961814,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 20.98,
+      "profit_sol": 0.017672867470773887,
+      "composite_score": 77.72656586465345,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "DEGENDEX"
+    },
+    {
+      "capital_before": 1.1408293638656821,
+      "capital_after": 1.1229040824859426,
+      "position_sol": 0.08556220228992617,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -20.95,
+      "profit_sol": -0.017925281379739533,
+      "composite_score": 83.54023222315979,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "BETA"
+    },
+    {
+      "capital_before": 1.1229040824859426,
+      "capital_after": 1.1328754707384179,
+      "position_sol": 0.08421780618644571,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 11.84,
+      "profit_sol": 0.009971388252475172,
+      "composite_score": 72.5990370012,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "CAT"
+    },
+    {
+      "capital_before": 1.1328754707384179,
+      "capital_after": 1.1276075997994843,
+      "position_sol": 0.08496566030538136,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -6.2,
+      "profit_sol": -0.005267870938933644,
+      "composite_score": 75.94059559873511,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "SHIB"
+    },
+    {
+      "capital_before": 1.1276075997994843,
+      "capital_after": 1.1403439276392195,
+      "position_sol": 0.08457056998496133,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 15.06,
+      "profit_sol": 0.012736327839735178,
+      "composite_score": 82.54576633274374,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "BONK2"
+    },
+    {
+      "capital_before": 1.1403439276392195,
+      "capital_after": 1.151291229344556,
+      "position_sol": 0.08552579457294147,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 12.8,
+      "profit_sol": 0.01094730170533651,
+      "composite_score": 82.47646416050324,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "BONKX"
+    },
+    {
+      "capital_before": 1.151291229344556,
+      "capital_after": 1.1355502000113427,
+      "position_sol": 0.08634684220084173,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -18.23,
+      "profit_sol": -0.015741029333213447,
+      "composite_score": 84.96231239169202,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "ZETAAI"
+    },
+    {
+      "capital_before": 1.1355502000113427,
+      "capital_after": 1.148512505544472,
+      "position_sol": 0.08516626500085071,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 15.22,
+      "profit_sol": 0.012962305533129478,
+      "composite_score": 81.66247113679931,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "DEGEN2"
+    },
+    {
+      "capital_before": 1.148512505544472,
+      "capital_after": 1.1654645501263086,
+      "position_sol": 0.08613843791583542,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 19.68,
+      "profit_sol": 0.016952044581836412,
+      "composite_score": 77.38613471637608,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "GAMMA2"
+    },
+    {
+      "capital_before": 1.1654645501263086,
+      "capital_after": 1.1586553234921957,
+      "position_sol": 0.08740984125947315,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -7.79,
+      "profit_sol": -0.006809226634112958,
+      "composite_score": 89.42145637375148,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "MEMEX"
+    },
+    {
+      "capital_before": 1.1586553234921957,
+      "capital_after": 1.1685878962528324,
+      "position_sol": 0.0868991492619147,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 11.43,
+      "profit_sol": 0.00993257276063685,
+      "composite_score": 81.20414557215426,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "MEMEX"
+    },
+    {
+      "capital_before": 1.1685878962528324,
+      "capital_after": 1.1632591354459194,
+      "position_sol": 0.08764409221896245,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -6.08,
+      "profit_sol": -0.005328760806912917,
+      "composite_score": 79.35685635593755,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "FLOKI2"
+    },
+    {
+      "capital_before": 1.1632591354459194,
+      "capital_after": 1.1541508164153778,
+      "position_sol": 0.08724443515844398,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -10.44,
+      "profit_sol": -0.00910831903054155,
+      "composite_score": 84.70426947921715,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "WOJAKPAD"
+    },
+    {
+      "capital_before": 1.1541508164153778,
+      "capital_after": 1.1660616528407846,
+      "position_sol": 0.08656131123115335,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 13.76,
+      "profit_sol": 0.0119108364254067,
+      "composite_score": 80.64555747770564,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "CAT"
+    },
+    {
+      "capital_before": 1.1660616528407846,
+      "capital_after": 1.147862345594072,
+      "position_sol": 0.08745462396305885,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -20.81,
+      "profit_sol": -0.018199307246712544,
+      "composite_score": 88.91205036450202,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "LUNADEX"
+    },
+    {
+      "capital_before": 1.147862345594072,
+      "capital_after": 1.1432737658675596,
+      "position_sol": 0.08608967591955541,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -5.33,
+      "profit_sol": -0.004588579726512303,
+      "composite_score": 80.82576592939348,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "CHADX"
+    },
+    {
+      "capital_before": 1.1432737658675596,
+      "capital_after": 1.1485556906658676,
+      "position_sol": 0.08574553244006698,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 6.16,
+      "profit_sol": 0.0052819247983081265,
+      "composite_score": 76.95006992769088,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "outcome": "win",
+      "symbol": "ZETAINU"
+    },
+    {
+      "capital_before": 1.1485556906658676,
+      "capital_after": 1.1593923136073,
+      "position_sol": 0.08614167679994009,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 12.58,
+      "profit_sol": 0.010836622941432462,
+      "composite_score": 80.44792918824261,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "FLOKIX"
+    },
+    {
+      "capital_before": 1.1593923136073,
+      "capital_after": 1.171913750594259,
+      "position_sol": 0.08695442352054752,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 14.400000000000002,
+      "profit_sol": 0.012521436986958845,
+      "composite_score": 76.32872133829161,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "outcome": "win",
+      "symbol": "BONKDAO"
+    },
+    {
+      "capital_before": 1.171913750594259,
+      "capital_after": 1.1686529005832305,
+      "position_sol": 0.08789353129456944,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -3.71,
+      "profit_sol": -0.003260850011028526,
+      "composite_score": 79.41120030933266,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "outcome": "loss",
+      "symbol": "WOJAKTOKEN"
+    },
+    {
+      "capital_before": 1.1686529005832305,
+      "capital_after": 1.175314222116555,
+      "position_sol": 0.0876489675437423,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": 7.6,
+      "profit_sol": 0.006661321533324415,
+      "composite_score": 80.17509478088613,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker"
+      ],
+      "outcome": "win",
+      "symbol": "GAMMA"
+    },
+    {
+      "capital_before": 1.175314222116555,
+      "capital_after": 1.164031205584236,
+      "position_sol": 0.08814856665874163,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -12.8,
+      "profit_sol": -0.011283016532318928,
+      "composite_score": 82.65034874342841,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "PEPE"
+    },
+    {
+      "capital_before": 1.164031205584236,
+      "capital_after": 1.1595787862228761,
+      "position_sol": 0.08730234041881771,
+      "position_pct": 7.500000000000001,
+      "pnl_pct": -5.1,
+      "profit_sol": -0.004452419361359703,
+      "composite_score": 82.66186433823276,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "outcome": "loss",
+      "symbol": "CATX"
+    }
+  ],
+  "patterns": [
+    {
+      "trade_num": 1,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 85.45127961186961,
+      "outcome": "win",
+      "pnl_pct": 18.22
+    },
+    {
+      "trade_num": 2,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 85.18609801895883,
+      "outcome": "win",
+      "pnl_pct": 14.899999999999999
+    },
+    {
+      "trade_num": 3,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 81.8709417540107,
+      "outcome": "win",
+      "pnl_pct": 17.14
+    },
+    {
+      "trade_num": 4,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 84.39255110031634,
+      "outcome": "win",
+      "pnl_pct": 8.97
+    },
+    {
+      "trade_num": 5,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 85.5343207688112,
+      "outcome": "win",
+      "pnl_pct": 9.38
+    },
+    {
+      "trade_num": 6,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 82.27864802488119,
+      "outcome": "win",
+      "pnl_pct": 6.36
+    },
+    {
+      "trade_num": 7,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 75.86626519251357,
+      "outcome": "win",
+      "pnl_pct": 15.89
+    },
+    {
+      "trade_num": 8,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 79.67333763467353,
+      "outcome": "win",
+      "pnl_pct": 8.8
+    },
+    {
+      "trade_num": 9,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 82.61883305979988,
+      "outcome": "loss",
+      "pnl_pct": -12.32
+    },
+    {
+      "trade_num": 10,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 79.5408366734321,
+      "outcome": "win",
+      "pnl_pct": 9.34
+    },
+    {
+      "trade_num": 11,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 89.64079574040103,
+      "outcome": "loss",
+      "pnl_pct": -10.69
+    },
+    {
+      "trade_num": 12,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 79.20242009213149,
+      "outcome": "win",
+      "pnl_pct": 24.13
+    },
+    {
+      "trade_num": 13,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 86.26185984712565,
+      "outcome": "loss",
+      "pnl_pct": -6.25
+    },
+    {
+      "trade_num": 14,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 81.53139256351406,
+      "outcome": "loss",
+      "pnl_pct": -5.2
+    },
+    {
+      "trade_num": 15,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.46141735950569,
+      "outcome": "loss",
+      "pnl_pct": -18.84
+    },
+    {
+      "trade_num": 16,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 77.94353481534361,
+      "outcome": "win",
+      "pnl_pct": 20.65
+    },
+    {
+      "trade_num": 17,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.6287086010157,
+      "outcome": "win",
+      "pnl_pct": 21.09
+    },
+    {
+      "trade_num": 18,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.12565956662921,
+      "outcome": "win",
+      "pnl_pct": 8.35
+    },
+    {
+      "trade_num": 19,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker"
+      ],
+      "composite": 79.0506430953093,
+      "outcome": "win",
+      "pnl_pct": 11.08
+    },
+    {
+      "trade_num": 20,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 83.08686438005294,
+      "outcome": "loss",
+      "pnl_pct": -7.22
+    },
+    {
+      "trade_num": 21,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 83.60249464135892,
+      "outcome": "loss",
+      "pnl_pct": -3.12
+    },
+    {
+      "trade_num": 22,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.11899984857425,
+      "outcome": "loss",
+      "pnl_pct": -13.209999999999999
+    },
+    {
+      "trade_num": 23,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 76.80065678530902,
+      "outcome": "loss",
+      "pnl_pct": -5.57
+    },
+    {
+      "trade_num": 24,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 78.60311364442626,
+      "outcome": "win",
+      "pnl_pct": 19.87
+    },
+    {
+      "trade_num": 25,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 75.55838189617687,
+      "outcome": "win",
+      "pnl_pct": 23.36
+    },
+    {
+      "trade_num": 26,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 80.98513596226076,
+      "outcome": "loss",
+      "pnl_pct": -3.4000000000000004
+    },
+    {
+      "trade_num": 27,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 77.32255199198337,
+      "outcome": "win",
+      "pnl_pct": 5.03
+    },
+    {
+      "trade_num": 28,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 77.72656586465345,
+      "outcome": "win",
+      "pnl_pct": 20.98
+    },
+    {
+      "trade_num": 29,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 83.54023222315979,
+      "outcome": "loss",
+      "pnl_pct": -20.95
+    },
+    {
+      "trade_num": 30,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 72.5990370012,
+      "outcome": "win",
+      "pnl_pct": 11.84
+    },
+    {
+      "trade_num": 31,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 75.94059559873511,
+      "outcome": "loss",
+      "pnl_pct": -6.2
+    },
+    {
+      "trade_num": 32,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.54576633274374,
+      "outcome": "win",
+      "pnl_pct": 15.06
+    },
+    {
+      "trade_num": 33,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.47646416050324,
+      "outcome": "win",
+      "pnl_pct": 12.8
+    },
+    {
+      "trade_num": 34,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 84.96231239169202,
+      "outcome": "loss",
+      "pnl_pct": -18.23
+    },
+    {
+      "trade_num": 35,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.66247113679931,
+      "outcome": "win",
+      "pnl_pct": 15.22
+    },
+    {
+      "trade_num": 36,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 77.38613471637608,
+      "outcome": "win",
+      "pnl_pct": 19.68
+    },
+    {
+      "trade_num": 37,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 89.42145637375148,
+      "outcome": "loss",
+      "pnl_pct": -7.79
+    },
+    {
+      "trade_num": 38,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 81.20414557215426,
+      "outcome": "win",
+      "pnl_pct": 11.43
+    },
+    {
+      "trade_num": 39,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 79.35685635593755,
+      "outcome": "loss",
+      "pnl_pct": -6.08
+    },
+    {
+      "trade_num": 40,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 84.70426947921715,
+      "outcome": "loss",
+      "pnl_pct": -10.44
+    },
+    {
+      "trade_num": 41,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 80.64555747770564,
+      "outcome": "win",
+      "pnl_pct": 13.76
+    },
+    {
+      "trade_num": 42,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 88.91205036450202,
+      "outcome": "loss",
+      "pnl_pct": -20.81
+    },
+    {
+      "trade_num": 43,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.82576592939348,
+      "outcome": "loss",
+      "pnl_pct": -5.33
+    },
+    {
+      "trade_num": 44,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "composite": 76.95006992769088,
+      "outcome": "win",
+      "pnl_pct": 6.16
+    },
+    {
+      "trade_num": 45,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.44792918824261,
+      "outcome": "win",
+      "pnl_pct": 12.58
+    },
+    {
+      "trade_num": 46,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 76.32872133829161,
+      "outcome": "win",
+      "pnl_pct": 14.400000000000002
+    },
+    {
+      "trade_num": 47,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "composite": 79.41120030933266,
+      "outcome": "loss",
+      "pnl_pct": -3.71
+    },
+    {
+      "trade_num": 48,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker"
+      ],
+      "composite": 80.17509478088613,
+      "outcome": "win",
+      "pnl_pct": 7.6
+    },
+    {
+      "trade_num": 49,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 82.65034874342841,
+      "outcome": "loss",
+      "pnl_pct": -12.8
+    },
+    {
+      "trade_num": 50,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 82.66186433823276,
+      "outcome": "loss",
+      "pnl_pct": -5.1
+    },
+    {
+      "trade_num": 51,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 69.65682417728192,
+      "outcome": "win",
+      "pnl_pct": 6.06
+    },
+    {
+      "trade_num": 52,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 86.65509642632108,
+      "outcome": "loss",
+      "pnl_pct": -19.32
+    },
+    {
+      "trade_num": 53,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 79.42593957747846,
+      "outcome": "win",
+      "pnl_pct": 21.08
+    },
+    {
+      "trade_num": 54,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 81.99519694448158,
+      "outcome": "loss",
+      "pnl_pct": -5.32
+    },
+    {
+      "trade_num": 55,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 82.63648358932373,
+      "outcome": "loss",
+      "pnl_pct": -10.25
+    },
+    {
+      "trade_num": 56,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 75.72789986692526,
+      "outcome": "win",
+      "pnl_pct": 15.560000000000002
+    },
+    {
+      "trade_num": 57,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 78.72180972191755,
+      "outcome": "win",
+      "pnl_pct": 7.86
+    },
+    {
+      "trade_num": 58,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "composite": 71.50499005372494,
+      "outcome": "loss",
+      "pnl_pct": -2.24
+    },
+    {
+      "trade_num": 59,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 78.89247927359418,
+      "outcome": "win",
+      "pnl_pct": 23.03
+    },
+    {
+      "trade_num": 60,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 87.95030625098177,
+      "outcome": "loss",
+      "pnl_pct": -12.93
+    },
+    {
+      "trade_num": 61,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 79.25432135527943,
+      "outcome": "win",
+      "pnl_pct": 21.36
+    },
+    {
+      "trade_num": 62,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 78.7198768783499,
+      "outcome": "win",
+      "pnl_pct": 16.8
+    },
+    {
+      "trade_num": 63,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 70.43555180116319,
+      "outcome": "win",
+      "pnl_pct": 14.93
+    },
+    {
+      "trade_num": 64,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 80.3913658322999,
+      "outcome": "win",
+      "pnl_pct": 16.26
+    },
+    {
+      "trade_num": 65,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter"
+      ],
+      "composite": 68.94957476382643,
+      "outcome": "win",
+      "pnl_pct": 21.79
+    },
+    {
+      "trade_num": 66,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.5380732466765,
+      "outcome": "win",
+      "pnl_pct": 19.94
+    },
+    {
+      "trade_num": 67,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.31248412915109,
+      "outcome": "win",
+      "pnl_pct": 10.05
+    },
+    {
+      "trade_num": 68,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 83.28429329715112,
+      "outcome": "win",
+      "pnl_pct": 7.32
+    },
+    {
+      "trade_num": 69,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 80.94745204170636,
+      "outcome": "win",
+      "pnl_pct": 24.91
+    },
+    {
+      "trade_num": 70,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.51079375886154,
+      "outcome": "win",
+      "pnl_pct": 21.64
+    },
+    {
+      "trade_num": 71,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 82.25992100702051,
+      "outcome": "loss",
+      "pnl_pct": -3.92
+    },
+    {
+      "trade_num": 72,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 82.60410900356135,
+      "outcome": "win",
+      "pnl_pct": 7.490000000000001
+    },
+    {
+      "trade_num": 73,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.12161040571186,
+      "outcome": "win",
+      "pnl_pct": 16.76
+    },
+    {
+      "trade_num": 74,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.69945820280155,
+      "outcome": "win",
+      "pnl_pct": 5.31
+    },
+    {
+      "trade_num": 75,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 83.64181640847656,
+      "outcome": "win",
+      "pnl_pct": 14.790000000000001
+    },
+    {
+      "trade_num": 76,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.83188363913335,
+      "outcome": "win",
+      "pnl_pct": 14.099999999999998
+    },
+    {
+      "trade_num": 77,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "skylar"
+      ],
+      "composite": 84.64281571307342,
+      "outcome": "win",
+      "pnl_pct": 6.84
+    },
+    {
+      "trade_num": 78,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 86.75582100128659,
+      "outcome": "loss",
+      "pnl_pct": -23.44
+    },
+    {
+      "trade_num": 79,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 84.6786244480129,
+      "outcome": "loss",
+      "pnl_pct": -15.190000000000001
+    },
+    {
+      "trade_num": 80,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 81.19514435149205,
+      "outcome": "win",
+      "pnl_pct": 21.88
+    },
+    {
+      "trade_num": 81,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 82.52091255355394,
+      "outcome": "win",
+      "pnl_pct": 18.34
+    },
+    {
+      "trade_num": 82,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 82.27839950615038,
+      "outcome": "loss",
+      "pnl_pct": -3.49
+    },
+    {
+      "trade_num": 83,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 77.75490657773418,
+      "outcome": "win",
+      "pnl_pct": 21.02
+    },
+    {
+      "trade_num": 84,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "skylar"
+      ],
+      "composite": 88.25186020764002,
+      "outcome": "loss",
+      "pnl_pct": -5.67
+    },
+    {
+      "trade_num": 85,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "social_sentinel"
+      ],
+      "composite": 76.5183165592906,
+      "outcome": "loss",
+      "pnl_pct": -5.01
+    },
+    {
+      "trade_num": 86,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 78.91505644013418,
+      "outcome": "win",
+      "pnl_pct": 16.85
+    },
+    {
+      "trade_num": 87,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 76.48012467273551,
+      "outcome": "win",
+      "pnl_pct": 23.28
+    },
+    {
+      "trade_num": 88,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "social_sentinel"
+      ],
+      "composite": 69.02820295485003,
+      "outcome": "win",
+      "pnl_pct": 8.29
+    },
+    {
+      "trade_num": 89,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel"
+      ],
+      "composite": 81.01061557409687,
+      "outcome": "win",
+      "pnl_pct": 7.7
+    },
+    {
+      "trade_num": 90,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 76.51287292733507,
+      "outcome": "win",
+      "pnl_pct": 15.5
+    },
+    {
+      "trade_num": 91,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 80.45007173477217,
+      "outcome": "win",
+      "pnl_pct": 10.04
+    },
+    {
+      "trade_num": 92,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.7400903893416,
+      "outcome": "win",
+      "pnl_pct": 9.11
+    },
+    {
+      "trade_num": 93,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker"
+      ],
+      "composite": 78.50926542997419,
+      "outcome": "win",
+      "pnl_pct": 13.570000000000002
+    },
+    {
+      "trade_num": 94,
+      "signals": [
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 81.52835848281833,
+      "outcome": "loss",
+      "pnl_pct": -7.61
+    },
+    {
+      "trade_num": 95,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 79.05255670953454,
+      "outcome": "win",
+      "pnl_pct": 21.14
+    },
+    {
+      "trade_num": 96,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 79.80943750653854,
+      "outcome": "win",
+      "pnl_pct": 20.77
+    },
+    {
+      "trade_num": 97,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 80.75748208814183,
+      "outcome": "win",
+      "pnl_pct": 8.59
+    },
+    {
+      "trade_num": 98,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 84.27549979183196,
+      "outcome": "win",
+      "pnl_pct": 21.76
+    },
+    {
+      "trade_num": 99,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "mean_reverter",
+        "social_sentinel",
+        "skylar"
+      ],
+      "composite": 82.76845269042582,
+      "outcome": "win",
+      "pnl_pct": 22.5
+    },
+    {
+      "trade_num": 100,
+      "signals": [
+        "luxtrader",
+        "rug_radar",
+        "whale_tracker",
+        "skylar"
+      ],
+      "composite": 86.86340811276312,
+      "outcome": "loss",
+      "pnl_pct": -15.25
+    }
+  ]
+}

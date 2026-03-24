@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-03-13T17:42:06.366025",
+  "goals": [
+    {
+      "id": "goal_reviewnewopportuni_20260313174206",
+      "title": "Review New Opportunities",
+      "description": "Found 1 opportunities in memory",
+      "goal_type": "opportunity",
+      "status": "pending",
+      "priority_score": 0.7500000000000001,
+      "urgency": 0.7,
+      "impact": 0.9,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359346",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "opportunity",
+        "review"
+      ]
+    },
+    {
+      "id": "goal_reviewtradingperfo_20260313174206",
+      "title": "Review Trading Performance",
+      "description": "Check LuxTrader metrics and assess strategy performance",
+      "goal_type": "daily",
+      "status": "pending",
+      "priority_score": 0.7250000000000001,
+      "urgency": 0.8,
+      "impact": 0.7,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359228",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "trading",
+        "metrics"
+      ]
+    },
+    {
+      "id": "goal_address8lowhealth_20260313174206",
+      "title": "Address 8 Low-Health Skills",
+      "description": "Improve: autonomous-goal-generator, chart-analyzer, event-bus",
+      "goal_type": "maintenance",
+      "status": "pending",
+      "priority_score": 0.7000000000000001,
+      "urgency": 0.6,
+      "impact": 0.8,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359310",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "skills",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "goal_weeklytradinganaly_20260313174206",
+      "title": "Weekly Trading Analysis",
+      "description": "Analyze: 0 trades, 0.0% win rate",
+      "goal_type": "weekly",
+      "status": "pending",
+      "priority_score": 0.7000000000000001,
+      "urgency": 0.6,
+      "impact": 0.8,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359416",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "trading",
+        "analysis",
+        "weekly"
+      ]
+    },
+    {
+      "id": "goal_evaluatemultipl_20260313174206",
+      "title": "Evaluate: ** Multiple viable jobs - AI Agent Infrastructure is perfect match",
+      "description": "Opportunity found in 2026-03-09.md",
+      "goal_type": "opportunity",
+      "status": "pending",
+      "priority_score": 0.7000000000000001,
+      "urgency": 0.6,
+      "impact": 0.8,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359484",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "opportunity",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "goal_skillecosystemrevi_20260313174206",
+      "title": "Skill Ecosystem Review",
+      "description": "Review all 35 skills health and plan improvements",
+      "goal_type": "weekly",
+      "status": "pending",
+      "priority_score": 0.65,
+      "urgency": 0.5,
+      "impact": 0.7,
+      "feasibility": 0.7,
+      "alignment": 0.8,
+      "roi": 0.5,
+      "deadline": null,
+      "created_at": "2026-03-13T17:42:06.359449",
+      "completed_at": null,
+      "source": "auto",
+      "tags": [
+        "skills",
+        "review"
+      ]
+    }
+  ]
+}

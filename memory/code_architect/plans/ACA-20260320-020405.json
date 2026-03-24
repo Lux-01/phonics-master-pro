@@ -1,0 +1,255 @@
+{
+  "id": "ACA-20260320-020405",
+  "timestamp": "2026-03-20T02:04:05.260832",
+  "status": "PLANNED",
+  "problem": "Tokens less than 2 hours old are getting Grade A and then rugging",
+  "scanner_file": "solana_alpha_hunter_v54.py",
+  "motivation": "ALIENS and XTuber both got Grade A then rugged within 40 minutes",
+  "step_1_requirements": {
+    "problem_statement": "Tokens less than 2 hours old are getting Grade A and then rugging",
+    "what_problem_solves": "Prevent rug pulls by detecting high-risk patterns",
+    "inputs": [
+      "token_age",
+      "top10_percentage",
+      "market_data"
+    ],
+    "outputs": [
+      "risk_score",
+      "recommendation",
+      "block/allow"
+    ],
+    "constraints": [],
+    "success_criteria": [
+      "Rug rate < 5% for approved signals",
+      "False reject rate < 10%",
+      "Processing time < 100ms per token"
+    ]
+  },
+  "step_2_architecture": {
+    "current_structure": {
+      "file": "solana_alpha_hunter_v54.py",
+      "lines": 387,
+      "functions": 13,
+      "classes": 4,
+      "api_calls": 1,
+      "scoring_section": true,
+      "filter_logic": true,
+      "imports": [
+        [
+          "import",
+          "requests"
+        ],
+        [
+          "import",
+          "json"
+        ],
+        [
+          "import",
+          "time"
+        ],
+        [
+          "import",
+          "random"
+        ],
+        [
+          "from",
+          "datetime import datetime, timedelta"
+        ],
+        [
+          "from",
+          "collections import defaultdict"
+        ],
+        [
+          "from",
+          "typing import Dict, List, Optional, Tuple"
+        ],
+        [
+          "import",
+          "os"
+        ]
+      ]
+    },
+    "proposed_changes": [],
+    "modules_affected": [],
+    "data_structures": {},
+    "patterns_to_apply": []
+  },
+  "step_3_data_flow": [
+    {
+      "step": 1,
+      "input": "Raw token data from API",
+      "transformation": "Parse and validate",
+      "output": "Structured token object"
+    },
+    {
+      "step": 2,
+      "input": "Structured token object",
+      "transformation": "Apply filters",
+      "output": "Filtered tokens"
+    },
+    {
+      "step": 3,
+      "input": "Filtered tokens",
+      "transformation": "Calculate grade",
+      "output": "Graded tokens"
+    },
+    {
+      "step": 4,
+      "input": "Graded tokens",
+      "transformation": "Apply pattern protection",
+      "output": "Protected signals"
+    }
+  ],
+  "step_4_edge_cases": [
+    {
+      "case": "Token age exactly at threshold",
+      "example": "age = 2.0 hours on the dot",
+      "handling": "Use >= for inclusive threshold"
+    },
+    {
+      "case": "Top10% exactly at threshold",
+      "example": "top10 = 50.0%",
+      "handling": "Use strict > for reject, <= for approve"
+    },
+    {
+      "case": "Missing data",
+      "example": "API returns null for top10",
+      "handling": "Treat as 100% (reject)",
+      "severity": "CRITICAL"
+    },
+    {
+      "case": "Division by zero",
+      "example": "MCAP = 0 in ratio calculation",
+      "handling": "Check denominator > 0 before division",
+      "severity": "CRITICAL"
+    },
+    {
+      "case": "String vs number comparison",
+      "example": "'50' > 40 returns True in some contexts",
+      "handling": "Explicit type conversion to float",
+      "severity": "MEDIUM"
+    },
+    {
+      "case": "Rate limit during scan",
+      "example": "API returns 429",
+      "handling": "Exponential backoff, continue with partial data"
+    },
+    {
+      "case": "Concurrent modifications",
+      "example": "Token rugs while scanning",
+      "handling": "Verify metrics before final output"
+    }
+  ],
+  "step_5_tool_constraints": {
+    "dexscreener_api": {
+      "rate_limit": "Unknown (be respectful)",
+      "timeout": "10 seconds",
+      "errors": [
+        "Network",
+        "Timeout",
+        "Invalid JSON"
+      ],
+      "validation": "Check response status code"
+    },
+    "helius_api": {
+      "rate_limit": "Depends on plan",
+      "timeout": "15 seconds",
+      "errors": [
+        "Rate limit",
+        "Invalid address",
+        "RPC error"
+      ],
+      "validation": "Check result not None"
+    },
+    "birdeye_api": {
+      "rate_limit": "100 req/min",
+      "timeout": "5 seconds",
+      "errors": [
+        "API key invalid",
+        "Token not found"
+      ],
+      "validation": "Check success flag"
+    }
+  },
+  "step_6_error_handling": {
+    "graceful_degradation": "Continue with partial data if some APIs fail",
+    "user_notification": "Log errors, don't crash",
+    "fallback_strategies": [
+      "If DexScreener fails \u2192 Skip token",
+      "If Helius fails \u2192 Use cached data",
+      "If Birdeye fails \u2192 Skip price check"
+    ],
+    "logging": "All errors to error log with context",
+    "retry_logic": "2 retries with exponential backoff"
+  },
+  "step_7_testing_plan": [
+    {
+      "test": "Happy path",
+      "input": "Normal Grade A token",
+      "expected": "Returns Grade A",
+      "critical": true
+    },
+    {
+      "test": "Edge case - age threshold",
+      "input": "Token exactly 2.0h old",
+      "expected": "Properly categorized",
+      "critical": true
+    },
+    {
+      "test": "Edge case - whale threshold",
+      "input": "Token exactly 50% Top10",
+      "expected": "Demoted to B",
+      "critical": true
+    },
+    {
+      "test": "Rug pattern match",
+      "input": "Token similar to ALIENS",
+      "expected": "REJECT with warning",
+      "critical": true
+    },
+    {
+      "test": "Missing data",
+      "input": "Token with null top10",
+      "expected": "Graceful handling",
+      "critical": true
+    },
+    {
+      "test": "API failure",
+      "input": "Simulate API timeout",
+      "expected": "Graceful degradation",
+      "critical": false
+    },
+    {
+      "test": "Performance",
+      "input": "100 tokens",
+      "expected": "Complete in < 30 seconds",
+      "critical": false
+    }
+  ],
+  "estimated_impact": {
+    "rug_prevention": {
+      "current_rate": "40%",
+      "projected_rate": "5%",
+      "improvement": "87.5% fewer rugs"
+    },
+    "false_positives": {
+      "current_rate": "60% Grade A accuracy",
+      "projected_rate": "85% Grade A accuracy",
+      "improvement": "+25 points accuracy"
+    },
+    "performance": {
+      "current_time": "2 seconds",
+      "projected_time": "3 seconds",
+      "impact": "+1 second (acceptable)"
+    }
+  },
+  "risk_assessment": {
+    "complexity": "MEDIUM",
+    "testing_requirements": "HIGH",
+    "rollback_complexity": "LOW",
+    "user_impact": "POSITIVE (fewer bad signals)",
+    "worst_case": "Over-filtering (too conservative)",
+    "mitigation": "Start with warnings, not rejects"
+  },
+  "implementation_steps": []
+}

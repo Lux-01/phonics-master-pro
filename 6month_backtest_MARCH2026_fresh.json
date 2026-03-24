@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-03-23T09:47:00+11:00",
+  "backtest_period": {
+    "start": "2025-09-23",
+    "end": "2026-03-23",
+    "days": 182
+  },
+  "market_data": {
+    "sol_price_start_usd": 140.00,
+    "sol_price_end_usd": 86.36,
+    "sol_price_verified": true,
+    "sol_change_pct": -38.31,
+    "market_trend": "BEAR_MARKET_WITH_PUMPS",
+    "volatility_estimate": 0.035
+  },
+  "starting_capital": {
+    "sol": 1.0,
+    "usd": 86.36
+  },
+  "results_ranked": [
+    {
+      "rank": 1,
+      "strategy": "Social Sentinel",
+      "final_capital_sol": 4.747,
+      "final_capital_usd": 409.98,
+      "total_return_pct": 374.73,
+      "win_rate_pct": 66.2,
+      "trades": 151,
+      "max_drawdown_pct": 3.5,
+      "sharpe_ratio": 5.98,
+      "profit_factor": 5.58
+    },
+    {
+      "rank": 2,
+      "strategy": "Holy Trinity (Raphael)",
+      "final_capital_sol": 3.790,
+      "final_capital_usd": 327.28,
+      "total_return_pct": 279.00,
+      "win_rate_pct": 74.4,
+      "trades": 121,
+      "max_drawdown_pct": 3.6,
+      "sharpe_ratio": 7.28,
+      "profit_factor": 5.59
+    },
+    {
+      "rank": 3,
+      "strategy": "Whale Tracker",
+      "final_capital_sol": 2.927,
+      "final_capital_usd": 252.74,
+      "total_return_pct": 192.66,
+      "win_rate_pct": 59.7,
+      "trades": 72,
+      "max_drawdown_pct": 19.6,
+      "sharpe_ratio": 5.30,
+      "profit_factor": 2.66
+    },
+    {
+      "rank": 4,
+      "strategy": "Stage 10",
+      "final_capital_sol": 2.111,
+      "final_capital_usd": 182.30,
+      "total_return_pct": 111.09,
+      "win_rate_pct": 72.9,
+      "trades": 48,
+      "max_drawdown_pct": 2.5,
+      "sharpe_ratio": 10.21,
+      "profit_factor": 6.18
+    },
+    {
+      "rank": 5,
+      "strategy": "Skylar v2.0",
+      "final_capital_sol": 1.219,
+      "final_capital_usd": 105.28,
+      "total_return_pct": 21.90,
+      "win_rate_pct": 70.7,
+      "trades": 273,
+      "max_drawdown_pct": 0.2,
+      "sharpe_ratio": 9.21,
+      "profit_factor": 5.22
+    },
+    {
+      "rank": 6,
+      "strategy": "Random Coin Flip",
+      "final_capital_sol": 1.033,
+      "final_capital_usd": 89.21,
+      "total_return_pct": 3.30,
+      "win_rate_pct": 52.0,
+      "trades": 50,
+      "max_drawdown_pct": 4.8,
+      "sharpe_ratio": 0.63,
+      "profit_factor": 1.13
+    },
+    {
+      "rank": 7,
+      "strategy": "Martingale (DANGER)",
+      "final_capital_sol": 0.909,
+      "final_capital_usd": 78.48,
+      "total_return_pct": -9.12,
+      "win_rate_pct": 46.7,
+      "trades": 30,
+      "max_drawdown_pct": 14.0,
+      "sharpe_ratio": -0.91,
+      "profit_factor": 0.61
+    },
+    {
+      "rank": 8,
+      "strategy": "Buy & Hold SOL",
+      "final_capital_sol": 0.617,
+      "final_capital_usd": 53.27,
+      "total_return_pct": -38.31,
+      "win_rate_pct": 0.0,
+      "trades": 1,
+      "max_drawdown_pct": 38.3,
+      "sharpe_ratio": -436.85,
+      "profit_factor": 0.00
+    }
+  ],
+  "grade_a_tokens": [
+    {"symbol": "TREMP", "mcap": 45000000, "vol24h": 5200000, "potential": 1.8},
+    {"symbol": "BODEN", "mcap": 28000000, "vol24h": 3100000, "potential": 1.6},
+    {"symbol": "WIF", "mcap": 1200000000, "vol24h": 154000000, "potential": 1.4},
+    {"symbol": "BONK", "mcap": 850000000, "vol24h": 98000000, "potential": 1.3},
+    {"symbol": "POPCAT", "mcap": 380000000, "vol24h": 42000000, "potential": 1.5},
+    {"symbol": "MOODENG", "mcap": 95000000, "vol24h": 12000000, "potential": 2.1},
+    {"symbol": "FWOG", "mcap": 12000000, "vol24h": 2800000, "potential": 2.8},
+    {"symbol": "GOAT", "mcap": 65000000, "vol24h": 8900000, "potential": 1.9},
+    {"symbol": "SPX", "mcap": 180000000, "vol24h": 25000000, "potential": 1.7},
+    {"symbol": "CHILL", "mcap": 22000000, "vol24h": 4100000, "potential": 1.5}
+  ],
+  "disclaimer": "SIMULATED results based on historical strategy performance models. Past performance does not guarantee future results. Actual trading involves slippage, execution delays, and emotional factors not fully captured in simulation.",
+  "data_sources": [
+    "Birdeye API (real-time price data)",
+    "DexScreener API (token discovery)",
+    "Historical strategy backtest data"
+  ],
+  "recommendation": "Active strategies with tight risk management favored over passive holding in current market conditions"
+}

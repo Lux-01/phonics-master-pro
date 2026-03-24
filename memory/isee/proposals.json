@@ -1,0 +1,755 @@
+{
+  "updated_at": "2026-03-15T19:09:10.005430",
+  "proposals": [
+    {
+      "id": "ISEE-PROP-20260309-8989",
+      "opportunity_id": "ISEE-20260309-8989",
+      "title": "AI Agent Development Service Income Stream",
+      "business_case": "## Executive Summary\n\n**Opportunity:** AI Agent Development Service\n**Category:** services\n**Market Size:** large\n**Competition:** medium\n\n## Value Proposition\n\nBuild custom AI agents for businesses\n\n## Market Analysis\n\n- **Total Addressable Market:** $10,000,000\n- **Market Growth:** 18% annually\n- **Market Saturation:** low\n- **Competitive Landscape:** medium\n\n## Financial Projections\n\n- **Monthly Revenue Potential:** $5,000\n- **Time to Revenue:** weeks\n- **Confidence Level:** 85%\n\n## Strategic Fit\n\nThis opportunity aligns with existing capabilities and represents a large market with medium competition. The medium barrier to entry provides a defensible position.",
+      "roi_projection": {
+        "monthly_gross": 5000,
+        "monthly_net_estimate": 2450,
+        "margin": 70,
+        "setup_cost": 1000,
+        "break_even_months": 1,
+        "year_1": 14700,
+        "year_2": 26460,
+        "year_3": 29400,
+        "roi_3_year": 69560,
+        "roi_percentage": 6956
+      },
+      "timeline": {
+        "total_weeks": 3,
+        "phases": [
+          {
+            "name": "Setup & Validation",
+            "weeks": 1,
+            "deliverables": [
+              "Market validation confirmed",
+              "Resources gathered",
+              "Initial workflow created"
+            ]
+          },
+          {
+            "name": "Build & Create",
+            "weeks": 1,
+            "deliverables": [
+              "services created",
+              "Systems configured",
+              "Documentation complete"
+            ]
+          },
+          {
+            "name": "Launch & Iterate",
+            "weeks": 1,
+            "deliverables": [
+              "First revenue event",
+              "Feedback collected",
+              "Iteration plan created"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "skills": [
+          "ai",
+          "python",
+          "consulting"
+        ],
+        "time_commitment": "10-20 hours/week",
+        "tools": [
+          "Calendly",
+          "Stripe",
+          "Project management tool"
+        ],
+        "capital": 1000,
+        "dependencies": [
+          "Client acquisition"
+        ]
+      },
+      "workflow": {
+        "type": "service",
+        "phases": [
+          {
+            "name": "Service Definition",
+            "duration": "1 week",
+            "steps": [
+              "Define service packages",
+              "Create pricing tiers",
+              "Build portfolio/case studies",
+              "Set up booking system"
+            ]
+          },
+          {
+            "name": "Client Acquisition",
+            "duration": "ongoing",
+            "steps": [
+              "Network outreach",
+              "Content marketing",
+              "Cold outreach (if applicable)",
+              "Referral program"
+            ]
+          },
+          {
+            "name": "Delivery System",
+            "duration": "ongoing",
+            "steps": [
+              "Client intake process",
+              "Service delivery",
+              "Quality assurance",
+              "Follow-up and retention"
+            ]
+          }
+        ],
+        "automation": [
+          "Scheduling system",
+          "Contract/invoicing",
+          "Client communications",
+          "Project management"
+        ],
+        "metrics": {
+          "utilization_rate": "target 70%+",
+          "average_project_value": "track",
+          "client_retention": "track",
+          "monthly_revenue": "target $5000"
+        }
+      },
+      "risks": [
+        "Market conditions may change",
+        "Execution risk"
+      ],
+      "metrics": {
+        "primary": {
+          "metric": "Monthly Revenue",
+          "target": "$5000",
+          "timeline": "weeks"
+        },
+        "secondary": [
+          "Customer satisfaction (NPS)",
+          "Operational efficiency",
+          "Time investment per $ earned"
+        ],
+        "milestones": [
+          {
+            "name": "First $1",
+            "timeline": "weeks"
+          },
+          {
+            "name": "$100/month",
+            "timeline": "2x time to revenue"
+          },
+          {
+            "name": "$1000/month",
+            "timeline": "3x time to revenue"
+          },
+          {
+            "name": "Full target",
+            "timeline": "6 months"
+          }
+        ]
+      },
+      "created_at": "2026-03-09T11:04:40.099581",
+      "status": "pending"
+    },
+    {
+      "id": "ISEE-PROP-20260309-2026",
+      "opportunity_id": "ISEE-20260309-1450",
+      "title": "AI Agent Development Service Income Stream",
+      "business_case": "## Executive Summary\n\n**Opportunity:** AI Agent Development Service\n**Category:** services\n**Market Size:** large\n**Competition:** medium\n\n## Value Proposition\n\nBuild custom AI agents for businesses\n\n## Market Analysis\n\n- **Total Addressable Market:** $10,000,000\n- **Market Growth:** 18% annually\n- **Market Saturation:** low\n- **Competitive Landscape:** medium\n\n## Financial Projections\n\n- **Monthly Revenue Potential:** $5,000\n- **Time to Revenue:** weeks\n- **Confidence Level:** 85%\n\n## Strategic Fit\n\nThis opportunity aligns with existing capabilities and represents a large market with medium competition. The medium barrier to entry provides a defensible position.",
+      "roi_projection": {
+        "monthly_gross": 5000,
+        "monthly_net_estimate": 2450,
+        "margin": 70,
+        "setup_cost": 1000,
+        "break_even_months": 1,
+        "year_1": 14700,
+        "year_2": 26460,
+        "year_3": 29400,
+        "roi_3_year": 69560,
+        "roi_percentage": 6956
+      },
+      "timeline": {
+        "total_weeks": 3,
+        "phases": [
+          {
+            "name": "Setup & Validation",
+            "weeks": 1,
+            "deliverables": [
+              "Market validation confirmed",
+              "Resources gathered",
+              "Initial workflow created"
+            ]
+          },
+          {
+            "name": "Build & Create",
+            "weeks": 1,
+            "deliverables": [
+              "services created",
+              "Systems configured",
+              "Documentation complete"
+            ]
+          },
+          {
+            "name": "Launch & Iterate",
+            "weeks": 1,
+            "deliverables": [
+              "First revenue event",
+              "Feedback collected",
+              "Iteration plan created"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "skills": [
+          "ai",
+          "python",
+          "consulting"
+        ],
+        "time_commitment": "10-20 hours/week",
+        "tools": [
+          "Calendly",
+          "Stripe",
+          "Project management tool"
+        ],
+        "capital": 1000,
+        "dependencies": [
+          "Client acquisition"
+        ]
+      },
+      "workflow": {
+        "type": "service",
+        "phases": [
+          {
+            "name": "Service Definition",
+            "duration": "1 week",
+            "steps": [
+              "Define service packages",
+              "Create pricing tiers",
+              "Build portfolio/case studies",
+              "Set up booking system"
+            ]
+          },
+          {
+            "name": "Client Acquisition",
+            "duration": "ongoing",
+            "steps": [
+              "Network outreach",
+              "Content marketing",
+              "Cold outreach (if applicable)",
+              "Referral program"
+            ]
+          },
+          {
+            "name": "Delivery System",
+            "duration": "ongoing",
+            "steps": [
+              "Client intake process",
+              "Service delivery",
+              "Quality assurance",
+              "Follow-up and retention"
+            ]
+          }
+        ],
+        "automation": [
+          "Scheduling system",
+          "Contract/invoicing",
+          "Client communications",
+          "Project management"
+        ],
+        "metrics": {
+          "utilization_rate": "target 70%+",
+          "average_project_value": "track",
+          "client_retention": "track",
+          "monthly_revenue": "target $5000"
+        }
+      },
+      "risks": [
+        "Market conditions may change",
+        "Execution risk"
+      ],
+      "metrics": {
+        "primary": {
+          "metric": "Monthly Revenue",
+          "target": "$5000",
+          "timeline": "weeks"
+        },
+        "secondary": [
+          "Customer satisfaction (NPS)",
+          "Operational efficiency",
+          "Time investment per $ earned"
+        ],
+        "milestones": [
+          {
+            "name": "First $1",
+            "timeline": "weeks"
+          },
+          {
+            "name": "$100/month",
+            "timeline": "2x time to revenue"
+          },
+          {
+            "name": "$1000/month",
+            "timeline": "3x time to revenue"
+          },
+          {
+            "name": "Full target",
+            "timeline": "6 months"
+          }
+        ]
+      },
+      "created_at": "2026-03-09T13:33:36.927921",
+      "status": "pending"
+    },
+    {
+      "id": "ISEE-PROP-20260309-6503",
+      "opportunity_id": "ISEE-20260309-0433",
+      "title": "CV/R\u00e9sum\u00e9 Optimization Service Income Stream",
+      "business_case": "## Executive Summary\n\n**Opportunity:** CV/R\u00e9sum\u00e9 Optimization Service\n**Category:** services\n**Market Size:** large\n**Competition:** medium\n\n## Value Proposition\n\nRewrite and optimize CVs for job seekers\n\n## Market Analysis\n\n- **Total Addressable Market:** $10,000,000\n- **Market Growth:** 18% annually\n- **Market Saturation:** medium\n- **Competitive Landscape:** medium\n\n## Financial Projections\n\n- **Monthly Revenue Potential:** $1,500\n- **Time to Revenue:** days\n- **Confidence Level:** 80%\n\n## Strategic Fit\n\nThis opportunity aligns with existing capabilities and represents a large market with medium competition. The low barrier to entry provides a defensible position.",
+      "roi_projection": {
+        "monthly_gross": 1500,
+        "monthly_net_estimate": 735,
+        "margin": 70,
+        "setup_cost": 500,
+        "break_even_months": 1,
+        "year_1": 4410,
+        "year_2": 7938,
+        "year_3": 8820,
+        "roi_3_year": 20668,
+        "roi_percentage": 4133
+      },
+      "timeline": {
+        "total_weeks": 3,
+        "phases": [
+          {
+            "name": "Setup & Validation",
+            "weeks": 1,
+            "deliverables": [
+              "Market validation confirmed",
+              "Resources gathered",
+              "Initial workflow created"
+            ]
+          },
+          {
+            "name": "Build & Create",
+            "weeks": 1,
+            "deliverables": [
+              "services created",
+              "Systems configured",
+              "Documentation complete"
+            ]
+          },
+          {
+            "name": "Launch & Iterate",
+            "weeks": 1,
+            "deliverables": [
+              "First revenue event",
+              "Feedback collected",
+              "Iteration plan created"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "skills": [
+          "writing",
+          "ats",
+          "career-counseling"
+        ],
+        "time_commitment": "10-20 hours/week",
+        "tools": [
+          "Calendly",
+          "Stripe",
+          "Project management tool"
+        ],
+        "capital": 500,
+        "dependencies": [
+          "Client acquisition"
+        ]
+      },
+      "workflow": {
+        "type": "service",
+        "phases": [
+          {
+            "name": "Service Definition",
+            "duration": "1 week",
+            "steps": [
+              "Define service packages",
+              "Create pricing tiers",
+              "Build portfolio/case studies",
+              "Set up booking system"
+            ]
+          },
+          {
+            "name": "Client Acquisition",
+            "duration": "ongoing",
+            "steps": [
+              "Network outreach",
+              "Content marketing",
+              "Cold outreach (if applicable)",
+              "Referral program"
+            ]
+          },
+          {
+            "name": "Delivery System",
+            "duration": "ongoing",
+            "steps": [
+              "Client intake process",
+              "Service delivery",
+              "Quality assurance",
+              "Follow-up and retention"
+            ]
+          }
+        ],
+        "automation": [
+          "Scheduling system",
+          "Contract/invoicing",
+          "Client communications",
+          "Project management"
+        ],
+        "metrics": {
+          "utilization_rate": "target 70%+",
+          "average_project_value": "track",
+          "client_retention": "track",
+          "monthly_revenue": "target $1500"
+        }
+      },
+      "risks": [
+        "Market conditions may change",
+        "Execution risk"
+      ],
+      "metrics": {
+        "primary": {
+          "metric": "Monthly Revenue",
+          "target": "$1500",
+          "timeline": "days"
+        },
+        "secondary": [
+          "Customer satisfaction (NPS)",
+          "Operational efficiency",
+          "Time investment per $ earned"
+        ],
+        "milestones": [
+          {
+            "name": "First $1",
+            "timeline": "days"
+          },
+          {
+            "name": "$100/month",
+            "timeline": "2x time to revenue"
+          },
+          {
+            "name": "$1000/month",
+            "timeline": "3x time to revenue"
+          },
+          {
+            "name": "Full target",
+            "timeline": "6 months"
+          }
+        ]
+      },
+      "created_at": "2026-03-09T13:33:36.937129",
+      "status": "pending"
+    },
+    {
+      "id": "ISEE-PROP-20260309-2816",
+      "opportunity_id": "ISEE-20260309-7441",
+      "title": "Automation Consulting Income Stream",
+      "business_case": "## Executive Summary\n\n**Opportunity:** Automation Consulting\n**Category:** services\n**Market Size:** large\n**Competition:** medium\n\n## Value Proposition\n\nHelp businesses automate workflows\n\n## Market Analysis\n\n- **Total Addressable Market:** $10,000,000\n- **Market Growth:** 18% annually\n- **Market Saturation:** low\n- **Competitive Landscape:** medium\n\n## Financial Projections\n\n- **Monthly Revenue Potential:** $4,000\n- **Time to Revenue:** weeks\n- **Confidence Level:** 80%\n\n## Strategic Fit\n\nThis opportunity aligns with existing capabilities and represents a large market with medium competition. The medium barrier to entry provides a defensible position.",
+      "roi_projection": {
+        "monthly_gross": 4000,
+        "monthly_net_estimate": 1959,
+        "margin": 70,
+        "setup_cost": 1000,
+        "break_even_months": 1,
+        "year_1": 11754,
+        "year_2": 21157,
+        "year_3": 23508,
+        "roi_3_year": 55419,
+        "roi_percentage": 5541
+      },
+      "timeline": {
+        "total_weeks": 3,
+        "phases": [
+          {
+            "name": "Setup & Validation",
+            "weeks": 1,
+            "deliverables": [
+              "Market validation confirmed",
+              "Resources gathered",
+              "Initial workflow created"
+            ]
+          },
+          {
+            "name": "Build & Create",
+            "weeks": 1,
+            "deliverables": [
+              "services created",
+              "Systems configured",
+              "Documentation complete"
+            ]
+          },
+          {
+            "name": "Launch & Iterate",
+            "weeks": 1,
+            "deliverables": [
+              "First revenue event",
+              "Feedback collected",
+              "Iteration plan created"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "skills": [
+          "automation",
+          "consulting",
+          " scripting"
+        ],
+        "time_commitment": "10-20 hours/week",
+        "tools": [
+          "Calendly",
+          "Stripe",
+          "Project management tool"
+        ],
+        "capital": 1000,
+        "dependencies": [
+          "Client acquisition"
+        ]
+      },
+      "workflow": {
+        "type": "service",
+        "phases": [
+          {
+            "name": "Service Definition",
+            "duration": "1 week",
+            "steps": [
+              "Define service packages",
+              "Create pricing tiers",
+              "Build portfolio/case studies",
+              "Set up booking system"
+            ]
+          },
+          {
+            "name": "Client Acquisition",
+            "duration": "ongoing",
+            "steps": [
+              "Network outreach",
+              "Content marketing",
+              "Cold outreach (if applicable)",
+              "Referral program"
+            ]
+          },
+          {
+            "name": "Delivery System",
+            "duration": "ongoing",
+            "steps": [
+              "Client intake process",
+              "Service delivery",
+              "Quality assurance",
+              "Follow-up and retention"
+            ]
+          }
+        ],
+        "automation": [
+          "Scheduling system",
+          "Contract/invoicing",
+          "Client communications",
+          "Project management"
+        ],
+        "metrics": {
+          "utilization_rate": "target 70%+",
+          "average_project_value": "track",
+          "client_retention": "track",
+          "monthly_revenue": "target $4000"
+        }
+      },
+      "risks": [
+        "Market conditions may change",
+        "Execution risk"
+      ],
+      "metrics": {
+        "primary": {
+          "metric": "Monthly Revenue",
+          "target": "$4000",
+          "timeline": "weeks"
+        },
+        "secondary": [
+          "Customer satisfaction (NPS)",
+          "Operational efficiency",
+          "Time investment per $ earned"
+        ],
+        "milestones": [
+          {
+            "name": "First $1",
+            "timeline": "weeks"
+          },
+          {
+            "name": "$100/month",
+            "timeline": "2x time to revenue"
+          },
+          {
+            "name": "$1000/month",
+            "timeline": "3x time to revenue"
+          },
+          {
+            "name": "Full target",
+            "timeline": "6 months"
+          }
+        ]
+      },
+      "created_at": "2026-03-09T13:33:36.947173",
+      "status": "pending"
+    },
+    {
+      "id": "ISEE-PROP-20260309-6503",
+      "opportunity_id": "ISEE-20260309-8769",
+      "title": "CV/R\u00e9sum\u00e9 Optimization Service Income Stream",
+      "business_case": "## Executive Summary\n\n**Opportunity:** CV/R\u00e9sum\u00e9 Optimization Service\n**Category:** services\n**Market Size:** large\n**Competition:** medium\n\n## Value Proposition\n\nRewrite and optimize CVs for job seekers\n\n## Market Analysis\n\n- **Total Addressable Market:** $10,000,000\n- **Market Growth:** 18% annually\n- **Market Saturation:** medium\n- **Competitive Landscape:** medium\n\n## Financial Projections\n\n- **Monthly Revenue Potential:** $1,500\n- **Time to Revenue:** days\n- **Confidence Level:** 80%\n\n## Strategic Fit\n\nThis opportunity aligns with existing capabilities and represents a large market with medium competition. The low barrier to entry provides a defensible position.",
+      "roi_projection": {
+        "monthly_gross": 1500,
+        "monthly_net_estimate": 735,
+        "margin": 70,
+        "setup_cost": 500,
+        "break_even_months": 1,
+        "year_1": 4410,
+        "year_2": 7938,
+        "year_3": 8820,
+        "roi_3_year": 20668,
+        "roi_percentage": 4133
+      },
+      "timeline": {
+        "total_weeks": 3,
+        "phases": [
+          {
+            "name": "Setup & Validation",
+            "weeks": 1,
+            "deliverables": [
+              "Market validation confirmed",
+              "Resources gathered",
+              "Initial workflow created"
+            ]
+          },
+          {
+            "name": "Build & Create",
+            "weeks": 1,
+            "deliverables": [
+              "services created",
+              "Systems configured",
+              "Documentation complete"
+            ]
+          },
+          {
+            "name": "Launch & Iterate",
+            "weeks": 1,
+            "deliverables": [
+              "First revenue event",
+              "Feedback collected",
+              "Iteration plan created"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "skills": [
+          "writing",
+          "ats",
+          "career-counseling"
+        ],
+        "time_commitment": "10-20 hours/week",
+        "tools": [
+          "Calendly",
+          "Stripe",
+          "Project management tool"
+        ],
+        "capital": 500,
+        "dependencies": [
+          "Client acquisition"
+        ]
+      },
+      "workflow": {
+        "type": "service",
+        "phases": [
+          {
+            "name": "Service Definition",
+            "duration": "1 week",
+            "steps": [
+              "Define service packages",
+              "Create pricing tiers",
+              "Build portfolio/case studies",
+              "Set up booking system"
+            ]
+          },
+          {
+            "name": "Client Acquisition",
+            "duration": "ongoing",
+            "steps": [
+              "Network outreach",
+              "Content marketing",
+              "Cold outreach (if applicable)",
+              "Referral program"
+            ]
+          },
+          {
+            "name": "Delivery System",
+            "duration": "ongoing",
+            "steps": [
+              "Client intake process",
+              "Service delivery",
+              "Quality assurance",
+              "Follow-up and retention"
+            ]
+          }
+        ],
+        "automation": [
+          "Scheduling system",
+          "Contract/invoicing",
+          "Client communications",
+          "Project management"
+        ],
+        "metrics": {
+          "utilization_rate": "target 70%+",
+          "average_project_value": "track",
+          "client_retention": "track",
+          "monthly_revenue": "target $1500"
+        }
+      },
+      "risks": [
+        "Market conditions may change",
+        "Execution risk"
+      ],
+      "metrics": {
+        "primary": {
+          "metric": "Monthly Revenue",
+          "target": "$1500",
+          "timeline": "days"
+        },
+        "secondary": [
+          "Customer satisfaction (NPS)",
+          "Operational efficiency",
+          "Time investment per $ earned"
+        ],
+        "milestones": [
+          {
+            "name": "First $1",
+            "timeline": "days"
+          },
+          {
+            "name": "$100/month",
+            "timeline": "2x time to revenue"
+          },
+          {
+            "name": "$1000/month",
+            "timeline": "3x time to revenue"
+          },
+          {
+            "name": "Full target",
+            "timeline": "6 months"
+          }
+        ]
+      },
+      "created_at": "2026-03-09T13:33:36.956942",
+      "status": "pending"
+    }
+  ]
+}

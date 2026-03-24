@@ -1,0 +1,4893 @@
+[
+  {
+    "timestamp": "2026-03-22T02:43:20.785255",
+    "cycle_number": 0,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 6.7,
+      "total_capital_usd": 1005.0,
+      "initial_capital_sol": 6.7,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 0.67,
+        "current_sol": 0.67,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "very_high",
+        "status": "ELIMINATED",
+        "generation": 0
+      }
+    ],
+    "trades_today": [],
+    "holdings": {}
+  },
+  {
+    "timestamp": "2026-03-22T02:45:22.341237",
+    "cycle_number": 1,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 12.0,
+      "total_capital_usd": 1800.0,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 7,
+      "open_positions": 7,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.335944",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.336380",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.336647",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.337502",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.337920",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.338253",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:45:22.338802",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "very_high",
+        "status": "ELIMINATED",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.338802"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.338253"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.337920"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.337502"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.336647"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.336380"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:45:22.335944"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.8999999999999999,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.18,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.18,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-22T02:46:14.909077",
+    "cycle_number": 1,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 12.0,
+      "total_capital_usd": 1800.0,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 7,
+      "open_positions": 7,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.903967",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.904367",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.904668",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.905575",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.905970",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.906260",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.02,
+        "invested_sol": 0.18,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.18,
+            "entry_time": "2026-03-22T02:46:14.906978",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "very_high",
+        "status": "ELIMINATED",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.906978"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.906260"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.905970"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.905575"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.904668"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.904367"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.18,
+        "time": "2026-03-22T02:46:14.903967"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.8999999999999999,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.18,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.18,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-22T02:46:20.906365",
+    "cycle_number": 1,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 12.0,
+      "total_capital_usd": 1800.0,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "SURVIVOR",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ELIMINATED",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "very_high",
+        "status": "ELIMINATED",
+        "generation": 0
+      }
+    ],
+    "trades_today": [],
+    "holdings": {}
+  },
+  {
+    "timestamp": "2026-03-22T02:53:38.107943",
+    "cycle_number": 2,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 10.74,
+      "total_capital_usd": 1611.0,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 7,
+      "open_positions": 7,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.101407",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.101832",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.102253",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.103173",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.103592",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.103980",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.867,
+        "invested_sol": 0.153,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.153,
+            "entry_time": "2026-03-22T02:53:38.104533",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "very_high",
+        "status": "ACTIVE",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.104533"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.103980"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.103592"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.103173"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.102253"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.101832"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.153,
+        "time": "2026-03-22T02:53:38.101407"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.765,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.153,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.153,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-22T02:55:18.425993",
+    "cycle_number": 3,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 9.669,
+      "total_capital_usd": 1450.3500000000001,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 7,
+      "open_positions": 7,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.420471",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.420993",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.421314",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.422434",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.422853",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.423365",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.424013",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "very_high",
+        "status": "ACTIVE",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.424013"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.423365"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422853"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422434"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.421314"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.420993"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.420471"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.65025,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-22T02:55:40.366359",
+    "cycle_number": 3,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 9.669,
+      "total_capital_usd": 1450.3500000000001,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 7,
+      "open_positions": 7,
+      "closed_trades": 0,
+      "win_rate": 0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.420471",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.420993",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.421314",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.422434",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.422853",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.423365",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 1,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T02:55:18.424013",
+            "status": "open"
+          }
+        ],
+        "recent_trades": []
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 1,
+        "risk_level": "very_high",
+        "status": "ACTIVE",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.424013"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.423365"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422853"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422434"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.421314"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.420993"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.420471"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.65025,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-22T13:33:04.850141",
+    "cycle_number": 4,
+    "summary": {
+      "total_strategies": 10,
+      "total_capital_sol": 9.669,
+      "total_capital_usd": 1450.3500000000001,
+      "initial_capital_sol": 12.0,
+      "total_pnl_sol": 0.0,
+      "total_pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 14,
+      "open_positions": 7,
+      "closed_trades": 7,
+      "win_rate": 0.0,
+      "active_strategies": 10,
+      "evolution_generation": 0
+    },
+    "strategies": [
+      {
+        "id": 1,
+        "name": "Momentum Surge",
+        "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "volume_spike_threshold",
+          "price_breakout_threshold",
+          "min_mcap",
+          "max_mcap",
+          "entry_position_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "time_stop_hours",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.845911",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "SOLINU",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.845706"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "dip_threshold_min",
+          "dip_threshold_max",
+          "mean_period",
+          "bounce_target_pct",
+          "min_liquidity",
+          "max_slippage",
+          "cooldown_minutes",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "MEME",
+            "entry_price": 6.07e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.846095",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "MEME",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.845962"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Whale Shadow",
+        "description": "Copy trades from tracked whale wallets with slight delay.",
+        "timeframe": "real-time",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "whale_wallets",
+          "max_delay_seconds",
+          "min_whale_buys",
+          "copy_size_pct",
+          "max_position_hold_hours",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.846210",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "SOLINU",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.846129"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "RSI Oversold",
+        "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+        "timeframe": "15m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "rsi_period",
+          "rsi_entry_max",
+          "rsi_exit_min",
+          "volume_confirmation",
+          "min_volume_spike",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 5,
+        "name": "Breakout Hunter",
+        "description": "Identify key resistance levels, buy on confirmed breakout.",
+        "timeframe": "1h",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "resistance_lookback",
+          "breakout_confirmation_pct",
+          "volume_confirmation",
+          "min_breakout_volume",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 6,
+        "name": "Social Sentiment",
+        "description": "Trade on Twitter mention spikes and social buzz.",
+        "timeframe": "15m",
+        "risk_level": "high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "mention_spike_threshold",
+          "sentiment_threshold",
+          "min_follower_count",
+          "max_entry_delay_minutes",
+          "position_size_pct",
+          "momentum_hold_hours",
+          "profit_take_pct",
+          "stop_loss_pct",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.846519",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "SOLINU",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.846438"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+        "timeframe": "30m",
+        "risk_level": "medium",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "liquidity_inflow_threshold",
+          "liquidity_drain_threshold",
+          "min_liquidity_usd",
+          "max_liquidity_usd",
+          "position_size_pct",
+          "hold_max_hours",
+          "profit_target_pct",
+          "early_exit_if_drain",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.846694",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "SOLINU",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.846571"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "EMA Cross",
+        "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+        "timeframe": "1h",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "fast_ema_period",
+          "slow_ema_period",
+          "signal_lookback",
+          "trend_filter",
+          "position_size_pct",
+          "take_profit_pct",
+          "stop_loss_pct",
+          "trailing_stop",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "SOLINU",
+            "entry_price": 8.35e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.846839",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "SOLINU",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.846732"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Range Trader",
+        "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+        "timeframe": "30m",
+        "risk_level": "low",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "range_lookback_hours",
+          "support_buffer_pct",
+          "resistance_buffer_pct",
+          "min_range_width_pct",
+          "position_size_pct",
+          "max_trades_per_range",
+          "breakout_stop_loss",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 1.2,
+        "invested_sol": 0,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 0,
+        "open_positions": 0,
+        "win_count": 0,
+        "loss_count": 0,
+        "win_rate": 0,
+        "performance_score": 0.0,
+        "positions": [],
+        "recent_trades": []
+      },
+      {
+        "id": 10,
+        "name": "News Arbitrage",
+        "description": "React to major news within 60 seconds. Lightning fast.",
+        "timeframe": "5m",
+        "risk_level": "very_high",
+        "generation": 0,
+        "parent": null,
+        "dna_keys": [
+          "max_reaction_seconds",
+          "news_sources",
+          "sentiment_threshold",
+          "position_size_pct",
+          "max_hold_minutes",
+          "profit_target_pct",
+          "stop_loss_pct",
+          "only_major_events",
+          "indicators"
+        ],
+        "initial_sol": 1.2,
+        "current_sol": 0.73695,
+        "invested_sol": 0.13005,
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "pnl_percentage": 0.0,
+        "total_trades": 2,
+        "open_positions": 1,
+        "win_count": 0,
+        "loss_count": 1,
+        "win_rate": 0.0,
+        "performance_score": 20.0,
+        "positions": [
+          {
+            "symbol": "JUP",
+            "entry_price": 3.59e-06,
+            "amount_sol": 0.13005,
+            "entry_time": "2026-03-22T13:33:04.847043",
+            "status": "open"
+          }
+        ],
+        "recent_trades": [
+          {
+            "symbol": "JUP",
+            "pnl_sol": 0.0,
+            "pnl_pct": 0.0,
+            "exit_time": "2026-03-22T13:33:04.846962"
+          }
+        ]
+      }
+    ],
+    "leaderboard": [
+      {
+        "rank": 1,
+        "id": 1,
+        "name": "Momentum Surge",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 2,
+        "id": 2,
+        "name": "Mean Reversion Dip",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 3,
+        "id": 3,
+        "name": "Whale Shadow",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 4,
+        "id": 4,
+        "name": "RSI Oversold",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "name": "Breakout Hunter",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 6,
+        "id": 6,
+        "name": "Social Sentiment",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "high",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 7,
+        "id": 7,
+        "name": "Liquidity Surfing",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "medium",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 8,
+        "id": 8,
+        "name": "EMA Cross",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 9,
+        "id": 9,
+        "name": "Range Trader",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0,
+        "trades": 0,
+        "risk_level": "low",
+        "status": "ACTIVE",
+        "generation": 0
+      },
+      {
+        "rank": 10,
+        "id": 10,
+        "name": "News Arbitrage",
+        "pnl_sol": 0.0,
+        "pnl_usd": 0.0,
+        "win_rate": 0.0,
+        "trades": 2,
+        "risk_level": "very_high",
+        "status": "ACTIVE",
+        "generation": 0
+      }
+    ],
+    "trades_today": [
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.847043"
+      },
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.846962"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.846839"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.846732"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.846694"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.846571"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.846519"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.846438"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.846210"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.846129"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.846095"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.845962"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T13:33:04.845911"
+      },
+      {
+        "strategy": "Momentum Surge",
+        "symbol": "SOLINU",
+        "type": "EXIT",
+        "pnl_sol": 0.0,
+        "pnl_pct": 0.0,
+        "time": "2026-03-22T13:33:04.845706"
+      },
+      {
+        "strategy": "News Arbitrage",
+        "symbol": "JUP",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.424013"
+      },
+      {
+        "strategy": "EMA Cross",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.423365"
+      },
+      {
+        "strategy": "Liquidity Surfing",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422853"
+      },
+      {
+        "strategy": "Social Sentiment",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.422434"
+      },
+      {
+        "strategy": "Whale Shadow",
+        "symbol": "SOLINU",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.421314"
+      },
+      {
+        "strategy": "Mean Reversion Dip",
+        "symbol": "MEME",
+        "type": "ENTRY",
+        "amount_sol": 0.13005,
+        "time": "2026-03-22T02:55:18.420993"
+      }
+    ],
+    "holdings": {
+      "SOLINU": {
+        "symbol": "SOLINU",
+        "total_sol_invested": 0.65025,
+        "strategies": [
+          "Momentum Surge",
+          "Whale Shadow",
+          "Social Sentiment",
+          "Liquidity Surfing",
+          "EMA Cross"
+        ],
+        "entry_prices": [
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06,
+          8.35e-06
+        ],
+        "avg_entry_price": 8.35e-06
+      },
+      "MEME": {
+        "symbol": "MEME",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "Mean Reversion Dip"
+        ],
+        "entry_prices": [
+          6.07e-06
+        ],
+        "avg_entry_price": 6.07e-06
+      },
+      "JUP": {
+        "symbol": "JUP",
+        "total_sol_invested": 0.13005,
+        "strategies": [
+          "News Arbitrage"
+        ],
+        "entry_prices": [
+          3.59e-06
+        ],
+        "avg_entry_price": 3.59e-06
+      }
+    }
+  }
+]

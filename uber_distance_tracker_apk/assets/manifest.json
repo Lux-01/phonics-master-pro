@@ -1,0 +1,22 @@
+{
+    "name": "Uber Distance Tracker",
+    "short_name": "Distance Tracker",
+    "description": "Track your driving distance for Uber trips",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F6F8FA",
+    "theme_color": "#276EF1",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

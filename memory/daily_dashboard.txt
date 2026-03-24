@@ -1,0 +1,94 @@
+======================================================================
+📊 SKYLAR & AOE TRADING DASHBOARD
+Generated: 2026-03-12 15:15 AEDT
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+🤖 SKYLAR LIVE POSITIONS
+──────────────────────────────────────────────────────────────────────
+
+Active Positions: 3
+Cycle: 1
+
+  Trade #3: UNKNOWN
+    Status: ACTIVE
+    Entry: 2026-02-28 01:57 (12d 13h ago)
+    Size: 0.010000 SOL
+    Grade/Score: A/90
+    Address: 5WsyuZ8Dzkec1QwAnuZE...
+
+  Trade #4: UNKNOWN
+    Status: ACTIVE
+    Entry: 2026-02-28 01:57 (12d 13h ago)
+    Size: 0.010000 SOL
+    Grade/Score: A/85
+    Address: 9A6qq9UpxzrAXf8RN1nS...
+
+  Trade #5: UNKNOWN
+    Status: ACTIVE
+    Entry: 2026-02-28 01:57 (12d 13h ago)
+    Size: 0.010000 SOL
+    Grade/Score: A/80
+    Address: EM63NxMgoSKVjLVqbP5A...
+
+⚠️  WARNING: Positions older than 10 days
+    Consider manual review/closing
+
+──────────────────────────────────────────────────────────────────────
+📈 SKYLAR PERFORMANCE ANALYSIS
+──────────────────────────────────────────────────────────────────────
+
+Total Trades: 14
+Wins: 10 | Losses: 4
+Win Rate: 71.4%
+Avg Win: +15.8% | Avg Loss: -10.2%
+Net P&L: +117.0%
+
+🎯 Top Rules Learned:
+  • Enter within first 6 hours of launch for best momentum
+  • Exit at +15% - don't get greedy with low caps
+  • Enter coins under $21k when volume spikes 3x
+
+⚠️  Common Mistakes:
+  • Entering without checking liquidity depth first (14x)
+
+──────────────────────────────────────────────────────────────────────
+🔥 AOE SCAN ANALYSIS
+──────────────────────────────────────────────────────────────────────
+
+Total Scans (All Time): 30
+Scans Today: 29
+
+Latest Scan: aoe_scan_manual_20260312_044103.log
+
+📊 Today's Best Tokens:
+
+📈 Notable Trends:
+  04:41:07 | aoe.pipeline | INFO |    Tokens: 112 raw → 111 unique → 16 final
+  04:41:07 | aoe.main | INFO |    GORK: 51 → 59 (↑8)
+  04:41:07 | aoe.main | INFO |    UNTAXED: 52 → 58 (↑7)
+  04:41:07 | aoe.main | INFO |    Tokens: 112 raw → 111 unique → 16 final
+
+History Records: 35
+Last Update: 2026-03-12T15:00
+Tokens: 0 → 0
+
+──────────────────────────────────────────────────────────────────────
+🔧 SYSTEM HEALTH
+──────────────────────────────────────────────────────────────────────
+
+💾 Disk Usage:
+  AOE Logs: 30 files (0.2 MB)
+  Workspace Logs: 23 files (0.3 MB)
+  JSON Data Files: 1287
+  Memory Files: 64
+
+⚠️  Backup Files: 1 (consider cleaning)
+
+⚠️  Temp Files: 33 (consider cleaning)
+
+──────────────────────────────────────────────────────────────────────
+✅ ACTION ITEMS
+──────────────────────────────────────────────────────────────────────
+  🔴 Review 3 old Skylar positions (10+ days)
+  🗑️  Remove 1 backup files

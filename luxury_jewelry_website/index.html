@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum & Co. | Luxury Gold, Diamonds & Timepieces | Sydney</title>
+    <meta name="description" content="Sydney's premier luxury jeweler. Exquisite gold jewelry, certified diamonds, and Swiss timepieces. Bespoke designs and expert craftsmanship since 1985.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* LUXURY JEWELRY - DARK ELEGANT THEME */
+        :root {
+            --primary: #1A1A1A;        /* Deep Black */
+            --primary-light: #2D2D2D;
+            --secondary: #0D0D0D;       /* Rich Black */
+            --accent: #C9A962;          /* Champagne Gold */
+            --accent-light: #E5D4A1;    /* Light Gold */
+            --text: #F5F5F5;            /* Off White */
+            --text-muted: #999999;      /* Muted Gray */
+            --white: #FFFFFF;
+        }
+
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        body { 
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6; 
+            color: var(--text);
+            background: var(--secondary);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+        }
+
+        /* Header */
+        header {
+            background: rgba(13, 13, 13, 0.95);
+            backdrop-filter: blur(20px);
+            color: white;
+            padding: 1.5rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            color: var(--text);
+            font-weight: 300;
+        }
+
+        nav ul { 
+            display: flex; 
+            list-style: none; 
+            gap: 3rem; 
+        }
+
+        nav a { 
+            color: var(--text); 
+            text-decoration: none; 
+            font-weight: 400;
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--accent);
+            transition: width 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .nav-icons {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .nav-icons a {
+            color: var(--text);
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .nav-icons a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--secondary) 0%, #1a1a2e 50%, var(--primary) 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(201, 169, 98, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(201, 169, 98, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+        }
+
+        .hero-subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .hero h1 { 
+            font-size: 5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.3s forwards;
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+            font-style: italic;
+        }
+
+        .hero p { 
+            font-size: 1.2rem; 
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.6s forwards;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.9s forwards;
+        }
+
+        .btn-primary {
+            background: transparent;
+            color: var(--accent);
+            padding: 1.2rem 3rem;
+            border: 1px solid var(--accent);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent);
+            color: var(--secondary);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            padding: 1.2rem 3rem;
+            border: 1px solid rgba(255,255,255,0.3);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.4s;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Scroll indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-indicator::after {
+            content: '↓';
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+
+        /* Section Styling */
+        section {
+            padding: 120px 3rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        .section-subtitle {
+            font-size: 1rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Collections Section */
+        .collections {
+            background: var(--primary);
+        }
+
+        .collections-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .collection-card {
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .collection-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 60%);
+            z-index: 1;
+            transition: opacity 0.4s;
+        }
+
+        .collection-card:hover::before {
+            opacity: 0.8;
+        }
+
+        .collection-image {
+            width: 100%;
+            height: 100%;
+            background: var(--primary-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            transition: transform 0.6s;
+        }
+
+        .collection-card:hover .collection-image {
+            transform: scale(1.05);
+        }
+
+        .collection-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem;
+            z-index: 2;
+            transform: translateY(20px);
+            transition: transform 0.4s;
+        }
+
+        .collection-card:hover .collection-content {
+            transform: translateY(0);
+        }
+
+        .collection-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .collection-content p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .collection-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .collection-card:hover .collection-link {
+            opacity: 1;
+        }
+
+        /* Featured Products */
+        .featured {
+            background: var(--secondary);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: var(--primary);
+            border: 1px solid rgba(201, 169, 98, 0.1);
+            overflow: hidden;
+            transition: border-color 0.3s;
+        }
+
+        .product-card:hover {
+            border-color: var(--accent);
+        }
+
+        .product-image {
+            height: 300px;
+            background: var(--primary-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: var(--accent);
+            color: var(--secondary);
+            padding: 0.4rem 1rem;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-category {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-name {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .product-price {
+            font-size: 1.2rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .product-price .original {
+            text-decoration: line-through;
+            color: var(--text-muted);
+            margin-left: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--primary);
+            position: relative;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0.3;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-image {
+            height: 600px;
+            background: var(--primary-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            position: relative;
+        }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            right: -2rem;
+            bottom: -2rem;
+            border: 1px solid var(--accent);
+            z-index: -1;
+        }
+
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--text);
+        }
+
+        .about-content p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .about-signature {
+            margin-top: 3rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent);
+            font-style: italic;
+        }
+
+        /* Services Section */
+        .services {
+            background: var(--secondary);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+        }
+
+        .service-card {
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid rgba(201, 169, 98, 0.1);
+            transition: all 0.4s;
+        }
+
+        .service-card:hover {
+            border-color: var(--accent);
+            background: rgba(201, 169, 98, 0.05);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        .service-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: var(--primary);
+            text-align: center;
+        }
+
+        .testimonial-slider {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .testimonial-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-style: italic;
+            color: var(--text);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .testimonial-author {
+            color: var(--accent);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .testimonial-dots {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 3rem;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(201, 169, 98, 0.3);
+            cursor: pointer;
+        }
+
+        .dot.active {
+            background: var(--accent);
+        }
+
+        /* Contact Section */
+        .contact {
+            background: var(--secondary);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+        }
+
+        .contact-info h3 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: var(--text);
+        }
+
+        .contact-detail {
+            margin-bottom: 2rem;
+        }
+
+        .contact-detail h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .contact-detail p {
+            color: var(--text);
+            font-size: 1.1rem;
+        }
+
+        .contact-form {
+            background: var(--primary);
+            padding: 3rem;
+            border: 1px solid rgba(201, 169, 98, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-light);
+            border: 1px solid rgba(201, 169, 98, 0.2);
+            color: var(--text);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        /* Footer */
+        footer {
+            background: #0a0a0a;
+            color: var(--text);
+            padding: 5rem 3rem 2rem;
+            border-top: 1px solid rgba(201, 169, 98, 0.1);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 4rem;
+            max-width: 1400px;
+            margin: 0 auto 4rem;
+        }
+
+        .footer-brand .logo {
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        .footer-brand p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .footer-column h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-column a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .footer-column a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(201, 169, 98, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-bottom p {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        .payment-methods {
+            display: flex;
+            gap: 1rem;
+            font-size: 1.5rem;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 1024px) {
+            .collections-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 3rem;
+            }
+            
+            .collections-grid,
+            .products-grid,
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            section {
+                padding: 80px 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">Aurum <span>&</span> Co.</a>
+            <ul>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#featured">Shop</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" title="Search">🔍</a>
+                <a href="#" title="Account">👤</a>
+                <a href="#" title="Cart">🛒</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Est. 1985 • Sydney</p>
+            <h1>Timeless <span>Elegance</span></h1>
+            <p>Discover our exquisite collection of fine gold jewelry, certified diamonds, and Swiss timepieces. Crafted for those who appreciate true luxury.</p>
+            <div class="hero-buttons">
+                <a href="#collections" class="btn-primary">Explore Collections</a>
+                <a href="#featured" class="btn-secondary">Shop Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">Scroll</div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Curated Selection</span>
+                <h2 class="section-title">Our Collections</h2>
+                <p class="section-subtitle">Each piece tells a story of exceptional craftsmanship and timeless beauty</p>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <div class="collection-image">💎</div>
+                    <div class="collection-content">
+                        <h3>Diamond Collection</h3>
+                        <p>GIA certified diamonds, ethically sourced</p>
+                        <a href="#" class="collection-link">View Collection →</a>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <div class="collection-image">✨</div>
+                    <div class="collection-content">
+                        <h3>Gold Jewelry</h3>
+                        <p>18K & 24K fine gold pieces</p>
+                        <a href="#" class="collection-link">View Collection →</a>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <div class="collection-image">⌚</div>
+                    <div class="collection-content">
+                        <h3>Timepieces</h3>
+                        <p>Swiss luxury watches</p>
+                        <a href="#" class="collection-link">View Collection →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Featured</span>
+                <h2 class="section-title">Exquisite Pieces</h2>
+                <p class="section-subtitle">Handpicked selections from our master craftsmen</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        💍
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Rings</p>
+                        <h3 class="product-name">Eternal Diamond Solitaire</h3>
+                        <p class="product-price">$12,500</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        📿
+                        <span class="product-badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Necklaces</p>
+                        <h3 class="product-name">Golden Cascade Necklace</h3>
+                        <p class="product-price">$8,900</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        ⌚
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Watches</p>
+                        <h3 class="product-name">Heritage Chronograph</h3>
+                        <p class="product-price">$24,500</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        💎
+                        <span class="product-badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Earrings</p>
+                        <h3 class="product-name">Diamond Drop Earrings</h3>
+                        <p class="product-price">$6,200 <span class="original">$7,800</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">🏛️</div>
+                <div class="about-content">
+                    <span class="section-label">Our Heritage</span>
+                    <h2>A Legacy of Excellence</h2>
+                    <p>Since 1985, Aurum & Co. has been Sydney's destination for exceptional jewelry and timepieces. Our master craftsmen combine traditional techniques with contemporary design to create pieces that transcend generations.</p>
+                    <p>Every diamond is GIA certified, every gold piece is ethically sourced, and every watch is authenticated by our Swiss-trained horologists. We don't just sell jewelry—we curate heirlooms.</p>
+                    <p>Visit our boutique in the heart of Sydney for a personalized consultation, or explore our collections online. Your journey to timeless elegance begins here.</p>
+                    <p class="about-signature">— The Aurum Family</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Bespoke Services</span>
+                <h2 class="section-title">Expert Craftsmanship</h2>
+                <p class="section-subtitle">Services designed for the discerning collector</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✏️</div>
+                    <h3>Custom Design</h3>
+                    <p>Work with our master jewelers to create a one-of-a-kind piece that tells your unique story.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Restoration</h3>
+                    <p>Breathe new life into vintage pieces with our expert restoration and repair services.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Authentication</h3>
+                    <p>Professional appraisal and certification for insurance, estate, or personal records.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎁</div>
+                    <h3>Concierge</h3>
+                    <p>Private appointments, gift wrapping, and personalized shopping experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">Client Stories</h2>
+            </div>
+            
+            <div class="testimonial-slider">
+                <p class="testimonial-text">"The attention to detail and personalized service at Aurum & Co. is unmatched. My engagement ring exceeded every expectation—truly a work of art."</p>
+                <p class="testimonial-author">— Sarah Mitchell, Sydney</p>
+            </div>
+            
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Visit Us</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We invite you to experience Aurum & Co. in person</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-detail">
+                        <h4>Address</h4>
+                        <p>123 Luxury Lane, Sydney CBD<br>NSW 2000, Australia</p>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <h4>Phone</h4>
+                        <p>+61 2 9000 0000</p>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <h4>Email</h4>
+                        <p>concierge@aurumco.com.au</p>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <h4>Hours</h4>
+                        <p>Mon–Sat: 10:00 AM – 6:00 PM<br>Sunday: By Appointment</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 style="font-family: 'Playfair Display', serif; margin-bottom: 2rem; color: var(--text);">Request an Appointment</h3>
+                    <form>
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" placeholder="+61 XXX XXX XXX">
+                        </div>
+                        <div class="form-group">
+                            <label>Interest</label>
+                            <select>
+                                <option>Select an option</option>
+                                <option>Diamond Jewelry</option>
+                                <option>Gold Collection</option>
+                                <option>Timepieces</option>
+                                <option>Custom Design</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">Request Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">Aurum <span>&</span> Co.</a>
+                <p>Sydney's premier destination for luxury gold jewelry, certified diamonds, and Swiss timepieces. Crafting heirlooms since 1985.</p>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="#">Diamonds</a></li>
+                    <li><a href="#">Gold Jewelry</a></li>
+                    <li><a href="#">Timepieces</a></li>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Gifts</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Custom Design</a></li>
+                    <li><a href="#">Restoration</a></li>
+                    <li><a href="#">Authentication</a></li>
+                    <li><a href="#">Concierge</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">Book Appointment</a></li>
+                    <li><a href="#">+61 2 9000 0000</a></li>
+                    <li><a href="#">concierge@aurumco.com.au</a></li>
+                    <li><a href="#">Sydney CBD</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aurum & Co. All rights reserved. | Privacy Policy | Terms of Service</p>
+            <div class="payment-methods">
+                <span>💳</span>
+                <span>💎</span>
+                <span>🏦</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

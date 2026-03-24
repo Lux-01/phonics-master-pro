@@ -1,0 +1,30 @@
+{
+  "updated": "2026-03-13T17:51:31.791440",
+  "count": 4,
+  "projects": [
+    {
+      "name": "Smart Swing Strategy v2.2 (Live Trading)",
+      "description": "From MEMORY.md",
+      "status": "active",
+      "progress": 0.0
+    },
+    {
+      "name": "Trading Schedule",
+      "description": "From MEMORY.md",
+      "status": "active",
+      "progress": 0.0
+    },
+    {
+      "name": "Trading Timeline",
+      "description": "From MEMORY.md",
+      "status": "active",
+      "progress": 0.0
+    },
+    {
+      "name": "Architecture",
+      "description": "From MEMORY.md",
+      "status": "active",
+      "progress": 0.0
+    }
+  ]
+}

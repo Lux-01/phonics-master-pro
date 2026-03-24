@@ -1,0 +1,12 @@
+{
+  "id": "ENT-mean_reversion",
+  "type": "concept",
+  "name": "Mean Reversion",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "strategy",
+    "trading"
+  ],
+  "created": "2026-03-20T04:52:13.795550"
+}

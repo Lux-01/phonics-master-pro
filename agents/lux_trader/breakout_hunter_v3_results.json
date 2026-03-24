@@ -1,0 +1,571 @@
+{
+  "strategy": "Breakout Hunter v3.0",
+  "version": "3.0",
+  "improvements": [
+    "Score 10+",
+    "40% target",
+    "Pyramid entry",
+    "Adaptive sizing"
+  ],
+  "start": 1.0,
+  "end": 281.9039289276201,
+  "multiplier": 281.9039289276201,
+  "trades": 79,
+  "wins": 54,
+  "rugs": 8,
+  "trades_detail": [
+    {
+      "symbol": "CHADDEX",
+      "score": 16,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "DOGEX",
+      "score": 16,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "SIGMA",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "STARCOIN",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "ALPHADAO",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BETADEX",
+      "score": 16,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "DEGEN2",
+      "score": 16,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "LUNADEX",
+      "score": 16,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "BETA2",
+      "score": 16,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": false
+    },
+    {
+      "symbol": "ELONDEX",
+      "score": 16,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": false
+    },
+    {
+      "symbol": "ALPHA",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "DOGEDEX",
+      "score": 16,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "VOID",
+      "score": 16,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "BASEDINU",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "score": 16,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DELTAX",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DOGEAI",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DOGEDAO",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DEGENDAO",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BARKCOIN",
+      "score": 16,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BETAX",
+      "score": 16,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "BARKDEX",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "APEAI",
+      "score": 16,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "PEPEINU",
+      "score": 16,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "SHIBAI",
+      "score": 15,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "DEGENINU",
+      "score": 15,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "score": 15,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "CAT",
+      "score": 15,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "APECOIN",
+      "score": 15,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEMEDEX",
+      "score": 15,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "CAT",
+      "score": 15,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BETA2",
+      "score": 15,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "STARX",
+      "score": 15,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "VOIDDAO",
+      "score": 15,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "SHIBDEX",
+      "score": 15,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BASEDINU",
+      "score": 15,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "GAMMAINU",
+      "score": 15,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "RAYCOIN",
+      "score": 15,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "PEPEDEX",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "LUNAX",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "ELONDAO",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "STAR2",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "APE",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEMEAI",
+      "score": 14,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "ELONPAD",
+      "score": 14,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "DEGEN",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": false
+    },
+    {
+      "symbol": "DOGEDAO",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "SOL",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "SIGMAAI",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "ZETAPAD",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEMEX",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "DOGEINU",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "DOGEAI",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "WOJAK2",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": false
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "MEMEDAO",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "ZETAINU",
+      "score": 14,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "NEONCOIN",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DOGEPAD",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEOWAI",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "DELTADAO",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "NEONX",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "WOOFAI",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "BARKPAD",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "STARAI",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "score": 14,
+      "pnl_pct": -10.0,
+      "outcome": "rug",
+      "pyramid": true
+    },
+    {
+      "symbol": "STARCOIN",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": false
+    },
+    {
+      "symbol": "DOGEDEX",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEME2",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "SHIBPAD",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "score": 14,
+      "pnl_pct": -7.0,
+      "outcome": "loss",
+      "pyramid": true
+    },
+    {
+      "symbol": "STAR",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": false
+    },
+    {
+      "symbol": "BASED2",
+      "score": 14,
+      "pnl_pct": 15.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "SHIBAI",
+      "score": 14,
+      "pnl_pct": 28.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "BETAAI",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    },
+    {
+      "symbol": "CHADDAO",
+      "score": 14,
+      "pnl_pct": 20.0,
+      "outcome": "win",
+      "pyramid": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# OKX API Configuration
+# Created: 2026-03-15
+# IMPORTANT: Keep this file secure!
+
+OKX_API_KEY=911fb148-e0fe-41b5-bab5-6f9a1a902137
+OKX_SECRET_KEY=4290D41E30734568BC09F683FFB01C96
+OKX_PASSPHRASE=Fellmongery11!
+OKX_BASE_URL=https://web3.okx.com/api/v5/dex/aggregator
+
+# Note: This is a read-only API key for DEX operations
+# No withdrawal permissions

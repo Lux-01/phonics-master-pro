@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lux - DeskMate Avatar</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      background: transparent !important;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #canvas-container { 
+      width: 100%; 
+      height: 100%;
+    }
+    /* Minimal status overlay - can be toggled */
+    #status {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      background: rgba(0,0,0,0.5);
+      color: #0f0;
+      font-family: monospace;
+      font-size: 9px;
+      padding: 4px 8px;
+      border-radius: 3px;
+      opacity: 0; /* Hidden by default */
+      transition: opacity 0.3s;
+    }
+    #status.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container"></div>
+  <div id="status">Initializing...</div>
+
+  <script type="module">
+    // Import Three.js from local node_modules
+    import * as THREE from '../node_modules/three/build/three.module.js';
+    import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+
+    // Status display
+    const statusEl = document.getElementById('status');
+    let statusTimeout = null;
+    
+    function showStatus(msg, duration = 3000) {
+      statusEl.textContent = msg;
+      statusEl.classList.add('visible');
+      console.log('[Avatar]', msg);
+      
+      clearTimeout(statusTimeout);
+      if (duration > 0) {
+        statusTimeout = setTimeout(() => {
+          statusEl.classList.remove('visible');
+        }, duration);
+      }
+    }
+    
+    // IPC check
+    let ipcRenderer = null;
+    try {
+      const electron = window.require('electron');
+      ipcRenderer = electron.ipcRenderer;
+    } catch(e) {
+      console.log('Standalone mode');
+    }
+
+    // Three.js globals
+    let scene, camera, renderer, mixer, clock;
+    let currentAvatar = null;
+    let bones = {};
+    let animations = new Map();
+
+    // Init scene
+    function initScene() {
+      const container = document.getElementById('canvas-container');
+      
+      scene = new THREE.Scene();
+      
+      camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.set(0, 1, 3);
+      
+      renderer = new THREE.WebGLRenderer({ 
+        antialias: true, 
+        alpha: true,
+        premultipliedAlpha: false
+      });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.shadowMap.enabled = true;
+      container.appendChild(renderer.domElement);
+      
+      // Lights
+      scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+      const mainLight = new THREE.DirectionalLight(0xffffff, 1);
+      mainLight.position.set(5, 10, 5);
+      scene.add(mainLight);
+      
+      const fillLight = new THREE.DirectionalLight(0x4488ff, 0.3);
+      fillLight.position.set(-5, 5, -5);
+      scene.add(fillLight);
+      
+      clock = new THREE.Clock();
+      
+      // Animation loop
+      function animate() {
+        requestAnimationFrame(animate);
+        const delta = clock.getDelta();
+        const time = clock.getElapsedTime();
+        
+        if (mixer) mixer.update(delta);
+        updateProceduralAnimations(time, delta);
+        
+        renderer.render(scene, camera);
+      }
+      animate();
+      
+      // Resize handler
+      window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+    }
+
+    function updateProceduralAnimations(time, delta) {
+      if (!currentAvatar || bones.length === 0) return;
+      
+      // Idle breathing
+      if (bones.spine) {
+        bones.spine.rotation.x = Math.sin(time * 2) * 0.02;
+      }
+      
+      // Idle head movement
+      if (bones.head && currentState.animation === 'idle') {
+        bones.head.rotation.y = Math.sin(time * 0.8) * 0.05;
+        bones.head.rotation.x = Math.sin(time * 1.5) * 0.02;
+      }
+      
+      // Wave animation
+      if (currentState.animation === 'wave' && bones.rightArm) {
+        const waveCycle = (time * 8) % (Math.PI * 2);
+        bones.rightArm.rotation.z = -2.5 + Math.sin(waveCycle) * 0.3;
+      }
+      
+      // Talk animation
+      if (currentState.isTalking && bones.head) {
+        bones.head.rotation.x = Math.sin(time * 6) * 0.1;
+        if (bones.rightArm) {
+          bones.rightArm.rotation.x = Math.sin(time * 5) * 0.2;
+        }
+      }
+      
+      // Walk cycle
+      if (currentState.animation === 'walk') {
+        if (bones.leftArm) bones.leftArm.rotation.x = Math.sin(time * 5) * 0.5;
+        if (bones.rightArm) bones.rightArm.rotation.x = Math.cos(time * 5) * 0.5;
+      }
+      
+      // Sit pose
+      if (currentState.animation === 'sit') {
+        if (bones.spine) bones.spine.rotation.x = 0.3;
+        if (bones.head) bones.head.rotation.x = 0.2;
+        if (bones.leftArm) {
+          bones.leftArm.rotation.x = 0.3;
+          bones.leftArm.rotation.z = 0.2;
+        }
+        if (bones.rightArm) {
+          bones.rightArm.rotation.x = 0.3;
+          bones.rightArm.rotation.z = -0.2;
+        }
+      }
+    }
+
+    function extractBones(model) {
+      bones = {};
+      let count = 0;
+      
+      model.traverse((node) => {
+        if (node.isBone || node.type === 'Bone') {
+          count++;
+          const n = node.name.toLowerCase();
+          if (n.includes('head') && !n.includes('neck')) bones.head = node;
+          else if (n.includes('spine') || n.includes('torso') || n === 'hips' || n.includes('pelvis')) bones.spine = node;
+          else if ((n.includes('l') || n.includes('left')) && (n.includes('arm') || n.includes('shoulder'))) bones.leftArm = node;
+          else if ((n.includes('r') || n.includes('right')) && (n.includes('arm') || n.includes('shoulder'))) bones.rightArm = node;
+        }
+      });
+      
+      showStatus('Loaded ' + count + ' bones', 2000);
+      console.log('Bones:', Object.keys(bones));
+    }
+
+    let currentState = {
+      animation: 'idle',
+      isTalking: false,
+      expression: 'neutral'
+    };
+
+    function loadAvatar(path) {
+      showStatus('Loading avatar...', 0);
+      
+      const loader = new GLTFLoader();
+      
+      loader.load(path,
+        (gltf) => {
+          if (currentAvatar) scene.remove(currentAvatar);
+          
+          currentAvatar = gltf.scene;
+          
+          // Enable shadows
+          currentAvatar.traverse((node) => {
+            if (node.isMesh) {
+              node.castShadow = true;
+              node.receiveShadow = true;
+            }
+          });
+          
+          // Scale and center
+          const box = new THREE.Box3().setFromObject(currentAvatar);
+          const size = box.getSize(new THREE.Vector3());
+          const center = box.getCenter(new THREE.Vector3());
+          
+          const scale = 1.2 / Math.max(size.x, size.y, size.z);
+          currentAvatar.scale.setScalar(scale);
+          currentAvatar.position.sub(center.multiplyScalar(scale));
+          currentAvatar.position.y += size.y * scale * 0.4;
+          
+          scene.add(currentAvatar);
+          
+          // Extract bones
+          extractBones(currentAvatar);
+          
+          // Setup animation mixer
+          if (gltf.animations?.length > 0) {
+            mixer = new THREE.AnimationMixer(currentAvatar);
+            gltf.animations.forEach(clip => {
+              animations.set(clip.name.toLowerCase(), clip);
+            });
+          }
+          
+          showStatus('Avatar ready', 2000);
+          
+          if (ipcRenderer) {
+            ipcRenderer.send('avatar-ready');
+          }
+        },
+        (xhr) => {
+          if (xhr.lengthComputable) {
+            const pct = Math.round((xhr.loaded / xhr.total) * 100);
+            showStatus('Loading: ' + pct + '%', 0);
+          }
+        },
+        (err) => {
+          console.error('GLB error:', err);
+          showStatus('Failed to load', 3000);
+        }
+      );
+    }
+
+    function playAnimation(name) {
+      currentState.animation = name.toLowerCase();
+      
+      // Try built-in animation
+      if (mixer && animations.has(currentState.animation)) {
+        mixer.stopAllAction();
+        const action = mixer.clipAction(animations.get(currentState.animation));
+        action.fadeIn(0.3).play();
+        showStatus('Playing: ' + name, 1000);
+        return;
+      }
+      
+      // Procedural
+      showStatus(name, 1000);
+      
+      // Reset positions when changing
+      if (name === 'idle' || name === 'stand') {
+        if (bones.rightArm) {
+          bones.rightArm.rotation.set(0, 0, 0);
+        }
+        if (bones.leftArm) {
+          bones.leftArm.rotation.set(0, 0, 0);
+        }
+      }
+    }
+
+    function setTalking(isTalking) {
+      currentState.isTalking = isTalking;
+      if (isTalking) {
+        playAnimation('talk');
+        showStatus('Talking...', 2000);
+      } else {
+        playAnimation('idle');
+      }
+    }
+
+    function setExpression(expr) {
+      currentState.expression = expr;
+      // Could modify materials here
+    }
+
+    // IPC handlers
+    if (ipcRenderer) {
+      ipcRenderer.on('bridge-message', (event, data) => {
+        switch(data.type) {
+          case 'load-avatar':
+            loadAvatar(data.path);
+            break;
+          case 'animation':
+            playAnimation(data.animation);
+            break;
+          case 'talk':
+            setTalking(data.isTalking);
+            break;
+          case 'expression':
+            setExpression(data.expression);
+            break;
+        }
+      });
+    }
+
+    // Window message handler (for external control)
+    window.addEventListener('message', (event) => {
+      if (event.data?.type) {
+        const data = event.data;
+        if (data.type === 'load-avatar') loadAvatar(data.path);
+        else if (data.type === 'animation') playAnimation(data.animation);
+        else if (data.type === 'talk') setTalking(data.isTalking);
+      }
+    });
+
+    // Initialize
+    initScene();
+    showStatus('Loading warrior...', 0);
+    
+    // Auto-load warrior on startup
+    // Try a few paths
+    const paths = [
+      '../assets/warrior.glb',
+      './assets/warrior.glb', 
+      'assets/warrior.glb',
+      'file:///home/skux/.openclaw/workspace/avatar_project/assets/warrior.glb'
+    ];
+    
+    // Try first path, fallback handled in error callback
+    setTimeout(() => {
+      loadAvatar(paths[0]);
+    }, 100);
+
+  </script>
+</body>
+</html>

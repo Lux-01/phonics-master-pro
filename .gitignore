@@ -1,0 +1,85 @@
+# OpenClaw Workspace - Git Ignore
+# Generated: 2026-03-11
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Large binary files
+*.glb
+*.gltf
+*.fbx
+*.blend
+*.3ds
+*.obj
+*.stl
+
+# Temporary files
+*.tmp
+*.log
+*.temp
+.cache/
+tmp/
+temp/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+auth-profiles.json
+*/auth-profiles.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large directories
+avatar_project/*.glb
+avatar_project/*.gltf
+solana-trader/node_modules/
+agents/*/node_modules/
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# OpenClaw specific
+.openclaw/cache/
+.openclaw/temp/
+EOF
+
+# Keys
+*.key
+
+# Secrets directory
+secrets/
+node_modules/
+*.db
+*.zip
+__pycache__/

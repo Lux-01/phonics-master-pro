@@ -1,0 +1,8 @@
+{
+  "id": "REL-ENT-crypto_scanner_v5.4-implements-ENT-pattern_recognition",
+  "type": "implements",
+  "from": "ENT-crypto_scanner_v5.4",
+  "to": "ENT-pattern_recognition",
+  "properties": {},
+  "created": "2026-03-20T04:52:13.804321"
+}

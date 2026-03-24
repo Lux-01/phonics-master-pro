@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-03-09T10:13:14.961790",
+  "income_analysis": [],
+  "time_allocation": {
+    "development": 67.2,
+    "income_generation": 50.4,
+    "learning": 33.6,
+    "maintenance": 16.8
+  },
+  "weekly_goals": [
+    {
+      "name": "Complete income analysis",
+      "priority": 1,
+      "hours": 4
+    },
+    {
+      "name": "Review and optimize skills",
+      "priority": 2,
+      "hours": 3
+    },
+    {
+      "name": "Generate new opportunities",
+      "priority": 3,
+      "hours": 5
+    }
+  ],
+  "monthly_expansions": [
+    "Activate 2 new income streams",
+    "Improve top 3 skill ROI",
+    "Reduce maintenance overhead by 10%"
+  ],
+  "low_value_to_drop": [],
+  "recommendations": [
+    "Focus on high-ROI activities",
+    "Automate repetitive tasks",
+    "Invest in skill development"
+  ]
+}

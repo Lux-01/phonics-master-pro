@@ -1,0 +1,122 @@
+{
+  "strategy": "Pyramid Average-Down Entry",
+  "token": "PUNCH",
+  "timeframe": "15min intervals (00:00 - 03:30)",
+  "parameters": {
+    "first_entry_size_sol": 0.1,
+    "second_entry_size_sol": 0.2,
+    "third_entry_size_sol": 0.4,
+    "max_position_sol": 0.7,
+    "dip_threshold_pct": 10.0,
+    "profit_threshold_pct": 2.0,
+    "stop_loss_pct": 10.0,
+    "pyramid_drop_pct": 5.0
+  },
+  "summary": {
+    "total_trades": 1,
+    "winning_trades": 1,
+    "losing_trades": 0,
+    "win_rate_pct": 100.0,
+    "total_pnl_usd": 0.0001,
+    "avg_profit_per_trade_usd": 0.0001
+  },
+  "trades": [
+    {
+      "trade_number": 1,
+      "entry_time": "02:45",
+      "entry_price": 0.03,
+      "exit_time": "03:30",
+      "exit_price": 0.031,
+      "positions": [
+        {
+          "sol_amount": 0.1,
+          "price": 0.03,
+          "timestamp": "02:45"
+        }
+      ],
+      "total_sol": 0.1,
+      "avg_entry_price": 0.03,
+      "pnl_usd": 0.0001,
+      "pnl_percent": 3.33,
+      "status": "closed_eod",
+      "exit_reason": "End of simulation"
+    }
+  ],
+  "price_data": [
+    {
+      "time": "00:00",
+      "price": 0.022,
+      "notes": "opening"
+    },
+    {
+      "time": "00:15",
+      "price": 0.024,
+      "notes": "+9% pump"
+    },
+    {
+      "time": "00:30",
+      "price": 0.026,
+      "notes": "+18% pump"
+    },
+    {
+      "time": "00:45",
+      "price": 0.025,
+      "notes": "-4% pullback - ENTRY HERE: 0.1 SOL at $0.025"
+    },
+    {
+      "time": "01:00",
+      "price": 0.028,
+      "notes": "+27% total"
+    },
+    {
+      "time": "01:15",
+      "price": 0.032,
+      "notes": "+45% total"
+    },
+    {
+      "time": "01:30",
+      "price": 0.035,
+      "notes": "+59% total, peak forming"
+    },
+    {
+      "time": "01:45",
+      "price": 0.034,
+      "notes": "-3% from peak"
+    },
+    {
+      "time": "02:00",
+      "price": 0.033,
+      "notes": "+50% total, lower high"
+    },
+    {
+      "time": "02:15",
+      "price": 0.034,
+      "notes": "lower high - EXIT HERE: Sell at $0.034"
+    },
+    {
+      "time": "02:30",
+      "price": 0.032,
+      "notes": "-6% pullback"
+    },
+    {
+      "time": "02:45",
+      "price": 0.03,
+      "notes": "-9% pullback, find support"
+    },
+    {
+      "time": "03:00",
+      "price": 0.031,
+      "notes": "-3% bounce"
+    },
+    {
+      "time": "03:15",
+      "price": 0.029,
+      "notes": "-7% dip - NEW ENTRY: 0.1 SOL at $0.029"
+    },
+    {
+      "time": "03:30",
+      "price": 0.031,
+      "notes": "+7% bounce"
+    }
+  ]
+}

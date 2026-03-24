@@ -1,0 +1,17 @@
+{
+  "id": "AGENT-f6c3517b",
+  "type": "research",
+  "task": "Research Jupiter DEX features",
+  "status": "completed",
+  "result": {
+    "agent_type": "research",
+    "task": "Research Jupiter DEX features",
+    "output": "Completed Research Jupiter DEX features",
+    "confidence": 0.85,
+    "data": {}
+  },
+  "error": null,
+  "started_at": "2026-03-20T04:32:26.824055",
+  "completed_at": "2026-03-20T04:32:26.824065",
+  "confidence": 0.85
+}

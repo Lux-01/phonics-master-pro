@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://example.com/1",
+    "title": "Test Source",
+    "content": "The price increases over time",
+    "source_type": "blog",
+    "reliability_score": 0.5,
+    "timestamp": "2026-03-09T04:12:01.735323"
+  },
+  {
+    "url": "https://example.com/2",
+    "title": "Test Source 2",
+    "content": "The price decreases in bear markets",
+    "source_type": "forum",
+    "reliability_score": 0.3,
+    "timestamp": "2026-03-09T04:12:01.736225"
+  }
+]

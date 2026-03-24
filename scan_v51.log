@@ -1,0 +1,5646 @@
+=== 2026-02-15 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-15 21:00:02
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7AdrLapGgRjhPWxtXnu2qtuFdMF8S5to4Q1b8j5jpump
+  📊 MCAP: $116,356 | Liquidity: $27,380 | Vol 24h: $101,158
+  🕐 Token Age: 0.7 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1514
+  Top10: 26.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.7h)
+
+🎓 SCORE: 15/16
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EBU9PT7NhTPNBkWD8WSniHkwaQBHLeVUibhCWjdwpump
+❌ MCAP $4,359 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DDYPPycSFPYwNpp9rJH9cXZVs4Gy7Kao2m4HMhcrpump
+  📊 MCAP: $111,918 | Liquidity: $27,207 | Vol 24h: $251,201
+  🕐 Token Age: 0.2 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 452
+  Top10: 23.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/16
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7bEtSBEPqFz3CTe8TSGYuj7mJvNYfnpW7rG6NhKEpump
+  📊 MCAP: $14,722 | Liquidity: $0 | Vol 24h: $68,100
+  🕐 Token Age: 0.2 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 238
+  Top10: 56.6%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: hJuUvtZCZYZwcyGRhqKZMqGwixZQzYUrUetTSpmpump
+  📊 MCAP: $17,952 | Liquidity: $10,676 | Vol 24h: $62,557
+  🕐 Token Age: 1.2 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 173
+  Top10: 54.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/16
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DD4jtnKdyPakShSx1JRwHu7Sk1UouM6Yn9vwtQJGpump
+  📊 MCAP: $22,590 | Liquidity: $11,971 | Vol 24h: $40,500
+  🕐 Token Age: 0.2 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 231
+  Top10: 49.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/16
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8qvs2ssGM4aEUojSsmy7UQEKrjqdH26dJ2naxNzEpump
+  📊 MCAP: $16,621 | Liquidity: $0 | Vol 24h: $120,467
+  🕐 Token Age: 0.6 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 348
+  Top10: 56.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EeLGj897R1rem3gVYuNb46i99X46yTAiYcCeZb8Cpump
+❌ MCAP $8,599 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BRRpPurrcQvbnnHuRyzy7mr9xqPzo6Mx24TaF9gSpump
+  📊 MCAP: $119,901 | Liquidity: $29,456 | Vol 24h: $832,774
+  🕐 Token Age: 0.8 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 621
+  Top10: 26.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.8h)
+
+🎓 SCORE: 14/16
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: C2NbnX6VToFjBpmGpLWyUH1pnss3CwfvuY2giqiZpump
+❌ MCAP $5,624 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EKYxJpyDZVMegKCr1rJHcbeLhZbbQNf7Yp7ebo9o8pmY
+  📊 MCAP: $79,719 | Liquidity: $23,096 | Vol 24h: $329,667
+  🕐 Token Age: 0.9 hours
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1100
+  Top10: 30.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.9h)
+
+🎓 SCORE: 14/16
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: sFiVNUHxN9yq6RxhCe4MUHxMwdmkc1XiiKm1CdVbonk
+❌ MCAP $5,727 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8p7JXhoMmrGw5e4DiKmzGKi3E2s2q6JX8PsDX95Dpump
+❌ MCAP $7,601 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3YN82bKvySVCEE1wopiA9JeJTFat8fn3eMjU44Ncpump
+❌ MCAP $5,334 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6VujgXW7wrXqxB4EorEa1dvB8HJFcRpzzJ3R36q5pump
+❌ MCAP $2,695 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 5
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~9
+
+💾 Saved 6 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 7AdrLapGgRjhPWxtXnu2... | Wallet Health: 100% | Age: 0.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | DDYPPycSFPYwNpp9rJH9... | Wallet Health: 100% | Age: 0.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | hJuUvtZCZYZwcyGRhqKZ... | Wallet Health: 100% | Age: 1.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | BRRpPurrcQvbnnHuRyzy... | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EKYxJpyDZVMegKCr1rJH... | Wallet Health: 100% | Age: 0.9h
+=== 2026-02-15 21:00:27 - Scan Complete ===
+=== 2026-02-16 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-16 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Evy28V8F121mdrGPxFrsAXJDRo56h57hCZTyeZMgpump
+  📊 MCAP: $18,583 | Liquidity: $0 | Vol 24h: $36,468
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 172
+  Top10: 51.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: SoiNj2B9guChiKy8WMFmu55ooHjvaUwkJcCAjXspump
+  📊 MCAP: $16,661 | Liquidity: $0 | Vol 24h: $27,395
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 190
+  Top10: 53.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EwVoBrvhuTGTko55ZvDCgnAS7aHWHLdTu4avHHfCpump
+❌ MCAP $5,080 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5QkNuHeLv5jK1HnQQiM5QAytLToihfVcVLJLAqkhpump
+  📊 MCAP: $23,810 | Liquidity: $12,019 | Vol 24h: $44,379
+  🕐 Token Age: 0.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 9/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 361
+  Top10: 42.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DSBoFH86ck3vKhApYWteeC7GQZzfuwJoCEpM6Yg2pump
+  📊 MCAP: $11,886 | Liquidity: $0 | Vol 24h: $72,089
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 204
+  Top10: 61.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EqsJxXXR9kdCUvuXBY4hadqs89AwbyRHgxnvPm8Xpump
+  📊 MCAP: $177,675 | Liquidity: $33,423 | Vol 24h: $242,917
+  🕐 Token Age: 1.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 318
+  Top10: 17.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=1.7h, narrative=1/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8oyNg6sv32JhjbzAGKtPskhGqzFMQca2FagTN3AJpump
+  📊 MCAP: $62,405 | Liquidity: $19,692 | Vol 24h: $156,906
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 2169
+  Top10: 24.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.8h, narrative=0/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3BZg1JVJAcdswA1ZPXEStnimyWcqiiMKfKvtCCiqpump
+  📊 MCAP: $61,026 | Liquidity: $19,378 | Vol 24h: $142,342
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 542
+  Top10: 37.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BHE2EggxupoCEiDxdXt67DAtYJ3CsHtjac6EiY8ipump
+  📊 MCAP: $32,817 | Liquidity: $14,138 | Vol 24h: $118,481
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 415
+  Top10: 42.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CJ64txDYR1bjusnh888eMD31Pd9okiQ5x62dD3KSpump
+  📊 MCAP: $30,263 | Liquidity: $13,540 | Vol 24h: $17,706
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 198
+  Top10: 48.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 9/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CHqh6tRAWYe49NKAHRhErfQxDdF5VByUZ3LPdbcEpump
+  📊 MCAP: $16,065 | Liquidity: $0 | Vol 24h: $26,237
+  🕐 Token Age: 1.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 68
+  Top10: 60.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6ntVRHQKVsvizpHAwVhwrkvW8pgSUmFyZ4gAVwh6pump
+  📊 MCAP: $147,701 | Liquidity: $30,271 | Vol 24h: $164,962
+  🕐 Token Age: 1.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Meme | Score: 4/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 470
+  Top10: 24.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AUfTerRbYrQcQXSKwPFX5iT5RYKRDFakr3dqtgonpump
+❌ MCAP $8,610 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BqUPoVPAK6aNXCrKwjBhPwcWcz5936qgkT8KgYq9pump
+❌ MCAP $3,392 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2K6Gws8MpTBXg5SUoq5eHbxZtG4jQEZgekBJYZ2Qpump
+❌ MCAP $7,006 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 6
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~8
+
+📖 Narrative Distribution:
+    Generic: 5
+    AI: 1
+    Meme: 1
+
+💾 Saved 7 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 5QkNuHeLv5jK1HnQQiM5... | Narrative: AI | Wallet Health: 100% | Age: 0.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EqsJxXXR9kdCUvuXBY4h... | Narrative: Generic | Wallet Health: 100% | Age: 1.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 8oyNg6sv32JhjbzAGKtP... | Narrative: Generic | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 3BZg1JVJAcdswA1ZPXES... | Narrative: Generic | Wallet Health: 100% | Age: 0.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | BHE2EggxupoCEiDxdXt6... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6ntVRHQKVsvizpHAwVhw... | Narrative: Meme | Wallet Health: 100% | Age: 1.5h
+=== 2026-02-16 21:00:41 - Scan Complete ===
+=== 2026-02-17 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-17 21:00:01
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AV8hByhNDtpwfzfWzRnWFpopfyjdzJkxAhBJF2Ukpump
+❌ MCAP $2,712 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4Waeg8mAZs6FVphUcUoGrmVJNbPpcoAXtECtow5wpump
+  📊 MCAP: $22,123 | Liquidity: $0 | Vol 24h: $58,232
+  🕐 Token Age: 0.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 200
+  Top10: 48.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BStUrihrZwMJE1CEFKi6LP3pxq2ftKhcgjzJLTLxpump
+  📊 MCAP: $24,173 | Liquidity: $0 | Vol 24h: $38,053
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Meme | Score: 8/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 146
+  Top10: 49.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EwPMPLPR17tkoEfUC8waWjV3cmyb27pT6SCwfQuYpump
+❌ MCAP $2,440 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 48pQNvrruwP4P8zAenQ46aS2t6XX4i7mvjbnSDdjpump
+❌ MCAP $2,650 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HStqsALuhUuZr3j2dG8D79H1Y8nXS7jMs5yuBkETpump
+❌ MCAP $4,908 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3V91n8Fbxq6ZZGW14NvHFhrbkcqSNQQmXtSfamZzpump
+  📊 MCAP: $15,257 | Liquidity: $9,667 | Vol 24h: $158,814
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 343
+  Top10: 48.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AwLbqvE9gjHzVzE4Qe2zVGhK2iSv2MF9QvUCQ3dupump
+❌ MCAP $2,034 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DKVDc85uLyxN2XPvrT8ZG32UviDvUsLAXkktqbsPpump
+  📊 MCAP: $48,091 | Liquidity: $17,256 | Vol 24h: $150,745
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 420
+  Top10: 37.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6fejB7foXnPUZQYHvi7pbjRUp2E5jmfaxjSxrtyopump
+  📊 MCAP: $27,767 | Liquidity: $13,127 | Vol 24h: $148,405
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 543
+  Top10: 41.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ECKvSCdZFtJGtjUECBjFQZLHGxPufQD6zqh6PkWppump
+❌ MCAP $2,531 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: F6TX2xBxNmS9aC3pAg47EDE8SnSAuadjLVCj2BWQpump
+❌ MCAP $9,293 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9rcHqWyNfhPe5k7qn38eXE53jUJjdqe7Qt33KMvEpump
+❌ MCAP $2,738 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5dGzj7Bk7Wyqx1aPLKvDcuQestFnWKzypdywy4VUpump
+❌ MCAP $8,302 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6UYrqoeGWHnz2DHXSsWkFwgGrZLub95NrpDZdA5dpump
+❌ MCAP $1,112,578 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 3
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 3V91n8Fbxq6ZZGW14NvH... | Narrative: Generic | Wallet Health: 100% | Age: 0.5h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | DKVDc85uLyxN2XPvrT8Z... | Narrative: Generic | Wallet Health: 100% | Age: 0.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6fejB7foXnPUZQYHvi7p... | Narrative: Generic | Wallet Health: 100% | Age: 0.3h
+=== 2026-02-17 21:00:20 - Scan Complete ===
+=== 2026-02-19 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-19 21:00:02
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 29 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 585gVdwSHRLih1FxRqqirc767mMdeFhHV4uoRZCrpump
+❌ MCAP $9,306 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: k3ejWKPj7vGbBgodxVB7T14DJBNP5UtJVUB1mQ8pump
+  📊 MCAP: $27,784 | Liquidity: $12,601 | Vol 24h: $17,813
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.4s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 225
+  Top10: 41.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 9/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: G1Dz19gcb2KwUpygL4cr4vrCm9e45xnB5zUDojnZpump
+❌ MCAP $5,815 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9TBV4t222kR5aWEFLeoowNpFAR7byoRFgb1tJA9npump
+❌ MCAP $9,586 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2mQ3vTN5FQZqBdqPzqrvTGW6rWF5dyYeymAXtiNspump
+  📊 MCAP: $14,012 | Liquidity: $0 | Vol 24h: $59,312
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 180
+  Top10: 58.0%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GPtVucRHKfPNxBzLnXBjRGsjMobRDQWLwgy8VAM7pump
+❌ MCAP $1,849 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FWJMW1sA2w2Lv15xTULaMJa6nYgwV6T6QnSVW6kLpump
+❌ MCAP $2,445 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5GkcRENRakbbMjzpmw1UyQet1aoo7cypq81ZUWzKpump
+  📊 MCAP: $29,750 | Liquidity: $13,145 | Vol 24h: $110,612
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 384
+  Top10: 42.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: F74bcF4FtvW6jjSm6xRxYsnHpT4FZQZwRxPB5jg6r43S
+  📊 MCAP: $12,469 | Liquidity: $0 | Vol 24h: $93,809
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 199
+  Top10: 63.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7XauQLUeULc5PV6fu4SZx1HpSxQM1EwrYNP6kpfPBAGS
+  📊 MCAP: $12,912 | Liquidity: $0 | Vol 24h: $41,022
+  🕐 Token Age: 355.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 7/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 129
+  Top10: 56.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5BUidAZHSB1rfER5KzFZMXuhFrWbWdXCUsFGJo9ypump
+❌ MCAP $7,818 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BQJcX1P5yfiiB3yyqSQPNHMSaQw2xuGCqkXAuwXoDaAJ
+  📊 MCAP: $23,664 | Liquidity: $12,150 | Vol 24h: $485,753
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1970
+  Top10: 43.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GuiyaeZXaa2XDf2TfW9gjyyjrbBzXAi7zP3uHyaQpump
+❌ MCAP $7,931 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: J2z9LVk43CGvHUWJgjPK2R752rixsLNRDP1CkoTTpump
+  📊 MCAP: $10,529 | Liquidity: $0 | Vol 24h: $124,803
+  🕐 Token Age: 1.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 162
+  Top10: 63.9%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: qFaQmSC3EutULGh7dLuLXBynZrDiR3SSgAgNJBwpump
+❌ MCAP $2,725 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 3
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 5GkcRENRakbbMjzpmw1U... | Narrative: Generic | Wallet Health: 100% | Age: 0.6h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | BQJcX1P5yfiiB3yyqSQP... | Narrative: Generic | Wallet Health: 100% | Age: 1.3h
+=== 2026-02-19 21:00:32 - Scan Complete ===
+=== 2026-02-20 21:00:02 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-20 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 30 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9e1uaifi4RzzauWsPvAqnF6otb61SL1T5MtEoQ18qCQm
+  📊 MCAP: $10,003 | Liquidity: $0 | Vol 24h: $52,031
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 87
+  Top10: 67.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GYsaAHAwQhsePN9EeMHcnZ6c27hgXxKHPRVmVR9Upump
+❌ MCAP $3,450 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Gtf1mscQpC3SoozeGZU3gQEm4Jyd78fRZTEBLp9Cpump
+❌ MCAP $7,880 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FZA6639NysXqU4qZi2jQJwymdHngvQUdtwBKPQ1Bpump
+  📊 MCAP: $16,257 | Liquidity: $9,826 | Vol 24h: $23,062
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 142
+  Top10: 59.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Gm4xEDkmrxBWFQcGbmDGN1gQk8udGpZhyNvuATL3pump
+❌ MCAP $2,432 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FMrHpVctjgU2yUNtyB2UMgKQQAcuEjM3RB9QwMiwpump
+  📊 MCAP: $103,796 | Liquidity: $25,714 | Vol 24h: $375,157
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 646
+  Top10: 36.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 39REoruEsqSs6nPVZ56Dq2gUrPoFvcMLEmg9uowypump
+  📊 MCAP: $49,066 | Liquidity: $17,101 | Vol 24h: $44,697
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Political | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 414
+  Top10: 36.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4oERTdtSCns3Zrxv2HJ8fw6Y6rticaRcu8GVGTgXpump
+  📊 MCAP: $28,715 | Liquidity: $13,182 | Vol 24h: $211,740
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 231
+  Top10: 58.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HjUNYUWEa8Q2aCZgFzhb93joxQCvispdTLYoXzeLpump
+❌ MCAP $2,372 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5qXuJsqqdNZRTjfMy37XdSymPqcW4rTNbT8UE4repump
+❌ MCAP $2,069 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AhTwBNhGetRTB8K8MAZKBMt7EVGgGvGvE9WbLpBbpump
+❌ MCAP $5,039 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6Hd7MnyGBeqRaXDh2AHKhdmS62yuqt8sBm8NLox7pump
+❌ MCAP $6,259 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Br7ogayETWZMYdGFoTAj5CBgp8wKmL1jFcarCNGhrjvi
+❌ MCAP $7,602 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 477VsxnW9S2GP3E3zAfqNFR1oaoWigAKjB6ekepFpump
+❌ MCAP $3,022 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4gtoxp8Uyq45Mp94pwdF56TNZnHBEcRUfX995QMBpump
+❌ MCAP $3,249 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~11
+
+📖 Narrative Distribution:
+    Generic: 3
+    Political: 1
+
+💾 Saved 4 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | FMrHpVctjgU2yUNtyB2U... | Narrative: Generic | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 39REoruEsqSs6nPVZ56D... | Narrative: Political | Wallet Health: 100% | Age: 0.3h
+=== 2026-02-20 21:00:25 - Scan Complete ===
+=== 2026-02-21 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-21 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 26 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6W9GM2GUq1purS3Emt2sFMzU4MpcsmygRKUtgjUepump
+  📊 MCAP: $39,429 | Liquidity: $15,544 | Vol 24h: $129,882
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 405
+  Top10: 41.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 339pJpcsvEeiQyYnjLRNJT1diboBvbpKpuqGTpgBpump
+❌ MCAP $2,782 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: JCWjoucDPbQKz5nXvPLKTAgCPNnrGYNoHkycwoy9pump
+❌ MCAP $3,373 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5gvdmbaViRxvogqFdvZXnp1XTBGSx5BMNV54koVupump
+  📊 MCAP: $12,809 | Liquidity: $0 | Vol 24h: $85,690
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 276
+  Top10: 60.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H1rYfpyE6tNEk2wj8wXYHoHebUCSgw7UbrH4QRLXZiN4
+❌ MCAP $3,777 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: J6iHnL8HJzkmusQ2Le253X7CXJteaqsvrkQAX3qrpump
+  📊 MCAP: $23,917 | Liquidity: $12,228 | Vol 24h: $11,712
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 183
+  Top10: 56.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 9/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 27rFa3wtbixJTwXavbTELwXVC5kbwYHZYJWbzMgPpump
+❌ MCAP $6,254 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Hv9ivdEYWEnGqwrg64nh7vo33R6mSq6zsvaNbSkwpump
+❌ MCAP $2,700 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3t4J8odi8wuyHRyRSEkJjqK8yGn6sNhbGoHNTrabm99u
+❌ MCAP $8,380 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7BDfZRGCc7smJWuaHHSVVqaDQ5opxdXLrr1XdBGXpump
+  📊 MCAP: $15,323 | Liquidity: $0 | Vol 24h: $57,159
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 99
+  Top10: 62.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Gf8J3e6U7aPma8eJW3UAT1DnGZLgH1U2DnfEM1B8pump
+❌ MCAP $1,672 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BHpvZt2Fm9EyoneewA7QqY1f5AoDBAmEsSN7XAwApump
+❌ MCAP $306,557 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GoLMz6pKqYiqGR5E6FoNzHmFUadGGWGW2Hb31S5e2dEq
+  📊 MCAP: $41,042 | Liquidity: $15,845 | Vol 24h: $203,580
+  🕐 Token Age: 3.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 349
+  Top10: 44.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6GCvALe9fkBqG8y5trwVKaZb4SPpodKNXPEWAmf8pump
+  📊 MCAP: $13,877 | Liquidity: $9,168 | Vol 24h: $118,208
+  🕐 Token Age: 1.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 326
+  Top10: 51.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2H5xRGZUs9utzPJAVMutAoRJWN7UaYbFuNLCKj23pump
+❌ MCAP $2,437 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~11
+
+📖 Narrative Distribution:
+    Generic: 4
+
+💾 Saved 4 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6W9GM2GUq1purS3Emt2s... | Narrative: Generic | Wallet Health: 100% | Age: 0.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | GoLMz6pKqYiqGR5E6FoN... | Narrative: Generic | Wallet Health: 100% | Age: 3.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6GCvALe9fkBqG8y5trwV... | Narrative: Generic | Wallet Health: 100% | Age: 1.4h
+=== 2026-02-21 21:00:28 - Scan Complete ===
+=== 2026-02-22 21:00:02 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-22 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 24 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GyY9vy2Tbm4YFw9er7vGzTmVEgiZFz6Zg9zetFirB7WA
+❌ MCAP $8,905 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EJXF5qsXjinVaXVH7ysY8RKbngyAaQC5sxPndJJCpump
+  📊 MCAP: $15,314 | Liquidity: $0 | Vol 24h: $20,028
+  🕐 Token Age: 1.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 84
+  Top10: 59.9%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8NCFCM7tBvGrEvcbWF6Vp6ruhA1Ls6p6bzjgYWe5pump
+  📊 MCAP: $17,819 | Liquidity: $0 | Vol 24h: $36,160
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 124
+  Top10: 51.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5H3pBV2DxjvEEwds2hWcVHdVkYCAZQkUBDWLoUtApump
+❌ MCAP $5,283 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6JEnboGLM9HcZhTmMzbrRSqMJMgwbLujJJ9y2851pump
+  📊 MCAP: $30,886 | Liquidity: $0 | Vol 24h: $75,256
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 290
+  Top10: 45.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HGBY7CbSHaU8EveBen7q3tG79d8iuUsYZpU2rXinpump
+  📊 MCAP: $12,237 | Liquidity: $0 | Vol 24h: $77,253
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 129
+  Top10: 65.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: JfRk52ExFhpqbMJSKZcraPTKJHuzDyDVCii5SHppump
+❌ MCAP $2,857 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 99DiFetebLAdEPqrpWm4Jp5aC7poQ37FnAVmZShjXs8r
+❌ MCAP $2,560 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 41bCKotRLTXtcsfYsjwHzNCMnmTWV2V2gotV1xQXpump
+  📊 MCAP: $14,054 | Liquidity: $9,213 | Vol 24h: $92,778
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 295
+  Top10: 59.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5rnQfqCz2euEFa4ExBVqfhA5Wi8A7bjVRrAkQ91GEEHJ
+  📊 MCAP: $18,247 | Liquidity: $0 | Vol 24h: $136,832
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 211
+  Top10: 54.2%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3cf3E6Nif3NwkEU2wegLBF8neHhskuoJY3ZQSbKhpump
+  📊 MCAP: $14,431 | Liquidity: $9,955 | Vol 24h: $864,108
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 718
+  Top10: 52.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HGbSMjf7y16bJp6gTXYxEMQZMpDRTWDEvXy4V5fbpump
+❌ MCAP $2,946 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: G2vKHoBnQLijjWEGCxatqxNb8u6f99bypSe8skM4pump
+❌ MCAP $2,419 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5qNBtaunNw2Uok2tm7hAsKQeF6SSR4398xSFrBLNpump
+❌ MCAP $7,363 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BD3AMiQoJJmUJFFQ9Lsg62JnojDYaq6QTPxE6v4ypump
+  📊 MCAP: $100,490 | Liquidity: $25,102 | Vol 24h: $296,584
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.4s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 2782
+  Top10: 21.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=1.2h, narrative=2/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 3
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 3cf3E6Nif3NwkEU2wegL... | Narrative: Generic | Wallet Health: 100% | Age: 1.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | BD3AMiQoJJmUJFFQ9Lsg... | Narrative: Generic | Wallet Health: 100% | Age: 1.2h
+=== 2026-02-22 21:00:36 - Scan Complete ===
+=== 2026-02-23 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-23 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 24 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5Z3NSu9QszLfoKgSRYU3dxz2Nh5esfXY83ApE2Kwpump
+❌ MCAP $3,230 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8xyTdjFwbpromxfPgApzKuk4zqLpBHQmehLMkXGR1uha
+❌ MCAP $7,441 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EahUihCyvsJVg8wWafXc5ytxaReFXms514wKvmBQcLAw
+  📊 MCAP: $66,128 | Liquidity: $19,750 | Vol 24h: $46,088
+  🕐 Token Age: 0.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 223
+  Top10: 50.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6eGkY88pf6xmGGwvh2ACsjWku4ehc8ugrZ3Xn7o9pump
+❌ MCAP $3,083 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AKYZADLcEdD3VrfmaegrXvd82qsYvsj7uysXF5S9pump
+  📊 MCAP: $103,935 | Liquidity: $25,055 | Vol 24h: $337,523
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 498
+  Top10: 26.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.5h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BLjXUywr24MZtUJeoraCsAcScxAdNWMsRFHQ3XFHpump
+❌ MCAP $1,855 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7hqBddDRBzCYnSk5K6rKDRrtuHoVnAc3T4qHiTjCpump
+❌ MCAP $7,984 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2E72m9aGcwL23gMekLcafyCMJ7KqGjueixhioULC5Wtm
+  📊 MCAP: $33,728 | Liquidity: $8,920 | Vol 24h: $26,862
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 189
+  Top10: 67.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FHxxkimYyvG4MMBXjRuRpNUJdxnQbFk3kziNMxDppump
+  📊 MCAP: $153,854 | Liquidity: $31,094 | Vol 24h: $747,735
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 645
+  Top10: 24.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: E3nZibdXJoCVd4uPcHdBeWLHmheBtFh67aun4x9s65vS
+❌ MCAP $2,545 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: F2CJ9ceuR8Dqo9s4oWn2ZtBawShKJ5c2m4AMyoj4bonk
+  📊 MCAP: $43,303 | Liquidity: $21,939 | Vol 24h: $14,140
+  🕐 Token Age: 646.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 342
+  Top10: 44.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9ieRY3HM5L8gNfNuzfNcD8T8x7shdUw4A5q5ENMBpump
+❌ MCAP $5,434 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5FGDDtvgM4s97DciMGg2fVuaQXDQFtaFgubRTqrzpump
+❌ MCAP $2,864 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EEidPrkMeU5hcbTqnNbv3JEkvCiVDCx1NWuk4EQpump
+❌ MCAP $5,598 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BQFU77cb8iNaRvHbKxZMGuSuDpeLt9UEbTDbRoUZpump
+  📊 MCAP: $18,660 | Liquidity: $10,303 | Vol 24h: $47,814
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 6/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 246
+  Top10: 49.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~9
+
+📖 Narrative Distribution:
+    Generic: 5
+    AI: 1
+
+💾 Saved 6 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EahUihCyvsJVg8wWafXc... | Narrative: Generic | Wallet Health: 100% | Age: 0.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | AKYZADLcEdD3Vrfmaegr... | Narrative: Generic | Wallet Health: 100% | Age: 0.5h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | FHxxkimYyvG4MMBXjRuR... | Narrative: Generic | Wallet Health: 100% | Age: 0.8h
+=== 2026-02-23 21:00:27 - Scan Complete ===
+=== 2026-02-24 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-24 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6Ca73KWYMe7GTBQKG2af2RNWsuxE8TFy5zpHsMFhpump
+  📊 MCAP: $18,568 | Liquidity: $0 | Vol 24h: $54,005
+  🕐 Token Age: 2.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 175
+  Top10: 52.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ACH6UtiGE8Vc7ztY436KWGusjCFxQKkTMc5jRD1Rpump
+❌ MCAP $8,583 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Ha4F1AwjWUcAc5BNCQtYfXGk6tYCresgKjEpUf2upump
+❌ MCAP $7,737 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: cB3aWjGAGKgQXSPqbp6HGJmjwxPYik1PkbU5U1y3b79
+❌ MCAP $8,730 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HY46CCVHeupWCKmeQKFG9MWWPWZKkBgRN5sF99DMpump
+  📊 MCAP: $28,346 | Liquidity: $0 | Vol 24h: $76,820
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 347
+  Top10: 42.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8zdQxtqsPS8vUkBgeS5RiuGw6NkYozB3Rf9HtLGrpump
+❌ MCAP $2,235 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AGj48tqewsFL8fr7cRuqCQCY26oK89VsSMY7XWk8pump
+  📊 MCAP: $58,000 | Liquidity: $17,995 | Vol 24h: $235,972
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 531
+  Top10: 30.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.8h, narrative=5/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2kTe6pJn9d2kANXYmQch16NvzBmA2xpPzJoMFHrwpump
+  📊 MCAP: $52,856 | Liquidity: $16,959 | Vol 24h: $95,657
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 2055
+  Top10: 38.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.8h, narrative=5/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2pnk921JNguorR8KS4gK2EqYTvjQnXpSyvTgcCcSjXeN
+❌ MCAP $5,042 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 43MBd9fkk2QEr2bREyWdWDJYz5hUXn1y51iRfFZH1xYb
+❌ MCAP $5,509 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H7noGdq7WnvbfdgnZzwYtRdZFCADe5rivUjuiofKpump
+  📊 MCAP: $97,745 | Liquidity: $23,222 | Vol 24h: $123,963
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 852
+  Top10: 17.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2tKyWqm8c1pmhZxDjyZjBkTe8KSXbWdywxciuFhFpump
+  📊 MCAP: $12,151 | Liquidity: $0 | Vol 24h: $47,914
+  🕐 Token Age: 1.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 156
+  Top10: 57.2%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H2KV3NDRf8FqCrQrLztnPWdfXx6RV9SbXc97PMRwpump
+❌ MCAP $2,473 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump
+  📊 MCAP: $97,499 | Liquidity: $23,470 | Vol 24h: $226,267
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 6/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 823
+  Top10: 28.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=1.3h, narrative=6/10)
+
+🎓 SCORE: 16/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: C58H1NjSwP2FQb6kQPg3peLiBsHEC2Rggfz1azJMpump
+❌ MCAP $8,321 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 4
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~11
+
+📖 Narrative Distribution:
+    AI: 3
+    Generic: 1
+
+💾 Saved 4 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | AGj48tqewsFL8fr7cRuq... | Narrative: AI | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 2kTe6pJn9d2kANXYmQch... | Narrative: AI | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | H7noGdq7WnvbfdgnZzwY... | Narrative: Generic | Wallet Health: 100% | Age: 1.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | J8PSdNP3QewKq2Z1JJJF... | Narrative: AI | Wallet Health: 100% | Age: 1.3h
+=== 2026-02-24 21:00:29 - Scan Complete ===
+=== 2026-02-25 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-25 21:00:05
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 21 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: L8ieucWxejrg6htSNfB4kTwS21sVg7t3eDwmjWEpump
+  📊 MCAP: $13,964 | Liquidity: $0 | Vol 24h: $41,355
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 154
+  Top10: 61.9%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BBNtziiA4WoBbU527v1QZF2RrNHyFB8Hr9W5DuEopump
+❌ MCAP $2,473 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: gQwnTEegpTwswof4Nv72divWSL5xPbWpjhWGGP3pump
+  📊 MCAP: $29,614 | Liquidity: $13,154 | Vol 24h: $94,384
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 186
+  Top10: 45.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AafF9Nz2LyKcbyyLjoL5ELAnvcULGAGEGBKeCiszpump
+  📊 MCAP: $42,891 | Liquidity: $15,867 | Vol 24h: $42,116
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Meme | Score: 4/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 110
+  Top10: 31.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: E2QHbhfxMAWPqGWxw61N5rmiw4ZUo7zWNPvhyfoWpump
+❌ MCAP $3,603 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9Rz2kU73HeUYcWCBY6zTRYAUwJWWWabT7zSccLBUHfbT
+  📊 MCAP: $56,148 | Liquidity: $18,287 | Vol 24h: $113,158
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 3/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 85
+  Top10: 35.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9bsRRJPmk8mqBfgp5WttqfskWArP3jPLqThyqWowpump
+  📊 MCAP: $18,817 | Liquidity: $0 | Vol 24h: $102,629
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 3/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 84
+  Top10: 49.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AQT9nkNAVpQAY9xDXWJPeg7UZ8AnbvqRf7Mz9629pump
+❌ MCAP $7,897 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7CFqyk44fGP8ch6VZaCGMieMibh5pgw9c41PLRgGpump
+❌ MCAP $3,287 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HkiBjw3urYd5Qu6bzhUmsVz253uc7yqsGhDZiysgpump
+  📊 MCAP: $12,478 | Liquidity: $8,591 | Vol 24h: $211,236
+  🕐 Token Age: 1.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 18
+  Top10: 59.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: wV97LLLDufZUiHjNr7QBp4w5MNJDAK2MZ6o1gjEPLAY
+❌ MCAP $6,014 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 47tFeX8Wy9yyotZN8HT3HFLiDqUaXDXJceekVwmDpump
+  📊 MCAP: $42,795 | Liquidity: $16,043 | Vol 24h: $189,735
+  🕐 Token Age: 1.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 9/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 31
+  Top10: 38.8%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BVC9Mqz81xsvPwJQUR9xjEtbZB2XJLukwF7hZ5sxpump
+❌ MCAP $2,374 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ALzwPfE7ktwH41eQhfM7fAjuJRWsV5Jg7dQhJ8gSpump
+  📊 MCAP: $10,216 | Liquidity: $0 | Vol 24h: $32,528
+  🕐 Token Age: 2.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 21
+  Top10: 66.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EA3hw3UhUAu9bffCVj3osCeoh1Ls4uoDSuihDFxNpump
+❌ MCAP $2,029 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 0
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 2
+    Meme: 1
+
+💾 Saved 3 results to alpha_results_v51.json
+=== 2026-02-25 21:00:32 - Scan Complete ===
+=== 2026-02-26 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-26 21:00:05
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 26 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BYqfCyWqMBSGzHeGbGwTnUafRx728M7Ckk5g9cbUpump
+  📊 MCAP: $24,767 | Liquidity: $0 | Vol 24h: $43,280
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 0
+  Top10: 50.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3KFsZXdDKn1K5dKnK3V98n8qxTqAmPjAJk7Y5UNVpump
+  📊 MCAP: $51,240 | Liquidity: $17,971 | Vol 24h: $128,825
+  🕐 Token Age: 0.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 495
+  Top10: 39.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9yc784S1K51nEoLVjiHHfVpKd2n8jY4bmUUftnYppump
+  📊 MCAP: $19,771 | Liquidity: $0 | Vol 24h: $59,761
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Celebrity | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 136
+  Top10: 54.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DjEwpGGbCXaZHwRgthRnahWFqTEtQR3jzRWBfBhnpump
+❌ MCAP $2,567 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7QThMSiWdJgqbASbPctoS9Rq3rUZER5kDb7tpntRh6yT
+❌ MCAP $7,626 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 34CdHuUpv8j6cueWj91VWtsUcEJ5kw9EddQcZbAmpump
+  📊 MCAP: $15,028 | Liquidity: $9,674 | Vol 24h: $36,158
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 149
+  Top10: 68.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5ijPVqPARDffcFwxKUGtiRLrPpP1QmvixbuPJoLfpump
+  📊 MCAP: $91,041 | Liquidity: $24,244 | Vol 24h: $197,191
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 2/10
+  ⚠️ Narrative Red Flags: ['Red flag word: PUMP']
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 759
+  Top10: 31.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 1HTv4o2JngfhqqPSSkxtWWCPBuoSn5cEqSa3C4bpump
+❌ MCAP $2,439 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ko3SwzDc6PQS92hxaRJcaPE9GuAjLdfmsifVSWFpump
+  📊 MCAP: $17,580 | Liquidity: $10,505 | Vol 24h: $109,482
+  🕐 Token Age: 1.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 282
+  Top10: 51.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7aJinhuApQAKNW5cCRbZZ2ivJzsfffzZf73T9Yn9pump
+❌ MCAP $2,726 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7mZX7RNEchMpJYW2v7hHkPKHKFzERwXJoLGbYjk1z85d
+❌ MCAP $2,473 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6Ni3hSX6jbaf8dFmFLz99UJspFR7XT79crCURuRJpump
+❌ MCAP $2,519 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HJ6gsxUZvxYRsQeNyvWApLsUhFTVUfzHiqMdPRdrpump
+❌ MCAP $7,216 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2foZ5vVbaVY7GDyPwcKPc7po4REK6nMApED5TFiTpump
+❌ MCAP $7,129 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: uLwit3eqvsCkVdZDKjxpyGg6yRuqxa7ePFphEEtpump
+  📊 MCAP: $112,247 | Liquidity: $27,501 | Vol 24h: $514,253
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 925
+  Top10: 28.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~10
+
+📖 Narrative Distribution:
+    Generic: 4
+    AI: 1
+
+💾 Saved 5 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 3KFsZXdDKn1K5dKnK3V9... | Narrative: Generic | Wallet Health: 100% | Age: 0.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 5ijPVqPARDffcFwxKUGt... | Narrative: AI | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | uLwit3eqvsCkVdZDKjxp... | Narrative: Generic | Wallet Health: 100% | Age: 1.3h
+=== 2026-02-26 21:00:31 - Scan Complete ===
+=== 2026-02-27 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-27 21:00:05
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 25 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7emDS5nFWRiMSPzotTijJaeZVAR3QAzfZKDkyhAApump
+  📊 MCAP: $68,968 | Liquidity: $20,646 | Vol 24h: $79,117
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 522
+  Top10: 32.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: kjqPLo7Yez23kb9vAcoWqRG7hw6MeTNFAH5dtZQpump
+  📊 MCAP: $16,072 | Liquidity: $9,894 | Vol 24h: $36,124
+  🕐 Token Age: 3.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 92
+  Top10: 58.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AbZYsz7gh6LMhJ4q5p4KSLXQoNqfHrpuWRgoJHDmpump
+❌ MCAP $3,214 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6d2zq73RuvgFMJcFTrzKz2H6EW3s41ZZoybJatgVpump
+❌ MCAP $2,447 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3tHpx1rHNQJjD4D5ZBCksGiRtpwmy1XR9niw1paYpump
+❌ MCAP $2,631 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6fhWLEwK6xBUA9h4SyS9QgxrfR5g8s7S5VNsoS6Spump
+  📊 MCAP: $14,864 | Liquidity: $9,534 | Vol 24h: $53,161
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 280
+  Top10: 51.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 10/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BDmM7FJfMAHmULeNeMgHWvPcmmhv8Ywsn9XbM3Mcpump
+  📊 MCAP: $12,629 | Liquidity: $0 | Vol 24h: $56,176
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 161
+  Top10: 61.8%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GiFoBEGnHGXmJdpaNqjMHBkYP5QcyPYqutwREiec3RBi
+❌ MCAP $7,882 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ELrHzEYit2VZGgzJdqNTWAzyC6ckA5SY6s9obRdopump
+❌ MCAP $7,883 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2gvDPwmThGoCs3ZDagJhmH1WoRKDC49Tey2RoLbiqxi5
+❌ MCAP $4,491 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2ieDnfWLzrat7zGFz4qFh5FMg75WkQrvmWaAHeSZoxHZ
+❌ MCAP $15,856,823 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EzYKn1CN7yzhYwhu4NfnfKpKVdoiyEqfmqFfu3V8pump
+  📊 MCAP: $13,904 | Liquidity: $9,962 | Vol 24h: $1,125,551
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 557
+  Top10: 53.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EdcJjnZStZBFtbyMMRxgXqroHxQMNeXmrHT9uj7WVdE
+❌ MCAP $6,821 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DhiYsNDByAW833nwhWc49QvbeaXiZFrWDzQdm5Lpump
+❌ MCAP $2,453 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8QHLfMj1a9e19Kt8g25NCr9ahWLLmFBw47tk9kscpump
+  📊 MCAP: $22,470 | Liquidity: $11,839 | Vol 24h: $157,642
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 490
+  Top10: 42.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~10
+
+📖 Narrative Distribution:
+    Generic: 5
+
+💾 Saved 5 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 7emDS5nFWRiMSPzotTij... | Narrative: Generic | Wallet Health: 100% | Age: 0.1h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EzYKn1CN7yzhYwhu4Nfn... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 8QHLfMj1a9e19Kt8g25N... | Narrative: Generic | Wallet Health: 100% | Age: 0.6h
+=== 2026-02-27 21:00:29 - Scan Complete ===
+=== 2026-02-28 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-02-28 21:00:06
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 25 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: wwZabtPeKzqADMjC4DWp78SQReq2h2FwBewAojKpump
+❌ MCAP $9,821 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: C9MNBjdJH2nVN9khhBcPqsRNXVVXsetVFMEteK917FwY
+  📊 MCAP: $49,317 | Liquidity: $16,586 | Vol 24h: $68,126
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 7/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 554
+  Top10: 32.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5hpuywRNrRWFqngLwbSBcdDcMkwvP1awNoCvNd3dpump
+  📊 MCAP: $95,670 | Liquidity: $23,400 | Vol 24h: $178,876
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 506
+  Top10: 25.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4Az9HhsNxcv89KFBMYZUTSnU2wkHPuBY1voseiFWpump
+❌ MCAP $4,100 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Gw4V7WrTAZZ1NGhNRr3KNzmLu4rhb653Kwiz5QxuF74T
+❌ MCAP $5,433 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9L1hVpxJFuAaoZ7gtTTqKse14FffqNMA9Ts3pdwepump
+  📊 MCAP: $91,826 | Liquidity: $22,993 | Vol 24h: $236,737
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 593
+  Top10: 31.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EEchb6Cecv2vaHns7PnLJtrCUMEKxrgfp6gDHXqSpump
+  📊 MCAP: $21,341 | Liquidity: $10,859 | Vol 24h: $27,791
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Political | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 457
+  Top10: 46.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CmSpJoAkseoPTFnbFuqbfBQW7JyBRQLQMSGF2wWbSf3f
+❌ MCAP $5,976 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8W6oaEe4xs7kzC9MDAZhqMqWtWBrL9YTeHD1CpYtpump
+  📊 MCAP: $15,437 | Liquidity: $9,290 | Vol 24h: $99,560
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 371
+  Top10: 47.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GASax3pDkhZ2hGTFe5XpCrALeFSC7UXVzsY6xbvLpump
+❌ MCAP $2,294 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HG3Ax6p7sMEYHZE4WWtn9pvUNnk1ji6thy5k4B8dGDdd
+  📊 MCAP: $85,096 | Liquidity: $28,600 | Vol 24h: $633,410
+  🕐 Token Age: 1.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 736
+  Top10: 31.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 59XLmUcciZtDkQpzeyXCb7oX8KywY5GNvYFxeNLLpump
+  📊 MCAP: $16,062 | Liquidity: $0 | Vol 24h: $90,881
+  🕐 Token Age: 1.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 253
+  Top10: 51.9%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CcgWDVcm5fL7H1BenaaaeHQdcBUPsNwqMirpa6A9pump
+  📊 MCAP: $10,991 | Liquidity: $7,877 | Vol 24h: $172,220
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ❌
+  LP locked: 0%
+  Holders: 0
+  Top10: 0.0%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8tz63J6h9iCbiM9XpVnvpkDER1EM7vj73ZNQLLhApump
+❌ MCAP $4,717 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: atVjZ7uM8sVrLFi5Xe1JiLGW6mW9pvQdTCWzhNFpump
+  📊 MCAP: $190,181 | Liquidity: $33,469 | Vol 24h: $418,872
+  🕐 Token Age: 1.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1158
+  Top10: 21.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=1.5h, narrative=1/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 6
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~8
+
+📖 Narrative Distribution:
+    Generic: 5
+    AI: 1
+    Political: 1
+
+💾 Saved 7 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | C9MNBjdJH2nVN9khhBcP... | Narrative: AI | Wallet Health: 100% | Age: 0.1h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 5hpuywRNrRWFqngLwbSB... | Narrative: Generic | Wallet Health: 100% | Age: 0.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 9L1hVpxJFuAaoZ7gtTTq... | Narrative: Generic | Wallet Health: 100% | Age: 0.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 8W6oaEe4xs7kzC9MDAZh... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | HG3Ax6p7sMEYHZE4WWtn... | Narrative: Generic | Wallet Health: 100% | Age: 1.4h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | atVjZ7uM8sVrLFi5Xe1J... | Narrative: Generic | Wallet Health: 100% | Age: 1.5h
+=== 2026-02-28 21:00:50 - Scan Complete ===
+=== 2026-03-02 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-02 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 28 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: S4ACZjhTKDoJvQeGmY7maDFtHHhtWie7LiCbTzypump
+  📊 MCAP: $16,047 | Liquidity: $0 | Vol 24h: $24,092
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 133
+  Top10: 57.8%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 69LA6Ybf5q2HZFVDTNvu5JLkp5Q7Pen3rihUxXUmpump
+  📊 MCAP: $14,116 | Liquidity: $0 | Vol 24h: $49,705
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 154
+  Top10: 53.6%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4raerkuMDxJ7NThy5p3b33189Tw4xFZkN9ngzoQQWzmm
+❌ MCAP $3,603 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FVBRNrBYXCCQ355jbQ7fsodJZ39DckvrKSaYhfo2pump
+  📊 MCAP: $19,294 | Liquidity: $10,887 | Vol 24h: $230,310
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 445
+  Top10: 50.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AQw8UwT9YsFUYWMrbYjfsPSGWrJGs9NVSiGEYKW2pump
+❌ MCAP $4,821 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6b87xiqUB2ajnCxhkR7XThTRRi6dyY8AefjjdZWppump
+  📊 MCAP: $15,167 | Liquidity: $0 | Vol 24h: $63,921
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 185
+  Top10: 54.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HTcHXGTNgE6FpvvB7KPd24yqVjEuuXi7EyApJBUwpump
+❌ MCAP $2,422 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ATBR4i19gcQ31Rfr7ymA2XvkCQEAkNFGBtVKTmdqpump
+  📊 MCAP: $120,336 | Liquidity: $26,954 | Vol 24h: $161,191
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 345
+  Top10: 34.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7yByBBw31eTzk3BoVvSiGsyKKiXiESLF4NyyHtmspump
+❌ MCAP $9,358 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DitThhdQaFThHFMyTzbbGvoRZi38RZp9yYVgd7eApump
+  📊 MCAP: $22,041 | Liquidity: $11,409 | Vol 24h: $49,031
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 164
+  Top10: 52.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9RnxbS72RPq5cZ73HpPwDWde4crgV4ppAifoaRyEpump
+❌ MCAP $3,621 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: R7DWRLKo3ThcEjnZKrFewMbGrEH8UrZq1AXn4rFpump
+  📊 MCAP: $13,865 | Liquidity: $0 | Vol 24h: $34,065
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 135
+  Top10: 60.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CzzcbpEmgPxgoxSHXvMBRSbfTWTuzoYEKwrKiKvppump
+❌ MCAP $3,747 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AgzNrPnujkGF9iPt1KxwicTzELKT1NuLfJSuTDW2pump
+❌ MCAP $3,083 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: E1jqth7k6yWhrUnpAmKVWeFz4T37WSVkm2MuUKgppump
+❌ MCAP $308,964 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 2
+    AI: 1
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | FVBRNrBYXCCQ355jbQ7f... | Narrative: AI | Wallet Health: 100% | Age: 0.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | ATBR4i19gcQ31Rfr7ymA... | Narrative: Generic | Wallet Health: 100% | Age: 0.5h
+=== 2026-03-02 21:00:31 - Scan Complete ===
+=== 2026-03-03 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-03 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 25 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EmmE4vNbe4MH8UxRPpMMax2HgfsZUcuMu5utern7pump
+  📊 MCAP: $94,064 | Liquidity: $24,216 | Vol 24h: $282,975
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 754
+  Top10: 29.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BScZSFnJbkLTWRQnqNjTEaMDYoFCQZTZAjH1fJZxpump
+  📊 MCAP: $12,375 | Liquidity: $0 | Vol 24h: $94,277
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 243
+  Top10: 56.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BK2uZt4EXoHvioai7aYNk1N3qDf8JgNwdohouAL77vL4
+❌ MCAP $4,195 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H8F7yaJvQSYUogVaoBgUceXxhkW2ysZNUW7JWpmnpump
+  📊 MCAP: $40,619 | Liquidity: $15,541 | Vol 24h: $14,283
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 308
+  Top10: 41.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GqKoQQbPZV6WPZMDh8vnNBXqiA6E4L6b9qRmMDr1pump
+❌ MCAP $6,743 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3g26xhTCsYqEYUDmMpuyhhoaNuLnyYGEk2m8ckFmpump
+❌ MCAP $5,635 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6gPbyT4rZV7D8oEg8yy1eEHD9qu3c3cSzzGnQRzWpump
+❌ MCAP $2,129 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BL4HXu8WuJKJhXoHmWbTQa6mQ4by5NEwJBVyYgp5pump
+❌ MCAP $2,733 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DWTKpb4B9mgg5XpDxW89ormGy3cqWL1vBKRS71fSUaPA
+  📊 MCAP: $11,418 | Liquidity: $8,454 | Vol 24h: $316,307
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 323
+  Top10: 52.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8GW7cvRRB36vu1gKcUFczfU5GAARNsR9amBTeeEtpump
+❌ MCAP $4,374 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5sxymn9Zz9zX16X9D3rkmfnctBrjAqakcxJ9Zivtpump
+❌ MCAP $5,676 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9YQsgMhQk6UC9zRqAKTUCfrDU72MBRd2L4aD2RKKpump
+❌ MCAP $1,784 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 48faqsVUbSNnZNPgWvgLnYCfk43Q7mSCXyo9HxX8pump
+❌ MCAP $1,894 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H3iFfPnAf7jv76iw1XchuEQJiXWEbyRZracoWjmVpump
+  📊 MCAP: $76,841 | Liquidity: $23,369 | Vol 24h: $1,121,745
+  🕐 Token Age: 20.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 988
+  Top10: 35.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 27VGoB5ANRF7XRcJrMVUF7RqWzQ2qsgqryXMZ1iapump
+❌ MCAP $3,033 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 4
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~11
+
+📖 Narrative Distribution:
+    Generic: 4
+
+💾 Saved 4 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EmmE4vNbe4MH8UxRPpMM... | Narrative: Generic | Wallet Health: 100% | Age: 0.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | H8F7yaJvQSYUogVaoBgU... | Narrative: Generic | Wallet Health: 100% | Age: 0.1h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | DWTKpb4B9mgg5XpDxW89... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | H3iFfPnAf7jv76iw1Xch... | Narrative: Generic | Wallet Health: 100% | Age: 20.2h
+=== 2026-03-03 21:00:25 - Scan Complete ===
+=== 2026-03-04 21:00:05 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-04 21:00:06
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 24 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2Gniy6qNqNpQ92vWCWtXxRh21izkSnmh1saqp3Cdpump
+❌ MCAP $8,084 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 92KtThxeXkgnJ7j4LHG7gDj8RXxmmTPuEhnNfExKpump
+  📊 MCAP: $18,335 | Liquidity: $0 | Vol 24h: $33,472
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 0
+  Top10: 46.6%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GcaEdY8YP7MsuxTnCSM97x6R6TDZ444AgDwcnmZKpump
+❌ MCAP $9,432 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: MeuWvMQTbze3BMzhKuD9TQhLmVwtwUqA6PFPPV1pump
+❌ MCAP $1,693 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 82SQ4j1XzvvxxRJfhyGPcEcavWAupf6wkaTrzGYZpump
+  📊 MCAP: $41,950 | Liquidity: $16,678 | Vol 24h: $218,834
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 689
+  Top10: 36.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: B3ZFzPvq4esJ53fCHj9JYbZfpgaX6wbmCapiN7sWpump
+  📊 MCAP: $11,674 | Liquidity: $0 | Vol 24h: $55,947
+  🕐 Token Age: 2.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 119
+  Top10: 70.4%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6r1dpuWKdDXEK5fiQu1sU3EEKnpyDBBVBEH8kPC3pump
+  📊 MCAP: $85,877 | Liquidity: $23,569 | Vol 24h: $81,326
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 6/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 458
+  Top10: 37.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.6h, narrative=6/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6fuXyeDcTDz8fTsBGHDseWDeeBsdXwt8syuBhmxkpump
+❌ MCAP $8,494 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EzQzUPA7bkNNcGtwsKgkruAYi3sgzA2VHozqYgWWpump
+❌ MCAP $9,825 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FWtqNDrKQyAx1Yoktd1ekRNkxJDX1zJdEqrtfhFupump
+❌ MCAP $5,302 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: D26ESwuP4CKJqurPhmum8YskCrke9cSqeEmczkxXpump
+  📊 MCAP: $201,336 | Liquidity: $37,653 | Vol 24h: $834,727
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 911
+  Top10: 23.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5cZf4Gp94wizChAb5c9JPbTrQ52U4G8CLPwPpCUapump
+❌ MCAP $313,699 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AmpdqCBiT7gUNoWrmWCkY349SGL8ExJtZfSTPRWrpump
+❌ MCAP $6,077 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EkcT4hGLG2WrG9Yy51cnUKtAqQkWFhtpZBn54Z3kpump
+  📊 MCAP: $48,959 | Liquidity: $17,693 | Vol 24h: $23,792
+  🕐 Token Age: 1.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 61
+  Top10: 90.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EkyepifbxgbaVFnauM4uePzQBzQBeGDkAZnHTgo6pump
+  📊 MCAP: $23,284 | Liquidity: $12,256 | Vol 24h: $115,277
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 459
+  Top10: 47.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 4
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~10
+
+📖 Narrative Distribution:
+    Generic: 3
+    AI: 2
+
+💾 Saved 5 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 82SQ4j1XzvvxxRJfhyGP... | Narrative: Generic | Wallet Health: 100% | Age: 0.4h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6r1dpuWKdDXEK5fiQu1s... | Narrative: AI | Wallet Health: 100% | Age: 0.6h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | D26ESwuP4CKJqurPhmum... | Narrative: Generic | Wallet Health: 100% | Age: 1.0h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | EkcT4hGLG2WrG9Yy51cn... | Narrative: AI | Wallet Health: 100% | Age: 1.2h
+=== 2026-03-04 21:00:33 - Scan Complete ===
+=== 2026-03-05 21:00:04 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-05 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 24 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3Qtm8we9E1U7VUadwc4Xvf1U1wVujLoYapRHJ7aJpump
+❌ MCAP $311,473 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 32Q3VDgEP8syqFGiNftc8CH7tQvvc88DRvPP8uYzpump
+❌ MCAP $2,718 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7fhd4XZgMoF49Q4ShpWAfeK1yurxVuFuFuhMBGbPpump
+❌ MCAP $3,119 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DcVZcL3DLpi78yVyYsVUCdfsxEwKjpAEggMd7LmCpump
+❌ MCAP $645,383 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5BUp4qksXcwUaUhDr97z7uH36fDYezyBBPMXyANcpump
+❌ MCAP $9,251 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DA6oCGZrDuBM479TfTZQUpo2skeUM4gujb3EP9Dkpump
+❌ MCAP $8,950 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 29CWie1vrdJdGqfEf2Z7gYURSzjhpibB3tsyENQNpump
+❌ MCAP $2,461 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BCZuvmxeCVe1CDgT2UqBqXUiN9BNxBQtTGiHGdXipump
+❌ MCAP $1,946 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CHKX2mDXkXWu4cNAiPVzT1SrfTEfmzY8YzR9yBY2pump
+  📊 MCAP: $17,998 | Liquidity: $10,780 | Vol 24h: $82,326
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 172
+  Top10: 56.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: H7JVr3rLxCwBmk9TBshafpa3cHwzigYA49fP5CM6pump
+  📊 MCAP: $18,532 | Liquidity: $0 | Vol 24h: $96,038
+  🕐 Token Age: 3.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 164
+  Top10: 58.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: G3vYfD8rv9WNwaFjzLdYqhGHtJ6qoXhigLcMjrxUpump
+  📊 MCAP: $117,558 | Liquidity: $27,861 | Vol 24h: $165,593
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 6/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 5266
+  Top10: 19.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.8h, narrative=6/10)
+
+🎓 SCORE: 16/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9EQvudyYrkx1SRcEvUVn9AzEGHUL2Q8ooFMVwmnpump
+  📊 MCAP: $21,433 | Liquidity: $0 | Vol 24h: $37,263
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 6/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 139
+  Top10: 51.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9HkvDxrZ9zXhecCJMLMeW4J43feUQZ96f7QEj6uUpump
+❌ MCAP $957,511 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3LaKDLzdou5sdkcLsEUjYfgB4wW15u44i5rEpec9pump
+❌ MCAP $4,684 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: JBXgsHdUTRJzxjG4xvbodkvwCfz7HQs6Vdtzc3Hnpump
+  📊 MCAP: $11,467 | Liquidity: $7,374 | Vol 24h: $4,198
+  🕐 Token Age: 2.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 58%
+  Holders: 73
+  Top10: 86.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 9/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 1
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    AI: 2
+    Generic: 1
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | G3vYfD8rv9WNwaFjzLdY... | Narrative: AI | Wallet Health: 100% | Age: 0.8h
+=== 2026-03-05 21:00:24 - Scan Complete ===
+=== 2026-03-06 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-06 21:00:01
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 25 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DLYbj1sz9WtgUrm4Y2PkrokmHfSrWN7nz6LE8mQjpump
+  📊 MCAP: $21,664 | Liquidity: $0 | Vol 24h: $20,201
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 104
+  Top10: 54.7%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: uDgeGjCriUjiew1C2V8Eb8DDmYd8DC8t4T3KbNVpump
+  📊 MCAP: $23,217 | Liquidity: $0 | Vol 24h: $48,443
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 164
+  Top10: 48.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GTfJ3AJJAFDPJBkicqR5NHorvo7yJvNwv69nAsm7pump
+  📊 MCAP: $11,849 | Liquidity: $0 | Vol 24h: $36,180
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 108
+  Top10: 72.2%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ASENQ7QunjJzL1twqJSPBw6uqQC31iWnzfjxX8rBAGS
+  📊 MCAP: $33,562 | Liquidity: $13,003 | Vol 24h: $49,680
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 388
+  Top10: 39.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GxTCgx78EqxUkJUPSEy4c1HB1SNztBmFzKF7382Tpump
+❌ MCAP $9,082 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6gfjLxUjvouEVcVTFa2rwBjbAB89EGP4eVQ76zygpump
+  📊 MCAP: $17,674 | Liquidity: $0 | Vol 24h: $88,551
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 2/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 172
+  Top10: 52.9%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Gt4aLjbVjok4sCAVx5J285ro5YzkdGXPV41XnCZ4pump
+❌ MCAP $6,383 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AQ6pkPz3zmyetCd8TS6WZzKPPWt7bXanvUNMsfm4pump
+❌ MCAP $3,051 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2n6wiF3T9pgxxUo3vwho7TKioCN9ZPXNbSTxWZRipump
+❌ MCAP $2,494 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Fk73u9L3GNt8tNXQKhVEcnwvjhggX51CmV1XsLwspump
+  📊 MCAP: $39,192 | Liquidity: $15,548 | Vol 24h: $9,672
+  🕐 Token Age: 0.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 231
+  Top10: 42.1%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.1h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GCyTqvhznN8NyyGcsae4HemGq4kRYK1Y3zxiPy67pump
+  📊 MCAP: $55,791 | Liquidity: $18,828 | Vol 24h: $166,121
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Celebrity | Score: 4/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 748
+  Top10: 32.0%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BP8qvXr5jD1j7uKTxWUFsFfMBMHJF2yH4JhQSJBXpump
+❌ MCAP $6,141 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7JgdaC8vDRyXdBBFPDWwJcPTeLn7gX1EQAUdSqd2pump
+❌ MCAP $7,548 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6bfvHGEEivphdQyEsg5b9VDDJuqaysFM3hePAmK9acHi
+❌ MCAP $2,830,055 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 669g9YAKRgAzBYXLF4hAa1advjVsn2YPGEBNxaBppump
+❌ MCAP $2,686 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    AI: 1
+    Generic: 1
+    Celebrity: 1
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | ASENQ7QunjJzL1twqJSP... | Narrative: AI | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | GCyTqvhznN8NyyGcsae4... | Narrative: Celebrity | Wallet Health: 100% | Age: 0.4h
+=== 2026-03-06 21:00:25 - Scan Complete ===
+=== 2026-03-07 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-07 21:00:01
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8RYWGVsDGRVXD6iGuxaqe2oS4S3HbPqD14zz4tQxpump
+❌ MCAP $2,821 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: dzxaoicvVAHMhun8gq9BnC8WEcgVKBjRAvmQnMYpump
+  📊 MCAP: $26,276 | Liquidity: $0 | Vol 24h: $37,431
+  🕐 Token Age: 0.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 205
+  Top10: 48.2%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ACcvaasRNqMJFVkVvi4H1CzSywBBXuYKhVL9Qd9Xpump
+❌ MCAP $2,513 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 81VSpxtzrwgJWKfK942ZT1rk3Ws91z2eyW1jxp6pump
+  📊 MCAP: $78,656 | Liquidity: $22,241 | Vol 24h: $264,915
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 813
+  Top10: 26.2%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: VffQ43wE39jpbkzNX2k6bHqFTU9gJjEvQyFzZ5zpump
+  📊 MCAP: $26,257 | Liquidity: $0 | Vol 24h: $60,458
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 195
+  Top10: 48.3%
+  Cluster risk: 1
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ABx3ev3A1Wg9PNpt3didhwMuznBC49zWCymFutHgpump
+❌ MCAP $2,487 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DxnQ9ph9gamMe4QSk8b5QuJ425Jj8joc6gBvJKz6pump
+❌ MCAP $2,371 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: AVn8sQe9aYRfbgSuZfAij5P1Wh2q6VkSnr2GwZT3pump
+  📊 MCAP: $18,622 | Liquidity: $10,620 | Vol 24h: $129,808
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 315
+  Top10: 50.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7B5VgAEp6TvqfGUzjnw3AEjtVpbmo36kQSsAL9fBpump
+❌ MCAP $5,578 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5fWqqsww4FMntZfgQd7nk88aw2niQsT9zCwgs1R5pump
+❌ MCAP $1,951 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6VQogefEurmNTBZX4ErQZXqc8xz1MTfKjy3Y8mSzpump
+❌ MCAP $2,716 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 53ptzpiswLXocK7AaxoonT3RRyjnJuujc2cUHUKqpump
+❌ MCAP $6,154 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Bmy2ujazphuDQkuzbaC2mpUCsDFqnkwbNXSbLMzbdoge
+❌ MCAP $9,196 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 732AxYwdHq8otVNVTWjn6CRiKTDVxC2MTvbMpifqpump
+  📊 MCAP: $11,653 | Liquidity: $0 | Vol 24h: $116,799
+  🕐 Token Age: 1.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 70
+  Top10: 62.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HGwX3D5Rxp52G1Sm4GbetdiQiL4RCHb1Jby84ayhpump
+  📊 MCAP: $51,116 | Liquidity: $18,553 | Vol 24h: $705,145
+  🕐 Token Age: 1.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Celebrity | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 692
+  Top10: 33.3%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~12
+
+📖 Narrative Distribution:
+    Generic: 1
+    AI: 1
+    Celebrity: 1
+
+💾 Saved 3 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 81VSpxtzrwgJWKfK942Z... | Narrative: Generic | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | AVn8sQe9aYRfbgSuZfAi... | Narrative: AI | Wallet Health: 100% | Age: 0.6h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | HGwX3D5Rxp52G1Sm4Gbe... | Narrative: Celebrity | Wallet Health: 100% | Age: 1.6h
+=== 2026-03-07 21:00:23 - Scan Complete ===
+=== 2026-03-08 21:00:01 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-08 21:00:02
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: C6cbL6YUoYhtjV88M2zrQFrgzJ54n7sY6dfVCxqkpump
+  📊 MCAP: $131,505 | Liquidity: $28,208 | Vol 24h: $180,613
+  🕐 Token Age: 0.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 457
+  Top10: 23.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.3h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8616Po7A6WD4z1Gh8tjjse2VuiNGUoBmDgDVvRBbpump
+  📊 MCAP: $70,228 | Liquidity: $20,451 | Vol 24h: $77,107
+  🕐 Token Age: 0.2 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Celebrity | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1308
+  Top10: 49.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.2h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CxbHMV5dDkyNZysgcCqUs16pME6UMWEq7a8i5tWmpump
+  📊 MCAP: $30,134 | Liquidity: $0 | Vol 24h: $87,319
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 352
+  Top10: 43.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Abeu3qcSXnRSeFfTXL3rLcB67ZD7AeAtG5JBe4cgpump
+  📊 MCAP: $58,672 | Liquidity: $19,663 | Vol 24h: $672,789
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 413
+  Top10: 30.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 56gmF8Hpyy3k1bHSof9RZraD1oUgYYHWF2nDzqfHpump
+  📊 MCAP: $12,652 | Liquidity: $8,809 | Vol 24h: $269,272
+  🕐 Token Age: 1.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 539
+  Top10: 52.8%
+  Cluster risk: 1
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FoyjaJKmyweh6xdYooXUEs4WsPjMGqfaCnUuAg29boop
+❌ MCAP $5,086 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: n4RwG5HrZj9oZujTpHA7vMMNX4nmBBxjAT4CZKcpump
+  📊 MCAP: $17,471 | Liquidity: $0 | Vol 24h: $65,223
+  🕐 Token Age: 1.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 200
+  Top10: 56.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8wvsinpEWWx7vk9KUgvLp6mcxJD3Ct6iHCPTuuEupump
+❌ MCAP $9,036 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: Dznro3PeRqzF6ytA5xqyZxx1k1n17x6yLeScJA21pump
+❌ MCAP $4,074 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: pPtaCyqy82PyXtuBaPQCabp2buFzXWWQRctaDaBpump
+  📊 MCAP: $31,342 | Liquidity: $13,673 | Vol 24h: $136,585
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 400
+  Top10: 43.7%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9vWDUs8Cpp85wqViTp8GEQ9133xxHLBkPgEzMigjpump
+❌ MCAP $2,754 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6Gp8DjsxZEYqomCgUccqGCXVfHFeVSUGGVSP33wdpump
+  📊 MCAP: $28,626 | Liquidity: $12,988 | Vol 24h: $108,770
+  🕐 Token Age: 2.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 536
+  Top10: 45.4%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8RTTntWqCbTNuWR3QVPoVxBScWvTi9QGrD5XW7FZpump
+❌ MCAP $9,888 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CF57CwQJA9sGcZv3mfaoz4ymTPMYtTSwUGuhGVEdpump
+❌ MCAP $3,979 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FkrJbrq4XT4nZaJhEt6QNuo2mwJJQZ7GiagAdqqtpump
+❌ MCAP $2,828 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 5
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~9
+
+📖 Narrative Distribution:
+    Generic: 3
+    AI: 2
+    Celebrity: 1
+
+💾 Saved 6 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | C6cbL6YUoYhtjV88M2zr... | Narrative: Generic | Wallet Health: 100% | Age: 0.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 8616Po7A6WD4z1Gh8tjj... | Narrative: Celebrity | Wallet Health: 100% | Age: 0.2h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | Abeu3qcSXnRSeFfTXL3r... | Narrative: Generic | Wallet Health: 100% | Age: 0.5h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | pPtaCyqy82PyXtuBaPQC... | Narrative: AI | Wallet Health: 100% | Age: 0.8h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 6Gp8DjsxZEYqomCgUccq... | Narrative: AI | Wallet Health: 100% | Age: 2.4h
+=== 2026-03-08 21:00:30 - Scan Complete ===
+=== 2026-03-09 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-09 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 24 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CSZZRKaBbeqvMk4zXcJhs7BXC6sGThMgCTk1fvaZpump
+  📊 MCAP: $143,354 | Liquidity: $30,131 | Vol 24h: $369,915
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 1/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1942
+  Top10: 15.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.9h, narrative=1/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7bD9PCFD9NrcufH6WHvwQCm9i3JoZbjiTAWMUcoMpump
+  📊 MCAP: $84,681 | Liquidity: $23,253 | Vol 24h: $380,516
+  🕐 Token Age: 0.5 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 525
+  Top10: 26.6%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CBU48LhFvHLmmtgLkXHnm8m6hp4jXc4HprXue7wWpump
+❌ MCAP $2,769 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9DGSjWAB39PvL3k4xnmdENBQuaESm8sXdHdUfqiNpump
+❌ MCAP $8,776 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2ijWtJUhXU8hqdctEWYS3sxrXRdChL24RanRvTwFpump
+  📊 MCAP: $10,572 | Liquidity: $0 | Vol 24h: $48,145
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 108
+  Top10: 68.3%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9gTr96dXqFJ5EznR3CwPqWqL46HqgxeMedHpPwUYpump
+  📊 MCAP: $23,110 | Liquidity: $0 | Vol 24h: $36,669
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Celebrity | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 135
+  Top10: 55.5%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9dLHqy7ASKSVaaguEN2HvRZUDhBN9fm4BNdVKDUFpump
+❌ MCAP $1,759 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ENJpMVwQ5Cxi4SNtSmAX1ZTm7KBHPwQ3WaRWgRyvaLB8
+❌ MCAP $101,646,622 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2KeMCn7pTPjxdLkKprCmeLj3TLeMPK5Yzb3g21Fdpump
+  📊 MCAP: $47,785 | Liquidity: $17,169 | Vol 24h: $181,542
+  🕐 Token Age: 0.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Celebrity | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 1366
+  Top10: 23.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.6h, narrative=10/10)
+
+🎓 SCORE: 16/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8GHvtjG3hzgNKj9HpV21yH2uJ5vyaFMFSSs6fsZ2pump
+❌ MCAP $4,234 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9R1KTuS7sayS41wdQkgHHnzeAhcDCnQvA62s7UyJpump
+❌ MCAP $2,429 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: y3dsV3ir2XE2thn6ojAnQnDvivePm5rUYNjtqxSpump
+  📊 MCAP: $33,484 | Liquidity: $14,274 | Vol 24h: $180,940
+  🕐 Token Age: 1.0 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 466
+  Top10: 45.1%
+  Cluster risk: 1
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9i1ZaXXSmZXhREwTy1YB4BVuBu6DXyyBfjTv1gUdXVFf
+❌ MCAP $2,620 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DuWMsVCPY6P9ELcGWkT9XLxumpZfrSDPU1Yd7L2Cpump
+❌ MCAP $5,840 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CS8vHpGAM4ekGqG3iaVXGYDpZHteHY1eQtqVRee7pump
+❌ MCAP $2,830 outside range
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 3
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~11
+
+📖 Narrative Distribution:
+    Generic: 3
+    Celebrity: 1
+
+💾 Saved 4 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | CSZZRKaBbeqvMk4zXcJh... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 7bD9PCFD9NrcufH6WHvw... | Narrative: Generic | Wallet Health: 100% | Age: 0.5h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 2KeMCn7pTPjxdLkKprCm... | Narrative: Celebrity | Wallet Health: 100% | Age: 0.6h
+=== 2026-03-09 21:00:25 - Scan Complete ===
+=== 2026-03-10 21:00:02 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-10 21:00:03
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 27 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2be7ptiKCkTu1r27GAa4txdi2sKsLDtNmw4zb3Gspump
+❌ MCAP $3,467 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: GVceZZB24VVd3aE8f8cJj37gAVNiZibtHTresBsFbonk
+❌ MCAP $8,770 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FSqH3qDizTR3ygfof3GghqJeip73SJoiia999jYQpump
+  📊 MCAP: $17,690 | Liquidity: $0 | Vol 24h: $18,891
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 7/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 75
+  Top10: 66.1%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: EyZHxWPDGikmk7aRN7vYrAXTFK8yuxKGayYpG4Ywpump
+❌ MCAP $8,304 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: ET9kVAMnjeUhGnqhRmzC2sWuxs1eXhydXH4XHasBpump
+  📊 MCAP: $12,247 | Liquidity: $0 | Vol 24h: $90,140
+  🕐 Token Age: 2.6 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 128
+  Top10: 70.2%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9uThdjd7NhvRBikmed2sihWKqLwvt7cGJHUM5vFcpump
+  📊 MCAP: $21,375 | Liquidity: $0 | Vol 24h: $55,635
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 193
+  Top10: 51.8%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: D5WomD9VJ5GAer4SxbfaXJt9aSq1H62rUmWGNKnzpump
+  📊 MCAP: $103,114 | Liquidity: $25,632 | Vol 24h: $213,826
+  🕐 Token Age: 0.4 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.3s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: AI | Score: 10/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 572
+  Top10: 29.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 14/17
+🎯 GRADE: A ✅
+
+🚨 RED FLAGS:
+    ⚠️ TOO NEW (0.4h < 30m)
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 7DFPmMq4etCZu2HwuVW8VfsWM2M68kpuc2GF2cxdpump
+❌ MCAP $2,807 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: HHbBgrjWjk2ZVuUEL2Rdv9Wr4Zaod4h7wHzizTZWpump
+❌ MCAP $1,824 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 3ufFgZbYQiNsAYhm6Sz5Hra7D29PXRQBZ3zh8KBjpump
+❌ MCAP $4,044 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BCnP34BfB6F1Xvj6yUngpBNPxrdQjBS2ANeHK7GWpump
+❌ MCAP $2,572 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: FKncyTaTcBbSFwamvDK4DFPRgNoeQzSF8uLLSLtepump
+❌ MCAP $3,135 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5zik3LcZUGWq62R97xwu1EY4ZqWwynrCsdyfxS8Spump
+  📊 MCAP: $65,320 | Liquidity: $20,676 | Vol 24h: $298,947
+  🕐 Token Age: 0.9 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 2999
+  Top10: 19.9%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+📉 A+ downgraded to A (missing: wallet_health=100%, age=0.9h, narrative=0/10)
+
+🎓 SCORE: 15/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: B9R2iF9vVoPGEmDaVPArY4ZLNuZf2BL8Ud7cX9HNpump
+❌ MCAP $3,833 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 272UFjLj4WF8yvaRhZ4sUb4F48E1qdgSzFn9wkopDooM
+  📊 MCAP: $11,425 | Liquidity: $0 | Vol 24h: $12,079
+  🕐 Token Age: 1.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  ⏭️ Wallet health skipped (token already flagged)
+  📖 Narrative: AI | Score: 5/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 69
+  Top10: 78.6%
+  Cluster risk: 0
+  Wallet Health: 0%
+
+🚫 GRADE: F (Shell wallet attack detected)
+
+🚨 RED FLAGS:
+    🚫 WALLET HEALTH FAIL (0% shell wallets)
+
+❌ AUTO-SKIPPED: Critical red flags detected
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 2
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~13
+
+📖 Narrative Distribution:
+    AI: 1
+    Generic: 1
+
+💾 Saved 2 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | D5WomD9VJ5GAer4Sxbfa... | Narrative: AI | Wallet Health: 100% | Age: 0.4h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 5zik3LcZUGWq62R97xwu... | Narrative: Generic | Wallet Health: 100% | Age: 0.9h
+=== 2026-03-10 21:00:26 - Scan Complete ===
+=== 2026-03-11 21:00:03 - Starting v5.1 Daily Scan ===
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.1 - Wallet Health Filter Edition
+🕐 2026-03-11 21:00:04
+================================================================================
+
+📊 Fetching trending Solana tokens...
+Found 22 tokens, analyzing first 15...
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: B4d6KC3WxgA5VxDHXvssKPM28iN4hpNBJLAZaQ7Tpump
+❌ MCAP $9,972 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9bSiVvN6FhtJYLG9tqzyM7emo6bUKVqxLCTKmob4pump
+❌ MCAP $2,451 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BaURNvqfCC9TM5sRc1eK2ENEvo3Wcz8F3maNDKcXpump
+  📊 MCAP: $19,535 | Liquidity: $10,804 | Vol 24h: $40,827
+  🕐 Token Age: 0.8 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 170
+  Top10: 45.2%
+  Cluster risk: 1
+  Wallet Health: 100%
+
+🎓 SCORE: 11/17
+🎯 GRADE: B 🟡
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 95yHBPqzkNcCShxS9LvDSRngH7NR3GSNMjyaHFjYi777
+  📊 MCAP: $69,459 | Liquidity: $28,718 | Vol 24h: $166,143
+  🕐 Token Age: 1.3 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 0%
+  Holders: 206
+  Top10: 52.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DuyKzxzyyctS8Um4EwUhtikugdgkUqDqJpJVNLUgpump
+❌ MCAP $2,494 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 6Z3YuyLLUqrwPBRpRFLfmiHiuerHr3Fh3hRwbkA5pump
+❌ MCAP $3,089 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: BpjnR5XzfWRr5ZWHcqDYbWRMo1bdEjFN6G6FNBC8pump
+❌ MCAP $2,679 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 2RD1VgxCsRumXPZT4xeTPm3FdN9mG6414RLkDRHKpump
+❌ MCAP $14,987,482 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 9U97qZFZttZVpQAaVm7RQSpVTSzsQ7sW1QU616YBpump
+❌ MCAP $2,788 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: CkG76U64j5CMfetY7ekfc4tSQdeUHyEL544o8xWpump
+❌ MCAP $2,628 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 4Q4bzM5qNL5YkusRP1k6fuBEBmnzfCBbWJ2TnvRepump
+❌ MCAP $2,835 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 5Vt84ukEKHuxYA7wjH3PDwCzTGumPS7MDNGX4cFLpump
+❌ MCAP $385,091 outside range
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 8yBmRiebdFCb5sT2nvowNSfPM93H3VKvQh7jq9kzpump
+  📊 MCAP: $21,416 | Liquidity: $11,458 | Vol 24h: $167,978
+  🕐 Token Age: 2.7 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 381
+  Top10: 47.8%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: 75tQno3a9HgMs86gGmkN38PECzmV9CZh96ht1TTjpump
+  📊 MCAP: $18,238 | Liquidity: $10,693 | Vol 24h: $397,641
+  🕐 Token Age: 3.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 460
+  Top10: 47.2%
+  Cluster risk: 1
+  Wallet Health: 100%
+
+🎓 SCORE: 12/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SCANNING: ? ($?)
+CA: DJ6R3zSP645gagzNY6wVhFQuVrJh3nnBFXPYTVTQpump
+  📊 MCAP: $93,534 | Liquidity: $24,236 | Vol 24h: $297,323
+  🕐 Token Age: 3.1 hours
+  ✅ Migration Pattern: Check failed
+  🍯 Honeypot Check: Normal buy/sell activity
+  📈 Tx Analysis: 0 sells | 0 coordinated
+  🔍 Batch checking 7 wallets...
+  📊 Wallet Health: 0/7 unhealthy (0%) [0.2s]
+  ✅ Wallet Health: 100%
+  📖 Narrative: Generic | Score: 0/10
+
+🔒 SECURITY:
+  Mint revoked: ✅
+  LP locked: 100%
+  Holders: 990
+  Top10: 38.5%
+  Cluster risk: 0
+  Wallet Health: 100%
+
+🎓 SCORE: 13/17
+🎯 GRADE: A ✅
+
+================================================================================
+🎯 SUMMARY - v5.1 Wallet Health Scan
+================================================================================
+✅ Grade A+: 0
+✅ Grade A: 4
+🚫 Grade F (wallet health): 0
+❌ Auto-skipped: ~10
+
+📖 Narrative Distribution:
+    Generic: 5
+
+💾 Saved 5 results to alpha_results_v51.json
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 95yHBPqzkNcCShxS9LvD... | Narrative: Generic | Wallet Health: 100% | Age: 1.3h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 8yBmRiebdFCb5sT2nvow... | Narrative: Generic | Wallet Health: 100% | Age: 2.7h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | 75tQno3a9HgMs86gGmkN... | Narrative: Generic | Wallet Health: 100% | Age: 3.1h
+
+🚨 ALERT CANDIDATE:
+   A ✅ | DJ6R3zSP645gagzNY6wV... | Narrative: Generic | Wallet Health: 100% | Age: 3.1h
+=== 2026-03-11 21:00:23 - Scan Complete ===

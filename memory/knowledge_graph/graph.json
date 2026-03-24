@@ -1,0 +1,586 @@
+{
+  "entities": [
+    {
+      "id": "skill:captcha-solver",
+      "name": "captcha-solver",
+      "type": "skill"
+    },
+    {
+      "id": "skill:research-synthesizer",
+      "name": "research-synthesizer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:integration-orchestrator",
+      "name": "integration-orchestrator",
+      "type": "skill"
+    },
+    {
+      "id": "skill:website-designer",
+      "name": "website-designer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:workspace-organizer",
+      "name": "workspace-organizer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-agent",
+      "name": "autonomous-agent",
+      "type": "skill"
+    },
+    {
+      "id": "skill:memory-manager",
+      "name": "memory-manager",
+      "type": "skill"
+    },
+    {
+      "id": "skill:aloe",
+      "name": "aloe",
+      "type": "skill"
+    },
+    {
+      "id": "skill:sensory-input-layer",
+      "name": "sensory-input-layer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:multi-agent-coordinator",
+      "name": "multi-agent-coordinator",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-workflow-builder",
+      "name": "autonomous-workflow-builder",
+      "type": "skill"
+    },
+    {
+      "id": "skill:stealth-browser",
+      "name": "stealth-browser",
+      "type": "skill"
+    },
+    {
+      "id": "skill:event-bus",
+      "name": "event-bus",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-maintenance-repair",
+      "name": "autonomous-maintenance-repair",
+      "type": "skill"
+    },
+    {
+      "id": "skill:income-stream-expansion-engine",
+      "name": "income-stream-expansion-engine",
+      "type": "skill"
+    },
+    {
+      "id": "skill:skill-activation-manager",
+      "name": "skill-activation-manager",
+      "type": "skill"
+    },
+    {
+      "id": "skill:long-term-project-manager",
+      "name": "long-term-project-manager",
+      "type": "skill"
+    },
+    {
+      "id": "skill:decision-log",
+      "name": "decision-log",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-scheduler",
+      "name": "autonomous-scheduler",
+      "type": "skill"
+    },
+    {
+      "id": "skill:code-evolution-tracker",
+      "name": "code-evolution-tracker",
+      "type": "skill"
+    },
+    {
+      "id": "skill:knowledge-graph-engine",
+      "name": "knowledge-graph-engine",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-code-architect",
+      "name": "autonomous-code-architect",
+      "type": "skill"
+    },
+    {
+      "id": "skill:chart-analyzer",
+      "name": "chart-analyzer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-trading-strategist",
+      "name": "autonomous-trading-strategist",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-opportunity-engine",
+      "name": "autonomous-opportunity-engine",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-tool-builder",
+      "name": "autonomous-tool-builder",
+      "type": "skill"
+    },
+    {
+      "id": "skill:autonomous-goal-generator",
+      "name": "autonomous-goal-generator",
+      "type": "skill"
+    },
+    {
+      "id": "skill:context-optimizer",
+      "name": "context-optimizer",
+      "type": "skill"
+    },
+    {
+      "id": "skill:kpi-performance-tracker",
+      "name": "kpi-performance-tracker",
+      "type": "skill"
+    },
+    {
+      "id": "skill:skill-evolution-engine",
+      "name": "skill-evolution-engine",
+      "type": "skill"
+    },
+    {
+      "id": "skill:tool-orchestrator",
+      "name": "tool-orchestrator",
+      "type": "skill"
+    },
+    {
+      "id": "skill:business-strategy-engine",
+      "name": "business-strategy-engine",
+      "type": "skill"
+    },
+    {
+      "id": "file:MEMORY.md",
+      "name": "MEMORY.md",
+      "type": "file"
+    },
+    {
+      "id": "file:SOUL.md",
+      "name": "SOUL.md",
+      "type": "file"
+    },
+    {
+      "id": "file:USER.md",
+      "name": "USER.md",
+      "type": "file"
+    },
+    {
+      "id": "file:HEARTBEAT.md",
+      "name": "HEARTBEAT.md",
+      "type": "file"
+    },
+    {
+      "id": "file:IDENTITY.md",
+      "name": "IDENTITY.md",
+      "type": "file"
+    },
+    {
+      "id": "concept:luxtrader",
+      "name": "LuxTrader",
+      "type": "concept"
+    },
+    {
+      "id": "concept:aca",
+      "name": "ACA",
+      "type": "concept"
+    },
+    {
+      "id": "concept:aloe",
+      "name": "ALOE",
+      "type": "concept"
+    },
+    {
+      "id": "concept:aoe",
+      "name": "AOE",
+      "type": "concept"
+    },
+    {
+      "id": "concept:skylar",
+      "name": "Skylar",
+      "type": "concept"
+    },
+    {
+      "id": "concept:moltbook",
+      "name": "Moltbook",
+      "type": "concept"
+    },
+    {
+      "id": "concept:openclaw",
+      "name": "OpenClaw",
+      "type": "concept"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "skill:autonomous-agent",
+      "target": "skill:tool-orchestrator",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-agent",
+      "target": "skill:decision-log",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-agent",
+      "target": "skill:code-evolution-tracker",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-agent",
+      "target": "skill:workspace-organizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-agent",
+      "target": "skill:research-synthesizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-code-architect",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-opportunity-engine",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-opportunity-engine",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-trading-strategist",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:autonomous-workflow-builder",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:captcha-solver",
+      "target": "skill:stealth-browser",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:income-stream-expansion-engine",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:knowledge-graph-engine",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:knowledge-graph-engine",
+      "target": "skill:autonomous-agent",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:kpi-performance-tracker",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:kpi-performance-tracker",
+      "target": "skill:research-synthesizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:long-term-project-manager",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:long-term-project-manager",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:memory-manager",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:multi-agent-coordinator",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:sensory-input-layer",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:long-term-project-manager",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:tool-orchestrator",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:context-optimizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:memory-manager",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:decision-log",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:knowledge-graph-engine",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:code-evolution-tracker",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:autonomous-workflow-builder",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:workspace-organizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-activation-manager",
+      "target": "skill:research-synthesizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-evolution-engine",
+      "target": "skill:autonomous-trading-strategist",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-evolution-engine",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-evolution-engine",
+      "target": "skill:autonomous-opportunity-engine",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-evolution-engine",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:skill-evolution-engine",
+      "target": "skill:workspace-organizer",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:stealth-browser",
+      "target": "skill:captcha-solver",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:website-designer",
+      "target": "skill:aloe",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:website-designer",
+      "target": "skill:dist",
+      "type": "depends_on"
+    },
+    {
+      "source": "skill:workspace-organizer",
+      "target": "skill:archive",
+      "type": "depends_on"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:captcha-solver",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:research-synthesizer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:integration-orchestrator",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:website-designer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:workspace-organizer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-agent",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:memory-manager",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:aloe",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:sensory-input-layer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:multi-agent-coordinator",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-workflow-builder",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:stealth-browser",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:event-bus",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-maintenance-repair",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:long-term-project-manager",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:decision-log",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-scheduler",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:code-evolution-tracker",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:knowledge-graph-engine",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-code-architect",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:chart-analyzer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-trading-strategist",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-opportunity-engine",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-tool-builder",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:autonomous-goal-generator",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:context-optimizer",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:kpi-performance-tracker",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:skill-evolution-engine",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:tool-orchestrator",
+      "type": "references"
+    },
+    {
+      "source": "file:MEMORY.md",
+      "target": "skill:business-strategy-engine",
+      "type": "references"
+    }
+  ]
+}

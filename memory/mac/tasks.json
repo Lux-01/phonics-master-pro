@@ -1,0 +1,48 @@
+{
+  "task_1772991172_b935379e": {
+    "id": "task_1772991172_b935379e",
+    "name": "Test analysis",
+    "agent_type": "researcher",
+    "task_description": "Analyze market data",
+    "parameters": {},
+    "priority": 5,
+    "timeout_seconds": 120,
+    "dependencies": [],
+    "status": "completed",
+    "result": {
+      "task_id": "task_1772991172_b935379e",
+      "agent_type": "researcher",
+      "description": "Analyze market data",
+      "parameters": {},
+      "executed_at": "2026-03-09T04:32:52.579756",
+      "status": "completed"
+    },
+    "error": null,
+    "started_at": "2026-03-09T04:32:52.079424",
+    "completed_at": "2026-03-09T04:32:52.579828",
+    "worker_id": "worker_0_4f9f1d71"
+  },
+  "task_1773769655_0a5a915b": {
+    "id": "task_1773769655_0a5a915b",
+    "name": "Test analysis",
+    "agent_type": "researcher",
+    "task_description": "Analyze market data",
+    "parameters": {},
+    "priority": 5,
+    "timeout_seconds": 120,
+    "dependencies": [],
+    "status": "completed",
+    "result": {
+      "task_id": "task_1773769655_0a5a915b",
+      "agent_type": "researcher",
+      "description": "Analyze market data",
+      "parameters": {},
+      "executed_at": "2026-03-18T04:47:36.446550",
+      "status": "completed"
+    },
+    "error": null,
+    "started_at": "2026-03-18T04:47:35.943274",
+    "completed_at": "2026-03-18T04:47:36.446601",
+    "worker_id": "worker_0_978f7bfb"
+  }
+}

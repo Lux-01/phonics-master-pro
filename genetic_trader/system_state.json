@@ -1,0 +1,241 @@
+{
+  "cycle_number": 3,
+  "last_update": "2026-03-22T20:15:58.153262",
+  "strategies": [
+    {
+      "id": 1,
+      "name": "Momentum Surge",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.2,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": []
+    },
+    {
+      "id": 2,
+      "name": "Mean Reversion Dip",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.2,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": []
+    },
+    {
+      "id": 3,
+      "name": "Whale Shadow",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.2,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": []
+    },
+    {
+      "id": 4,
+      "name": "RSI Oversold",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.2,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": []
+    },
+    {
+      "id": 5,
+      "name": "Breakout Hunter",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.2,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": []
+    },
+    {
+      "id": 6,
+      "name": "Social Sentiment",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.08,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": [
+        {
+          "token": "AMRVrGW1acxsiiCP4kKQtLNLgm9bdTRPU7nM5yGET1EM",
+          "symbol": "MEME",
+          "entry_price": 0.00235,
+          "entry_time": "2026-03-22T13:43:49.455171",
+          "exit_price": 0.00235,
+          "exit_time": "2026-03-22T20:12:52.253823",
+          "pnl_sol": 0,
+          "pnl_pct": 0,
+          "amount_sol": 0.12,
+          "status": "closed"
+        },
+        {
+          "token": "5TjELjs1vgSpPLv1HEXLJCuxAiW4NCeJorsSKn1xbonk",
+          "symbol": "MEME ",
+          "entry_price": 2.536e-06,
+          "entry_time": "2026-03-22T20:12:52.253863",
+          "exit_price": null,
+          "exit_time": null,
+          "pnl_sol": null,
+          "pnl_pct": null,
+          "amount_sol": 0.12,
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Liquidity Surfing",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.08,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": [
+        {
+          "token": "n1NvGP9Lcy4ZJSC77GtxdbkpcnNAAYv9Nn1aYE2bonk",
+          "symbol": "meme",
+          "entry_price": 2.858e-06,
+          "entry_time": "2026-03-22T13:43:49.455322",
+          "exit_price": 2.858e-06,
+          "exit_time": "2026-03-22T20:12:52.253909",
+          "pnl_sol": 0,
+          "pnl_pct": 0,
+          "amount_sol": 0.12,
+          "status": "closed"
+        },
+        {
+          "token": "n1NvGP9Lcy4ZJSC77GtxdbkpcnNAAYv9Nn1aYE2bonk",
+          "symbol": "meme",
+          "entry_price": 2.783e-06,
+          "entry_time": "2026-03-22T20:12:52.253944",
+          "exit_price": null,
+          "exit_time": null,
+          "pnl_sol": null,
+          "pnl_pct": null,
+          "amount_sol": 0.12,
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "EMA Cross",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.08,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": [
+        {
+          "token": "n1NvGP9Lcy4ZJSC77GtxdbkpcnNAAYv9Nn1aYE2bonk",
+          "symbol": "meme",
+          "entry_price": 2.858e-06,
+          "entry_time": "2026-03-22T13:43:49.455723",
+          "exit_price": 2.858e-06,
+          "exit_time": "2026-03-22T20:12:52.253979",
+          "pnl_sol": 0,
+          "pnl_pct": 0,
+          "amount_sol": 0.12,
+          "status": "closed"
+        },
+        {
+          "token": "AMRVrGW1acxsiiCP4kKQtLNLgm9bdTRPU7nM5yGET1EM",
+          "symbol": "MEME",
+          "entry_price": 0.00235,
+          "entry_time": "2026-03-22T20:12:52.254002",
+          "exit_price": null,
+          "exit_time": null,
+          "pnl_sol": null,
+          "pnl_pct": null,
+          "amount_sol": 0.12,
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Range Trader",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.08,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": [
+        {
+          "token": "21CnrFRqvEVkQZUTFmTXjcsJTLZhRY51ohoaCPwRpump",
+          "symbol": "DOG",
+          "entry_price": 0.0006226,
+          "entry_time": "2026-03-22T13:43:49.455780",
+          "exit_price": 0.0006226,
+          "exit_time": "2026-03-22T20:12:52.254033",
+          "pnl_sol": 0,
+          "pnl_pct": 0,
+          "amount_sol": 0.12,
+          "status": "closed"
+        },
+        {
+          "token": "AMRVrGW1acxsiiCP4kKQtLNLgm9bdTRPU7nM5yGET1EM",
+          "symbol": "MEME",
+          "entry_price": 0.00235,
+          "entry_time": "2026-03-22T20:12:52.254058",
+          "exit_price": null,
+          "exit_time": null,
+          "pnl_sol": null,
+          "pnl_pct": null,
+          "amount_sol": 0.12,
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "News Arbitrage",
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "current_sol": 1.08,
+      "win_count": 0,
+      "loss_count": 0,
+      "generation": 0,
+      "trades": [
+        {
+          "token": "n1NvGP9Lcy4ZJSC77GtxdbkpcnNAAYv9Nn1aYE2bonk",
+          "symbol": "meme",
+          "entry_price": 2.858e-06,
+          "entry_time": "2026-03-22T13:43:49.455841",
+          "exit_price": 2.858e-06,
+          "exit_time": "2026-03-22T20:12:52.254088",
+          "pnl_sol": 0,
+          "pnl_pct": 0,
+          "amount_sol": 0.12,
+          "status": "closed"
+        },
+        {
+          "token": "n1NvGP9Lcy4ZJSC77GtxdbkpcnNAAYv9Nn1aYE2bonk",
+          "symbol": "meme",
+          "entry_price": 2.783e-06,
+          "entry_time": "2026-03-22T20:12:52.254115",
+          "exit_price": null,
+          "exit_time": null,
+          "pnl_sol": null,
+          "pnl_pct": null,
+          "amount_sol": 0.12,
+          "status": "open"
+        }
+      ]
+    }
+  ]
+}

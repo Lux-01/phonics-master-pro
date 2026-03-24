@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebab Express Pizza Pide & Adana | Authentic Turkish Takeaway | Order Online</title>
+    <meta name="description" content="Authentic Turkish kebabs, pizza, pide and adana on Sunnyholt Rd. Order online for pickup or delivery. Halal certified, charcoal grilled.">
+    <meta property="og:title" content="Kebab Express Pizza Pide & Adana | Order Online">
+    <meta property="og:description" content="Authentic Turkish kebabs, pizza, pide. Order online for pickup or delivery.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* KEBAB EXPRESS - PREMIUM TURKISH THEME */
+        :root {
+            --primary: #C41E3A;
+            --primary-dark: #8B0000;
+            --secondary: #FF6B35;
+            --accent: #FFB627;
+            --background: #FFFBF5;
+            --text: #2C1810;
+            --text-muted: #6B4423;
+            --white: #FFFFFF;
+            --shadow: rgba(0,0,0,0.08);
+            --glass: rgba(255,255,255,0.95);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body { 
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6; 
+            color: var(--text);
+            background: var(--background);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* GLASSMORPHISM HEADER */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.4s ease;
+            padding: 1.2rem 0;
+            background: transparent;
+        }
+
+        header.scrolled {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 4px 30px var(--shadow);
+            padding: 0.8rem 0;
+        }
+
+        header.hidden { transform: translateY(-100%); }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo::before { content: "🥙"; font-size: 2rem; }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .nav-links a { 
+            color: var(--text); 
+            text-decoration: none; 
+            font-weight: 500;
+            font-size: 0.9rem;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover { color: var(--primary); }
+        .nav-links a:hover::after { width: 100%; }
+
+        .order-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(196,30,58,0.4);
+        }
+
+        .order-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(196,30,58,0.5);
+        }
+
+        /* PROMO BAR */
+        .promo-bar {
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 0.75rem;
+            text-align: center;
+            font-weight: 500;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1001;
+            font-size: 0.9rem;
+        }
+
+        .promo-bar strong { color: var(--accent); }
+
+        /* HERO SECTION */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            position: relative;
+            overflow: hidden;
+            padding: 140px 2rem 80px;
+            margin-top: 40px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,182,39,0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+        }
+
+        .hero-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content { animation: fadeInUp 1s ease forwards; }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            color: var(--white);
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 { 
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--white);
+            line-height: 1.1;
+        }
+
+        .hero h1 span { color: var(--accent); display: block; }
+
+        .hero p { 
+            font-size: 1.25rem; 
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--text);
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,182,39,0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255,182,39,0.5);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 2px solid rgba(255,255,255,0.5);
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--text);
+        }
+
+        /* HERO VISUAL */
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            border: 2px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .floating-card {
+            position: absolute;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            padding: 1rem 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            animation: float 5s ease-in-out infinite;
+        }
+
+        .floating-card.card-1 { top: 10%; right: -5%; animation-delay: 0s; }
+        .floating-card.card-2 { bottom: 25%; left: -10%; animation-delay: 1s; }
+        .floating-card.card-3 { bottom: 5%; right: 5%; animation-delay: 2s; }
+
+        .floating-card .icon { font-size: 2rem; }
+        .floating-card .text { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+
+        /* SECTIONS */
+        section { padding: 100px 2rem; }
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-label {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* FEATURES */
+        .features { background: var(--background); }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--white);
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.4s;
+            border: 1px solid rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px var(--shadow);
+        }
+
+        .feature-card:hover::before { transform: scaleX(1); }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            margin: 0 auto 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover .feature-icon { transform: scale(1.1) rotate(5deg); }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+
+        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* MENU SECTIONS */
+        .menu-section {
+            background: linear-gradient(180deg, var(--background) 0%, var(--white) 100%);
+            padding: 100px 2rem;
+        }
+
+        .menu-section:nth-child(even) {
+            background: linear-gradient(180deg, var(--white) 0%, var(--background) 100%);
+        }
+
+        .menu-category { margin-bottom: 5rem; }
+        .menu-category:last-child { margin-bottom: 0; }
+
+        .menu-category-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--accent);
+        }
+
+        .menu-category-icon {
+            font-size: 3rem;
+        }
+
+        .menu-category h3 {
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+
+        .menu-category p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .menu-item {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            transition: all 0.3s;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px var(--shadow);
+            border-color: var(--accent);
+        }
+
+        .menu-image {
+            width: 150px;
+            min-height: 150px;
+            background: linear-gradient(135deg, var(--background) 0%, #f5f5f5 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            flex-shrink: 0;
+        }
+
+        .menu-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 0.5rem;
+        }
+
+        .menu-header h4 {
+            font-size: 1.2rem;
+            color: var(--text);
+            margin: 0;
+        }
+
+        .menu-price {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.3rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .menu-description {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .menu-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .menu-tag {
+            background: var(--accent);
+            color: var(--text);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .menu-tag.popular { background: var(--primary); color: var(--white); }
+        .menu-tag.spicy { background: var(--secondary); color: var(--white); }
+        .menu-tag.new { background: #4CAF50; color: var(--white); }
+
+        /* DELIVERY */
+        .delivery {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: var(--white);
+        }
+
+        .delivery .section-title { color: var(--white); }
+        .delivery .section-subtitle { color: rgba(255,255,255,0.7); }
+
+        .delivery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .delivery-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.4s;
+        }
+
+        .delivery-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .delivery-card.online { background: #06C167; border: none; }
+        .delivery-card.online:hover { background: #05a85a; }
+
+        .delivery-icon { font-size: 4rem; margin-bottom: 1rem; }
+
+        .delivery-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .delivery-card p { color: rgba(255,255,255,0.8); margin-bottom: 0.5rem; }
+
+        /* ABOUT */
+        .about { background: var(--background); }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-image {
+            height: 500px;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            right: -2rem;
+            bottom: -2rem;
+            border: 3px solid var(--accent);
+            border-radius: 25px;
+            z-index: -1;
+        }
+
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        .about-content p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: 15px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'Playfair Display', serif;
+        }
+
+        .stat-label { font-size: 0.9rem; color: var(--text-muted); }
+
+        /* FOOTER */
+        footer {
+            background: var(--text);
+            color: var(--white);
+            padding: 4rem 2rem 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto 3rem;
+        }
+
+        .footer-brand .logo { color: var(--accent); margin-bottom: 1rem; }
+        .footer-brand p { color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 1.5rem; }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            width: 45px;
+            height: 45px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .social-links a:hover { background: var(--primary); transform: translateY(-3px); }
+
+        .footer-column h4 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .footer-column ul { list-style: none; }
+        .footer-column li { margin-bottom: 0.75rem; }
+
+        .footer-column a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-column a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-bottom p { color: rgba(255,255,255,0.5); font-size: 0.9rem; }
+
+        /* ANIMATE ON SCROLL */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* LOADING */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--background);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+
+        .loading.hidden { opacity: 0; visibility: hidden; }
+
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(196,30,58,0.2);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* MOBILE */
+        @media (max-width: 1024px) {
+            .hero-container { grid-template-columns: 1fr; text-align: center; }
+            .hero-content { order: 2; }
+            .hero-visual { order: 1; }
+            .hero h1 { font-size: 3rem; }
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .menu-grid { grid-template-columns: 1fr; }
+            .delivery-grid { grid-template-columns: 1fr; }
+            .about-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero { padding-top: 120px; }
+            .hero h1 { font-size: 2.5rem; }
+            .section-title { font-size: 2rem; }
+            .features-grid { grid-template-columns: 1fr; }
+            .menu-item { flex-direction: column; }
+            .menu-image { width: 100%; height: 200px; }
+            .about-stats { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+            .social-links { justify-content: center; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            section, .menu-section { padding: 60px 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading -->
+    <div class="loading" id="loading"><div class="loader"></div></div>
+
+    <!-- Promo Bar -->
+    <div class="promo-bar">
+        🎉 <strong>10% OFF</strong> Online Orders | Free Delivery Over $50 | Sunnyholt Rd, Blacktown
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">Kebab Express</a>
+            <ul class="nav-links">
+                <li><a href="#kebabs">Kebabs</a></li>
+                <li><a href="#pizza">Pizza</a></li>
+                <li><a href="#pide">Pide</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:0298317499" class="order-btn">📞 (02) 9831 7499</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">⭐ Authentic Turkish Cuisine</div>
+                <h1>Kebab Express <span>Pizza Pide & Adana</span></h1>
+                <p>Sunnyholt Rd's favorite for authentic Turkish kebabs, wood-fired pizza, and traditional pide. Halal certified, charcoal grilled, made fresh daily. 🇹🇷</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn-primary">🥙 View Menu</a>
+                    <a href="tel:0298317499" class="btn-secondary">📞 Call Now</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="hero-image">🥙</div>
+                    <div class="floating-card card-1"><span class="icon">🔥</span><span class="text">Charcoal Grilled</span></div>
+                    <div class="floating-card card-2"><span class="icon">🥩</span><span class="text">Halal Certified</span></div>
+                    <div class="floating-card card-3"><span class="icon">⚡</span><span class="text">Fast Service</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">The Real Deal</h2>
+                <p class="section-subtitle">Authentic recipes, quality ingredients, traditional cooking methods</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🥩</div>
+                    <h3>Premium Meats</h3>
+                    <p>100% Halal certified. Marinated overnight in traditional spices.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Charcoal Grilled</h3>
+                    <p>Authentic charcoal grilling for that smoky flavor you love.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🍕</div>
+                    <h3>Wood Fired</h3>
+                    <p>Traditional wood-fired oven for authentic pizza & pide.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Hot, fresh food delivered to your door. Free over $50.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEBABS MENU -->
+    <section class="menu-section" id="kebabs">
+        <div class="container">
+            <div class="menu-category animate-on-scroll">
+                <div class="menu-category-header">
+                    <span class="menu-category-icon">🥙</span>
+                    <div>
+                        <h3>Traditional Kebabs</h3>
+                        <p>Served with fresh salad, garlic sauce & your choice of bread</p>
+                    </div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🥙</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Lamb Kebab</h4>
+                                <span class="menu-price">$14.50</span>
+                            </div>
+                            <p class="menu-description">Tender lamb slices, marinated overnight, charcoal grilled to perfection</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag popular">⭐ Popular</span>
+                                <span class="menu-tag">Halal</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🐔</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Chicken Kebab</h4>
+                                <span class="menu-price">$13.50</span>
+                            </div>
+                            <p class="menu-description">Juicy chicken breast, lemon & herb marinated, tender and flavorful</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Halal</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🌶️</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Adana Kebab</h4>
+                                <span class="menu-price">$15.50</span>
+                            </div>
+                            <p class="menu-description">Spicy minced lamb kebab, hand-minced with Turkish spices</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag spicy">🌶️ Spicy</span>
+                                <span class="menu-tag popular">⭐ Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🥩</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Mixed Kebab Plate</h4>
+                                <span class="menu-price">$18.50</span>
+                            </div>
+                            <p class="menu-description">Lamb, chicken & adana kebab with rice, salad & bread</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Feast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIZZA MENU -->
+    <section class="menu-section" id="pizza">
+        <div class="container">
+            <div class="menu-category animate-on-scroll">
+                <div class="menu-category-header">
+                    <span class="menu-category-icon">🍕</span>
+                    <div>
+                        <h3>Wood-Fired Pizza</h3>
+                        <p>Traditional Turkish style pizza with fresh toppings</p>
+                    </div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🧀</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Margherita</h4>
+                                <span class="menu-price">$12.00</span>
+                            </div>
+                            <p class="menu-description">Tomato sauce, mozzarella cheese, fresh basil</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🍖</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Meat Lovers</h4>
+                                <span class="menu-price">$16.50</span>
+                            </div>
+                            <p class="menu-description">Lamb, chicken, pepperoni, ham, BBQ sauce</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag popular">⭐ Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🫑</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Supreme</h4>
+                                <span class="menu-price">$15.50</span>
+                            </div>
+                            <p class="menu-description">Pepperoni, mushrooms, capsicum, onion, olives</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Loaded</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🌶️</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Turkish Special</h4>
+                                <span class="menu-price">$17.50</span>
+                            </div>
+                            <p class="menu-description">Lamb, feta cheese, spinach, tomato, Turkish spices</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag new">🆕 New</span>
+                                <span class="menu-tag spicy">🌶️ Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIDE MENU -->
+    <section class="menu-section" id="pide">
+        <div class="container">
+            <div class="menu-category animate-on-scroll">
+                <div class="menu-category-header">
+                    <span class="menu-category-icon">🥖</span>
+                    <div>
+                        <h3>Turkish Pide</h3>
+                        <p>Boat-shaped Turkish flatbread with delicious fillings</p>
+                    </div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🧀</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Cheese Pide</h4>
+                                <span class="menu-price">$13.00</span>
+                            </div>
+                            <p class="menu-description">Mozzarella & feta cheese blend with herbs</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🥩</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Meat Pide</h4>
+                                <span class="menu-price">$15.00</span>
+                            </div>
+                            <p class="menu-description">Seasoned minced lamb with onion, tomato & parsley</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag popular">⭐ Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🥬</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Spinach Pide</h4>
+                                <span class="menu-price">$14.00</span>
+                            </div>
+                            <p class="menu-description">Fresh spinach, feta cheese, onion & herbs</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🍳</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Sucuk Pide</h4>
+                                <span class="menu-price">$16.00</span>
+                            </div>
+                            <p class="menu-description">Turkish sucuk sausage with cheese & egg</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Halal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNACK PACKS -->
+    <section class="menu-section" id="snacks">
+        <div class="container">
+            <div class="menu-category animate-on-scroll">
+                <div class="menu-category-header">
+                    <span class="menu-category-icon">🍟</span>
+                    <div>
+                        <h3>Snack Packs (HSP)</h3>
+                        <p>The Aussie favorite - chips topped with your choice of meat & sauces</p>
+                    </div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🍟</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Lamb Snack Pack</h4>
+                                <span class="menu-price">$16.50</span>
+                            </div>
+                            <p class="menu-description">Hot chips, lamb, garlic sauce, BBQ sauce, cheese</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag popular">🔥 Trending</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🍗</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Chicken Snack Pack</h4>
+                                <span class="menu-price">$15.50</span>
+                            </div>
+                            <p class="menu-description">Hot chips, chicken, garlic, chili, cheese</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Classic</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🥩</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Mixed Snack Pack</h4>
+                                <span class="menu-price">$18.50</span>
+                            </div>
+                            <p class="menu-description">Hot chips, lamb & chicken, all sauces, extra cheese</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag">Feast</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item animate-on-scroll">
+                        <div class="menu-image">🌶️</div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>Adana Snack Pack</h4>
+                                <span class="menu-price">$17.50</span>
+                            </div>
+                            <p class="menu-description">Hot chips, spicy adana, garlic, chili, cheese</p>
+                            <div class="menu-tags">
+                                <span class="menu-tag spicy">🌶️ Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery -->
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label" style="background: var(--white); color: var(--primary);">Order Now</span>
+                <h2 class="section-title">How To Order</h2>
+                <p class="section-subtitle">Hot, fresh food delivered to your door</p>
+            </div>
+
+            <div class="delivery-grid">
+                <div class="delivery-card online animate-on-scroll">
+                    <div class="delivery-icon">📱</div>
+                    <h3>Order Online</h3>
+                    <p>10% OFF online orders!</p>
+                    <p>🌐 kebabexpresspizza.com.au</p>
+                    <a href="https://kebabexpresspizza.com.au/order-now" target="_blank" class="btn-primary" style="margin-top: 1rem; display: inline-flex;">Order Online</a>
+                </div>
+
+                <div class="delivery-card animate-on-scroll">
+                    <div class="delivery-icon">📞</div>
+                    <h3>Phone Order</h3>
+                    <p>Call us directly</p>
+                    <p>📱 (02) 9831 7499</p>
+                    <p>🕐 Open 7 days</p>
+                </div>
+
+                <div class="delivery-card animate-on-scroll">
+                    <div class="delivery-icon">🏃</div>
+                    <h3>Pickup</h3>
+                    <p>Visit our shop</p>
+                    <p>📍 Sunnyholt Rd, Blacktown</p>
+                    <p>🕐 10am - 10pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">🏪</div>
+                
+                <div class="about-content animate-on-scroll">
+                    <span class="section-label">Our Story</span>
+                    <h2>Sunnyholt Rd's Favorite</h2>
+                    <p>Located in the heart of Blacktown, Kebab Express has been serving authentic Turkish cuisine to the local community for years. Our commitment to quality ingredients and traditional recipes has made us a local favorite.</p>
+                    
+                    <p>Every kebab is made to order with premium Halal-certified meats, fresh vegetables, and our signature garlic sauce. We charcoal grill our meats for that authentic smoky flavor you can't find anywhere else.</p>
+
+                    <div class="about-stats">
+                        <div class="stat"><div class="stat-number">10+</div><div class="stat-label">Years</div></div>
+                        <div class="stat"><div class="stat-number">50K+</div><div class="stat-label">Customers</div></div>
+                        <div class="stat"><div class="stat-number">4.8⭐</div><div class="stat-label">Rating</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="menu-section" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Visit Us</span>
+                <h2 class="section-title">Find Us</h2>
+                <p class="section-subtitle">We're located on Sunnyholt Rd, Blacktown</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--text);">Contact Information</h3>
+                    
+                    <p style="margin-bottom: 1rem;"><strong>📍 Address:</strong><br>
+                    Shop 1, Sunnyholt Rd<br>
+                    Blacktown NSW 2148</p>
+                    
+                    <p style="margin-bottom: 1rem;"><strong>📞 Phone:</strong><br>
+                    (02) 9831 7499</p>
+                    
+                    <p style="margin-bottom: 1rem;"><strong>🕐 Hours:</strong><br>
+                    Mon-Sun: 10:00 AM - 10:00 PM</p>
+                    
+                    <a href="tel:0298317499" class="btn-primary" style="margin-top: 1rem;">📞 Call Now</a>
+                </div>
+                
+                <div class="about-image animate-on-scroll" style="background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);">
+                    🗺️
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">Kebab Express</a>
+                <p>Sunnyholt Rd's premier destination for authentic Turkish kebabs, pizza, and pide. Halal certified, charcoal grilled, made fresh daily.</p>
+                
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🗺️</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#kebabs">Kebabs</a></li>
+                    <li><a href="#pizza">Pizza</a></li>
+                    <li><a href="#pide">Pide</a></li>
+                    <li><a href="#snacks">Snack Packs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Order</h4>
+                <ul>
+                    <li><a href="https://kebabexpresspizza.com.au/order-now">Order Online</a></li>
+                    <li><a href="tel:0298317499">Phone Order</a></li>
+                    <li><a href="#">Catering</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="tel:0298317499">(02) 9831 7499</a></li>
+                    <li><a href="#">Sunnyholt Rd, Blacktown</a></li>
+                    <li><a href="#">Open 7 Days</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kebab Express Pizza Pide & Adana. All rights reserved.</p>
+            <p>🥙 Authentic Turkish | Halal Certified | Sunnyholt Rd, Blacktown</p>
+        </div>
+    </footer>
+
+    <script>
+        // Loading
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 500);
+        });
+
+        // Sticky Header
+        let lastScroll = 0;
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 200) {
+                header.classList.add('hidden');
+            } else {
+                header.classList.remove('hidden');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Scroll Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

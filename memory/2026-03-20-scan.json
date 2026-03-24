@@ -1,0 +1,35 @@
+{
+  "scan_time": "2026-03-20T22:42:00",
+  "scanner": "unified_protected",
+  "results": {
+    "tokens_found": 0,
+    "grade_a_plus": 0,
+    "grade_a": 0,
+    "grade_b": 0,
+    "notes": "Birdeye API rate limit exceeded. DexScreener found trending tokens but none met Grade A criteria with protection filters."
+  },
+  "trending_tokens": [
+    {
+      "address": "HwAGqSBwhFm9MK7qe9ewukjXPQmFGoKFGPrJQyeTpump",
+      "symbol": "TBD",
+      "status": "New token, requires analysis"
+    },
+    {
+      "address": "HMo1bVbAeZ28m3PUfQRuPgf5HqJEgxqt9hEsfV5Bvn7M",
+      "symbol": "PearlHarbour",
+      "status": "Trump meme token"
+    },
+    {
+      "address": "6329ahdFztFo1VVvp8N4TQeE5AQHBKiJHg9qJdQtpump",
+      "symbol": "VoidArt",
+      "status": "Art meme token"
+    }
+  ],
+  "stage9_status": {
+    "trades_today": 0,
+    "pending_proposals": 2,
+    "both_expired": true,
+    "virtual_position": "vUSDc (0.5 SOL)"
+  },
+  "recommendation": "No Grade A opportunities found at this time. Virtual trader monitoring vUSDc position."
+}

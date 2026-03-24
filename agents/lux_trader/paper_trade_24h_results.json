@@ -1,0 +1,98 @@
+{
+  "start_time": "2026-03-13T11:49:15.474499",
+  "end_time": "2026-03-14T11:49:15.474499",
+  "duration_hours": 24,
+  "starting_capital": 1.0,
+  "per_strategy_results": [
+    {
+      "name": "\ud83d\udcc9 Mean-Reverter v3.0",
+      "key": "mean_reverter_v3",
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "start": 1.0,
+      "end": 1.1551999509386741,
+      "pnl": 0.1551999509386741,
+      "roi": 15.519995093867411
+    },
+    {
+      "name": "\u2728 LuxTrader v3.0",
+      "key": "luxtrader_v3",
+      "trades": 6,
+      "wins": 4,
+      "losses": 2,
+      "win_rate": 66.66666666666666,
+      "start": 1.0,
+      "end": 1.1056400581712371,
+      "pnl": 0.10564005817123712,
+      "roi": 10.56400581712371
+    },
+    {
+      "name": "\ud83e\udd16 Skylar v3.0",
+      "key": "skylar_v3",
+      "trades": 3,
+      "wins": 3,
+      "losses": 0,
+      "win_rate": 100.0,
+      "start": 1.0,
+      "end": 1.082373428103395,
+      "pnl": 0.08237342810339499,
+      "roi": 8.237342810339499
+    },
+    {
+      "name": "\ud83d\udee1\ufe0f Rug-Radar v3.0",
+      "key": "rug_radar_v3",
+      "trades": 4,
+      "wins": 3,
+      "losses": 1,
+      "win_rate": 75.0,
+      "start": 1.0,
+      "end": 1.0779382721739812,
+      "pnl": 0.0779382721739812,
+      "roi": 7.793827217398119
+    },
+    {
+      "name": "\ud83d\udc33 Whale Tracker v3.0",
+      "key": "whale_tracker_v3",
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 66.66666666666666,
+      "start": 1.0,
+      "end": 1.0635169318372313,
+      "pnl": 0.06351693183723128,
+      "roi": 6.351693183723128
+    },
+    {
+      "name": "\ud83d\udc26 Social Sentinel v3.0",
+      "key": "social_sentinel_v3",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0,
+      "start": 1.0,
+      "end": 1.0,
+      "pnl": 0.0,
+      "roi": 0.0
+    },
+    {
+      "name": "\ud83c\udff9 Breakout Hunter v3.0",
+      "key": "breakout_hunter_v3",
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "start": 1.0,
+      "end": 0.9868039414580824,
+      "pnl": -0.013196058541917632,
+      "roi": -1.3196058541917632
+    }
+  ],
+  "portfolio_total": {
+    "start": 7.0,
+    "end": 7.471472582682601,
+    "pnl": 0.47147258268260106,
+    "roi_pct": 6.735322609751444
+  }
+}

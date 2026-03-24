@@ -1,0 +1,29 @@
+{
+  "api_keys": {
+    "Jupiter": {
+      "key": "555e1b58-5da8-4663-817e-e55fba6d96eb",
+      "notes": "Auto-trading execution - found in solana-trader/.env",
+      "added": "2026-03-22T01:15:18.278745"
+    },
+    "Helius": {
+      "key": "350aa83c-44a4-4068-a511-580f82930d84",
+      "notes": "Enhanced Solana RPC - found in solana-trader/.env",
+      "added": "2026-03-22T01:15:18.281101"
+    },
+    "Telegram": {
+      "key": "8244363046:AAELXewfUaBAUfZpSkCXAv3KEgrp3SVVkNU",
+      "notes": "Bot alerts - found in aoe_v2/.env",
+      "added": "2026-03-22T01:15:18.281533"
+    },
+    "AgentMail": {
+      "key": "am_us_7360d8da69df1f1b546afedfdc47f1616c43b645cf7bf25ca156a2c8be1e0036",
+      "notes": "Email automation - from auth.json",
+      "added": "2026-03-22T01:15:18.282927"
+    }
+  },
+  "preferences": {},
+  "decisions": [],
+  "important_contacts": {},
+  "active_projects": {},
+  "credentials": {}
+}

@@ -1,0 +1,17 @@
+{
+  "id": "AGENT-4c43c000",
+  "type": "research",
+  "task": "Research Orca DEX features",
+  "status": "completed",
+  "result": {
+    "agent_type": "research",
+    "task": "Research Orca DEX features",
+    "output": "Completed Research Orca DEX features",
+    "confidence": 0.85,
+    "data": {}
+  },
+  "error": null,
+  "started_at": "2026-03-20T04:32:26.834123",
+  "completed_at": "2026-03-20T04:32:26.834136",
+  "confidence": 0.85
+}

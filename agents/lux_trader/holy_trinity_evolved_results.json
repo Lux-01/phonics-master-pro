@@ -1,0 +1,681 @@
+{
+  "strategy": "Holy Trinity Evolved v2.0",
+  "final_dna": {
+    "rug_threshold": 47,
+    "lux_min": 67,
+    "position_base": 0.1,
+    "confidence_mult": 1.0
+  },
+  "performance": {
+    "total_trades": 1013,
+    "wins": 641,
+    "losses": 372,
+    "consecutive_wins": 4,
+    "consecutive_losses": 0,
+    "best_streak": 10,
+    "worst_streak": 5
+  },
+  "evolutions": 22,
+  "evolution_history": [
+    {
+      "generation": 2,
+      "timestamp": "2026-03-14T00:51:30.577393",
+      "performance": {
+        "total_trades": 50,
+        "wins": 29,
+        "losses": 21,
+        "consecutive_wins": 3,
+        "consecutive_losses": 0,
+        "best_streak": 5,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 50,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": [
+        "Rug threshold -3 (47)"
+      ]
+    },
+    {
+      "generation": 3,
+      "timestamp": "2026-03-14T00:51:30.578907",
+      "performance": {
+        "total_trades": 100,
+        "wins": 61,
+        "losses": 39,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 4,
+      "timestamp": "2026-03-14T00:51:30.579665",
+      "performance": {
+        "total_trades": 150,
+        "wins": 94,
+        "losses": 56,
+        "consecutive_wins": 1,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 5,
+      "timestamp": "2026-03-14T00:51:30.580431",
+      "performance": {
+        "total_trades": 200,
+        "wins": 126,
+        "losses": 74,
+        "consecutive_wins": 2,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 6,
+      "timestamp": "2026-03-14T00:51:30.581148",
+      "performance": {
+        "total_trades": 250,
+        "wins": 157,
+        "losses": 93,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 7,
+      "timestamp": "2026-03-14T00:51:30.581849",
+      "performance": {
+        "total_trades": 300,
+        "wins": 190,
+        "losses": 110,
+        "consecutive_wins": 0,
+        "consecutive_losses": 3,
+        "best_streak": 10,
+        "worst_streak": 4
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 70,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": [
+        "Lux min -3 (67)"
+      ]
+    },
+    {
+      "generation": 8,
+      "timestamp": "2026-03-14T00:51:30.582597",
+      "performance": {
+        "total_trades": 350,
+        "wins": 221,
+        "losses": 129,
+        "consecutive_wins": 1,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 9,
+      "timestamp": "2026-03-14T00:51:30.583465",
+      "performance": {
+        "total_trades": 400,
+        "wins": 251,
+        "losses": 149,
+        "consecutive_wins": 0,
+        "consecutive_losses": 2,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 10,
+      "timestamp": "2026-03-14T00:51:30.584474",
+      "performance": {
+        "total_trades": 450,
+        "wins": 282,
+        "losses": 168,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 11,
+      "timestamp": "2026-03-14T00:51:30.585207",
+      "performance": {
+        "total_trades": 500,
+        "wins": 314,
+        "losses": 186,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 12,
+      "timestamp": "2026-03-14T00:51:30.585961",
+      "performance": {
+        "total_trades": 550,
+        "wins": 345,
+        "losses": 205,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 13,
+      "timestamp": "2026-03-14T00:51:30.586717",
+      "performance": {
+        "total_trades": 600,
+        "wins": 376,
+        "losses": 224,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 14,
+      "timestamp": "2026-03-14T00:51:30.587417",
+      "performance": {
+        "total_trades": 650,
+        "wins": 411,
+        "losses": 239,
+        "consecutive_wins": 4,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 15,
+      "timestamp": "2026-03-14T00:51:30.588348",
+      "performance": {
+        "total_trades": 700,
+        "wins": 439,
+        "losses": 261,
+        "consecutive_wins": 0,
+        "consecutive_losses": 2,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 16,
+      "timestamp": "2026-03-14T00:51:30.588387",
+      "performance": {
+        "total_trades": 700,
+        "wins": 439,
+        "losses": 261,
+        "consecutive_wins": 0,
+        "consecutive_losses": 2,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 17,
+      "timestamp": "2026-03-14T00:51:30.588409",
+      "performance": {
+        "total_trades": 700,
+        "wins": 439,
+        "losses": 261,
+        "consecutive_wins": 0,
+        "consecutive_losses": 2,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 18,
+      "timestamp": "2026-03-14T00:51:30.589193",
+      "performance": {
+        "total_trades": 750,
+        "wins": 472,
+        "losses": 278,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 19,
+      "timestamp": "2026-03-14T00:51:30.592782",
+      "performance": {
+        "total_trades": 800,
+        "wins": 507,
+        "losses": 293,
+        "consecutive_wins": 1,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 20,
+      "timestamp": "2026-03-14T00:51:30.593605",
+      "performance": {
+        "total_trades": 850,
+        "wins": 538,
+        "losses": 312,
+        "consecutive_wins": 0,
+        "consecutive_losses": 2,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 21,
+      "timestamp": "2026-03-14T00:51:30.594326",
+      "performance": {
+        "total_trades": 900,
+        "wins": 568,
+        "losses": 332,
+        "consecutive_wins": 1,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 22,
+      "timestamp": "2026-03-14T00:51:30.595068",
+      "performance": {
+        "total_trades": 950,
+        "wins": 600,
+        "losses": 350,
+        "consecutive_wins": 2,
+        "consecutive_losses": 0,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    },
+    {
+      "generation": 23,
+      "timestamp": "2026-03-14T00:51:30.595877",
+      "performance": {
+        "total_trades": 1000,
+        "wins": 631,
+        "losses": 369,
+        "consecutive_wins": 0,
+        "consecutive_losses": 1,
+        "best_streak": 10,
+        "worst_streak": 5
+      },
+      "old_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "new_dna": {
+        "rug_threshold": 47,
+        "lux_min": 67,
+        "position_base": 0.1,
+        "confidence_mult": 1.0
+      },
+      "mutations": []
+    }
+  ],
+  "patterns": {
+    "True_7_9": {
+      "wins": 184,
+      "losses": 103,
+      "total": 287
+    },
+    "True_7_10": {
+      "wins": 136,
+      "losses": 77,
+      "total": 213
+    },
+    "True_7_11": {
+      "wins": 60,
+      "losses": 25,
+      "total": 85
+    },
+    "True_7_8": {
+      "wins": 83,
+      "losses": 75,
+      "total": 158
+    },
+    "True_7_7": {
+      "wins": 66,
+      "losses": 40,
+      "total": 106
+    },
+    "True_7_12": {
+      "wins": 14,
+      "losses": 1,
+      "total": 15
+    },
+    "True_6_7": {
+      "wins": 10,
+      "losses": 6,
+      "total": 16
+    },
+    "True_6_10": {
+      "wins": 36,
+      "losses": 17,
+      "total": 53
+    },
+    "True_6_9": {
+      "wins": 34,
+      "losses": 17,
+      "total": 51
+    },
+    "True_6_11": {
+      "wins": 6,
+      "losses": 2,
+      "total": 8
+    },
+    "True_6_8": {
+      "wins": 10,
+      "losses": 8,
+      "total": 18
+    },
+    "True_6_12": {
+      "wins": 2,
+      "losses": 1,
+      "total": 3
+    }
+  },
+  "cycle_performance": {
+    "bull": {
+      "trades": 692,
+      "wins": 435
+    },
+    "bear": {
+      "trades": 149,
+      "wins": 98
+    },
+    "crab": {
+      "trades": 87,
+      "wins": 53
+    },
+    "recovery": {
+      "trades": 85,
+      "wins": 55
+    }
+  },
+  "start_capital": 1.0,
+  "end_capital": 1135.3165171441656,
+  "roi_pct": 113431.65171441656,
+  "multiplier": 1135.3165171441656
+}

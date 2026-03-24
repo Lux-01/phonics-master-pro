@@ -1,0 +1,91 @@
+{
+  "benchmarks": {
+    "WTI": {
+      "price": 81.25,
+      "change": "+0.8%",
+      "trend": "CONSOLIDATING"
+    },
+    "BRENT": {
+      "price": 85.7,
+      "change": "+0.9%",
+      "trend": "CONSOLIDATING"
+    }
+  },
+  "supply_factors": {
+    "OPEC+": "Maintaining cuts through Q2 2024",
+    "US Production": "Record highs (13.2mbpd)",
+    "Strategic Reserves": "US SPR at 40-year lows",
+    "Iran": "Sanctions limiting exports (~1mbpd restricted)",
+    "Venezuela": "Limited capacity, sanctions easing slowly"
+  },
+  "demand_factors": {
+    "China": "Economic recovery concerns, demand growth +1.5mbpd expected",
+    "US": "Strong demand, summer driving season approaching",
+    "Europe": "Weak industrial demand, transition to renewables",
+    "Global": "IEA forecasts +1.2mbpd growth in 2024"
+  },
+  "geopolitical_premium": {
+    "current": "$5-8/barrel",
+    "risks": [
+      "Middle East supply disruption",
+      "Russia-Ukraine affecting flows",
+      "Houthi attacks on shipping"
+    ],
+    "upside_scenario": "+15-25/barrel if major supply disrupted"
+  },
+  "catalysts": [
+    {
+      "date": "2024-04-03",
+      "event": "OPEC+ meeting",
+      "impact": "HIGH"
+    },
+    {
+      "date": "2024-04-11",
+      "event": "IEA Monthly Report",
+      "impact": "MEDIUM"
+    },
+    {
+      "date": "2024-04-17",
+      "event": "EIA Weekly Inventory",
+      "impact": "MEDIUM"
+    },
+    {
+      "date": "2024-05-01",
+      "event": "OPEC+ Production decision",
+      "impact": "HIGH"
+    },
+    {
+      "date": "2024-06-01",
+      "event": "Summer driving season start",
+      "impact": "MEDIUM"
+    }
+  ],
+  "monitoring_keywords": [
+    "OPEC",
+    "supply disruption",
+    "inventory",
+    "SPR release",
+    "sanctions",
+    "China demand",
+    "refinery",
+    "pipeline",
+    "Houthi",
+    "Red Sea",
+    "Strait of Hormuz"
+  ],
+  "trading_instruments": {
+    "USO": "WTI ETF - easy exposure",
+    "BNO": "Brent ETF",
+    "XLE": "Energy sector ETF",
+    "XOM": "Exxon - integrated major",
+    "CVX": "Chevron - dividend + growth"
+  },
+  "price_targets": {
+    "WTI_bull": 95.0,
+    "WTI_base": 82.0,
+    "WTI_bear": 70.0,
+    "Brent_bull": 100.0,
+    "Brent_base": 86.0,
+    "Brent_bear": 75.0
+  }
+}

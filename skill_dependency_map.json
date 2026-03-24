@@ -1,0 +1,690 @@
+{
+  "generated_at": "2026-03-13T16:31:54.602500",
+  "total_skills": 32,
+  "skills": [
+    {
+      "name": "aloe",
+      "path": "/home/skux/.openclaw/workspace/skills/aloe",
+      "description": "Adaptive Learning and Observation Environment. Self-improving agent system that learns from outcomes...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 1,
+        "references": 2,
+        "assets": 0,
+        "total": 3
+      }
+    },
+    {
+      "name": "autonomous-agent",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-agent",
+      "description": "All-in-one autonomous reasoning and action system for complex multi-step tasks. Self-directed planni...",
+      "dependencies": [
+        "tool-orchestrator",
+        "decision-log",
+        "code-evolution-tracker",
+        "workspace-organizer",
+        "research-synthesizer"
+      ],
+      "resources": {
+        "scripts": 1,
+        "references": 3,
+        "assets": 1,
+        "total": 5
+      }
+    },
+    {
+      "name": "autonomous-code-architect",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-code-architect",
+      "description": "The skill that makes OpenClaw write better code, debug itself, and produce stable tools on the first...",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 2,
+        "assets": 0,
+        "total": 2
+      }
+    },
+    {
+      "name": "autonomous-goal-generator",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-goal-generator",
+      "description": "",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "autonomous-maintenance-repair",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-maintenance-repair",
+      "description": "Self-healing system that detects broken components and automatically repairs them. Monitors file int...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "autonomous-opportunity-engine",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-opportunity-engine",
+      "description": "Continuously scan, evaluate, and act on opportunities across all domains. Crypto, trading, developme...",
+      "dependencies": [
+        "aloe",
+        "archive"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 2,
+        "assets": 0,
+        "total": 2
+      }
+    },
+    {
+      "name": "autonomous-scheduler",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-scheduler",
+      "description": "Cron-like task scheduler with dependency management, retry logic, and execution tracking. Persistent...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "autonomous-tool-builder",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-tool-builder",
+      "description": "Generate new tools from usage patterns and user requests. Creates Python scripts, shell automation, ...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "autonomous-trading-strategist",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-trading-strategist",
+      "description": "24/7 crypto research and analysis engine. Market structure, liquidity analysis, volume patterns, nar...",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "autonomous-workflow-builder",
+      "path": "/home/skux/.openclaw/workspace/skills/autonomous-workflow-builder",
+      "description": "Create new workflows, rewrite inefficient ones, generate templates, build reusable functions, and au...",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "business-strategy-engine",
+      "path": "/home/skux/.openclaw/workspace/skills/business-strategy-engine",
+      "description": "Analyzes business performance and suggests strategic pivots. Revenue optimization, market analysis, ...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "captcha-solver",
+      "path": "/home/skux/.openclaw/workspace/skills/captcha-solver",
+      "description": "Solve image and audio CAPTCHAs using free tools. Use when encountering text-based image CAPTCHAs, ma...",
+      "dependencies": [
+        "stealth-browser"
+      ],
+      "resources": {
+        "scripts": 4,
+        "references": 0,
+        "assets": 0,
+        "total": 4
+      }
+    },
+    {
+      "name": "chart-analyzer",
+      "path": "/home/skux/.openclaw/workspace/skills/chart-analyzer",
+      "description": "Analyze trading charts for patterns, support/resistance, and trading signals. Use when the user want...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 1,
+        "references": 0,
+        "assets": 0,
+        "total": 1
+      }
+    },
+    {
+      "name": "code-evolution-tracker",
+      "path": "/home/skux/.openclaw/workspace/skills/code-evolution-tracker",
+      "description": "Track code changes over time, document improvements, performance gains, and successful patterns. Use...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "context-optimizer",
+      "path": "/home/skux/.openclaw/workspace/skills/context-optimizer",
+      "description": "Optimize conversation context management by tracking file reads, summarizing long sessions, auto-sug...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 1,
+        "assets": 0,
+        "total": 1
+      }
+    },
+    {
+      "name": "decision-log",
+      "path": "/home/skux/.openclaw/workspace/skills/decision-log",
+      "description": "Track and retrieve decisions with reasoning, context, and dates. Use when someone asks \"why did we c...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 1,
+        "assets": 0,
+        "total": 1
+      }
+    },
+    {
+      "name": "event-bus",
+      "path": "/home/skux/.openclaw/workspace/skills/event-bus",
+      "description": "",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "income-stream-expansion-engine",
+      "path": "/home/skux/.openclaw/workspace/skills/income-stream-expansion-engine",
+      "description": "",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "integration-orchestrator",
+      "path": "/home/skux/.openclaw/workspace/skills/integration-orchestrator",
+      "description": "Coordinates cross-skill workflows, monitors health, and triggers workflows across the skill ecosyste...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "knowledge-graph-engine",
+      "path": "/home/skux/.openclaw/workspace/skills/knowledge-graph-engine",
+      "description": "Build a map of everything known. Organize concepts, entities, relationships, timelines, narratives, ...",
+      "dependencies": [
+        "aloe",
+        "autonomous-agent"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "kpi-performance-tracker",
+      "path": "/home/skux/.openclaw/workspace/skills/kpi-performance-tracker",
+      "description": "Track key performance indicators across all systems. Automated reports, alerting, and trend analysis...",
+      "dependencies": [
+        "aloe",
+        "research-synthesizer"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "long-term-project-manager",
+      "path": "/home/skux/.openclaw/workspace/skills/long-term-project-manager",
+      "description": "Track multi-day projects, deadlines, progress, dependencies, and next steps. Gives OpenClaw continui...",
+      "dependencies": [
+        "aloe",
+        "archive"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "memory-manager",
+      "path": "/home/skux/.openclaw/workspace/skills/memory-manager",
+      "description": "Advanced memory management with auto-tagging, proactive surfacing, and smart consolidation. Use when...",
+      "dependencies": [
+        "archive"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 1,
+        "assets": 0,
+        "total": 1
+      }
+    },
+    {
+      "name": "multi-agent-coordinator",
+      "path": "/home/skux/.openclaw/workspace/skills/multi-agent-coordinator",
+      "description": "Spawn, manage, and coordinate multiple sub-agents working in parallel. Research agent, trading agent...",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "research-synthesizer",
+      "path": "/home/skux/.openclaw/workspace/skills/research-synthesizer",
+      "description": "Multi-source research with auto-synthesis, contradiction detection, and source quality scoring. Use ...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "sensory-input-layer",
+      "path": "/home/skux/.openclaw/workspace/skills/sensory-input-layer",
+      "description": "Gather raw information from external sources - web scraping, API calls, blockchain queries, file par...",
+      "dependencies": [
+        "aloe"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "skill-activation-manager",
+      "path": "/home/skux/.openclaw/workspace/skills/skill-activation-manager",
+      "description": "Intelligent skill activation system that wakes up dormant skills, tracks utilization patterns, and c...",
+      "dependencies": [
+        "long-term-project-manager",
+        "tool-orchestrator",
+        "context-optimizer",
+        "memory-manager",
+        "decision-log",
+        "aloe",
+        "knowledge-graph-engine",
+        "code-evolution-tracker",
+        "archive",
+        "autonomous-workflow-builder",
+        "workspace-organizer",
+        "research-synthesizer"
+      ],
+      "resources": {
+        "scripts": 1,
+        "references": 0,
+        "assets": 0,
+        "total": 1
+      }
+    },
+    {
+      "name": "skill-evolution-engine",
+      "path": "/home/skux/.openclaw/workspace/skills/skill-evolution-engine",
+      "description": "The skill that lets OpenClaw rewrite, upgrade, and expand itself. Analyzes existing skills, suggests...",
+      "dependencies": [
+        "autonomous-trading-strategist",
+        "aloe",
+        "autonomous-opportunity-engine",
+        "archive",
+        "workspace-organizer"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 2,
+        "assets": 0,
+        "total": 2
+      }
+    },
+    {
+      "name": "stealth-browser",
+      "path": "/home/skux/.openclaw/workspace/skills/stealth-browser",
+      "description": "Stealth web automation with anti-detection. Use when needing to scrape data, automate browser tasks,...",
+      "dependencies": [
+        "captcha-solver"
+      ],
+      "resources": {
+        "scripts": 4,
+        "references": 1,
+        "assets": 0,
+        "total": 5
+      }
+    },
+    {
+      "name": "tool-orchestrator",
+      "path": "/home/skux/.openclaw/workspace/skills/tool-orchestrator",
+      "description": "Optimize multi-tool workflows by planning optimal sequences, parallelizing independent calls, and su...",
+      "dependencies": [],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "website-designer",
+      "path": "/home/skux/.openclaw/workspace/skills/website-designer",
+      "description": "Professional website builder with live editing, security hardening, and malware protection. Creates ...",
+      "dependencies": [
+        "aloe",
+        "dist"
+      ],
+      "resources": {
+        "scripts": 0,
+        "references": 0,
+        "assets": 0,
+        "total": 0
+      }
+    },
+    {
+      "name": "workspace-organizer",
+      "path": "/home/skux/.openclaw/workspace/skills/workspace-organizer",
+      "description": "Organize cluttered workspaces by auto-categorizing files, detecting duplicates, suggesting archives,...",
+      "dependencies": [
+        "archive"
+      ],
+      "resources": {
+        "scripts": 1,
+        "references": 0,
+        "assets": 0,
+        "total": 1
+      }
+    }
+  ],
+  "dependency_tree": {
+    "dependent_on": {
+      "aloe": [],
+      "autonomous-agent": [
+        "tool-orchestrator",
+        "decision-log",
+        "code-evolution-tracker",
+        "workspace-organizer",
+        "research-synthesizer"
+      ],
+      "autonomous-code-architect": [
+        "aloe"
+      ],
+      "autonomous-goal-generator": [],
+      "autonomous-maintenance-repair": [],
+      "autonomous-opportunity-engine": [
+        "aloe",
+        "archive"
+      ],
+      "autonomous-scheduler": [],
+      "autonomous-tool-builder": [],
+      "autonomous-trading-strategist": [
+        "aloe"
+      ],
+      "autonomous-workflow-builder": [
+        "aloe"
+      ],
+      "business-strategy-engine": [],
+      "captcha-solver": [
+        "stealth-browser"
+      ],
+      "chart-analyzer": [],
+      "code-evolution-tracker": [],
+      "context-optimizer": [],
+      "decision-log": [],
+      "event-bus": [],
+      "income-stream-expansion-engine": [
+        "aloe"
+      ],
+      "integration-orchestrator": [],
+      "knowledge-graph-engine": [
+        "aloe",
+        "autonomous-agent"
+      ],
+      "kpi-performance-tracker": [
+        "aloe",
+        "research-synthesizer"
+      ],
+      "long-term-project-manager": [
+        "aloe",
+        "archive"
+      ],
+      "memory-manager": [
+        "archive"
+      ],
+      "multi-agent-coordinator": [
+        "aloe"
+      ],
+      "research-synthesizer": [],
+      "sensory-input-layer": [
+        "aloe"
+      ],
+      "skill-activation-manager": [
+        "long-term-project-manager",
+        "tool-orchestrator",
+        "context-optimizer",
+        "memory-manager",
+        "decision-log",
+        "aloe",
+        "knowledge-graph-engine",
+        "code-evolution-tracker",
+        "archive",
+        "autonomous-workflow-builder",
+        "workspace-organizer",
+        "research-synthesizer"
+      ],
+      "skill-evolution-engine": [
+        "autonomous-trading-strategist",
+        "aloe",
+        "autonomous-opportunity-engine",
+        "archive",
+        "workspace-organizer"
+      ],
+      "stealth-browser": [
+        "captcha-solver"
+      ],
+      "tool-orchestrator": [],
+      "website-designer": [
+        "aloe",
+        "dist"
+      ],
+      "workspace-organizer": [
+        "archive"
+      ]
+    },
+    "depended_by": {
+      "tool-orchestrator": [
+        "autonomous-agent",
+        "skill-activation-manager"
+      ],
+      "decision-log": [
+        "autonomous-agent",
+        "skill-activation-manager"
+      ],
+      "code-evolution-tracker": [
+        "autonomous-agent",
+        "skill-activation-manager"
+      ],
+      "workspace-organizer": [
+        "autonomous-agent",
+        "skill-activation-manager",
+        "skill-evolution-engine"
+      ],
+      "research-synthesizer": [
+        "autonomous-agent",
+        "kpi-performance-tracker",
+        "skill-activation-manager"
+      ],
+      "aloe": [
+        "autonomous-code-architect",
+        "autonomous-opportunity-engine",
+        "autonomous-trading-strategist",
+        "autonomous-workflow-builder",
+        "income-stream-expansion-engine",
+        "knowledge-graph-engine",
+        "kpi-performance-tracker",
+        "long-term-project-manager",
+        "multi-agent-coordinator",
+        "sensory-input-layer",
+        "skill-activation-manager",
+        "skill-evolution-engine",
+        "website-designer"
+      ],
+      "archive": [
+        "autonomous-opportunity-engine",
+        "long-term-project-manager",
+        "memory-manager",
+        "skill-activation-manager",
+        "skill-evolution-engine",
+        "workspace-organizer"
+      ],
+      "stealth-browser": [
+        "captcha-solver"
+      ],
+      "autonomous-agent": [
+        "knowledge-graph-engine"
+      ],
+      "long-term-project-manager": [
+        "skill-activation-manager"
+      ],
+      "context-optimizer": [
+        "skill-activation-manager"
+      ],
+      "memory-manager": [
+        "skill-activation-manager"
+      ],
+      "knowledge-graph-engine": [
+        "skill-activation-manager"
+      ],
+      "autonomous-workflow-builder": [
+        "skill-activation-manager"
+      ],
+      "autonomous-trading-strategist": [
+        "skill-evolution-engine"
+      ],
+      "autonomous-opportunity-engine": [
+        "skill-evolution-engine"
+      ],
+      "captcha-solver": [
+        "stealth-browser"
+      ],
+      "dist": [
+        "website-designer"
+      ]
+    }
+  },
+  "analysis": {
+    "root_skills": [
+      "aloe",
+      "autonomous-goal-generator",
+      "autonomous-maintenance-repair",
+      "autonomous-scheduler",
+      "autonomous-tool-builder",
+      "business-strategy-engine",
+      "chart-analyzer",
+      "code-evolution-tracker",
+      "context-optimizer",
+      "decision-log",
+      "event-bus",
+      "integration-orchestrator",
+      "research-synthesizer",
+      "tool-orchestrator"
+    ],
+    "leaf_skills": [
+      "autonomous-code-architect",
+      "autonomous-goal-generator",
+      "autonomous-maintenance-repair",
+      "autonomous-scheduler",
+      "autonomous-tool-builder",
+      "business-strategy-engine",
+      "chart-analyzer",
+      "event-bus",
+      "income-stream-expansion-engine",
+      "integration-orchestrator",
+      "kpi-performance-tracker",
+      "multi-agent-coordinator",
+      "sensory-input-layer",
+      "skill-activation-manager",
+      "skill-evolution-engine",
+      "website-designer"
+    ],
+    "standalone_skills": [
+      "autonomous-goal-generator",
+      "autonomous-maintenance-repair",
+      "autonomous-scheduler",
+      "autonomous-tool-builder",
+      "business-strategy-engine",
+      "chart-analyzer",
+      "event-bus",
+      "integration-orchestrator"
+    ],
+    "most_dependent": [
+      "aloe",
+      [
+        "autonomous-code-architect",
+        "autonomous-opportunity-engine",
+        "autonomous-trading-strategist",
+        "autonomous-workflow-builder",
+        "income-stream-expansion-engine",
+        "knowledge-graph-engine",
+        "kpi-performance-tracker",
+        "long-term-project-manager",
+        "multi-agent-coordinator",
+        "sensory-input-layer",
+        "skill-activation-manager",
+        "skill-evolution-engine",
+        "website-designer"
+      ]
+    ]
+  }
+}

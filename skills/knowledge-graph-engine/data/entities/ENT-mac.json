@@ -1,0 +1,12 @@
+{
+  "id": "ENT-mac",
+  "type": "skill",
+  "name": "MAC",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "coordination",
+    "agents"
+  ],
+  "created": "2026-03-20T04:52:13.788786"
+}

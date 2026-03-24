@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw System Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #0f3460;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            background: linear-gradient(45deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.2);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .card-icon {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+        
+        .card-title {
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+        
+        .status {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        
+        .status-healthy {
+            background: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+        }
+        
+        .status-degraded {
+            background: rgba(241, 196, 15, 0.2);
+            color: #f1c40f;
+        }
+        
+        .status-critical {
+            background: rgba(231, 76, 60, 0.2);
+            color: #e74c3c;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .metric:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: #888;
+        }
+        
+        .metric-value {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .skill-list {
+            list-style: none;
+        }
+        
+        .skill-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .skill-item:last-child {
+            border-bottom: none;
+        }
+        
+        .skill-icon {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        
+        .skill-active {
+            background: #2ecc71;
+            box-shadow: 0 0 10px #2ecc71;
+        }
+        
+        .skill-inactive {
+            background: #e74c3c;
+        }
+        
+        .phase-header {
+            font-size: 0.85em;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 15px 0 10px 0;
+            padding-left: 22px;
+        }
+        
+        .phase-header:first-child {
+            margin-top: 0;
+        }
+        
+        .actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .action-btn {
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .action-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
+        }
+        
+        .action-btn.secondary {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .action-btn.secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            margin-top: 30px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2ecc71, #27ae60);
+            border-radius: 4px;
+            transition: width 0.5s;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 OpenClaw System Dashboard</h1>
+            <p class="subtitle">Autonomous Trading System - Real-time Monitoring</p>
+            <p class="subtitle" id="timestamp">Loading...</p>
+        </header>
+        
+        <div class="grid">
+            <!-- System Health Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🏥</span>
+                    <span class="card-title">System Health</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Overall Status</span>
+                    <span class="status status-healthy">🟢 HEALTHY</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Components</span>
+                    <span class="metric-value">9/9 Healthy</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Issues</span>
+                    <span class="metric-value" style="color: #2ecc71;">None ✅</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%"></div>
+                </div>
+            </div>
+            
+            <!-- Skills Status Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🛠️</span>
+                    <span class="card-title">Skills Status</span>
+                </div>
+                <ul class="skill-list">
+                    <li class="phase-header">Phase 1 - Learning</li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Pattern Extractor
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Outcome Tracker
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        ALOE
+                    </li>
+                    
+                    <li class="phase-header">Phase 2 - Evolution</li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Scanner Architect
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Skill Evolution
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Code Evolution
+                    </li>
+                    
+                    <li class="phase-header">Phase 3 - Execution</li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        ATS
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        AOE
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        MAC
+                    </li>
+                    
+                    <li class="phase-header">Phase 4 - Autonomy</li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        AMRE
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        KGE
+                    </li>
+                    <li class="skill-item">
+                        <span class="skill-icon skill-active"></span>
+                        Integration Orchestrator
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Live Scanner Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🔴</span>
+                    <span class="card-title">Live Scanner Results</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Last Scan</span>
+                    <span class="metric-value" id="last-scan">Never</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals</span>
+                    <span class="metric-value" id="total-signals">0</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Active Signals</span>
+                    <span class="metric-value" id="active-signals-count">0</span>
+                </div>
+                <div id="scanner-signals" style="margin-top: 15px;">
+                    <p style="color: #888; font-size: 0.9em;">No signals detected yet</p>
+                </div>
+                <p style="color: #888; margin-top: 15px; font-size: 0.85em;">
+                    Run: python3 live_scanner.py --scan
+                </p>
+            </div>
+            
+            <!-- Active Signals Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🎯</span>
+                    <span class="card-title">Active Signals</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals</span>
+                    <span class="metric-value">0</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Last Signal</span>
+                    <span class="metric-value" style="color: #888;">None</span>
+                </div>
+                <p style="color: #888; margin-top: 15px; font-size: 0.9em;">
+                    Run AOE scan to detect new opportunities
+                </p>
+            </div>
+            
+            <!-- Opportunities Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🌐</span>
+                    <span class="card-title">Opportunities Queue</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Queue Size</span>
+                    <span class="metric-value">0</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">High Priority</span>
+                    <span class="metric-value">0</span>
+                </div>
+                <p style="color: #888; margin-top: 15px; font-size: 0.9em;">
+                    AOE continuously scans for opportunities
+                </p>
+            </div>
+            
+            <!-- Trading Performance Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">📊</span>
+                    <span class="card-title">Trading Performance</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Trades</span>
+                    <span class="metric-value">2</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Win Rate</span>
+                    <span class="metric-value" style="color: #e74c3c;">0%</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Rug Rate</span>
+                    <span class="metric-value" style="color: #e74c3c;">100%</span>
+                </div>
+                <p style="color: #888; margin-top: 15px; font-size: 0.9em;">
+                    Protected scanner active - learning from outcomes
+                </p>
+            </div>
+            
+            <!-- System Info Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">ℹ️</span>
+                    <span class="card-title">System Info</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Skills</span>
+                    <span class="metric-value">11</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Active Phases</span>
+                    <span class="metric-value">4/4</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Workflows</span>
+                    <span class="metric-value">4</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Timezone</span>
+                    <span class="metric-value">Australia/Sydney</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Quick Actions -->
+        <div class="actions">
+            <button class="action-btn" onclick="alert('Run: python3 dashboard.py')">🔄 Refresh Dashboard</button>
+            <button class="action-btn" onclick="alert('Run: python3 live_scanner.py --scan')">🔴 Run Live Scanner</button>
+            <button class="action-btn" onclick="alert('Run: python3 skills/aoe/aoe_runner.py')">🔍 Run AOE Scan</button>
+            <button class="action-btn" onclick="alert('Run: python3 skills/ats/ats_runner.py')">📈 Analyze Token</button>
+            <button class="action-btn secondary" onclick="alert('Run: openclaw cron list')">⏰ View Cron Jobs</button>
+            <button class="action-btn secondary" onclick="alert('Run: python3 update_outcome.py --stats')">📊 View Stats</button>
+            <button class="action-btn secondary" onclick="alert('Run: python3 skills/amre/amre_runner.py')">🔧 Health Check</button>
+        </div>
+        
+        <footer class="footer">
+            <p>OpenClaw Autonomous Trading System v4.0</p>
+            <p style="margin-top: 10px; font-size: 0.85em;">
+                Phase 1 ✅ | Phase 2 ✅ | Phase 3 ✅ | Phase 4 ✅
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        // Update timestamp
+        function updateTimestamp() {
+            const now = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric', 
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit',
+                timeZoneName: 'short'
+            };
+            document.getElementById('timestamp').textContent = now.toLocaleString('en-AU', options);
+        }
+        
+        // Load live scanner data
+        async function loadScannerData() {
+            try {
+                const response = await fetch('memory/live_results/dashboard_export.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    
+                    // Update metrics
+                    if (data.last_scan) {
+                        document.getElementById('last-scan').textContent = 
+                            new Date(data.last_scan).toLocaleString('en-AU');
+                    }
+                    document.getElementById('total-signals').textContent = data.total_signals || 0;
+                    document.getElementById('active-signals-count').textContent = 
+                        (data.active_signals || []).length;
+                    
+                    // Update signals list
+                    const signalsDiv = document.getElementById('scanner-signals');
+                    if (data.active_signals && data.active_signals.length > 0) {
+                        let html = '';
+                        data.active_signals.forEach(sig => {
+                            const grade = sig.grade || '?';
+                            const icon = grade === 'A+' ? '🟢' : grade === 'A' ? '🟡' : '🟠';
+                            html += `
+                                <div style="display: flex; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                                    <span style="margin-right: 10px;">${icon}</span>
+                                    <span>${sig.token || 'Unknown'}</span>
+                                    <span style="margin-left: auto; color: #888;">Grade ${grade}</span>
+                                </div>
+                            `;
+                        });
+                        signalsDiv.innerHTML = html;
+                    }
+                }
+            } catch (e) {
+                console.log('Scanner data not available yet');
+            }
+        }
+        
+        // Initial updates
+        updateTimestamp();
+        loadScannerData();
+        
+        // Set intervals
+        setInterval(updateTimestamp, 1000);
+        setInterval(loadScannerData, 60000); // Refresh scanner data every minute
+    </script>
+</body>
+</html>

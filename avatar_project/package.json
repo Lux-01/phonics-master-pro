@@ -1,0 +1,42 @@
+{
+  "name": "deskmate-replica",
+  "version": "1.0.0",
+  "description": "AI-powered desktop avatar companion",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir"
+  },
+  "dependencies": {
+    "electron": "^28.3.3",
+    "express": "^4.22.1",
+    "three": "^0.160.1",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.lux.deskmate",
+    "productName": "DeskMate Replica",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}

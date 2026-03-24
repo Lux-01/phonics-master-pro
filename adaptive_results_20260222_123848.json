@@ -1,0 +1,670 @@
+{
+  "session_id": "adaptive_1771763928",
+  "start_time": "2026-02-22T12:38:45.308250+00:00",
+  "end_time": "2026-02-22T12:38:48.962349+00:00",
+  "initial_balance": 1.0,
+  "final_balance": 1.04135934510658,
+  "total_trades": 14,
+  "dip_trades": 14,
+  "breakout_trades": 0,
+  "winning_trades": 4,
+  "losing_trades": 10,
+  "dip_wins": 4,
+  "breakout_wins": 0,
+  "win_rate": 28.57142857142857,
+  "dip_win_rate": 28.57142857142857,
+  "breakout_win_rate": 0,
+  "total_pnl_sol": -0.021058965042293046,
+  "total_pnl_percent": -2.1058965042293045,
+  "max_drawdown": 55.89545599953507,
+  "trades": [
+    {
+      "id": "ADAPTIVE_1771763925_2",
+      "mode": "Mode.DIP",
+      "coin": "BOME",
+      "entry_price": 0.00863252042410557,
+      "position_size_sol": 0.22749999999999998,
+      "entry_time": "2026-02-22T12:38:45.310067+00:00",
+      "exit_price": 0.008279638419993388,
+      "exit_time": "2026-02-22T12:38:45.639764+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.009299793338611109,
+      "pnl_percent": -4.087821247741147,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 0.009340341658324217,
+      "trailing_stop_price": 0.008406307492491796
+    },
+    {
+      "id": "ADAPTIVE_1771763925_4",
+      "mode": "Mode.DIP",
+      "coin": "BONK",
+      "entry_price": 1.3682014032916094e-05,
+      "position_size_sol": 0.17248882233148607,
+      "entry_time": "2026-02-22T12:38:45.752636+00:00",
+      "exit_price": 1.2855454074125305e-05,
+      "exit_time": "2026-02-22T12:38:46.038215+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.010420421550159592,
+      "pnl_percent": -6.0412155462072805,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 1.477148137362216e-05,
+      "trailing_stop_price": 1.3294333236259943e-05
+    },
+    {
+      "id": "ADAPTIVE_1771763925_1",
+      "mode": "Mode.DIP",
+      "coin": "WIF",
+      "entry_price": 1.9658866800587955,
+      "position_size_sol": 0.35,
+      "entry_time": "2026-02-22T12:38:45.309266+00:00",
+      "exit_price": 2.0528527648012056,
+      "exit_time": "2026-02-22T12:38:46.499905+00:00",
+      "status": "TradeStatus.TARGET_HIT",
+      "pnl_sol": 0.015483155752870346,
+      "pnl_percent": 4.423758786534385,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 2.2837002043284373,
+      "trailing_stop_price": 2.0553301838955935
+    },
+    {
+      "id": "ADAPTIVE_1771763926_5",
+      "mode": "Mode.DIP",
+      "coin": "MYRO",
+      "entry_price": 0.04058794714864939,
+      "position_size_sol": 0.1688416747889302,
+      "entry_time": "2026-02-22T12:38:46.270665+00:00",
+      "exit_price": 0.03833351469342328,
+      "exit_time": "2026-02-22T12:38:46.734574+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.009378206541090417,
+      "pnl_percent": -5.554438234999836,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 0.043140635385353364,
+      "trailing_stop_price": 0.03882657184681803
+    },
+    {
+      "id": "ADAPTIVE_1771763925_3",
+      "mode": "Mode.DIP",
+      "coin": "WEN",
+      "entry_price": 7.704346795855433e-05,
+      "position_size_sol": 0.0739375,
+      "entry_time": "2026-02-22T12:38:45.312859+00:00",
+      "exit_price": 8.701338830195666e-05,
+      "exit_time": "2026-02-22T12:38:47.080540+00:00",
+      "status": "TradeStatus.TARGET_HIT",
+      "pnl_sol": 0.009567988110125852,
+      "pnl_percent": 12.940643259679934,
+      "exit_reason": "trailing_stop",
+      "scaled": true,
+      "peak_price": 9.699819765889451e-05,
+      "trailing_stop_price": 8.729837789300506e-05
+    },
+    {
+      "id": "ADAPTIVE_1771763926_6",
+      "mode": "Mode.DIP",
+      "coin": "BONK",
+      "entry_price": 1.255805168766406e-05,
+      "position_size_sol": 0.2691378452423182,
+      "entry_time": "2026-02-22T12:38:46.672910+00:00",
+      "exit_price": 1.2503137465153424e-05,
+      "exit_time": "2026-02-22T12:38:47.358624+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.0011768939870018058,
+      "pnl_percent": -0.4372829788921694,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 1.393207498683528e-05,
+      "trailing_stop_price": 1.2538867488151753e-05
+    },
+    {
+      "id": "ADAPTIVE_1771763926_7",
+      "mode": "Mode.DIP",
+      "coin": "MYRO",
+      "entry_price": 0.0392647238066778,
+      "position_size_sol": 0.11537590664712537,
+      "entry_time": "2026-02-22T12:38:46.792548+00:00",
+      "exit_price": 0.04286550048167283,
+      "exit_time": "2026-02-22T12:38:47.785786+00:00",
+      "status": "TradeStatus.TARGET_HIT",
+      "pnl_sol": 0.01058056273506036,
+      "pnl_percent": 9.170513188183019,
+      "exit_reason": "trailing_stop",
+      "scaled": true,
+      "peak_price": 0.051743551513208336,
+      "trailing_stop_price": 0.046569196361887506
+    },
+    {
+      "id": "ADAPTIVE_1771763927_10",
+      "mode": "Mode.DIP",
+      "coin": "BONK",
+      "entry_price": 1.4131455008020959e-05,
+      "position_size_sol": 0.25120215778359245,
+      "entry_time": "2026-02-22T12:38:47.998904+00:00",
+      "exit_price": 1.3023671210026679e-05,
+      "exit_time": "2026-02-22T12:38:48.212460+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.01969207560409859,
+      "pnl_percent": -7.839134734289612,
+      "exit_reason": "hard_stop",
+      "scaled": false,
+      "peak_price": 1.4131455008020959e-05,
+      "trailing_stop_price": 1.314225315745949e-05
+    },
+    {
+      "id": "ADAPTIVE_1771763928_11",
+      "mode": "Mode.DIP",
+      "coin": "PONKE",
+      "entry_price": 0.015729456540817716,
+      "position_size_sol": 0.24430993132215792,
+      "entry_time": "2026-02-22T12:38:48.213736+00:00",
+      "exit_price": 0.014273117487946194,
+      "exit_time": "2026-02-22T12:38:48.320938+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.02261985931081135,
+      "pnl_percent": -9.258673680761591,
+      "exit_reason": "hard_stop",
+      "scaled": false,
+      "peak_price": 0.015729456540817716,
+      "trailing_stop_price": 0.014628394582960474
+    },
+    {
+      "id": "ADAPTIVE_1771763927_9",
+      "mode": "Mode.DIP",
+      "coin": "WIF",
+      "entry_price": 1.735717163873192,
+      "position_size_sol": 0.260446450779899,
+      "entry_time": "2026-02-22T12:38:47.359045+00:00",
+      "exit_price": 1.613630148269891,
+      "exit_time": "2026-02-22T12:38:48.480727+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.018319303721832044,
+      "pnl_percent": -7.0338081655462945,
+      "exit_reason": "hard_stop",
+      "scaled": false,
+      "peak_price": 1.9809201026593324,
+      "trailing_stop_price": 1.7828280923933992
+    },
+    {
+      "id": "ADAPTIVE_1771763928_13",
+      "mode": "Mode.DIP",
+      "coin": "BONK",
+      "entry_price": 1.3045604958375439e-05,
+      "position_size_sol": 0.2383999388365165,
+      "entry_time": "2026-02-22T12:38:48.534132+00:00",
+      "exit_price": 1.20204879629095e-05,
+      "exit_time": "2026-02-22T12:38:48.748443+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.018733345812564514,
+      "pnl_percent": -7.857949085050296,
+      "exit_reason": "hard_stop",
+      "scaled": false,
+      "peak_price": 1.3045604958375439e-05,
+      "trailing_stop_price": 1.2132412611289157e-05
+    },
+    {
+      "id": "ADAPTIVE_1771763928_12",
+      "mode": "Mode.DIP",
+      "coin": "MYRO",
+      "entry_price": 0.049606658457182526,
+      "position_size_sol": 0.23639298056337396,
+      "entry_time": "2026-02-22T12:38:48.321580+00:00",
+      "exit_price": 0.04711103210880199,
+      "exit_time": "2026-02-22T12:38:48.910339+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.011892527519775827,
+      "pnl_percent": -5.030829380565127,
+      "exit_reason": "trailing_stop",
+      "scaled": false,
+      "peak_price": 0.05319795057984758,
+      "trailing_stop_price": 0.04787815552186282
+    },
+    {
+      "id": "ADAPTIVE_1771763927_8",
+      "mode": "Mode.DIP",
+      "coin": "TURBO",
+      "entry_price": 0.0027286448573864033,
+      "position_size_sol": 0.0896077997399035,
+      "entry_time": "2026-02-22T12:38:47.081683+00:00",
+      "exit_price": 0.004903410121573506,
+      "exit_time": "2026-02-22T12:38:48.911062+00:00",
+      "status": "TradeStatus.TARGET_HIT",
+      "pnl_sol": 0.07141857605508824,
+      "pnl_percent": 79.70129415339792,
+      "exit_reason": "trailing_stop",
+      "scaled": true,
+      "peak_price": 0.005478101431657391,
+      "trailing_stop_price": 0.004930291288491652
+    },
+    {
+      "id": "ADAPTIVE_1771763928_14",
+      "mode": "Mode.DIP",
+      "coin": "WIF",
+      "entry_price": 1.815238579723689,
+      "position_size_sol": 0.2318432678021189,
+      "entry_time": "2026-02-22T12:38:48.748901+00:00",
+      "exit_price": 1.7637447491247737,
+      "exit_time": "2026-02-22T12:38:48.962191+00:00",
+      "status": "TradeStatus.STOPPED",
+      "pnl_sol": -0.006576820309492591,
+      "pnl_percent": -2.836752764848876,
+      "exit_reason": "session_end",
+      "scaled": false,
+      "peak_price": 1.848862822177536,
+      "trailing_stop_price": 1.6881718791430307
+    }
+  ],
+  "market_condition_history": [
+    {
+      "iteration": 1,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 2,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 3,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 4,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 5,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 6,
+      "active_positions": 3,
+      "closed_trades": 0,
+      "balance": 0.274625
+    },
+    {
+      "iteration": 7,
+      "active_positions": 2,
+      "closed_trades": 1,
+      "balance": 0.49282520666138885
+    },
+    {
+      "iteration": 8,
+      "active_positions": 2,
+      "closed_trades": 1,
+      "balance": 0.49282520666138885
+    },
+    {
+      "iteration": 9,
+      "active_positions": 3,
+      "closed_trades": 1,
+      "balance": 0.32033638432990275
+    },
+    {
+      "iteration": 10,
+      "active_positions": 3,
+      "closed_trades": 1,
+      "balance": 0.32033638432990275
+    },
+    {
+      "iteration": 11,
+      "active_positions": 3,
+      "closed_trades": 1,
+      "balance": 0.32033638432990275
+    },
+    {
+      "iteration": 12,
+      "active_positions": 3,
+      "closed_trades": 1,
+      "balance": 0.32033638432990275
+    },
+    {
+      "iteration": 13,
+      "active_positions": 3,
+      "closed_trades": 1,
+      "balance": 0.32033638432990275
+    },
+    {
+      "iteration": 14,
+      "active_positions": 2,
+      "closed_trades": 2,
+      "balance": 0.4824047851112292
+    },
+    {
+      "iteration": 15,
+      "active_positions": 2,
+      "closed_trades": 2,
+      "balance": 0.4824047851112292
+    },
+    {
+      "iteration": 16,
+      "active_positions": 2,
+      "closed_trades": 2,
+      "balance": 0.4824047851112292
+    },
+    {
+      "iteration": 17,
+      "active_positions": 2,
+      "closed_trades": 2,
+      "balance": 0.4824047851112292
+    },
+    {
+      "iteration": 18,
+      "active_positions": 3,
+      "closed_trades": 2,
+      "balance": 0.313563110322299
+    },
+    {
+      "iteration": 19,
+      "active_positions": 3,
+      "closed_trades": 2,
+      "balance": 0.313563110322299
+    },
+    {
+      "iteration": 20,
+      "active_positions": 3,
+      "closed_trades": 2,
+      "balance": 0.313563110322299
+    },
+    {
+      "iteration": 21,
+      "active_positions": 3,
+      "closed_trades": 2,
+      "balance": 0.4034821163680388
+    },
+    {
+      "iteration": 22,
+      "active_positions": 2,
+      "closed_trades": 3,
+      "balance": 0.7689652721209091
+    },
+    {
+      "iteration": 23,
+      "active_positions": 2,
+      "closed_trades": 3,
+      "balance": 0.7689652721209091
+    },
+    {
+      "iteration": 24,
+      "active_positions": 2,
+      "closed_trades": 3,
+      "balance": 0.7689652721209091
+    },
+    {
+      "iteration": 25,
+      "active_positions": 3,
+      "closed_trades": 3,
+      "balance": 0.49982742687859094
+    },
+    {
+      "iteration": 26,
+      "active_positions": 2,
+      "closed_trades": 4,
+      "balance": 0.6592908951264307
+    },
+    {
+      "iteration": 27,
+      "active_positions": 3,
+      "closed_trades": 4,
+      "balance": 0.4285390818321799
+    },
+    {
+      "iteration": 28,
+      "active_positions": 3,
+      "closed_trades": 4,
+      "balance": 0.4285390818321799
+    },
+    {
+      "iteration": 29,
+      "active_positions": 3,
+      "closed_trades": 4,
+      "balance": 0.4285390818321799
+    },
+    {
+      "iteration": 30,
+      "active_positions": 3,
+      "closed_trades": 4,
+      "balance": 0.4285390818321799
+    },
+    {
+      "iteration": 31,
+      "active_positions": 3,
+      "closed_trades": 4,
+      "balance": 0.4285390818321799
+    },
+    {
+      "iteration": 32,
+      "active_positions": 3,
+      "closed_trades": 5,
+      "balance": 0.3328289704624987
+    },
+    {
+      "iteration": 33,
+      "active_positions": 3,
+      "closed_trades": 5,
+      "balance": 0.3328289704624987
+    },
+    {
+      "iteration": 34,
+      "active_positions": 3,
+      "closed_trades": 5,
+      "balance": 0.3328289704624987
+    },
+    {
+      "iteration": 35,
+      "active_positions": 3,
+      "closed_trades": 5,
+      "balance": 0.47617176525868077
+    },
+    {
+      "iteration": 36,
+      "active_positions": 3,
+      "closed_trades": 5,
+      "balance": 0.47617176525868077
+    },
+    {
+      "iteration": 37,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 38,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 39,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 40,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 41,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 42,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 43,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 44,
+      "active_positions": 3,
+      "closed_trades": 6,
+      "balance": 0.5917639814280784
+    },
+    {
+      "iteration": 45,
+      "active_positions": 2,
+      "closed_trades": 7,
+      "balance": 0.7177204508102641
+    },
+    {
+      "iteration": 46,
+      "active_positions": 2,
+      "closed_trades": 7,
+      "balance": 0.7177204508102641
+    },
+    {
+      "iteration": 47,
+      "active_positions": 2,
+      "closed_trades": 7,
+      "balance": 0.7177204508102641
+    },
+    {
+      "iteration": 48,
+      "active_positions": 2,
+      "closed_trades": 7,
+      "balance": 0.7177204508102641
+    },
+    {
+      "iteration": 49,
+      "active_positions": 3,
+      "closed_trades": 7,
+      "balance": 0.4665182930266717
+    },
+    {
+      "iteration": 50,
+      "active_positions": 3,
+      "closed_trades": 7,
+      "balance": 0.4665182930266717
+    },
+    {
+      "iteration": 51,
+      "active_positions": 3,
+      "closed_trades": 7,
+      "balance": 0.4665182930266717
+    },
+    {
+      "iteration": 52,
+      "active_positions": 3,
+      "closed_trades": 7,
+      "balance": 0.4665182930266717
+    },
+    {
+      "iteration": 53,
+      "active_positions": 3,
+      "closed_trades": 8,
+      "balance": 0.4537184438840076
+    },
+    {
+      "iteration": 54,
+      "active_positions": 3,
+      "closed_trades": 8,
+      "balance": 0.4537184438840076
+    },
+    {
+      "iteration": 55,
+      "active_positions": 3,
+      "closed_trades": 9,
+      "balance": 0.43901553533198023
+    },
+    {
+      "iteration": 56,
+      "active_positions": 3,
+      "closed_trades": 9,
+      "balance": 0.43901553533198023
+    },
+    {
+      "iteration": 57,
+      "active_positions": 3,
+      "closed_trades": 9,
+      "balance": 0.43901553533198023
+    },
+    {
+      "iteration": 58,
+      "active_positions": 2,
+      "closed_trades": 10,
+      "balance": 0.6811426823900472
+    },
+    {
+      "iteration": 59,
+      "active_positions": 3,
+      "closed_trades": 10,
+      "balance": 0.44274274355353066
+    },
+    {
+      "iteration": 60,
+      "active_positions": 3,
+      "closed_trades": 10,
+      "balance": 0.44274274355353066
+    },
+    {
+      "iteration": 61,
+      "active_positions": 3,
+      "closed_trades": 10,
+      "balance": 0.44274274355353066
+    },
+    {
+      "iteration": 62,
+      "active_positions": 3,
+      "closed_trades": 10,
+      "balance": 0.44274274355353066
+    },
+    {
+      "iteration": 63,
+      "active_positions": 3,
+      "closed_trades": 11,
+      "balance": 0.4305660687753637
+    },
+    {
+      "iteration": 64,
+      "active_positions": 3,
+      "closed_trades": 11,
+      "balance": 0.4305660687753637
+    },
+    {
+      "iteration": 65,
+      "active_positions": 3,
+      "closed_trades": 11,
+      "balance": 0.4305660687753637
+    },
+    {
+      "iteration": 66,
+      "active_positions": 1,
+      "closed_trades": 13,
+      "balance": 0.8160928976139536
+    },
+    {
+      "dip": {
+        "trades": 14,
+        "wins": 4,
+        "pnl": -0.02105896504229304
+      },
+      "breakout": {
+        "trades": 0,
+        "wins": 0,
+        "pnl": 0.0
+      }
+    }
+  ]
+}

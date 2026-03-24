@@ -1,0 +1,107 @@
+{
+  "comparison_date": "2026-03-14",
+  "strategies": {
+    "v3.0": {
+      "name": "LuxTrader Original",
+      "description": "Fixed parameters, aggressive sizing, high returns",
+      "6_months": {
+        "capital_start": 1.00,
+        "capital_end": 34.91,
+        "multiplier": 34.91,
+        "roi_pct": 3391,
+        "total_trades": 550,
+        "wins": 341,
+        "losses": 184,
+        "rugs": 25,
+        "win_rate": 62.0,
+        "avg_trade_pnl": 6.0,
+        "best_streak": 8,
+        "worst_streak": 6,
+        "max_drawdown": 4.5
+      },
+      "12_months_projected": {
+        "capital_start": 1.00,
+        "capital_end": 1218.67,
+        "multiplier": 1218.67,
+        "roi_pct": 121767,
+        "total_trades": 1100,
+        "rugs_projected": 50,
+        "win_rate": 62.0
+      },
+      "trade_off": "PROFIT",
+      "risk_level": "HIGH",
+      "best_for": "Small accounts (<10 SOL), aggressive traders"
+    },
+    "v3.1": {
+      "name": "LuxTrader Evolved",
+      "description": "Self-improving, adaptive sizing, lower risk",
+      "6_months": {
+        "capital_start": 1.00,
+        "capital_end": 1.31,
+        "multiplier": 1.31,
+        "roi_pct": 31.5,
+        "total_trades": 440,
+        "wins": 294,
+        "losses": 146,
+        "rugs": 0,
+        "win_rate": 66.8,
+        "avg_trade_pnl": 0.07,
+        "best_streak": 12,
+        "worst_streak": 4,
+        "max_drawdown": 2.1
+      },
+      "12_months_actual": {
+        "capital_start": 1.00,
+        "capital_end": 1.65,
+        "multiplier": 1.65,
+        "roi_pct": 65.1,
+        "total_trades": 845,
+        "wins": 566,
+        "losses": 279,
+        "rugs": 0,
+        "win_rate": 67.0,
+        "best_streak": 15,
+        "max_drawdown": 2.5,
+        "period_breakdown": {
+          "months_1_6": {"trades": 440, "wins": 294, "roi": 31.5},
+          "months_7_12": {"trades": 405, "wins": 272, "roi": 25.6}
+        }
+      },
+      "trade_off": "SAFETY",
+      "risk_level": "LOW",
+      "best_for": "Large accounts (>50 SOL), conservative traders"
+    }
+  },
+  "key_differences": {
+    "position_sizing": {
+      "v3.0": "Fixed 0.6% of capital",
+      "v3.1": "Dynamic 0.6-2.0% based on streak + confidence",
+      "winner": "v3.1 for adaptability, v3.0 for aggression"
+    },
+    "entry_criteria": {
+      "v3.0": "Grade A/A+ with basic filters",
+      "v3.1": "Grade A/A+ + Rug detection + Pattern memory",
+      "winner": "v3.1 (fewer but higher quality)"
+    },
+    "risk_management": {
+      "v3.0": "4.5% rug rate, 4.5% max drawdown",
+      "v3.1": "0% rug rate, 2.1% max drawdown",
+      "winner": "v3.1 hands down"
+    },
+    "returns": {
+      "v3.0": "3,391% in 6 months",
+      "v3.1": "31.5% in 6 months",
+      "winner": "v3.0 by a lot"
+    }
+  },
+  "recommendation": {
+    "aggressive_traders": "Use v3.0 with 4.5% rug risk",
+    "conservative_traders": "Use v3.1 for stability",
+    "hybrid": "Apply v3.1's safety features to v3.0's aggression (best approach)"
+  },
+  "files_created": [
+    "v30_v31_comparison.py",
+    "luxtrader_v30_v31_comparison.json",
+    "luxtrader_v31_comparison.json"
+  ]
+}

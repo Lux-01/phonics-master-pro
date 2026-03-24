@@ -1,0 +1,735 @@
+{
+  "strategy": "Volatility Mean-Reverter",
+  "emoji": "\ud83d\udcc9",
+  "start": 1.0,
+  "end": 7.539743205237013,
+  "pnl": 6.539743205237013,
+  "multiplier": 7.539743205237013,
+  "trades": 72,
+  "wins": 46,
+  "losses": 25,
+  "rugs": 1,
+  "win_rate": 63.888888888888886,
+  "trades_detail": [
+    {
+      "month": 1,
+      "symbol": "BETA",
+      "deviation": -100.0,
+      "position_size": 0.3,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.054,
+      "outcome": "win",
+      "capital_after": 1.054
+    },
+    {
+      "month": 1,
+      "symbol": "MEME",
+      "deviation": -100.0,
+      "position_size": 0.3162,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.05692,
+      "outcome": "win",
+      "capital_after": 1.1109
+    },
+    {
+      "month": 1,
+      "symbol": "BONK",
+      "deviation": -100.0,
+      "position_size": 0.3333,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.01666,
+      "outcome": "loss",
+      "capital_after": 1.0943
+    },
+    {
+      "month": 1,
+      "symbol": "DEGENX",
+      "deviation": -100.0,
+      "position_size": 0.3283,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.01641,
+      "outcome": "loss",
+      "capital_after": 1.0778
+    },
+    {
+      "month": 1,
+      "symbol": "MEME",
+      "deviation": -100.0,
+      "position_size": 0.3234,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.0582,
+      "outcome": "win",
+      "capital_after": 1.136
+    },
+    {
+      "month": 1,
+      "symbol": "BONK2",
+      "deviation": -100.0,
+      "position_size": 0.3408,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.06135,
+      "outcome": "win",
+      "capital_after": 1.1974
+    },
+    {
+      "month": 1,
+      "symbol": "MEMEX",
+      "deviation": -100.0,
+      "position_size": 0.3592,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.06466,
+      "outcome": "win",
+      "capital_after": 1.262
+    },
+    {
+      "month": 1,
+      "symbol": "CATX",
+      "deviation": -100.0,
+      "position_size": 0.3786,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.01893,
+      "outcome": "loss",
+      "capital_after": 1.2431
+    },
+    {
+      "month": 1,
+      "symbol": "DOGEX",
+      "deviation": -100.0,
+      "position_size": 0.3729,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.06713,
+      "outcome": "win",
+      "capital_after": 1.3102
+    },
+    {
+      "month": 1,
+      "symbol": "CHADAI",
+      "deviation": -100.0,
+      "position_size": 0.3931,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.07075,
+      "outcome": "win",
+      "capital_after": 1.381
+    },
+    {
+      "month": 1,
+      "symbol": "CHADAI",
+      "deviation": -100.0,
+      "position_size": 0.4143,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.07457,
+      "outcome": "win",
+      "capital_after": 1.4556
+    },
+    {
+      "month": 1,
+      "symbol": "PEPE",
+      "deviation": -100.0,
+      "position_size": 0.4367,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.0786,
+      "outcome": "win",
+      "capital_after": 1.5342
+    },
+    {
+      "month": 2,
+      "symbol": "SHIBX",
+      "deviation": -100.0,
+      "position_size": 0.4603,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.08285,
+      "outcome": "win",
+      "capital_after": 1.617
+    },
+    {
+      "month": 2,
+      "symbol": "ELONAI",
+      "deviation": -100.0,
+      "position_size": 0.4851,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.02426,
+      "outcome": "loss",
+      "capital_after": 1.5928
+    },
+    {
+      "month": 2,
+      "symbol": "APEX",
+      "deviation": -100.0,
+      "position_size": 0.4778,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.02389,
+      "outcome": "loss",
+      "capital_after": 1.5689
+    },
+    {
+      "month": 2,
+      "symbol": "MEMEX",
+      "deviation": -100.0,
+      "position_size": 0.4707,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.08472,
+      "outcome": "win",
+      "capital_after": 1.6536
+    },
+    {
+      "month": 2,
+      "symbol": "BETAAI",
+      "deviation": -100.0,
+      "position_size": 0.4961,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.08929,
+      "outcome": "win",
+      "capital_after": 1.7429
+    },
+    {
+      "month": 2,
+      "symbol": "MOONAI",
+      "deviation": -100.0,
+      "position_size": 0.5229,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.09412,
+      "outcome": "win",
+      "capital_after": 1.837
+    },
+    {
+      "month": 2,
+      "symbol": "CAT2",
+      "deviation": -100.0,
+      "position_size": 0.5511,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.02755,
+      "outcome": "loss",
+      "capital_after": 1.8094
+    },
+    {
+      "month": 2,
+      "symbol": "MEME2",
+      "deviation": -100.0,
+      "position_size": 0.5428,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.09771,
+      "outcome": "win",
+      "capital_after": 1.9072
+    },
+    {
+      "month": 2,
+      "symbol": "CHADX",
+      "deviation": -100.0,
+      "position_size": 0.5721,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.02861,
+      "outcome": "loss",
+      "capital_after": 1.8785
+    },
+    {
+      "month": 2,
+      "symbol": "CHADX",
+      "deviation": -100.0,
+      "position_size": 0.5636,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.02818,
+      "outcome": "loss",
+      "capital_after": 1.8504
+    },
+    {
+      "month": 2,
+      "symbol": "MOON2",
+      "deviation": -100.0,
+      "position_size": 0.5551,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.09992,
+      "outcome": "win",
+      "capital_after": 1.9503
+    },
+    {
+      "month": 2,
+      "symbol": "MOONX",
+      "deviation": -100.0,
+      "position_size": 0.5851,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.10532,
+      "outcome": "win",
+      "capital_after": 2.0556
+    },
+    {
+      "month": 3,
+      "symbol": "MOON2",
+      "deviation": -100.0,
+      "position_size": 0.6167,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.111,
+      "outcome": "win",
+      "capital_after": 2.1666
+    },
+    {
+      "month": 3,
+      "symbol": "FLOKIAI",
+      "deviation": -100.0,
+      "position_size": 0.65,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.117,
+      "outcome": "win",
+      "capital_after": 2.2836
+    },
+    {
+      "month": 3,
+      "symbol": "APEAI",
+      "deviation": -100.0,
+      "position_size": 0.6851,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03425,
+      "outcome": "loss",
+      "capital_after": 2.2494
+    },
+    {
+      "month": 3,
+      "symbol": "SIGMAAI",
+      "deviation": -100.0,
+      "position_size": 0.6748,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.12146,
+      "outcome": "win",
+      "capital_after": 2.3708
+    },
+    {
+      "month": 3,
+      "symbol": "APEAI",
+      "deviation": -100.0,
+      "position_size": 0.7112,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03556,
+      "outcome": "loss",
+      "capital_after": 2.3353
+    },
+    {
+      "month": 3,
+      "symbol": "CHADX",
+      "deviation": -100.0,
+      "position_size": 0.7006,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.1261,
+      "outcome": "win",
+      "capital_after": 2.4614
+    },
+    {
+      "month": 3,
+      "symbol": "DEGEN",
+      "deviation": -100.0,
+      "position_size": 0.7384,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03692,
+      "outcome": "loss",
+      "capital_after": 2.4244
+    },
+    {
+      "month": 3,
+      "symbol": "BETAAI",
+      "deviation": -100.0,
+      "position_size": 0.7273,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03637,
+      "outcome": "loss",
+      "capital_after": 2.3881
+    },
+    {
+      "month": 3,
+      "symbol": "PEPEX",
+      "deviation": -100.0,
+      "position_size": 0.7164,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03582,
+      "outcome": "loss",
+      "capital_after": 2.3522
+    },
+    {
+      "month": 3,
+      "symbol": "BONK2",
+      "deviation": -100.0,
+      "position_size": 0.7057,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.03528,
+      "outcome": "loss",
+      "capital_after": 2.317
+    },
+    {
+      "month": 3,
+      "symbol": "ELONAI",
+      "deviation": -100.0,
+      "position_size": 0.6951,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.12512,
+      "outcome": "win",
+      "capital_after": 2.4421
+    },
+    {
+      "month": 3,
+      "symbol": "CHAD2",
+      "deviation": -100.0,
+      "position_size": 0.7326,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.13187,
+      "outcome": "win",
+      "capital_after": 2.574
+    },
+    {
+      "month": 4,
+      "symbol": "PEPEAI",
+      "deviation": -100.0,
+      "position_size": 0.7722,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.13899,
+      "outcome": "win",
+      "capital_after": 2.7129
+    },
+    {
+      "month": 4,
+      "symbol": "ALPHAX",
+      "deviation": -100.0,
+      "position_size": 0.8139,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.1465,
+      "outcome": "win",
+      "capital_after": 2.8594
+    },
+    {
+      "month": 4,
+      "symbol": "FLOKI",
+      "deviation": -100.0,
+      "position_size": 0.8578,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.04289,
+      "outcome": "loss",
+      "capital_after": 2.8166
+    },
+    {
+      "month": 4,
+      "symbol": "MOONAI",
+      "deviation": -100.0,
+      "position_size": 0.845,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.04225,
+      "outcome": "loss",
+      "capital_after": 2.7743
+    },
+    {
+      "month": 4,
+      "symbol": "SIGMA",
+      "deviation": -100.0,
+      "position_size": 0.8323,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.14981,
+      "outcome": "win",
+      "capital_after": 2.9241
+    },
+    {
+      "month": 4,
+      "symbol": "ALPHA",
+      "deviation": -100.0,
+      "position_size": 0.8772,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.1579,
+      "outcome": "win",
+      "capital_after": 3.082
+    },
+    {
+      "month": 4,
+      "symbol": "WOJAK2",
+      "deviation": -100.0,
+      "position_size": 0.9246,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.16643,
+      "outcome": "win",
+      "capital_after": 3.2484
+    },
+    {
+      "month": 4,
+      "symbol": "ALPHA",
+      "deviation": -100.0,
+      "position_size": 0.9745,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.17542,
+      "outcome": "win",
+      "capital_after": 3.4239
+    },
+    {
+      "month": 4,
+      "symbol": "BETA",
+      "deviation": -100.0,
+      "position_size": 1.0272,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.05136,
+      "outcome": "loss",
+      "capital_after": 3.3725
+    },
+    {
+      "month": 4,
+      "symbol": "ALPHA",
+      "deviation": -100.0,
+      "position_size": 1.0118,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.05059,
+      "outcome": "loss",
+      "capital_after": 3.3219
+    },
+    {
+      "month": 4,
+      "symbol": "FLOKI",
+      "deviation": -100.0,
+      "position_size": 0.9966,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.17938,
+      "outcome": "win",
+      "capital_after": 3.5013
+    },
+    {
+      "month": 4,
+      "symbol": "CAT",
+      "deviation": -100.0,
+      "position_size": 1.0504,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.18907,
+      "outcome": "win",
+      "capital_after": 3.6904
+    },
+    {
+      "month": 5,
+      "symbol": "ELONAI",
+      "deviation": -100.0,
+      "position_size": 1.1071,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.05536,
+      "outcome": "loss",
+      "capital_after": 3.635
+    },
+    {
+      "month": 5,
+      "symbol": "BETA",
+      "deviation": -100.0,
+      "position_size": 1.0905,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.19629,
+      "outcome": "win",
+      "capital_after": 3.8313
+    },
+    {
+      "month": 5,
+      "symbol": "MOONX",
+      "deviation": -100.0,
+      "position_size": 1.1494,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.05747,
+      "outcome": "loss",
+      "capital_after": 3.7738
+    },
+    {
+      "month": 5,
+      "symbol": "PEPEAI",
+      "deviation": -100.0,
+      "position_size": 1.1322,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.20379,
+      "outcome": "win",
+      "capital_after": 3.9776
+    },
+    {
+      "month": 5,
+      "symbol": "BETA2",
+      "deviation": -100.0,
+      "position_size": 1.1933,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.21479,
+      "outcome": "win",
+      "capital_after": 4.1924
+    },
+    {
+      "month": 5,
+      "symbol": "ALPHA",
+      "deviation": -100.0,
+      "position_size": 1.2577,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.22639,
+      "outcome": "win",
+      "capital_after": 4.4188
+    },
+    {
+      "month": 5,
+      "symbol": "PEPE",
+      "deviation": -100.0,
+      "position_size": 1.3256,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.23862,
+      "outcome": "win",
+      "capital_after": 4.6574
+    },
+    {
+      "month": 5,
+      "symbol": "CAT",
+      "deviation": -100.0,
+      "position_size": 1.3972,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.2515,
+      "outcome": "win",
+      "capital_after": 4.9089
+    },
+    {
+      "month": 5,
+      "symbol": "PEPE2",
+      "deviation": -100.0,
+      "position_size": 1.4727,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.07363,
+      "outcome": "loss",
+      "capital_after": 4.8353
+    },
+    {
+      "month": 5,
+      "symbol": "ELONAI",
+      "deviation": -100.0,
+      "position_size": 1.4506,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.07253,
+      "outcome": "loss",
+      "capital_after": 4.7628
+    },
+    {
+      "month": 5,
+      "symbol": "DEGENAI",
+      "deviation": -100.0,
+      "position_size": 1.4288,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.25719,
+      "outcome": "win",
+      "capital_after": 5.02
+    },
+    {
+      "month": 5,
+      "symbol": "WOJAK2",
+      "deviation": -100.0,
+      "position_size": 1.506,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.27108,
+      "outcome": "win",
+      "capital_after": 5.291
+    },
+    {
+      "month": 6,
+      "symbol": "MOON2",
+      "deviation": -100.0,
+      "position_size": 1.5873,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.28572,
+      "outcome": "win",
+      "capital_after": 5.5767
+    },
+    {
+      "month": 6,
+      "symbol": "DEGEN",
+      "deviation": -100.0,
+      "position_size": 1.673,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.30114,
+      "outcome": "win",
+      "capital_after": 5.8779
+    },
+    {
+      "month": 6,
+      "symbol": "FLOKIAI",
+      "deviation": -100.0,
+      "position_size": 1.7634,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.08817,
+      "outcome": "loss",
+      "capital_after": 5.7897
+    },
+    {
+      "month": 6,
+      "symbol": "BONK",
+      "deviation": -100.0,
+      "position_size": 1.7369,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.31265,
+      "outcome": "win",
+      "capital_after": 6.1024
+    },
+    {
+      "month": 6,
+      "symbol": "CAT",
+      "deviation": -100.0,
+      "position_size": 1.8307,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.32953,
+      "outcome": "win",
+      "capital_after": 6.4319
+    },
+    {
+      "month": 6,
+      "symbol": "BETA",
+      "deviation": -100.0,
+      "position_size": 1.9296,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.34732,
+      "outcome": "win",
+      "capital_after": 6.7792
+    },
+    {
+      "month": 6,
+      "symbol": "ALPHA",
+      "deviation": -100.0,
+      "position_size": 2.0338,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.10169,
+      "outcome": "loss",
+      "capital_after": 6.6775
+    },
+    {
+      "month": 6,
+      "symbol": "BARKDAO",
+      "deviation": -76.98,
+      "position_size": 2.0033,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.36059,
+      "outcome": "win",
+      "capital_after": 7.0381
+    },
+    {
+      "month": 6,
+      "symbol": "MOONCOIN",
+      "deviation": -59.94,
+      "position_size": 2.1114,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.38006,
+      "outcome": "win",
+      "capital_after": 7.4182
+    },
+    {
+      "month": 6,
+      "symbol": "WOJAKPAD",
+      "deviation": -50.42,
+      "position_size": 2.2255,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.15578,
+      "outcome": "rug",
+      "capital_after": 7.2624
+    },
+    {
+      "month": 6,
+      "symbol": "SOLCOIN",
+      "deviation": -46.71,
+      "position_size": 2.1787,
+      "pnl_pct": -5.0,
+      "pnl_sol": -0.10894,
+      "outcome": "loss",
+      "capital_after": 7.1535
+    },
+    {
+      "month": 6,
+      "symbol": "ZETAAI",
+      "deviation": -44.61,
+      "position_size": 2.146,
+      "pnl_pct": 18.0,
+      "pnl_sol": 0.38629,
+      "outcome": "win",
+      "capital_after": 7.5397
+    }
+  ]
+}

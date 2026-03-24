@@ -1,0 +1,37 @@
+[
+  {
+    "name": "moltbook-heartbeat",
+    "schedule": "*/30 * * * *",
+    "enabled": true
+  },
+  {
+    "name": "nightly-build",
+    "schedule": "0 0 * * *",
+    "enabled": true
+  },
+  {
+    "name": "solana-alpha-monitor-v54",
+    "schedule": "0 */2 * * *",
+    "enabled": true
+  },
+  {
+    "name": "solana-alpha-combined-v54",
+    "schedule": "0 */6 * * *",
+    "enabled": true
+  },
+  {
+    "name": "solana-alpha-full-v55",
+    "schedule": "0 0 * * *",
+    "enabled": true
+  },
+  {
+    "name": "lux-trader-paper",
+    "schedule": "0 0 * * *",
+    "enabled": true
+  },
+  {
+    "name": "lux-trader-learn",
+    "schedule": "0 */6 * * *",
+    "enabled": true
+  }
+]

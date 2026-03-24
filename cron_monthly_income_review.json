@@ -1,0 +1,35 @@
+{
+  "name": "Monthly Income Review - 1st of Month 9AM",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 9 1 * *",
+    "tz": "Australia/Sydney"
+  },
+  "sessionTarget": "isolated",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "💰 **Monthly Income Review**
+
+Run the monthly income review using the integration orchestrator:
+
+1. Execute the income review script:
+   ```bash
+   python /home/skux/.openclaw/workspace/skills/integration-orchestrator/integration_orchestrator.py income
+   ```
+
+2. Review the output for:
+   - Total Monthly Recurring Revenue (MRR)
+   - Individual stream performance
+   - Revenue breakdown by source
+   - Target achievement ($2,900 planned)
+
+3. Check `memory/income_streams.json` for updated tracking
+
+4. Update any revenue figures that have changed manually if automated tracking hasn't picked them up
+
+This review tracks AOE Alpha Signals, Avatar Packs, and CV Rewriting revenue."
+  },
+  "delivery": {
+    "mode": "none"
+  }
+}

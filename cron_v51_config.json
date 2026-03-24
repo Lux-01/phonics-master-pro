@@ -1,0 +1,56 @@
+{
+  "name": "Solana Alpha Hunter - Daily 9PM Scan v5.1",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 21 * * *",
+    "tz": "Australia/Sydney"
+  },
+  "sessionTarget": "isolated",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "🎯 **Daily 9PM Solana Alpha Hunter Scan - v5.1 Wallet Health Filter**
+
+Run the comprehensive micro-cap scan with wallet health checks:
+1. Execute `cd /home/skux/.openclaw/workspace && python3 solana_alpha_hunter_v51.py` (Wallet Health Edition)
+2. Scan Dex Screener for trending Solana tokens $10K-$250K MCAP
+3. Run security checks (RugCheck: LP lock, mint status, holder distribution, cluster risk)
+4. **NEW v5.1 Checks:** Wallet health filter (samples 10 wallets, checks SOL balance + age)
+5. Grade tokens (A+ through F scale - 16-point system)
+
+**CRITICAL v5.1 WALLET HEALTH FILTER:**
+- Sample 10 wallets per token (top holders + random)
+- Check: SOL balance < 0.1 = LOW | Wallet age < 7 days = NEW
+- If 80%+ unhealthy → F grade, auto-skip (shell wallet attack detected)
+
+**ALERT RULES:**
+- Grade A+ (14-16) or Grade A (11-13) candidates → Send Telegram alert to chat 6610224534
+- Grade F (wallet health fail) → Log but NO ALERT (auto-filtered)
+- v5.1 AUTO-SKIP: Honeypots, shell wallet attacks, repeat deployers
+- No candidates → No alert (stay quiet)
+
+**Telegram Format for Grade A/A+:**
+```
+🚨 ALPHA ALERT - [Grade]
+Token: [Name]
+CA: [Full CA]
+MCAP: $XXK → Target: $XXK (2x)
+Security: ✅/[flags]
+Wallet Health: XX%
+Volume: $XXK
+Action: BUY
+```
+
+Include contract addresses and wallet health percentage. Be concise.
+
+If scanner script fails, manually check:
+- Dex Screener trending Solana pairs
+- Filter: MCAP $10K-$250K
+- Verify: LP locked, mint revoked, top holders <30%
+- **NEW:** Check 5-10 random wallets for SOL balance and age
+- Score on 16-point scale (v5.1)
+- Alert only Grade A+ (14-16) or Grade A (11-13) with >50% wallet health"
+  },
+  "delivery": {
+    "mode": "none"
+  }
+}

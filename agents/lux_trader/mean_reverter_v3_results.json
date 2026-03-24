@@ -1,0 +1,16 @@
+{
+  "strategy": "Mean-Reverter v3.0",
+  "version": "3.0",
+  "improvements": [
+    "-8% threshold",
+    "3-tier exit",
+    "Add on dip",
+    "120 trades"
+  ],
+  "start": 1.0,
+  "end": 3018.3218820970633,
+  "multiplier": 3018.3218820970633,
+  "trades": 120,
+  "wins": 74,
+  "rugs": 0
+}

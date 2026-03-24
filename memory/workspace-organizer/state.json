@@ -1,0 +1,3570 @@
+{
+  "last_scan": "2026-03-09T04:12:01.533828",
+  "total_files": 501,
+  "categorized": {
+    "code": [
+      {
+        "path": "/home/skux/.openclaw/workspace/zauth_v22_corrected.py",
+        "name": "zauth_v22_corrected.py",
+        "size": 6307,
+        "modified": "2026-02-21T04:24:16.719253",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/pump_100k_scanner.py",
+        "name": "pump_100k_scanner.py",
+        "size": 8534,
+        "modified": "2026-03-05T01:59:31.301729",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/setup_deskmate_bridge.py",
+        "name": "setup_deskmate_bridge.py",
+        "size": 4302,
+        "modified": "2026-02-17T23:39:52.002130",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/test_raphael_v23.py",
+        "name": "test_raphael_v23.py",
+        "size": 2988,
+        "modified": "2026-02-24T21:46:11.047845",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_100k_v4.py",
+        "name": "scan_100k_v4.py",
+        "size": 5784,
+        "modified": "2026-03-05T22:42:05.557761",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cherry_detail_scan.py",
+        "name": "cherry_detail_scan.py",
+        "size": 4724,
+        "modified": "2026-03-04T08:33:19.257083",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18_v2.py",
+        "name": "backtest_feb18_v2.py",
+        "size": 35918,
+        "modified": "2026-02-19T23:04:01.252607",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/telegram_pump_scanner.py",
+        "name": "telegram_pump_scanner.py",
+        "size": 8089,
+        "modified": "2026-03-03T20:32:35.655160",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/debug_trader.py",
+        "name": "debug_trader.py",
+        "size": 1790,
+        "modified": "2026-02-22T23:31:22.470084",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb19.py",
+        "name": "backtest_feb19.py",
+        "size": 34067,
+        "modified": "2026-02-20T05:03:25.509016",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/luxbridge_sender.py",
+        "name": "luxbridge_sender.py",
+        "size": 5672,
+        "modified": "2026-02-17T23:20:42.974718",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trade_dip.py",
+        "name": "paper_trade_dip.py",
+        "size": 24262,
+        "modified": "2026-02-22T23:28:32.517718",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/meme_coin_trader.py",
+        "name": "meme_coin_trader.py",
+        "size": 14649,
+        "modified": "2026-02-22T23:28:43.569493",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18_realistic.py",
+        "name": "backtest_feb18_realistic.py",
+        "size": 22343,
+        "modified": "2026-02-19T23:13:47.668520",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_100k_potential.py",
+        "name": "scan_100k_potential.py",
+        "size": 4748,
+        "modified": "2026-03-05T22:39:19.832051",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter_v53.py",
+        "name": "solana_alpha_hunter_v53.py",
+        "size": 42362,
+        "modified": "2026-02-16T16:55:29.396990",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/quick_cherry_scan.py",
+        "name": "quick_cherry_scan.py",
+        "size": 2871,
+        "modified": "2026-03-04T08:31:47.706652",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter_v51.py",
+        "name": "solana_alpha_hunter_v51.py",
+        "size": 30953,
+        "modified": "2026-02-15T22:26:09.751557",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/twitter_pump_monitor.py",
+        "name": "twitter_pump_monitor.py",
+        "size": 3856,
+        "modified": "2026-03-03T20:31:52.756584",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/pump_group_tracker.py",
+        "name": "pump_group_tracker.py",
+        "size": 9160,
+        "modified": "2026-03-03T10:32:50.485849",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trader_sync.py",
+        "name": "paper_trader_sync.py",
+        "size": 24068,
+        "modified": "2026-02-19T15:48:45.701025",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18_correct.py",
+        "name": "backtest_feb18_correct.py",
+        "size": 21917,
+        "modified": "2026-02-19T23:10:40.800547",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/optimal_v2_choppy_sim.py",
+        "name": "optimal_v2_choppy_sim.py",
+        "size": 19528,
+        "modified": "2026-02-19T22:39:23.872858",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael_simulate_trades.py",
+        "name": "raphael_simulate_trades.py",
+        "size": 6597,
+        "modified": "2026-02-24T21:52:11.813465",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_full_oscillator_scan.py",
+        "name": "run_full_oscillator_scan.py",
+        "size": 5518,
+        "modified": "2026-03-03T08:20:13.748775",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/trading_agent_v2.py",
+        "name": "trading_agent_v2.py",
+        "size": 13100,
+        "modified": "2026-02-20T11:33:29.453243",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/test_dry_run.py",
+        "name": "test_dry_run.py",
+        "size": 2890,
+        "modified": "2026-02-24T21:46:32.838289",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael_v2_agent.py",
+        "name": "raphael_v2_agent.py",
+        "size": 18859,
+        "modified": "2026-02-21T03:02:55.048038",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_100k_alt.py",
+        "name": "scan_100k_alt.py",
+        "size": 5403,
+        "modified": "2026-03-05T22:40:27.778634",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_punch_real.py",
+        "name": "backtest_punch_real.py",
+        "size": 12961,
+        "modified": "2026-02-22T19:25:11.563552",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/optimal_v2_choppy_v2.py",
+        "name": "optimal_v2_choppy_v2.py",
+        "size": 24353,
+        "modified": "2026-02-19T22:41:41.212834",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_final.py",
+        "name": "backtest_final.py",
+        "size": 22381,
+        "modified": "2026-02-19T23:22:21.076352",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cherry_full_scan.py",
+        "name": "cherry_full_scan.py",
+        "size": 3497,
+        "modified": "2026-03-04T08:32:37.899766",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_scanner_v4.py",
+        "name": "alpha_scanner_v4.py",
+        "size": 4585,
+        "modified": "2026-02-15T03:33:09.724875",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter_v5.py",
+        "name": "solana_alpha_hunter_v5.py",
+        "size": 15638,
+        "modified": "2026-02-15T05:03:06.089199",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_dip_batch.py",
+        "name": "paper_dip_batch.py",
+        "size": 13981,
+        "modified": "2026-02-22T23:39:05.776325",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_v21.py",
+        "name": "backtest_v21.py",
+        "size": 7202,
+        "modified": "2026-02-21T03:53:56.075541",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/oscillator_scanner.py",
+        "name": "oscillator_scanner.py",
+        "size": 15952,
+        "modified": "2026-03-03T09:59:44.313745",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/telegram_alerts_daemon.py",
+        "name": "telegram_alerts_daemon.py",
+        "size": 2406,
+        "modified": "2026-02-20T11:33:53.141210",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_trending.py",
+        "name": "scan_trending.py",
+        "size": 8228,
+        "modified": "2026-02-15T04:15:38.431801",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer.py",
+        "name": "chart_analyzer.py",
+        "size": 27627,
+        "modified": "2026-03-03T05:52:49.598906",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trader_v2.py",
+        "name": "paper_trader_v2.py",
+        "size": 11824,
+        "modified": "2026-02-22T23:33:31.214609",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter_v54.py",
+        "name": "solana_alpha_hunter_v54.py",
+        "size": 13804,
+        "modified": "2026-02-17T23:22:45.496905",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_100k_v3.py",
+        "name": "scan_100k_v3.py",
+        "size": 6445,
+        "modified": "2026-03-05T22:41:17.241132",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trader_fast.py",
+        "name": "paper_trader_fast.py",
+        "size": 12279,
+        "modified": "2026-02-22T23:30:08.767308",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skylar_v2_agent.py",
+        "name": "skylar_v2_agent.py",
+        "size": 17190,
+        "modified": "2026-02-21T03:02:56.620037",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb19_1900_2100.py",
+        "name": "backtest_feb19_1900_2100.py",
+        "size": 26912,
+        "modified": "2026-02-20T09:39:53.090290",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter_v4.py",
+        "name": "solana_alpha_hunter_v4.py",
+        "size": 7669,
+        "modified": "2026-02-15T03:24:16.361720",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_v2.py",
+        "name": "liquidity_scalper_v2.py",
+        "size": 22350,
+        "modified": "2026-02-23T02:53:56.337781",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_paper_trader_fast.py",
+        "name": "adaptive_paper_trader_fast.py",
+        "size": 28797,
+        "modified": "2026-02-22T23:38:42.625149",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/wallet_tracker_info.py",
+        "name": "wallet_tracker_info.py",
+        "size": 1700,
+        "modified": "2026-03-03T10:34:05.797324",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_multi_token.py",
+        "name": "backtest_multi_token.py",
+        "size": 11302,
+        "modified": "2026-02-22T21:44:19.894784",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_hunter.py",
+        "name": "solana_alpha_hunter.py",
+        "size": 8022,
+        "modified": "2026-02-15T00:08:49.919920",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/structural_momentum_backtest.py",
+        "name": "structural_momentum_backtest.py",
+        "size": 24873,
+        "modified": "2026-02-23T03:36:36.317292",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/pyramid_backtest.py",
+        "name": "pyramid_backtest.py",
+        "size": 13736,
+        "modified": "2026-02-21T03:34:35.907663",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/optimal_v2_choppy_final.py",
+        "name": "optimal_v2_choppy_final.py",
+        "size": 18166,
+        "modified": "2026-02-19T22:44:07.488811",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/zauth_v22_backtest.py",
+        "name": "zauth_v22_backtest.py",
+        "size": 9911,
+        "modified": "2026-02-21T04:20:48.471271",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/optimal_v2_paper_trading.py",
+        "name": "optimal_v2_paper_trading.py",
+        "size": 22516,
+        "modified": "2026-02-19T20:33:59.066064",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/final_alpha_report.py",
+        "name": "final_alpha_report.py",
+        "size": 6495,
+        "modified": "2026-02-15T00:12:12.662077",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/smart_swing_v21_final.py",
+        "name": "smart_swing_v21_final.py",
+        "size": 8029,
+        "modified": "2026-02-21T03:55:35.739497",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trade_dip_v3.py",
+        "name": "paper_trade_dip_v3.py",
+        "size": 15427,
+        "modified": "2026-02-22T23:36:06.871690",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_edge_trader.js",
+        "name": "adaptive_edge_trader.js",
+        "size": 19757,
+        "modified": "2026-02-23T12:35:46.224761",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/send_telegram_alerts.py",
+        "name": "send_telegram_alerts.py",
+        "size": 4609,
+        "modified": "2026-02-15T21:10:38.447719",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trader_final.py",
+        "name": "paper_trader_final.py",
+        "size": 11506,
+        "modified": "2026-02-22T23:36:14.557900",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18.py",
+        "name": "backtest_feb18.py",
+        "size": 28078,
+        "modified": "2026-02-19T22:59:55.904645",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/wallet_lp_monitor.py",
+        "name": "wallet_lp_monitor.py",
+        "size": 10477,
+        "modified": "2026-02-25T00:11:03.773396",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/quick_lp_check.py",
+        "name": "quick_lp_check.py",
+        "size": 3055,
+        "modified": "2026-02-24T22:13:24.375376",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/zauth_v22_analysis.py",
+        "name": "zauth_v22_analysis.py",
+        "size": 6454,
+        "modified": "2026-02-21T04:22:42.999237",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_monitor.py",
+        "name": "aoe_monitor.py",
+        "size": 11558,
+        "modified": "2026-03-09T01:11:41.302107",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana_alpha_extended.py",
+        "name": "solana_alpha_extended.py",
+        "size": 8050,
+        "modified": "2026-02-15T00:10:30.572270",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18_fixed.py",
+        "name": "backtest_feb18_fixed.py",
+        "size": 20482,
+        "modified": "2026-02-19T23:16:51.140489",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_compare_strategies.py",
+        "name": "backtest_compare_strategies.py",
+        "size": 12630,
+        "modified": "2026-02-22T21:40:50.191018",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_backtest.py",
+        "name": "liquidity_scalper_backtest.py",
+        "size": 20255,
+        "modified": "2026-02-23T02:42:38.458534",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_punch_feb22.py",
+        "name": "backtest_punch_feb22.py",
+        "size": 12135,
+        "modified": "2026-02-22T19:03:36.961880",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/wallet_coordination_scanner.py",
+        "name": "wallet_coordination_scanner.py",
+        "size": 3017,
+        "modified": "2026-03-04T02:04:50.085936",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb18_final.py",
+        "name": "backtest_feb18_final.py",
+        "size": 31425,
+        "modified": "2026-02-19T23:07:39.176568",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trade_dip_v2.py",
+        "name": "paper_trade_dip_v2.py",
+        "size": 12734,
+        "modified": "2026-02-22T23:34:09.566297",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_paper_trader.py",
+        "name": "adaptive_paper_trader.py",
+        "size": 33554,
+        "modified": "2026-02-22T23:29:32.696476",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/wallet_lp_telegram.py",
+        "name": "wallet_lp_telegram.py",
+        "size": 3821,
+        "modified": "2026-02-24T22:12:32.909286",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/v55_chart_analyzer.py",
+        "name": "v55_chart_analyzer.py",
+        "size": 6424,
+        "modified": "2026-03-03T05:14:00.768190",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_feb20_0400_0800.py",
+        "name": "backtest_feb20_0400_0800.py",
+        "size": 29690,
+        "modified": "2026-02-20T08:36:36.598942",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_multi_run.py",
+        "name": "adaptive_multi_run.py",
+        "size": 22124,
+        "modified": "2026-02-22T23:44:19.440634",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_edge_monitor.js",
+        "name": "adaptive_edge_monitor.js",
+        "size": 6427,
+        "modified": "2026-02-23T12:37:58.791674",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cherry_wallet_tracker.py",
+        "name": "cherry_wallet_tracker.py",
+        "size": 9421,
+        "modified": "2026-03-04T08:30:56.650888",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_100k_v5.py",
+        "name": "scan_100k_v5.py",
+        "size": 5248,
+        "modified": "2026-03-05T22:43:39.016326",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_pump_coins.py",
+        "name": "liquidity_scalper_pump_coins.py",
+        "size": 24194,
+        "modified": "2026-02-23T03:01:37.542091",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/early_entry_monitor.py",
+        "name": "early_entry_monitor.py",
+        "size": 14249,
+        "modified": "2026-03-02T01:07:39.493919",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/demo_bridge.py",
+        "name": "demo_bridge.py",
+        "size": 3011,
+        "modified": "2026-02-17T23:36:04.522279",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/pump_group_alerts.py",
+        "name": "pump_group_alerts.py",
+        "size": 2660,
+        "modified": "2026-03-03T20:34:11.559139",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/find_100k_pumps.py",
+        "name": "find_100k_pumps.py",
+        "size": 8292,
+        "modified": "2026-03-05T02:02:28.021224",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trader.py",
+        "name": "paper_trader.py",
+        "size": 26681,
+        "modified": "2026-02-19T15:46:30.597063",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/check_trading_status.py",
+        "name": "check_trading_status.py",
+        "size": 2874,
+        "modified": "2026-02-20T11:34:23.545230",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/swing_trade2.2_agent.py",
+        "name": "swing_trade2.2_agent.py",
+        "size": 5135,
+        "modified": "2026-02-21T04:40:44.131015",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/include/Input.h",
+        "name": "Input.h",
+        "size": 1637,
+        "modified": "2026-02-22T05:35:29.442271",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/include/Skeleton.h",
+        "name": "Skeleton.h",
+        "size": 830,
+        "modified": "2026-02-22T05:37:11.641264",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/include/Window.h",
+        "name": "Window.h",
+        "size": 2104,
+        "modified": "2026-02-22T05:31:53.889780",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/include/Renderer.h",
+        "name": "Renderer.h",
+        "size": 1948,
+        "modified": "2026-02-22T05:32:24.549100",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/include/GLBLoader.h",
+        "name": "GLBLoader.h",
+        "size": 2368,
+        "modified": "2026-02-22T05:32:55.266365",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/Renderer.cpp",
+        "name": "Renderer.cpp",
+        "size": 6046,
+        "modified": "2026-02-22T05:36:10.492879",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/Input.cpp",
+        "name": "Input.cpp",
+        "size": 4943,
+        "modified": "2026-02-22T05:38:12.496631",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/GLBLoader.cpp",
+        "name": "GLBLoader.cpp",
+        "size": 8090,
+        "modified": "2026-02-22T05:37:06.154275",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/Window.cpp",
+        "name": "Window.cpp",
+        "size": 7805,
+        "modified": "2026-02-22T05:34:50.405317",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/Skeleton.cpp",
+        "name": "Skeleton.cpp",
+        "size": 1143,
+        "modified": "2026-02-22T05:37:28.859126",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/src/main.cpp",
+        "name": "main.cpp",
+        "size": 6744,
+        "modified": "2026-02-22T05:33:59.073737",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/execute_all_trades.py",
+        "name": "execute_all_trades.py",
+        "size": 7645,
+        "modified": "2026-02-23T23:14:47.713264",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/raphael_rugcheck.py",
+        "name": "raphael_rugcheck.py",
+        "size": 4203,
+        "modified": "2026-02-23T23:06:48.694918",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/execute_trade_v2.py",
+        "name": "execute_trade_v2.py",
+        "size": 4506,
+        "modified": "2026-02-23T23:13:22.520193",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/execute_trade.py",
+        "name": "execute_trade.py",
+        "size": 4978,
+        "modified": "2026-02-23T23:12:36.219141",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/birdeye_trader.js",
+        "name": "birdeye_trader.js",
+        "size": 7876,
+        "modified": "2026-02-21T22:15:34.960929",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/swing_bot_fixed.js",
+        "name": "swing_bot_fixed.js",
+        "size": 21087,
+        "modified": "2026-02-22T03:45:05.255020",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/jupiter_swap_test.js",
+        "name": "jupiter_swap_test.js",
+        "size": 5346,
+        "modified": "2026-02-21T23:55:00.291670",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/raydium_trader.js",
+        "name": "raydium_trader.js",
+        "size": 7277,
+        "modified": "2026-02-21T22:14:30.787285",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/smoke_test_live.js",
+        "name": "smoke_test_live.js",
+        "size": 7767,
+        "modified": "2026-02-23T13:21:49.784975",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/jupiter_debug.js",
+        "name": "jupiter_debug.js",
+        "size": 2301,
+        "modified": "2026-02-21T23:34:55.096325",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/swing_bot_v2.3.js",
+        "name": "swing_bot_v2.3.js",
+        "size": 29027,
+        "modified": "2026-02-23T03:16:52.346648",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/jupiter_trader.js",
+        "name": "jupiter_trader.js",
+        "size": 12780,
+        "modified": "2026-02-21T23:54:46.347282",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/skylar_5trades.js",
+        "name": "skylar_5trades.js",
+        "size": 13932,
+        "modified": "2026-02-27T20:51:09.443655",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/price_monitor.js",
+        "name": "price_monitor.js",
+        "size": 4510,
+        "modified": "2026-02-21T21:31:51.659029",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/jupiter_tester.js",
+        "name": "jupiter_tester.js",
+        "size": 1506,
+        "modified": "2026-02-21T23:15:51.421578",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trader.js",
+        "name": "trader.js",
+        "size": 13266,
+        "modified": "2026-02-21T21:04:54.241385",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/execute_live_swap.js",
+        "name": "execute_live_swap.js",
+        "size": 5582,
+        "modified": "2026-02-23T23:30:20.726480",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/swing_bot.js",
+        "name": "swing_bot.js",
+        "size": 24550,
+        "modified": "2026-02-22T03:55:21.908895",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/monitor_server.js",
+        "name": "monitor_server.js",
+        "size": 6669,
+        "modified": "2026-02-22T22:24:52.780215",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/monitor.js",
+        "name": "monitor.js",
+        "size": 15110,
+        "modified": "2026-02-22T02:00:30.217574",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/test_live.py",
+        "name": "test_live.py",
+        "size": 1941,
+        "modified": "2026-03-09T03:37:03.858077",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/scorer.py",
+        "name": "scorer.py",
+        "size": 17016,
+        "modified": "2026-03-09T03:28:03.961301",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/scanner_dexscreener.py",
+        "name": "scanner_dexscreener.py",
+        "size": 5197,
+        "modified": "2026-03-09T03:37:35.830264",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/token_pipeline.py",
+        "name": "token_pipeline.py",
+        "size": 16708,
+        "modified": "2026-03-09T03:16:54.460708",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/scanner_base.py",
+        "name": "scanner_base.py",
+        "size": 6465,
+        "modified": "2026-03-09T03:11:44.611572",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/scanner_pumpfun.py",
+        "name": "scanner_pumpfun.py",
+        "size": 3916,
+        "modified": "2026-03-09T03:36:28.009581",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/scanner_birdeye.py",
+        "name": "scanner_birdeye.py",
+        "size": 9554,
+        "modified": "2026-03-09T03:13:34.763645",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/alerts.py",
+        "name": "alerts.py",
+        "size": 14034,
+        "modified": "2026-03-09T03:28:03.981120",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/main.py",
+        "name": "main.py",
+        "size": 11163,
+        "modified": "2026-03-09T03:33:32.898412",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/tests/test_aoe.py",
+        "name": "test_aoe.py",
+        "size": 8151,
+        "modified": "2026-03-09T03:32:09.430036",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/rugchecker.py",
+        "name": "rugchecker.py",
+        "size": 9599,
+        "modified": "2026-02-23T21:07:45.418839",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/simple_monitor.py",
+        "name": "simple_monitor.py",
+        "size": 7201,
+        "modified": "2026-02-24T00:42:20.259393",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_rugcheck.py",
+        "name": "raphael_rugcheck.py",
+        "size": 5036,
+        "modified": "2026-02-23T21:11:37.611472",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_trader.py",
+        "name": "raphael_trader.py",
+        "size": 15533,
+        "modified": "2026-02-24T15:33:51.257305",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/test_manual_trade.py",
+        "name": "test_manual_trade.py",
+        "size": 2270,
+        "modified": "2026-02-24T00:09:08.563901",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_autotrader_v2.py",
+        "name": "raphael_autotrader_v2.py",
+        "size": 48834,
+        "modified": "2026-02-25T02:38:40.357079",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_backtest_v23.py",
+        "name": "raphael_backtest_v23.py",
+        "size": 18898,
+        "modified": "2026-02-24T21:50:48.120605",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/monitor_v3.py",
+        "name": "monitor_v3.py",
+        "size": 16071,
+        "modified": "2026-02-23T23:49:59.005131",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/monitor_v5.py",
+        "name": "monitor_v5.py",
+        "size": 11783,
+        "modified": "2026-02-25T14:18:28.529487",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_supervisor.py",
+        "name": "raphael_supervisor.py",
+        "size": 2505,
+        "modified": "2026-02-24T21:45:58.063643",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/monitor_bridge.js",
+        "name": "monitor_bridge.js",
+        "size": 10660,
+        "modified": "2026-02-23T14:20:15.792090",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/raphael_autotrader.py",
+        "name": "raphael_autotrader.py",
+        "size": 34723,
+        "modified": "2026-02-25T20:31:08.207129",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/monitor_v4.py",
+        "name": "monitor_v4.py",
+        "size": 22556,
+        "modified": "2026-02-25T14:11:16.249472",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_position_monitor.js",
+        "name": "skylar_position_monitor.js",
+        "size": 11415,
+        "modified": "2026-02-28T01:38:57.415237",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_paper_trader_live.py",
+        "name": "skylar_paper_trader_live.py",
+        "size": 22016,
+        "modified": "2026-02-27T17:41:23.323933",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_autosell.js",
+        "name": "skylar_autosell.js",
+        "size": 11572,
+        "modified": "2026-02-28T01:48:03.795775",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_paper_24h_fast.py",
+        "name": "skylar_paper_24h_fast.py",
+        "size": 16170,
+        "modified": "2026-02-27T17:42:28.822548",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_manual_list.js",
+        "name": "skylar_manual_list.js",
+        "size": 19038,
+        "modified": "2026-02-28T03:56:11.615948",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_live_5trades.py",
+        "name": "skylar_live_5trades.py",
+        "size": 7296,
+        "modified": "2026-02-27T20:40:02.374917",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_continuous.js",
+        "name": "skylar_continuous.js",
+        "size": 16220,
+        "modified": "2026-02-28T01:56:44.844517",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_live_demo.py",
+        "name": "skylar_live_demo.py",
+        "size": 6778,
+        "modified": "2026-02-27T20:40:44.660734",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_live_trader.py",
+        "name": "skylar_live_trader.py",
+        "size": 20758,
+        "modified": "2026-02-27T20:39:04.105459",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_balance_test.py",
+        "name": "skylar_balance_test.py",
+        "size": 15831,
+        "modified": "2026-02-27T16:50:55.368696",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/check_all_trades.py",
+        "name": "check_all_trades.py",
+        "size": 3143,
+        "modified": "2026-02-27T21:30:42.151853",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_custom_v3.js",
+        "name": "skylar_custom_v3.js",
+        "size": 20145,
+        "modified": "2026-02-28T02:43:44.168949",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/check_live_pnl.py",
+        "name": "check_live_pnl.py",
+        "size": 3559,
+        "modified": "2026-02-27T21:04:00.973457",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_continuous_v2.js",
+        "name": "skylar_continuous_v2.js",
+        "size": 14850,
+        "modified": "2026-02-28T02:14:30.960810",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_position_tracker.py",
+        "name": "skylar_position_tracker.py",
+        "size": 4121,
+        "modified": "2026-02-27T21:03:40.470853",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_strategy.py",
+        "name": "skylar_strategy.py",
+        "size": 21496,
+        "modified": "2026-02-27T16:35:22.955045",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/check_positions_phantom.py",
+        "name": "check_positions_phantom.py",
+        "size": 7065,
+        "modified": "2026-02-27T21:34:59.837866",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_v3_real.js",
+        "name": "skylar_v3_real.js",
+        "size": 19128,
+        "modified": "2026-02-28T03:17:31.428297",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_final_rules_test.py",
+        "name": "skylar_final_rules_test.py",
+        "size": 18764,
+        "modified": "2026-02-27T17:31:40.608800",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_copy_strategy.py",
+        "name": "wallet_copy_strategy.py",
+        "size": 17482,
+        "modified": "2026-03-05T22:53:55.273773",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_whale/whale_tracker_skylar.py",
+        "name": "whale_tracker_skylar.py",
+        "size": 18880,
+        "modified": "2026-03-07T20:46:35.597214",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_whale/run_tracker.py",
+        "name": "run_tracker.py",
+        "size": 6384,
+        "modified": "2026-03-07T20:35:27.689282",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/demo.js",
+        "name": "demo.js",
+        "size": 2110,
+        "modified": "2026-02-28T05:07:52.326434",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/bridge/avatar_controller.js",
+        "name": "avatar_controller.js",
+        "size": 6625,
+        "modified": "2026-03-01T19:06:31.137903",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/bridge/openclaw_integration.js",
+        "name": "openclaw_integration.js",
+        "size": 4882,
+        "modified": "2026-03-01T19:07:11.948256",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/bridge/lux_bridge.js",
+        "name": "lux_bridge.js",
+        "size": 5157,
+        "modified": "2026-02-28T05:07:00.217243",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/src/main.js",
+        "name": "main.js",
+        "size": 4377,
+        "modified": "2026-02-28T05:05:27.293599",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/research-synthesizer/research_synthesizer.py",
+        "name": "research_synthesizer.py",
+        "size": 11383,
+        "modified": "2026-03-09T04:08:51.513903",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/integration-orchestrator/integration_orchestrator.py",
+        "name": "integration_orchestrator.py",
+        "size": 16554,
+        "modified": "2026-03-09T03:48:40.319091",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/workspace-organizer/workspace_organizer.py",
+        "name": "workspace_organizer.py",
+        "size": 11574,
+        "modified": "2026-03-09T04:08:00.580065",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/memory-manager/memory_manager.py",
+        "name": "memory_manager.py",
+        "size": 10823,
+        "modified": "2026-03-09T04:11:33.949437",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/event-bus/event_bus.py",
+        "name": "event_bus.py",
+        "size": 12430,
+        "modified": "2026-03-09T03:42:31.077375",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/skill-activation-manager/activation_manager.py",
+        "name": "activation_manager.py",
+        "size": 10846,
+        "modified": "2026-03-09T03:42:31.018050",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/income-optimizer/income_tracker.py",
+        "name": "income_tracker.py",
+        "size": 9859,
+        "modified": "2026-03-09T03:42:31.049690",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/decision-log/decision_log.py",
+        "name": "decision_log.py",
+        "size": 8442,
+        "modified": "2026-03-09T04:06:03.053034",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/code-evolution-tracker/code_evolution_tracker.py",
+        "name": "code_evolution_tracker.py",
+        "size": 10434,
+        "modified": "2026-03-09T04:10:31.524597",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/context-optimizer/context_optimizer.py",
+        "name": "context_optimizer.py",
+        "size": 7100,
+        "modified": "2026-03-09T04:04:58.944886",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/tool-orchestrator/tool_orchestrator.py",
+        "name": "tool_orchestrator.py",
+        "size": 10634,
+        "modified": "2026-03-09T04:09:46.289101",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/chart_pattern_analyzer.py",
+        "name": "chart_pattern_analyzer.py",
+        "size": 14498,
+        "modified": "2026-02-18T17:54:55.205902",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/chart_pattern_analyzer_pro.py",
+        "name": "chart_pattern_analyzer_pro.py",
+        "size": 47330,
+        "modified": "2026-02-18T18:00:27.589775",
+        "category": "code"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/chart_analyzer_simple.py",
+        "name": "chart_analyzer_simple.py",
+        "size": 17437,
+        "modified": "2026-02-18T23:08:30.013479",
+        "category": "code"
+      }
+    ],
+    "config": [
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_pump_results.json",
+        "name": "liquidity_scalper_pump_results.json",
+        "size": 106364,
+        "modified": "2026-02-23T03:01:56.184211",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cron_v51_config.json",
+        "name": "cron_v51_config.json",
+        "size": 1945,
+        "modified": "2026-02-15T17:45:24.618263",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results_v54.json",
+        "name": "alpha_results_v54.json",
+        "size": 18524,
+        "modified": "2026-02-18T17:04:30.064403",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_results.json",
+        "name": "liquidity_scalper_results.json",
+        "size": 7771,
+        "modified": "2026-02-23T02:42:58.875014",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/pyramid_results.json",
+        "name": "pyramid_results.json",
+        "size": 2496,
+        "modified": "2026-02-21T03:34:38.367670",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/narrative_trends.json",
+        "name": "narrative_trends.json",
+        "size": 164,
+        "modified": "2026-02-17T22:10:08.218706",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results_v53.json",
+        "name": "alpha_results_v53.json",
+        "size": 5468,
+        "modified": "2026-02-18T17:04:28.088111",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/swing_trade2.2_config.json",
+        "name": "swing_trade2.2_config.json",
+        "size": 1172,
+        "modified": "2026-02-21T20:57:19.969373",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_results_20260222_123856.json",
+        "name": "adaptive_results_20260222_123856.json",
+        "size": 20778,
+        "modified": "2026-02-22T23:38:56.539920",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/liquidity_scalper_7coin_results.json",
+        "name": "liquidity_scalper_7coin_results.json",
+        "size": 27105,
+        "modified": "2026-02-23T02:54:16.406016",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results_v51.json",
+        "name": "alpha_results_v51.json",
+        "size": 8015,
+        "modified": "2026-03-08T21:00:30.437514",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results_v5.json",
+        "name": "alpha_results_v5.json",
+        "size": 6179,
+        "modified": "2026-02-15T17:30:06.408175",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/structural_momentum_results.json",
+        "name": "structural_momentum_results.json",
+        "size": 1385,
+        "modified": "2026-02-23T03:37:12.843997",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results_v55.json",
+        "name": "alpha_results_v55.json",
+        "size": 20358,
+        "modified": "2026-03-06T16:38:13.375885",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_aggregated_20260222_124427.json",
+        "name": "adaptive_aggregated_20260222_124427.json",
+        "size": 44687,
+        "modified": "2026-02-22T23:44:27.567982",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_summary.json",
+        "name": "backtest_summary.json",
+        "size": 124,
+        "modified": "2026-02-24T21:51:11.520659",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_results_20260222_123848.json",
+        "name": "adaptive_results_20260222_123848.json",
+        "size": 17725,
+        "modified": "2026-02-22T23:38:48.964850",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/tracked_tokens.json",
+        "name": "tracked_tokens.json",
+        "size": 41964,
+        "modified": "2026-02-18T17:04:30.060402",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trade_results.json",
+        "name": "paper_trade_results.json",
+        "size": 196,
+        "modified": "2026-02-22T23:39:08.243057",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cron_skill_activation_audit.json",
+        "name": "cron_skill_activation_audit.json",
+        "size": 875,
+        "modified": "2026-03-09T03:50:32.150789",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/cron_monthly_income_review.json",
+        "name": "cron_monthly_income_review.json",
+        "size": 967,
+        "modified": "2026-03-09T03:50:32.166762",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/telegram_pump_groups_20260303.json",
+        "name": "telegram_pump_groups_20260303.json",
+        "size": 967,
+        "modified": "2026-03-03T20:34:43.890790",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_results.json",
+        "name": "alpha_results.json",
+        "size": 8338,
+        "modified": "2026-02-15T04:16:03.401178",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/backtest_results_v23.json",
+        "name": "backtest_results_v23.json",
+        "size": 2497,
+        "modified": "2026-02-24T21:52:15.844883",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/venv/pyvenv.cfg",
+        "name": "pyvenv.cfg",
+        "size": 174,
+        "modified": "2026-02-23T02:38:02.721251",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/live_test_summary.json",
+        "name": "live_test_summary.json",
+        "size": 313,
+        "modified": "2026-02-23T23:15:06.938989",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trade_log.json",
+        "name": "trade_log.json",
+        "size": 161,
+        "modified": "2026-02-23T23:11:29.295414",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trades/trade_05_WIF.json",
+        "name": "trade_05_WIF.json",
+        "size": 503,
+        "modified": "2026-02-23T23:15:06.094404",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trades/trade_01_SOL.json",
+        "name": "trade_01_SOL.json",
+        "size": 502,
+        "modified": "2026-02-23T23:14:52.931584",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trades/trade_02_JUP.json",
+        "name": "trade_02_JUP.json",
+        "size": 509,
+        "modified": "2026-02-23T23:14:57.739618",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trades/trade_04_RAY.json",
+        "name": "trade_04_RAY.json",
+        "size": 500,
+        "modified": "2026-02-23T23:15:03.584111",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/trades/trade_03_SOL.json",
+        "name": "trade_03_SOL.json",
+        "size": 520,
+        "modified": "2026-02-23T23:15:00.256603",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/monitor_state.json",
+        "name": "monitor_state.json",
+        "size": 274,
+        "modified": "2026-02-22T22:06:25.661616",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/config.json",
+        "name": "config.json",
+        "size": 1172,
+        "modified": "2026-02-21T20:57:22.613251",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/package-lock.json",
+        "name": "package-lock.json",
+        "size": 36600,
+        "modified": "2026-02-28T01:46:29.964116",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/package.json",
+        "name": "package.json",
+        "size": 531,
+        "modified": "2026-02-21T23:40:22.128120",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/smoke_test_results.json",
+        "name": "smoke_test_results.json",
+        "size": 386,
+        "modified": "2026-02-23T13:23:34.225039",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/blacklist.json",
+        "name": "blacklist.json",
+        "size": 2,
+        "modified": "2026-02-23T00:49:54.592588",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/swing_session_2026-02-22.json",
+        "name": "swing_session_2026-02-22.json",
+        "size": 712,
+        "modified": "2026-02-23T00:49:58.391161",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/swing_session_2026-02-21.json",
+        "name": "swing_session_2026-02-21.json",
+        "size": 647,
+        "modified": "2026-02-22T02:26:12.221861",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/trade_pump1_20260222.json",
+        "name": "trade_pump1_20260222.json",
+        "size": 551,
+        "modified": "2026-02-22T03:06:00.274858",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/session_stats.json",
+        "name": "session_stats.json",
+        "size": 310,
+        "modified": "2026-02-23T03:07:48.422665",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/current_position.json",
+        "name": "current_position.json",
+        "size": 4,
+        "modified": "2026-02-23T03:24:10.736131",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/data/token_cache.json",
+        "name": "token_cache.json",
+        "size": 238,
+        "modified": "2026-03-09T03:37:40.854022",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/v22_trades.json",
+        "name": "v22_trades.json",
+        "size": 47283,
+        "modified": "2026-02-25T03:05:11.591393",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/trade_log.json",
+        "name": "trade_log.json",
+        "size": 2075,
+        "modified": "2026-02-23T14:27:40.825033",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/state.json",
+        "name": "state.json",
+        "size": 1706,
+        "modified": "2026-02-23T14:27:40.821075",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_live_trades_result.json",
+        "name": "skylar_live_trades_result.json",
+        "size": 1424,
+        "modified": "2026-02-27T20:40:48.847372",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_5month_balance.json",
+        "name": "skylar_5month_balance.json",
+        "size": 191438,
+        "modified": "2026-02-27T16:50:58.440583",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_paper_24h_results.json",
+        "name": "skylar_paper_24h_results.json",
+        "size": 34798,
+        "modified": "2026-02-27T17:42:31.102352",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_active.json",
+        "name": "skylar_active.json",
+        "size": 1553,
+        "modified": "2026-02-28T01:57:56.835181",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_balance_trades.json",
+        "name": "skylar_balance_trades.json",
+        "size": 43044,
+        "modified": "2026-02-27T16:45:47.207093",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_exit_tracker.json",
+        "name": "skylar_exit_tracker.json",
+        "size": 1951,
+        "modified": "2026-02-27T21:03:46.059744",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_4month_backtest.json",
+        "name": "skylar_4month_backtest.json",
+        "size": 322372,
+        "modified": "2026-02-27T16:39:38.013271",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_2month_backtest.json",
+        "name": "skylar_2month_backtest.json",
+        "size": 152150,
+        "modified": "2026-02-27T16:35:27.023904",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_learning_log.json",
+        "name": "skylar_learning_log.json",
+        "size": 5934,
+        "modified": "2026-03-06T16:38:09.485157",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_finalrules_1month.json",
+        "name": "skylar_finalrules_1month.json",
+        "size": 75229,
+        "modified": "2026-02-27T17:31:43.649700",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_state_v3.json",
+        "name": "skylar_state_v3.json",
+        "size": 59,
+        "modified": "2026-02-28T03:47:19.506874",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/package-lock.json",
+        "name": "package-lock.json",
+        "size": 34657,
+        "modified": "2026-02-28T01:46:49.303366",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_live_executed.json",
+        "name": "skylar_live_executed.json",
+        "size": 2687,
+        "modified": "2026-02-27T20:51:43.297300",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_trades.json",
+        "name": "skylar_trades.json",
+        "size": 322372,
+        "modified": "2026-02-27T16:39:37.990121",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/package.json",
+        "name": "package.json",
+        "size": 334,
+        "modified": "2026-02-28T01:46:49.240593",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_state.json",
+        "name": "skylar_state.json",
+        "size": 1741,
+        "modified": "2026-02-28T02:35:17.944069",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_tracker_state.json",
+        "name": "wallet_tracker_state.json",
+        "size": 1051,
+        "modified": "2026-03-05T22:54:32.640777",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/config.json",
+        "name": "config.json",
+        "size": 805,
+        "modified": "2026-03-05T22:54:25.476748",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_whale/whale_config.json",
+        "name": "whale_config.json",
+        "size": 1287,
+        "modified": "2026-03-07T20:46:59.081285",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/package-lock.json",
+        "name": "package-lock.json",
+        "size": 169550,
+        "modified": "2026-02-28T05:12:23.918102",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/package.json",
+        "name": "package.json",
+        "size": 825,
+        "modified": "2026-02-28T05:12:22.741348",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/skill_activation_state.json",
+        "name": "skill_activation_state.json",
+        "size": 596,
+        "modified": "2026-03-09T03:48:50.366418",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/aoe_state.json",
+        "name": "aoe_state.json",
+        "size": 87,
+        "modified": "2026-03-09T01:11:54.632834",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/heartbeat-state.json",
+        "name": "heartbeat-state.json",
+        "size": 386,
+        "modified": "2026-02-25T05:52:40.777382",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/moltbook_state.json",
+        "name": "moltbook_state.json",
+        "size": 432,
+        "modified": "2026-03-08T22:24:59.853446",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/income_streams.json",
+        "name": "income_streams.json",
+        "size": 506,
+        "modified": "2026-03-09T03:48:50.378382",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/aoe_config.json",
+        "name": "aoe_config.json",
+        "size": 1198,
+        "modified": "2026-03-09T01:12:05.544792",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/seen_tokens.json",
+        "name": "seen_tokens.json",
+        "size": 2,
+        "modified": "2026-03-04T22:43:44.316201",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/aoe_queue.json",
+        "name": "aoe_queue.json",
+        "size": 72,
+        "modified": "2026-03-09T01:11:54.632834",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/decisions/decisions.json",
+        "name": "decisions.json",
+        "size": 346,
+        "modified": "2026-03-09T04:12:00.990545",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/decisions/index.json",
+        "name": "index.json",
+        "size": 173,
+        "modified": "2026-03-09T04:12:00.990545",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/context-optimizer/state.json",
+        "name": "state.json",
+        "size": 479,
+        "modified": "2026-03-09T04:12:00.854759",
+        "category": "config"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/income/income_streams.json",
+        "name": "income_streams.json",
+        "size": 3553,
+        "modified": "2026-03-09T02:44:46.745931",
+        "category": "config"
+      }
+    ],
+    "docs": [
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_template_v3_enhanced.md",
+        "name": "scan_template_v3_enhanced.md",
+        "size": 6315,
+        "modified": "2026-02-15T01:39:11.149357",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/BOOTSTRAP.md",
+        "name": "BOOTSTRAP.md",
+        "size": 1470,
+        "modified": "2026-02-14T22:20:53.441486",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/BACKTEST_REPORT_v23.md",
+        "name": "BACKTEST_REPORT_v23.md",
+        "size": 4801,
+        "modified": "2026-02-24T21:52:56.553282",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/IDENTITY.md",
+        "name": "IDENTITY.md",
+        "size": 398,
+        "modified": "2026-02-14T23:04:35.584321",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/TOOLS.md",
+        "name": "TOOLS.md",
+        "size": 1528,
+        "modified": "2026-02-22T19:18:32.662956",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/BRIDGE_README.md",
+        "name": "BRIDGE_README.md",
+        "size": 4512,
+        "modified": "2026-02-17T23:41:38.792777",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_week3_summary.md",
+        "name": "jan_week3_summary.md",
+        "size": 7826,
+        "modified": "2026-02-23T21:50:11.979029",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/USER.md",
+        "name": "USER.md",
+        "size": 578,
+        "modified": "2026-02-15T05:33:54.613828",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/HELIUS_SETUP.md",
+        "name": "HELIUS_SETUP.md",
+        "size": 2050,
+        "modified": "2026-02-21T23:46:31.197661",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trade_summary.md",
+        "name": "paper_trade_summary.md",
+        "size": 3607,
+        "modified": "2026-02-22T23:39:48.683621",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_backtest_final_summary.md",
+        "name": "jan_backtest_final_summary.md",
+        "size": 8449,
+        "modified": "2026-02-23T21:54:33.263385",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_hunter_scan_20260215.md",
+        "name": "alpha_hunter_scan_20260215.md",
+        "size": 5608,
+        "modified": "2026-02-15T03:35:21.746692",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-wallet-checker.md",
+        "name": "solana-wallet-checker.md",
+        "size": 2553,
+        "modified": "2026-02-15T15:54:25.841388",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/optimal_v2_analysis.md",
+        "name": "optimal_v2_analysis.md",
+        "size": 3986,
+        "modified": "2026-02-19T20:34:25.886024",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_template_with_clustering.md",
+        "name": "scan_template_with_clustering.md",
+        "size": 4224,
+        "modified": "2026-02-15T01:20:06.669480",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/DESKMATE_SETUP.md",
+        "name": "DESKMATE_SETUP.md",
+        "size": 4008,
+        "modified": "2026-02-17T23:21:52.744747",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_template.md",
+        "name": "scan_template.md",
+        "size": 2117,
+        "modified": "2026-02-15T00:56:06.367778",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_week2_summary.md",
+        "name": "jan_week2_summary.md",
+        "size": 7785,
+        "modified": "2026-02-23T21:47:51.086139",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/TELEGRAM_CONFIG.md",
+        "name": "TELEGRAM_CONFIG.md",
+        "size": 226,
+        "modified": "2026-02-18T17:08:52.194343",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_week4_summary.md",
+        "name": "jan_week4_summary.md",
+        "size": 11841,
+        "modified": "2026-02-23T21:50:11.994751",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/ADAPTIVE_RESULTS_REPORT.md",
+        "name": "ADAPTIVE_RESULTS_REPORT.md",
+        "size": 5340,
+        "modified": "2026-02-22T23:45:26.428794",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_vs_feb_comparison.md",
+        "name": "jan_vs_feb_comparison.md",
+        "size": 10686,
+        "modified": "2026-02-23T21:52:28.574764",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael_rule_compliance.md",
+        "name": "raphael_rule_compliance.md",
+        "size": 3461,
+        "modified": "2026-02-24T21:29:41.829063",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/paper_trading_report.md",
+        "name": "paper_trading_report.md",
+        "size": 3589,
+        "modified": "2026-02-22T23:37:05.019562",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/HEARTBEAT.md",
+        "name": "HEARTBEAT.md",
+        "size": 1560,
+        "modified": "2026-02-22T18:49:50.431582",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael_jan_2026_31day_backtest.md",
+        "name": "raphael_jan_2026_31day_backtest.md",
+        "size": 16905,
+        "modified": "2026-02-23T21:45:49.208722",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/ADAPTIVE_EDGE_README.md",
+        "name": "ADAPTIVE_EDGE_README.md",
+        "size": 4644,
+        "modified": "2026-02-23T12:39:00.367977",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/MEMORY.md",
+        "name": "MEMORY.md",
+        "size": 25863,
+        "modified": "2026-03-09T02:54:47.404726",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/trading_logic.md",
+        "name": "trading_logic.md",
+        "size": 89592,
+        "modified": "2026-02-23T12:14:56.657301",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/RAPHAEL_LIVE_DEPLOYMENT.md",
+        "name": "RAPHAEL_LIVE_DEPLOYMENT.md",
+        "size": 5726,
+        "modified": "2026-02-23T22:25:23.376133",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/RAPHAEL_BUGFIXES.md",
+        "name": "RAPHAEL_BUGFIXES.md",
+        "size": 4033,
+        "modified": "2026-02-25T05:52:30.696612",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_scan_report_2025-02-15.md",
+        "name": "alpha_scan_report_2025-02-15.md",
+        "size": 12796,
+        "modified": "2026-02-15T01:48:07.876602",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_week1_summary.md",
+        "name": "jan_week1_summary.md",
+        "size": 6302,
+        "modified": "2026-02-23T21:47:51.066487",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_template_v4_social.md",
+        "name": "scan_template_v4_social.md",
+        "size": 2560,
+        "modified": "2026-02-15T03:22:19.971437",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/jan_mistakes_to_avoid.md",
+        "name": "jan_mistakes_to_avoid.md",
+        "size": 10369,
+        "modified": "2026-02-23T21:52:28.559044",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/AGENTS.md",
+        "name": "AGENTS.md",
+        "size": 7869,
+        "modified": "2026-02-14T22:20:53.429341",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/SOUL.md",
+        "name": "SOUL.md",
+        "size": 1673,
+        "modified": "2026-02-14T22:20:53.429341",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/CMakeLists.txt",
+        "name": "CMakeLists.txt",
+        "size": 1210,
+        "modified": "2026-02-22T05:31:10.573954",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/README.md",
+        "name": "README.md",
+        "size": 3218,
+        "modified": "2026-02-22T05:35:13.066873",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/PROJECT_SUMMARY.md",
+        "name": "PROJECT_SUMMARY.md",
+        "size": 5897,
+        "modified": "2026-02-22T05:39:37.746249",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/WINDOWS_BUILD.md",
+        "name": "WINDOWS_BUILD.md",
+        "size": 4053,
+        "modified": "2026-02-22T11:39:24.797175",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/STRATEGY.md",
+        "name": "STRATEGY.md",
+        "size": 1688,
+        "modified": "2026-02-23T23:06:48.372918",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/SETUP_GUIDE.md",
+        "name": "SETUP_GUIDE.md",
+        "size": 8659,
+        "modified": "2026-02-21T04:55:14.522903",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/STRATEGY.md",
+        "name": "STRATEGY.md",
+        "size": 16326,
+        "modified": "2026-02-23T21:53:54.958304",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/raphael_session_2026-02-23.md",
+        "name": "raphael_session_2026-02-23.md",
+        "size": 3928,
+        "modified": "2026-02-23T15:39:55.998443",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/backtest_logs/week1_summary.md",
+        "name": "week1_summary.md",
+        "size": 3509,
+        "modified": "2026-02-23T21:31:08.281571",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/backtest_logs/week3_summary.md",
+        "name": "week3_summary.md",
+        "size": 6211,
+        "modified": "2026-02-23T21:31:08.305192",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/backtest_logs/raphael_3week_backtest_2026-02-01_to_2026-02-21.md",
+        "name": "raphael_3week_backtest_2026-02-01_to_2026-02-21.md",
+        "size": 22046,
+        "modified": "2026-02-23T21:27:16.449855",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/backtest_logs/week2_summary.md",
+        "name": "week2_summary.md",
+        "size": 4602,
+        "modified": "2026-02-23T21:31:08.289445",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/ACA_PLAN.md",
+        "name": "ACA_PLAN.md",
+        "size": 17253,
+        "modified": "2026-03-09T03:11:05.224922",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/IDENTITY.md",
+        "name": "IDENTITY.md",
+        "size": 1080,
+        "modified": "2026-02-23T12:59:57.282483",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/INTEGRATION_COMPLETE.md",
+        "name": "INTEGRATION_COMPLETE.md",
+        "size": 7808,
+        "modified": "2026-02-23T21:14:31.260667",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/STRATEGY.md",
+        "name": "STRATEGY.md",
+        "size": 4333,
+        "modified": "2026-02-24T00:00:09.951980",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/RUGCHECK_README.md",
+        "name": "RUGCHECK_README.md",
+        "size": 2907,
+        "modified": "2026-02-23T21:08:36.973414",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/LIVE_TEST_PROTOCOL.md",
+        "name": "LIVE_TEST_PROTOCOL.md",
+        "size": 8284,
+        "modified": "2026-02-23T22:23:24.132601",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/SOUL.md",
+        "name": "SOUL.md",
+        "size": 2597,
+        "modified": "2026-02-23T23:58:13.707121",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/README.md",
+        "name": "README.md",
+        "size": 3325,
+        "modified": "2026-03-05T22:53:13.642418",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/README.md",
+        "name": "README.md",
+        "size": 4320,
+        "modified": "2026-02-28T05:07:30.698007",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/MOLTBOK_POSTS.md",
+        "name": "MOLTBOK_POSTS.md",
+        "size": 4405,
+        "modified": "2026-02-28T05:08:17.049742",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/SIZE_REDUCTION.md",
+        "name": "SIZE_REDUCTION.md",
+        "size": 2850,
+        "modified": "2026-02-28T05:08:35.189066",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/captcha-solver/SKILL.md",
+        "name": "SKILL.md",
+        "size": 2905,
+        "modified": "2026-02-17T09:29:57.889208",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/research-synthesizer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 3892,
+        "modified": "2026-03-08T21:50:38.869087",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/integration-orchestrator/SKILL.md",
+        "name": "SKILL.md",
+        "size": 1937,
+        "modified": "2026-03-09T03:49:03.997519",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/workspace-organizer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 3002,
+        "modified": "2026-03-08T21:50:38.845155",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/autonomous-agent/SKILL.md",
+        "name": "SKILL.md",
+        "size": 10482,
+        "modified": "2026-03-08T22:18:26.738946",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/memory-manager/SKILL.md",
+        "name": "SKILL.md",
+        "size": 3971,
+        "modified": "2026-03-08T21:50:38.976781",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/aloe/SKILL.md",
+        "name": "SKILL.md",
+        "size": 8315,
+        "modified": "2026-03-08T22:42:06.014481",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/sensory-input-layer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 7019,
+        "modified": "2026-03-08T23:11:32.020721",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/multi-agent-coordinator/SKILL.md",
+        "name": "SKILL.md",
+        "size": 8160,
+        "modified": "2026-03-08T23:08:17.036353",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/autonomous-workflow-builder/SKILL.md",
+        "name": "SKILL.md",
+        "size": 9284,
+        "modified": "2026-03-08T23:11:07.955546",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/stealth-browser/SKILL.md",
+        "name": "SKILL.md",
+        "size": 4444,
+        "modified": "2026-02-17T09:30:39.920810",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/skill-activation-manager/SKILL.md",
+        "name": "SKILL.md",
+        "size": 12296,
+        "modified": "2026-03-09T02:41:22.710827",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/long-term-project-manager/SKILL.md",
+        "name": "SKILL.md",
+        "size": 8910,
+        "modified": "2026-03-08T23:11:07.939603",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/income-optimizer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 10741,
+        "modified": "2026-03-09T02:42:17.721992",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/decision-log/SKILL.md",
+        "name": "SKILL.md",
+        "size": 2794,
+        "modified": "2026-03-08T21:50:38.825212",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/code-evolution-tracker/SKILL.md",
+        "name": "SKILL.md",
+        "size": 3902,
+        "modified": "2026-03-08T21:50:38.952849",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/knowledge-graph-engine/SKILL.md",
+        "name": "SKILL.md",
+        "size": 8972,
+        "modified": "2026-03-08T23:11:07.975475",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/autonomous-code-architect/SKILL.md",
+        "name": "SKILL.md",
+        "size": 21815,
+        "modified": "2026-03-09T02:50:55.793295",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/chart-analyzer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 2509,
+        "modified": "2026-02-18T23:26:05.978743",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/autonomous-trading-strategist/SKILL.md",
+        "name": "SKILL.md",
+        "size": 6703,
+        "modified": "2026-03-08T23:08:17.056462",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/autonomous-opportunity-engine/SKILL.md",
+        "name": "SKILL.md",
+        "size": 18073,
+        "modified": "2026-03-09T00:22:19.258649",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/context-optimizer/SKILL.md",
+        "name": "SKILL.md",
+        "size": 2874,
+        "modified": "2026-03-08T21:50:38.789314",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/skill-evolution-engine/SKILL.md",
+        "name": "SKILL.md",
+        "size": 16457,
+        "modified": "2026-03-09T02:09:10.461634",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/tool-orchestrator/SKILL.md",
+        "name": "SKILL.md",
+        "size": 4014,
+        "modified": "2026-03-08T21:50:38.916951",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/strategies/smart_swing_v2.md",
+        "name": "smart_swing_v2.md",
+        "size": 4005,
+        "modified": "2026-02-21T03:45:49.307585",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/strategies/swing_trade_v2.3.md",
+        "name": "swing_trade_v2.3.md",
+        "size": 6649,
+        "modified": "2026-02-22T03:55:11.783382",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/strategies/swing_trade2.2.md",
+        "name": "swing_trade2.2.md",
+        "size": 6783,
+        "modified": "2026-02-21T04:40:44.103015",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_calls/2026-02-15-rug-failure.md",
+        "name": "2026-02-15-rug-failure.md",
+        "size": 2364,
+        "modified": "2026-02-15T22:22:59.237160",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/alpha_calls/2026-02-15_alpha_call.md",
+        "name": "2026-02-15_alpha_call.md",
+        "size": 1279,
+        "modified": "2026-02-15T22:13:49.144675",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_templates/README.md",
+        "name": "README.md",
+        "size": 584,
+        "modified": "2026-02-15T02:24:23.110426",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-25.md",
+        "name": "2026-02-25.md",
+        "size": 1377,
+        "modified": "2026-02-25T14:49:38.332531",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-16.md",
+        "name": "2026-02-16.md",
+        "size": 1876,
+        "modified": "2026-02-15T17:52:21.042683",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-03-06.md",
+        "name": "2026-03-06.md",
+        "size": 1445,
+        "modified": "2026-03-06T22:05:18.558336",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/moltbook_log.txt",
+        "name": "moltbook_log.txt",
+        "size": 32974,
+        "modified": "2026-03-05T02:35:02.564640",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-28.md",
+        "name": "2026-02-28.md",
+        "size": 4613,
+        "modified": "2026-02-28T04:04:42.766933",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-21.md",
+        "name": "2026-02-21.md",
+        "size": 2417,
+        "modified": "2026-02-21T20:17:44.011823",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-18.md",
+        "name": "2026-02-18.md",
+        "size": 2263,
+        "modified": "2026-02-18T23:37:51.325368",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-17.md",
+        "name": "2026-02-17.md",
+        "size": 1295,
+        "modified": "2026-02-17T20:45:24.049922",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-03-03.md",
+        "name": "2026-03-03.md",
+        "size": 3557,
+        "modified": "2026-03-03T20:35:18.120093",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-23.md",
+        "name": "2026-02-23.md",
+        "size": 8593,
+        "modified": "2026-02-23T23:58:48.876628",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-22.md",
+        "name": "2026-02-22.md",
+        "size": 12023,
+        "modified": "2026-02-22T23:42:49.743173",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-27.md",
+        "name": "2026-02-27.md",
+        "size": 2253,
+        "modified": "2026-02-27T21:33:58.081310",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/MEMORY.md",
+        "name": "MEMORY.md",
+        "size": 6686,
+        "modified": "2026-02-22T04:49:28.778180",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-03-04.md",
+        "name": "2026-03-04.md",
+        "size": 2159,
+        "modified": "2026-03-04T01:57:12.052646",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-15.md",
+        "name": "2026-02-15.md",
+        "size": 6942,
+        "modified": "2026-02-16T00:29:26.996181",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/rug_fail_20260215.md",
+        "name": "rug_fail_20260215.md",
+        "size": 3552,
+        "modified": "2026-02-15T04:38:48.278202",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/optimal_strategy_v2.md",
+        "name": "optimal_strategy_v2.md",
+        "size": 4711,
+        "modified": "2026-02-19T22:51:36.368675",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-24.md",
+        "name": "2026-02-24.md",
+        "size": 3648,
+        "modified": "2026-02-24T22:03:45.218629",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/2026-02-20.md",
+        "name": "2026-02-20.md",
+        "size": 3954,
+        "modified": "2026-02-20T05:15:09.652938",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/memory/raphael-trading/2026-02-23-paper-trade-log.md",
+        "name": "2026-02-23-paper-trade-log.md",
+        "size": 1479,
+        "modified": "2026-02-23T20:28:55.941702",
+        "category": "docs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/requirements.txt",
+        "name": "requirements.txt",
+        "size": 73,
+        "modified": "2026-02-18T18:00:40.357752",
+        "category": "docs"
+      }
+    ],
+    "data": [],
+    "media": [],
+    "logs": [
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_v53.log",
+        "name": "scan_v53.log",
+        "size": 55,
+        "modified": "2026-02-22T04:40:59.947506",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_v54_fundamentals.log",
+        "name": "scan_v54_fundamentals.log",
+        "size": 264,
+        "modified": "2026-02-22T04:40:59.939538",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_v55_charts.log",
+        "name": "scan_v55_charts.log",
+        "size": 1208,
+        "modified": "2026-02-18T17:04:35.792378",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/trader_output.log",
+        "name": "trader_output.log",
+        "size": 0,
+        "modified": "2026-02-22T23:27:58.789249",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_v51.log",
+        "name": "scan_v51.log",
+        "size": 152354,
+        "modified": "2026-03-08T21:00:30.493380",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/scan_v54.log",
+        "name": "scan_v54.log",
+        "size": 2585,
+        "modified": "2026-02-18T17:04:31.276438",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/bot_v23_live.log",
+        "name": "bot_v23_live.log",
+        "size": 288,
+        "modified": "2026-02-23T00:18:05.537459",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/swing_bot_20260222.log",
+        "name": "swing_bot_20260222.log",
+        "size": 24491,
+        "modified": "2026-02-22T02:26:20.840239",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/bot_v23_20260223_003523.log",
+        "name": "bot_v23_20260223_003523.log",
+        "size": 16411,
+        "modified": "2026-02-23T01:05:09.915158",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/bot_v23_20260223_030210.log",
+        "name": "bot_v23_20260223_030210.log",
+        "size": 4338,
+        "modified": "2026-02-23T03:07:48.422665",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/monitor_debug.log",
+        "name": "monitor_debug.log",
+        "size": 1288,
+        "modified": "2026-02-22T22:25:15.605236",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/bot_v23_20260223_001912.log",
+        "name": "bot_v23_20260223_001912.log",
+        "size": 5213,
+        "modified": "2026-02-23T00:28:21.364388",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/monitor_server.log",
+        "name": "monitor_server.log",
+        "size": 26063,
+        "modified": "2026-02-23T03:07:57.740808",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/bot_v23_20260223_022236.log",
+        "name": "bot_v23_20260223_022236.log",
+        "size": 19381,
+        "modified": "2026-02-23T02:52:28.011915",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/monitor.log",
+        "name": "monitor.log",
+        "size": 0,
+        "modified": "2026-02-25T14:32:15.981853",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_v3.log",
+        "name": "skylar_v3.log",
+        "size": 3759,
+        "modified": "2026-02-28T02:45:02.584239",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_v3r.log",
+        "name": "skylar_v3r.log",
+        "size": 9663,
+        "modified": "2026-02-28T03:47:30.610479",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/skylar/skylar_v2.log",
+        "name": "skylar_v2.log",
+        "size": 16081,
+        "modified": "2026-02-28T02:35:17.944069",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_tracker.log",
+        "name": "wallet_tracker.log",
+        "size": 2030,
+        "modified": "2026-03-05T22:54:32.640777",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_whale/tracker.log",
+        "name": "tracker.log",
+        "size": 621,
+        "modified": "2026-03-07T20:49:08.876113",
+        "category": "logs"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/logs/early_monitor.log",
+        "name": "early_monitor.log",
+        "size": 695,
+        "modified": "2026-03-04T22:43:44.331328",
+        "category": "logs"
+      }
+    ],
+    "temp": [],
+    "archive": [],
+    "other": [
+      {
+        "path": "/home/skux/.openclaw/workspace/chart-analyzer.skill",
+        "name": "chart-analyzer.skill",
+        "size": 6184,
+        "modified": "2026-02-18T23:28:09.672736",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/restart_monitor.sh",
+        "name": "restart_monitor.sh",
+        "size": 706,
+        "modified": "2026-02-23T21:14:59.852434",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_monitor_v3.sh",
+        "name": "start_monitor_v3.sh",
+        "size": 3753,
+        "modified": "2026-02-23T22:23:49.560189",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_raphael_v4.sh",
+        "name": "start_raphael_v4.sh",
+        "size": 3369,
+        "modified": "2026-02-25T05:51:27.174867",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_trading_system.sh",
+        "name": "start_trading_system.sh",
+        "size": 794,
+        "modified": "2026-02-20T11:34:04.225212",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_aoe_v2.sh",
+        "name": "run_aoe_v2.sh",
+        "size": 2054,
+        "modified": "2026-03-09T03:30:32.354538",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_v54_combined.sh",
+        "name": "run_v54_combined.sh",
+        "size": 2304,
+        "modified": "2026-02-17T22:08:39.290027",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/EOF",
+        "name": "EOF",
+        "size": 0,
+        "modified": "2026-03-01T17:47:15.956351",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/brainstem.glb",
+        "name": "brainstem.glb",
+        "size": 3194848,
+        "modified": "2026-02-20T21:21:25.227407",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_trading_monitor_and_bot.sh",
+        "name": "start_trading_monitor_and_bot.sh",
+        "size": 1778,
+        "modified": "2026-02-22T05:08:22.571635",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/PYEOF",
+        "name": "PYEOF",
+        "size": 0,
+        "modified": "2026-02-23T15:39:55.509031",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/LuxBridge.lua",
+        "name": "LuxBridge.lua",
+        "size": 7120,
+        "modified": "2026-02-17T23:40:42.687279",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_raphael_monitor.sh",
+        "name": "start_raphael_monitor.sh",
+        "size": 1254,
+        "modified": "2026-02-23T13:04:33.323179",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/check_moltbook.sh",
+        "name": "check_moltbook.sh",
+        "size": 1495,
+        "modified": "2026-02-17T17:54:21.633110",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/nightly_build.sh",
+        "name": "nightly_build.sh",
+        "size": 4310,
+        "modified": "2026-02-17T21:33:31.141683",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_v55_full.sh",
+        "name": "run_v55_full.sh",
+        "size": 2789,
+        "modified": "2026-02-18T00:47:37.608499",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_trading_agent.sh",
+        "name": "run_trading_agent.sh",
+        "size": 551,
+        "modified": "2026-02-20T11:32:18.477216",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_monitor.sh",
+        "name": "start_monitor.sh",
+        "size": 483,
+        "modified": "2026-02-23T20:52:10.527500",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_pump_discovery.sh",
+        "name": "run_pump_discovery.sh",
+        "size": 1595,
+        "modified": "2026-03-03T20:33:06.675045",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_raphael.sh",
+        "name": "start_raphael.sh",
+        "size": 1893,
+        "modified": "2026-02-23T14:58:09.639785",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_early_monitor.sh",
+        "name": "run_early_monitor.sh",
+        "size": 2042,
+        "modified": "2026-03-02T01:07:55.257580",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_aoe_monitor.sh",
+        "name": "run_aoe_monitor.sh",
+        "size": 438,
+        "modified": "2026-03-09T01:11:46.091583",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/adaptive_edge_monitor.html",
+        "name": "adaptive_edge_monitor.html",
+        "size": 18007,
+        "modified": "2026-02-23T12:37:25.460653",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_v54_monitor.sh",
+        "name": "run_v54_monitor.sh",
+        "size": 744,
+        "modified": "2026-02-17T22:08:18.403866",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/tracker.pid",
+        "name": "tracker.pid",
+        "size": 6,
+        "modified": "2026-03-07T20:48:56.616467",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/install_deps.sh",
+        "name": "install_deps.sh",
+        "size": 826,
+        "modified": "2026-02-17T10:01:31.220811",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/start_adaptive_edge.sh",
+        "name": "start_adaptive_edge.sh",
+        "size": 2134,
+        "modified": "2026-02-23T12:38:19.221955",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_v53_daily.sh",
+        "name": "run_v53_daily.sh",
+        "size": 469,
+        "modified": "2026-02-17T09:10:33.743234",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/u00261",
+        "name": "u00261",
+        "size": 0,
+        "modified": "2026-02-22T10:47:08.120874",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/run_v51_daily.sh",
+        "name": "run_v51_daily.sh",
+        "size": 423,
+        "modified": "2026-02-15T17:53:14.890607",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/fox.glb",
+        "name": "fox.glb",
+        "size": 162852,
+        "modified": "2026-02-20T21:21:24.523404",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/setup_deps.bat",
+        "name": "setup_deps.bat",
+        "size": 1102,
+        "modified": "2026-02-22T05:38:24.267340",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/build_release.bat",
+        "name": "build_release.bat",
+        "size": 2156,
+        "modified": "2026-02-23T05:01:18.076324",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/build.bat",
+        "name": "build.bat",
+        "size": 928,
+        "modified": "2026-02-22T05:38:36.963197",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/check_vs.bat",
+        "name": "check_vs.bat",
+        "size": 1572,
+        "modified": "2026-02-23T04:56:26.921798",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/build_now.bat",
+        "name": "build_now.bat",
+        "size": 1867,
+        "modified": "2026-02-23T05:01:43.554051",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/build_and_run.bat",
+        "name": "build_and_run.bat",
+        "size": 214,
+        "modified": "2026-02-23T04:42:01.797707",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/run_test.bat",
+        "name": "run_test.bat",
+        "size": 1008,
+        "modified": "2026-02-22T05:38:51.797091",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/setup_vs_project.bat",
+        "name": "setup_vs_project.bat",
+        "size": 2768,
+        "modified": "2026-02-23T04:36:11.855642",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/build_here.bat",
+        "name": "build_here.bat",
+        "size": 3763,
+        "modified": "2026-02-22T12:40:12.103262",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/run_with_fox.bat",
+        "name": "run_with_fox.bat",
+        "size": 436,
+        "modified": "2026-02-23T04:42:31.037323",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/quickbuild.bat",
+        "name": "quickbuild.bat",
+        "size": 2406,
+        "modified": "2026-02-22T11:39:34.869735",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/glb_transparent_viewer/fox.glb",
+        "name": "fox.glb",
+        "size": 162852,
+        "modified": "2026-02-23T04:42:31.017608",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/venv/bin/python3",
+        "name": "python3",
+        "size": 8020928,
+        "modified": "2026-01-23T07:57:42",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/venv/bin/python3.12",
+        "name": "python3.12",
+        "size": 8020928,
+        "modified": "2026-01-23T07:57:42",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/venv/bin/python",
+        "name": "python",
+        "size": 8020928,
+        "modified": "2026-01-23T07:57:42",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/check_before_trade.sh",
+        "name": "check_before_trade.sh",
+        "size": 1532,
+        "modified": "2026-02-23T23:06:48.800942",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/raphael/run_all_trades.sh",
+        "name": "run_all_trades.sh",
+        "size": 1129,
+        "modified": "2026-02-23T23:13:41.357806",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/install.sh",
+        "name": "install.sh",
+        "size": 2060,
+        "modified": "2026-02-21T04:55:14.554903",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/run_bot.sh",
+        "name": "run_bot.sh",
+        "size": 332,
+        "modified": "2026-02-22T02:01:34.753867",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/EOF",
+        "name": "EOF",
+        "size": 0,
+        "modified": "2026-02-22T02:32:31.367638",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/monitor_gui.html",
+        "name": "monitor_gui.html",
+        "size": 32773,
+        "modified": "2026-02-22T03:58:57.846675",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/solana-trader/trading_logs/raphael_session_2026-02-23.md\n",
+        "name": "raphael_session_2026-02-23.md\n",
+        "size": 5295,
+        "modified": "2026-02-23T15:35:44.709936",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/token_pipeline.cpython-312.pyc",
+        "name": "token_pipeline.cpython-312.pyc",
+        "size": 24042,
+        "modified": "2026-03-09T03:33:22.752867",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/scanner_base.cpython-312.pyc",
+        "name": "scanner_base.cpython-312.pyc",
+        "size": 9804,
+        "modified": "2026-03-09T03:33:22.423006",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/scanner_pumpfun.cpython-312.pyc",
+        "name": "scanner_pumpfun.cpython-312.pyc",
+        "size": 5448,
+        "modified": "2026-03-09T03:37:04.143829",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/scorer.cpython-312.pyc",
+        "name": "scorer.cpython-312.pyc",
+        "size": 18059,
+        "modified": "2026-03-09T03:33:22.768763",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/scanner_dexscreener.cpython-312.pyc",
+        "name": "scanner_dexscreener.cpython-312.pyc",
+        "size": 7907,
+        "modified": "2026-03-09T03:37:40.290789",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/alerts.cpython-312.pyc",
+        "name": "alerts.cpython-312.pyc",
+        "size": 18981,
+        "modified": "2026-03-09T03:33:22.776712",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/aoe_v2/__pycache__/scanner_birdeye.cpython-312.pyc",
+        "name": "scanner_birdeye.cpython-312.pyc",
+        "size": 12264,
+        "modified": "2026-03-09T03:33:22.736969",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/watchdog.sh",
+        "name": "watchdog.sh",
+        "size": 1132,
+        "modified": "2026-02-25T15:31:49.857393",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/dashboard.html",
+        "name": "dashboard.html",
+        "size": 25853,
+        "modified": "2026-02-23T23:59:25.471460",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/check_before_trade.sh",
+        "name": "check_before_trade.sh",
+        "size": 876,
+        "modified": "2026-02-23T21:12:11.084755",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/raphael/start_monitor.sh",
+        "name": "start_monitor.sh",
+        "size": 91,
+        "modified": "2026-02-24T00:33:04.388320",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/agents/wallet_tracker/run_wallet_tracker.sh",
+        "name": "run_wallet_tracker.sh",
+        "size": 626,
+        "modified": "2026-03-05T22:52:49.185862",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/wallet_lp_monitor.cpython-312.pyc",
+        "name": "wallet_lp_monitor.cpython-312.pyc",
+        "size": 12037,
+        "modified": "2026-02-25T00:11:24.300481",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/luxbridge_sender.cpython-312.pyc",
+        "name": "luxbridge_sender.cpython-312.pyc",
+        "size": 7010,
+        "modified": "2026-02-17T23:36:08.183897",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/solana_alpha_hunter_v54.cpython-312.pyc",
+        "name": "solana_alpha_hunter_v54.cpython-312.pyc",
+        "size": 17629,
+        "modified": "2026-02-18T00:51:24.548109",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/solana_alpha_hunter_v53.cpython-312.pyc",
+        "name": "solana_alpha_hunter_v53.cpython-312.pyc",
+        "size": 47882,
+        "modified": "2026-02-16T16:55:32.380687",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/solana_alpha_hunter_v51.cpython-312.pyc",
+        "name": "solana_alpha_hunter_v51.cpython-312.pyc",
+        "size": 36375,
+        "modified": "2026-02-15T22:26:50.328786",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/trading_agent_v2.cpython-312.pyc",
+        "name": "trading_agent_v2.cpython-312.pyc",
+        "size": 16625,
+        "modified": "2026-02-20T11:36:50.861175",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/__pycache__/chart_analyzer.cpython-312.pyc",
+        "name": "chart_analyzer.cpython-312.pyc",
+        "size": 31446,
+        "modified": "2026-03-03T05:52:52.996524",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/demo_web.html",
+        "name": "demo_web.html",
+        "size": 9889,
+        "modified": "2026-02-28T05:12:14.738934",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/setup.sh",
+        "name": "setup.sh",
+        "size": 776,
+        "modified": "2026-02-28T05:07:37.034055",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/debug_renderer.html",
+        "name": "debug_renderer.html",
+        "size": 0,
+        "modified": "2026-03-01T17:47:15.948688",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/assets/warrior.glb",
+        "name": "warrior.glb",
+        "size": 8746888,
+        "modified": "2026-03-01T17:25:46.896533",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/assets/warrior.glb:Zone.Identifier",
+        "name": "warrior.glb:Zone.Identifier",
+        "size": 61,
+        "modified": "2026-03-01T17:25:46.896533",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/avatar_project/src/renderer.html",
+        "name": "renderer.html",
+        "size": 10545,
+        "modified": "2026-03-01T19:18:48.933562",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/stealth-browser.skill",
+        "name": "stealth-browser.skill",
+        "size": 10494,
+        "modified": "2026-02-17T09:30:49.394973",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/captcha-solver.skill",
+        "name": "captcha-solver.skill",
+        "size": 6536,
+        "modified": "2026-02-17T09:30:49.219715",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/autonomous-opportunity-engine.skill",
+        "name": "autonomous-opportunity-engine.skill",
+        "size": 12358,
+        "modified": "2026-03-09T00:24:04.699420",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/autonomous-trading-strategist.skill",
+        "name": "autonomous-trading-strategist.skill",
+        "size": 3234,
+        "modified": "2026-03-08T23:11:16.281007",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/sensory-input-layer.skill",
+        "name": "sensory-input-layer.skill",
+        "size": 3428,
+        "modified": "2026-03-08T23:11:41.104067",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/memory-manager.skill",
+        "name": "memory-manager.skill",
+        "size": 3260,
+        "modified": "2026-03-08T21:51:46.026984",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/workspace-organizer.skill",
+        "name": "workspace-organizer.skill",
+        "size": 3131,
+        "modified": "2026-03-08T21:51:45.481145",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/context-optimizer.skill",
+        "name": "context-optimizer.skill",
+        "size": 2559,
+        "modified": "2026-03-08T21:51:45.210213",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/long-term-project-manager.skill",
+        "name": "long-term-project-manager.skill",
+        "size": 3578,
+        "modified": "2026-03-08T23:11:16.531141",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/aloe.skill",
+        "name": "aloe.skill",
+        "size": 8443,
+        "modified": "2026-03-08T22:43:39.551327",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/code-evolution-tracker.skill",
+        "name": "code-evolution-tracker.skill",
+        "size": 1932,
+        "modified": "2026-03-08T21:51:45.891527",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/autonomous-agent.skill",
+        "name": "autonomous-agent.skill",
+        "size": 11455,
+        "modified": "2026-03-08T22:21:39.534955",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/knowledge-graph-engine.skill",
+        "name": "knowledge-graph-engine.skill",
+        "size": 3664,
+        "modified": "2026-03-08T23:11:17.047320",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/skill-evolution-engine.skill",
+        "name": "skill-evolution-engine.skill",
+        "size": 13369,
+        "modified": "2026-03-09T02:10:50.100797",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/decision-log.skill",
+        "name": "decision-log.skill",
+        "size": 2690,
+        "modified": "2026-03-08T21:51:45.345679",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/research-synthesizer.skill",
+        "name": "research-synthesizer.skill",
+        "size": 1919,
+        "modified": "2026-03-08T21:51:45.620595",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/autonomous-workflow-builder.skill",
+        "name": "autonomous-workflow-builder.skill",
+        "size": 3886,
+        "modified": "2026-03-08T23:11:16.785246",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/tool-orchestrator.skill",
+        "name": "tool-orchestrator.skill",
+        "size": 1938,
+        "modified": "2026-03-08T21:51:45.760045",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/autonomous-code-architect.skill",
+        "name": "autonomous-code-architect.skill",
+        "size": 14883,
+        "modified": "2026-03-09T02:53:17.921584",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/skills/dist/multi-agent-coordinator.skill",
+        "name": "multi-agent-coordinator.skill",
+        "size": 3565,
+        "modified": "2026-03-08T23:11:16.026902",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/install.sh",
+        "name": "install.sh",
+        "size": 170,
+        "modified": "2026-02-18T17:55:03.509896",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/install_pro.bat",
+        "name": "install_pro.bat",
+        "size": 431,
+        "modified": "2026-02-18T18:00:40.389752",
+        "category": "other"
+      },
+      {
+        "path": "/home/skux/.openclaw/workspace/chart_analyzer/install.bat",
+        "name": "install.bat",
+        "size": 172,
+        "modified": "2026-02-18T17:55:03.569896",
+        "category": "other"
+      }
+    ]
+  },
+  "duplicates_found": [
+    {
+      "hash_prefix": "47de05adf0264010",
+      "size": 1172,
+      "files": [
+        "/home/skux/.openclaw/workspace/swing_trade2.2_config.json",
+        "/home/skux/.openclaw/workspace/solana-trader/config.json"
+      ],
+      "found_at": "2026-03-09T04:12:01.547517"
+    },
+    {
+      "hash_prefix": "2f8f32257403ece5",
+      "size": 322372,
+      "files": [
+        "/home/skux/.openclaw/workspace/agents/skylar/skylar_4month_backtest.json",
+        "/home/skux/.openclaw/workspace/agents/skylar/skylar_trades.json"
+      ],
+      "found_at": "2026-03-09T04:12:01.549247"
+    },
+    {
+      "hash_prefix": "1d17ff8b03db3884",
+      "size": 162852,
+      "files": [
+        "/home/skux/.openclaw/workspace/fox.glb",
+        "/home/skux/.openclaw/workspace/glb_transparent_viewer/fox.glb"
+      ],
+      "found_at": "2026-03-09T04:12:01.551761"
+    },
+    {
+      "hash_prefix": "8193a2cdbb58ef58",
+      "size": 8020928,
+      "files": [
+        "/home/skux/.openclaw/workspace/venv/bin/python3",
+        "/home/skux/.openclaw/workspace/venv/bin/python3.12",
+        "/home/skux/.openclaw/workspace/venv/bin/python"
+      ],
+      "found_at": "2026-03-09T04:12:01.552080"
+    }
+  ],
+  "suggestions": [
+    "4 duplicate file groups detected"
+  ],
+  "archived_files": []
+}

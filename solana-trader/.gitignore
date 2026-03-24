@@ -1,0 +1,8 @@
+.secrets/
+.env
+*.key
+trading_logs/*.json
+node_modules/
+npm-debug.log*
+state.json
+.DS_Store

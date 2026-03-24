@@ -1,0 +1,45 @@
+{
+  "daily_pnl": [
+    {
+      "date": "2026-03-01",
+      "pnl": 100,
+      "trades": 2
+    },
+    {
+      "date": "2026-03-02",
+      "pnl": 200,
+      "trades": 1
+    }
+  ],
+  "trade_stats": {
+    "total_trades": 3,
+    "winning_trades": 2,
+    "losing_trades": 1,
+    "win_rate": 0.6666666666666666,
+    "avg_win": 0.0,
+    "avg_loss": 0.0,
+    "profit_factor": 300,
+    "sharpe_ratio": 3.0,
+    "max_drawdown": 0
+  },
+  "strategy_performance": {
+    "momentum": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "total_pnl": 350,
+      "win_rate": 1.0,
+      "avg_pnl": 175.0
+    },
+    "scalping": {
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "total_pnl": -50,
+      "win_rate": 0.0,
+      "avg_pnl": -50.0
+    }
+  },
+  "monthly_summary": {},
+  "last_updated": "2026-03-18T04:44:49.708170"
+}

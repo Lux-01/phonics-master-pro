@@ -1,0 +1,6058 @@
+[
+  {
+    "timestamp": "2026-03-23T03:30:02.493318",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 56.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 56.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 54.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 48.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T04:00:01.866241",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "HISS",
+        "score": 56.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 54.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T04:30:01.705066",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 54.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 39.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T05:00:02.035778",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 54.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T05:30:02.152841",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 59.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 55.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T06:00:01.873863",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.0
+      },
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 45.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "SPLAT",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T06:30:01.995223",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 45.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T07:00:02.452440",
+    "tokens_scanned": 121,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 56.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T07:30:02.221183",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 55.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 39.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T08:00:03.934696",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 56.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 39.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 37.75
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T08:30:02.284092",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 59.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 55.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 46.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 39.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T09:00:02.071806",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 59.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 55.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 46.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T09:30:02.528283",
+    "tokens_scanned": 124,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 43.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T10:00:02.604427",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 56.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 52.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T10:30:03.581390",
+    "tokens_scanned": 125,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T11:00:01.919705",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.75
+      },
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T11:30:02.826612",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T12:00:03.254861",
+    "tokens_scanned": 117,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T12:30:04.310796",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.0
+      },
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 48.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T13:00:02.438395",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 30.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T13:30:02.103917",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 57.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T14:00:02.262966",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 60.25
+      },
+      {
+        "symbol": "BILL",
+        "score": 57.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T14:30:03.858286",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "BILL",
+        "score": 59.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T15:00:03.826558",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T15:30:02.170913",
+    "tokens_scanned": 117,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 41.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T16:00:02.754655",
+    "tokens_scanned": 117,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 39.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T16:30:02.550786",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 39.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T17:00:01.919393",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 55.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 34.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T17:30:02.178930",
+    "tokens_scanned": 117,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 61.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 59.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 39.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T18:00:02.918013",
+    "tokens_scanned": 117,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 59.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 39.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T18:30:01.759513",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 48.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 40.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 32.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T19:00:02.104806",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 52.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 48.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 47.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 46.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 37.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 32.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T19:30:01.745790",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 60.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 55.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 52.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 48.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 46.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 34.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T20:00:01.634465",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 51.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 49.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T20:30:02.191429",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 52.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 38.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T21:00:01.788656",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 54.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 38.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T21:30:01.620213",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 48.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 45.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 42.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 34.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T22:00:01.573252",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 52.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 46.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 46.25
+      },
+      {
+        "symbol": "DEADS",
+        "score": 45.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T22:30:02.010711",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "UNTAXED",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 55.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 44.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 42.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 40.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 37.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T23:00:03.047663",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 47.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 39.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 37.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-23T23:30:02.188036",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "UNTAXED",
+        "score": 55.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 42.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T00:00:02.854725",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "UNTAXED",
+        "score": 57.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T00:30:02.117574",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 39.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T01:00:01.708685",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 60.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 56.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 53.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 44.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 37.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T01:30:02.233116",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOS",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 44.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 44.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 38.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T02:00:02.892203",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 44.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 38.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T02:30:02.089926",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "UNTAXED",
+        "score": 54.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 48.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 42.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 37.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T03:00:02.455400",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 53.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 41.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 39.25
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T03:30:01.796401",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T04:00:01.791774",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 48.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 34.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T04:30:02.743008",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 59.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 48.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 47.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 42.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T05:00:02.566985",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 62.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 42.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T05:30:01.925555",
+    "tokens_scanned": 122,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 58.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 42.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 38.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T06:00:02.721867",
+    "tokens_scanned": 0,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": []
+  },
+  {
+    "timestamp": "2026-03-24T06:30:03.583427",
+    "tokens_scanned": 0,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": []
+  },
+  {
+    "timestamp": "2026-03-24T07:00:02.180215",
+    "tokens_scanned": 0,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": []
+  },
+  {
+    "timestamp": "2026-03-24T07:30:03.352486",
+    "tokens_scanned": 0,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": []
+  },
+  {
+    "timestamp": "2026-03-24T08:00:02.199285",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 44.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T08:30:01.990593",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 52.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 36.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T09:00:02.187374",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 36.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T09:30:01.946172",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 57.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 48.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.5
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "GAVIN",
+        "score": 37.75
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 34.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T10:00:02.050356",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.25
+      },
+      {
+        "symbol": "DEADS",
+        "score": 44.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "GAVIN",
+        "score": 38.5
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 33.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T10:30:02.083358",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 45.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "GAVIN",
+        "score": 38.5
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 35.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T11:00:02.646214",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 59.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "GAVIN",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T11:30:02.626566",
+    "tokens_scanned": 119,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "GAVIN",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T12:00:02.499834",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T12:30:02.541772",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T13:00:01.836231",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T13:30:02.100536",
+    "tokens_scanned": 116,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T14:00:02.200327",
+    "tokens_scanned": 114,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T14:30:02.777580",
+    "tokens_scanned": 116,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T15:00:01.878890",
+    "tokens_scanned": 113,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 36.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T15:30:02.061425",
+    "tokens_scanned": 114,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 59.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "HKDSOLANA",
+        "score": 37.75
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 29.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T16:00:03.278325",
+    "tokens_scanned": 113,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 58.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 49.5
+      },
+      {
+        "symbol": "SOLUSDT",
+        "score": 46.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T16:30:02.258522",
+    "tokens_scanned": 112,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 61.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 55.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 49.5
+      },
+      {
+        "symbol": "SOLUSDT",
+        "score": 47.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 34.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T17:00:02.127166",
+    "tokens_scanned": 112,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 61.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 55.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 35.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T17:30:02.576278",
+    "tokens_scanned": 111,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 47.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 44.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T18:00:02.353905",
+    "tokens_scanned": 113,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 47.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 45.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 39.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T18:30:02.856100",
+    "tokens_scanned": 112,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 44.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 28.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T19:00:01.668791",
+    "tokens_scanned": 112,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.0
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 47.75
+      },
+      {
+        "symbol": "SOLID",
+        "score": 46.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 44.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 31.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T19:30:02.073622",
+    "tokens_scanned": 112,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 54.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 48.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 31.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 24.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T20:00:03.376786",
+    "tokens_scanned": 114,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 53.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 52.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.75
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 39.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T20:30:02.334749",
+    "tokens_scanned": 115,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 55.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 54.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.5
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 44.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 39.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 37.75
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T21:00:03.186336",
+    "tokens_scanned": 115,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 52.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "DEADS",
+        "score": 40.5
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 39.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 20.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T21:30:02.884722",
+    "tokens_scanned": 115,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 39.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 34.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 20.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T22:00:01.982710",
+    "tokens_scanned": 115,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 42.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 34.5
+      },
+      {
+        "symbol": "SNS",
+        "score": 23.25
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T22:30:01.582482",
+    "tokens_scanned": 116,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOS",
+        "score": 55.5
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 52.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T23:00:04.249816",
+    "tokens_scanned": 116,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 55.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 49.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 39.0
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-24T23:30:03.347110",
+    "tokens_scanned": 118,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 55.25
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 50.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 50.25
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "UNTAXED",
+        "score": 49.0
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 39.0
+      },
+      {
+        "symbol": "MEME",
+        "score": 34.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T00:00:02.611218",
+    "tokens_scanned": 120,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 56.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.0
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 49.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 46.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T00:30:01.839442",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 62.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 55.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 54.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 49.0
+      },
+      {
+        "symbol": "HISS",
+        "score": 46.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 30.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 19.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T01:00:02.436035",
+    "tokens_scanned": 122,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 63.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 58.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 57.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 30.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 24.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T01:30:03.079179",
+    "tokens_scanned": 122,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "SOLINU",
+        "score": 58.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 58.0
+      },
+      {
+        "symbol": "SOS",
+        "score": 57.75
+      },
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.5
+      },
+      {
+        "symbol": "SPSC",
+        "score": 56.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 27.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 25.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T02:00:03.041068",
+    "tokens_scanned": 121,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 55.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "MEME",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 45.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 25.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T02:30:03.111272",
+    "tokens_scanned": 121,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 57.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "MEME",
+        "score": 49.5
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 40.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.75
+      },
+      {
+        "symbol": "PLAY",
+        "score": 25.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T03:00:01.787549",
+    "tokens_scanned": 125,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 62.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 54.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 52.75
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "PLAY",
+        "score": 34.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 33.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T03:30:01.740495",
+    "tokens_scanned": 124,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 63.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 39.25
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 34.25
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T04:00:02.332568",
+    "tokens_scanned": 123,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 59.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 53.5
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 50.25
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "PLAY",
+        "score": 42.25
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 29.75
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T04:30:02.481483",
+    "tokens_scanned": 122,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 60.5
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SPSC",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 49.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 43.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 41.0
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 36.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25T05:00:02.181098",
+    "tokens_scanned": 124,
+    "urgent_count": 0,
+    "urgent_tokens": [],
+    "queued_count": 0,
+    "queued_tokens": [],
+    "all_scores": [
+      {
+        "symbol": "WHITEHOUSE",
+        "score": 59.75
+      },
+      {
+        "symbol": "GORK",
+        "score": 54.25
+      },
+      {
+        "symbol": "SOS",
+        "score": 51.75
+      },
+      {
+        "symbol": "SOLINU",
+        "score": 49.0
+      },
+      {
+        "symbol": "SPSC",
+        "score": 48.75
+      },
+      {
+        "symbol": "HISS",
+        "score": 43.5
+      },
+      {
+        "symbol": "SOLID",
+        "score": 43.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 42.25
+      },
+      {
+        "symbol": "STORE",
+        "score": 41.0
+      },
+      {
+        "symbol": "SUEDE",
+        "score": 40.5
+      },
+      {
+        "symbol": "NPCS",
+        "score": 36.0
+      },
+      {
+        "symbol": "PLAY",
+        "score": 36.0
+      },
+      {
+        "symbol": "SNS",
+        "score": 25.0
+      }
+    ]
+  }
+]

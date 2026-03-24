@@ -1,0 +1,882 @@
+{
+  "strategy": "v0.3 (evolved)",
+  "improvements": [
+    "Multi-exit: 50%@10%, 25%@20%, 25% trailing",
+    "Rug filter: $20K liquidity, 50% rug detection",
+    "Bigger positions: 40% per trade",
+    "Breakeven stop: Move to +1% after +8%"
+  ],
+  "parameters": {
+    "trades_per_month": 15,
+    "months": 6,
+    "position_size_pct": 0.4,
+    "min_liquidity": 20000,
+    "rug_filter": true
+  },
+  "results": {
+    "version": "0.3",
+    "start": 1.0,
+    "end": 5.411693981550297,
+    "peak": 5.411693981550297,
+    "pnl": 4.411693981550297,
+    "multiplier": 5.411693981550297,
+    "trades": 85,
+    "wins": 71,
+    "losses": 7,
+    "rugs": 7,
+    "skipped_rugs": 5,
+    "win_rate": 83.52941176470588
+  },
+  "trades": [
+    {
+      "trade_num": 1,
+      "month": 1,
+      "symbol": "CHADDEX",
+      "position_size": 0.4,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.055,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 2,
+      "month": 1,
+      "symbol": "SHIBAI",
+      "position_size": 0.24,
+      "pnl_pct": 15.57,
+      "pnl_sol": 0.03737,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 3,
+      "month": 1,
+      "symbol": "BETA",
+      "position_size": 0.144,
+      "pnl_pct": 11.34,
+      "pnl_sol": 0.01634,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 4,
+      "month": 1,
+      "symbol": "DOGEX",
+      "position_size": 0.2684,
+      "pnl_pct": -10.69,
+      "pnl_sol": -0.02869,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 5,
+      "month": 1,
+      "symbol": "ZETATOKEN",
+      "position_size": 0.272,
+      "pnl_pct": -6.25,
+      "pnl_sol": -0.017,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 6,
+      "month": 1,
+      "symbol": "ALPHADAO",
+      "position_size": 0.2273,
+      "pnl_pct": 9.18,
+      "pnl_sol": 0.02086,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 7,
+      "month": 1,
+      "symbol": "DEGENX",
+      "position_size": 0.2323,
+      "pnl_pct": -4.09,
+      "pnl_sol": -0.0095,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 8,
+      "month": 1,
+      "symbol": "ELONDEX",
+      "position_size": 0.2414,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.03922,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 9,
+      "month": 1,
+      "symbol": "CHADDAO",
+      "position_size": 0.2441,
+      "pnl_pct": 10.26,
+      "pnl_sol": 0.02504,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 10,
+      "month": 1,
+      "symbol": "GAMMA2",
+      "position_size": 0.2356,
+      "pnl_pct": 16.4,
+      "pnl_sol": 0.03862,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 11,
+      "month": 1,
+      "symbol": "LUNADEX",
+      "position_size": 0.2536,
+      "pnl_pct": -20.81,
+      "pnl_sol": -0.05277,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 12,
+      "month": 2,
+      "symbol": "APEAI",
+      "position_size": 0.2598,
+      "pnl_pct": 10.96,
+      "pnl_sol": 0.02849,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 13,
+      "month": 2,
+      "symbol": "ELONDEX",
+      "position_size": 0.2656,
+      "pnl_pct": -12.93,
+      "pnl_sol": -0.03434,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 14,
+      "month": 2,
+      "symbol": "CHADAI",
+      "position_size": 0.2397,
+      "pnl_pct": 12.75,
+      "pnl_sol": 0.03056,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 15,
+      "month": 2,
+      "symbol": "DOGEDEX",
+      "position_size": 0.2591,
+      "pnl_pct": 16.48,
+      "pnl_sol": 0.0427,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 16,
+      "month": 2,
+      "symbol": "VOID",
+      "position_size": 0.248,
+      "pnl_pct": 10.83,
+      "pnl_sol": 0.02686,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 17,
+      "month": 2,
+      "symbol": "BASEDINU",
+      "position_size": 0.2569,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.04174,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 18,
+      "month": 2,
+      "symbol": "CATINU",
+      "position_size": 0.2749,
+      "pnl_pct": 6.65,
+      "pnl_sol": 0.01829,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 19,
+      "month": 2,
+      "symbol": "PEPE",
+      "position_size": 0.2749,
+      "pnl_pct": 10.71,
+      "pnl_sol": 0.02944,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 20,
+      "month": 2,
+      "symbol": "STARX",
+      "position_size": 0.2844,
+      "pnl_pct": -15.19,
+      "pnl_sol": -0.0432,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 21,
+      "month": 2,
+      "symbol": "BASEDTOKEN",
+      "position_size": 0.2879,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.03959,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 22,
+      "month": 2,
+      "symbol": "FLOKIINU",
+      "position_size": 0.2945,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.04785,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 23,
+      "month": 2,
+      "symbol": "STAR",
+      "position_size": 0.2732,
+      "pnl_pct": 15.48,
+      "pnl_sol": 0.04228,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 24,
+      "month": 2,
+      "symbol": "BASEDX",
+      "position_size": 0.2949,
+      "pnl_pct": 15.04,
+      "pnl_sol": 0.04434,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 25,
+      "month": 2,
+      "symbol": "DOGEAI",
+      "position_size": 0.3139,
+      "pnl_pct": 9.56,
+      "pnl_sol": 0.02999,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 26,
+      "month": 2,
+      "symbol": "DOGEDAO",
+      "position_size": 0.3145,
+      "pnl_pct": 12.15,
+      "pnl_sol": 0.03821,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 27,
+      "month": 3,
+      "symbol": "BARKCOIN",
+      "position_size": 0.3244,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.05272,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 28,
+      "month": 3,
+      "symbol": "MOONCOIN",
+      "position_size": 0.3322,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.05398,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 29,
+      "month": 3,
+      "symbol": "CHADAI",
+      "position_size": 0.3404,
+      "pnl_pct": 10.8,
+      "pnl_sol": 0.03676,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 30,
+      "month": 3,
+      "symbol": "ZETADEX",
+      "position_size": 0.3551,
+      "pnl_pct": 12.29,
+      "pnl_sol": 0.04364,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 31,
+      "month": 3,
+      "symbol": "CHADTOKEN",
+      "position_size": 0.3675,
+      "pnl_pct": 11.6,
+      "pnl_sol": 0.04264,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 32,
+      "month": 3,
+      "symbol": "DEGENX",
+      "position_size": 0.3714,
+      "pnl_pct": 10.65,
+      "pnl_sol": 0.03955,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 33,
+      "month": 3,
+      "symbol": "ALPHA",
+      "position_size": 0.3823,
+      "pnl_pct": 12.75,
+      "pnl_sol": 0.04875,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 34,
+      "month": 3,
+      "symbol": "APEAI",
+      "position_size": 0.3935,
+      "pnl_pct": 10.67,
+      "pnl_sol": 0.04199,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 35,
+      "month": 3,
+      "symbol": "BETAAI",
+      "position_size": 0.4005,
+      "pnl_pct": 11.85,
+      "pnl_sol": 0.04747,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 36,
+      "month": 3,
+      "symbol": "RAYCOIN",
+      "position_size": 0.4127,
+      "pnl_pct": 11.15,
+      "pnl_sol": 0.04602,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 37,
+      "month": 3,
+      "symbol": "MOONAI",
+      "position_size": 0.4218,
+      "pnl_pct": 14.46,
+      "pnl_sol": 0.06099,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 38,
+      "month": 3,
+      "symbol": "MEOWTOKEN",
+      "position_size": 0.4323,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.07024,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 39,
+      "month": 3,
+      "symbol": "PEPEDEX",
+      "position_size": 0.4429,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.07196,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 40,
+      "month": 3,
+      "symbol": "LUNAX",
+      "position_size": 0.4588,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.06309,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 41,
+      "month": 3,
+      "symbol": "STAR",
+      "position_size": 0.4763,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.03334,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 42,
+      "month": 4,
+      "symbol": "ELONDAO",
+      "position_size": 0.4917,
+      "pnl_pct": 7.6,
+      "pnl_sol": 0.03735,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 43,
+      "month": 4,
+      "symbol": "SHIB",
+      "position_size": 0.5038,
+      "pnl_pct": -15.3,
+      "pnl_sol": -0.07708,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    },
+    {
+      "trade_num": 44,
+      "month": 4,
+      "symbol": "CHADX",
+      "position_size": 0.4795,
+      "pnl_pct": -4.13,
+      "pnl_sol": -0.01979,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 45,
+      "month": 4,
+      "symbol": "CHAD",
+      "position_size": 0.4993,
+      "pnl_pct": 15.25,
+      "pnl_sol": 0.07614,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 46,
+      "month": 4,
+      "symbol": "FLOKIX",
+      "position_size": 0.4703,
+      "pnl_pct": -14.12,
+      "pnl_sol": -0.06643,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 47,
+      "month": 4,
+      "symbol": "BETAAI",
+      "position_size": 0.466,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.03262,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 48,
+      "month": 4,
+      "symbol": "MOON2",
+      "position_size": 0.5098,
+      "pnl_pct": 6.91,
+      "pnl_sol": 0.03523,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 49,
+      "month": 4,
+      "symbol": "FLOKICOIN",
+      "position_size": 0.4674,
+      "pnl_pct": 12.32,
+      "pnl_sol": 0.05758,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 50,
+      "month": 4,
+      "symbol": "CAT",
+      "position_size": 0.4538,
+      "pnl_pct": 15.25,
+      "pnl_sol": 0.06921,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 51,
+      "month": 4,
+      "symbol": "MEMEAI",
+      "position_size": 0.4903,
+      "pnl_pct": 9.34,
+      "pnl_sol": 0.04579,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 52,
+      "month": 4,
+      "symbol": "BONK2",
+      "position_size": 0.5042,
+      "pnl_pct": 11.12,
+      "pnl_sol": 0.05606,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 53,
+      "month": 4,
+      "symbol": "MOONCOIN",
+      "position_size": 0.5117,
+      "pnl_pct": 12.08,
+      "pnl_sol": 0.06181,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 54,
+      "month": 4,
+      "symbol": "FLOKICOIN",
+      "position_size": 0.5215,
+      "pnl_pct": 10.43,
+      "pnl_sol": 0.0544,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 55,
+      "month": 4,
+      "symbol": "DOGEDAO",
+      "position_size": 0.537,
+      "pnl_pct": 13.02,
+      "pnl_sol": 0.06989,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 56,
+      "month": 5,
+      "symbol": "SOL",
+      "position_size": 0.5516,
+      "pnl_pct": 15.66,
+      "pnl_sol": 0.08639,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 57,
+      "month": 5,
+      "symbol": "MEMEDAO",
+      "position_size": 0.5613,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.09121,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 58,
+      "month": 5,
+      "symbol": "SIGMAAI",
+      "position_size": 0.5795,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.09418,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 59,
+      "month": 5,
+      "symbol": "NEONINU",
+      "position_size": 0.6029,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.09797,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 60,
+      "month": 5,
+      "symbol": "ZETAPAD",
+      "position_size": 0.6228,
+      "pnl_pct": 15.14,
+      "pnl_sol": 0.09429,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 61,
+      "month": 5,
+      "symbol": "MEMEX",
+      "position_size": 0.6431,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.04502,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 62,
+      "month": 5,
+      "symbol": "DOGEINU",
+      "position_size": 0.6662,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.09161,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 63,
+      "month": 5,
+      "symbol": "DOGEAI",
+      "position_size": 0.6866,
+      "pnl_pct": 12.77,
+      "pnl_sol": 0.08766,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 64,
+      "month": 5,
+      "symbol": "WOJAK2",
+      "position_size": 0.6512,
+      "pnl_pct": 10.39,
+      "pnl_sol": 0.06764,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 65,
+      "month": 5,
+      "symbol": "BARKPAD",
+      "position_size": 0.6938,
+      "pnl_pct": 12.79,
+      "pnl_sol": 0.08877,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 66,
+      "month": 5,
+      "symbol": "ALPHAX",
+      "position_size": 0.726,
+      "pnl_pct": 11.0,
+      "pnl_sol": 0.07986,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 67,
+      "month": 5,
+      "symbol": "WOJAKCOIN",
+      "position_size": 0.7231,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.11751,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 68,
+      "month": 5,
+      "symbol": "MOONINU",
+      "position_size": 0.7469,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.12137,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 69,
+      "month": 5,
+      "symbol": "ZETAINU",
+      "position_size": 0.7705,
+      "pnl_pct": 9.56,
+      "pnl_sol": 0.0737,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 70,
+      "month": 5,
+      "symbol": "SOLX",
+      "position_size": 0.7985,
+      "pnl_pct": 12.68,
+      "pnl_sol": 0.10122,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 71,
+      "month": 6,
+      "symbol": "BARKDAO",
+      "position_size": 0.8264,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.1343,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 72,
+      "month": 6,
+      "symbol": "SOLDEX",
+      "position_size": 0.8335,
+      "pnl_pct": 13.21,
+      "pnl_sol": 0.11014,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 73,
+      "month": 6,
+      "symbol": "ALPHA",
+      "position_size": 0.86,
+      "pnl_pct": 14.39,
+      "pnl_sol": 0.12371,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 74,
+      "month": 6,
+      "symbol": "NEONDAO",
+      "position_size": 0.9003,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.12379,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 75,
+      "month": 6,
+      "symbol": "DOGEPAD",
+      "position_size": 0.9176,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.14911,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 76,
+      "month": 6,
+      "symbol": "MEOWAI",
+      "position_size": 0.9441,
+      "pnl_pct": 14.97,
+      "pnl_sol": 0.14132,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 77,
+      "month": 6,
+      "symbol": "NEONX",
+      "position_size": 0.9761,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.15861,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 78,
+      "month": 6,
+      "symbol": "WOOFAI",
+      "position_size": 1.0123,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.07086,
+      "exit_reason": "stop_loss",
+      "outcome": "loss"
+    },
+    {
+      "trade_num": 79,
+      "month": 6,
+      "symbol": "BARKPAD",
+      "position_size": 1.0416,
+      "pnl_pct": 16.43,
+      "pnl_sol": 0.17108,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 80,
+      "month": 6,
+      "symbol": "ALPHAX",
+      "position_size": 1.0788,
+      "pnl_pct": 12.75,
+      "pnl_sol": 0.13755,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 81,
+      "month": 6,
+      "symbol": "PEPE2",
+      "position_size": 1.0239,
+      "pnl_pct": 13.75,
+      "pnl_sol": 0.14078,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 82,
+      "month": 6,
+      "symbol": "PEPECOIN",
+      "position_size": 1.0994,
+      "pnl_pct": 12.95,
+      "pnl_sol": 0.14239,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 83,
+      "month": 6,
+      "symbol": "MEMEX",
+      "position_size": 1.1462,
+      "pnl_pct": 16.25,
+      "pnl_sol": 0.18625,
+      "exit_reason": "multi_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 84,
+      "month": 6,
+      "symbol": "BETA2",
+      "position_size": 1.1536,
+      "pnl_pct": 10.55,
+      "pnl_sol": 0.12167,
+      "exit_reason": "partial_exit",
+      "outcome": "win"
+    },
+    {
+      "trade_num": 85,
+      "month": 6,
+      "symbol": "LUNATOKEN",
+      "position_size": 1.1889,
+      "pnl_pct": -14.15,
+      "pnl_sol": -0.16822,
+      "exit_reason": "rug",
+      "outcome": "rug"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "session_start": "2026-03-22T00:24:41.945123",
+  "message_count": 35,
+  "files_read": [
+    {
+      "path": "/workspace/config.json",
+      "read_at": "msg-35",
+      "summary": "API configuration with endpoints",
+      "times_read": 3
+    }
+  ],
+  "last_file_read": 35,
+  "checkpoints": [],
+  "triggers_fired": [
+    {
+      "type": "message_milestone",
+      "fired_at": "2026-03-22T00:24:41.966873",
+      "message_count": 30,
+      "data": {
+        "count": 30,
+        "suggestion": "Session checkpoint at 30 messages. Consider summarizing progress."
+      }
+    },
+    {
+      "type": "file_reread",
+      "fired_at": "2026-03-22T00:24:41.973496",
+      "message_count": 35,
+      "data": {
+        "file": "/workspace/config.json",
+        "times": 2,
+        "suggestion": "You've read /workspace/config.json 2 times. Summary: API configuration with endpoints..."
+      }
+    },
+    {
+      "type": "file_reread",
+      "fired_at": "2026-03-22T00:24:41.974698",
+      "message_count": 35,
+      "data": {
+        "file": "/workspace/config.json",
+        "times": 2,
+        "suggestion": "You've read /workspace/config.json 2 times. Summary: API configuration with endpoints..."
+      }
+    }
+  ]
+}

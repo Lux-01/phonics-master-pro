@@ -1,0 +1,21 @@
+{
+  "upwork_testcorp": {
+    "client_id": "upwork_testcorp",
+    "company_name": "TestCorp",
+    "quality_score": 100,
+    "risk_level": "low",
+    "recommendations": [
+      "\ud83d\udfe2 RECOMMENDED: Apply to this client",
+      "\u2713 Payment verified - lower risk",
+      "\u2713 High hire rate (75%) - serious about hiring",
+      "\u2713 High spender ($50,000 total)",
+      "\u2713 No disputes - clean record",
+      "\u2713 Detailed job descriptions - clear expectations",
+      "\u2713 Fast responder - quick feedback"
+    ],
+    "red_flags": [],
+    "similar_clients": [],
+    "confidence": 0.85,
+    "research_date": "2026-03-23T14:06:20.694180"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "strategy": "Social Sentinel v3.0",
+  "version": "3.0",
+  "improvements": [
+    "Score 6+",
+    "Narrative boost",
+    "4-tier exit",
+    "110 trades"
+  ],
+  "start": 1.0,
+  "end": 431.71883829373354,
+  "multiplier": 431.71883829373354,
+  "trades": 101,
+  "wins": 77,
+  "rugs": 10
+}

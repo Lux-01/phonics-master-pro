@@ -1,0 +1,282 @@
+{
+  "autonomous-goal-generator": [
+    {
+      "date": "2026-03-09T09:16:26.036219",
+      "score": 55,
+      "findings": 5,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-goal-generator_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.348419",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-goal-generator_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.086182",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-goal-generator_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.886804",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-goal-generator_20260313_175137.md"
+    }
+  ],
+  "captcha-solver": [
+    {
+      "date": "2026-03-09T09:16:26.076896",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/captcha-solver_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.397376",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/captcha-solver_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.184340",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/captcha-solver_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.992617",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/captcha-solver_20260313_175137.md"
+    }
+  ],
+  "chart-analyzer": [
+    {
+      "date": "2026-03-09T09:16:26.097225",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/chart-analyzer_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.407583",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/chart-analyzer_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.202016",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/chart-analyzer_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.006204",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/chart-analyzer_20260313_175138.md"
+    }
+  ],
+  "context-optimizer": [
+    {
+      "date": "2026-03-09T09:16:26.126419",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/context-optimizer_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.427195",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/context-optimizer_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.218995",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/context-optimizer_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.028980",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/context-optimizer_20260313_175138.md"
+    }
+  ],
+  "event-bus": [
+    {
+      "date": "2026-03-09T09:16:26.155042",
+      "score": 55,
+      "findings": 5,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/event-bus_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.443675",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/event-bus_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.256686",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/event-bus_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.056522",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/event-bus_20260313_175138.md"
+    }
+  ],
+  "integration-orchestrator": [
+    {
+      "date": "2026-03-09T09:16:26.174558",
+      "score": 65,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/integration-orchestrator_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.461676",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/integration-orchestrator_20260309_091724.md"
+    }
+  ],
+  "stealth-browser": [
+    {
+      "date": "2026-03-09T09:16:26.260259",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/stealth-browser_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.551571",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/stealth-browser_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.388940",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/stealth-browser_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.198942",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/stealth-browser_20260313_175138.md"
+    }
+  ],
+  "workspace-organizer": [
+    {
+      "date": "2026-03-09T09:16:26.292137",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/workspace-organizer_20260309_091626.md"
+    },
+    {
+      "date": "2026-03-09T09:17:24.567084",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/workspace-organizer_20260309_091724.md"
+    },
+    {
+      "date": "2026-03-13T16:43:14.418185",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/workspace-organizer_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.238722",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/workspace-organizer_20260313_175138.md"
+    }
+  ],
+  "archive": [
+    {
+      "date": "2026-03-13T16:43:14.032559",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/archive_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.836853",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/archive_20260313_175137.md"
+    }
+  ],
+  "autonomous-maintenance-repair": [
+    {
+      "date": "2026-03-13T16:43:14.104625",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-maintenance-repair_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.904138",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-maintenance-repair_20260313_175137.md"
+    }
+  ],
+  "autonomous-scheduler": [
+    {
+      "date": "2026-03-13T16:43:14.130404",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-scheduler_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.927951",
+      "score": 80,
+      "findings": 3,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/autonomous-scheduler_20260313_175137.md"
+    }
+  ],
+  "business-strategy-engine": [
+    {
+      "date": "2026-03-13T16:43:14.176591",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/business-strategy-engine_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:37.971810",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/business-strategy-engine_20260313_175137.md"
+    }
+  ],
+  "dist": [
+    {
+      "date": "2026-03-13T16:43:14.239309",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/dist_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.047230",
+      "score": 75,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/dist_20260313_175138.md"
+    }
+  ],
+  "income-stream-expansion-engine": [
+    {
+      "date": "2026-03-13T16:43:14.265999",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/income-stream-expansion-engine_20260313_164314.md"
+    },
+    {
+      "date": "2026-03-13T17:51:38.075815",
+      "score": 70,
+      "findings": 4,
+      "file": "/home/skux/.openclaw/workspace/memory/see/audit_history/income-stream-expansion-engine_20260313_175138.md"
+    }
+  ]
+}

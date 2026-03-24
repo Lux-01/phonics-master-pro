@@ -1,0 +1,45 @@
+{
+  "entry_patterns": {
+    "optimal_hours": [],
+    "best_strategies": [],
+    "extracted_at": "2026-03-23T09:56:04.267739"
+  },
+  "exit_patterns": {
+    "optimal_hold_time_hours": 0,
+    "loser_hold_time_hours": 0,
+    "successful_exit_reasons": {},
+    "failed_exit_reasons": {
+      "Target hit +11.2%": 1,
+      "Held too long / rug pull": 1,
+      "Target hit +24.6%": 1,
+      "Stop loss hit -5.9%": 1,
+      "Target hit +7.5%": 1
+    },
+    "extracted_at": "2026-03-23T09:56:04.267840"
+  },
+  "risk_patterns": {
+    "optimal_position_size": 0,
+    "loser_position_size": 0.0,
+    "stop_loss_usage_winners": 0,
+    "stop_loss_usage_losers": 0.0,
+    "optimal_risk_reward": 0,
+    "extracted_at": "2026-03-23T09:56:04.267857"
+  },
+  "market_patterns": {
+    "best_conditions": [],
+    "extracted_at": "2026-03-23T09:56:04.267880"
+  },
+  "token_patterns": {
+    "best_performers": [
+      {
+        "token": "UNKNOWN",
+        "win_rate": 0.0,
+        "total_trades": 14,
+        "total_pnl": 0,
+        "avg_pnl": 0.0
+      }
+    ],
+    "extracted_at": "2026-03-23T09:56:04.267911"
+  },
+  "last_updated": "2026-03-23T09:56:04.267917"
+}

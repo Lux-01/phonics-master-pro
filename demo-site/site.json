@@ -1,0 +1,36 @@
+{
+  "name": "demo-site",
+  "description": "A business website built with Lux",
+  "url": "https://example.com",
+  "type": "business",
+  "created": "2026-03-10T22:48:21.668808",
+  "theme": {
+    "primary": "#6366f1",
+    "secondary": "#ec4899",
+    "background": "#ffffff",
+    "surface": "#f9fafb",
+    "text": "#111827",
+    "textMuted": "#6b7280",
+    "border": "#e5e7eb",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "error": "#ef4444",
+    "darkMode": true
+  },
+  "typography": {
+    "fontHeading": "Inter, sans-serif",
+    "fontBody": "Inter, sans-serif",
+    "scale": 1.125
+  },
+  "security": {
+    "csp": true,
+    "hsts": true,
+    "xss": true,
+    "scanOnBuild": true
+  },
+  "seo": {
+    "title": "demo-site | Welcome",
+    "description": "Welcome to demo-site",
+    "keywords": []
+  }
+}

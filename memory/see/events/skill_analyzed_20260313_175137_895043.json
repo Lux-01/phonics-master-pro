@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-13T17:51:37.895033",
+  "type": "skill_analyzed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "autonomous-goal-generator",
+    "health_score": 70,
+    "findings_count": 4
+  }
+}

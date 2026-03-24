@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-09T09:17:24.553650",
+  "type": "audit_completed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "stealth-browser",
+    "audit_file": "/home/skux/.openclaw/workspace/memory/see/audit_history/stealth-browser_20260309_091724.md"
+  }
+}

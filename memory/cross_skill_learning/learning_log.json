@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-03-22T00:24:38.941486",
+    "source_skill": "pattern-extractor",
+    "target_skill": "autonomous-trading-strategist",
+    "type": "pattern_recognition",
+    "content": {
+      "pattern": "breakout_after_consolidation"
+    },
+    "success": true,
+    "id": "pattern-extractor_to_autonomous-trading-strategist_1774099478.941522"
+  },
+  {
+    "timestamp": "2026-03-22T00:24:38.942542",
+    "source_skill": "autonomous-trading-strategist",
+    "target_skill": "aoe",
+    "type": "risk_management",
+    "content": {
+      "technique": "position_sizing"
+    },
+    "success": true,
+    "id": "autonomous-trading-strategist_to_aoe_1774099478.942549"
+  }
+]

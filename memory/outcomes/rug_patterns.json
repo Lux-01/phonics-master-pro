@@ -1,0 +1,18 @@
+{
+  "rug_signatures": [
+    {
+      "type": "rug_signature",
+      "conditions": {
+        "age_hours": 0.2,
+        "top10_pct": 27.4,
+        "grade": "A \u2705",
+        "score": 15
+      },
+      "outcome": "RUG",
+      "confidence": 1.0,
+      "lesson": "Age < 30min = high rug risk"
+    }
+  ],
+  "success_signatures": [],
+  "false_positives": []
+}

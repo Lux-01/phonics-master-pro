@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-03-13T17:51:31.987042",
+  "tools": [
+    {
+      "name": "file_sorter",
+      "file": "/home/skux/.openclaw/workspace/tools/file_sorter.py",
+      "valid": true,
+      "template": "file_processor"
+    },
+    {
+      "name": "data_converter",
+      "file": "/home/skux/.openclaw/workspace/tools/data_converter.py",
+      "valid": true,
+      "template": "data_processor"
+    },
+    {
+      "name": "backup_manager",
+      "file": "/home/skux/.openclaw/workspace/tools/backup_manager.py",
+      "valid": true,
+      "template": "file_processor"
+    },
+    {
+      "name": "log_analyzer",
+      "file": "/home/skux/.openclaw/workspace/tools/log_analyzer.py",
+      "valid": true,
+      "template": "data_processor"
+    }
+  ]
+}

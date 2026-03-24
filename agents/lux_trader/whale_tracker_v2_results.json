@@ -1,0 +1,10 @@
+{
+  "strategy": "Whale Tracker v2.0",
+  "version": "2.0",
+  "start": 1.0,
+  "end": 13.946583987154575,
+  "multiplier": 13.946583987154575,
+  "trades": 58,
+  "wins": 42,
+  "rugs": 6
+}

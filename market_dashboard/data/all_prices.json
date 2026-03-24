@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-03-14T18:31:57.876384",
+  "crypto": {
+    "XRP": {
+      "price": 1.3971,
+      "change": -1.543,
+      "high": 1.4528,
+      "low": 1.3834,
+      "volume": 152502641.6
+    },
+    "ADA": {
+      "price": 0.2623,
+      "change": -3.531,
+      "high": 0.2816,
+      "low": 0.2616,
+      "volume": 156841980.8
+    },
+    "SOL": {
+      "price": 87.43,
+      "change": -1.532,
+      "high": 92.98,
+      "low": 86.92,
+      "volume": 3690150.934
+    },
+    "ETH": {
+      "price": 2080.05,
+      "change": -1.021,
+      "high": 2209.03,
+      "low": 2068.28,
+      "volume": 499996.417
+    },
+    "BTC": {
+      "price": 70718.0,
+      "change": -1.115,
+      "high": 73913.74,
+      "low": 70317.0,
+      "volume": 32661.19296
+    },
+    "SUI": {
+      "price": 0.9882,
+      "change": -4.439,
+      "high": 1.0565,
+      "low": 0.9812,
+      "volume": 53197606.0
+    },
+    "TIA": {
+      "price": 0.3429,
+      "change": -1.324,
+      "high": 0.3653,
+      "low": 0.3411,
+      "volume": 16608647.47
+    }
+  },
+  "stocks": {
+    "TSLA": {
+      "price": 391.2,
+      "change": 0.0,
+      "prev_close": 391.2
+    },
+    "NVDA": {
+      "price": 180.25,
+      "change": 0.0,
+      "prev_close": 180.25
+    },
+    "AAPL": {
+      "price": 250.12,
+      "change": 0.0,
+      "prev_close": 250.12
+    },
+    "MSFT": {
+      "price": 395.55,
+      "change": 0.0,
+      "prev_close": 395.55
+    },
+    "AMZN": {
+      "price": 207.67,
+      "change": 0.0,
+      "prev_close": 207.67
+    },
+    "GOOGL": {
+      "price": 302.28,
+      "change": 0.0,
+      "prev_close": 302.28
+    },
+    "META": {
+      "price": 613.71,
+      "change": 0.0,
+      "prev_close": 613.71
+    },
+    "AMD": {
+      "price": 193.39,
+      "change": 0.0,
+      "prev_close": 193.39
+    }
+  }
+}

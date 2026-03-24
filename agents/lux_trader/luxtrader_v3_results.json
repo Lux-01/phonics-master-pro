@@ -1,0 +1,16 @@
+{
+  "strategy": "LuxTrader v3.0",
+  "version": "3.0",
+  "upgrades": [
+    "Pyramid entry",
+    "Mean-rev add-on",
+    "Tiered exits",
+    "Streak boost",
+    "Narrative detection"
+  ],
+  "start": 1.0,
+  "end": 289353.19518747425,
+  "multiplier": 289353.19518747425,
+  "trades": 495,
+  "wins": 341
+}

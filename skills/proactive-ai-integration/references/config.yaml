@@ -1,0 +1,129 @@
+# Proactive AI Integration Configuration
+# Central configuration for all 6 proactive AI components
+
+orchestrator:
+  auto_start: true
+  event_bus: enabled
+  learning: enabled
+  log_level: INFO
+
+components:
+  predictive_engine:
+    enabled: true
+    auto_prepare_threshold: 0.9      # Auto-prepare when confidence >= 90%
+    suggest_threshold: 0.7           # Suggest when confidence >= 70%
+    log_predictions: true
+    max_predictions_per_hour: 20
+    
+  proactive_monitor:
+    enabled: true
+    batch_window: 300               # 5 minutes
+    max_alerts_per_hour: 10
+    quiet_hours:
+      start: "23:00"
+      end: "07:00"
+    watchers:
+      - crypto_price
+      - system_health
+      - email
+      - calendar
+      
+  suggestion_engine:
+    enabled: true
+    max_per_hour: 5
+    min_interval: 600               # 10 minutes between suggestions
+    delivery:
+      contextual: true
+      pattern_based: true
+      goal_based: true
+      skill_based: true
+    
+  outcome_tracker:
+    enabled: true
+    auto_track: true
+    track:
+      tasks: true
+      suggestions: true
+      predictions: true
+      alerts: true
+      skills: true
+    retention_days: 90
+    
+  pattern_extractor:
+    enabled: true
+    min_support: 0.1
+    min_confidence: 0.7
+    max_pattern_length: 5
+    extraction_schedule:
+      daily: true
+      weekly: true
+    pattern_types:
+      temporal: true
+      sequential: true
+      contextual: true
+      success: true
+      failure: true
+    
+  user_model:
+    enabled: true
+    update_frequency: real_time
+    personalization_level: high
+    learning:
+      explicit: true
+      implicit: true
+      feedback: true
+    privacy:
+      local_only: true
+      retention_days: 365
+
+integration:
+  aloe_feeding: true
+  event_bus_persistence: true
+  cross_component_cache: true
+  skill_integration: true
+
+learning_loop:
+  extract_patterns_daily: true
+  update_user_model_daily: true
+  generate_weekly_report: true
+  auto_improve: true
+
+storage:
+  base_path: memory/proactive_ai
+  event_history: event_bus/event_history.jsonl
+  cache: cache/
+  user_model: user_model/
+  patterns: patterns/
+  outcomes: outcomes/
+
+notifications:
+  channels:
+    critical: telegram_urgent
+    high: telegram
+    medium: digest
+    low: dashboard_only
+  batching:
+    enabled: true
+    window_minutes: 5
+
+# Skill Integration
+skills:
+  autonomous_agent:
+    enabled: true
+    trigger_on: complex_tasks
+    
+  multi_agent_coordinator:
+    enabled: true
+    trigger_on: parallel_tasks
+    
+  knowledge_graph:
+    enabled: true
+    feed_patterns: true
+    
+  aloe:
+    enabled: true
+    continuous_learning: true
+    
+  research_synthesizer:
+    enabled: true
+    suggest_on: research_tasks

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-14T17:54:27.476310",
+  "source": "Yahoo Finance API",
+  "prices": {
+    "TSLA": {
+      "price": 391.2,
+      "change": 0.0,
+      "prev_close": 391.2
+    },
+    "NVDA": {
+      "price": 180.25,
+      "change": 0.0,
+      "prev_close": 180.25
+    },
+    "AAPL": {
+      "price": 250.12,
+      "change": 0.0,
+      "prev_close": 250.12
+    },
+    "MSFT": {
+      "price": 395.55,
+      "change": 0.0,
+      "prev_close": 395.55
+    },
+    "AMZN": {
+      "price": 207.67,
+      "change": 0.0,
+      "prev_close": 207.67
+    },
+    "GOOGL": {
+      "price": 302.28,
+      "change": 0.0,
+      "prev_close": 302.28
+    },
+    "META": {
+      "price": 613.71,
+      "change": 0.0,
+      "prev_close": 613.71
+    },
+    "AMD": {
+      "price": 193.39,
+      "change": 0.0,
+      "prev_close": 193.39
+    }
+  }
+}

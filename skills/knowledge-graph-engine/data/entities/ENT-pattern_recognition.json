@@ -1,0 +1,12 @@
+{
+  "id": "ENT-pattern_recognition",
+  "type": "concept",
+  "name": "Pattern Recognition",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "ml",
+    "trading"
+  ],
+  "created": "2026-03-20T04:52:13.797507"
+}

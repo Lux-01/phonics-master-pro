@@ -1,0 +1,9 @@
+{"type": "test.event", "timestamp": "2026-03-09T05:39:43.849683", "data": {"test": "data"}}
+{"type": "test.event", "timestamp": "2026-03-09T08:36:43.757927", "data": {"test": "data"}}
+{"type": "test.event", "timestamp": "2026-03-09T08:39:00.218415", "data": {"test": "data"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.359498", "data": {"goal_id": "goal_reviewnewopportuni_20260313174206", "title": "Review New Opportunities", "priority": 0.7500000000000001, "goal_type": "opportunity"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.365339", "data": {"goal_id": "goal_reviewtradingperfo_20260313174206", "title": "Review Trading Performance", "priority": 0.7250000000000001, "goal_type": "daily"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.365520", "data": {"goal_id": "goal_address8lowhealth_20260313174206", "title": "Address 8 Low-Health Skills", "priority": 0.7000000000000001, "goal_type": "maintenance"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.365647", "data": {"goal_id": "goal_weeklytradinganaly_20260313174206", "title": "Weekly Trading Analysis", "priority": 0.7000000000000001, "goal_type": "weekly"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.365770", "data": {"goal_id": "goal_evaluatemultipl_20260313174206", "title": "Evaluate: ** Multiple viable jobs - AI Agent Infrastructure is perfect match", "priority": 0.7000000000000001, "goal_type": "opportunity"}}
+{"type": "goal.created", "timestamp": "2026-03-13T17:42:06.365897", "data": {"goal_id": "goal_skillecosystemrevi_20260313174206", "title": "Skill Ecosystem Review", "priority": 0.65, "goal_type": "weekly"}}

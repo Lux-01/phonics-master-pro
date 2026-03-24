@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "description": "Safety Engine Configuration for Stage 9 Trading",
+  "policies": [
+    {
+      "name": "daily_trade_limit",
+      "action_types": ["trade"],
+      "max_daily": 5,
+      "requires_approval": false,
+      "description": "Maximum 5 trades per day"
+    },
+    {
+      "name": "daily_loss_limit",
+      "action_types": ["trade"],
+      "max_amount": 0.5,
+      "requires_approval": true,
+      "approval_count": 1,
+      "description": "Maximum 0.5 SOL loss per day"
+    },
+    {
+      "name": "position_size_limit",
+      "action_types": ["trade"],
+      "max_amount": 0.1,
+      "requires_approval": true,
+      "description": "Maximum 0.1 SOL per position"
+    },
+    {
+      "name": "min_liquidity_requirement",
+      "action_types": ["trade"],
+      "conditions": {
+        "min_liquidity_usd": 10000
+      },
+      "requires_approval": true,
+      "description": "Minimum $10,000 liquidity required"
+    },
+    {
+      "name": "grade_requirement",
+      "action_types": ["trade"],
+      "conditions": {
+        "min_grade": "A"
+      },
+      "requires_approval": true,
+      "description": "Only Grade A or higher tokens"
+    },
+    {
+      "name": "cooldown_enforcement",
+      "action_types": ["trade"],
+      "conditions": {
+        "cooldown_minutes": 60
+      },
+      "requires_approval": false,
+      "description": "60-minute cooldown between trades"
+    }
+  ],
+  "circuit_breakers": [
+    {
+      "name": "trading",
+      "threshold": 3,
+      "timeout_minutes": 30,
+      "description": "Stop trading after 3 consecutive failures"
+    },
+    {
+      "name": "api_calls",
+      "threshold": 10,
+      "timeout_minutes": 15,
+      "description": "Pause API calls after 10 failures"
+    },
+    {
+      "name": "anomaly_detection",
+      "threshold": 2,
+      "timeout_minutes": 60,
+      "description": "Block trading on 2 high-severity anomalies"
+    }
+  ],
+  "risk_levels": {
+    "CRITICAL": {
+      "description": "Requires multi-sig + time delay",
+      "actions": ["block", "alert", "escalate"]
+    },
+    "HIGH": {
+      "description": "Requires approval + logging",
+      "actions": ["block", "log", "notify"]
+    },
+    "MEDIUM": {
+      "description": "Requires logging + monitoring",
+      "actions": ["log", "monitor"]
+    },
+    "LOW": {
+      "description": "Auto-approve with logging",
+      "actions": ["log"]
+    }
+  },
+  "audit_settings": {
+    "enabled": true,
+    "log_all_trades": true,
+    "log_safety_checks": true,
+    "log_circuit_breakers": true,
+    "retention_days": 90,
+    "immutable_logs": true
+  },
+  "emergency_contacts": {
+    "escalation_threshold": "CRITICAL",
+    "notification_channels": ["log", "file"]
+  }
+}

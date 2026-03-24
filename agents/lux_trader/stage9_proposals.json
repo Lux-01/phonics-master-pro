@@ -1,0 +1,73 @@
+{
+  "pending": [
+    {
+      "id": "prop_20260320_202756",
+      "timestamp": "2026-03-20T20:27:56.001046",
+      "status": "SUPERSEDED",
+      "token": {
+        "address": "7xKXtg2CW87d97TXJSDpbD5jBkheZr1Yw6jUqAox1bGk",
+        "symbol": "DEMO",
+        "name": "Stage9 Demo Token",
+        "price": 4.2e-05,
+        "market_cap": 42000,
+        "liquidity": 18000,
+        "grade": "A+",
+        "age_hours": 4.5
+      },
+      "trade_details": {
+        "entry_size_sol": 0.1,
+        "target_profit_pct": 15,
+        "stop_loss_pct": 7,
+        "time_stop_hours": 4,
+        "estimated_slippage_pct": 1
+      },
+      "risk_assessment": {
+        "level": "LOW",
+        "recommendation": "FAVORABLE",
+        "risks": [],
+        "mitigation": [
+          "Position size limited to 0.1 SOL",
+          "Stop loss at -7% enforced",
+          "Time stop at 4 hours"
+        ]
+      },
+      "expires_at": "2026-03-20T20:57:56.001267",
+      "user_decision": "WAIT - let expire"
+    },
+    {
+      "id": "prop_20260320_203521",
+      "timestamp": "2026-03-20T20:35:21.825213",
+      "status": "PENDING_APPROVAL",
+      "token": {
+        "address": "7xKXtg2CW87d97TXJSDpbD5jBkheZr1Yw6jUqAox1bGk",
+        "symbol": "DEMO",
+        "name": "Stage9 Demo Token",
+        "price": 4.2e-05,
+        "market_cap": 42000,
+        "liquidity": 18000,
+        "grade": "A+",
+        "age_hours": 4.5
+      },
+      "trade_details": {
+        "entry_size_sol": 0.1,
+        "target_profit_pct": 15,
+        "stop_loss_pct": 7,
+        "time_stop_hours": 4,
+        "estimated_slippage_pct": 1
+      },
+      "risk_assessment": {
+        "level": "LOW",
+        "recommendation": "FAVORABLE",
+        "risks": [],
+        "mitigation": [
+          "Position size limited to 0.1 SOL",
+          "Stop loss at -7% enforced",
+          "Time stop at 4 hours"
+        ]
+      },
+      "expires_at": "2026-03-20T21:05:21.825243"
+    }
+  ],
+  "history": [],
+  "note": "Demo proposal kept for reference. Real signals will use actual tokens."
+}

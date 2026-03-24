@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fa73fd64dc3d",
+    "timestamp": "2026-03-09T04:12:00.995742",
+    "decision": "Test decision",
+    "rationale": "Test rationale",
+    "context": "",
+    "tags": [
+      "test",
+      "aca"
+    ],
+    "alternatives": [],
+    "outcome": "success",
+    "outcome_recorded": "2026-03-09T04:12:00.997232",
+    "outcome_notes": ""
+  },
+  {
+    "id": "d79f402b797a",
+    "timestamp": "2026-03-18T04:35:24.263482",
+    "decision": "Test trading strategy",
+    "rationale": "Based on historical pattern analysis",
+    "context": "SOL/USDC pair",
+    "tags": [
+      "trading",
+      "test",
+      "ai_learning",
+      "tracked"
+    ],
+    "alternatives": [],
+    "outcome": "success",
+    "outcome_recorded": "2026-03-18T04:35:24.267407",
+    "outcome_notes": "Strategy performed well"
+  }
+]

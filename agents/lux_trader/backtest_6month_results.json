@@ -1,0 +1,62 @@
+{
+  "backtest_run": "2026-03-13T02:02:59.481219",
+  "historical_data": "skylar_6month_backtest.json",
+  "duration_months": 6,
+  "trades_simulated": 550,
+  "wins": 341,
+  "losses": 184,
+  "rugs": 25,
+  "win_rate": 62.0,
+  "total_pnl_pct": 3290.6100000000015,
+  "avg_pnl_pct": 5.9829272727272755,
+  "by_grade": {
+    "A+": {
+      "count": 254,
+      "wins": 192,
+      "losses": 58,
+      "rugs": 4,
+      "pnl": 23.518299999999996
+    },
+    "B": {
+      "count": 110,
+      "wins": 47,
+      "losses": 52,
+      "rugs": 11,
+      "pnl": 1.7675999999999996
+    },
+    "A": {
+      "count": 186,
+      "wins": 102,
+      "losses": 74,
+      "rugs": 10,
+      "pnl": 7.6202000000000005
+    }
+  },
+  "by_exit": {
+    "target_hit": {
+      "count": 166,
+      "wins": 166,
+      "pnl": 33.38180000000001
+    },
+    "manual": {
+      "count": 175,
+      "wins": 175,
+      "pnl": 17.55
+    },
+    "stop_loss": {
+      "count": 83,
+      "wins": 0,
+      "pnl": -11.468799999999998
+    },
+    "rug": {
+      "count": 25,
+      "wins": 0,
+      "pnl": -1.9506000000000003
+    },
+    "time_stop": {
+      "count": 101,
+      "wins": 0,
+      "pnl": -4.606299999999997
+    }
+  }
+}

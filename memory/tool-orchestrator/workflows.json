@@ -1,0 +1,12 @@
+[
+  {
+    "name": "test_workflow",
+    "timestamp": "2026-03-09T04:12:01.954284",
+    "duration_ms": 25.1924991607666,
+    "parallelism": 1.5,
+    "batches": 2,
+    "total_calls": 3,
+    "success": 3,
+    "errors": 0
+  }
+]

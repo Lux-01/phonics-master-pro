@@ -1,0 +1,261 @@
+[
+  {
+    "symbol": "WhiteHouse",
+    "address": "7oXNE1dbpHUp6dn1JF8pRgCtzfCy4P2FuBneWjZHpump",
+    "mcap": 606447,
+    "liquidity": 103379.28,
+    "volume24h": 352476.85,
+    "price_change": 5.69,
+    "age_hours": 280.65323737901474,
+    "score": 13,
+    "grade": "A",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713",
+      "VOL/MC \u2713"
+    ]
+  },
+  {
+    "symbol": "SOS",
+    "address": "HDa3zJc12ahykSsBRvgiWzr6WLEByf36yzKKbVvy4gnF",
+    "mcap": 765957,
+    "liquidity": 271828.56,
+    "volume24h": 493089.68,
+    "price_change": -63.55,
+    "age_hours": 13064.988515165813,
+    "score": 13,
+    "grade": "A",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713",
+      "VOL/MC \u2713"
+    ]
+  },
+  {
+    "symbol": "SOS",
+    "address": "HDa3zJc12ahykSsBRvgiWzr6WLEByf36yzKKbVvy4gnF",
+    "mcap": 765957,
+    "liquidity": 271828.56,
+    "volume24h": 493089.68,
+    "price_change": -63.55,
+    "age_hours": 13064.988515201552,
+    "score": 13,
+    "grade": "A",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713",
+      "VOL/MC \u2713"
+    ]
+  },
+  {
+    "symbol": "SOL",
+    "address": "sosd5Q3DutGxMEaukBDmkPgsapMQz59jNjGWmhYcdTQ",
+    "mcap": 3298482,
+    "liquidity": 1578207,
+    "volume24h": 135342.19,
+    "price_change": 0,
+    "age_hours": 1456.2024039745415,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SOL",
+    "address": "sokhCSmzutMPPuNcxG1j6gYLowgiM8mswjJu8FBYm5r",
+    "mcap": 2310802,
+    "liquidity": 1201695.1,
+    "volume24h": 40186.02,
+    "price_change": 0,
+    "age_hours": 958.8982373104519,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SOLINU",
+    "address": "DUr5rZAfYduvihaiyMnfqgnhqYWbPWJXvK954qyTpump",
+    "mcap": 422056,
+    "liquidity": 59541.11,
+    "volume24h": 134369.57,
+    "price_change": 7.53,
+    "age_hours": 176.36768178677028,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SOLINU",
+    "address": "DUr5rZAfYduvihaiyMnfqgnhqYWbPWJXvK954qyTpump",
+    "mcap": 422056,
+    "liquidity": 59541.11,
+    "volume24h": 134369.57,
+    "price_change": 7.53,
+    "age_hours": 176.36768182908799,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SPSC",
+    "address": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
+    "mcap": 597126,
+    "liquidity": 143481.85,
+    "volume24h": 33806.47,
+    "price_change": 0.25,
+    "age_hours": 3160.1929596084933,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "gork",
+    "address": "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+    "mcap": 1780510,
+    "liquidity": 423961.07,
+    "volume24h": 31761.54,
+    "price_change": -3.43,
+    "age_hours": 7692.971292945285,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "GIVE",
+    "address": "CkJgoT1YcPqWdjUbvqgPf5BDwvq2GeBX7REG9TCCpump",
+    "mcap": 219417,
+    "liquidity": 41564.78,
+    "volume24h": 37957.94,
+    "price_change": -14.14,
+    "age_hours": 108.81129294813368,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "PLAY",
+    "address": "PLAYs3GSSadH2q2JLS7djp7yzeT75NK78XgrE5YLrfq",
+    "mcap": 2468034,
+    "liquidity": 362722.48,
+    "volume24h": 23319.46,
+    "price_change": -1.34,
+    "age_hours": 2949.8185151912435,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "UNTAXED",
+    "address": "BoRiiSZ4hqtbCnQc7cWaEYTEtxmzRXyy5xaKCt7Ppump",
+    "mcap": 114140,
+    "liquidity": 31106.66,
+    "volume24h": 29934.63,
+    "price_change": -24.7,
+    "age_hours": 348.60212630730524,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SOLINU",
+    "address": "DUr5rZAfYduvihaiyMnfqgnhqYWbPWJXvK954qyTpump",
+    "mcap": 422056,
+    "liquidity": 59541.11,
+    "volume24h": 134369.57,
+    "price_change": 7.53,
+    "age_hours": 176.36768186679416,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "PLAY",
+    "address": "PLAYs3GSSadH2q2JLS7djp7yzeT75NK78XgrE5YLrfq",
+    "mcap": 2468034,
+    "liquidity": 362722.48,
+    "volume24h": 23319.46,
+    "price_change": -1.34,
+    "age_hours": 2949.8185152052815,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "UNTAXED",
+    "address": "BoRiiSZ4hqtbCnQc7cWaEYTEtxmzRXyy5xaKCt7Ppump",
+    "mcap": 114140,
+    "liquidity": 31106.66,
+    "volume24h": 29934.63,
+    "price_change": -24.7,
+    "age_hours": 348.6021263198513,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  },
+  {
+    "symbol": "SOL",
+    "address": "sosd5Q3DutGxMEaukBDmkPgsapMQz59jNjGWmhYcdTQ",
+    "mcap": 3298482,
+    "liquidity": 1578207,
+    "volume24h": 135342.19,
+    "price_change": 0,
+    "age_hours": 1456.202404122518,
+    "score": 11,
+    "grade": "A-",
+    "checks": [
+      "MCAP \u2713",
+      "LIQ \u2713",
+      "VOL \u2713"
+    ]
+  }
+]

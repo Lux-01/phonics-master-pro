@@ -1,0 +1,65 @@
+{
+  "strategy": "LuxTrader v3.1",
+  "generated_at": "2026-03-14T01:32:43.381334",
+  "comparison": {
+    "6_months": {
+      "period": "6_months",
+      "start_capital": 1.0,
+      "end_capital": 1.3148479916410731,
+      "roi_pct": 31.484799164107315,
+      "multiplier": 1.3148479916410731,
+      "total_trades": 440,
+      "wins": 294,
+      "losses": 146,
+      "rugs": 0,
+      "win_rate": 66.81818181818183,
+      "best_streak": 12,
+      "grade_performance": {
+        "A+": {
+          "wins": 192,
+          "total": 254
+        },
+        "A": {
+          "wins": 102,
+          "total": 186
+        }
+      },
+      "cycles_tested": {
+        "bull": 0,
+        "bear": 0,
+        "crab": 0,
+        "recovery": 0
+      }
+    },
+    "12_months": {
+      "period": "12_months",
+      "start_capital": 1.0,
+      "end_capital": 1.651033636606077,
+      "roi_pct": 65.1033636606077,
+      "multiplier": 1.651033636606077,
+      "total_trades": 845,
+      "wins": 566,
+      "losses": 279,
+      "rugs": 0,
+      "win_rate": 66.98224852071006,
+      "best_streak": 15,
+      "month_6_capital": 1.3148479916410731,
+      "month_6_roi": 31.484799164107315,
+      "month_6_12_roi": 25.568403884118005,
+      "period_performance": {
+        "months_1_6": {
+          "trades": 440,
+          "wins": 294,
+          "capital_end": 1.3148479916410731
+        },
+        "months_7_12": {
+          "trades": 405,
+          "wins": 272,
+          "capital_end": 1.651033636606077
+        }
+      }
+    },
+    "annualized_projection": 1.7288252411225635,
+    "performance_ratio": 0.955003199475515
+  }
+}

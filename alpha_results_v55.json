@@ -1,0 +1,688 @@
+[
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump",
+    "mcap": 50572,
+    "liq": 17857.95,
+    "sol_in_pool": 100.9326,
+    "vol24": 64494.71,
+    "vol5m": 5735.52,
+    "vol_mcap_ratio": 1.2753047140710274,
+    "age_hours": 0.3346759733333333,
+    "score": 15,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "onchain_mint_verified": true,
+    "lp_locked": 100,
+    "lp_depth_healthy": true,
+    "holders": 312,
+    "top10_pct": 65.88026173250552,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 0,
+    "narrative_type": "ai",
+    "narrative_red_flags": [],
+    "has_backdoor": false,
+    "backdoor_details": [],
+    "volume_anomaly": false,
+    "volume_anomaly_msg": "Volume 1.3x MCAP (normal)",
+    "data_consistent": true,
+    "data_discrepancies": [],
+    "red_flags": [
+      "\ud83d\udea8 TOO NEW (0.3h < 30m)"
+    ],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP depth >= 20 SOL (100.9) \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume pattern normal \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked (on-chain verified) \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Not honeypot \u2705",
+      "No backdoor \u2705",
+      "Wallet health \u2705"
+    ],
+    "dexscreener_data": {
+      "schemaVersion": "1.0.0",
+      "pairs": [
+        {
+          "chainId": "solana",
+          "dexId": "pumpswap",
+          "url": "https://dexscreener.com/solana/3jnathdjvscnwmsx8ccgdzlhvwmum8mkznffbw2argll",
+          "pairAddress": "3jnatHdJVSCnWMSX8CcGdZLhvWMuM8MkZNfFbw2aRGLL",
+          "baseToken": {
+            "address": "FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump",
+            "name": "signal the frog",
+            "symbol": "SIGNAL"
+          },
+          "quoteToken": {
+            "address": "So11111111111111111111111111111111111111112",
+            "name": "Wrapped SOL",
+            "symbol": "SOL"
+          },
+          "priceNative": "0.0000005692",
+          "priceUsd": "0.00005064",
+          "txns": {
+            "m5": {
+              "buys": 119,
+              "sells": 101
+            },
+            "h1": {
+              "buys": 919,
+              "sells": 691
+            },
+            "h6": {
+              "buys": 919,
+              "sells": 691
+            },
+            "h24": {
+              "buys": 919,
+              "sells": 691
+            }
+          },
+          "volume": {
+            "h24": 65565.61,
+            "h6": 65565.61,
+            "h1": 65565.61,
+            "m5": 6806.42
+          },
+          "priceChange": {
+            "m5": 29.02,
+            "h1": 40.79,
+            "h6": 40.79,
+            "h24": 40.79
+          },
+          "liquidity": {
+            "usd": 17871.67,
+            "base": 176609369,
+            "quote": 100.3523
+          },
+          "fdv": 50645,
+          "marketCap": 50645,
+          "pairCreatedAt": 1773999624000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/SLHKjlZ8F4pn4GQx?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/qWxLmAMwrxWMqFD4?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump?timestamp=1774000800000",
+            "websites": [],
+            "socials": [
+              {
+                "url": "https://x.com/i/communities/2034924265339068605/",
+                "type": "twitter"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "solana",
+          "dexId": "meteora",
+          "url": "https://dexscreener.com/solana/djdytcylphmjxsji1xorgqdlmk5m5bxb5zdddnagv5uv",
+          "pairAddress": "DjDYTcyLpHMjXSji1XorGQDLMK5m5BXb5zdDdnagv5UV",
+          "labels": [
+            "DYN2"
+          ],
+          "baseToken": {
+            "address": "FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump",
+            "name": "signal the frog",
+            "symbol": "SIGNAL"
+          },
+          "quoteToken": {
+            "address": "44sHXMkPeciUpqhecfCysVs7RcaxeM24VPMauQouBREV",
+            "name": "Larry Pink's Pool Party",
+            "symbol": "LPPP"
+          },
+          "priceNative": "0.7905",
+          "priceUsd": "0.00004738",
+          "txns": {
+            "m5": {
+              "buys": 5,
+              "sells": 1
+            },
+            "h1": {
+              "buys": 28,
+              "sells": 9
+            },
+            "h6": {
+              "buys": 28,
+              "sells": 9
+            },
+            "h24": {
+              "buys": 28,
+              "sells": 9
+            }
+          },
+          "volume": {
+            "h24": 22.22,
+            "h6": 22.22,
+            "h1": 22.22,
+            "m5": 2.52
+          },
+          "priceChange": {
+            "m5": 16.4,
+            "h1": 196,
+            "h6": 196,
+            "h24": 196
+          },
+          "liquidity": {
+            "usd": 63.03,
+            "base": 662619,
+            "quote": 527853
+          },
+          "fdv": 47382,
+          "marketCap": 47382,
+          "pairCreatedAt": 1774000048000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/SLHKjlZ8F4pn4GQx?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/qWxLmAMwrxWMqFD4?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump?timestamp=1774000800000",
+            "websites": [],
+            "socials": [
+              {
+                "url": "https://x.com/i/communities/2034924265339068605/",
+                "type": "twitter"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "solana",
+          "dexId": "pumpfun",
+          "url": "https://dexscreener.com/solana/dfqgm7rt4kkrhtyytbcsntyuaszmwy6nmg7case4km52",
+          "pairAddress": "DFqgM7rt4KKRHtyyTBCsNTyuAszMWY6nMg7caSE4km52",
+          "baseToken": {
+            "address": "FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump",
+            "name": "signal the frog",
+            "symbol": "SIGNAL"
+          },
+          "quoteToken": {
+            "address": "So11111111111111111111111111111111111111112",
+            "name": "Wrapped SOL",
+            "symbol": "SOL"
+          },
+          "priceNative": "0.0000004108",
+          "priceUsd": "0.00003658",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 913,
+              "sells": 646
+            },
+            "h6": {
+              "buys": 913,
+              "sells": 646
+            },
+            "h24": {
+              "buys": 913,
+              "sells": 646
+            }
+          },
+          "volume": {
+            "h24": 64987.07,
+            "h6": 64987.07,
+            "h1": 64987.07,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": 985,
+            "h6": 985,
+            "h24": 985
+          },
+          "fdv": 36588.88,
+          "marketCap": 36588.88,
+          "pairCreatedAt": 1773998511000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/SLHKjlZ8F4pn4GQx?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/qWxLmAMwrxWMqFD4?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FNSsYaTdk2iM6D9PvEQH8icz1mxsA579CBrc6MNApump?timestamp=1774000800000",
+            "websites": [],
+            "socials": [
+              {
+                "url": "https://x.com/i/communities/2034924265339068605/",
+                "type": "twitter"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "dexscreener_boosted": false,
+    "is_trending_narrative": true,
+    "checkpoints": {},
+    "grade_v54": "A \u2705",
+    "score_v54": 0,
+    "bonuses": [],
+    "final_grade": "A \u2705",
+    "chart_signals": {
+      "rsi": 47.83,
+      "ema_9": 5.1e-05,
+      "ema_21": 5.1e-05,
+      "vwap": 5.1e-05,
+      "support": [
+        4.9982428090909086e-05
+      ],
+      "resistance": [
+        5.1504735545454535e-05
+      ],
+      "trend": "neutral",
+      "breakout": false,
+      "breakdown": false,
+      "consolidating": true,
+      "volume_trend": "stable",
+      "chart_score": 0,
+      "analysis": "RSI:47.83, Trend:neutral, VWAP:False, Breakout:False",
+      "oscillator": {
+        "detected": false,
+        "score": 0,
+        "range_pct": 3.05,
+        "sr_touches": 0
+      }
+    },
+    "grade_v55": "A-",
+    "score_v55": 15,
+    "chart_reasons": []
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump",
+    "mcap": 129283,
+    "liq": 52775.09,
+    "sol_in_pool": 296.9558,
+    "vol24": 114540.92,
+    "vol5m": 150.96,
+    "vol_mcap_ratio": 0.885970467888276,
+    "age_hours": 11299.225891195556,
+    "score": 16,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "onchain_mint_verified": true,
+    "lp_locked": 99.97999999999946,
+    "lp_depth_healthy": true,
+    "holders": 7581,
+    "top10_pct": 49.77373003430437,
+    "cluster_risk": 2,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 0,
+    "narrative_type": "ai",
+    "narrative_red_flags": [],
+    "has_backdoor": false,
+    "backdoor_details": [],
+    "volume_anomaly": false,
+    "volume_anomaly_msg": "Volume 0.9x MCAP (normal)",
+    "data_consistent": true,
+    "data_discrepancies": [],
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP depth >= 20 SOL (297.0) \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume pattern normal \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked (on-chain verified) \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Age >= 6h \u2705",
+      "Not honeypot \u2705",
+      "No backdoor \u2705",
+      "Wallet health \u2705",
+      "Strong narrative (Generic) \u2705"
+    ],
+    "dexscreener_data": {
+      "schemaVersion": "1.0.0",
+      "pairs": [
+        {
+          "chainId": "solana",
+          "dexId": "raydium",
+          "url": "https://dexscreener.com/solana/8lfgkcz22d2mwg4lncrc3jt8vzgr6oeaebz69dexahdf",
+          "pairAddress": "8LFGKcz22D2mWg4LNcRC3jT8vZgr6oEaEBz69deXahDF",
+          "baseToken": {
+            "address": "6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump",
+            "name": "Nothing",
+            "symbol": "VOID"
+          },
+          "quoteToken": {
+            "address": "So11111111111111111111111111111111111111112",
+            "name": "Wrapped SOL",
+            "symbol": "SOL"
+          },
+          "priceNative": "0.000001453",
+          "priceUsd": "0.0001293",
+          "txns": {
+            "m5": {
+              "buys": 3,
+              "sells": 5
+            },
+            "h1": {
+              "buys": 511,
+              "sells": 404
+            },
+            "h6": {
+              "buys": 780,
+              "sells": 612
+            },
+            "h24": {
+              "buys": 781,
+              "sells": 613
+            }
+          },
+          "volume": {
+            "h24": 114540.92,
+            "h6": 114505.26,
+            "h1": 75542.21,
+            "m5": 150.96
+          },
+          "priceChange": {
+            "m5": -0.41,
+            "h1": -49.2,
+            "h6": 116,
+            "h24": 117
+          },
+          "liquidity": {
+            "usd": 52775.09,
+            "base": 203824259,
+            "quote": 296.9558
+          },
+          "fdv": 129283,
+          "marketCap": 129283,
+          "pairCreatedAt": 1733323639000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/5weYNaR4DTjPfffi?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/qQdDzYITPMwgZ0oq?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump?timestamp=1774000800000",
+            "websites": [],
+            "socials": [
+              {
+                "url": "https://twitter.com/i/communities/2031602415330537870",
+                "type": "twitter"
+              }
+            ]
+          },
+          "boosts": {
+            "active": 30
+          }
+        },
+        {
+          "chainId": "solana",
+          "dexId": "raydium",
+          "url": "https://dexscreener.com/solana/6k39kqrr2aprsaigta1piwaudtntw1gue1uyba26bn2n",
+          "pairAddress": "6k39kqrr2ApRSAigTa1piwaUdtntw1gue1UybA26Bn2n",
+          "labels": [
+            "CPMM"
+          ],
+          "baseToken": {
+            "address": "6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump",
+            "name": "Nothing",
+            "symbol": "VOID"
+          },
+          "quoteToken": {
+            "address": "So11111111111111111111111111111111111111112",
+            "name": "Wrapped SOL",
+            "symbol": "SOL"
+          },
+          "priceNative": "0.000001502",
+          "priceUsd": "0.0001335",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 76,
+              "sells": 88
+            },
+            "h6": {
+              "buys": 159,
+              "sells": 112
+            },
+            "h24": {
+              "buys": 159,
+              "sells": 113
+            }
+          },
+          "volume": {
+            "h24": 86.55,
+            "h6": 86.39,
+            "h1": 54.69,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": -46.65,
+            "h6": 108,
+            "h24": 108
+          },
+          "liquidity": {
+            "usd": 67.26,
+            "base": 251805,
+            "quote": 0.3782
+          },
+          "fdv": 133553,
+          "marketCap": 133553,
+          "pairCreatedAt": 1735122595000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/5weYNaR4DTjPfffi?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/qQdDzYITPMwgZ0oq?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump?timestamp=1774000800000",
+            "websites": [],
+            "socials": [
+              {
+                "url": "https://twitter.com/i/communities/2031602415330537870",
+                "type": "twitter"
+              }
+            ]
+          },
+          "boosts": {
+            "active": 30
+          }
+        },
+        {
+          "chainId": "solana",
+          "dexId": "orca",
+          "url": "https://dexscreener.com/solana/96bhfpbxp5tmrbj5fvvwcz1v1uxkxfg6eguneengwraw",
+          "pairAddress": "96BHFpBxp5TmrBj5fvvWcz1V1uXkXFG6EGuNEenGwRaW",
+          "labels": [
+            "wp"
+          ],
+          "baseToken": {
+            "address": "GR8fLyFDaK95LNVZFNo8qZ9RoL5Ln6un52wq5eVeMgL6",
+            "name": "DogWifMoHats",
+            "symbol": "MoHat"
+          },
+          "quoteToken": {
+            "address": "6gh8b2mqUrVb6Ew8Mwt89tNyN9keCDNstzT5cdp5pump",
+            "name": "Nothing",
+            "symbol": "VOID"
+          },
+          "priceNative": "0.02542",
+          "priceUsd": "0.000003365",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 10,
+              "sells": 5
+            },
+            "h6": {
+              "buys": 11,
+              "sells": 17
+            },
+            "h24": {
+              "buys": 11,
+              "sells": 17
+            }
+          },
+          "volume": {
+            "h24": 0.58,
+            "h6": 0.58,
+            "h1": 0.31,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": -3.43,
+            "h6": -16,
+            "h24": -16
+          },
+          "liquidity": {
+            "usd": 0.57,
+            "base": 83117,
+            "quote": 2231.1033
+          },
+          "fdv": 2774,
+          "marketCap": 2774,
+          "pairCreatedAt": 1736736283000,
+          "info": {
+            "imageUrl": "https://cdn.dexscreener.com/cms/images/a6ae4b7ef1862bf030516f8a39186b1da904bdaca8b721d08ef5364ca0a54a30?width=800&height=800&quality=95&format=auto",
+            "header": "https://cdn.dexscreener.com/cms/images/118c0538bc2fda20c0a03ed504af0b917cefc0de242f236ec3844013111c234b?width=1500&height=500&quality=95&format=auto",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GR8fLyFDaK95LNVZFNo8qZ9RoL5Ln6un52wq5eVeMgL6?timestamp=1774000800000",
+            "websites": [
+              {
+                "url": "http://MoHat.org",
+                "label": "Website"
+              }
+            ],
+            "socials": [
+              {
+                "url": "https://x.com/DogWifMoHats",
+                "type": "twitter"
+              },
+              {
+                "url": "https://t.me/+C4cLWJwW3MY4MWFh",
+                "type": "telegram"
+              },
+              {
+                "url": "https://discord.com/invite/zEA4d2Z2",
+                "type": "discord"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "dexscreener_boosted": false,
+    "is_trending_narrative": true,
+    "sentiment_score": 7.481264753944677,
+    "sentiment_signal": "moderate",
+    "checkpoints": {
+      "6": {
+        "timestamp": "2026-03-20T21:01:08.773911",
+        "grade": "A \u2705",
+        "mcap": 129283,
+        "holders": 7581,
+        "wallet_health": 100.0
+      },
+      "12": {
+        "timestamp": "2026-03-20T21:01:08.773936",
+        "grade": "A \u2705",
+        "mcap": 129283,
+        "holders": 7581,
+        "wallet_health": 100.0
+      },
+      "24": {
+        "timestamp": "2026-03-20T21:01:08.773950",
+        "grade": "A \u2705",
+        "mcap": 129283,
+        "holders": 7581,
+        "wallet_health": 100.0
+      },
+      "48": {
+        "timestamp": "2026-03-20T21:01:08.773959",
+        "grade": "A \u2705",
+        "mcap": 129283,
+        "holders": 7581,
+        "wallet_health": 100.0
+      },
+      "72": {
+        "timestamp": "2026-03-20T21:01:08.773970",
+        "grade": "A \u2705",
+        "mcap": 129283,
+        "holders": 7581,
+        "wallet_health": 100.0
+      }
+    },
+    "grade_v54": "A \u2705",
+    "score_v54": 5,
+    "bonuses": [
+      "sentiment_positive(5.695457996518042)(+1)",
+      "survived_6h(+1)",
+      "survived_12h(+1)",
+      "survived_24h(+2)"
+    ],
+    "final_grade": "A \u2705",
+    "chart_signals": {
+      "rsi": 47.83,
+      "ema_9": 0.000128,
+      "ema_21": 0.000128,
+      "vwap": 0.000128,
+      "support": [
+        0.000126564496875
+      ],
+      "resistance": [
+        0.000130419253125
+      ],
+      "trend": "neutral",
+      "breakout": false,
+      "breakdown": false,
+      "consolidating": true,
+      "volume_trend": "stable",
+      "chart_score": 0,
+      "analysis": "RSI:47.83, Trend:neutral, VWAP:False, Breakout:False",
+      "oscillator": {
+        "detected": false,
+        "score": 0,
+        "range_pct": 3.05,
+        "sr_touches": 0
+      }
+    },
+    "grade_v55": "A-",
+    "score_v55": 16,
+    "chart_reasons": []
+  }
+]

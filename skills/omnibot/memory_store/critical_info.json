@@ -1,0 +1,14 @@
+{
+  "api_keys": {},
+  "decisions": [],
+  "important_facts": {
+    "test_fact": {
+      "value": "Important info",
+      "updated": "2026-03-23T13:48:13.344267"
+    },
+    "search_term": {
+      "value": "cold data",
+      "updated": "2026-03-23T13:48:13.345489"
+    }
+  }
+}

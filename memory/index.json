@@ -1,0 +1,531 @@
+{
+  "version": "1.0",
+  "created": "2026-03-22T03:03:45.017447",
+  "updated": "2026-03-22T03:56:45.225996",
+  "entries": {
+    "18cdc8c99ce74634": {
+      "timestamp": "2026-03-22T03:03:45.017975",
+      "category": "code",
+      "tags": [
+        "memory",
+        "aca",
+        "build"
+      ],
+      "keywords": [
+        "user",
+        "wants",
+        "build",
+        "better",
+        "memory",
+        "system",
+        "using",
+        "methodology"
+      ],
+      "importance": 5,
+      "last_accessed": "2026-03-22T03:03:54.221222"
+    },
+    "00e6fa28a3bb6608": {
+      "timestamp": "2026-03-22T03:03:45.028106",
+      "category": "research",
+      "tags": [
+        "research",
+        "memory_systems"
+      ],
+      "keywords": [
+        "memory",
+        "systems",
+        "should",
+        "multiple",
+        "layers",
+        "capture",
+        "daily",
+        "journal",
+        "knowledge",
+        "base"
+      ],
+      "importance": 8,
+      "last_accessed": "2026-03-22T03:03:54.217578"
+    },
+    "0254bc17f2289ac9": {
+      "timestamp": "2026-03-22T03:03:45.029473",
+      "category": "decision",
+      "tags": [
+        "decision"
+      ],
+      "keywords": [
+        "memory",
+        "build",
+        "universal",
+        "system",
+        "current",
+        "fragmented",
+        "provides",
+        "structured",
+        "searchable",
+        "persistent"
+      ],
+      "importance": 9,
+      "last_accessed": "2026-03-22T03:03:54.218391"
+    },
+    "21af0cc2b5647e10": {
+      "timestamp": "2026-03-22T03:03:54.202219",
+      "category": "code",
+      "tags": [
+        "memory",
+        "aca",
+        "build"
+      ],
+      "keywords": [
+        "user",
+        "wants",
+        "build",
+        "better",
+        "memory",
+        "system",
+        "using",
+        "methodology"
+      ],
+      "importance": 5,
+      "last_accessed": "2026-03-22T03:03:54.213482"
+    },
+    "c46ca1518a8328ac": {
+      "timestamp": "2026-03-22T03:03:54.205519",
+      "category": "research",
+      "tags": [
+        "research",
+        "memory_systems"
+      ],
+      "keywords": [
+        "memory",
+        "systems",
+        "should",
+        "multiple",
+        "layers",
+        "capture",
+        "daily",
+        "journal",
+        "knowledge",
+        "base"
+      ],
+      "importance": 8,
+      "last_accessed": "2026-03-22T03:03:54.217155"
+    },
+    "10abe178dadc09fb": {
+      "timestamp": "2026-03-22T03:03:54.206576",
+      "category": "decision",
+      "tags": [
+        "decision"
+      ],
+      "keywords": [
+        "memory",
+        "build",
+        "universal",
+        "system",
+        "current",
+        "fragmented",
+        "provides",
+        "structured",
+        "searchable",
+        "persistent"
+      ],
+      "importance": 9,
+      "last_accessed": "2026-03-22T03:03:54.219317"
+    },
+    "f80d5216a16ab7f7": {
+      "timestamp": "2026-03-22T03:06:01.368039",
+      "category": "code",
+      "tags": [
+        "build",
+        "memory",
+        "aca",
+        "complete"
+      ],
+      "keywords": [
+        "auto",
+        "built",
+        "universal",
+        "memory",
+        "system",
+        "components",
+        "core",
+        "capture",
+        "skill",
+        "docs"
+      ],
+      "importance": 6
+    },
+    "b4d02cb416d2411c": {
+      "timestamp": "2026-03-22T03:08:49.235074",
+      "category": "research",
+      "tags": [
+        "research",
+        "15_autonomous_money_loops"
+      ],
+      "keywords": [
+        "loop",
+        "loops",
+        "comprehensive",
+        "analysis",
+        "autonomous",
+        "income",
+        "findings",
+        "whatsapp",
+        "business",
+        "assistant"
+      ],
+      "importance": 8
+    },
+    "d278b34677799023": {
+      "timestamp": "2026-03-22T03:08:49.246187",
+      "category": "decision",
+      "tags": [
+        "decision"
+      ],
+      "keywords": [
+        "loop",
+        "whatsapp",
+        "term",
+        "weeks",
+        "focus",
+        "business",
+        "assistant",
+        "market",
+        "research",
+        "crypto"
+      ],
+      "importance": 9
+    },
+    "a16cc183d8463822": {
+      "timestamp": "2026-03-22T03:10:35.397180",
+      "category": "research",
+      "tags": [
+        "research",
+        "essential_moltbot_skills_&_tools"
+      ],
+      "keywords": [
+        "tier",
+        "multi",
+        "month",
+        "stack",
+        "comprehensive",
+        "analysis",
+        "moltbot",
+        "skill",
+        "ecosystem",
+        "findings"
+      ],
+      "importance": 8
+    },
+    "cc47fa2c03b4dd59": {
+      "timestamp": "2026-03-22T03:11:29.637625",
+      "category": "research",
+      "tags": [],
+      "keywords": [
+        "research",
+        "loop",
+        "build",
+        "weeks",
+        "total",
+        "session",
+        "analyzed",
+        "autonomous",
+        "money",
+        "loops"
+      ],
+      "importance": 8
+    },
+    "be64de91649cd907": {
+      "timestamp": "2026-03-22T03:34:19.912276",
+      "category": "decision",
+      "tags": [
+        "decision"
+      ],
+      "keywords": [
+        "loop",
+        "return",
+        "build",
+        "autonomous",
+        "loops",
+        "research",
+        "money",
+        "complete",
+        "income",
+        "prioritized"
+      ],
+      "importance": 9
+    },
+    "733e51cc887ad9b1": {
+      "timestamp": "2026-03-22T03:34:35.484862",
+      "category": "decision",
+      "tags": [
+        "decision"
+      ],
+      "keywords": [
+        "loop",
+        "return",
+        "build",
+        "autonomous",
+        "loops",
+        "research",
+        "money",
+        "complete",
+        "income",
+        "prioritized"
+      ],
+      "importance": 9
+    },
+    "e9b35846f21bfec9": {
+      "timestamp": "2026-03-22T03:34:35.489998",
+      "category": "code",
+      "tags": [
+        "paused",
+        "money-loops",
+        "whatsapp-assistant",
+        "deferred",
+        "priority"
+      ],
+      "keywords": [
+        "research",
+        "build",
+        "whatsapp",
+        "assistant",
+        "paused",
+        "project",
+        "autonomous",
+        "money",
+        "loops",
+        "complete"
+      ],
+      "importance": 6
+    },
+    "2e8216f93cc12aa6": {
+      "timestamp": "2026-03-22T03:44:56.150659",
+      "category": "code",
+      "tags": [],
+      "keywords": [
+        "examples",
+        "user",
+        "wants",
+        "specific",
+        "website",
+        "automation",
+        "chatbot",
+        "tasks",
+        "airtasker",
+        "need"
+      ],
+      "importance": 6
+    },
+    "244f4a64ec11c2c7": {
+      "timestamp": "2026-03-22T03:56:45.221159",
+      "category": "research",
+      "tags": [],
+      "keywords": [
+        "business",
+        "marketing",
+        "user",
+        "wants",
+        "know",
+        "advertise",
+        "landscaping",
+        "australia",
+        "research",
+        "needed"
+      ],
+      "importance": 7
+    }
+  },
+  "tags": {
+    "memory": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "f80d5216a16ab7f7"
+    ],
+    "aca": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "f80d5216a16ab7f7"
+    ],
+    "build": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "f80d5216a16ab7f7"
+    ],
+    "complete": [
+      "f80d5216a16ab7f7"
+    ],
+    "paused": [
+      "e9b35846f21bfec9"
+    ],
+    "money-loops": [
+      "e9b35846f21bfec9"
+    ],
+    "whatsapp-assistant": [
+      "e9b35846f21bfec9"
+    ],
+    "deferred": [
+      "e9b35846f21bfec9"
+    ],
+    "priority": [
+      "e9b35846f21bfec9"
+    ]
+  },
+  "keywords": {
+    "user": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "2e8216f93cc12aa6",
+      "244f4a64ec11c2c7"
+    ],
+    "wants": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "2e8216f93cc12aa6",
+      "244f4a64ec11c2c7"
+    ],
+    "build": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "cc47fa2c03b4dd59",
+      "e9b35846f21bfec9"
+    ],
+    "better": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10"
+    ],
+    "memory": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "f80d5216a16ab7f7"
+    ],
+    "system": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10",
+      "f80d5216a16ab7f7"
+    ],
+    "using": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10"
+    ],
+    "methodology": [
+      "18cdc8c99ce74634",
+      "21af0cc2b5647e10"
+    ],
+    "auto": [
+      "f80d5216a16ab7f7"
+    ],
+    "built": [
+      "f80d5216a16ab7f7"
+    ],
+    "universal": [
+      "f80d5216a16ab7f7"
+    ],
+    "components": [
+      "f80d5216a16ab7f7"
+    ],
+    "core": [
+      "f80d5216a16ab7f7"
+    ],
+    "capture": [
+      "f80d5216a16ab7f7"
+    ],
+    "skill": [
+      "f80d5216a16ab7f7"
+    ],
+    "docs": [
+      "f80d5216a16ab7f7"
+    ],
+    "research": [
+      "cc47fa2c03b4dd59",
+      "e9b35846f21bfec9",
+      "244f4a64ec11c2c7"
+    ],
+    "loop": [
+      "cc47fa2c03b4dd59"
+    ],
+    "weeks": [
+      "cc47fa2c03b4dd59"
+    ],
+    "total": [
+      "cc47fa2c03b4dd59"
+    ],
+    "session": [
+      "cc47fa2c03b4dd59"
+    ],
+    "analyzed": [
+      "cc47fa2c03b4dd59"
+    ],
+    "autonomous": [
+      "cc47fa2c03b4dd59",
+      "e9b35846f21bfec9"
+    ],
+    "money": [
+      "cc47fa2c03b4dd59",
+      "e9b35846f21bfec9"
+    ],
+    "loops": [
+      "cc47fa2c03b4dd59",
+      "e9b35846f21bfec9"
+    ],
+    "whatsapp": [
+      "e9b35846f21bfec9"
+    ],
+    "assistant": [
+      "e9b35846f21bfec9"
+    ],
+    "paused": [
+      "e9b35846f21bfec9"
+    ],
+    "project": [
+      "e9b35846f21bfec9"
+    ],
+    "complete": [
+      "e9b35846f21bfec9"
+    ],
+    "examples": [
+      "2e8216f93cc12aa6"
+    ],
+    "specific": [
+      "2e8216f93cc12aa6"
+    ],
+    "website": [
+      "2e8216f93cc12aa6"
+    ],
+    "automation": [
+      "2e8216f93cc12aa6"
+    ],
+    "chatbot": [
+      "2e8216f93cc12aa6"
+    ],
+    "tasks": [
+      "2e8216f93cc12aa6"
+    ],
+    "airtasker": [
+      "2e8216f93cc12aa6"
+    ],
+    "need": [
+      "2e8216f93cc12aa6"
+    ],
+    "business": [
+      "244f4a64ec11c2c7"
+    ],
+    "marketing": [
+      "244f4a64ec11c2c7"
+    ],
+    "know": [
+      "244f4a64ec11c2c7"
+    ],
+    "advertise": [
+      "244f4a64ec11c2c7"
+    ],
+    "landscaping": [
+      "244f4a64ec11c2c7"
+    ],
+    "australia": [
+      "244f4a64ec11c2c7"
+    ],
+    "needed": [
+      "244f4a64ec11c2c7"
+    ]
+  }
+}

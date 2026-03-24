@@ -1,0 +1,12 @@
+{
+  "id": "ENT-pattern_extractor",
+  "type": "skill",
+  "name": "Pattern Extractor",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "learning",
+    "patterns"
+  ],
+  "created": "2026-03-20T04:52:13.779402"
+}

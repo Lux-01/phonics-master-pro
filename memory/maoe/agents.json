@@ -1,0 +1,68 @@
+{
+  "acd66786": {
+    "id": "acd66786",
+    "name": "research_acd66786",
+    "agent_type": "research",
+    "task": "Test task 1",
+    "status": "completed",
+    "output": "Research complete",
+    "started_at": "2026-03-09T05:39:45.010775",
+    "completed_at": "2026-03-09T05:39:45.017274",
+    "pid": 0
+  },
+  "c1e0d532": {
+    "id": "c1e0d532",
+    "name": "coding_c1e0d532",
+    "agent_type": "coding",
+    "task": "Test task 2",
+    "status": "completed",
+    "output": "Code written",
+    "started_at": "2026-03-09T05:39:45.013949",
+    "completed_at": "2026-03-09T05:39:45.018665",
+    "pid": 0
+  },
+  "2a66ad8b": {
+    "id": "2a66ad8b",
+    "name": "research_2a66ad8b",
+    "agent_type": "research",
+    "task": "Test task 1",
+    "status": "completed",
+    "output": "Research complete",
+    "started_at": "2026-03-09T08:36:45.066015",
+    "completed_at": "2026-03-09T08:36:45.069898",
+    "pid": 0
+  },
+  "af2615c7": {
+    "id": "af2615c7",
+    "name": "coding_af2615c7",
+    "agent_type": "coding",
+    "task": "Test task 2",
+    "status": "completed",
+    "output": "Code written",
+    "started_at": "2026-03-09T08:36:45.067743",
+    "completed_at": "2026-03-09T08:36:45.070907",
+    "pid": 0
+  },
+  "087a6b78": {
+    "id": "087a6b78",
+    "name": "research_087a6b78",
+    "agent_type": "research",
+    "task": "Test task 1",
+    "status": "completed",
+    "output": "Research complete",
+    "started_at": "2026-03-09T08:39:01.059438",
+    "completed_at": "2026-03-09T08:39:01.064743",
+    "pid": 0
+  },
+  "6d7610c3": {
+    "id": "6d7610c3",
+    "name": "coding_6d7610c3",
+    "agent_type": "coding",
+    "task": "Test task 2",
+    "status": "completed",
+    "output": "Code written",
+    "started_at": "2026-03-09T08:39:01.062836",
+    "completed_at": "2026-03-09T08:39:01.065614",
+    "pid": 0
+  }
+}

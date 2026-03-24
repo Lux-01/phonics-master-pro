@@ -1,0 +1,23 @@
+# Autonomous Scheduler - Generated crontab
+# Generated: 2026-03-13T17:49:02.815024
+
+# moltbook-heartbeat
+*/30 * * * * cd /home/skux/.openclaw/workspace && python3 check_moltbook.py
+
+# nightly-build
+0 0 * * * cd /home/skux/.openclaw/workspace && ./nightly_build.sh
+
+# solana-alpha-monitor-v54
+0 */2 * * * cd /home/skux/.openclaw/workspace && python3 agents/lux_trader/solana_alpha_hunter_v54.py
+
+# solana-alpha-combined-v54
+0 */6 * * * echo 'Task solana-alpha-combined-v54 not configured'
+
+# solana-alpha-full-v55
+0 0 * * * echo 'Task solana-alpha-full-v55 not configured'
+
+# lux-trader-paper
+0 0 * * * cd /home/skux/.openclaw/workspace/agents/lux_trader && python3 luxtrader_live.py
+
+# lux-trader-learn
+0 */6 * * * cd /home/skux/.openclaw/workspace/agents/lux_trader && python3 learning_engine.py

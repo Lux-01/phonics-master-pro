@@ -1,0 +1,31 @@
+{
+  "lastUpdated": "2026-03-09",
+  "totalMRR": 0,
+  "streams": [
+    {"name": "AOE Alpha Signals", "monthlyRevenue": 0, "status": "active", "source": "AOE", "cron": "aoe-v2-scanner", "schedule": "Every 30 minutes"},
+    {"name": "ATS Trading Thesis", "monthlyRevenue": 0, "status": "active", "source": "ATS", "cron": "ats-daily-thesis", "schedule": "Twice daily (9am/9pm)"},
+    {"name": "Skylar Live Trading", "monthlyRevenue": 0, "status": "active", "source": "Skylar", "cron": "skylar-trading-monitor", "schedule": "Every 2 hours", "lastTrade": "2026-02-27"},
+    {"name": "Wallet Whale Tracker", "monthlyRevenue": 0, "status": "paused", "source": "AWT", "note": "User requested remain off"},
+    {"name": "Avatar Packs", "monthlyRevenue": 0, "status": "planned", "source": "AWB"},
+    {"name": "CV Rewriting", "monthlyRevenue": 0, "status": "planned", "source": "Direct"}
+  ],
+  "plannedRevenue": 2900,
+  "breakdown": {
+    "active": 3,
+    "paused": 1,
+    "planned": 2
+  },
+  "activeCronJobs": [
+    "aoe-v2-scanner (Every 30 min)",
+    "skylar-trading-monitor (Every 2 hours)",
+    "ats-daily-thesis (Twice daily)",
+    "daily-income-report (Daily 6pm)"
+  ],
+  "notes": [
+    "MRR tracking starts from March 2026",
+    "AOE v2 scans every 30 min for Grade A+ opportunities (Score ≥82)",
+    "ATS generates thesis twice daily (US hours: 9am/9pm Sydney)",
+    "Skylar executes trades every 2 hours based on ATS signals",
+    "Whale tracker paused per user request"
+  ]
+}

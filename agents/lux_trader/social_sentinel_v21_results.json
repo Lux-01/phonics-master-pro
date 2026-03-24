@@ -1,0 +1,10 @@
+{
+  "strategy": "Social Sentinel v2.1",
+  "version": "2.1",
+  "start": 1.0,
+  "end": 15.557569013644525,
+  "multiplier": 15.557569013644525,
+  "trades": 80,
+  "wins": 60,
+  "rugs": 11
+}

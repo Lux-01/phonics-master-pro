@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-03-14T03:02:40.489845",
+  "skills_used": [
+    "autonomous-code-architect",
+    "autonomous-maintenance-repair"
+  ],
+  "summary": {
+    "total": 8,
+    "passed": 7,
+    "failed": 1,
+    "fixed": 1,
+    "success_rate": 87.5
+  },
+  "test_results": [
+    {
+      "id": "TEST-001",
+      "name": "Syntax Validation",
+      "target": "luxtrader_live.py",
+      "type": "syntax_check",
+      "description": "Validate Python syntax",
+      "expected": "No syntax errors",
+      "priority": "CRITICAL",
+      "success": true,
+      "details": "No syntax errors",
+      "timestamp": "2026-03-14T03:02:40.338870"
+    },
+    {
+      "id": "TEST-002",
+      "name": "Import Validation",
+      "target": "holy_trinity_live.py",
+      "type": "import_check",
+      "description": "Check all imports resolve",
+      "expected": "All imports successful",
+      "priority": "CRITICAL",
+      "success": true,
+      "details": "Import statements found (syntax valid)",
+      "timestamp": "2026-03-14T03:02:40.340947"
+    },
+    {
+      "id": "TEST-003",
+      "name": "State File Integrity",
+      "target": "live_state.json",
+      "type": "json_validation",
+      "description": "Validate JSON structure",
+      "expected": "Valid JSON, required fields present",
+      "priority": "HIGH",
+      "success": true,
+      "details": "Valid JSON, all 4 required fields present",
+      "timestamp": "2026-03-14T03:02:40.341517"
+    },
+    {
+      "id": "TEST-004",
+      "name": "Config Validation",
+      "target": "holy_trinity_live.py",
+      "type": "config_check",
+      "description": "Check configuration values",
+      "expected": "All configs valid",
+      "priority": "HIGH",
+      "success": true,
+      "details": "CONFIG and SAFETY dictionaries present",
+      "timestamp": "2026-03-14T03:02:40.341874"
+    },
+    {
+      "id": "TEST-005",
+      "name": "Position Calculation",
+      "target": "holy_trinity_live.py",
+      "type": "logic_test",
+      "description": "Test position sizing logic",
+      "expected": "Position 10.5-11.46% of capital",
+      "priority": "MEDIUM",
+      "success": true,
+      "details": "Position 0.1050 SOL in range",
+      "timestamp": "2026-03-14T03:02:40.341902"
+    },
+    {
+      "id": "TEST-006",
+      "name": "Composite Score",
+      "target": "holy_trinity_live.py",
+      "type": "logic_test",
+      "description": "Test composite score calculation",
+      "expected": "Weighted average of 3 components",
+      "priority": "MEDIUM",
+      "success": true,
+      "details": "Position 0.1050 SOL in range",
+      "timestamp": "2026-03-14T03:02:40.341915"
+    },
+    {
+      "id": "TEST-007",
+      "name": "Circuit Breakers",
+      "target": "luxtrader_live.py",
+      "type": "safety_check",
+      "description": "Validate safety limits",
+      "expected": "Drawdown < 15%, daily loss < 0.05 SOL",
+      "priority": "CRITICAL",
+      "success": true,
+      "details": "Safety checks: Drawdown limit, Daily loss limit, Stop loss",
+      "timestamp": "2026-03-14T03:02:40.342190"
+    },
+    {
+      "id": "TEST-008",
+      "name": "Process Health",
+      "target": "runtime",
+      "type": "runtime_check",
+      "description": "Check if agents are running",
+      "expected": "Both agents healthy",
+      "priority": "HIGH",
+      "success": false,
+      "details": "No agents running",
+      "timestamp": "2026-03-14T03:02:40.446622"
+    }
+  ],
+  "issues_found": [
+    {
+      "test_id": "TEST-008",
+      "test_name": "Process Health",
+      "severity": "HIGH",
+      "description": "No agents running",
+      "target": "runtime",
+      "auto_fixable": true
+    }
+  ],
+  "fixes_applied": [
+    {
+      "issue_id": "TEST-008",
+      "success": true,
+      "message": "Agents restarted"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+================================================================================
+🚀 SOLANA ALPHA HUNTER v5.5 - Chart Analysis Edition
+📊 Timeframe: 15m candles | RSI | EMA | VWAP | Breakout
+================================================================================
+
+Analyzing 2 tokens from v5.4...
+
+📊 v5.5 Chart Analysis for FNSsYaTdk2iM6D9PvEQH...
+  📊 Fetching chart (15m candles)...
+  📊 Trying Birdeye for real OHLC data...
+  ⚠️ Birdeye API returned 400: {"success":false,"message":"Compute units usage limit exceeded"}
+  📊 Falling back to DexScreener...
+  📈 Analyzing 96 candles...
+  📊 Chart Score: 0 (below_vwap(-1), rsi_healthy(+1))
+
+🎯 v5.5 Combined Result:
+   Fundamentals: A ✅ (15/20)
+   Chart: 0/10
+   Total: 15/30
+   Final Grade: A-
+
+📊 v5.5 Chart Analysis for 6gh8b2mqUrVb6Ew8Mwt8...
+  📊 Fetching chart (15m candles)...
+  📊 Trying Birdeye for real OHLC data...
+  ⚠️ Birdeye API returned 400: {"success":false,"message":"Compute units usage limit exceeded"}
+  📊 Falling back to DexScreener...
+  📈 Analyzing 96 candles...
+  📊 Chart Score: 0 (below_vwap(-1), rsi_healthy(+1))
+
+🎯 v5.5 Combined Result:
+   Fundamentals: A ✅ (16/20)
+   Chart: 0/10
+   Total: 16/30
+   Final Grade: A-
+
+================================================================================
+✅ v5.5 Analysis Complete
+📊 Enhanced: 2 tokens with chart data
+💾 Saved: alpha_results_v55.json
+================================================================================
+
+🏆 TOP CHART SETUPS:

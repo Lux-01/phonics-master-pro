@@ -1,0 +1,115 @@
+[
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "D5WomD9VJ5GAer4SxbfaXJt9aSq1H62rUmWGNKnzpump",
+    "mcap": 103114,
+    "liq": 25631.85,
+    "vol24": 213825.95,
+    "vol5m": 35513.53,
+    "age_hours": 0.38622538194444445,
+    "score": 14,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 572,
+    "top10_pct": 29.797974594615148,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 10,
+    "narrative_type": "AI",
+    "narrative_red_flags": [],
+    "red_flags": [
+      "\u26a0\ufe0f TOO NEW (0.4h < 30m)"
+    ],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Top10 <30% \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Not honeypot \u2705",
+      "Wallet health \u2705",
+      "Strong narrative (AI) \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "5zik3LcZUGWq62R97xwu1EY4ZqWwynrCsdyfxS8Spump",
+    "mcap": 65320,
+    "liq": 20676.17,
+    "vol24": 298946.51,
+    "vol5m": 24819.65,
+    "age_hours": 0.9190505822222222,
+    "score": 15,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 2999,
+    "top10_pct": 19.915494461493317,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 0,
+    "narrative_type": "Generic",
+    "narrative_red_flags": [],
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Top10 <30% \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705",
+      "Wallet health \u2705"
+    ]
+  }
+]

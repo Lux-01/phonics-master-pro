@@ -1,0 +1,12 @@
+{
+  "id": "ENT-aoe",
+  "type": "skill",
+  "name": "AOE",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "opportunities",
+    "scanning"
+  ],
+  "created": "2026-03-20T04:52:13.787507"
+}

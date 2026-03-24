@@ -1,0 +1,64 @@
+{
+  "agent": "raphael",
+  "status": "IN_POSITION",
+  "balance": 1.1688,
+  "startingBalance": 1.1767,
+  "targetBalance": 50,
+  "tradesToday": 4,
+  "totalTrades": 8,
+  "wins": 0,
+  "losses": 1,
+  "skips": 4,
+  "realizedPnl": -0.0079,
+  "position": {
+    "token": "HENRY (865GVDdESzXiNvygSUt7yFeJLrXDyn5UpGNfYuxfpump)",
+    "entryPrice": 0.0002413,
+    "size": 0.2,
+    "entryTime": "2026-02-23T02:38:00Z"
+  },
+  "lastUpdate": "2026-02-23T03:27:40.824Z",
+  "message": "Trade #7 HENRY entered. 8 total trades (3 holding, 1 loss, 4 skips). Learning: Liquidity > Volume. Grade C fails 80%.",
+  "sessionPnlSol": -0.0079,
+  "sessionPnlPercent": -0.67,
+  "activePositions": 3,
+  "positions": [
+    {
+      "token": "BONK",
+      "entryPrice": 0.000005814,
+      "currentPrice": 0.000005814,
+      "size": 0.25,
+      "entryTime": "2026-02-23T02:08:00Z",
+      "grade": "B",
+      "stopLoss": 0.000005407,
+      "target": 0.000006279,
+      "unrealizedPnlPercent": 0,
+      "unrealizedPnlSol": 0
+    },
+    {
+      "token": "JUP",
+      "entryPrice": 0.1429,
+      "currentPrice": 0.1431,
+      "size": 0.25,
+      "entryTime": "2026-02-23T02:15:00Z",
+      "grade": "A-",
+      "stopLoss": 0.1329,
+      "target": 0.1543,
+      "unrealizedPnlPercent": 0.13995801259622515,
+      "unrealizedPnlSol": 0.00034989503149056284
+    },
+    {
+      "token": "HENRY",
+      "entryPrice": 0.0002413,
+      "currentPrice": 0.0002413,
+      "size": 0.2,
+      "entryTime": "2026-02-23T02:38:00Z",
+      "grade": "B",
+      "stopLoss": 0.0002244,
+      "target": 0.0002606,
+      "unrealizedPnlPercent": 0,
+      "unrealizedPnlSol": 0
+    }
+  ],
+  "timestamp": "2026-02-23T02:39:00Z",
+  "unrealizedPnl": 0.00034989503149056284
+}

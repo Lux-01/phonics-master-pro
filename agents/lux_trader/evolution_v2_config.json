@@ -1,0 +1,76 @@
+{
+  "version": "2.0",
+  "evolved_from": "v1.0_backtest_results",
+  "evolution_date": "2026-03-13T09:55:00+11:00",
+  "strategies": {
+    "breakout_hunter": {
+      "improvements": [
+        "Dynamic trailing after +20%",
+        "Higher target tier (35% for score 14+)"
+      ],
+      "params": {
+        "position": 0.45,
+        "target": 0.25,
+        "trail": 0.1,
+        "rug_filter": 0.5
+      },
+      "expected": "22-25x"
+    },
+    "whale_tracker": {
+      "improvements": [
+        "Lower rug filter (35%->25%)",
+        "Multi-scale exit",
+        "Whale score 9+"
+      ],
+      "params": {
+        "position": 0.4,
+        "target": 0.22,
+        "whale_min": 9,
+        "rug_filter": 0.35
+      },
+      "expected": "16-18x"
+    },
+    "social_sentinel": {
+      "improvements": [
+        "Bull market required",
+        "Social score 9+",
+        "Early momentum exit"
+      ],
+      "params": {
+        "position": 0.35,
+        "target": 0.18,
+        "bull_required": true,
+        "rug_filter": 0.45
+      },
+      "expected": "12-14x"
+    },
+    "mean_reverter": {
+      "improvements": [
+        "Larger positions on deep deviations",
+        "Scale out at 15%",
+        "Deviation multiplier"
+      ],
+      "params": {
+        "position": 0.4,
+        "target": 0.15,
+        "deviation_mult": 1.8,
+        "rug_filter": 0.55
+      },
+      "expected": "9-11x"
+    },
+    "rug_radar": {
+      "improvements": [
+        "12% target for safety 12+",
+        "Dynamic sizing",
+        "65% rug filter"
+      ],
+      "params": {
+        "position": 0.3,
+        "base_target": 0.08,
+        "bonus_target": 0.12,
+        "rug_filter": 0.65
+      },
+      "expected": "7-9x"
+    }
+  }
+}

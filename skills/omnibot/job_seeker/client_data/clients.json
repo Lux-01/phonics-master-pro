@@ -1,0 +1,38 @@
+{
+  "upwork_testcorp": {
+    "client_id": "upwork_testcorp",
+    "platform": "upwork",
+    "company_name": "TestCorp",
+    "payment_verified": true,
+    "email_verified": true,
+    "phone_verified": false,
+    "identity_verified": true,
+    "total_hires": 15,
+    "active_hires": 2,
+    "hire_rate": 0.75,
+    "avg_project_budget": 2500,
+    "total_spent": 50000,
+    "rating": 4.7,
+    "feedback_count": 45,
+    "top_review": "Great client to work with",
+    "communication_style": "detailed",
+    "responsiveness": "fast",
+    "timezone": "America/New_York",
+    "preferred_skills": [
+      "Python",
+      "React",
+      "API"
+    ],
+    "project_types": [
+      "Web Development",
+      "API Integration"
+    ],
+    "past_job_titles": [
+      "Full Stack Developer",
+      "Backend Engineer"
+    ],
+    "disputes_count": 0,
+    "payment_delays": 0,
+    "communication_issues": 0
+  }
+}

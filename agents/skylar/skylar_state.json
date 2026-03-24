@@ -1,0 +1,52 @@
+{
+  "cycle": 3,
+  "positions": [
+    {
+      "status": "ACTIVE",
+      "tradeNum": 3,
+      "txSignature": "4U6wY2BiFcVu1WExb5nC4rxq7Maqyadej44UdSszVUj9Vr4J1Au886bmpfrgvxr2e6XTk27DHxQ5tikavoK41USU",
+      "token": "UNKNOWN",
+      "tokenAddress": "J7hAqXqZmqmgjQsFdAB6Q6apqRNibkQTpVK4w8WyBAGS",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 80,
+      "entryTime": 1772206044525
+    }
+  ],
+  "soldPositions": [
+    {
+      "status": "SOLD",
+      "tradeNum": 2,
+      "txSignature": "2N74PJub9ZYHM3veoGyJaGnv29vqQgSapGC5zBzoYpGyDuKRPeYn8ADqVpGLhzdBqp5LzMveiaacsh4Rq3SVEcvy",
+      "token": "UNKNOWN",
+      "tokenAddress": "ZuYdvbSbxD6iR1M3FzCPuFNGa9BhKgqhFTLgjpTpump",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 90,
+      "entryTime": 1772205286132,
+      "signature": "3BvjJxFcdCd4F9v4z3LquinxS8wz9N8TCru1uQxg9W1umQqdyuR2wQApbsucVoWaHauaQwFeJVNJxY24bxNdSWNq",
+      "receivedSol": 0.008764303,
+      "exitReason": "SL -12.5%",
+      "exitTime": 1772205739216,
+      "pnlSol": -0.0012356970000000009,
+      "pnlPct": -12.35697000000001
+    },
+    {
+      "status": "SOLD",
+      "tradeNum": 4,
+      "txSignature": "eHhtQ6mBq2BmkhNQmmmBao7LLBQUNRAxFER9jDaHUqbhnt39qoST239Sb4fWwx5ZXeDMCRSP1naWePfAYj9PTNo",
+      "token": "UNKNOWN",
+      "tokenAddress": "v8ic5ww8fy6ejkq4Cr5CVpYnstaXjMsRGJZSWn5SS1t",
+      "inputSol": "0.010000",
+      "grade": "A",
+      "score": 90,
+      "entryTime": 1772205774230,
+      "signature": "4y585Xf9QTfvPEqcmHJ5keavPVi1o2FyBYyXfTif9p54MEv8LpoeB6gEmjPu1YmwjxyXh5BPNDZfCRpMAupWwNEA",
+      "receivedSol": 0.009118077,
+      "exitReason": "SL -8.8%",
+      "exitTime": 1772206017136,
+      "pnlSol": -0.0008819229999999997,
+      "pnlPct": -8.819229999999997
+    }
+  ]
+}

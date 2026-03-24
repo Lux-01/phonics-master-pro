@@ -1,0 +1,10 @@
+{
+  "strategy": "Mean-Reverter v2.0",
+  "version": "2.0",
+  "start": 1.0,
+  "end": 20.28856725258029,
+  "multiplier": 20.28856725258029,
+  "trades": 75,
+  "wins": 48,
+  "rugs": 0
+}

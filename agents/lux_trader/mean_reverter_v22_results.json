@@ -1,0 +1,13 @@
+{
+  "strategy": "Mean-Reverter v2.2",
+  "version": "2.2",
+  "improvements": [
+    "50% deep dip",
+    "2-tier exit",
+    "Add on dip"
+  ],
+  "start": 1.0,
+  "end": 43.45631731442988,
+  "multiplier": 43.45631731442988,
+  "trades": 80
+}

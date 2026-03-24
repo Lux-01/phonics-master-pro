@@ -1,0 +1,71 @@
+{
+  "tracker": {
+    "name": "WhaleTracker",
+    "version": "2.0",
+    "skylar_wallet": "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5"
+  },
+  "target_wallets": [
+    {
+      "address": "JBhVoSaXknLocuRGMUAbuWqEsegHA8eG1wUUNM2MBYiv",
+      "name": "Whale Alpha 1",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "address": "REPLACE_WITH_SMART_MONEY_WALLET_1",
+      "name": "Smart Money A",
+      "weight": 1.5,
+      "enabled": false,
+      "note": "Find on DeBank - look for 100%+ ROI over 30 days"
+    },
+    {
+      "address": "REPLACE_WITH_EARLY_ADOPTER_WALLET",
+      "name": "Early Adopter",
+      "weight": 1.2,
+      "enabled": false,
+      "note": "Find on Solscan - first 50 buyers of recent 10x tokens"
+    },
+    {
+      "address": "REPLACE_WITH_DIAMOND_HANDS_WALLET",
+      "name": "Diamond Hands",
+      "weight": 1.3,
+      "enabled": false,
+      "note": "Find on Birdeye - holds for 2x-5x gains consistently"
+    }
+  ],
+  "trigger_rules": {
+    "min_buys_to_trigger": 4,
+    "time_window_seconds": 30,
+    "min_buy_size_sol": 0.5,
+    "cooldown_minutes_between_trades": 3,
+    "multi_whale_threshold": 2
+  },
+  "skylar_strategy": {
+    "entry_size_sol": 0.3,
+    "target_profit_pct": 15,
+    "stop_loss_pct": 7,
+    "time_stop_hours": 4,
+    "slippage_bps": 100
+  },
+  "telegram": {
+    "enabled": true,
+    "bot_token": "8657945254:AAGyYm6cnVrKj-_HVUDnx7UWGnoSFhtShjQ",
+    "chat_id": "6610224534",
+    "alerts": {
+      "whale_detected": true,
+      "trade_executed": true,
+      "trade_failed": true,
+      "daily_summary": true
+    }
+  },
+  "monitoring": {
+    "check_interval_seconds": 5,
+    "enabled": true
+  },
+  "files": {
+    "log_file": "/home/skux/.openclaw/workspace/agents/wallet_whale/whale_trades.json",
+    "state_file": "/home/skux/.openclaw/workspace/agents/wallet_whale/tracker_state.json",
+    "triggered_file": "/home/skux/.openclaw/workspace/agents/wallet_whale/triggered_trades.json"
+  },
+  "notes": "Multi-wallet whale tracker with Telegram alerts. Triggers on: (1) Single whale 4+ buys in 30s, OR (2) 2+ different whales buying same token within 60s. Higher weight wallets = more conviction."
+}

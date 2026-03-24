@@ -1,0 +1,13 @@
+{
+  "total_files_indexed": 1,
+  "tags_created": 2,
+  "last_consolidation": null,
+  "files_by_tag": {
+    "trading": [
+      "/home/skux/.openclaw/workspace/test_memory.json"
+    ],
+    "strategy": [
+      "/home/skux/.openclaw/workspace/test_memory.json"
+    ]
+  }
+}

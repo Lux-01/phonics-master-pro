@@ -1,0 +1,903 @@
+{
+  "backtest_config": {
+    "coins_tested": [
+      "WIF",
+      "POPCAT",
+      "BONK",
+      "MEW",
+      "PENGU",
+      "BOME",
+      "SLERF"
+    ],
+    "timeframe": "15m",
+    "lookback_days": 14,
+    "sweep_threshold": "1-6% below support",
+    "reclaim_window": "3 candles",
+    "stop_loss": "0.8% below sweep low",
+    "take_profit_1": "Range mid",
+    "take_profit_2": "Resistance",
+    "max_hold": "2 hours (8 candles)"
+  },
+  "overall_metrics": {
+    "total_trades": 38,
+    "wins": 21,
+    "losses": 17,
+    "win_rate": 55.26,
+    "avg_profit_per_trade": -0.0896,
+    "max_drawdown_pct": -9.3462,
+    "risk_reward_ratio": 0.67,
+    "total_return_pct": -3.406,
+    "best_trade": 2.8271,
+    "worst_trade": -3.594
+  },
+  "per_coin_summary": {
+    "WIF": {
+      "total_trades": 6,
+      "wins": 3,
+      "losses": 3,
+      "win_rate": 50.0,
+      "avg_profit_per_trade": 0.4667,
+      "total_return_pct": 2.8,
+      "best_trade": 1.5685,
+      "worst_trade": -0.1115,
+      "avg_win_pct": 1.0061,
+      "avg_loss_pct": -0.0727,
+      "risk_reward": 13.83
+    },
+    "POPCAT": {
+      "total_trades": 7,
+      "wins": 4,
+      "losses": 3,
+      "win_rate": 57.14,
+      "avg_profit_per_trade": -1.011,
+      "total_return_pct": -7.077,
+      "best_trade": 0.8471,
+      "worst_trade": -3.594,
+      "avg_win_pct": 0.3992,
+      "avg_loss_pct": -2.8913,
+      "risk_reward": 0.14
+    },
+    "BONK": {
+      "total_trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "win_rate": 33.33,
+      "avg_profit_per_trade": -0.3192,
+      "total_return_pct": -0.9575,
+      "best_trade": 1.2321,
+      "worst_trade": -1.8296,
+      "avg_win_pct": 1.2321,
+      "avg_loss_pct": -1.0948,
+      "risk_reward": 1.13
+    },
+    "MEW": {
+      "total_trades": 5,
+      "wins": 4,
+      "losses": 1,
+      "win_rate": 80.0,
+      "avg_profit_per_trade": 1.0844,
+      "total_return_pct": 5.4221,
+      "best_trade": 2.8271,
+      "worst_trade": -0.1543,
+      "avg_win_pct": 1.3941,
+      "avg_loss_pct": -0.1543,
+      "risk_reward": 9.03
+    },
+    "PENGU": {
+      "total_trades": 10,
+      "wins": 5,
+      "losses": 5,
+      "win_rate": 50.0,
+      "avg_profit_per_trade": -0.5051,
+      "total_return_pct": -5.0515,
+      "best_trade": 1.1042,
+      "worst_trade": -2.6313,
+      "avg_win_pct": 0.5416,
+      "avg_loss_pct": -1.5519,
+      "risk_reward": 0.35
+    },
+    "BOME": {
+      "total_trades": 7,
+      "wins": 4,
+      "losses": 3,
+      "win_rate": 57.14,
+      "avg_profit_per_trade": 0.2083,
+      "total_return_pct": 1.4578,
+      "best_trade": 0.8756,
+      "worst_trade": -0.5706,
+      "avg_win_pct": 0.5406,
+      "avg_loss_pct": -0.2348,
+      "risk_reward": 2.3
+    },
+    "SLERF": {
+      "total_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0,
+      "avg_profit_per_trade": 0,
+      "total_return_pct": 0,
+      "best_trade": 0,
+      "worst_trade": 0,
+      "avg_win_pct": 0,
+      "avg_loss_pct": 0,
+      "risk_reward": 0
+    }
+  },
+  "trades_by_coin": {
+    "WIF": [
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-10T18:00:00",
+        "exit_time": "2026-02-10T20:00:00",
+        "entry_price": 0.22240643552005154,
+        "exit_price": 0.22223152922463985,
+        "pnl_pct": -0.0007864264134386007,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-12T02:15:00",
+        "exit_time": "2026-02-12T04:15:00",
+        "entry_price": 0.2069983868966337,
+        "exit_price": 0.20676753191952044,
+        "pnl_pct": -0.0011152501262173277,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-16T01:30:00",
+        "exit_time": "2026-02-16T03:30:00",
+        "entry_price": 0.23405234971126238,
+        "exit_price": 0.23398680570960256,
+        "pnl_pct": -0.00028003992158450857,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-16T22:30:00",
+        "exit_time": "2026-02-16T22:45:00",
+        "entry_price": 0.23235680430372688,
+        "exit_price": 0.23409292351800126,
+        "pnl_pct": 0.007471781252443993,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-17T03:00:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 0.2305837798384395,
+        "exit_price": 0.23220372260891026,
+        "pnl_pct": 0.00702539776043997,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "WIF",
+        "entry_time": "2026-02-19T02:00:00",
+        "exit_time": "2026-02-19T02:30:00",
+        "entry_price": 0.22869297791088855,
+        "exit_price": 0.23227992984879015,
+        "pnl_pct": 0.01568457401127231,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      }
+    ],
+    "POPCAT": [
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-12T02:15:00",
+        "exit_time": "2026-02-12T04:15:00",
+        "entry_price": 0.048141597551618946,
+        "exit_price": 0.04815315382362325,
+        "pnl_pct": 0.00024004753876131485,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-13T16:30:00",
+        "exit_time": "2026-02-13T17:30:00",
+        "entry_price": 0.0493827844464017,
+        "exit_price": 0.04840707290175608,
+        "pnl_pct": -0.019758131413278642,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-15T15:00:00",
+        "exit_time": "2026-02-15T15:15:00",
+        "entry_price": 0.06039513362337812,
+        "exit_price": 0.05822453837198921,
+        "pnl_pct": -0.035939903120749114,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-15T15:30:00",
+        "exit_time": "2026-02-15T17:00:00",
+        "entry_price": 0.05946463553050792,
+        "exit_price": 0.05761882134291568,
+        "pnl_pct": -0.031040536465497252,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-17T03:00:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 0.0538450063763977,
+        "exit_price": 0.05392363422642535,
+        "pnl_pct": 0.0014602626189327702,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-18T02:45:00",
+        "exit_time": "2026-02-18T03:00:00",
+        "entry_price": 0.05270458342177825,
+        "exit_price": 0.05315104152318828,
+        "pnl_pct": 0.008470953993453772,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "POPCAT",
+        "entry_time": "2026-02-18T13:00:00",
+        "exit_time": "2026-02-18T14:45:00",
+        "entry_price": 0.05249676267183432,
+        "exit_price": 0.05280111705114792,
+        "pnl_pct": 0.005797583771330227,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      }
+    ],
+    "BONK": [
+      {
+        "symbol": "BONK",
+        "entry_time": "2026-02-11T14:30:00",
+        "exit_time": "2026-02-11T16:30:00",
+        "entry_price": 5.97156165065299e-06,
+        "exit_price": 5.862305495658121e-06,
+        "pnl_pct": -0.01829607753993828,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "BONK",
+        "entry_time": "2026-02-16T22:45:00",
+        "exit_time": "2026-02-16T23:15:00",
+        "entry_price": 6.583789774851347e-06,
+        "exit_price": 6.664911703712882e-06,
+        "pnl_pct": 0.012321464025385972,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "BONK",
+        "entry_time": "2026-02-17T03:00:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 6.517412165892772e-06,
+        "exit_price": 6.493948038231133e-06,
+        "pnl_pct": -0.0036002215395295836,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      }
+    ],
+    "MEW": [
+      {
+        "symbol": "MEW",
+        "entry_time": "2026-02-13T00:00:00",
+        "exit_time": "2026-02-13T00:30:00",
+        "entry_price": 0.0006179316703785148,
+        "exit_price": 0.0006354011233419949,
+        "pnl_pct": 0.028270849028953556,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "MEW",
+        "entry_time": "2026-02-15T14:45:00",
+        "exit_time": "2026-02-15T15:00:00",
+        "entry_price": 0.0006871445721851044,
+        "exit_price": 0.0006943980987749,
+        "pnl_pct": 0.010556041455336703,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "MEW",
+        "entry_time": "2026-02-16T22:45:00",
+        "exit_time": "2026-02-16T23:15:00",
+        "entry_price": 0.000657849449552299,
+        "exit_price": 0.0006610813407295205,
+        "pnl_pct": 0.004912812771099879,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "MEW",
+        "entry_time": "2026-02-17T03:00:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 0.0006481730897028078,
+        "exit_price": 0.0006471728017240208,
+        "pnl_pct": -0.001543242067092973,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "MEW",
+        "entry_time": "2026-02-18T02:45:00",
+        "exit_time": "2026-02-18T03:00:00",
+        "entry_price": 0.0006384008444962901,
+        "exit_price": 0.0006460772547030953,
+        "pnl_pct": 0.012024436172013625,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      }
+    ],
+    "PENGU": [
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-10T08:45:00",
+        "exit_time": "2026-02-10T10:45:00",
+        "entry_price": 0.006426048694212865,
+        "exit_price": 0.006361912146250915,
+        "pnl_pct": -0.009980713034389247,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-10T15:45:00",
+        "exit_time": "2026-02-10T17:15:00",
+        "entry_price": 0.006320648423625247,
+        "exit_price": 0.006199965331055997,
+        "pnl_pct": -0.0190934670750175,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-11T00:30:00",
+        "exit_time": "2026-02-11T01:15:00",
+        "entry_price": 0.006157397691417871,
+        "exit_price": 0.00618193915480836,
+        "pnl_pct": 0.00398568756159673,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-11T06:30:00",
+        "exit_time": "2026-02-11T08:00:00",
+        "entry_price": 0.006118901325717752,
+        "exit_price": 0.006143837697194492,
+        "pnl_pct": 0.004075302108882351,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-11T14:30:00",
+        "exit_time": "2026-02-11T15:30:00",
+        "entry_price": 0.0061396895915996124,
+        "exit_price": 0.006018291897882871,
+        "pnl_pct": -0.019772610961120783,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-15T12:00:00",
+        "exit_time": "2026-02-15T14:00:00",
+        "entry_price": 0.007864786344093747,
+        "exit_price": 0.007657842577240132,
+        "pnl_pct": -0.02631270040908666,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-15T14:45:00",
+        "exit_time": "2026-02-15T15:00:00",
+        "entry_price": 0.007707893305990633,
+        "exit_price": 0.007793000221897588,
+        "pnl_pct": 0.01104152750023269,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-17T03:15:00",
+        "exit_time": "2026-02-17T05:15:00",
+        "entry_price": 0.007102755964468295,
+        "exit_price": 0.007118256340378143,
+        "pnl_pct": 0.002182304444554941,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-17T17:00:00",
+        "exit_time": "2026-02-17T19:00:00",
+        "entry_price": 0.007183645589414405,
+        "exit_price": 0.00716616252779848,
+        "pnl_pct": -0.0024337310907553617,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PENGU",
+        "entry_time": "2026-02-18T02:45:00",
+        "exit_time": "2026-02-18T03:00:00",
+        "entry_price": 0.0071318834655291026,
+        "exit_price": 0.007173202343678292,
+        "pnl_pct": 0.005793543647887362,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      }
+    ],
+    "BOME": [
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-12T02:45:00",
+        "exit_time": "2026-02-12T04:45:00",
+        "entry_price": 0.0003752100046719714,
+        "exit_price": 0.0003781664292794357,
+        "pnl_pct": 0.007879386398688796,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-12T11:00:00",
+        "exit_time": "2026-02-12T11:30:00",
+        "entry_price": 0.00038374830648055486,
+        "exit_price": 0.000387108261307744,
+        "pnl_pct": 0.008755621250824701,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-13T17:45:00",
+        "exit_time": "2026-02-13T18:15:00",
+        "entry_price": 0.00039154816689214065,
+        "exit_price": 0.0003934710425426409,
+        "pnl_pct": 0.004910955568411456,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-16T01:30:00",
+        "exit_time": "2026-02-16T03:30:00",
+        "entry_price": 0.0004326983725046982,
+        "exit_price": 0.0004322388558781776,
+        "pnl_pct": -0.001061979096109535,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-16T05:00:00",
+        "exit_time": "2026-02-16T07:00:00",
+        "entry_price": 0.0004273086400495439,
+        "exit_price": 0.00042719067213534985,
+        "pnl_pct": -0.000276071914156414,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-17T03:00:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 0.00043616836272964457,
+        "exit_price": 0.00043367936928442023,
+        "pnl_pct": -0.005706496981229062,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "BOME",
+        "entry_time": "2026-02-18T03:00:00",
+        "exit_time": "2026-02-18T03:15:00",
+        "entry_price": 0.00043453189242409067,
+        "exit_price": 0.0004345651794005241,
+        "pnl_pct": 7.660421942272143e-05,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      }
+    ],
+    "SLERF": []
+  },
+  "all_trades": [
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-10T18:00:00",
+      "exit_time": "2026-02-10T20:00:00",
+      "entry_price": 0.22240643552005154,
+      "exit_price": 0.22223152922463985,
+      "pnl_pct": -0.0007864264134386007,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-12T02:15:00",
+      "exit_time": "2026-02-12T04:15:00",
+      "entry_price": 0.2069983868966337,
+      "exit_price": 0.20676753191952044,
+      "pnl_pct": -0.0011152501262173277,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-16T01:30:00",
+      "exit_time": "2026-02-16T03:30:00",
+      "entry_price": 0.23405234971126238,
+      "exit_price": 0.23398680570960256,
+      "pnl_pct": -0.00028003992158450857,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-16T22:30:00",
+      "exit_time": "2026-02-16T22:45:00",
+      "entry_price": 0.23235680430372688,
+      "exit_price": 0.23409292351800126,
+      "pnl_pct": 0.007471781252443993,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-17T03:00:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 0.2305837798384395,
+      "exit_price": 0.23220372260891026,
+      "pnl_pct": 0.00702539776043997,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "WIF",
+      "entry_time": "2026-02-19T02:00:00",
+      "exit_time": "2026-02-19T02:30:00",
+      "entry_price": 0.22869297791088855,
+      "exit_price": 0.23227992984879015,
+      "pnl_pct": 0.01568457401127231,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-12T02:15:00",
+      "exit_time": "2026-02-12T04:15:00",
+      "entry_price": 0.048141597551618946,
+      "exit_price": 0.04815315382362325,
+      "pnl_pct": 0.00024004753876131485,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-13T16:30:00",
+      "exit_time": "2026-02-13T17:30:00",
+      "entry_price": 0.0493827844464017,
+      "exit_price": 0.04840707290175608,
+      "pnl_pct": -0.019758131413278642,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-15T15:00:00",
+      "exit_time": "2026-02-15T15:15:00",
+      "entry_price": 0.06039513362337812,
+      "exit_price": 0.05822453837198921,
+      "pnl_pct": -0.035939903120749114,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-15T15:30:00",
+      "exit_time": "2026-02-15T17:00:00",
+      "entry_price": 0.05946463553050792,
+      "exit_price": 0.05761882134291568,
+      "pnl_pct": -0.031040536465497252,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-17T03:00:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 0.0538450063763977,
+      "exit_price": 0.05392363422642535,
+      "pnl_pct": 0.0014602626189327702,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-18T02:45:00",
+      "exit_time": "2026-02-18T03:00:00",
+      "entry_price": 0.05270458342177825,
+      "exit_price": 0.05315104152318828,
+      "pnl_pct": 0.008470953993453772,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "POPCAT",
+      "entry_time": "2026-02-18T13:00:00",
+      "exit_time": "2026-02-18T14:45:00",
+      "entry_price": 0.05249676267183432,
+      "exit_price": 0.05280111705114792,
+      "pnl_pct": 0.005797583771330227,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "BONK",
+      "entry_time": "2026-02-11T14:30:00",
+      "exit_time": "2026-02-11T16:30:00",
+      "entry_price": 5.97156165065299e-06,
+      "exit_price": 5.862305495658121e-06,
+      "pnl_pct": -0.01829607753993828,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "BONK",
+      "entry_time": "2026-02-16T22:45:00",
+      "exit_time": "2026-02-16T23:15:00",
+      "entry_price": 6.583789774851347e-06,
+      "exit_price": 6.664911703712882e-06,
+      "pnl_pct": 0.012321464025385972,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "BONK",
+      "entry_time": "2026-02-17T03:00:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 6.517412165892772e-06,
+      "exit_price": 6.493948038231133e-06,
+      "pnl_pct": -0.0036002215395295836,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "MEW",
+      "entry_time": "2026-02-13T00:00:00",
+      "exit_time": "2026-02-13T00:30:00",
+      "entry_price": 0.0006179316703785148,
+      "exit_price": 0.0006354011233419949,
+      "pnl_pct": 0.028270849028953556,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "MEW",
+      "entry_time": "2026-02-15T14:45:00",
+      "exit_time": "2026-02-15T15:00:00",
+      "entry_price": 0.0006871445721851044,
+      "exit_price": 0.0006943980987749,
+      "pnl_pct": 0.010556041455336703,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "MEW",
+      "entry_time": "2026-02-16T22:45:00",
+      "exit_time": "2026-02-16T23:15:00",
+      "entry_price": 0.000657849449552299,
+      "exit_price": 0.0006610813407295205,
+      "pnl_pct": 0.004912812771099879,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "MEW",
+      "entry_time": "2026-02-17T03:00:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 0.0006481730897028078,
+      "exit_price": 0.0006471728017240208,
+      "pnl_pct": -0.001543242067092973,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "MEW",
+      "entry_time": "2026-02-18T02:45:00",
+      "exit_time": "2026-02-18T03:00:00",
+      "entry_price": 0.0006384008444962901,
+      "exit_price": 0.0006460772547030953,
+      "pnl_pct": 0.012024436172013625,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-10T08:45:00",
+      "exit_time": "2026-02-10T10:45:00",
+      "entry_price": 0.006426048694212865,
+      "exit_price": 0.006361912146250915,
+      "pnl_pct": -0.009980713034389247,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-10T15:45:00",
+      "exit_time": "2026-02-10T17:15:00",
+      "entry_price": 0.006320648423625247,
+      "exit_price": 0.006199965331055997,
+      "pnl_pct": -0.0190934670750175,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-11T00:30:00",
+      "exit_time": "2026-02-11T01:15:00",
+      "entry_price": 0.006157397691417871,
+      "exit_price": 0.00618193915480836,
+      "pnl_pct": 0.00398568756159673,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-11T06:30:00",
+      "exit_time": "2026-02-11T08:00:00",
+      "entry_price": 0.006118901325717752,
+      "exit_price": 0.006143837697194492,
+      "pnl_pct": 0.004075302108882351,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-11T14:30:00",
+      "exit_time": "2026-02-11T15:30:00",
+      "entry_price": 0.0061396895915996124,
+      "exit_price": 0.006018291897882871,
+      "pnl_pct": -0.019772610961120783,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-15T12:00:00",
+      "exit_time": "2026-02-15T14:00:00",
+      "entry_price": 0.007864786344093747,
+      "exit_price": 0.007657842577240132,
+      "pnl_pct": -0.02631270040908666,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-15T14:45:00",
+      "exit_time": "2026-02-15T15:00:00",
+      "entry_price": 0.007707893305990633,
+      "exit_price": 0.007793000221897588,
+      "pnl_pct": 0.01104152750023269,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-17T03:15:00",
+      "exit_time": "2026-02-17T05:15:00",
+      "entry_price": 0.007102755964468295,
+      "exit_price": 0.007118256340378143,
+      "pnl_pct": 0.002182304444554941,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-17T17:00:00",
+      "exit_time": "2026-02-17T19:00:00",
+      "entry_price": 0.007183645589414405,
+      "exit_price": 0.00716616252779848,
+      "pnl_pct": -0.0024337310907553617,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PENGU",
+      "entry_time": "2026-02-18T02:45:00",
+      "exit_time": "2026-02-18T03:00:00",
+      "entry_price": 0.0071318834655291026,
+      "exit_price": 0.007173202343678292,
+      "pnl_pct": 0.005793543647887362,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-12T02:45:00",
+      "exit_time": "2026-02-12T04:45:00",
+      "entry_price": 0.0003752100046719714,
+      "exit_price": 0.0003781664292794357,
+      "pnl_pct": 0.007879386398688796,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-12T11:00:00",
+      "exit_time": "2026-02-12T11:30:00",
+      "entry_price": 0.00038374830648055486,
+      "exit_price": 0.000387108261307744,
+      "pnl_pct": 0.008755621250824701,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-13T17:45:00",
+      "exit_time": "2026-02-13T18:15:00",
+      "entry_price": 0.00039154816689214065,
+      "exit_price": 0.0003934710425426409,
+      "pnl_pct": 0.004910955568411456,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-16T01:30:00",
+      "exit_time": "2026-02-16T03:30:00",
+      "entry_price": 0.0004326983725046982,
+      "exit_price": 0.0004322388558781776,
+      "pnl_pct": -0.001061979096109535,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-16T05:00:00",
+      "exit_time": "2026-02-16T07:00:00",
+      "entry_price": 0.0004273086400495439,
+      "exit_price": 0.00042719067213534985,
+      "pnl_pct": -0.000276071914156414,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-17T03:00:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 0.00043616836272964457,
+      "exit_price": 0.00043367936928442023,
+      "pnl_pct": -0.005706496981229062,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "BOME",
+      "entry_time": "2026-02-18T03:00:00",
+      "exit_time": "2026-02-18T03:15:00",
+      "entry_price": 0.00043453189242409067,
+      "exit_price": 0.0004345651794005241,
+      "pnl_pct": 7.660421942272143e-05,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    }
+  ]
+}

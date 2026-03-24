@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-03-20T21:20:08.570882",
+  "overall_status": "healthy",
+  "components_checked": {
+    "scanners": {
+      "status": "healthy",
+      "size": 13546
+    },
+    "outcome_tracker": {
+      "status": "healthy",
+      "size": 12598
+    },
+    "aloe": {
+      "status": "healthy",
+      "size": 6394
+    },
+    "ats": {
+      "status": "healthy",
+      "size": 15160
+    },
+    "aoe": {
+      "status": "healthy",
+      "size": 13475
+    },
+    "mac": {
+      "status": "healthy",
+      "size": 17676
+    },
+    "memory_outcomes": {
+      "status": "healthy",
+      "file_count": 2
+    },
+    "memory_aloe": {
+      "status": "healthy",
+      "file_count": 4
+    },
+    "memory_patterns": {
+      "status": "healthy",
+      "file_count": 0
+    }
+  },
+  "issues_found": [],
+  "repairs_made": []
+}

@@ -1,0 +1,277 @@
+{
+  "prop_1774235107.970249": {
+    "proposal_id": "prop_1774235107.970249",
+    "job_id": "test_job_001",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Python Backend Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:05:07.970273",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235107.974537": {
+    "proposal_id": "prop_1774235107.974537",
+    "job_id": "test_job_002",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Web Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 react\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "pending_review",
+    "created_at": "2026-03-23T14:05:07.974548",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235112.861097": {
+    "proposal_id": "prop_1774235112.861097",
+    "job_id": "test_job_001",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Python Backend Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:05:12.861111",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235112.862439": {
+    "proposal_id": "prop_1774235112.862439",
+    "job_id": "test_job_002",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Web Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 react\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "pending_review",
+    "created_at": "2026-03-23T14:05:12.862467",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235147.825238": {
+    "proposal_id": "prop_1774235147.825238",
+    "job_id": "test_job_001",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Python Backend Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:05:47.825254",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235147.826956": {
+    "proposal_id": "prop_1774235147.826956",
+    "job_id": "test_job_002",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Web Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 react\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "pending_review",
+    "created_at": "2026-03-23T14:05:47.826967",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235165.752535": {
+    "proposal_id": "prop_1774235165.752535",
+    "job_id": "test_job_001",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Python Backend Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:06:05.752550",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235165.754422": {
+    "proposal_id": "prop_1774235165.754422",
+    "job_id": "test_job_002",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Web Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 react\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "pending_review",
+    "created_at": "2026-03-23T14:06:05.754434",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235180.69582": {
+    "proposal_id": "prop_1774235180.69582",
+    "job_id": "test_job_001",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Python Backend Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:06:20.695834",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774235180.698664": {
+    "proposal_id": "prop_1774235180.698664",
+    "job_id": "test_job_002",
+    "client_name": "TestCorp",
+    "platform": "upwork",
+    "content": "\nHi TestCorp,\n\nI noticed your posting for \"Web Developer\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 react\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "pending_review",
+    "created_at": "2026-03-23T14:06:20.698675",
+    "reviewed_at": null,
+    "sent_at": null
+  },
+  "prop_1774236571.591836": {
+    "proposal_id": "prop_1774236571.591836",
+    "job_id": "c32bb87252b58f70",
+    "client_name": "",
+    "platform": "airtasker",
+    "content": "\nHi there,\n\nI noticed your posting for \"Python script to automate data entry\" and I'm excited about this opportunity. \n\n**Why I'm a great fit:**\n\u2022 python\n\n**My approach:**\n1. Initial analysis and architecture planning\n2. Iterative development with regular check-ins\n3. Thorough testing and documentation\n\n**Relevant experience:**\n5+ years developing similar applications with excellent client feedback\n\nI'm available to start immediately and can commit 30+ hours per week to this project.\n\nMy rate is $82.5/hour, and I estimate this will take approximately 40 hours.\n\nLooking forward to discussing this further!\n\nBest regards,\n[Your Name]\n",
+    "proposed_rate": {
+      "suggested_hourly": 82.5,
+      "suggested_range": {
+        "min": 74.25,
+        "max": 94.87
+      },
+      "estimated_total": null,
+      "factors_applied": {
+        "base": 75.0,
+        "complexity": "medium",
+        "client_quality": 85.0
+      }
+    },
+    "estimated_hours": 40,
+    "status": "draft",
+    "created_at": "2026-03-23T14:29:31.591852",
+    "reviewed_at": null,
+    "sent_at": null
+  }
+}

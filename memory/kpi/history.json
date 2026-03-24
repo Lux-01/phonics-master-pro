@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-03-13T19:27:12.241834",
+  "metrics": {
+    "win_rate": {
+      "name": "win_rate",
+      "value": 62.0,
+      "metric_type": "trading",
+      "timestamp": "2026-03-13T19:27:12.239120",
+      "unit": "%",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "total_pnl": {
+      "name": "total_pnl",
+      "value": 32.9061,
+      "metric_type": "trading",
+      "timestamp": "2026-03-13T19:27:12.239156",
+      "unit": "%",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "total_trades": {
+      "name": "total_trades",
+      "value": 550,
+      "metric_type": "trading",
+      "timestamp": "2026-03-13T19:27:12.239164",
+      "unit": "count",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "skills_health_avg": {
+      "name": "skills_health_avg",
+      "value": 86.71428571428571,
+      "metric_type": "skills",
+      "timestamp": "2026-03-13T19:27:12.239169",
+      "unit": "score",
+      "target": 95.0,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "skills_needing_attention": {
+      "name": "skills_needing_attention",
+      "value": 8,
+      "metric_type": "skills",
+      "timestamp": "2026-03-13T19:27:12.239176",
+      "unit": "count",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "active_cron_jobs": {
+      "name": "active_cron_jobs",
+      "value": 2,
+      "metric_type": "system",
+      "timestamp": "2026-03-13T19:27:12.239181",
+      "unit": "count",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    },
+    "total_skills": {
+      "name": "total_skills",
+      "value": 33,
+      "metric_type": "system",
+      "timestamp": "2026-03-13T19:27:12.239185",
+      "unit": "count",
+      "target": null,
+      "trend": "stable",
+      "vs_last_period": 0.0
+    }
+  }
+}

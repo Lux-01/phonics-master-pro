@@ -1,0 +1,3399 @@
+{
+  "backtest_config": {
+    "coins_tested": [
+      "PUMP1",
+      "PUMP2",
+      "PUMP3",
+      "PUMP4",
+      "PUMP5",
+      "PUMP6",
+      "PUMP7"
+    ],
+    "timeframe": "15m",
+    "lookback_days": 14,
+    "sweep_threshold": "1-6% below support",
+    "reclaim_window": "3 candles",
+    "stop_loss": "0.8% below sweep low",
+    "take_profit_1": "Range mid",
+    "take_profit_2": "Resistance",
+    "max_hold": "2 hours (8 candles)"
+  },
+  "token_data_quality": {
+    "usable_tokens": [
+      {
+        "symbol": "PUMP1",
+        "address": "F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump",
+        "candles_available": 741,
+        "days_of_data": 7.71875
+      },
+      {
+        "symbol": "PUMP2",
+        "address": "3bzeQJqDPfQQbxJ6VmtMkXyyQEJrj9HS1SMvHR1Hpump",
+        "candles_available": 1000,
+        "days_of_data": 10.416666666666666
+      },
+      {
+        "symbol": "PUMP3",
+        "address": "BzyKa1FGjs2EUpu3GGDibY4xdygn5evAiRboKmETpump",
+        "candles_available": 839,
+        "days_of_data": 8.739583333333334
+      },
+      {
+        "symbol": "PUMP4",
+        "address": "7fj85y28pKMndm4So66Szkb5GMGfLHFEkwsZdDx2pump",
+        "candles_available": 478,
+        "days_of_data": 4.979166666666667
+      },
+      {
+        "symbol": "PUMP5",
+        "address": "6ydMmFRaNt4AHBjgvSogbBvcxnTrX3QzUe2AEzVppump",
+        "candles_available": 366,
+        "days_of_data": 3.8125
+      },
+      {
+        "symbol": "PUMP6",
+        "address": "HaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi",
+        "candles_available": 471,
+        "days_of_data": 4.90625
+      },
+      {
+        "symbol": "PUMP7",
+        "address": "32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump",
+        "candles_available": 1000,
+        "days_of_data": 10.416666666666666
+      }
+    ],
+    "unusable_tokens": [],
+    "usable_count": 7,
+    "unusable_count": 0
+  },
+  "overall_metrics": {
+    "total_trades": 160,
+    "wins": 81,
+    "losses": 79,
+    "win_rate": 50.62,
+    "avg_profit_per_trade": 1.5379,
+    "max_drawdown_pct": -101.9491,
+    "risk_reward_ratio": 1.38,
+    "total_return_pct": 246.0638,
+    "best_trade": 39.554,
+    "worst_trade": -32.8751
+  },
+  "per_coin_summary": {
+    "PUMP1": {
+      "total_trades": 26,
+      "wins": 9,
+      "losses": 17,
+      "win_rate": 34.62,
+      "avg_profit_per_trade": 0.1614,
+      "total_return_pct": 4.1953,
+      "best_trade": 39.554,
+      "worst_trade": -16.6283,
+      "avg_win_pct": 17.1673,
+      "avg_loss_pct": -8.8418,
+      "risk_reward": 1.94
+    },
+    "PUMP2": {
+      "total_trades": 29,
+      "wins": 15,
+      "losses": 14,
+      "win_rate": 51.72,
+      "avg_profit_per_trade": -1.0104,
+      "total_return_pct": -29.3026,
+      "best_trade": 35.7964,
+      "worst_trade": -32.8751,
+      "avg_win_pct": 4.2725,
+      "avg_loss_pct": -6.6708,
+      "risk_reward": 0.64
+    },
+    "PUMP3": {
+      "total_trades": 26,
+      "wins": 14,
+      "losses": 12,
+      "win_rate": 53.85,
+      "avg_profit_per_trade": 1.4121,
+      "total_return_pct": 36.7145,
+      "best_trade": 24.6454,
+      "worst_trade": -13.288,
+      "avg_win_pct": 8.1158,
+      "avg_loss_pct": -6.4089,
+      "risk_reward": 1.27
+    },
+    "PUMP4": {
+      "total_trades": 16,
+      "wins": 8,
+      "losses": 8,
+      "win_rate": 50.0,
+      "avg_profit_per_trade": -0.0398,
+      "total_return_pct": -0.6369,
+      "best_trade": 12.9141,
+      "worst_trade": -13.1012,
+      "avg_win_pct": 4.7387,
+      "avg_loss_pct": -4.8183,
+      "risk_reward": 0.98
+    },
+    "PUMP5": {
+      "total_trades": 11,
+      "wins": 9,
+      "losses": 2,
+      "win_rate": 81.82,
+      "avg_profit_per_trade": 8.4393,
+      "total_return_pct": 92.8323,
+      "best_trade": 25.6788,
+      "worst_trade": -6.7426,
+      "avg_win_pct": 11.6337,
+      "avg_loss_pct": -5.9355,
+      "risk_reward": 1.96
+    },
+    "PUMP6": {
+      "total_trades": 24,
+      "wins": 9,
+      "losses": 15,
+      "win_rate": 37.5,
+      "avg_profit_per_trade": 0.614,
+      "total_return_pct": 14.7351,
+      "best_trade": 35.8361,
+      "worst_trade": -17.7226,
+      "avg_win_pct": 15.7999,
+      "avg_loss_pct": -8.4976,
+      "risk_reward": 1.86
+    },
+    "PUMP7": {
+      "total_trades": 28,
+      "wins": 17,
+      "losses": 11,
+      "win_rate": 60.71,
+      "avg_profit_per_trade": 4.5545,
+      "total_return_pct": 127.5259,
+      "best_trade": 35.7993,
+      "worst_trade": -19.8742,
+      "avg_win_pct": 12.8357,
+      "avg_loss_pct": -8.2437,
+      "risk_reward": 1.56
+    }
+  },
+  "trades_by_coin": {
+    "PUMP1": [
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-15T20:45:00",
+        "exit_time": "2026-02-15T21:30:00",
+        "entry_price": 3.968400772522467e-05,
+        "exit_price": 3.480763916782391e-05,
+        "pnl_pct": -0.12287994174290913,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T08:15:00",
+        "exit_time": "2026-02-16T08:30:00",
+        "entry_price": 0.00027135381355520796,
+        "exit_price": 0.00023389255971775216,
+        "pnl_pct": -0.13805316883757068,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T09:00:00",
+        "exit_time": "2026-02-16T10:00:00",
+        "entry_price": 0.0003544929802637641,
+        "exit_price": 0.0004652427535239685,
+        "pnl_pct": 0.3124173944933972,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T12:15:00",
+        "exit_time": "2026-02-16T12:30:00",
+        "entry_price": 0.00022891549817397185,
+        "exit_price": 0.00021328466685771317,
+        "pnl_pct": -0.06828210165298428,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T12:45:00",
+        "exit_time": "2026-02-16T13:45:00",
+        "entry_price": 0.00018258419934462163,
+        "exit_price": 0.0001616262466190265,
+        "pnl_pct": -0.1147851391348366,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T14:00:00",
+        "exit_time": "2026-02-16T14:30:00",
+        "entry_price": 0.0002559666635075803,
+        "exit_price": 0.0003572116677986819,
+        "pnl_pct": 0.3955398054719858,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-16T19:30:00",
+        "exit_time": "2026-02-16T20:15:00",
+        "entry_price": 0.00011552159532456819,
+        "exit_price": 0.00010296806645728474,
+        "pnl_pct": -0.10866824364754654,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T04:45:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 6.369775107445074e-05,
+        "exit_price": 6.84647773213095e-05,
+        "pnl_pct": 0.0748382190336202,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T13:00:00",
+        "exit_time": "2026-02-17T13:30:00",
+        "entry_price": 6.268167822934136e-05,
+        "exit_price": 5.7343779857244445e-05,
+        "pnl_pct": -0.08515882986678297,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T14:00:00",
+        "exit_time": "2026-02-17T14:45:00",
+        "entry_price": 6.089865542968293e-05,
+        "exit_price": 5.899097411978429e-05,
+        "pnl_pct": -0.03132550786940378,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T15:30:00",
+        "exit_time": "2026-02-17T16:15:00",
+        "entry_price": 5.460877310725293e-05,
+        "exit_price": 6.6201567420691e-05,
+        "pnl_pct": 0.21228812979682854,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T21:00:00",
+        "exit_time": "2026-02-17T21:15:00",
+        "entry_price": 4.696317929190678e-05,
+        "exit_price": 4.964190208145022e-05,
+        "pnl_pct": 0.057038787193120714,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-17T23:30:00",
+        "exit_time": "2026-02-18T00:45:00",
+        "entry_price": 5.224629760186467e-05,
+        "exit_price": 5.460998330760185e-05,
+        "pnl_pct": 0.04524120969775328,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-18T06:00:00",
+        "exit_time": "2026-02-18T06:30:00",
+        "entry_price": 5.779976856770264e-05,
+        "exit_price": 5.0476854451470294e-05,
+        "pnl_pct": -0.12669452313904667,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-18T16:00:00",
+        "exit_time": "2026-02-18T18:00:00",
+        "entry_price": 2.720034048869918e-05,
+        "exit_price": 2.4005193977347952e-05,
+        "pnl_pct": -0.11746715129094441,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-19T01:00:00",
+        "exit_time": "2026-02-19T01:30:00",
+        "entry_price": 2.6943278081792886e-05,
+        "exit_price": 2.585938736923953e-05,
+        "pnl_pct": -0.040228613209682254,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-19T01:45:00",
+        "exit_time": "2026-02-19T02:15:00",
+        "entry_price": 2.8546114317470672e-05,
+        "exit_price": 2.537929940444255e-05,
+        "pnl_pct": -0.1109368118479783,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-19T03:00:00",
+        "exit_time": "2026-02-19T03:15:00",
+        "entry_price": 2.6114284862351522e-05,
+        "exit_price": 2.493600737209136e-05,
+        "pnl_pct": -0.045120036656981645,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-21T00:00:00",
+        "exit_time": "2026-02-21T00:30:00",
+        "entry_price": 0.001730032776842332,
+        "exit_price": 0.002041352224287084,
+        "pnl_pct": 0.17995002846880986,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-21T07:30:00",
+        "exit_time": "2026-02-21T08:00:00",
+        "entry_price": 0.0010034652601512608,
+        "exit_price": 0.0008366064952561226,
+        "pnl_pct": -0.16628255259179192,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-21T08:30:00",
+        "exit_time": "2026-02-21T10:30:00",
+        "entry_price": 0.0008595299730557526,
+        "exit_price": 0.0009719263696225978,
+        "pnl_pct": 0.13076495304434813,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-21T15:15:00",
+        "exit_time": "2026-02-21T16:00:00",
+        "entry_price": 0.0006125265322351043,
+        "exit_price": 0.0005812052724587416,
+        "pnl_pct": -0.05113453561280306,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-22T05:15:00",
+        "exit_time": "2026-02-22T05:30:00",
+        "entry_price": 0.0010217802138303177,
+        "exit_price": 0.0009659422963815276,
+        "pnl_pct": -0.05464767930812844,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-22T10:45:00",
+        "exit_time": "2026-02-22T12:00:00",
+        "entry_price": 0.0012587878917454881,
+        "exit_price": 0.0014312177338591324,
+        "pnl_pct": 0.1369808553485097,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-22T14:30:00",
+        "exit_time": "2026-02-22T15:30:00",
+        "entry_price": 0.0010926456751114645,
+        "exit_price": 0.0010172964617804643,
+        "pnl_pct": -0.0689603364085192,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP1",
+        "entry_time": "2026-02-22T17:30:00",
+        "exit_time": "2026-02-22T18:00:00",
+        "entry_price": 0.0010518542146809758,
+        "exit_price": 0.0009966520050948052,
+        "pnl_pct": -0.052480856011888684,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      }
+    ],
+    "PUMP2": [
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-09T20:45:00",
+        "exit_time": "2026-02-09T22:15:00",
+        "entry_price": 7.654275018390122e-05,
+        "exit_price": 6.869401199426073e-05,
+        "pnl_pct": -0.10254058249518275,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-09T23:30:00",
+        "exit_time": "2026-02-10T01:30:00",
+        "entry_price": 7.021598995375965e-05,
+        "exit_price": 6.450207731254998e-05,
+        "pnl_pct": -0.08137623132526553,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-10T01:45:00",
+        "exit_time": "2026-02-10T02:00:00",
+        "entry_price": 7.49592350589239e-05,
+        "exit_price": 7.319680409316816e-05,
+        "pnl_pct": -0.023511859004035126,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-10T17:30:00",
+        "exit_time": "2026-02-10T19:00:00",
+        "entry_price": 7.598028578408998e-05,
+        "exit_price": 6.860606814394577e-05,
+        "pnl_pct": -0.09705435514021654,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-10T19:30:00",
+        "exit_time": "2026-02-10T19:45:00",
+        "entry_price": 0.00012075944740753622,
+        "exit_price": 8.10596409107892e-05,
+        "pnl_pct": -0.32875114410526424,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-11T01:30:00",
+        "exit_time": "2026-02-11T02:30:00",
+        "entry_price": 0.0001000192888240306,
+        "exit_price": 0.00011424575420168026,
+        "pnl_pct": 0.14223721788983182,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-11T05:45:00",
+        "exit_time": "2026-02-11T07:45:00",
+        "entry_price": 8.886312619214638e-05,
+        "exit_price": 9.115133618038305e-05,
+        "pnl_pct": 0.025749825448284722,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-11T20:30:00",
+        "exit_time": "2026-02-11T20:45:00",
+        "entry_price": 7.600481780073711e-05,
+        "exit_price": 7.416071749249701e-05,
+        "pnl_pct": -0.024262939660940997,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-11T22:45:00",
+        "exit_time": "2026-02-12T00:00:00",
+        "entry_price": 7.438856866826986e-05,
+        "exit_price": 7.450207257450988e-05,
+        "pnl_pct": 0.0015258245758993352,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-12T08:15:00",
+        "exit_time": "2026-02-12T10:15:00",
+        "entry_price": 7.067767604625946e-05,
+        "exit_price": 6.7720544829196e-05,
+        "pnl_pct": -0.04183967813440816,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-13T02:30:00",
+        "exit_time": "2026-02-13T04:30:00",
+        "entry_price": 6.439061993646647e-05,
+        "exit_price": 6.833230662394482e-05,
+        "pnl_pct": 0.06121523121485031,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-13T05:45:00",
+        "exit_time": "2026-02-13T06:00:00",
+        "entry_price": 6.616232011482954e-05,
+        "exit_price": 6.543958201534843e-05,
+        "pnl_pct": -0.010923711535912648,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-13T19:30:00",
+        "exit_time": "2026-02-13T19:45:00",
+        "entry_price": 4.561403684608719e-05,
+        "exit_price": 4.9446592156634945e-05,
+        "pnl_pct": 0.08402140164615829,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-14T07:30:00",
+        "exit_time": "2026-02-14T09:30:00",
+        "entry_price": 4.62911957182792e-05,
+        "exit_price": 4.8227533206602465e-05,
+        "pnl_pct": 0.041829498207553495,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-14T22:45:00",
+        "exit_time": "2026-02-14T23:15:00",
+        "entry_price": 5.167316496981646e-05,
+        "exit_price": 5.8709116626570356e-05,
+        "pnl_pct": 0.136162583825933,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-15T07:15:00",
+        "exit_time": "2026-02-15T07:30:00",
+        "entry_price": 7.271269677869707e-05,
+        "exit_price": 7.566318115093881e-05,
+        "pnl_pct": 0.04057729259061338,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-15T21:30:00",
+        "exit_time": "2026-02-15T22:30:00",
+        "entry_price": 7.163456845779101e-05,
+        "exit_price": 6.850190818451206e-05,
+        "pnl_pct": -0.04373112507999253,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-16T03:15:00",
+        "exit_time": "2026-02-16T03:30:00",
+        "entry_price": 6.301196434723364e-05,
+        "exit_price": 6.072343587719483e-05,
+        "pnl_pct": -0.03631895138878147,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-16T04:00:00",
+        "exit_time": "2026-02-16T04:15:00",
+        "entry_price": 6.616551185574572e-05,
+        "exit_price": 6.898374525506334e-05,
+        "pnl_pct": 0.042593691490847,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-16T12:45:00",
+        "exit_time": "2026-02-16T13:30:00",
+        "entry_price": 0.0001544853515304294,
+        "exit_price": 0.00015050772958062167,
+        "pnl_pct": -0.02574756706964711,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-16T15:15:00",
+        "exit_time": "2026-02-16T16:15:00",
+        "entry_price": 0.0001370558235145208,
+        "exit_price": 0.0001289741944976208,
+        "pnl_pct": -0.0589659659083642,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-16T19:15:00",
+        "exit_time": "2026-02-16T19:45:00",
+        "entry_price": 0.00011996569185016802,
+        "exit_price": 0.00013129703338027326,
+        "pnl_pct": 0.09445485084400294,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-17T12:15:00",
+        "exit_time": "2026-02-17T12:30:00",
+        "entry_price": 0.0003817639318938703,
+        "exit_price": 0.00036981035426789945,
+        "pnl_pct": -0.0313114378476538,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-17T12:45:00",
+        "exit_time": "2026-02-17T13:00:00",
+        "entry_price": 0.00038072901314634643,
+        "exit_price": 0.000517016320045499,
+        "pnl_pct": 0.3579640694384534,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-17T21:00:00",
+        "exit_time": "2026-02-17T21:30:00",
+        "entry_price": 0.0005503178696355962,
+        "exit_price": 0.0004854541011368512,
+        "pnl_pct": -0.11786600449971911,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-17T22:00:00",
+        "exit_time": "2026-02-17T22:15:00",
+        "entry_price": 0.0005426615143121006,
+        "exit_price": 0.0004783968688723853,
+        "pnl_pct": -0.11842491819450232,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-19T03:45:00",
+        "exit_time": "2026-02-19T04:15:00",
+        "entry_price": 0.00030111014153079186,
+        "exit_price": 0.0002809710247127768,
+        "pnl_pct": -0.06688289114285986,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-19T10:00:00",
+        "exit_time": "2026-02-19T10:15:00",
+        "entry_price": 0.00023785572545833832,
+        "exit_price": 0.00022210581662241837,
+        "pnl_pct": -0.06621622752855964,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP2",
+        "entry_time": "2026-02-19T11:30:00",
+        "exit_time": "2026-02-19T11:45:00",
+        "entry_price": 0.00020368135720099005,
+        "exit_price": 0.00019438703626231923,
+        "pnl_pct": -0.04563167226688943,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      }
+    ],
+    "PUMP3": [
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-14T21:00:00",
+        "exit_time": "2026-02-14T21:15:00",
+        "entry_price": 0.0003259296867590549,
+        "exit_price": 0.00030274888631370725,
+        "pnl_pct": -0.07112208978522458,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-15T17:30:00",
+        "exit_time": "2026-02-15T18:15:00",
+        "entry_price": 0.00020623363969159757,
+        "exit_price": 0.00019521372080496383,
+        "pnl_pct": -0.05343414829468639,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-15T19:45:00",
+        "exit_time": "2026-02-15T21:45:00",
+        "entry_price": 0.00018369729360459146,
+        "exit_price": 0.00019278624371791797,
+        "pnl_pct": 0.04947786619486337,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-16T01:30:00",
+        "exit_time": "2026-02-16T03:30:00",
+        "entry_price": 0.00015849467220544652,
+        "exit_price": 0.00016347676030331623,
+        "pnl_pct": 0.03143378908921146,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-16T15:00:00",
+        "exit_time": "2026-02-16T17:00:00",
+        "entry_price": 0.00014658665310055826,
+        "exit_price": 0.00013789545981867196,
+        "pnl_pct": -0.05929048175978313,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-17T02:15:00",
+        "exit_time": "2026-02-17T02:45:00",
+        "entry_price": 0.0001479482165922272,
+        "exit_price": 0.00012828889420560616,
+        "pnl_pct": -0.1328797523852944,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-17T16:45:00",
+        "exit_time": "2026-02-17T18:00:00",
+        "entry_price": 0.0002764136977519513,
+        "exit_price": 0.000252992738328369,
+        "pnl_pct": -0.08473154410965504,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-17T20:30:00",
+        "exit_time": "2026-02-17T21:00:00",
+        "entry_price": 0.00025658807512794513,
+        "exit_price": 0.0002617490441750603,
+        "pnl_pct": 0.02011383048312628,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-18T08:30:00",
+        "exit_time": "2026-02-18T10:30:00",
+        "entry_price": 0.00022258849566970712,
+        "exit_price": 0.00026767896468778276,
+        "pnl_pct": 0.20257322321358484,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-18T15:15:00",
+        "exit_time": "2026-02-18T16:00:00",
+        "entry_price": 0.00019363540759838923,
+        "exit_price": 0.00018908681373389053,
+        "pnl_pct": -0.023490506828858178,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-18T18:30:00",
+        "exit_time": "2026-02-18T19:15:00",
+        "entry_price": 0.0001701904300620002,
+        "exit_price": 0.00016444593633988162,
+        "pnl_pct": -0.033753329843668994,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-18T20:15:00",
+        "exit_time": "2026-02-18T20:30:00",
+        "entry_price": 0.00016904837078186714,
+        "exit_price": 0.00018046746418919483,
+        "pnl_pct": 0.06754926625150627,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-18T23:45:00",
+        "exit_time": "2026-02-19T00:15:00",
+        "entry_price": 0.00015405479267942252,
+        "exit_price": 0.00016876876175701917,
+        "pnl_pct": 0.09551127116321144,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-19T07:30:00",
+        "exit_time": "2026-02-19T07:45:00",
+        "entry_price": 0.0002754122061597102,
+        "exit_price": 0.00025649438118550744,
+        "pnl_pct": -0.06868913051454367,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-19T08:30:00",
+        "exit_time": "2026-02-19T10:00:00",
+        "entry_price": 0.00024134135679112242,
+        "exit_price": 0.00025276436515276165,
+        "pnl_pct": 0.04733133398071379,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-19T19:45:00",
+        "exit_time": "2026-02-19T20:15:00",
+        "entry_price": 0.0002445850255455659,
+        "exit_price": 0.000248262592276689,
+        "pnl_pct": 0.015035943933689446,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-20T21:00:00",
+        "exit_time": "2026-02-20T22:00:00",
+        "entry_price": 0.00017287898341078714,
+        "exit_price": 0.00016655442710517145,
+        "pnl_pct": -0.036583719899529736,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-21T06:30:00",
+        "exit_time": "2026-02-21T08:15:00",
+        "entry_price": 0.0001636118366444053,
+        "exit_price": 0.00017886163734636296,
+        "pnl_pct": 0.09320719707524378,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-21T13:45:00",
+        "exit_time": "2026-02-21T14:00:00",
+        "entry_price": 0.0002722406956964254,
+        "exit_price": 0.00026384617111174764,
+        "pnl_pct": -0.030834936574061965,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-21T14:15:00",
+        "exit_time": "2026-02-21T14:30:00",
+        "entry_price": 0.00027860790073957104,
+        "exit_price": 0.00034664964766015964,
+        "pnl_pct": 0.24422045010199006,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-21T18:30:00",
+        "exit_time": "2026-02-21T19:00:00",
+        "entry_price": 0.00034551505145214497,
+        "exit_price": 0.00031858775282300777,
+        "pnl_pct": -0.07793379337880083,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-21T19:30:00",
+        "exit_time": "2026-02-21T19:45:00",
+        "entry_price": 0.0003407895827196631,
+        "exit_price": 0.0003285229775079354,
+        "pnl_pct": -0.03599466014728008,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-22T03:30:00",
+        "exit_time": "2026-02-22T03:45:00",
+        "entry_price": 0.00035842118731762527,
+        "exit_price": 0.0003681379686466442,
+        "pnl_pct": 0.027109952404705772,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-22T08:45:00",
+        "exit_time": "2026-02-22T09:15:00",
+        "entry_price": 0.001587384833530868,
+        "exit_price": 0.0013825764016127879,
+        "pnl_pct": -0.12902254550493505,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-22T11:15:00",
+        "exit_time": "2026-02-22T13:15:00",
+        "entry_price": 0.0010964775462295768,
+        "exit_price": 0.0013667083598135758,
+        "pnl_pct": 0.24645357719657213,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP3",
+        "entry_time": "2026-02-22T21:15:00",
+        "exit_time": "2026-02-22T22:00:00",
+        "entry_price": 0.0012717614807450821,
+        "exit_price": 0.0013542834379076131,
+        "pnl_pct": 0.06488791995349959,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      }
+    ],
+    "PUMP4": [
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-18T11:45:00",
+        "exit_time": "2026-02-18T13:00:00",
+        "entry_price": 0.0003969949870511263,
+        "exit_price": 0.00041326892205149587,
+        "pnl_pct": 0.040992797217043374,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-18T14:00:00",
+        "exit_time": "2026-02-18T14:15:00",
+        "entry_price": 0.00040246299836214217,
+        "exit_price": 0.00040813859388769873,
+        "pnl_pct": 0.014102154853126596,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-18T15:00:00",
+        "exit_time": "2026-02-18T17:00:00",
+        "entry_price": 0.00038513504925906763,
+        "exit_price": 0.00033467788130622144,
+        "pnl_pct": -0.13101162319533613,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-18T17:15:00",
+        "exit_time": "2026-02-18T18:30:00",
+        "entry_price": 0.0003577479558766166,
+        "exit_price": 0.00037701412922337306,
+        "pnl_pct": 0.05385404173602371,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-19T00:45:00",
+        "exit_time": "2026-02-19T01:30:00",
+        "entry_price": 0.0003272675301038026,
+        "exit_price": 0.00036953133569805625,
+        "pnl_pct": 0.1291414567795602,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-20T02:45:00",
+        "exit_time": "2026-02-20T04:45:00",
+        "entry_price": 0.0002885960393728875,
+        "exit_price": 0.0002847213784937913,
+        "pnl_pct": -0.013425897623251325,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-20T07:30:00",
+        "exit_time": "2026-02-20T09:30:00",
+        "entry_price": 0.0002727999370210637,
+        "exit_price": 0.0002680989875063173,
+        "pnl_pct": -0.017232223607087666,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-20T18:15:00",
+        "exit_time": "2026-02-20T20:00:00",
+        "entry_price": 0.00024200541503578867,
+        "exit_price": 0.0002533433203575628,
+        "pnl_pct": 0.04684980011747854,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-21T14:15:00",
+        "exit_time": "2026-02-21T15:45:00",
+        "entry_price": 0.0002580402916440154,
+        "exit_price": 0.0002491873797588596,
+        "pnl_pct": -0.034308254066651646,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-21T16:00:00",
+        "exit_time": "2026-02-21T17:30:00",
+        "entry_price": 0.00025303037088178574,
+        "exit_price": 0.0002681203381763802,
+        "pnl_pct": 0.05963698050161886,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-22T01:00:00",
+        "exit_time": "2026-02-22T01:15:00",
+        "entry_price": 0.00025169209231744116,
+        "exit_price": 0.00025864697022127216,
+        "pnl_pct": 0.027632484754663296,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-22T12:00:00",
+        "exit_time": "2026-02-22T14:00:00",
+        "entry_price": 0.00027175771091392394,
+        "exit_price": 0.00024941527610491016,
+        "pnl_pct": -0.0822145385824599,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-22T14:45:00",
+        "exit_time": "2026-02-22T16:15:00",
+        "entry_price": 0.00025265126644778674,
+        "exit_price": 0.00023995597389521076,
+        "pnl_pct": -0.05024828385413856,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-22T17:00:00",
+        "exit_time": "2026-02-22T19:00:00",
+        "entry_price": 0.0002460809771662874,
+        "exit_price": 0.00024107719775127566,
+        "pnl_pct": -0.020333873315329414,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-22T19:30:00",
+        "exit_time": "2026-02-22T19:45:00",
+        "entry_price": 0.0002400716628404161,
+        "exit_price": 0.000241724348883758,
+        "pnl_pct": 0.006884136277426825,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP4",
+        "entry_time": "2026-02-23T01:30:00",
+        "exit_time": "2026-02-23T01:45:00",
+        "entry_price": 0.00022311734754603356,
+        "exit_price": 0.00021493168673739188,
+        "pnl_pct": -0.03668769326397992,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      }
+    ],
+    "PUMP5": [
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-19T14:30:00",
+        "exit_time": "2026-02-19T16:30:00",
+        "entry_price": 7.585242042538601e-05,
+        "exit_price": 8.065557505798705e-05,
+        "pnl_pct": 0.0633223647401703,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-20T00:45:00",
+        "exit_time": "2026-02-20T01:30:00",
+        "entry_price": 7.062501170408832e-05,
+        "exit_price": 7.769607586418479e-05,
+        "pnl_pct": 0.10012124585159025,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-20T04:30:00",
+        "exit_time": "2026-02-20T05:00:00",
+        "entry_price": 7.234190195285025e-05,
+        "exit_price": 8.273621116544444e-05,
+        "pnl_pct": 0.14368310663671538,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-20T08:00:00",
+        "exit_time": "2026-02-20T08:30:00",
+        "entry_price": 6.461543122475482e-05,
+        "exit_price": 6.025867089730385e-05,
+        "pnl_pct": -0.0674260040499714,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-20T12:15:00",
+        "exit_time": "2026-02-20T14:15:00",
+        "entry_price": 4.647978422647056e-05,
+        "exit_price": 4.409612104171108e-05,
+        "pnl_pct": -0.05128386941611424,
+        "result": "loss",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-20T14:45:00",
+        "exit_time": "2026-02-20T15:45:00",
+        "entry_price": 4.449725264903168e-05,
+        "exit_price": 5.363019997258561e-05,
+        "pnl_pct": 0.20524744292842712,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-21T00:45:00",
+        "exit_time": "2026-02-21T01:00:00",
+        "entry_price": 5.3813069434708174e-05,
+        "exit_price": 6.763163518975574e-05,
+        "pnl_pct": 0.2567882839653616,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-21T05:45:00",
+        "exit_time": "2026-02-21T06:30:00",
+        "entry_price": 6.085560874488633e-05,
+        "exit_price": 6.535592144390521e-05,
+        "pnl_pct": 0.07395066439783235,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-22T12:15:00",
+        "exit_time": "2026-02-22T12:45:00",
+        "entry_price": 0.0007248510278340337,
+        "exit_price": 0.0007392101436354555,
+        "pnl_pct": 0.01980974745159583,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-22T16:30:00",
+        "exit_time": "2026-02-22T17:15:00",
+        "entry_price": 0.0006770668688422066,
+        "exit_price": 0.0007144996855434899,
+        "pnl_pct": 0.05528673521611527,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP5",
+        "entry_time": "2026-02-22T20:45:00",
+        "exit_time": "2026-02-22T21:00:00",
+        "entry_price": 0.0005697660081466092,
+        "exit_price": 0.000643165278806142,
+        "pnl_pct": 0.12882353388945253,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      }
+    ],
+    "PUMP6": [
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-18T14:30:00",
+        "exit_time": "2026-02-18T14:45:00",
+        "entry_price": 0.0029741527727720394,
+        "exit_price": 0.002447056778405828,
+        "pnl_pct": -0.17722559486241019,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T00:00:00",
+        "exit_time": "2026-02-19T00:15:00",
+        "entry_price": 0.0015509539808739319,
+        "exit_price": 0.0014712761501106937,
+        "pnl_pct": -0.05137343321968926,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T00:30:00",
+        "exit_time": "2026-02-19T00:45:00",
+        "entry_price": 0.0016176681112645224,
+        "exit_price": 0.0014191134437873004,
+        "pnl_pct": -0.1227412879654362,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T04:15:00",
+        "exit_time": "2026-02-19T04:30:00",
+        "entry_price": 0.0014167944482376012,
+        "exit_price": 0.0012571419964506742,
+        "pnl_pct": -0.11268568421165409,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T09:45:00",
+        "exit_time": "2026-02-19T10:30:00",
+        "entry_price": 0.0010813724867439211,
+        "exit_price": 0.0009885280435675894,
+        "pnl_pct": -0.0858579669026831,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T10:45:00",
+        "exit_time": "2026-02-19T11:30:00",
+        "entry_price": 0.0009364915584140427,
+        "exit_price": 0.0012336644380250964,
+        "pnl_pct": 0.3173257430257234,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T18:45:00",
+        "exit_time": "2026-02-19T19:30:00",
+        "entry_price": 0.001055707725258015,
+        "exit_price": 0.0012773850840560035,
+        "pnl_pct": 0.20997985852932025,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-19T22:15:00",
+        "exit_time": "2026-02-19T22:45:00",
+        "entry_price": 0.0011688043939467171,
+        "exit_price": 0.0010908234114090551,
+        "pnl_pct": -0.06671859118730943,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T01:15:00",
+        "exit_time": "2026-02-20T01:30:00",
+        "entry_price": 0.0010336382048163433,
+        "exit_price": 0.000987692946556502,
+        "pnl_pct": -0.044450038752200265,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T10:45:00",
+        "exit_time": "2026-02-20T11:30:00",
+        "entry_price": 0.0004346674515736022,
+        "exit_price": 0.00039279596622047427,
+        "pnl_pct": -0.09632993039056166,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T14:00:00",
+        "exit_time": "2026-02-20T14:15:00",
+        "entry_price": 0.0003923080761667421,
+        "exit_price": 0.00037105512069221237,
+        "pnl_pct": -0.05417414722172736,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T14:30:00",
+        "exit_time": "2026-02-20T15:30:00",
+        "entry_price": 0.00041411790467499337,
+        "exit_price": 0.0004956933751226352,
+        "pnl_pct": 0.19698609870940884,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T18:45:00",
+        "exit_time": "2026-02-20T19:00:00",
+        "entry_price": 0.0004737651103235335,
+        "exit_price": 0.00046315791486263954,
+        "pnl_pct": -0.02238914438771219,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-20T19:15:00",
+        "exit_time": "2026-02-20T20:15:00",
+        "entry_price": 0.0005032608360562696,
+        "exit_price": 0.0006836097550660541,
+        "pnl_pct": 0.3583607268609705,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T00:00:00",
+        "exit_time": "2026-02-21T00:15:00",
+        "entry_price": 0.0004820580896572341,
+        "exit_price": 0.00044173479040029957,
+        "pnl_pct": -0.08364821610110577,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T03:45:00",
+        "exit_time": "2026-02-21T05:15:00",
+        "entry_price": 0.00034937862316219173,
+        "exit_price": 0.0003207499256829931,
+        "pnl_pct": -0.08194175482198394,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T05:45:00",
+        "exit_time": "2026-02-21T06:00:00",
+        "entry_price": 0.0003340247333217862,
+        "exit_price": 0.0003112467520968947,
+        "pnl_pct": -0.06819249879603409,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T06:15:00",
+        "exit_time": "2026-02-21T06:30:00",
+        "entry_price": 0.0003265679341503737,
+        "exit_price": 0.0003656096999971149,
+        "pnl_pct": 0.11955174334037263,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T13:15:00",
+        "exit_time": "2026-02-21T13:30:00",
+        "entry_price": 0.00036525303191324793,
+        "exit_price": 0.0003736800536040245,
+        "pnl_pct": 0.02307173645249334,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-21T17:30:00",
+        "exit_time": "2026-02-21T18:30:00",
+        "entry_price": 0.00033325101724161115,
+        "exit_price": 0.0003707741229865141,
+        "pnl_pct": 0.11259712289999767,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-22T01:00:00",
+        "exit_time": "2026-02-22T01:30:00",
+        "entry_price": 0.0003007330094028442,
+        "exit_price": 0.0002635556678196855,
+        "pnl_pct": -0.12362241729626063,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-22T02:30:00",
+        "exit_time": "2026-02-22T03:15:00",
+        "entry_price": 0.0002781301967150186,
+        "exit_price": 0.0002957138763851995,
+        "pnl_pct": 0.06322103776526553,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-22T10:00:00",
+        "exit_time": "2026-02-22T11:00:00",
+        "entry_price": 0.0002800523648105462,
+        "exit_price": 0.0002567277808078099,
+        "pnl_pct": -0.08328650971583555,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP6",
+        "entry_time": "2026-02-22T16:30:00",
+        "exit_time": "2026-02-22T16:45:00",
+        "entry_price": 0.00025131237759917996,
+        "exit_price": 0.0002565632912687447,
+        "pnl_pct": 0.02089397155733997,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      }
+    ],
+    "PUMP7": [
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-09T23:00:00",
+        "exit_time": "2026-02-10T00:00:00",
+        "entry_price": 0.0001155301767794371,
+        "exit_price": 0.00011773620374736242,
+        "pnl_pct": 0.01909481167104004,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-10T10:30:00",
+        "exit_time": "2026-02-10T10:45:00",
+        "entry_price": 0.00013733574014172887,
+        "exit_price": 0.00017157399998516857,
+        "pnl_pct": 0.24930334818967165,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-10T11:00:00",
+        "exit_time": "2026-02-10T11:15:00",
+        "entry_price": 0.00016577298574130085,
+        "exit_price": 0.00017157399998516857,
+        "pnl_pct": 0.0349937248094244,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-10T20:00:00",
+        "exit_time": "2026-02-10T20:15:00",
+        "entry_price": 0.00022977305178355798,
+        "exit_price": 0.00021643652175082687,
+        "pnl_pct": -0.058042185231076945,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-11T08:15:00",
+        "exit_time": "2026-02-11T09:00:00",
+        "entry_price": 0.00017692000747596902,
+        "exit_price": 0.00016110352311297644,
+        "pnl_pct": -0.08939907130142372,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-11T09:15:00",
+        "exit_time": "2026-02-11T11:15:00",
+        "entry_price": 0.00016443574688647028,
+        "exit_price": 0.00016981114545668288,
+        "pnl_pct": 0.03268996353891273,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-11T14:15:00",
+        "exit_time": "2026-02-11T14:30:00",
+        "entry_price": 0.00015370933928356218,
+        "exit_price": 0.0001231608035353012,
+        "pnl_pct": -0.1987422227604869,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-12T18:30:00",
+        "exit_time": "2026-02-12T20:15:00",
+        "entry_price": 0.00013379040597932967,
+        "exit_price": 0.00015292984301213173,
+        "pnl_pct": 0.1430553774966425,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-13T15:15:00",
+        "exit_time": "2026-02-13T16:15:00",
+        "entry_price": 0.00014905858530677682,
+        "exit_price": 0.00015762582851982617,
+        "pnl_pct": 0.057475677737160495,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-14T15:30:00",
+        "exit_time": "2026-02-14T17:00:00",
+        "entry_price": 0.00033039681896001574,
+        "exit_price": 0.00037039060124960757,
+        "pnl_pct": 0.12104772199526481,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-15T22:15:00",
+        "exit_time": "2026-02-15T23:15:00",
+        "entry_price": 0.0019015007915425233,
+        "exit_price": 0.0018045379586152594,
+        "pnl_pct": -0.050992791251275996,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-16T00:30:00",
+        "exit_time": "2026-02-16T01:15:00",
+        "entry_price": 0.0016710787627327093,
+        "exit_price": 0.001915216926159834,
+        "pnl_pct": 0.14609614392315431,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-16T08:45:00",
+        "exit_time": "2026-02-16T09:30:00",
+        "entry_price": 0.0016806862895442142,
+        "exit_price": 0.0015336672202284729,
+        "pnl_pct": -0.08747561649688439,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-16T09:45:00",
+        "exit_time": "2026-02-16T11:45:00",
+        "entry_price": 0.0016259378245094655,
+        "exit_price": 0.002208011969197882,
+        "pnl_pct": 0.3579928678170853,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-16T20:00:00",
+        "exit_time": "2026-02-16T20:30:00",
+        "entry_price": 0.002907483438147409,
+        "exit_price": 0.002693578735585027,
+        "pnl_pct": -0.0735703941614463,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-16T21:15:00",
+        "exit_time": "2026-02-16T22:45:00",
+        "entry_price": 0.0027218173736474538,
+        "exit_price": 0.00303343547524222,
+        "pnl_pct": 0.11448898247613608,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-17T01:15:00",
+        "exit_time": "2026-02-17T01:30:00",
+        "entry_price": 0.002717689831268917,
+        "exit_price": 0.002573759553907811,
+        "pnl_pct": -0.05296052393657587,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-17T04:15:00",
+        "exit_time": "2026-02-17T05:00:00",
+        "entry_price": 0.0019171356108865683,
+        "exit_price": 0.0017795169589749657,
+        "pnl_pct": -0.07178347276537292,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-17T05:30:00",
+        "exit_time": "2026-02-17T05:45:00",
+        "entry_price": 0.0017474346458678641,
+        "exit_price": 0.0016152580824915206,
+        "pnl_pct": -0.07564034723066738,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-17T06:45:00",
+        "exit_time": "2026-02-17T07:15:00",
+        "entry_price": 0.0018051720571417575,
+        "exit_price": 0.0020392011926395033,
+        "pnl_pct": 0.12964367278557307,
+        "result": "win",
+        "exit_reason": "take_profit_2"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-18T01:45:00",
+        "exit_time": "2026-02-18T02:30:00",
+        "entry_price": 0.0013711874829700464,
+        "exit_price": 0.0012280976459608161,
+        "pnl_pct": -0.104354684378603,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-18T04:45:00",
+        "exit_time": "2026-02-18T06:00:00",
+        "entry_price": 0.0010016034308096575,
+        "exit_price": 0.0012214480396707352,
+        "pnl_pct": 0.21949266755542546,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-18T09:30:00",
+        "exit_time": "2026-02-18T10:15:00",
+        "entry_price": 0.0008652146035657311,
+        "exit_price": 0.0010383033136524965,
+        "pnl_pct": 0.20005292256213714,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-18T14:00:00",
+        "exit_time": "2026-02-18T14:45:00",
+        "entry_price": 0.0011025024117129862,
+        "exit_price": 0.001199558805453427,
+        "pnl_pct": 0.08803281762408278,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-18T18:30:00",
+        "exit_time": "2026-02-18T19:30:00",
+        "entry_price": 0.0011021085121633402,
+        "exit_price": 0.0012287646410129114,
+        "pnl_pct": 0.11492165013856623,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-19T01:00:00",
+        "exit_time": "2026-02-19T03:00:00",
+        "entry_price": 0.0011646735402656588,
+        "exit_price": 0.0012363436110763581,
+        "pnl_pct": 0.061536618058955474,
+        "result": "win",
+        "exit_reason": "time_exit"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-19T04:30:00",
+        "exit_time": "2026-02-19T04:45:00",
+        "entry_price": 0.0011086320299757845,
+        "exit_price": 0.001060021490553066,
+        "pnl_pct": -0.043847316429943155,
+        "result": "loss",
+        "exit_reason": "stop_loss"
+      },
+      {
+        "symbol": "PUMP7",
+        "entry_time": "2026-02-19T06:15:00",
+        "exit_time": "2026-02-19T06:30:00",
+        "entry_price": 0.0010958901904045226,
+        "exit_price": 0.001196875486297543,
+        "pnl_pct": 0.09214910104792892,
+        "result": "win",
+        "exit_reason": "take_profit_1"
+      }
+    ]
+  },
+  "all_trades": [
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-15T20:45:00",
+      "exit_time": "2026-02-15T21:30:00",
+      "entry_price": 3.968400772522467e-05,
+      "exit_price": 3.480763916782391e-05,
+      "pnl_pct": -0.12287994174290913,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T08:15:00",
+      "exit_time": "2026-02-16T08:30:00",
+      "entry_price": 0.00027135381355520796,
+      "exit_price": 0.00023389255971775216,
+      "pnl_pct": -0.13805316883757068,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T09:00:00",
+      "exit_time": "2026-02-16T10:00:00",
+      "entry_price": 0.0003544929802637641,
+      "exit_price": 0.0004652427535239685,
+      "pnl_pct": 0.3124173944933972,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T12:15:00",
+      "exit_time": "2026-02-16T12:30:00",
+      "entry_price": 0.00022891549817397185,
+      "exit_price": 0.00021328466685771317,
+      "pnl_pct": -0.06828210165298428,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T12:45:00",
+      "exit_time": "2026-02-16T13:45:00",
+      "entry_price": 0.00018258419934462163,
+      "exit_price": 0.0001616262466190265,
+      "pnl_pct": -0.1147851391348366,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T14:00:00",
+      "exit_time": "2026-02-16T14:30:00",
+      "entry_price": 0.0002559666635075803,
+      "exit_price": 0.0003572116677986819,
+      "pnl_pct": 0.3955398054719858,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-16T19:30:00",
+      "exit_time": "2026-02-16T20:15:00",
+      "entry_price": 0.00011552159532456819,
+      "exit_price": 0.00010296806645728474,
+      "pnl_pct": -0.10866824364754654,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T04:45:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 6.369775107445074e-05,
+      "exit_price": 6.84647773213095e-05,
+      "pnl_pct": 0.0748382190336202,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T13:00:00",
+      "exit_time": "2026-02-17T13:30:00",
+      "entry_price": 6.268167822934136e-05,
+      "exit_price": 5.7343779857244445e-05,
+      "pnl_pct": -0.08515882986678297,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T14:00:00",
+      "exit_time": "2026-02-17T14:45:00",
+      "entry_price": 6.089865542968293e-05,
+      "exit_price": 5.899097411978429e-05,
+      "pnl_pct": -0.03132550786940378,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T15:30:00",
+      "exit_time": "2026-02-17T16:15:00",
+      "entry_price": 5.460877310725293e-05,
+      "exit_price": 6.6201567420691e-05,
+      "pnl_pct": 0.21228812979682854,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T21:00:00",
+      "exit_time": "2026-02-17T21:15:00",
+      "entry_price": 4.696317929190678e-05,
+      "exit_price": 4.964190208145022e-05,
+      "pnl_pct": 0.057038787193120714,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-17T23:30:00",
+      "exit_time": "2026-02-18T00:45:00",
+      "entry_price": 5.224629760186467e-05,
+      "exit_price": 5.460998330760185e-05,
+      "pnl_pct": 0.04524120969775328,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-18T06:00:00",
+      "exit_time": "2026-02-18T06:30:00",
+      "entry_price": 5.779976856770264e-05,
+      "exit_price": 5.0476854451470294e-05,
+      "pnl_pct": -0.12669452313904667,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-18T16:00:00",
+      "exit_time": "2026-02-18T18:00:00",
+      "entry_price": 2.720034048869918e-05,
+      "exit_price": 2.4005193977347952e-05,
+      "pnl_pct": -0.11746715129094441,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-19T01:00:00",
+      "exit_time": "2026-02-19T01:30:00",
+      "entry_price": 2.6943278081792886e-05,
+      "exit_price": 2.585938736923953e-05,
+      "pnl_pct": -0.040228613209682254,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-19T01:45:00",
+      "exit_time": "2026-02-19T02:15:00",
+      "entry_price": 2.8546114317470672e-05,
+      "exit_price": 2.537929940444255e-05,
+      "pnl_pct": -0.1109368118479783,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-19T03:00:00",
+      "exit_time": "2026-02-19T03:15:00",
+      "entry_price": 2.6114284862351522e-05,
+      "exit_price": 2.493600737209136e-05,
+      "pnl_pct": -0.045120036656981645,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-21T00:00:00",
+      "exit_time": "2026-02-21T00:30:00",
+      "entry_price": 0.001730032776842332,
+      "exit_price": 0.002041352224287084,
+      "pnl_pct": 0.17995002846880986,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-21T07:30:00",
+      "exit_time": "2026-02-21T08:00:00",
+      "entry_price": 0.0010034652601512608,
+      "exit_price": 0.0008366064952561226,
+      "pnl_pct": -0.16628255259179192,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-21T08:30:00",
+      "exit_time": "2026-02-21T10:30:00",
+      "entry_price": 0.0008595299730557526,
+      "exit_price": 0.0009719263696225978,
+      "pnl_pct": 0.13076495304434813,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-21T15:15:00",
+      "exit_time": "2026-02-21T16:00:00",
+      "entry_price": 0.0006125265322351043,
+      "exit_price": 0.0005812052724587416,
+      "pnl_pct": -0.05113453561280306,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-22T05:15:00",
+      "exit_time": "2026-02-22T05:30:00",
+      "entry_price": 0.0010217802138303177,
+      "exit_price": 0.0009659422963815276,
+      "pnl_pct": -0.05464767930812844,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-22T10:45:00",
+      "exit_time": "2026-02-22T12:00:00",
+      "entry_price": 0.0012587878917454881,
+      "exit_price": 0.0014312177338591324,
+      "pnl_pct": 0.1369808553485097,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-22T14:30:00",
+      "exit_time": "2026-02-22T15:30:00",
+      "entry_price": 0.0010926456751114645,
+      "exit_price": 0.0010172964617804643,
+      "pnl_pct": -0.0689603364085192,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP1",
+      "entry_time": "2026-02-22T17:30:00",
+      "exit_time": "2026-02-22T18:00:00",
+      "entry_price": 0.0010518542146809758,
+      "exit_price": 0.0009966520050948052,
+      "pnl_pct": -0.052480856011888684,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-09T20:45:00",
+      "exit_time": "2026-02-09T22:15:00",
+      "entry_price": 7.654275018390122e-05,
+      "exit_price": 6.869401199426073e-05,
+      "pnl_pct": -0.10254058249518275,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-09T23:30:00",
+      "exit_time": "2026-02-10T01:30:00",
+      "entry_price": 7.021598995375965e-05,
+      "exit_price": 6.450207731254998e-05,
+      "pnl_pct": -0.08137623132526553,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-10T01:45:00",
+      "exit_time": "2026-02-10T02:00:00",
+      "entry_price": 7.49592350589239e-05,
+      "exit_price": 7.319680409316816e-05,
+      "pnl_pct": -0.023511859004035126,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-10T17:30:00",
+      "exit_time": "2026-02-10T19:00:00",
+      "entry_price": 7.598028578408998e-05,
+      "exit_price": 6.860606814394577e-05,
+      "pnl_pct": -0.09705435514021654,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-10T19:30:00",
+      "exit_time": "2026-02-10T19:45:00",
+      "entry_price": 0.00012075944740753622,
+      "exit_price": 8.10596409107892e-05,
+      "pnl_pct": -0.32875114410526424,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-11T01:30:00",
+      "exit_time": "2026-02-11T02:30:00",
+      "entry_price": 0.0001000192888240306,
+      "exit_price": 0.00011424575420168026,
+      "pnl_pct": 0.14223721788983182,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-11T05:45:00",
+      "exit_time": "2026-02-11T07:45:00",
+      "entry_price": 8.886312619214638e-05,
+      "exit_price": 9.115133618038305e-05,
+      "pnl_pct": 0.025749825448284722,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-11T20:30:00",
+      "exit_time": "2026-02-11T20:45:00",
+      "entry_price": 7.600481780073711e-05,
+      "exit_price": 7.416071749249701e-05,
+      "pnl_pct": -0.024262939660940997,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-11T22:45:00",
+      "exit_time": "2026-02-12T00:00:00",
+      "entry_price": 7.438856866826986e-05,
+      "exit_price": 7.450207257450988e-05,
+      "pnl_pct": 0.0015258245758993352,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-12T08:15:00",
+      "exit_time": "2026-02-12T10:15:00",
+      "entry_price": 7.067767604625946e-05,
+      "exit_price": 6.7720544829196e-05,
+      "pnl_pct": -0.04183967813440816,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-13T02:30:00",
+      "exit_time": "2026-02-13T04:30:00",
+      "entry_price": 6.439061993646647e-05,
+      "exit_price": 6.833230662394482e-05,
+      "pnl_pct": 0.06121523121485031,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-13T05:45:00",
+      "exit_time": "2026-02-13T06:00:00",
+      "entry_price": 6.616232011482954e-05,
+      "exit_price": 6.543958201534843e-05,
+      "pnl_pct": -0.010923711535912648,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-13T19:30:00",
+      "exit_time": "2026-02-13T19:45:00",
+      "entry_price": 4.561403684608719e-05,
+      "exit_price": 4.9446592156634945e-05,
+      "pnl_pct": 0.08402140164615829,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-14T07:30:00",
+      "exit_time": "2026-02-14T09:30:00",
+      "entry_price": 4.62911957182792e-05,
+      "exit_price": 4.8227533206602465e-05,
+      "pnl_pct": 0.041829498207553495,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-14T22:45:00",
+      "exit_time": "2026-02-14T23:15:00",
+      "entry_price": 5.167316496981646e-05,
+      "exit_price": 5.8709116626570356e-05,
+      "pnl_pct": 0.136162583825933,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-15T07:15:00",
+      "exit_time": "2026-02-15T07:30:00",
+      "entry_price": 7.271269677869707e-05,
+      "exit_price": 7.566318115093881e-05,
+      "pnl_pct": 0.04057729259061338,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-15T21:30:00",
+      "exit_time": "2026-02-15T22:30:00",
+      "entry_price": 7.163456845779101e-05,
+      "exit_price": 6.850190818451206e-05,
+      "pnl_pct": -0.04373112507999253,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-16T03:15:00",
+      "exit_time": "2026-02-16T03:30:00",
+      "entry_price": 6.301196434723364e-05,
+      "exit_price": 6.072343587719483e-05,
+      "pnl_pct": -0.03631895138878147,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-16T04:00:00",
+      "exit_time": "2026-02-16T04:15:00",
+      "entry_price": 6.616551185574572e-05,
+      "exit_price": 6.898374525506334e-05,
+      "pnl_pct": 0.042593691490847,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-16T12:45:00",
+      "exit_time": "2026-02-16T13:30:00",
+      "entry_price": 0.0001544853515304294,
+      "exit_price": 0.00015050772958062167,
+      "pnl_pct": -0.02574756706964711,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-16T15:15:00",
+      "exit_time": "2026-02-16T16:15:00",
+      "entry_price": 0.0001370558235145208,
+      "exit_price": 0.0001289741944976208,
+      "pnl_pct": -0.0589659659083642,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-16T19:15:00",
+      "exit_time": "2026-02-16T19:45:00",
+      "entry_price": 0.00011996569185016802,
+      "exit_price": 0.00013129703338027326,
+      "pnl_pct": 0.09445485084400294,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-17T12:15:00",
+      "exit_time": "2026-02-17T12:30:00",
+      "entry_price": 0.0003817639318938703,
+      "exit_price": 0.00036981035426789945,
+      "pnl_pct": -0.0313114378476538,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-17T12:45:00",
+      "exit_time": "2026-02-17T13:00:00",
+      "entry_price": 0.00038072901314634643,
+      "exit_price": 0.000517016320045499,
+      "pnl_pct": 0.3579640694384534,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-17T21:00:00",
+      "exit_time": "2026-02-17T21:30:00",
+      "entry_price": 0.0005503178696355962,
+      "exit_price": 0.0004854541011368512,
+      "pnl_pct": -0.11786600449971911,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-17T22:00:00",
+      "exit_time": "2026-02-17T22:15:00",
+      "entry_price": 0.0005426615143121006,
+      "exit_price": 0.0004783968688723853,
+      "pnl_pct": -0.11842491819450232,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-19T03:45:00",
+      "exit_time": "2026-02-19T04:15:00",
+      "entry_price": 0.00030111014153079186,
+      "exit_price": 0.0002809710247127768,
+      "pnl_pct": -0.06688289114285986,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-19T10:00:00",
+      "exit_time": "2026-02-19T10:15:00",
+      "entry_price": 0.00023785572545833832,
+      "exit_price": 0.00022210581662241837,
+      "pnl_pct": -0.06621622752855964,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP2",
+      "entry_time": "2026-02-19T11:30:00",
+      "exit_time": "2026-02-19T11:45:00",
+      "entry_price": 0.00020368135720099005,
+      "exit_price": 0.00019438703626231923,
+      "pnl_pct": -0.04563167226688943,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-14T21:00:00",
+      "exit_time": "2026-02-14T21:15:00",
+      "entry_price": 0.0003259296867590549,
+      "exit_price": 0.00030274888631370725,
+      "pnl_pct": -0.07112208978522458,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-15T17:30:00",
+      "exit_time": "2026-02-15T18:15:00",
+      "entry_price": 0.00020623363969159757,
+      "exit_price": 0.00019521372080496383,
+      "pnl_pct": -0.05343414829468639,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-15T19:45:00",
+      "exit_time": "2026-02-15T21:45:00",
+      "entry_price": 0.00018369729360459146,
+      "exit_price": 0.00019278624371791797,
+      "pnl_pct": 0.04947786619486337,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-16T01:30:00",
+      "exit_time": "2026-02-16T03:30:00",
+      "entry_price": 0.00015849467220544652,
+      "exit_price": 0.00016347676030331623,
+      "pnl_pct": 0.03143378908921146,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-16T15:00:00",
+      "exit_time": "2026-02-16T17:00:00",
+      "entry_price": 0.00014658665310055826,
+      "exit_price": 0.00013789545981867196,
+      "pnl_pct": -0.05929048175978313,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-17T02:15:00",
+      "exit_time": "2026-02-17T02:45:00",
+      "entry_price": 0.0001479482165922272,
+      "exit_price": 0.00012828889420560616,
+      "pnl_pct": -0.1328797523852944,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-17T16:45:00",
+      "exit_time": "2026-02-17T18:00:00",
+      "entry_price": 0.0002764136977519513,
+      "exit_price": 0.000252992738328369,
+      "pnl_pct": -0.08473154410965504,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-17T20:30:00",
+      "exit_time": "2026-02-17T21:00:00",
+      "entry_price": 0.00025658807512794513,
+      "exit_price": 0.0002617490441750603,
+      "pnl_pct": 0.02011383048312628,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-18T08:30:00",
+      "exit_time": "2026-02-18T10:30:00",
+      "entry_price": 0.00022258849566970712,
+      "exit_price": 0.00026767896468778276,
+      "pnl_pct": 0.20257322321358484,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-18T15:15:00",
+      "exit_time": "2026-02-18T16:00:00",
+      "entry_price": 0.00019363540759838923,
+      "exit_price": 0.00018908681373389053,
+      "pnl_pct": -0.023490506828858178,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-18T18:30:00",
+      "exit_time": "2026-02-18T19:15:00",
+      "entry_price": 0.0001701904300620002,
+      "exit_price": 0.00016444593633988162,
+      "pnl_pct": -0.033753329843668994,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-18T20:15:00",
+      "exit_time": "2026-02-18T20:30:00",
+      "entry_price": 0.00016904837078186714,
+      "exit_price": 0.00018046746418919483,
+      "pnl_pct": 0.06754926625150627,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-18T23:45:00",
+      "exit_time": "2026-02-19T00:15:00",
+      "entry_price": 0.00015405479267942252,
+      "exit_price": 0.00016876876175701917,
+      "pnl_pct": 0.09551127116321144,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-19T07:30:00",
+      "exit_time": "2026-02-19T07:45:00",
+      "entry_price": 0.0002754122061597102,
+      "exit_price": 0.00025649438118550744,
+      "pnl_pct": -0.06868913051454367,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-19T08:30:00",
+      "exit_time": "2026-02-19T10:00:00",
+      "entry_price": 0.00024134135679112242,
+      "exit_price": 0.00025276436515276165,
+      "pnl_pct": 0.04733133398071379,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-19T19:45:00",
+      "exit_time": "2026-02-19T20:15:00",
+      "entry_price": 0.0002445850255455659,
+      "exit_price": 0.000248262592276689,
+      "pnl_pct": 0.015035943933689446,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-20T21:00:00",
+      "exit_time": "2026-02-20T22:00:00",
+      "entry_price": 0.00017287898341078714,
+      "exit_price": 0.00016655442710517145,
+      "pnl_pct": -0.036583719899529736,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-21T06:30:00",
+      "exit_time": "2026-02-21T08:15:00",
+      "entry_price": 0.0001636118366444053,
+      "exit_price": 0.00017886163734636296,
+      "pnl_pct": 0.09320719707524378,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-21T13:45:00",
+      "exit_time": "2026-02-21T14:00:00",
+      "entry_price": 0.0002722406956964254,
+      "exit_price": 0.00026384617111174764,
+      "pnl_pct": -0.030834936574061965,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-21T14:15:00",
+      "exit_time": "2026-02-21T14:30:00",
+      "entry_price": 0.00027860790073957104,
+      "exit_price": 0.00034664964766015964,
+      "pnl_pct": 0.24422045010199006,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-21T18:30:00",
+      "exit_time": "2026-02-21T19:00:00",
+      "entry_price": 0.00034551505145214497,
+      "exit_price": 0.00031858775282300777,
+      "pnl_pct": -0.07793379337880083,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-21T19:30:00",
+      "exit_time": "2026-02-21T19:45:00",
+      "entry_price": 0.0003407895827196631,
+      "exit_price": 0.0003285229775079354,
+      "pnl_pct": -0.03599466014728008,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-22T03:30:00",
+      "exit_time": "2026-02-22T03:45:00",
+      "entry_price": 0.00035842118731762527,
+      "exit_price": 0.0003681379686466442,
+      "pnl_pct": 0.027109952404705772,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-22T08:45:00",
+      "exit_time": "2026-02-22T09:15:00",
+      "entry_price": 0.001587384833530868,
+      "exit_price": 0.0013825764016127879,
+      "pnl_pct": -0.12902254550493505,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-22T11:15:00",
+      "exit_time": "2026-02-22T13:15:00",
+      "entry_price": 0.0010964775462295768,
+      "exit_price": 0.0013667083598135758,
+      "pnl_pct": 0.24645357719657213,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP3",
+      "entry_time": "2026-02-22T21:15:00",
+      "exit_time": "2026-02-22T22:00:00",
+      "entry_price": 0.0012717614807450821,
+      "exit_price": 0.0013542834379076131,
+      "pnl_pct": 0.06488791995349959,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-18T11:45:00",
+      "exit_time": "2026-02-18T13:00:00",
+      "entry_price": 0.0003969949870511263,
+      "exit_price": 0.00041326892205149587,
+      "pnl_pct": 0.040992797217043374,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-18T14:00:00",
+      "exit_time": "2026-02-18T14:15:00",
+      "entry_price": 0.00040246299836214217,
+      "exit_price": 0.00040813859388769873,
+      "pnl_pct": 0.014102154853126596,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-18T15:00:00",
+      "exit_time": "2026-02-18T17:00:00",
+      "entry_price": 0.00038513504925906763,
+      "exit_price": 0.00033467788130622144,
+      "pnl_pct": -0.13101162319533613,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-18T17:15:00",
+      "exit_time": "2026-02-18T18:30:00",
+      "entry_price": 0.0003577479558766166,
+      "exit_price": 0.00037701412922337306,
+      "pnl_pct": 0.05385404173602371,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-19T00:45:00",
+      "exit_time": "2026-02-19T01:30:00",
+      "entry_price": 0.0003272675301038026,
+      "exit_price": 0.00036953133569805625,
+      "pnl_pct": 0.1291414567795602,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-20T02:45:00",
+      "exit_time": "2026-02-20T04:45:00",
+      "entry_price": 0.0002885960393728875,
+      "exit_price": 0.0002847213784937913,
+      "pnl_pct": -0.013425897623251325,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-20T07:30:00",
+      "exit_time": "2026-02-20T09:30:00",
+      "entry_price": 0.0002727999370210637,
+      "exit_price": 0.0002680989875063173,
+      "pnl_pct": -0.017232223607087666,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-20T18:15:00",
+      "exit_time": "2026-02-20T20:00:00",
+      "entry_price": 0.00024200541503578867,
+      "exit_price": 0.0002533433203575628,
+      "pnl_pct": 0.04684980011747854,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-21T14:15:00",
+      "exit_time": "2026-02-21T15:45:00",
+      "entry_price": 0.0002580402916440154,
+      "exit_price": 0.0002491873797588596,
+      "pnl_pct": -0.034308254066651646,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-21T16:00:00",
+      "exit_time": "2026-02-21T17:30:00",
+      "entry_price": 0.00025303037088178574,
+      "exit_price": 0.0002681203381763802,
+      "pnl_pct": 0.05963698050161886,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-22T01:00:00",
+      "exit_time": "2026-02-22T01:15:00",
+      "entry_price": 0.00025169209231744116,
+      "exit_price": 0.00025864697022127216,
+      "pnl_pct": 0.027632484754663296,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-22T12:00:00",
+      "exit_time": "2026-02-22T14:00:00",
+      "entry_price": 0.00027175771091392394,
+      "exit_price": 0.00024941527610491016,
+      "pnl_pct": -0.0822145385824599,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-22T14:45:00",
+      "exit_time": "2026-02-22T16:15:00",
+      "entry_price": 0.00025265126644778674,
+      "exit_price": 0.00023995597389521076,
+      "pnl_pct": -0.05024828385413856,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-22T17:00:00",
+      "exit_time": "2026-02-22T19:00:00",
+      "entry_price": 0.0002460809771662874,
+      "exit_price": 0.00024107719775127566,
+      "pnl_pct": -0.020333873315329414,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-22T19:30:00",
+      "exit_time": "2026-02-22T19:45:00",
+      "entry_price": 0.0002400716628404161,
+      "exit_price": 0.000241724348883758,
+      "pnl_pct": 0.006884136277426825,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP4",
+      "entry_time": "2026-02-23T01:30:00",
+      "exit_time": "2026-02-23T01:45:00",
+      "entry_price": 0.00022311734754603356,
+      "exit_price": 0.00021493168673739188,
+      "pnl_pct": -0.03668769326397992,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-19T14:30:00",
+      "exit_time": "2026-02-19T16:30:00",
+      "entry_price": 7.585242042538601e-05,
+      "exit_price": 8.065557505798705e-05,
+      "pnl_pct": 0.0633223647401703,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-20T00:45:00",
+      "exit_time": "2026-02-20T01:30:00",
+      "entry_price": 7.062501170408832e-05,
+      "exit_price": 7.769607586418479e-05,
+      "pnl_pct": 0.10012124585159025,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-20T04:30:00",
+      "exit_time": "2026-02-20T05:00:00",
+      "entry_price": 7.234190195285025e-05,
+      "exit_price": 8.273621116544444e-05,
+      "pnl_pct": 0.14368310663671538,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-20T08:00:00",
+      "exit_time": "2026-02-20T08:30:00",
+      "entry_price": 6.461543122475482e-05,
+      "exit_price": 6.025867089730385e-05,
+      "pnl_pct": -0.0674260040499714,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-20T12:15:00",
+      "exit_time": "2026-02-20T14:15:00",
+      "entry_price": 4.647978422647056e-05,
+      "exit_price": 4.409612104171108e-05,
+      "pnl_pct": -0.05128386941611424,
+      "result": "loss",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-20T14:45:00",
+      "exit_time": "2026-02-20T15:45:00",
+      "entry_price": 4.449725264903168e-05,
+      "exit_price": 5.363019997258561e-05,
+      "pnl_pct": 0.20524744292842712,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-21T00:45:00",
+      "exit_time": "2026-02-21T01:00:00",
+      "entry_price": 5.3813069434708174e-05,
+      "exit_price": 6.763163518975574e-05,
+      "pnl_pct": 0.2567882839653616,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-21T05:45:00",
+      "exit_time": "2026-02-21T06:30:00",
+      "entry_price": 6.085560874488633e-05,
+      "exit_price": 6.535592144390521e-05,
+      "pnl_pct": 0.07395066439783235,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-22T12:15:00",
+      "exit_time": "2026-02-22T12:45:00",
+      "entry_price": 0.0007248510278340337,
+      "exit_price": 0.0007392101436354555,
+      "pnl_pct": 0.01980974745159583,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-22T16:30:00",
+      "exit_time": "2026-02-22T17:15:00",
+      "entry_price": 0.0006770668688422066,
+      "exit_price": 0.0007144996855434899,
+      "pnl_pct": 0.05528673521611527,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP5",
+      "entry_time": "2026-02-22T20:45:00",
+      "exit_time": "2026-02-22T21:00:00",
+      "entry_price": 0.0005697660081466092,
+      "exit_price": 0.000643165278806142,
+      "pnl_pct": 0.12882353388945253,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-18T14:30:00",
+      "exit_time": "2026-02-18T14:45:00",
+      "entry_price": 0.0029741527727720394,
+      "exit_price": 0.002447056778405828,
+      "pnl_pct": -0.17722559486241019,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T00:00:00",
+      "exit_time": "2026-02-19T00:15:00",
+      "entry_price": 0.0015509539808739319,
+      "exit_price": 0.0014712761501106937,
+      "pnl_pct": -0.05137343321968926,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T00:30:00",
+      "exit_time": "2026-02-19T00:45:00",
+      "entry_price": 0.0016176681112645224,
+      "exit_price": 0.0014191134437873004,
+      "pnl_pct": -0.1227412879654362,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T04:15:00",
+      "exit_time": "2026-02-19T04:30:00",
+      "entry_price": 0.0014167944482376012,
+      "exit_price": 0.0012571419964506742,
+      "pnl_pct": -0.11268568421165409,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T09:45:00",
+      "exit_time": "2026-02-19T10:30:00",
+      "entry_price": 0.0010813724867439211,
+      "exit_price": 0.0009885280435675894,
+      "pnl_pct": -0.0858579669026831,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T10:45:00",
+      "exit_time": "2026-02-19T11:30:00",
+      "entry_price": 0.0009364915584140427,
+      "exit_price": 0.0012336644380250964,
+      "pnl_pct": 0.3173257430257234,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T18:45:00",
+      "exit_time": "2026-02-19T19:30:00",
+      "entry_price": 0.001055707725258015,
+      "exit_price": 0.0012773850840560035,
+      "pnl_pct": 0.20997985852932025,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-19T22:15:00",
+      "exit_time": "2026-02-19T22:45:00",
+      "entry_price": 0.0011688043939467171,
+      "exit_price": 0.0010908234114090551,
+      "pnl_pct": -0.06671859118730943,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T01:15:00",
+      "exit_time": "2026-02-20T01:30:00",
+      "entry_price": 0.0010336382048163433,
+      "exit_price": 0.000987692946556502,
+      "pnl_pct": -0.044450038752200265,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T10:45:00",
+      "exit_time": "2026-02-20T11:30:00",
+      "entry_price": 0.0004346674515736022,
+      "exit_price": 0.00039279596622047427,
+      "pnl_pct": -0.09632993039056166,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T14:00:00",
+      "exit_time": "2026-02-20T14:15:00",
+      "entry_price": 0.0003923080761667421,
+      "exit_price": 0.00037105512069221237,
+      "pnl_pct": -0.05417414722172736,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T14:30:00",
+      "exit_time": "2026-02-20T15:30:00",
+      "entry_price": 0.00041411790467499337,
+      "exit_price": 0.0004956933751226352,
+      "pnl_pct": 0.19698609870940884,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T18:45:00",
+      "exit_time": "2026-02-20T19:00:00",
+      "entry_price": 0.0004737651103235335,
+      "exit_price": 0.00046315791486263954,
+      "pnl_pct": -0.02238914438771219,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-20T19:15:00",
+      "exit_time": "2026-02-20T20:15:00",
+      "entry_price": 0.0005032608360562696,
+      "exit_price": 0.0006836097550660541,
+      "pnl_pct": 0.3583607268609705,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T00:00:00",
+      "exit_time": "2026-02-21T00:15:00",
+      "entry_price": 0.0004820580896572341,
+      "exit_price": 0.00044173479040029957,
+      "pnl_pct": -0.08364821610110577,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T03:45:00",
+      "exit_time": "2026-02-21T05:15:00",
+      "entry_price": 0.00034937862316219173,
+      "exit_price": 0.0003207499256829931,
+      "pnl_pct": -0.08194175482198394,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T05:45:00",
+      "exit_time": "2026-02-21T06:00:00",
+      "entry_price": 0.0003340247333217862,
+      "exit_price": 0.0003112467520968947,
+      "pnl_pct": -0.06819249879603409,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T06:15:00",
+      "exit_time": "2026-02-21T06:30:00",
+      "entry_price": 0.0003265679341503737,
+      "exit_price": 0.0003656096999971149,
+      "pnl_pct": 0.11955174334037263,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T13:15:00",
+      "exit_time": "2026-02-21T13:30:00",
+      "entry_price": 0.00036525303191324793,
+      "exit_price": 0.0003736800536040245,
+      "pnl_pct": 0.02307173645249334,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-21T17:30:00",
+      "exit_time": "2026-02-21T18:30:00",
+      "entry_price": 0.00033325101724161115,
+      "exit_price": 0.0003707741229865141,
+      "pnl_pct": 0.11259712289999767,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-22T01:00:00",
+      "exit_time": "2026-02-22T01:30:00",
+      "entry_price": 0.0003007330094028442,
+      "exit_price": 0.0002635556678196855,
+      "pnl_pct": -0.12362241729626063,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-22T02:30:00",
+      "exit_time": "2026-02-22T03:15:00",
+      "entry_price": 0.0002781301967150186,
+      "exit_price": 0.0002957138763851995,
+      "pnl_pct": 0.06322103776526553,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-22T10:00:00",
+      "exit_time": "2026-02-22T11:00:00",
+      "entry_price": 0.0002800523648105462,
+      "exit_price": 0.0002567277808078099,
+      "pnl_pct": -0.08328650971583555,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP6",
+      "entry_time": "2026-02-22T16:30:00",
+      "exit_time": "2026-02-22T16:45:00",
+      "entry_price": 0.00025131237759917996,
+      "exit_price": 0.0002565632912687447,
+      "pnl_pct": 0.02089397155733997,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-09T23:00:00",
+      "exit_time": "2026-02-10T00:00:00",
+      "entry_price": 0.0001155301767794371,
+      "exit_price": 0.00011773620374736242,
+      "pnl_pct": 0.01909481167104004,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-10T10:30:00",
+      "exit_time": "2026-02-10T10:45:00",
+      "entry_price": 0.00013733574014172887,
+      "exit_price": 0.00017157399998516857,
+      "pnl_pct": 0.24930334818967165,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-10T11:00:00",
+      "exit_time": "2026-02-10T11:15:00",
+      "entry_price": 0.00016577298574130085,
+      "exit_price": 0.00017157399998516857,
+      "pnl_pct": 0.0349937248094244,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-10T20:00:00",
+      "exit_time": "2026-02-10T20:15:00",
+      "entry_price": 0.00022977305178355798,
+      "exit_price": 0.00021643652175082687,
+      "pnl_pct": -0.058042185231076945,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-11T08:15:00",
+      "exit_time": "2026-02-11T09:00:00",
+      "entry_price": 0.00017692000747596902,
+      "exit_price": 0.00016110352311297644,
+      "pnl_pct": -0.08939907130142372,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-11T09:15:00",
+      "exit_time": "2026-02-11T11:15:00",
+      "entry_price": 0.00016443574688647028,
+      "exit_price": 0.00016981114545668288,
+      "pnl_pct": 0.03268996353891273,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-11T14:15:00",
+      "exit_time": "2026-02-11T14:30:00",
+      "entry_price": 0.00015370933928356218,
+      "exit_price": 0.0001231608035353012,
+      "pnl_pct": -0.1987422227604869,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-12T18:30:00",
+      "exit_time": "2026-02-12T20:15:00",
+      "entry_price": 0.00013379040597932967,
+      "exit_price": 0.00015292984301213173,
+      "pnl_pct": 0.1430553774966425,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-13T15:15:00",
+      "exit_time": "2026-02-13T16:15:00",
+      "entry_price": 0.00014905858530677682,
+      "exit_price": 0.00015762582851982617,
+      "pnl_pct": 0.057475677737160495,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-14T15:30:00",
+      "exit_time": "2026-02-14T17:00:00",
+      "entry_price": 0.00033039681896001574,
+      "exit_price": 0.00037039060124960757,
+      "pnl_pct": 0.12104772199526481,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-15T22:15:00",
+      "exit_time": "2026-02-15T23:15:00",
+      "entry_price": 0.0019015007915425233,
+      "exit_price": 0.0018045379586152594,
+      "pnl_pct": -0.050992791251275996,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-16T00:30:00",
+      "exit_time": "2026-02-16T01:15:00",
+      "entry_price": 0.0016710787627327093,
+      "exit_price": 0.001915216926159834,
+      "pnl_pct": 0.14609614392315431,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-16T08:45:00",
+      "exit_time": "2026-02-16T09:30:00",
+      "entry_price": 0.0016806862895442142,
+      "exit_price": 0.0015336672202284729,
+      "pnl_pct": -0.08747561649688439,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-16T09:45:00",
+      "exit_time": "2026-02-16T11:45:00",
+      "entry_price": 0.0016259378245094655,
+      "exit_price": 0.002208011969197882,
+      "pnl_pct": 0.3579928678170853,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-16T20:00:00",
+      "exit_time": "2026-02-16T20:30:00",
+      "entry_price": 0.002907483438147409,
+      "exit_price": 0.002693578735585027,
+      "pnl_pct": -0.0735703941614463,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-16T21:15:00",
+      "exit_time": "2026-02-16T22:45:00",
+      "entry_price": 0.0027218173736474538,
+      "exit_price": 0.00303343547524222,
+      "pnl_pct": 0.11448898247613608,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-17T01:15:00",
+      "exit_time": "2026-02-17T01:30:00",
+      "entry_price": 0.002717689831268917,
+      "exit_price": 0.002573759553907811,
+      "pnl_pct": -0.05296052393657587,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-17T04:15:00",
+      "exit_time": "2026-02-17T05:00:00",
+      "entry_price": 0.0019171356108865683,
+      "exit_price": 0.0017795169589749657,
+      "pnl_pct": -0.07178347276537292,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-17T05:30:00",
+      "exit_time": "2026-02-17T05:45:00",
+      "entry_price": 0.0017474346458678641,
+      "exit_price": 0.0016152580824915206,
+      "pnl_pct": -0.07564034723066738,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-17T06:45:00",
+      "exit_time": "2026-02-17T07:15:00",
+      "entry_price": 0.0018051720571417575,
+      "exit_price": 0.0020392011926395033,
+      "pnl_pct": 0.12964367278557307,
+      "result": "win",
+      "exit_reason": "take_profit_2"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-18T01:45:00",
+      "exit_time": "2026-02-18T02:30:00",
+      "entry_price": 0.0013711874829700464,
+      "exit_price": 0.0012280976459608161,
+      "pnl_pct": -0.104354684378603,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-18T04:45:00",
+      "exit_time": "2026-02-18T06:00:00",
+      "entry_price": 0.0010016034308096575,
+      "exit_price": 0.0012214480396707352,
+      "pnl_pct": 0.21949266755542546,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-18T09:30:00",
+      "exit_time": "2026-02-18T10:15:00",
+      "entry_price": 0.0008652146035657311,
+      "exit_price": 0.0010383033136524965,
+      "pnl_pct": 0.20005292256213714,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-18T14:00:00",
+      "exit_time": "2026-02-18T14:45:00",
+      "entry_price": 0.0011025024117129862,
+      "exit_price": 0.001199558805453427,
+      "pnl_pct": 0.08803281762408278,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-18T18:30:00",
+      "exit_time": "2026-02-18T19:30:00",
+      "entry_price": 0.0011021085121633402,
+      "exit_price": 0.0012287646410129114,
+      "pnl_pct": 0.11492165013856623,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-19T01:00:00",
+      "exit_time": "2026-02-19T03:00:00",
+      "entry_price": 0.0011646735402656588,
+      "exit_price": 0.0012363436110763581,
+      "pnl_pct": 0.061536618058955474,
+      "result": "win",
+      "exit_reason": "time_exit"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-19T04:30:00",
+      "exit_time": "2026-02-19T04:45:00",
+      "entry_price": 0.0011086320299757845,
+      "exit_price": 0.001060021490553066,
+      "pnl_pct": -0.043847316429943155,
+      "result": "loss",
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "PUMP7",
+      "entry_time": "2026-02-19T06:15:00",
+      "exit_time": "2026-02-19T06:30:00",
+      "entry_price": 0.0010958901904045226,
+      "exit_price": 0.001196875486297543,
+      "pnl_pct": 0.09214910104792892,
+      "result": "win",
+      "exit_reason": "take_profit_1"
+    }
+  ],
+  "comparison_to_mew": {
+    "mew_win_rate": 80.0,
+    "pump_coins_avg_win_rate": 50.62,
+    "comparison": "worse",
+    "difference": -29.38
+  }
+}

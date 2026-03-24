@@ -1,0 +1,1503 @@
+{
+  "strategy": "Social Sentinel",
+  "description": "Uses sentiment/social indicators from trade metadata",
+  "initial_balance": 1.0,
+  "final_balance": 2.5739,
+  "total_return_pct": 157.39,
+  "total_trades": 194,
+  "wins": 139,
+  "losses": 55,
+  "win_rate_pct": 71.65,
+  "avg_trade_return_pct": 8.11,
+  "sentiment_correlation": -0.0289,
+  "learning_history": [
+    {
+      "trade_count": 25,
+      "win_rate": 0.64,
+      "avg_return": 5.046,
+      "params": {
+        "sentiment_threshold": 0.612,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.42000000000000004,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 50,
+      "win_rate": 0.64,
+      "avg_return": 7.544,
+      "params": {
+        "sentiment_threshold": 0.62424,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.44100000000000006,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 75,
+      "win_rate": 0.68,
+      "avg_return": 3.0873333333333335,
+      "params": {
+        "sentiment_threshold": 0.62424,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.4630500000000001,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 100,
+      "win_rate": 0.7,
+      "avg_return": 10.733333333333333,
+      "params": {
+        "sentiment_threshold": 0.6367248,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.4862025000000001,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 125,
+      "win_rate": 0.72,
+      "avg_return": 10.93,
+      "params": {
+        "sentiment_threshold": 0.623990304,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.5105126250000002,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 150,
+      "win_rate": 0.7266666666666667,
+      "avg_return": 12.418,
+      "params": {
+        "sentiment_threshold": 0.61151049792,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.5360382562500002,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    },
+    {
+      "trade_count": 175,
+      "win_rate": 0.7257142857142858,
+      "avg_return": 10.029333333333334,
+      "params": {
+        "sentiment_threshold": 0.5992802879616,
+        "bullish_boost": 1.2,
+        "bearish_filter": 0.3,
+        "momentum_weight": 0.5628401690625002,
+        "grade_weight": 0.3,
+        "freshness_weight": 0.3,
+        "profit_target": 0.12,
+        "stop_loss": 0.07,
+        "position_size": 0.08
+      }
+    }
+  ],
+  "final_params": {
+    "sentiment_threshold": 0.5992802879616,
+    "bullish_boost": 1.2,
+    "bearish_filter": 0.3,
+    "momentum_weight": 0.5628401690625002,
+    "grade_weight": 0.3,
+    "freshness_weight": 0.3,
+    "profit_target": 0.12,
+    "stop_loss": 0.07,
+    "position_size": 0.08
+  },
+  "sentiment_stats": {
+    "avg_sentiment": 0.879,
+    "high_sentiment_wins": 118,
+    "total_high_sentiment": 164
+  },
+  "trades": [
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 18.22,
+      "pnl_sol": 0.0182,
+      "sentiment": 1.022,
+      "day": 1
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": 14.9,
+      "pnl_sol": 0.0149,
+      "sentiment": 0.77,
+      "day": 1
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 17.14,
+      "pnl_sol": 0.0171,
+      "sentiment": 1.115,
+      "day": 1
+    },
+    {
+      "symbol": "DEGENINU",
+      "pnl_pct": 8.97,
+      "pnl_sol": 0.009,
+      "sentiment": 1.022,
+      "day": 1
+    },
+    {
+      "symbol": "FLOKIAI",
+      "pnl_pct": 6.36,
+      "pnl_sol": 0.0064,
+      "sentiment": 0.605,
+      "day": 1
+    },
+    {
+      "symbol": "BARKINU",
+      "pnl_pct": -12.32,
+      "pnl_sol": -0.0123,
+      "sentiment": 0.729,
+      "day": 2
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 9.34,
+      "pnl_sol": 0.0093,
+      "sentiment": 0.903,
+      "day": 2
+    },
+    {
+      "symbol": "DOGEX",
+      "pnl_pct": -10.69,
+      "pnl_sol": -0.0107,
+      "sentiment": 1.1,
+      "day": 2
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": 24.13,
+      "pnl_sol": 0.0241,
+      "sentiment": 0.929,
+      "day": 2
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": -6.25,
+      "pnl_sol": -0.0062,
+      "sentiment": 1.0,
+      "day": 2
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": 21.09,
+      "pnl_sol": 0.0211,
+      "sentiment": 0.929,
+      "day": 3
+    },
+    {
+      "symbol": "ALPHADAO",
+      "pnl_pct": 8.35,
+      "pnl_sol": 0.0084,
+      "sentiment": 1.0,
+      "day": 3
+    },
+    {
+      "symbol": "WOOFDEX",
+      "pnl_pct": 11.08,
+      "pnl_sol": 0.0111,
+      "sentiment": 0.626,
+      "day": 3
+    },
+    {
+      "symbol": "BETADEX",
+      "pnl_pct": -7.22,
+      "pnl_sol": -0.0072,
+      "sentiment": 1.0,
+      "day": 3
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": 23.36,
+      "pnl_sol": 0.0234,
+      "sentiment": 0.821,
+      "day": 4
+    },
+    {
+      "symbol": "DOGECOIN",
+      "pnl_pct": -3.4,
+      "pnl_sol": -0.0034,
+      "sentiment": 0.729,
+      "day": 4
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 5.03,
+      "pnl_sol": 0.005,
+      "sentiment": 0.729,
+      "day": 4
+    },
+    {
+      "symbol": "DEGENDEX",
+      "pnl_pct": 20.98,
+      "pnl_sol": 0.021,
+      "sentiment": 0.821,
+      "day": 4
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -18.23,
+      "pnl_sol": -0.0182,
+      "sentiment": 1.1,
+      "day": 5
+    },
+    {
+      "symbol": "APEINU",
+      "pnl_pct": -2.76,
+      "pnl_sol": -0.0028,
+      "sentiment": 0.61,
+      "day": 5
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 15.22,
+      "pnl_sol": 0.0152,
+      "sentiment": 0.929,
+      "day": 5
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 19.68,
+      "pnl_sol": 0.0197,
+      "sentiment": 0.662,
+      "day": 5
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "pnl_pct": -10.44,
+      "pnl_sol": -0.0104,
+      "sentiment": 1.022,
+      "day": 6
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 13.76,
+      "pnl_sol": 0.0138,
+      "sentiment": 0.929,
+      "day": 6
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": -20.81,
+      "pnl_sol": -0.0208,
+      "sentiment": 1.0,
+      "day": 6
+    },
+    {
+      "symbol": "CHADX",
+      "pnl_pct": -5.33,
+      "pnl_sol": -0.0053,
+      "sentiment": 0.817,
+      "day": 6
+    },
+    {
+      "symbol": "BONKDAO",
+      "pnl_pct": 14.4,
+      "pnl_sol": 0.0144,
+      "sentiment": 0.67,
+      "day": 7
+    },
+    {
+      "symbol": "CATX",
+      "pnl_pct": -4.37,
+      "pnl_sol": -0.0044,
+      "sentiment": 0.634,
+      "day": 8
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": -19.32,
+      "pnl_sol": -0.0193,
+      "sentiment": 1.0,
+      "day": 8
+    },
+    {
+      "symbol": "APECOIN",
+      "pnl_pct": 21.08,
+      "pnl_sol": 0.0211,
+      "sentiment": 0.837,
+      "day": 8
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 23.03,
+      "pnl_sol": 0.023,
+      "sentiment": 0.856,
+      "day": 9
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": -12.93,
+      "pnl_sol": -0.0129,
+      "sentiment": 0.945,
+      "day": 9
+    },
+    {
+      "symbol": "ALPHA",
+      "pnl_pct": 21.36,
+      "pnl_sol": 0.0214,
+      "sentiment": 1.0,
+      "day": 9
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 19.94,
+      "pnl_sol": 0.0199,
+      "sentiment": 1.1,
+      "day": 10
+    },
+    {
+      "symbol": "MEMEDEX",
+      "pnl_pct": 10.05,
+      "pnl_sol": 0.0101,
+      "sentiment": 0.945,
+      "day": 10
+    },
+    {
+      "symbol": "VOID",
+      "pnl_pct": 7.32,
+      "pnl_sol": 0.0073,
+      "sentiment": 0.945,
+      "day": 10
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 24.91,
+      "pnl_sol": 0.0249,
+      "sentiment": 0.945,
+      "day": 10
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.64,
+      "pnl_sol": 0.0216,
+      "sentiment": 1.039,
+      "day": 10
+    },
+    {
+      "symbol": "WOOF2",
+      "pnl_pct": 16.76,
+      "pnl_sol": 0.0168,
+      "sentiment": 0.67,
+      "day": 11
+    },
+    {
+      "symbol": "CATINU",
+      "pnl_pct": 5.31,
+      "pnl_sol": 0.0053,
+      "sentiment": 0.737,
+      "day": 11
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": 14.79,
+      "pnl_sol": 0.0148,
+      "sentiment": 0.945,
+      "day": 11
+    },
+    {
+      "symbol": "BETACOIN",
+      "pnl_pct": -7.87,
+      "pnl_sol": -0.0079,
+      "sentiment": 0.634,
+      "day": 11
+    },
+    {
+      "symbol": "MOON2",
+      "pnl_pct": -23.44,
+      "pnl_sol": -0.0234,
+      "sentiment": 1.1,
+      "day": 12
+    },
+    {
+      "symbol": "STARX",
+      "pnl_pct": -15.19,
+      "pnl_sol": -0.0152,
+      "sentiment": 0.945,
+      "day": 12
+    },
+    {
+      "symbol": "VOIDDAO",
+      "pnl_pct": 21.88,
+      "pnl_sol": 0.0219,
+      "sentiment": 0.945,
+      "day": 12
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "pnl_pct": 18.34,
+      "pnl_sol": 0.0183,
+      "sentiment": 1.0,
+      "day": 13
+    },
+    {
+      "symbol": "VOIDINU",
+      "pnl_pct": -3.49,
+      "pnl_sol": -0.0035,
+      "sentiment": 0.737,
+      "day": 13
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 21.02,
+      "pnl_sol": 0.021,
+      "sentiment": 0.737,
+      "day": 13
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -5.67,
+      "pnl_sol": -0.0057,
+      "sentiment": 0.778,
+      "day": 13
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 16.85,
+      "pnl_sol": 0.0169,
+      "sentiment": 0.67,
+      "day": 14
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 23.28,
+      "pnl_sol": 0.0233,
+      "sentiment": 0.746,
+      "day": 14
+    },
+    {
+      "symbol": "DOGECOIN",
+      "pnl_pct": 8.29,
+      "pnl_sol": 0.0083,
+      "sentiment": 0.628,
+      "day": 14
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 15.5,
+      "pnl_sol": 0.0155,
+      "sentiment": 0.679,
+      "day": 15
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 10.04,
+      "pnl_sol": 0.01,
+      "sentiment": 1.0,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 9.11,
+      "pnl_sol": 0.0091,
+      "sentiment": 1.2,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 8.59,
+      "pnl_sol": 0.0086,
+      "sentiment": 1.1,
+      "day": 16
+    },
+    {
+      "symbol": "DEGENDAO",
+      "pnl_pct": 21.76,
+      "pnl_sol": 0.0218,
+      "sentiment": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BARKCOIN",
+      "pnl_pct": 22.5,
+      "pnl_sol": 0.0225,
+      "sentiment": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BONK2",
+      "pnl_pct": -15.25,
+      "pnl_sol": -0.0152,
+      "sentiment": 0.961,
+      "day": 16
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 25.0,
+      "pnl_sol": 0.025,
+      "sentiment": 0.746,
+      "day": 16
+    },
+    {
+      "symbol": "BETAX",
+      "pnl_pct": 6.51,
+      "pnl_sol": 0.0065,
+      "sentiment": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BARKDEX",
+      "pnl_pct": 9.07,
+      "pnl_sol": 0.0091,
+      "sentiment": 0.961,
+      "day": 17
+    },
+    {
+      "symbol": "ZETADEX",
+      "pnl_pct": 10.18,
+      "pnl_sol": 0.0102,
+      "sentiment": 0.787,
+      "day": 17
+    },
+    {
+      "symbol": "SHIBDEX",
+      "pnl_pct": 12.13,
+      "pnl_sol": 0.0121,
+      "sentiment": 0.939,
+      "day": 17
+    },
+    {
+      "symbol": "CHADTOKEN",
+      "pnl_pct": 13.9,
+      "pnl_sol": 0.0139,
+      "sentiment": 0.865,
+      "day": 17
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": -23.09,
+      "pnl_sol": -0.0231,
+      "sentiment": 1.1,
+      "day": 17
+    },
+    {
+      "symbol": "DEGENX",
+      "pnl_pct": 6.6,
+      "pnl_sol": 0.0066,
+      "sentiment": 0.787,
+      "day": 18
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.85,
+      "pnl_sol": 0.0219,
+      "sentiment": 1.057,
+      "day": 18
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": -18.96,
+      "pnl_sol": -0.019,
+      "sentiment": 0.771,
+      "day": 18
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -3.55,
+      "pnl_sol": -0.0035,
+      "sentiment": 1.154,
+      "day": 19
+    },
+    {
+      "symbol": "APEAI",
+      "pnl_pct": 11.94,
+      "pnl_sol": 0.0119,
+      "sentiment": 1.057,
+      "day": 19
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": -5.09,
+      "pnl_sol": -0.0051,
+      "sentiment": 1.2,
+      "day": 19
+    },
+    {
+      "symbol": "PEPEINU",
+      "pnl_pct": 5.66,
+      "pnl_sol": 0.0057,
+      "sentiment": 1.2,
+      "day": 20
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 12.95,
+      "pnl_sol": 0.0129,
+      "sentiment": 0.853,
+      "day": 20
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "pnl_pct": -13.79,
+      "pnl_sol": -0.0138,
+      "sentiment": 1.1,
+      "day": 20
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 10.3,
+      "pnl_sol": 0.0103,
+      "sentiment": 0.63,
+      "day": 41
+    },
+    {
+      "symbol": "APE",
+      "pnl_pct": 15.15,
+      "pnl_sol": 0.0152,
+      "sentiment": 0.816,
+      "day": 42
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": -7.92,
+      "pnl_sol": -0.0079,
+      "sentiment": 0.897,
+      "day": 43
+    },
+    {
+      "symbol": "MEMEAI",
+      "pnl_pct": 8.68,
+      "pnl_sol": 0.0087,
+      "sentiment": 0.897,
+      "day": 43
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 22.47,
+      "pnl_sol": 0.0225,
+      "sentiment": 0.726,
+      "day": 43
+    },
+    {
+      "symbol": "ELONPAD",
+      "pnl_pct": -19.83,
+      "pnl_sol": -0.0198,
+      "sentiment": 0.816,
+      "day": 44
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.84,
+      "pnl_sol": 0.0068,
+      "sentiment": 0.816,
+      "day": 46
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 8.32,
+      "pnl_sol": 0.0083,
+      "sentiment": 0.63,
+      "day": 46
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": -7.04,
+      "pnl_sol": -0.007,
+      "sentiment": 0.633,
+      "day": 46
+    },
+    {
+      "symbol": "SHIBCOIN",
+      "pnl_pct": 21.13,
+      "pnl_sol": 0.0211,
+      "sentiment": 0.798,
+      "day": 47
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 5.73,
+      "pnl_sol": 0.0057,
+      "sentiment": 0.729,
+      "day": 47
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -6.07,
+      "pnl_sol": -0.0061,
+      "sentiment": 0.795,
+      "day": 48
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 13.4,
+      "pnl_sol": 0.0134,
+      "sentiment": 0.897,
+      "day": 49
+    },
+    {
+      "symbol": "ALPHA2",
+      "pnl_pct": 10.34,
+      "pnl_sol": 0.0103,
+      "sentiment": 0.816,
+      "day": 49
+    },
+    {
+      "symbol": "SOL",
+      "pnl_pct": 17.42,
+      "pnl_sol": 0.0174,
+      "sentiment": 1.0,
+      "day": 49
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": 5.83,
+      "pnl_sol": 0.0058,
+      "sentiment": 0.63,
+      "day": 50
+    },
+    {
+      "symbol": "SIGMAAI",
+      "pnl_pct": 24.74,
+      "pnl_sol": 0.0247,
+      "sentiment": 1.1,
+      "day": 53
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 17.13,
+      "pnl_sol": 0.0171,
+      "sentiment": 0.897,
+      "day": 53
+    },
+    {
+      "symbol": "NEONINU",
+      "pnl_pct": 24.3,
+      "pnl_sol": 0.0243,
+      "sentiment": 0.63,
+      "day": 53
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": 8.57,
+      "pnl_sol": 0.0086,
+      "sentiment": 0.816,
+      "day": 54
+    },
+    {
+      "symbol": "ZETAPAD",
+      "pnl_pct": 15.82,
+      "pnl_sol": 0.0158,
+      "sentiment": 0.906,
+      "day": 55
+    },
+    {
+      "symbol": "BARK",
+      "pnl_pct": -7.62,
+      "pnl_sol": -0.0076,
+      "sentiment": 0.816,
+      "day": 56
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": -3.41,
+      "pnl_sol": -0.0034,
+      "sentiment": 1.0,
+      "day": 56
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 18.49,
+      "pnl_sol": 0.0185,
+      "sentiment": 0.996,
+      "day": 57
+    },
+    {
+      "symbol": "BETADAO",
+      "pnl_pct": 16.33,
+      "pnl_sol": 0.0163,
+      "sentiment": 0.726,
+      "day": 57
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 12.3,
+      "pnl_sol": 0.0123,
+      "sentiment": 0.997,
+      "day": 57
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -6.33,
+      "pnl_sol": -0.0063,
+      "sentiment": 1.0,
+      "day": 57
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 5.55,
+      "pnl_sol": 0.0055,
+      "sentiment": 0.914,
+      "day": 58
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 12.42,
+      "pnl_sol": 0.0124,
+      "sentiment": 0.831,
+      "day": 59
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "pnl_pct": 20.33,
+      "pnl_sol": 0.0203,
+      "sentiment": 0.914,
+      "day": 62
+    },
+    {
+      "symbol": "FLOKIAI",
+      "pnl_pct": -6.21,
+      "pnl_sol": -0.0062,
+      "sentiment": 0.697,
+      "day": 62
+    },
+    {
+      "symbol": "MOONINU",
+      "pnl_pct": 23.13,
+      "pnl_sol": 0.0231,
+      "sentiment": 0.697,
+      "day": 63
+    },
+    {
+      "symbol": "MEMEDAO",
+      "pnl_pct": 7.91,
+      "pnl_sol": 0.0079,
+      "sentiment": 1.0,
+      "day": 65
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": 9.13,
+      "pnl_sol": 0.0091,
+      "sentiment": 0.997,
+      "day": 65
+    },
+    {
+      "symbol": "BARKDAO",
+      "pnl_pct": 22.32,
+      "pnl_sol": 0.0223,
+      "sentiment": 0.67,
+      "day": 67
+    },
+    {
+      "symbol": "NEONTOKEN",
+      "pnl_pct": 15.93,
+      "pnl_sol": 0.0159,
+      "sentiment": 0.741,
+      "day": 67
+    },
+    {
+      "symbol": "SOLDEX",
+      "pnl_pct": 14.28,
+      "pnl_sol": 0.0143,
+      "sentiment": 0.741,
+      "day": 67
+    },
+    {
+      "symbol": "RAYTOKEN",
+      "pnl_pct": 7.56,
+      "pnl_sol": 0.0076,
+      "sentiment": 0.741,
+      "day": 68
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 12.59,
+      "pnl_sol": 0.0126,
+      "sentiment": 0.831,
+      "day": 69
+    },
+    {
+      "symbol": "NEONDAO",
+      "pnl_pct": 19.61,
+      "pnl_sol": 0.0196,
+      "sentiment": 0.741,
+      "day": 69
+    },
+    {
+      "symbol": "APETOKEN",
+      "pnl_pct": 5.44,
+      "pnl_sol": 0.0054,
+      "sentiment": 0.831,
+      "day": 70
+    },
+    {
+      "symbol": "DOGEPAD",
+      "pnl_pct": 23.26,
+      "pnl_sol": 0.0233,
+      "sentiment": 0.914,
+      "day": 71
+    },
+    {
+      "symbol": "CATAI",
+      "pnl_pct": 5.38,
+      "pnl_sol": 0.0054,
+      "sentiment": 0.815,
+      "day": 71
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.29,
+      "pnl_sol": 0.0153,
+      "sentiment": 1.1,
+      "day": 72
+    },
+    {
+      "symbol": "DELTADAO",
+      "pnl_pct": -5.53,
+      "pnl_sol": -0.0055,
+      "sentiment": 0.831,
+      "day": 73
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 23.79,
+      "pnl_sol": 0.0238,
+      "sentiment": 1.0,
+      "day": 73
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -6.72,
+      "pnl_sol": -0.0067,
+      "sentiment": 0.64,
+      "day": 74
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 20.62,
+      "pnl_sol": 0.0206,
+      "sentiment": 0.741,
+      "day": 74
+    },
+    {
+      "symbol": "WOOFAI",
+      "pnl_pct": -7.32,
+      "pnl_sol": -0.0073,
+      "sentiment": 0.737,
+      "day": 75
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 19.77,
+      "pnl_sol": 0.0198,
+      "sentiment": 1.0,
+      "day": 76
+    },
+    {
+      "symbol": "MOONAI",
+      "pnl_pct": -22.44,
+      "pnl_sol": -0.0224,
+      "sentiment": 0.706,
+      "day": 76
+    },
+    {
+      "symbol": "PEPE2",
+      "pnl_pct": 18.09,
+      "pnl_sol": 0.0181,
+      "sentiment": 0.932,
+      "day": 77
+    },
+    {
+      "symbol": "BONKDAO",
+      "pnl_pct": 16.95,
+      "pnl_sol": 0.0169,
+      "sentiment": 0.757,
+      "day": 77
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "sentiment": 0.647,
+      "day": 77
+    },
+    {
+      "symbol": "STARAI",
+      "pnl_pct": 13.53,
+      "pnl_sol": 0.0135,
+      "sentiment": 0.932,
+      "day": 79
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": -14.15,
+      "pnl_sol": -0.0142,
+      "sentiment": 0.847,
+      "day": 80
+    },
+    {
+      "symbol": "ZETA2",
+      "pnl_pct": 20.83,
+      "pnl_sol": 0.0208,
+      "sentiment": 0.757,
+      "day": 80
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -3.28,
+      "pnl_sol": -0.0033,
+      "sentiment": 1.0,
+      "day": 82
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "sentiment": 0.932,
+      "day": 82
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": 5.93,
+      "pnl_sol": 0.0059,
+      "sentiment": 0.932,
+      "day": 83
+    },
+    {
+      "symbol": "DELTAAI",
+      "pnl_pct": 24.49,
+      "pnl_sol": 0.0245,
+      "sentiment": 0.833,
+      "day": 83
+    },
+    {
+      "symbol": "MEME2",
+      "pnl_pct": 23.65,
+      "pnl_sol": 0.0236,
+      "sentiment": 1.0,
+      "day": 84
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 13.17,
+      "pnl_sol": 0.0132,
+      "sentiment": 1.1,
+      "day": 85
+    },
+    {
+      "symbol": "WOOF",
+      "pnl_pct": -7.68,
+      "pnl_sol": -0.0077,
+      "sentiment": 0.847,
+      "day": 86
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": -6.03,
+      "pnl_sol": -0.006,
+      "sentiment": 0.937,
+      "day": 87
+    },
+    {
+      "symbol": "FLOKIDEX",
+      "pnl_pct": 22.04,
+      "pnl_sol": 0.022,
+      "sentiment": 0.833,
+      "day": 87
+    },
+    {
+      "symbol": "VOID2",
+      "pnl_pct": 7.89,
+      "pnl_sol": 0.0079,
+      "sentiment": 0.678,
+      "day": 87
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -5.57,
+      "pnl_sol": -0.0056,
+      "sentiment": 1.0,
+      "day": 88
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 14.58,
+      "pnl_sol": 0.0146,
+      "sentiment": 0.847,
+      "day": 88
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": 10.37,
+      "pnl_sol": 0.0104,
+      "sentiment": 1.0,
+      "day": 88
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 22.11,
+      "pnl_sol": 0.0221,
+      "sentiment": 1.2,
+      "day": 89
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 13.35,
+      "pnl_sol": 0.0133,
+      "sentiment": 1.1,
+      "day": 89
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "sentiment": 0.932,
+      "day": 89
+    },
+    {
+      "symbol": "BONKDEX",
+      "pnl_pct": 17.03,
+      "pnl_sol": 0.017,
+      "sentiment": 1.0,
+      "day": 89
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 24.31,
+      "pnl_sol": 0.0243,
+      "sentiment": 0.746,
+      "day": 90
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": -3.76,
+      "pnl_sol": -0.0038,
+      "sentiment": 1.0,
+      "day": 90
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 7.03,
+      "pnl_sol": 0.007,
+      "sentiment": 0.657,
+      "day": 90
+    },
+    {
+      "symbol": "WOJAKDAO",
+      "pnl_pct": 12.71,
+      "pnl_sol": 0.0127,
+      "sentiment": 0.95,
+      "day": 91
+    },
+    {
+      "symbol": "MOONX",
+      "pnl_pct": 18.04,
+      "pnl_sol": 0.018,
+      "sentiment": 1.1,
+      "day": 92
+    },
+    {
+      "symbol": "MEMEPAD",
+      "pnl_pct": 11.86,
+      "pnl_sol": 0.0119,
+      "sentiment": 1.0,
+      "day": 94
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.43,
+      "pnl_sol": 0.0064,
+      "sentiment": 1.0,
+      "day": 94
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 16.91,
+      "pnl_sol": 0.0169,
+      "sentiment": 1.1,
+      "day": 95
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -5.19,
+      "pnl_sol": -0.0052,
+      "sentiment": 0.864,
+      "day": 96
+    },
+    {
+      "symbol": "STARTOKEN",
+      "pnl_pct": -5.21,
+      "pnl_sol": -0.0052,
+      "sentiment": 0.954,
+      "day": 96
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": 12.22,
+      "pnl_sol": 0.0122,
+      "sentiment": 0.864,
+      "day": 97
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": -4.89,
+      "pnl_sol": -0.0049,
+      "sentiment": 0.774,
+      "day": 97
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 10.15,
+      "pnl_sol": 0.0101,
+      "sentiment": 0.756,
+      "day": 97
+    },
+    {
+      "symbol": "SIGMA2",
+      "pnl_pct": -5.96,
+      "pnl_sol": -0.006,
+      "sentiment": 1.0,
+      "day": 98
+    },
+    {
+      "symbol": "ZETAPAD",
+      "pnl_pct": 17.43,
+      "pnl_sol": 0.0174,
+      "sentiment": 0.687,
+      "day": 99
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": 20.3,
+      "pnl_sol": 0.0203,
+      "sentiment": 1.037,
+      "day": 99
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": 16.31,
+      "pnl_sol": 0.0163,
+      "sentiment": 0.864,
+      "day": 99
+    },
+    {
+      "symbol": "BARK2",
+      "pnl_pct": 15.55,
+      "pnl_sol": 0.0156,
+      "sentiment": 0.864,
+      "day": 101
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": -3.57,
+      "pnl_sol": -0.0036,
+      "sentiment": 0.657,
+      "day": 101
+    },
+    {
+      "symbol": "BETAPAD",
+      "pnl_pct": -15.58,
+      "pnl_sol": -0.0156,
+      "sentiment": 0.687,
+      "day": 101
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 22.1,
+      "pnl_sol": 0.0221,
+      "sentiment": 1.1,
+      "day": 101
+    },
+    {
+      "symbol": "FLOKI",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "sentiment": 0.95,
+      "day": 102
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 10.17,
+      "pnl_sol": 0.0102,
+      "sentiment": 0.756,
+      "day": 102
+    },
+    {
+      "symbol": "STARDAO",
+      "pnl_pct": 20.7,
+      "pnl_sol": 0.0207,
+      "sentiment": 1.0,
+      "day": 102
+    },
+    {
+      "symbol": "ZETAX",
+      "pnl_pct": 18.39,
+      "pnl_sol": 0.0184,
+      "sentiment": 1.0,
+      "day": 102
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": 16.78,
+      "pnl_sol": 0.0168,
+      "sentiment": 0.95,
+      "day": 103
+    },
+    {
+      "symbol": "BASEDCOIN",
+      "pnl_pct": -2.19,
+      "pnl_sol": -0.0022,
+      "sentiment": 0.881,
+      "day": 103
+    },
+    {
+      "symbol": "CATTOKEN",
+      "pnl_pct": 13.95,
+      "pnl_sol": 0.014,
+      "sentiment": 0.881,
+      "day": 104
+    },
+    {
+      "symbol": "STARINU",
+      "pnl_pct": 21.16,
+      "pnl_sol": 0.0212,
+      "sentiment": 0.765,
+      "day": 104
+    },
+    {
+      "symbol": "SOLX",
+      "pnl_pct": -15.66,
+      "pnl_sol": -0.0157,
+      "sentiment": 0.881,
+      "day": 104
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 24.82,
+      "pnl_sol": 0.0248,
+      "sentiment": 1.1,
+      "day": 105
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": -2.68,
+      "pnl_sol": -0.0027,
+      "sentiment": 0.97,
+      "day": 105
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 14.21,
+      "pnl_sol": 0.0142,
+      "sentiment": 0.606,
+      "day": 106
+    },
+    {
+      "symbol": "SIGMACOIN",
+      "pnl_pct": 6.45,
+      "pnl_sol": 0.0064,
+      "sentiment": 0.881,
+      "day": 107
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.37,
+      "pnl_sol": 0.0154,
+      "sentiment": 0.765,
+      "day": 108
+    },
+    {
+      "symbol": "MEME",
+      "pnl_pct": -7.98,
+      "pnl_sol": -0.008,
+      "sentiment": 0.666,
+      "day": 108
+    },
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 6.77,
+      "pnl_sol": 0.0068,
+      "sentiment": 0.765,
+      "day": 108
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -20.98,
+      "pnl_sol": -0.021,
+      "sentiment": 1.1,
+      "day": 108
+    },
+    {
+      "symbol": "ELONAI",
+      "pnl_pct": -3.06,
+      "pnl_sol": -0.0031,
+      "sentiment": 0.871,
+      "day": 109
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 11.97,
+      "pnl_sol": 0.012,
+      "sentiment": 1.0,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 17.7,
+      "pnl_sol": 0.0177,
+      "sentiment": 0.97,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": -6.75,
+      "pnl_sol": -0.0068,
+      "sentiment": 1.1,
+      "day": 111
+    },
+    {
+      "symbol": "DOGE2",
+      "pnl_pct": 9.68,
+      "pnl_sol": 0.0097,
+      "sentiment": 0.633,
+      "day": 112
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 12.87,
+      "pnl_sol": 0.0129,
+      "sentiment": 0.881,
+      "day": 112
+    },
+    {
+      "symbol": "VOIDPAD",
+      "pnl_pct": 24.29,
+      "pnl_sol": 0.0243,
+      "sentiment": 0.606,
+      "day": 112
+    }
+  ]
+}

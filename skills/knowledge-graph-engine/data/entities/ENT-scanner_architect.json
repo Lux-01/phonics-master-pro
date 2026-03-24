@@ -1,0 +1,12 @@
+{
+  "id": "ENT-scanner_architect",
+  "type": "skill",
+  "name": "Scanner Architect",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "planning",
+    "code"
+  ],
+  "created": "2026-03-20T04:52:13.783841"
+}

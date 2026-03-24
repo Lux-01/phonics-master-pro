@@ -1,0 +1,24 @@
+{
+  "goals": [
+    {
+      "id": "goal_20260320_164828_1",
+      "type": "opportunity",
+      "title": "Find and execute Grade A+ trade",
+      "description": "Scan for opportunities and execute if criteria met",
+      "priority": 9,
+      "deadline": "2026-03-20T17:48:28.715570",
+      "auto_execute": true,
+      "created": "2026-03-20T16:48:28.716053"
+    },
+    {
+      "id": "goal_20260320_164828_3",
+      "type": "maintenance",
+      "title": "System health check",
+      "description": "Verify all skills operational",
+      "priority": 5,
+      "deadline": "2026-03-20T20:48:28.717398",
+      "auto_execute": true,
+      "created": "2026-03-20T16:48:28.717676"
+    }
+  ]
+}

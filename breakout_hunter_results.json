@@ -1,0 +1,1654 @@
+{
+  "strategy": "Breakout Hunter",
+  "description": "Enter on new 24h highs with volume spikes",
+  "initial_balance": 1.0,
+  "final_balance": 2.4061,
+  "total_return_pct": 140.61,
+  "total_trades": 175,
+  "wins": 123,
+  "losses": 52,
+  "win_rate_pct": 70.29,
+  "avg_trade_return_pct": 8.04,
+  "avg_breakout_strength": 1.034,
+  "avg_volume_score": 0.74,
+  "high_volume_win_rate": 75.0,
+  "learning_history": [
+    {
+      "trade_count": 12,
+      "win_rate": 0.75,
+      "avg_breakout_strength": 1.0758333333333332,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.1224,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 24,
+      "win_rate": 0.5833333333333334,
+      "avg_breakout_strength": 1.0780666666666667,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.612,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.124848,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 36,
+      "win_rate": 0.6388888888888888,
+      "avg_breakout_strength": 1.1243333333333332,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.62424,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.12734496,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 48,
+      "win_rate": 0.6666666666666666,
+      "avg_breakout_strength": 1.161,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.62424,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.12989185920000001,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 60,
+      "win_rate": 0.6833333333333333,
+      "avg_breakout_strength": 0.8732333333333334,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6367248,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.13248969638400002,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 72,
+      "win_rate": 0.6944444444444444,
+      "avg_breakout_strength": 0.9174,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.623990304,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.13513949031168002,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 84,
+      "win_rate": 0.6904761904761905,
+      "avg_breakout_strength": 0.9410666666666667,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.63647011008,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.1378422801179136,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 96,
+      "win_rate": 0.6875,
+      "avg_breakout_strength": 1.0105,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6237407078784,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.1405991257202719,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 108,
+      "win_rate": 0.7129629629629629,
+      "avg_breakout_strength": 0.9968333333333332,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.611265893720832,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.14341110823467734,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 120,
+      "win_rate": 0.7083333333333334,
+      "avg_breakout_strength": 0.9447333333333333,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6234912115952486,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.14627933039937088,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 132,
+      "win_rate": 0.7121212121212122,
+      "avg_breakout_strength": 1.139,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6234912115952486,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.1492049170073583,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 144,
+      "win_rate": 0.7222222222222222,
+      "avg_breakout_strength": 1.0565,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6359610358271536,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.15218901534750548,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 156,
+      "win_rate": 0.7115384615384616,
+      "avg_breakout_strength": 1.0479,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6359610358271536,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.15523279565445558,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    },
+    {
+      "trade_count": 168,
+      "win_rate": 0.7083333333333334,
+      "avg_breakout_strength": 1.0764,
+      "params": {
+        "min_volume_signal": 1,
+        "momentum_threshold": 0.6359610358271536,
+        "profit_target": 0.18,
+        "stop_loss": 0.08,
+        "trailing_start": 0.1,
+        "trailing_pct": 0.05,
+        "position_size": 0.1583374515675447,
+        "max_position": 0.3,
+        "freshness_boost": 1.3
+      }
+    }
+  ],
+  "final_params": {
+    "min_volume_signal": 1,
+    "momentum_threshold": 0.6359610358271536,
+    "profit_target": 0.18,
+    "stop_loss": 0.08,
+    "trailing_start": 0.1,
+    "trailing_pct": 0.05,
+    "position_size": 0.1583374515675447,
+    "max_position": 0.3,
+    "freshness_boost": 1.3
+  },
+  "trades": [
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 18.22,
+      "pnl_sol": 0.0182,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 1
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 17.14,
+      "pnl_sol": 0.0171,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 1
+    },
+    {
+      "symbol": "DEGENINU",
+      "pnl_pct": 8.97,
+      "pnl_sol": 0.009,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 1
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 9.34,
+      "pnl_sol": 0.0093,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 2
+    },
+    {
+      "symbol": "DOGEX",
+      "pnl_pct": -10.69,
+      "pnl_sol": -0.0107,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 2
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": 24.13,
+      "pnl_sol": 0.0241,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 2
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": -6.25,
+      "pnl_sol": -0.0062,
+      "breakout_strength": 0.884,
+      "volume_score": 0.8,
+      "day": 2
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": 21.09,
+      "pnl_sol": 0.0211,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 3
+    },
+    {
+      "symbol": "ALPHADAO",
+      "pnl_pct": 8.35,
+      "pnl_sol": 0.0084,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 3
+    },
+    {
+      "symbol": "BETADEX",
+      "pnl_pct": -7.22,
+      "pnl_sol": -0.0072,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 3
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": 23.36,
+      "pnl_sol": 0.0234,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 4
+    },
+    {
+      "symbol": "DEGENDEX",
+      "pnl_pct": 20.98,
+      "pnl_sol": 0.021,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 4
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -18.23,
+      "pnl_sol": -0.0182,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 5
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 15.22,
+      "pnl_sol": 0.0152,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 5
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "pnl_pct": -10.44,
+      "pnl_sol": -0.0104,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 6
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 13.76,
+      "pnl_sol": 0.0138,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 6
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": -20.81,
+      "pnl_sol": -0.0208,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 6
+    },
+    {
+      "symbol": "CHADX",
+      "pnl_pct": -5.33,
+      "pnl_sol": -0.0053,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 6
+    },
+    {
+      "symbol": "CATX",
+      "pnl_pct": -4.37,
+      "pnl_sol": -0.0044,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 8
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": -19.32,
+      "pnl_sol": -0.0193,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 8
+    },
+    {
+      "symbol": "APECOIN",
+      "pnl_pct": 21.08,
+      "pnl_sol": 0.0211,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 8
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": -12.93,
+      "pnl_sol": -0.0129,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 9
+    },
+    {
+      "symbol": "ALPHA",
+      "pnl_pct": 21.36,
+      "pnl_sol": 0.0214,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 9
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 19.94,
+      "pnl_sol": 0.0199,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 10
+    },
+    {
+      "symbol": "MEMEDEX",
+      "pnl_pct": 10.05,
+      "pnl_sol": 0.0101,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 10
+    },
+    {
+      "symbol": "VOID",
+      "pnl_pct": 7.32,
+      "pnl_sol": 0.0073,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 10
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 24.91,
+      "pnl_sol": 0.0249,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 10
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.64,
+      "pnl_sol": 0.0216,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 10
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": 14.79,
+      "pnl_sol": 0.0148,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 11
+    },
+    {
+      "symbol": "BETACOIN",
+      "pnl_pct": -7.87,
+      "pnl_sol": -0.0079,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 11
+    },
+    {
+      "symbol": "MOON2",
+      "pnl_pct": -23.44,
+      "pnl_sol": -0.0234,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 12
+    },
+    {
+      "symbol": "STARX",
+      "pnl_pct": -15.19,
+      "pnl_sol": -0.0152,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 12
+    },
+    {
+      "symbol": "VOIDDAO",
+      "pnl_pct": 21.88,
+      "pnl_sol": 0.0219,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 12
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "pnl_pct": 18.34,
+      "pnl_sol": 0.0183,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 13
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 10.04,
+      "pnl_sol": 0.01,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 9.11,
+      "pnl_sol": 0.0091,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 8.59,
+      "pnl_sol": 0.0086,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "DEGENDAO",
+      "pnl_pct": 21.76,
+      "pnl_sol": 0.0218,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BARKCOIN",
+      "pnl_pct": 22.5,
+      "pnl_sol": 0.0225,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BONK2",
+      "pnl_pct": -15.25,
+      "pnl_sol": -0.0152,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 16
+    },
+    {
+      "symbol": "BETAX",
+      "pnl_pct": 6.51,
+      "pnl_sol": 0.0065,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 16
+    },
+    {
+      "symbol": "BARKDEX",
+      "pnl_pct": 9.07,
+      "pnl_sol": 0.0091,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 17
+    },
+    {
+      "symbol": "SHIBDEX",
+      "pnl_pct": 12.13,
+      "pnl_sol": 0.0121,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 17
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": -23.09,
+      "pnl_sol": -0.0231,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 17
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.85,
+      "pnl_sol": 0.0219,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 18
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -3.55,
+      "pnl_sol": -0.0035,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 19
+    },
+    {
+      "symbol": "APEAI",
+      "pnl_pct": 11.94,
+      "pnl_sol": 0.0119,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 19
+    },
+    {
+      "symbol": "PEPEINU",
+      "pnl_pct": 5.66,
+      "pnl_sol": 0.0057,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 20
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 12.95,
+      "pnl_sol": 0.0129,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 20
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "pnl_pct": -13.79,
+      "pnl_sol": -0.0138,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 20
+    },
+    {
+      "symbol": "MEOWTOKEN",
+      "pnl_pct": 23.21,
+      "pnl_sol": 0.0232,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 24
+    },
+    {
+      "symbol": "MEMEINU",
+      "pnl_pct": 16.5,
+      "pnl_sol": 0.0165,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 24
+    },
+    {
+      "symbol": "PEPEDEX",
+      "pnl_pct": 23.58,
+      "pnl_sol": 0.0236,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 25
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": 23.9,
+      "pnl_sol": 0.0239,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 26
+    },
+    {
+      "symbol": "LUNAX",
+      "pnl_pct": 19.52,
+      "pnl_sol": 0.0195,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 27
+    },
+    {
+      "symbol": "LUNAAI",
+      "pnl_pct": 19.42,
+      "pnl_sol": 0.0194,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 29
+    },
+    {
+      "symbol": "PEPE",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 29
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": -5.14,
+      "pnl_sol": -0.0051,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 30
+    },
+    {
+      "symbol": "MEOWPAD",
+      "pnl_pct": -5.45,
+      "pnl_sol": -0.0054,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 31
+    },
+    {
+      "symbol": "ELONDAO",
+      "pnl_pct": 7.19,
+      "pnl_sol": 0.0072,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 32
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 21.27,
+      "pnl_sol": 0.0213,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 34
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 22.83,
+      "pnl_sol": 0.0228,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 37
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": -4.51,
+      "pnl_sol": -0.0045,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 39
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 10.76,
+      "pnl_sol": 0.0108,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 40
+    },
+    {
+      "symbol": "STAR2",
+      "pnl_pct": 23.52,
+      "pnl_sol": 0.0235,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 40
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 10.3,
+      "pnl_sol": 0.0103,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 41
+    },
+    {
+      "symbol": "APE",
+      "pnl_pct": 15.15,
+      "pnl_sol": 0.0152,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 42
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": -7.92,
+      "pnl_sol": -0.0079,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 43
+    },
+    {
+      "symbol": "MEMEAI",
+      "pnl_pct": 8.68,
+      "pnl_sol": 0.0087,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 43
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 22.47,
+      "pnl_sol": 0.0225,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 43
+    },
+    {
+      "symbol": "ELONPAD",
+      "pnl_pct": -19.83,
+      "pnl_sol": -0.0198,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 44
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.84,
+      "pnl_sol": 0.0068,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 46
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": -7.04,
+      "pnl_sol": -0.007,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 46
+    },
+    {
+      "symbol": "SHIBCOIN",
+      "pnl_pct": 21.13,
+      "pnl_sol": 0.0211,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 47
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -6.07,
+      "pnl_sol": -0.0061,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 48
+    },
+    {
+      "symbol": "GAMMAX",
+      "pnl_pct": -3.27,
+      "pnl_sol": -0.0033,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 48
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 13.4,
+      "pnl_sol": 0.0134,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 49
+    },
+    {
+      "symbol": "ALPHA2",
+      "pnl_pct": 10.34,
+      "pnl_sol": 0.0103,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 49
+    },
+    {
+      "symbol": "SOL",
+      "pnl_pct": 17.42,
+      "pnl_sol": 0.0174,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 49
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": 5.83,
+      "pnl_sol": 0.0058,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 50
+    },
+    {
+      "symbol": "MEME",
+      "pnl_pct": -22.26,
+      "pnl_sol": -0.0223,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 52
+    },
+    {
+      "symbol": "SIGMAAI",
+      "pnl_pct": 24.74,
+      "pnl_sol": 0.0247,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 53
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 17.13,
+      "pnl_sol": 0.0171,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 53
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": 8.57,
+      "pnl_sol": 0.0086,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 54
+    },
+    {
+      "symbol": "BARK",
+      "pnl_pct": -7.62,
+      "pnl_sol": -0.0076,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 56
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": -3.41,
+      "pnl_sol": -0.0034,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 56
+    },
+    {
+      "symbol": "BETADAO",
+      "pnl_pct": 16.33,
+      "pnl_sol": 0.0163,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 57
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 12.3,
+      "pnl_sol": 0.0123,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 57
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -6.33,
+      "pnl_sol": -0.0063,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 57
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 5.55,
+      "pnl_sol": 0.0055,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 58
+    },
+    {
+      "symbol": "WOOFCOIN",
+      "pnl_pct": 21.5,
+      "pnl_sol": 0.0215,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 59
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 12.42,
+      "pnl_sol": 0.0124,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 59
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "pnl_pct": 20.33,
+      "pnl_sol": 0.0203,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 62
+    },
+    {
+      "symbol": "FLOKIAI",
+      "pnl_pct": -6.21,
+      "pnl_sol": -0.0062,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 62
+    },
+    {
+      "symbol": "MOONINU",
+      "pnl_pct": 23.13,
+      "pnl_sol": 0.0231,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 63
+    },
+    {
+      "symbol": "MEMEDAO",
+      "pnl_pct": 7.91,
+      "pnl_sol": 0.0079,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 65
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": 9.13,
+      "pnl_sol": 0.0091,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 65
+    },
+    {
+      "symbol": "SOLX",
+      "pnl_pct": 11.89,
+      "pnl_sol": 0.0119,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 66
+    },
+    {
+      "symbol": "NEONTOKEN",
+      "pnl_pct": 15.93,
+      "pnl_sol": 0.0159,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 67
+    },
+    {
+      "symbol": "SOLDEX",
+      "pnl_pct": 14.28,
+      "pnl_sol": 0.0143,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 67
+    },
+    {
+      "symbol": "RAYTOKEN",
+      "pnl_pct": 7.56,
+      "pnl_sol": 0.0076,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 68
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 12.59,
+      "pnl_sol": 0.0126,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 69
+    },
+    {
+      "symbol": "NEONDAO",
+      "pnl_pct": 19.61,
+      "pnl_sol": 0.0196,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 69
+    },
+    {
+      "symbol": "APETOKEN",
+      "pnl_pct": 5.44,
+      "pnl_sol": 0.0054,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 70
+    },
+    {
+      "symbol": "DOGEPAD",
+      "pnl_pct": 23.26,
+      "pnl_sol": 0.0233,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 71
+    },
+    {
+      "symbol": "CATAI",
+      "pnl_pct": 5.38,
+      "pnl_sol": 0.0054,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 71
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.29,
+      "pnl_sol": 0.0153,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 72
+    },
+    {
+      "symbol": "DELTADAO",
+      "pnl_pct": -5.53,
+      "pnl_sol": -0.0055,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 73
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 23.79,
+      "pnl_sol": 0.0238,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 73
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -6.72,
+      "pnl_sol": -0.0067,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 74
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 20.62,
+      "pnl_sol": 0.0206,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 74
+    },
+    {
+      "symbol": "WOOFAI",
+      "pnl_pct": -7.32,
+      "pnl_sol": -0.0073,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 75
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 19.77,
+      "pnl_sol": 0.0198,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 76
+    },
+    {
+      "symbol": "MOONAI",
+      "pnl_pct": -22.44,
+      "pnl_sol": -0.0224,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 76
+    },
+    {
+      "symbol": "PEPE2",
+      "pnl_pct": 18.09,
+      "pnl_sol": 0.0181,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 77
+    },
+    {
+      "symbol": "BONKDAO",
+      "pnl_pct": 16.95,
+      "pnl_sol": 0.0169,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 77
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 77
+    },
+    {
+      "symbol": "STARAI",
+      "pnl_pct": 13.53,
+      "pnl_sol": 0.0135,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 79
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": -14.15,
+      "pnl_sol": -0.0142,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 80
+    },
+    {
+      "symbol": "ZETA2",
+      "pnl_pct": 20.83,
+      "pnl_sol": 0.0208,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 80
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -3.28,
+      "pnl_sol": -0.0033,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 82
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 82
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": 5.93,
+      "pnl_sol": 0.0059,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 83
+    },
+    {
+      "symbol": "DELTAAI",
+      "pnl_pct": 24.49,
+      "pnl_sol": 0.0245,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 83
+    },
+    {
+      "symbol": "MEME2",
+      "pnl_pct": 23.65,
+      "pnl_sol": 0.0236,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 84
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 13.17,
+      "pnl_sol": 0.0132,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 85
+    },
+    {
+      "symbol": "WOOF",
+      "pnl_pct": -7.68,
+      "pnl_sol": -0.0077,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 86
+    },
+    {
+      "symbol": "FLOKIDEX",
+      "pnl_pct": 22.04,
+      "pnl_sol": 0.022,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 87
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -5.57,
+      "pnl_sol": -0.0056,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 88
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 14.58,
+      "pnl_sol": 0.0146,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 88
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": 10.37,
+      "pnl_sol": 0.0104,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 88
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 22.11,
+      "pnl_sol": 0.0221,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 89
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 13.35,
+      "pnl_sol": 0.0133,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 89
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 89
+    },
+    {
+      "symbol": "BONKDEX",
+      "pnl_pct": 17.03,
+      "pnl_sol": 0.017,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 89
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": -3.76,
+      "pnl_sol": -0.0038,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 90
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 7.03,
+      "pnl_sol": 0.007,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 90
+    },
+    {
+      "symbol": "WOJAKDAO",
+      "pnl_pct": 12.71,
+      "pnl_sol": 0.0127,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 91
+    },
+    {
+      "symbol": "MOONX",
+      "pnl_pct": 18.04,
+      "pnl_sol": 0.018,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 92
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": -5.4,
+      "pnl_sol": -0.0054,
+      "breakout_strength": 0.596,
+      "volume_score": 0.5,
+      "day": 93
+    },
+    {
+      "symbol": "MEMEPAD",
+      "pnl_pct": 11.86,
+      "pnl_sol": 0.0119,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 94
+    },
+    {
+      "symbol": "LUNA2",
+      "pnl_pct": 17.15,
+      "pnl_sol": 0.0172,
+      "breakout_strength": 0.62,
+      "volume_score": 0.5,
+      "day": 94
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.43,
+      "pnl_sol": 0.0064,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 94
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 16.91,
+      "pnl_sol": 0.0169,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 95
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -5.19,
+      "pnl_sol": -0.0052,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 96
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": 12.22,
+      "pnl_sol": 0.0122,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 97
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": -4.89,
+      "pnl_sol": -0.0049,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 97
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 10.15,
+      "pnl_sol": 0.0101,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 97
+    },
+    {
+      "symbol": "SIGMA2",
+      "pnl_pct": -5.96,
+      "pnl_sol": -0.006,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 98
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": 20.3,
+      "pnl_sol": 0.0203,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 99
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": 16.31,
+      "pnl_sol": 0.0163,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 99
+    },
+    {
+      "symbol": "BARK2",
+      "pnl_pct": 15.55,
+      "pnl_sol": 0.0156,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 101
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": -3.57,
+      "pnl_sol": -0.0036,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 101
+    },
+    {
+      "symbol": "BETAPAD",
+      "pnl_pct": -15.58,
+      "pnl_sol": -0.0156,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 101
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 22.1,
+      "pnl_sol": 0.0221,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 101
+    },
+    {
+      "symbol": "FLOKI",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 102
+    },
+    {
+      "symbol": "STARDAO",
+      "pnl_pct": 20.7,
+      "pnl_sol": 0.0207,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 102
+    },
+    {
+      "symbol": "ZETAX",
+      "pnl_pct": 18.39,
+      "pnl_sol": 0.0184,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 102
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": 16.78,
+      "pnl_sol": 0.0168,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 103
+    },
+    {
+      "symbol": "BASEDCOIN",
+      "pnl_pct": -2.19,
+      "pnl_sol": -0.0022,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 103
+    },
+    {
+      "symbol": "CATTOKEN",
+      "pnl_pct": 13.95,
+      "pnl_sol": 0.014,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 104
+    },
+    {
+      "symbol": "STARINU",
+      "pnl_pct": 21.16,
+      "pnl_sol": 0.0212,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 104
+    },
+    {
+      "symbol": "SOLX",
+      "pnl_pct": -15.66,
+      "pnl_sol": -0.0157,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 104
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 24.82,
+      "pnl_sol": 0.0248,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 105
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": -2.68,
+      "pnl_sol": -0.0027,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 105
+    },
+    {
+      "symbol": "SIGMACOIN",
+      "pnl_pct": 6.45,
+      "pnl_sol": 0.0064,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 107
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.37,
+      "pnl_sol": 0.0154,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 108
+    },
+    {
+      "symbol": "MEME",
+      "pnl_pct": -7.98,
+      "pnl_sol": -0.008,
+      "breakout_strength": 0.775,
+      "volume_score": 0.5,
+      "day": 108
+    },
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 6.77,
+      "pnl_sol": 0.0068,
+      "breakout_strength": 0.806,
+      "volume_score": 0.5,
+      "day": 108
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -20.98,
+      "pnl_sol": -0.021,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 108
+    },
+    {
+      "symbol": "ELONAI",
+      "pnl_pct": -3.06,
+      "pnl_sol": -0.0031,
+      "breakout_strength": 0.88,
+      "volume_score": 0.7,
+      "day": 109
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 11.97,
+      "pnl_sol": 0.012,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 17.7,
+      "pnl_sol": 0.0177,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": -6.75,
+      "pnl_sol": -0.0068,
+      "breakout_strength": 1.222,
+      "volume_score": 1.0,
+      "day": 111
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 12.87,
+      "pnl_sol": 0.0129,
+      "breakout_strength": 1.144,
+      "volume_score": 0.7,
+      "day": 112
+    }
+  ]
+}

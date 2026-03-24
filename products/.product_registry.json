@@ -1,0 +1,10 @@
+{
+  "gold_coast_tracker": {
+    "name": "gold_coast_tracker",
+    "type": "automation",
+    "description": "Track progress toward Gold Coast property goal",
+    "created": "2026-03-17T01:59:18.528025",
+    "status": "initialized",
+    "version": "0.1.0"
+  }
+}

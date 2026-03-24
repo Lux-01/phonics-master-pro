@@ -1,0 +1,675 @@
+{
+  "strategy": "Whale Tracker",
+  "emoji": "\ud83d\udc33",
+  "start": 1.0,
+  "end": 13.955575122998255,
+  "pnl": 12.955575122998255,
+  "multiplier": 13.955575122998255,
+  "trades": 66,
+  "wins": 53,
+  "losses": 8,
+  "rugs": 5,
+  "win_rate": 80.3030303030303,
+  "trades_detail": [
+    {
+      "month": 1,
+      "symbol": "CHADDEX",
+      "whale_score": 10,
+      "position_size": 0.35,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.07,
+      "outcome": "win",
+      "capital_after": 1.07
+    },
+    {
+      "month": 1,
+      "symbol": "SHIBAI",
+      "whale_score": 10,
+      "position_size": 0.3745,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.0749,
+      "outcome": "win",
+      "capital_after": 1.1449
+    },
+    {
+      "month": 1,
+      "symbol": "BARKINU",
+      "whale_score": 7,
+      "position_size": 0.4007,
+      "pnl_pct": -12.32,
+      "pnl_sol": -0.04937,
+      "outcome": "rug",
+      "capital_after": 1.0955
+    },
+    {
+      "month": 1,
+      "symbol": "ALPHADAO",
+      "whale_score": 10,
+      "position_size": 0.3834,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.05752,
+      "outcome": "win",
+      "capital_after": 1.153
+    },
+    {
+      "month": 1,
+      "symbol": "ELONDEX",
+      "whale_score": 10,
+      "position_size": 0.4036,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.08071,
+      "outcome": "win",
+      "capital_after": 1.2338
+    },
+    {
+      "month": 1,
+      "symbol": "CHADDAO",
+      "whale_score": 7,
+      "position_size": 0.4318,
+      "pnl_pct": 5.03,
+      "pnl_sol": 0.02172,
+      "outcome": "win",
+      "capital_after": 1.2555
+    },
+    {
+      "month": 1,
+      "symbol": "ZETAAI",
+      "whale_score": 10,
+      "position_size": 0.4394,
+      "pnl_pct": -18.23,
+      "pnl_sol": -0.08011,
+      "outcome": "rug",
+      "capital_after": 1.1754
+    },
+    {
+      "month": 1,
+      "symbol": "GAMMA2",
+      "whale_score": 7,
+      "position_size": 0.4114,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.08228,
+      "outcome": "win",
+      "capital_after": 1.2577
+    },
+    {
+      "month": 1,
+      "symbol": "CAT",
+      "whale_score": 10,
+      "position_size": 0.4402,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.08804,
+      "outcome": "win",
+      "capital_after": 1.3457
+    },
+    {
+      "month": 1,
+      "symbol": "BONKDAO",
+      "whale_score": 7,
+      "position_size": 0.471,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.0942,
+      "outcome": "win",
+      "capital_after": 1.4399
+    },
+    {
+      "month": 2,
+      "symbol": "APECOIN",
+      "whale_score": 10,
+      "position_size": 0.504,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.10079,
+      "outcome": "win",
+      "capital_after": 1.5407
+    },
+    {
+      "month": 2,
+      "symbol": "DOGEDEX",
+      "whale_score": 10,
+      "position_size": 0.5392,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.10785,
+      "outcome": "win",
+      "capital_after": 1.6485
+    },
+    {
+      "month": 2,
+      "symbol": "VOID",
+      "whale_score": 10,
+      "position_size": 0.577,
+      "pnl_pct": 7.32,
+      "pnl_sol": 0.04224,
+      "outcome": "win",
+      "capital_after": 1.6908
+    },
+    {
+      "month": 2,
+      "symbol": "BASEDINU",
+      "whale_score": 10,
+      "position_size": 0.5918,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.11835,
+      "outcome": "win",
+      "capital_after": 1.8091
+    },
+    {
+      "month": 2,
+      "symbol": "CATINU",
+      "whale_score": 7,
+      "position_size": 0.6332,
+      "pnl_pct": 5.31,
+      "pnl_sol": 0.03362,
+      "outcome": "win",
+      "capital_after": 1.8427
+    },
+    {
+      "month": 2,
+      "symbol": "MOON2",
+      "whale_score": 10,
+      "position_size": 0.645,
+      "pnl_pct": -23.44,
+      "pnl_sol": -0.15118,
+      "outcome": "rug",
+      "capital_after": 1.6916
+    },
+    {
+      "month": 2,
+      "symbol": "VOIDDAO",
+      "whale_score": 10,
+      "position_size": 0.592,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.11841,
+      "outcome": "win",
+      "capital_after": 1.81
+    },
+    {
+      "month": 2,
+      "symbol": "VOIDINU",
+      "whale_score": 7,
+      "position_size": 0.6335,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.04434,
+      "outcome": "loss",
+      "capital_after": 1.7656
+    },
+    {
+      "month": 2,
+      "symbol": "STARCOIN",
+      "whale_score": 7,
+      "position_size": 0.618,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.04326,
+      "outcome": "loss",
+      "capital_after": 1.7224
+    },
+    {
+      "month": 2,
+      "symbol": "WOJAKTOKEN",
+      "whale_score": 7,
+      "position_size": 0.6028,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.12057,
+      "outcome": "win",
+      "capital_after": 1.8429
+    },
+    {
+      "month": 2,
+      "symbol": "DELTAX",
+      "whale_score": 10,
+      "position_size": 0.645,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.09675,
+      "outcome": "win",
+      "capital_after": 1.9397
+    },
+    {
+      "month": 3,
+      "symbol": "DOGEDAO",
+      "whale_score": 10,
+      "position_size": 0.6789,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.10183,
+      "outcome": "win",
+      "capital_after": 2.0415
+    },
+    {
+      "month": 3,
+      "symbol": "BARKCOIN",
+      "whale_score": 10,
+      "position_size": 0.7145,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.14291,
+      "outcome": "win",
+      "capital_after": 2.1844
+    },
+    {
+      "month": 3,
+      "symbol": "MOONCOIN",
+      "whale_score": 7,
+      "position_size": 0.7645,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.15291,
+      "outcome": "win",
+      "capital_after": 2.3373
+    },
+    {
+      "month": 3,
+      "symbol": "BARKDEX",
+      "whale_score": 10,
+      "position_size": 0.8181,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.16361,
+      "outcome": "win",
+      "capital_after": 2.5009
+    },
+    {
+      "month": 3,
+      "symbol": "SHIBDEX",
+      "whale_score": 10,
+      "position_size": 0.8753,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.1313,
+      "outcome": "win",
+      "capital_after": 2.6322
+    },
+    {
+      "month": 3,
+      "symbol": "BASEDINU",
+      "whale_score": 10,
+      "position_size": 0.9213,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.18426,
+      "outcome": "win",
+      "capital_after": 2.8165
+    },
+    {
+      "month": 3,
+      "symbol": "APEAI",
+      "whale_score": 10,
+      "position_size": 0.9858,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.19716,
+      "outcome": "win",
+      "capital_after": 3.0137
+    },
+    {
+      "month": 3,
+      "symbol": "PEPEINU",
+      "whale_score": 10,
+      "position_size": 1.0548,
+      "pnl_pct": 5.66,
+      "pnl_sol": 0.0597,
+      "outcome": "win",
+      "capital_after": 3.0734
+    },
+    {
+      "month": 3,
+      "symbol": "WOJAKPAD",
+      "whale_score": 10,
+      "position_size": 1.0757,
+      "pnl_pct": -13.79,
+      "pnl_sol": -0.14834,
+      "outcome": "rug",
+      "capital_after": 2.925
+    },
+    {
+      "month": 3,
+      "symbol": "MEMEINU",
+      "whale_score": 10,
+      "position_size": 1.0238,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.20475,
+      "outcome": "win",
+      "capital_after": 3.1298
+    },
+    {
+      "month": 3,
+      "symbol": "LUNATOKEN",
+      "whale_score": 10,
+      "position_size": 1.0954,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.21908,
+      "outcome": "win",
+      "capital_after": 3.3489
+    },
+    {
+      "month": 4,
+      "symbol": "PEPE",
+      "whale_score": 10,
+      "position_size": 1.1721,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.17582,
+      "outcome": "win",
+      "capital_after": 3.5247
+    },
+    {
+      "month": 4,
+      "symbol": "MEOWPAD",
+      "whale_score": 10,
+      "position_size": 1.2336,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.08635,
+      "outcome": "loss",
+      "capital_after": 3.4383
+    },
+    {
+      "month": 4,
+      "symbol": "SHIB",
+      "whale_score": 8,
+      "position_size": 1.2034,
+      "pnl_pct": -15.3,
+      "pnl_sol": -0.18412,
+      "outcome": "rug",
+      "capital_after": 3.2542
+    },
+    {
+      "month": 4,
+      "symbol": "DOGEDEX",
+      "whale_score": 10,
+      "position_size": 1.139,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.22779,
+      "outcome": "win",
+      "capital_after": 3.482
+    },
+    {
+      "month": 4,
+      "symbol": "STAR2",
+      "whale_score": 10,
+      "position_size": 1.2187,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.24374,
+      "outcome": "win",
+      "capital_after": 3.7257
+    },
+    {
+      "month": 4,
+      "symbol": "APE",
+      "whale_score": 10,
+      "position_size": 1.304,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.2608,
+      "outcome": "win",
+      "capital_after": 3.9865
+    },
+    {
+      "month": 4,
+      "symbol": "MEMEAI",
+      "whale_score": 10,
+      "position_size": 1.3953,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.27906,
+      "outcome": "win",
+      "capital_after": 4.2656
+    },
+    {
+      "month": 4,
+      "symbol": "MOONCOIN",
+      "whale_score": 7,
+      "position_size": 1.493,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.29859,
+      "outcome": "win",
+      "capital_after": 4.5642
+    },
+    {
+      "month": 4,
+      "symbol": "FLOKICOIN",
+      "whale_score": 7,
+      "position_size": 1.5975,
+      "pnl_pct": 5.73,
+      "pnl_sol": 0.09153,
+      "outcome": "win",
+      "capital_after": 4.6557
+    },
+    {
+      "month": 4,
+      "symbol": "DOGEDAO",
+      "whale_score": 10,
+      "position_size": 1.6295,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.3259,
+      "outcome": "win",
+      "capital_after": 4.9816
+    },
+    {
+      "month": 4,
+      "symbol": "SOL",
+      "whale_score": 10,
+      "position_size": 1.7436,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.34871,
+      "outcome": "win",
+      "capital_after": 5.3303
+    },
+    {
+      "month": 5,
+      "symbol": "MEMEDAO",
+      "whale_score": 7,
+      "position_size": 1.8656,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.37312,
+      "outcome": "win",
+      "capital_after": 5.7035
+    },
+    {
+      "month": 5,
+      "symbol": "BETAAI",
+      "whale_score": 10,
+      "position_size": 1.9962,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.39924,
+      "outcome": "win",
+      "capital_after": 6.1027
+    },
+    {
+      "month": 5,
+      "symbol": "BETA",
+      "whale_score": 10,
+      "position_size": 2.1359,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.32039,
+      "outcome": "win",
+      "capital_after": 6.4231
+    },
+    {
+      "month": 5,
+      "symbol": "BARK",
+      "whale_score": 10,
+      "position_size": 2.2481,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.15737,
+      "outcome": "loss",
+      "capital_after": 6.2657
+    },
+    {
+      "month": 5,
+      "symbol": "MEOWCOIN",
+      "whale_score": 7,
+      "position_size": 2.193,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.32895,
+      "outcome": "win",
+      "capital_after": 6.5947
+    },
+    {
+      "month": 5,
+      "symbol": "BETADAO",
+      "whale_score": 10,
+      "position_size": 2.3081,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.46163,
+      "outcome": "win",
+      "capital_after": 7.0563
+    },
+    {
+      "month": 5,
+      "symbol": "MEOWCOIN",
+      "whale_score": 10,
+      "position_size": 2.4697,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.17288,
+      "outcome": "loss",
+      "capital_after": 6.8834
+    },
+    {
+      "month": 5,
+      "symbol": "WOOFCOIN",
+      "whale_score": 10,
+      "position_size": 2.4092,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.48184,
+      "outcome": "win",
+      "capital_after": 7.3653
+    },
+    {
+      "month": 5,
+      "symbol": "SOLCOIN",
+      "whale_score": 7,
+      "position_size": 2.5778,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.18045,
+      "outcome": "loss",
+      "capital_after": 7.1848
+    },
+    {
+      "month": 5,
+      "symbol": "FLOKIAI",
+      "whale_score": 10,
+      "position_size": 2.5147,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.17603,
+      "outcome": "loss",
+      "capital_after": 7.0088
+    },
+    {
+      "month": 5,
+      "symbol": "MEMEDAO",
+      "whale_score": 10,
+      "position_size": 2.4531,
+      "pnl_pct": 7.91,
+      "pnl_sol": 0.19404,
+      "outcome": "win",
+      "capital_after": 7.2028
+    },
+    {
+      "month": 5,
+      "symbol": "SOLX",
+      "whale_score": 10,
+      "position_size": 2.521,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.5042,
+      "outcome": "win",
+      "capital_after": 7.707
+    },
+    {
+      "month": 6,
+      "symbol": "NEONTOKEN",
+      "whale_score": 10,
+      "position_size": 2.6975,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.53949,
+      "outcome": "win",
+      "capital_after": 8.2465
+    },
+    {
+      "month": 6,
+      "symbol": "RAYTOKEN",
+      "whale_score": 10,
+      "position_size": 2.8863,
+      "pnl_pct": 7.56,
+      "pnl_sol": 0.2182,
+      "outcome": "win",
+      "capital_after": 8.4647
+    },
+    {
+      "month": 6,
+      "symbol": "NEONDAO",
+      "whale_score": 10,
+      "position_size": 2.9626,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.59253,
+      "outcome": "win",
+      "capital_after": 9.0572
+    },
+    {
+      "month": 6,
+      "symbol": "DOGEPAD",
+      "whale_score": 10,
+      "position_size": 3.17,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.63401,
+      "outcome": "win",
+      "capital_after": 9.6912
+    },
+    {
+      "month": 6,
+      "symbol": "MEOWAI",
+      "whale_score": 10,
+      "position_size": 3.3919,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.67839,
+      "outcome": "win",
+      "capital_after": 10.3696
+    },
+    {
+      "month": 6,
+      "symbol": "NEONX",
+      "whale_score": 10,
+      "position_size": 3.6294,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.72587,
+      "outcome": "win",
+      "capital_after": 11.0955
+    },
+    {
+      "month": 6,
+      "symbol": "WOOFAI",
+      "whale_score": 10,
+      "position_size": 3.8834,
+      "pnl_pct": -7.0,
+      "pnl_sol": -0.27184,
+      "outcome": "loss",
+      "capital_after": 10.8237
+    },
+    {
+      "month": 6,
+      "symbol": "BARKPAD",
+      "whale_score": 10,
+      "position_size": 3.7883,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.75766,
+      "outcome": "win",
+      "capital_after": 11.5813
+    },
+    {
+      "month": 6,
+      "symbol": "PEPE2",
+      "whale_score": 10,
+      "position_size": 4.0535,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.81069,
+      "outcome": "win",
+      "capital_after": 12.392
+    },
+    {
+      "month": 6,
+      "symbol": "PEPECOIN",
+      "whale_score": 10,
+      "position_size": 4.3372,
+      "pnl_pct": 15.0,
+      "pnl_sol": 0.65058,
+      "outcome": "win",
+      "capital_after": 13.0426
+    },
+    {
+      "month": 6,
+      "symbol": "MEMEX",
+      "whale_score": 7,
+      "position_size": 4.5649,
+      "pnl_pct": 20.0,
+      "pnl_sol": 0.91298,
+      "outcome": "win",
+      "capital_after": 13.9556
+    }
+  ]
+}

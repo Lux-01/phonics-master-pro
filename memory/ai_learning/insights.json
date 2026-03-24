@@ -1,0 +1,38 @@
+{
+  "total_insights": 3,
+  "insights": [
+    {
+      "type": "decision_success_rate",
+      "value": 1.0,
+      "message": "Recent decision success rate: 100.0%",
+      "generated_at": "2026-03-18T04:35:24.277085"
+    },
+    {
+      "type": "top_memory_tags",
+      "value": [
+        [
+          "trading",
+          [
+            "/home/skux/.openclaw/workspace/test_memory.json"
+          ]
+        ],
+        [
+          "strategy",
+          [
+            "/home/skux/.openclaw/workspace/test_memory.json"
+          ]
+        ]
+      ],
+      "message": "Top memory categories: trading, strategy",
+      "generated_at": "2026-03-18T04:35:24.277122"
+    },
+    {
+      "type": "success_pattern_count",
+      "value": 1,
+      "message": "Learned 1 success patterns",
+      "generated_at": "2026-03-18T04:35:24.277129"
+    }
+  ],
+  "recommendations": [],
+  "last_generated": "2026-03-18T04:35:24.277135"
+}

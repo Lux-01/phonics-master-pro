@@ -1,0 +1,61 @@
+{
+  "id": "TASK-5dbc25d3",
+  "description": "Research Solana DEXs",
+  "status": "completed",
+  "agents": [
+    {
+      "id": "AGENT-f6c3517b",
+      "type": "research",
+      "task": "Research Jupiter DEX features",
+      "status": "completed",
+      "result": {
+        "agent_type": "research",
+        "task": "Research Jupiter DEX features",
+        "output": "Completed Research Jupiter DEX features",
+        "confidence": 0.85,
+        "data": {}
+      },
+      "error": null,
+      "started_at": "2026-03-20T04:32:26.824055",
+      "completed_at": "2026-03-20T04:32:26.824065",
+      "confidence": 0.85
+    },
+    {
+      "id": "AGENT-4c43c000",
+      "type": "research",
+      "task": "Research Orca DEX features",
+      "status": "completed",
+      "result": {
+        "agent_type": "research",
+        "task": "Research Orca DEX features",
+        "output": "Completed Research Orca DEX features",
+        "confidence": 0.85,
+        "data": {}
+      },
+      "error": null,
+      "started_at": "2026-03-20T04:32:26.834123",
+      "completed_at": "2026-03-20T04:32:26.834136",
+      "confidence": 0.85
+    },
+    {
+      "id": "AGENT-9349dc42",
+      "type": "research",
+      "task": "Research Raydium DEX features",
+      "status": "completed",
+      "result": {
+        "agent_type": "research",
+        "task": "Research Raydium DEX features",
+        "output": "Completed Research Raydium DEX features",
+        "confidence": 0.85,
+        "data": {}
+      },
+      "error": null,
+      "started_at": "2026-03-20T04:32:26.836016",
+      "completed_at": "2026-03-20T04:32:26.836025",
+      "confidence": 0.85
+    }
+  ],
+  "created_at": "2026-03-20T04:32:26.823988",
+  "completed_at": "2026-03-20T04:32:26.836470",
+  "merge_strategy": "integration"
+}

@@ -1,0 +1,1735 @@
+{
+  "strategy": "LuxTrader Evolved v3.1",
+  "features": [
+    "Dynamic position sizing",
+    "Market cycle adaptation",
+    "Pattern learning",
+    "Rug detection",
+    "Self-evolution"
+  ],
+  "final_dna": {
+    "generation": 21,
+    "position_base": 0.006,
+    "bull_mult": 1.2,
+    "bear_mult": 0.8,
+    "rug_threshold": 60
+  },
+  "performance": {
+    "total": 817,
+    "wins": 550,
+    "losses": 193,
+    "rugs": 74,
+    "consecutive_wins": 3,
+    "consecutive_losses": 0,
+    "best_streak": 12,
+    "worst_streak": 5
+  },
+  "patterns_learned": 15,
+  "evolutions": 20,
+  "start_capital": 1.0,
+  "end_capital": 1.7391695906532458,
+  "roi_pct": 73.91695906532459,
+  "multiplier": 1.7391695906532458,
+  "trades": [
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 0.9999999999999999,
+      "exit_capital": 1.0014167872,
+      "pnl_pct": 16.398,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 8,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 170,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.541915"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0014167872,
+      "exit_capital": 1.0028993487024451,
+      "pnl_pct": 14.9,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 72,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.541975"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0028993487024451,
+      "exit_capital": 1.00483009522651,
+      "pnl_pct": 17.14,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 11,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 36,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542010"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.00483009522651,
+      "exit_capital": 1.0059592847020498,
+      "pnl_pct": 8.97,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 9,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 87,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542043"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0059592847020498,
+      "exit_capital": 1.0072637032540812,
+      "pnl_pct": 9.38,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 163,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542075"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0072637032540812,
+      "exit_capital": 1.0082323202635688,
+      "pnl_pct": 6.36,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 40,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542117"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0082323202635688,
+      "exit_capital": 1.0095738338596187,
+      "pnl_pct": 8.8,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 154,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542157"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0095738338596187,
+      "exit_capital": 1.0076932158750864,
+      "pnl_pct": -12.32,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 18,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 20,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542189"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0076932158750864,
+      "exit_capital": 1.0085064001156605,
+      "pnl_pct": 9.34,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 15,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 98,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542217"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0085064001156605,
+      "exit_capital": 1.007435206571324,
+      "pnl_pct": -10.69,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 2,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 146,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542247"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.007435206571324,
+      "exit_capital": 1.0093255064122517,
+      "pnl_pct": 21.717,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 8,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 119,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542275"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0093255064122517,
+      "exit_capital": 1.0086987152727698,
+      "pnl_pct": -6.25,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 1,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 179,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542304"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0086987152727698,
+      "exit_capital": 1.008245527113972,
+      "pnl_pct": -5.2,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 104,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542331"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.008245527113972,
+      "exit_capital": 1.0069388409108324,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 27,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542358"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0069388409108324,
+      "exit_capital": 1.0085018307129199,
+      "pnl_pct": 18.585,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 139,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542385"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0085018307129199,
+      "exit_capital": 1.010403816918917,
+      "pnl_pct": 18.981,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 8,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 175,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542411"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.010403816918917,
+      "exit_capital": 1.0113514463674982,
+      "pnl_pct": 8.35,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 5,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 97,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542459"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0113514463674982,
+      "exit_capital": 1.0126757537064808,
+      "pnl_pct": 11.08,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 20,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 13,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542499"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0126757537064808,
+      "exit_capital": 1.0116650093279718,
+      "pnl_pct": -7.22,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 2,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 117,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542527"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0116650093279718,
+      "exit_capital": 1.0113922968147373,
+      "pnl_pct": -3.12,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 135,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542554"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0113922968147373,
+      "exit_capital": 1.0102379502851215,
+      "pnl_pct": -13.21,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 37,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542580"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0102379502851215,
+      "exit_capital": 1.0117988600520131,
+      "pnl_pct": 17.883000000000003,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 120,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542616"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0117988600520131,
+      "exit_capital": 1.013912451857477,
+      "pnl_pct": 21.024,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 16,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 102,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542656"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.013912451857477,
+      "exit_capital": 1.013525250859062,
+      "pnl_pct": -3.4,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 23,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 172,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542691"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.013525250859062,
+      "exit_capital": 1.0139657208248833,
+      "pnl_pct": 5.03,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 127,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542721"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0139657208248833,
+      "exit_capital": 1.015868037650471,
+      "pnl_pct": 18.882,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 14,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 49,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542748"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.015868037650471,
+      "exit_capital": 1.0141565031806374,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 121,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542776"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0141565031806374,
+      "exit_capital": 1.015476107396072,
+      "pnl_pct": 15.06,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 55,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542822"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.015476107396072,
+      "exit_capital": 1.0167675980332673,
+      "pnl_pct": 12.8,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 143,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542848"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0167675980332673,
+      "exit_capital": 1.0150545479841009,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 3,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 176,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542874"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0150545479841009,
+      "exit_capital": 1.0163893528351364,
+      "pnl_pct": 15.22,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 8,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 79,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542911"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0163893528351364,
+      "exit_capital": 1.0181780601924189,
+      "pnl_pct": 17.712,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 19,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 167,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542937"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0181780601924189,
+      "exit_capital": 1.0172871820841938,
+      "pnl_pct": -7.79,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 147,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542964"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0172871820841938,
+      "exit_capital": 1.0182918060754353,
+      "pnl_pct": 11.43,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 133,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.542990"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0182918060754353,
+      "exit_capital": 1.017235513248424,
+      "pnl_pct": -10.44,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 129,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543047"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.017235513248424,
+      "exit_capital": 1.0184448679296467,
+      "pnl_pct": 13.76,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 9,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 121,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543075"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0184448679296467,
+      "exit_capital": 1.0169269776984844,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 4,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 161,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543102"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0169269776984844,
+      "exit_capital": 1.0164586706221306,
+      "pnl_pct": -5.33,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 7,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 78,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543129"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0164586706221306,
+      "exit_capital": 1.0169545723466844,
+      "pnl_pct": 6.16,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 19,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 92,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543155"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0169545723466844,
+      "exit_capital": 1.0182257134940436,
+      "pnl_pct": 12.58,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 72,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543192"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0182257134940436,
+      "exit_capital": 1.0198725999088545,
+      "pnl_pct": 14.4,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 18,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 32,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543218"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0198725999088545,
+      "exit_capital": 1.0206974523070291,
+      "pnl_pct": 7.6,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 21,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 81,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543271"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0206974523070291,
+      "exit_capital": 1.019041864708228,
+      "pnl_pct": -12.8,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 125,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543298"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.019041864708228,
+      "exit_capital": 1.0186371135080683,
+      "pnl_pct": -5.1,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 72,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543324"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0186371135080683,
+      "exit_capital": 1.0183021868475113,
+      "pnl_pct": -4.37,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 128,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543389"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0183021868475113,
+      "exit_capital": 1.0170924438495363,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 1,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 155,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543418"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0170924438495363,
+      "exit_capital": 1.0186207090548376,
+      "pnl_pct": 18.971999999999998,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 166,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543445"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0186207090548376,
+      "exit_capital": 1.0181353670085735,
+      "pnl_pct": -5.32,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 107,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543471"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0181353670085735,
+      "exit_capital": 1.0173226200891516,
+      "pnl_pct": -10.25,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 96,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543497"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0173226200891516,
+      "exit_capital": 1.0185554246619053,
+      "pnl_pct": 15.56,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 17,
+      "generation": 1,
+      "timestamp": "2026-03-14 01:08:21.543523"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0185554246619053,
+      "exit_capital": 1.0192845970826,
+      "pnl_pct": 7.86,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 136,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543745"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0192845970826,
+      "exit_capital": 1.0214598033340307,
+      "pnl_pct": 20.727,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 11,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 93,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543785"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0214598033340307,
+      "exit_capital": 1.0199430568755044,
+      "pnl_pct": -12.93,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 56,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543812"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0199430568755044,
+      "exit_capital": 1.021495961793274,
+      "pnl_pct": 19.224,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 3,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 134,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543839"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.021495961793274,
+      "exit_capital": 1.02290269411854,
+      "pnl_pct": 15.120000000000001,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 64,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543865"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.02290269411854,
+      "exit_capital": 1.0246151657966835,
+      "pnl_pct": 16.26,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 100,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543902"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0246151657966835,
+      "exit_capital": 1.0267268142907007,
+      "pnl_pct": 17.946,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 1,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 76,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543939"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0267268142907007,
+      "exit_capital": 1.028034387850865,
+      "pnl_pct": 10.05,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 97,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543966"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.028034387850865,
+      "exit_capital": 1.029077382195128,
+      "pnl_pct": 7.32,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 81,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.543992"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.029077382195128,
+      "exit_capital": 1.0322750069713647,
+      "pnl_pct": 22.419,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 11,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 162,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544019"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0322750069713647,
+      "exit_capital": 1.035061502873123,
+      "pnl_pct": 19.476000000000003,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 80,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544045"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.035061502873123,
+      "exit_capital": 1.034499141537874,
+      "pnl_pct": -3.92,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 152,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544071"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.034499141537874,
+      "exit_capital": 1.0351025868185149,
+      "pnl_pct": 7.49,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 12,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544097"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0351025868185149,
+      "exit_capital": 1.0365246632526894,
+      "pnl_pct": 15.084000000000001,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 142,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544123"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0365246632526894,
+      "exit_capital": 1.0370819047576532,
+      "pnl_pct": 5.31,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 22,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 58,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544149"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0370819047576532,
+      "exit_capital": 1.0388433713647407,
+      "pnl_pct": 14.79,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 31,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544175"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0388433713647407,
+      "exit_capital": 1.0378315209006217,
+      "pnl_pct": -7.87,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 71,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544201"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0378315209006217,
+      "exit_capital": 1.0389711719963748,
+      "pnl_pct": 14.1,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 114,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544227"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0389711719963748,
+      "exit_capital": 1.0396184377376976,
+      "pnl_pct": 6.84,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 135,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544252"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0396184377376976,
+      "exit_capital": 1.0380128510224556,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 3,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 152,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544278"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0380128510224556,
+      "exit_capital": 1.0367796917554408,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 9,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 71,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544304"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0367796917554408,
+      "exit_capital": 1.0383966599980927,
+      "pnl_pct": 19.692,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 131,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544330"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0383966599980927,
+      "exit_capital": 1.0399577507296778,
+      "pnl_pct": 16.506,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 3,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 175,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544374"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0399577507296778,
+      "exit_capital": 1.039584062295125,
+      "pnl_pct": -3.49,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 135,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544406"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.039584062295125,
+      "exit_capital": 1.041115716673629,
+      "pnl_pct": 18.918,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 22,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 124,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544432"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.041115716673629,
+      "exit_capital": 1.0405780599472076,
+      "pnl_pct": -5.67,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 7,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 14,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544458"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0405780599472076,
+      "exit_capital": 1.041807034873024,
+      "pnl_pct": 15.165000000000001,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 16,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 33,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544542"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.041807034873024,
+      "exit_capital": 1.0437619889243877,
+      "pnl_pct": 20.952,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 16,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 85,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544598"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0437619889243877,
+      "exit_capital": 1.0445481007713748,
+      "pnl_pct": 7.7,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 13,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 66,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544643"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0445481007713748,
+      "exit_capital": 1.04640741728171,
+      "pnl_pct": 15.5,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 13,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 113,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544670"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.04640741728171,
+      "exit_capital": 1.047738728790806,
+      "pnl_pct": 10.04,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 4,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 72,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544850"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.047738728790806,
+      "exit_capital": 1.0490616519057587,
+      "pnl_pct": 9.11,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 2,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 88,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544881"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0490616519057587,
+      "exit_capital": 1.0509886906895491,
+      "pnl_pct": 13.57,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 14,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 179,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544909"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0509886906895491,
+      "exit_capital": 1.0537601516504567,
+      "pnl_pct": 19.026,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 158,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.544977"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0537601516504567,
+      "exit_capital": 1.0564902859286083,
+      "pnl_pct": 18.693,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 104,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545016"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0564902859286083,
+      "exit_capital": 1.0577481157942874,
+      "pnl_pct": 8.59,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 2,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 131,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545043"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0577481157942874,
+      "exit_capital": 1.060619206353508,
+      "pnl_pct": 19.584000000000003,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 5,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 151,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545092"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.060619206353508,
+      "exit_capital": 1.0635959932490202,
+      "pnl_pct": 20.25,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 3,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 145,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545123"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0635959932490202,
+      "exit_capital": 1.0613847771790554,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 11,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 98,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545170"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0613847771790554,
+      "exit_capital": 1.0632761648519886,
+      "pnl_pct": 22.5,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 14,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 118,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545200"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0632761648519886,
+      "exit_capital": 1.0639066140390352,
+      "pnl_pct": 6.51,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 5,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 150,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545280"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0639066140390352,
+      "exit_capital": 1.0646953007789017,
+      "pnl_pct": 7.2,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 94,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545320"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0646953007789017,
+      "exit_capital": 1.0658042861265586,
+      "pnl_pct": 9.07,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 100,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545348"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0658042861265586,
+      "exit_capital": 1.067179183887383,
+      "pnl_pct": 10.18,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 126,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545377"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.067179183887383,
+      "exit_capital": 1.0689733447405598,
+      "pnl_pct": 12.13,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 12,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 79,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545404"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0689733447405598,
+      "exit_capital": 1.0710327646481363,
+      "pnl_pct": 13.9,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 11,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 88,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545442"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0710327646481363,
+      "exit_capital": 1.0688060875304328,
+      "pnl_pct": -15,
+      "outcome": "rug",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 4,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 74,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545469"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0688060875304328,
+      "exit_capital": 1.0684223575010063,
+      "pnl_pct": -4.61,
+      "outcome": "loss",
+      "pattern": {
+        "grade": "A",
+        "age_hours": 6,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 69,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545497"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0684223575010063,
+      "exit_capital": 1.0689808432357193,
+      "pnl_pct": 6.6,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 40,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545524"
+    },
+    {
+      "symbol": "UNKNOWN",
+      "entry_capital": 1.0689808432357193,
+      "exit_capital": 1.070895482210065,
+      "pnl_pct": 19.665000000000003,
+      "outcome": "win",
+      "pattern": {
+        "grade": "A+",
+        "age_hours": 10,
+        "deviation": -0.08,
+        "has_narrative": false,
+        "market_cycle": "bull"
+      },
+      "duration_min": 59,
+      "generation": 2,
+      "timestamp": "2026-03-14 01:08:21.545551"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+======================================================================
+🚀 SKYLAR CUSTOM TRADER v3.0
+🎯 Improved: Higher quality, better timing, tighter stops
+======================================================================
+Entry: MCap $20000+ | Vol $50000+ | Liq $30000+
+Timing: <3h | Score 90+ | 1 positions max
+Risk: TP +15% / SL -5% / Trailing +5%
+======================================================================
+
+
+======================================================================
+🚀 CYCLE #1 - HIGH QUALITY SETUPS
+======================================================================
+Filters: MCap $20000+ | Vol $50000+ | Liq $30000+
+Timing: <3h old | Score ≥90 | 1 max positions
+======================================================================
+📡 Fetching high-quality tokens...
+API error, using fallback
+
+📊 Top setups found: 7
+   1. HQ1      A+ Score:105 $59k Vol:$151k 0.02SOL
+   2. HQ5      A+ Score:105 $34k Vol:$135k 0.02SOL
+   3. HQ6      A+ Score:105 $30k Vol:$71k 0.02SOL
+   4. HQ0      A+ Score:100 $36k Vol:$131k 0.02SOL
+   5. HQ2      A Score:95 $32k Vol:$97k 0.02SOL
+
+
+🎯 BUY #1/1: HQ1
+   Grade: A+ | Score: 105
+   MCap: $58,866 | Vol: $151,135
+   Liq: $73,777 | Age: 2.0h
+   Position: 0.02 SOL (Score ≥95)
+   ❌ Buy failed: Request failed with status code 400
+
+✅ Bought 0/1
+
+📡 Check #1 - 2:44:08 AM
+
+📊 Monitoring 0 positions (TS: 10%)
+------------------------------------------------------------
+
+🎉 All positions closed!
+
+📊 CYCLE SUMMARY:
+   Invested: 0.0000 SOL
+   Returned: 0.0000 SOL
+   P&L: 0.000000 SOL (NaN%)
+
+⏳ Starting next cycle in 10s...
+
+
+======================================================================
+🚀 CYCLE #2 - HIGH QUALITY SETUPS
+======================================================================
+Filters: MCap $20000+ | Vol $50000+ | Liq $30000+
+Timing: <3h old | Score ≥90 | 1 max positions
+======================================================================
+📡 Fetching high-quality tokens...
+API error, using fallback
+
+📊 Top setups found: 8
+   1. HQ4      A+ Score:105 $34k Vol:$102k 0.02SOL
+   2. HQ2      A+ Score:100 $34k Vol:$64k 0.02SOL
+   3. HQ0      A Score:95 $34k Vol:$144k 0.02SOL
+   4. HQ5      A Score:95 $47k Vol:$63k 0.02SOL
+   5. HQ6      A Score:95 $35k Vol:$83k 0.02SOL
+
+
+🎯 BUY #1/1: HQ4
+   Grade: A+ | Score: 105
+   MCap: $33,531 | Vol: $102,215
+   Liq: $72,162 | Age: 2.0h
+   Position: 0.02 SOL (Score ≥95)
+   ❌ Buy failed: Request failed with status code 400
+
+✅ Bought 0/1
+   Next check in 30s
+
+
+📡 Check #2 - 2:44:52 AM
+
+📊 Monitoring 0 positions (TS: 10%)
+------------------------------------------------------------
+
+🎉 All positions closed!
+
+📊 CYCLE SUMMARY:
+   Invested: 0.0000 SOL
+   Returned: 0.0000 SOL
+   P&L: 0.000000 SOL (NaN%)
+
+⏳ Starting next cycle in 10s...
+
+
+======================================================================
+🚀 CYCLE #3 - HIGH QUALITY SETUPS
+======================================================================
+Filters: MCap $20000+ | Vol $50000+ | Liq $30000+
+Timing: <3h old | Score ≥90 | 1 max positions
+======================================================================
+📡 Fetching high-quality tokens...
+API error, using fallback
+
+📊 Top setups found: 8
+   1. HQ1      A+ Score:105 $32k Vol:$110k 0.02SOL
+   2. HQ4      A+ Score:100 $47k Vol:$148k 0.02SOL
+   3. HQ6      A+ Score:100 $46k Vol:$126k 0.02SOL
+   4. HQ2      A Score:95 $62k Vol:$128k 0.02SOL
+   5. HQ7      A Score:95 $54k Vol:$133k 0.02SOL
+
+
+🎯 BUY #1/1: HQ1
+   Grade: A+ | Score: 105
+   MCap: $32,258 | Vol: $109,662
+   Liq: $65,349 | Age: 2.0h
+   Position: 0.02 SOL (Score ≥95)
+   ❌ Buy failed: Request failed with status code 400
+
+✅ Bought 0/1
+   Next check in 30s
+

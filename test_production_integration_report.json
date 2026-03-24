@@ -1,0 +1,239 @@
+{
+  "test_run_date": "2026-03-20T21:55:44.404004",
+  "total_tests": 26,
+  "passed": 18,
+  "failed": 8,
+  "pass_rate": 69.23076923076923,
+  "results": [
+    {
+      "name": "TRE Import",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 207.60679244995117,
+      "timestamp": "2026-03-20T21:55:44.272166",
+      "details": {}
+    },
+    {
+      "name": "TRE Initialization",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 3.9947032928466797,
+      "timestamp": "2026-03-20T21:55:44.276567",
+      "details": {}
+    },
+    {
+      "name": "TRE Data Ingestion",
+      "passed": false,
+      "message": "ERROR: 'TemporalReasoningEngine' object has no attribute 'add_data_point'",
+      "duration_ms": 1.1684894561767578,
+      "timestamp": "2026-03-20T21:55:44.280439",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 126, in test_tre_data_ingestion\n    tre.add_data_point(\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'TemporalReasoningEngine' object has no attribute 'add_data_point'\n"
+      }
+    },
+    {
+      "name": "TRE Trend Analysis",
+      "passed": false,
+      "message": "ERROR: 'TemporalReasoningEngine' object has no attribute 'add_data_point'",
+      "duration_ms": 0.9982585906982422,
+      "timestamp": "2026-03-20T21:55:44.283505",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 147, in test_tre_trend_analysis\n    tre.add_data_point(\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'TemporalReasoningEngine' object has no attribute 'add_data_point'\n"
+      }
+    },
+    {
+      "name": "TRE Anomaly Detection",
+      "passed": false,
+      "message": "ERROR: 'TemporalReasoningEngine' object has no attribute 'add_data_point'",
+      "duration_ms": 0.9729862213134766,
+      "timestamp": "2026-03-20T21:55:44.286556",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 168, in test_tre_anomaly_detection\n    tre.add_data_point(\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'TemporalReasoningEngine' object has no attribute 'add_data_point'\n"
+      }
+    },
+    {
+      "name": "TRE Forecast",
+      "passed": false,
+      "message": "ERROR: 'TemporalReasoningEngine' object has no attribute 'add_data_point'",
+      "duration_ms": 1.7960071563720703,
+      "timestamp": "2026-03-20T21:55:44.290660",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 187, in test_tre_forecast\n    tre.add_data_point(\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'TemporalReasoningEngine' object has no attribute 'add_data_point'\n"
+      }
+    },
+    {
+      "name": "Safety Import",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 18.036365509033203,
+      "timestamp": "2026-03-20T21:55:44.309257",
+      "details": {}
+    },
+    {
+      "name": "Safety Initialization",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.2732276916503906,
+      "timestamp": "2026-03-20T21:55:44.309901",
+      "details": {}
+    },
+    {
+      "name": "Safety Policy Registration",
+      "passed": false,
+      "message": "ERROR: 'SafetyVerificationEngine' object has no attribute 'register_policy'",
+      "duration_ms": 0.1494884490966797,
+      "timestamp": "2026-03-20T21:55:44.312355",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 227, in test_safety_policy_registration\n    safety.register_policy(policy)\n    ^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SafetyVerificationEngine' object has no attribute 'register_policy'\n"
+      }
+    },
+    {
+      "name": "Safety Action Verification",
+      "passed": false,
+      "message": "ERROR: SafetyVerificationEngine.verify_action() missing 2 required positional arguments: 'source' and 'parameters'",
+      "duration_ms": 0.16188621520996094,
+      "timestamp": "2026-03-20T21:55:44.312956",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 246, in test_safety_action_verification\n    result = safety.verify_action(request)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: SafetyVerificationEngine.verify_action() missing 2 required positional arguments: 'source' and 'parameters'\n"
+      }
+    },
+    {
+      "name": "Safety Circuit Breaker",
+      "passed": false,
+      "message": "ERROR: 'SafetyVerificationEngine' object has no attribute 'create_circuit_breaker'",
+      "duration_ms": 0.1399517059326172,
+      "timestamp": "2026-03-20T21:55:44.314913",
+      "details": {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 80, in run_test\n    test_func()\n  File \"/home/skux/.openclaw/workspace/test_production_integration.py\", line 256, in test_safety_circuit_breaker\n    safety.create_circuit_breaker(\"test\", threshold=3, timeout_minutes=5)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'SafetyVerificationEngine' object has no attribute 'create_circuit_breaker'. Did you mean: 'check_circuit_breaker'?\n"
+      }
+    },
+    {
+      "name": "Scanner Import",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 8.521795272827148,
+      "timestamp": "2026-03-20T21:55:44.323856",
+      "details": {}
+    },
+    {
+      "name": "Scanner Initialization",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 1.1394023895263672,
+      "timestamp": "2026-03-20T21:55:44.325388",
+      "details": {}
+    },
+    {
+      "name": "Scanner Plugin Manager",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.5152225494384766,
+      "timestamp": "2026-03-20T21:55:44.326100",
+      "details": {}
+    },
+    {
+      "name": "Scanner Scan Execution",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.7770061492919922,
+      "timestamp": "2026-03-20T21:55:44.327047",
+      "details": {}
+    },
+    {
+      "name": "Migration Script Exists",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.05888938903808594,
+      "timestamp": "2026-03-20T21:55:44.327533",
+      "details": {}
+    },
+    {
+      "name": "Unified Database Creation",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 67.88516044616699,
+      "timestamp": "2026-03-20T21:55:44.395603",
+      "details": {}
+    },
+    {
+      "name": "Tracked Tokens JSON Exists",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.09775161743164062,
+      "timestamp": "2026-03-20T21:55:44.396102",
+      "details": {}
+    },
+    {
+      "name": "Stage 9 Files Exist",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.1456737518310547,
+      "timestamp": "2026-03-20T21:55:44.396478",
+      "details": {}
+    },
+    {
+      "name": "Stage 9 Trader Import",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.059604644775390625,
+      "timestamp": "2026-03-20T21:55:44.397059",
+      "details": {}
+    },
+    {
+      "name": "Stage 9 Safety Config",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.29397010803222656,
+      "timestamp": "2026-03-20T21:55:44.397578",
+      "details": {}
+    },
+    {
+      "name": "TRE Integration in Stage 9",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.6694793701171875,
+      "timestamp": "2026-03-20T21:55:44.398557",
+      "details": {}
+    },
+    {
+      "name": "Safety Integration in Stage 9",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.5691051483154297,
+      "timestamp": "2026-03-20T21:55:44.399359",
+      "details": {}
+    },
+    {
+      "name": "End-to-End Component Loading",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 2.6731491088867188,
+      "timestamp": "2026-03-20T21:55:44.402569",
+      "details": {}
+    },
+    {
+      "name": "Deployment Script Exists",
+      "passed": true,
+      "message": "PASSED",
+      "duration_ms": 0.10728836059570312,
+      "timestamp": "2026-03-20T21:55:44.403357",
+      "details": {}
+    },
+    {
+      "name": "Run Protected Scanners Updated",
+      "passed": false,
+      "message": "ASSERTION: ",
+      "duration_ms": 0.27632713317871094,
+      "timestamp": "2026-03-20T21:55:44.403865",
+      "details": {}
+    }
+  ],
+  "summary": {
+    "tre_tests": 7,
+    "safety_tests": 7,
+    "scanner_tests": 5,
+    "migration_tests": 3,
+    "stage9_tests": 5,
+    "e2e_tests": 2
+  }
+}

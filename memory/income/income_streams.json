@@ -1,0 +1,112 @@
+{
+  "skylar-bot-trading": {
+    "name": "Skylar Bot Trading",
+    "category": "trading",
+    "skill": "skylar-trading-bot",
+    "is_recurring": true,
+    "monthly_average": 250.0,
+    "confidence": 0.65,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Automated meme coin trading bot with +285% backtest performance",
+    "notes": "LIVE trading since 2026-02-27"
+  },
+  "manual-crypto-trading": {
+    "name": "Manual Crypto Trading",
+    "category": "trading", 
+    "skill": "manual-trading",
+    "is_recurring": true,
+    "monthly_average": 180.0,
+    "confidence": 0.5,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Manual execution of trading strategies",
+    "notes": "Strategy v2.0 in effect"
+  },
+  "whale-copy-trading": {
+    "name": "Whale Copy Trading",
+    "category": "trading",
+    "skill": "wallet-whale-tracker",
+    "is_recurring": true,
+    "monthly_average": 75.0,
+    "confidence": 0.6,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Copy trades from smart whale wallet",
+    "notes": "Wallet JBhVoSaXknLocuRGMUAbuWqEsegHA8eG1wUUNM2MBYiv"
+  },
+  "aoe-trading-alerts": {
+    "name": "AOE Trading Alerts",
+    "category": "trading",
+    "skill": "autonomous-opportunity-engine",
+    "is_recurring": true,
+    "monthly_average": 120.0,
+    "confidence": 0.55,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "24/7 opportunity scanning and alerts",
+    "notes": "Grade A+ opportunities from v5.5 scanner"
+  },
+  "sol-staking": {
+    "name": "SOL Staking Rewards",
+    "category": "passive",
+    "skill": "none",
+    "is_recurring": true,
+    "monthly_average": 45.0,
+    "confidence": 0.9,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "SOL staking passive income",
+    "notes": "Stable 5-7% APY"
+  },
+  "defi-yield": {
+    "name": "DeFi Yield Farming",
+    "category": "passive",
+    "skill": "none",
+    "is_recurring": true,
+    "monthly_average": 35.0,
+    "confidence": 0.7,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Yield farming in Solana DeFi",
+    "notes": "Variable rewards, monitoring required"
+  },
+  "digital-avatar-products": {
+    "name": "Digital Avatar Packs",
+    "category": "product",
+    "skill": "autonomous-workflow-builder",
+    "is_recurring": true,
+    "monthly_average": 60.0,
+    "confidence": 0.5,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Etsy sales of avatar packs",
+    "notes": "Mixamo integration in progress"
+  },
+  "research-services": {
+    "name": "Research Services",
+    "category": "service",
+    "skill": "research-synthesizer",
+    "is_recurring": true,
+    "monthly_average": 150.0,
+    "confidence": 0.6,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Crypto/defi research consulting",
+    "notes": "Per-project and retainer clients"
+  },
+  "moltbook-engagement": {
+    "name": "Moltbook Engagement Rewards",
+    "category": "other",
+    "skill": "none",
+    "is_recurring": false,
+    "monthly_average": 25.0,
+    "confidence": 0.3,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Social platform rewards",
+    "notes": "Growing following"
+  },
+  "trading-signal-subscription": {
+    "name": "Trading Signal Subscription",
+    "category": "product",
+    "skill": "autonomous-opportunity-engine",
+    "is_recurring": true,
+    "monthly_average": 0.0,
+    "confidence": 0.0,
+    "last_updated": "2026-03-09T02:30:00",
+    "description": "Potential: Daily alpha digest subscription",
+    "notes": "NOT YET ACTIVE - Opportunity to develop"
+  }
+}

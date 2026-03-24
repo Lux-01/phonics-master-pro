@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-13T17:51:37.981844",
+  "type": "skill_analyzed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "business-strategy-engine",
+    "health_score": 75,
+    "findings_count": 4
+  }
+}

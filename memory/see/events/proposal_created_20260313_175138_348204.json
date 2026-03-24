@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-03-13T17:51:38.348186",
+  "type": "proposal_created",
+  "source": "SEE",
+  "payload": {
+    "id": "IMP-20260313-7c5044",
+    "target_skill": "skill-evolution-engine",
+    "priority": "high",
+    "type": "outdated",
+    "current_state": {
+      "issue": "Jupiter API v4 is deprecated, use v6",
+      "location": "SKILL.md content"
+    },
+    "proposed_change": {
+      "suggestion": "Update to newer v4 version"
+    },
+    "implementation": {
+      "complexity": "medium",
+      "risk": "low"
+    },
+    "business_impact": {
+      "time_saved": "unknown",
+      "confidence": 0.9
+    },
+    "status": "pending",
+    "created_at": "2026-03-13T17:51:38.344455"
+  }
+}

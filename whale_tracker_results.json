@@ -1,0 +1,1440 @@
+{
+  "strategy": "Whale Tracker",
+  "description": "Monitors large wallet buy patterns, enters when whale activity detected",
+  "initial_balance": 1.0,
+  "final_balance": 2.3616,
+  "total_return_pct": 136.16,
+  "total_trades": 164,
+  "wins": 117,
+  "losses": 47,
+  "win_rate_pct": 71.34,
+  "avg_trade_return_pct": 8.3,
+  "learning_history": [
+    {
+      "trade_count": 20,
+      "win_rate": 0.65,
+      "avg_return": 6.7295,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.1575,
+        "stop_loss": 0.076,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 40,
+      "win_rate": 0.75,
+      "avg_return": 8.509500000000001,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.16537500000000002,
+        "stop_loss": 0.0722,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 60,
+      "win_rate": 0.7,
+      "avg_return": 7.219,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.17364375000000004,
+        "stop_loss": 0.06859,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 80,
+      "win_rate": 0.7,
+      "avg_return": 6.255,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.18232593750000006,
+        "stop_loss": 0.0651605,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 100,
+      "win_rate": 0.85,
+      "avg_return": 13.0335,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.19144223437500008,
+        "stop_loss": 0.06190247499999999,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 120,
+      "win_rate": 0.6,
+      "avg_return": 6.3999999999999995,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.19144223437500008,
+        "stop_loss": 0.05880735124999999,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 140,
+      "win_rate": 0.7,
+      "avg_return": 9.332,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.2010143460937501,
+        "stop_loss": 0.05586698368749998,
+        "position_size": 0.1
+      }
+    },
+    {
+      "trade_count": 160,
+      "win_rate": 0.75,
+      "avg_return": 8.602500000000001,
+      "params": {
+        "volume_threshold": 1.5,
+        "mcap_entry_max": 50000,
+        "age_threshold": 24,
+        "profit_target": 0.2110650633984376,
+        "stop_loss": 0.05307363450312498,
+        "position_size": 0.1
+      }
+    }
+  ],
+  "final_params": {
+    "volume_threshold": 1.5,
+    "mcap_entry_max": 50000,
+    "age_threshold": 24,
+    "profit_target": 0.2110650633984376,
+    "stop_loss": 0.05307363450312498,
+    "position_size": 0.1
+  },
+  "trades": [
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 18.22,
+      "pnl_sol": 0.0182,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +18.2%",
+      "day": 1
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": 14.9,
+      "pnl_sol": 0.0149,
+      "entry_reason": "New coin (6.0h) + Strong momentum",
+      "exit_reason": "Target hit +14.9%",
+      "day": 1
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 17.14,
+      "pnl_sol": 0.0171,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +17.1%",
+      "day": 1
+    },
+    {
+      "symbol": "DEGENINU",
+      "pnl_pct": 8.97,
+      "pnl_sol": 0.009,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +9.0%",
+      "day": 1
+    },
+    {
+      "symbol": "BARKINU",
+      "pnl_pct": -12.32,
+      "pnl_sol": -0.0123,
+      "entry_reason": "New coin (18.0h) + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 2
+    },
+    {
+      "symbol": "DOGEX",
+      "pnl_pct": -10.69,
+      "pnl_sol": -0.0107,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 2
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": 24.13,
+      "pnl_sol": 0.0241,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +24.1%",
+      "day": 2
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": 21.09,
+      "pnl_sol": 0.0211,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.1%",
+      "day": 3
+    },
+    {
+      "symbol": "WOOFDEX",
+      "pnl_pct": 11.08,
+      "pnl_sol": 0.0111,
+      "entry_reason": "New coin (20.0h) + Strong momentum",
+      "exit_reason": "Target hit +11.1%",
+      "day": 3
+    },
+    {
+      "symbol": "BETADEX",
+      "pnl_pct": -7.22,
+      "pnl_sol": -0.0072,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -7.2%",
+      "day": 3
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": 23.36,
+      "pnl_sol": 0.0234,
+      "entry_reason": "New coin (16.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +23.4%",
+      "day": 4
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 5.03,
+      "pnl_sol": 0.005,
+      "entry_reason": "New coin (12.0h) + Strong momentum",
+      "exit_reason": "Target hit +5.0%",
+      "day": 4
+    },
+    {
+      "symbol": "DEGENDEX",
+      "pnl_pct": 20.98,
+      "pnl_sol": 0.021,
+      "entry_reason": "New coin (14.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.0%",
+      "day": 4
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -18.23,
+      "pnl_sol": -0.0182,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 5
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 15.22,
+      "pnl_sol": 0.0152,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +15.2%",
+      "day": 5
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 19.68,
+      "pnl_sol": 0.0197,
+      "entry_reason": "New coin (19.0h) + Strong momentum",
+      "exit_reason": "Target hit +19.7%",
+      "day": 5
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 13.76,
+      "pnl_sol": 0.0138,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +13.8%",
+      "day": 6
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": -20.81,
+      "pnl_sol": -0.0208,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 6
+    },
+    {
+      "symbol": "CHADX",
+      "pnl_pct": -5.33,
+      "pnl_sol": -0.0053,
+      "entry_reason": "New coin (7.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -5.3%",
+      "day": 6
+    },
+    {
+      "symbol": "CATX",
+      "pnl_pct": -4.37,
+      "pnl_sol": -0.0044,
+      "entry_reason": "New coin (12.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -4.4%",
+      "day": 8
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": -19.32,
+      "pnl_sol": -0.0193,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 8
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": -12.93,
+      "pnl_sol": -0.0129,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 9
+    },
+    {
+      "symbol": "ALPHA",
+      "pnl_pct": 21.36,
+      "pnl_sol": 0.0214,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.4%",
+      "day": 9
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 19.94,
+      "pnl_sol": 0.0199,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +19.9%",
+      "day": 10
+    },
+    {
+      "symbol": "MEMEDEX",
+      "pnl_pct": 10.05,
+      "pnl_sol": 0.0101,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +10.1%",
+      "day": 10
+    },
+    {
+      "symbol": "VOID",
+      "pnl_pct": 7.32,
+      "pnl_sol": 0.0073,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +7.3%",
+      "day": 10
+    },
+    {
+      "symbol": "WOOF2",
+      "pnl_pct": 16.76,
+      "pnl_sol": 0.0168,
+      "entry_reason": "New coin (12.0h) + Strong momentum",
+      "exit_reason": "Target hit +16.8%",
+      "day": 11
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": 14.79,
+      "pnl_sol": 0.0148,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +14.8%",
+      "day": 11
+    },
+    {
+      "symbol": "BETACOIN",
+      "pnl_pct": -7.87,
+      "pnl_sol": -0.0079,
+      "entry_reason": "New coin (12.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -7.9%",
+      "day": 11
+    },
+    {
+      "symbol": "VOIDDAO",
+      "pnl_pct": 21.88,
+      "pnl_sol": 0.0219,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.9%",
+      "day": 12
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "pnl_pct": 18.34,
+      "pnl_sol": 0.0183,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +18.3%",
+      "day": 13
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 21.02,
+      "pnl_sol": 0.021,
+      "entry_reason": "New coin (22.0h) + Strong momentum",
+      "exit_reason": "Target hit +21.0%",
+      "day": 13
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -5.67,
+      "pnl_sol": -0.0057,
+      "entry_reason": "New coin (7.0h) + Strong momentum",
+      "exit_reason": "Stop loss hit -5.7%",
+      "day": 13
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 16.85,
+      "pnl_sol": 0.0169,
+      "entry_reason": "New coin (16.0h) + Strong momentum",
+      "exit_reason": "Target hit +16.9%",
+      "day": 14
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 15.5,
+      "pnl_sol": 0.0155,
+      "entry_reason": "New coin (13.0h) + Strong momentum",
+      "exit_reason": "Target hit +15.5%",
+      "day": 15
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 10.04,
+      "pnl_sol": 0.01,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +10.0%",
+      "day": 15
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 9.11,
+      "pnl_sol": 0.0091,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +9.1%",
+      "day": 15
+    },
+    {
+      "symbol": "DEGENDAO",
+      "pnl_pct": 21.76,
+      "pnl_sol": 0.0218,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.8%",
+      "day": 16
+    },
+    {
+      "symbol": "BONK2",
+      "pnl_pct": -15.25,
+      "pnl_sol": -0.0152,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 16
+    },
+    {
+      "symbol": "BETAX",
+      "pnl_pct": 6.51,
+      "pnl_sol": 0.0065,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +6.5%",
+      "day": 16
+    },
+    {
+      "symbol": "BARKDEX",
+      "pnl_pct": 9.07,
+      "pnl_sol": 0.0091,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +9.1%",
+      "day": 17
+    },
+    {
+      "symbol": "ZETADEX",
+      "pnl_pct": 10.18,
+      "pnl_sol": 0.0102,
+      "entry_reason": "New coin (6.0h) + Strong momentum",
+      "exit_reason": "Target hit +10.2%",
+      "day": 17
+    },
+    {
+      "symbol": "SHIBDEX",
+      "pnl_pct": 12.13,
+      "pnl_sol": 0.0121,
+      "entry_reason": "New coin (12.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.1%",
+      "day": 17
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": -23.09,
+      "pnl_sol": -0.0231,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 17
+    },
+    {
+      "symbol": "DEGENX",
+      "pnl_pct": 6.6,
+      "pnl_sol": 0.0066,
+      "entry_reason": "New coin (10.0h) + Strong momentum",
+      "exit_reason": "Target hit +6.6%",
+      "day": 18
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -3.55,
+      "pnl_sol": -0.0035,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -3.5%",
+      "day": 19
+    },
+    {
+      "symbol": "APEAI",
+      "pnl_pct": 11.94,
+      "pnl_sol": 0.0119,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +11.9%",
+      "day": 19
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": -5.09,
+      "pnl_sol": -0.0051,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -5.1%",
+      "day": 19
+    },
+    {
+      "symbol": "PEPEINU",
+      "pnl_pct": 5.66,
+      "pnl_sol": 0.0057,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +5.7%",
+      "day": 20
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 12.95,
+      "pnl_sol": 0.0129,
+      "entry_reason": "New coin (12.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.9%",
+      "day": 20
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "pnl_pct": -13.79,
+      "pnl_sol": -0.0138,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 20
+    },
+    {
+      "symbol": "MEOWTOKEN",
+      "pnl_pct": 23.21,
+      "pnl_sol": 0.0232,
+      "entry_reason": "New coin (14.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +23.2%",
+      "day": 24
+    },
+    {
+      "symbol": "MEMEINU",
+      "pnl_pct": 16.5,
+      "pnl_sol": 0.0165,
+      "entry_reason": "New coin (16.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +16.5%",
+      "day": 24
+    },
+    {
+      "symbol": "SHIBX",
+      "pnl_pct": 20.37,
+      "pnl_sol": 0.0204,
+      "entry_reason": "New coin (11.0h) + Good momentum",
+      "exit_reason": "Target hit +20.4%",
+      "day": 25
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": 23.9,
+      "pnl_sol": 0.0239,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +23.9%",
+      "day": 26
+    },
+    {
+      "symbol": "LUNAX",
+      "pnl_pct": 19.52,
+      "pnl_sol": 0.0195,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +19.5%",
+      "day": 27
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": -5.14,
+      "pnl_sol": -0.0051,
+      "entry_reason": "New coin (17.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -5.1%",
+      "day": 30
+    },
+    {
+      "symbol": "MEOWPAD",
+      "pnl_pct": -5.45,
+      "pnl_sol": -0.0054,
+      "entry_reason": "New coin (13.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -5.4%",
+      "day": 31
+    },
+    {
+      "symbol": "ELONDAO",
+      "pnl_pct": 7.19,
+      "pnl_sol": 0.0072,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +7.2%",
+      "day": 32
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 21.27,
+      "pnl_sol": 0.0213,
+      "entry_reason": "New coin (16.0h) + High 5m volume",
+      "exit_reason": "Target hit +21.3%",
+      "day": 34
+    },
+    {
+      "symbol": "SHIB",
+      "pnl_pct": -15.3,
+      "pnl_sol": -0.0153,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume",
+      "exit_reason": "Held too long / rug pull",
+      "day": 34
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 22.83,
+      "pnl_sol": 0.0228,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +22.8%",
+      "day": 37
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": -4.51,
+      "pnl_sol": -0.0045,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -4.5%",
+      "day": 39
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 10.76,
+      "pnl_sol": 0.0108,
+      "entry_reason": "New coin (7.0h) + High 5m volume",
+      "exit_reason": "Target hit +10.8%",
+      "day": 40
+    },
+    {
+      "symbol": "STAR2",
+      "pnl_pct": 23.52,
+      "pnl_sol": 0.0235,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +23.5%",
+      "day": 40
+    },
+    {
+      "symbol": "MEMEAI",
+      "pnl_pct": 8.68,
+      "pnl_sol": 0.0087,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +8.7%",
+      "day": 43
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 22.47,
+      "pnl_sol": 0.0225,
+      "entry_reason": "New coin (12.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +22.5%",
+      "day": 43
+    },
+    {
+      "symbol": "ELONPAD",
+      "pnl_pct": -19.83,
+      "pnl_sol": -0.0198,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 44
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 8.32,
+      "pnl_sol": 0.0083,
+      "entry_reason": "New coin (18.0h) + Strong momentum",
+      "exit_reason": "Target hit +8.3%",
+      "day": 46
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": -7.04,
+      "pnl_sol": -0.007,
+      "entry_reason": "New coin (6.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -7.0%",
+      "day": 46
+    },
+    {
+      "symbol": "SHIBCOIN",
+      "pnl_pct": 21.13,
+      "pnl_sol": 0.0211,
+      "entry_reason": "New coin (17.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +21.1%",
+      "day": 47
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 5.73,
+      "pnl_sol": 0.0057,
+      "entry_reason": "New coin (11.0h) + Strong momentum",
+      "exit_reason": "Target hit +5.7%",
+      "day": 47
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -6.07,
+      "pnl_sol": -0.0061,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -6.1%",
+      "day": 48
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 13.4,
+      "pnl_sol": 0.0134,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +13.4%",
+      "day": 49
+    },
+    {
+      "symbol": "ALPHA2",
+      "pnl_pct": 10.34,
+      "pnl_sol": 0.0103,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +10.3%",
+      "day": 49
+    },
+    {
+      "symbol": "SOL",
+      "pnl_pct": 17.42,
+      "pnl_sol": 0.0174,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +17.4%",
+      "day": 49
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": 5.83,
+      "pnl_sol": 0.0058,
+      "entry_reason": "New coin (13.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +5.8%",
+      "day": 50
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 18.45,
+      "pnl_sol": 0.0184,
+      "entry_reason": "New coin (6.0h) + Good momentum",
+      "exit_reason": "Target hit +18.4%",
+      "day": 50
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 11.23,
+      "pnl_sol": 0.0112,
+      "entry_reason": "New coin (11.0h) + Good momentum",
+      "exit_reason": "Target hit +11.2%",
+      "day": 51
+    },
+    {
+      "symbol": "MEME",
+      "pnl_pct": -22.26,
+      "pnl_sol": -0.0223,
+      "entry_reason": "New coin (12.0h) + High 5m volume",
+      "exit_reason": "Held too long / rug pull",
+      "day": 52
+    },
+    {
+      "symbol": "SIGMAAI",
+      "pnl_pct": 24.74,
+      "pnl_sol": 0.0247,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +24.7%",
+      "day": 53
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 17.13,
+      "pnl_sol": 0.0171,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +17.1%",
+      "day": 53
+    },
+    {
+      "symbol": "NEONINU",
+      "pnl_pct": 24.3,
+      "pnl_sol": 0.0243,
+      "entry_reason": "New coin (23.0h) + Strong momentum",
+      "exit_reason": "Target hit +24.3%",
+      "day": 53
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": 8.57,
+      "pnl_sol": 0.0086,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +8.6%",
+      "day": 54
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": -3.41,
+      "pnl_sol": -0.0034,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -3.4%",
+      "day": 56
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": 12.83,
+      "pnl_sol": 0.0128,
+      "entry_reason": "New coin (13.0h) + Strong momentum",
+      "exit_reason": "Target hit +12.8%",
+      "day": 56
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 18.49,
+      "pnl_sol": 0.0185,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +18.5%",
+      "day": 57
+    },
+    {
+      "symbol": "BETADAO",
+      "pnl_pct": 16.33,
+      "pnl_sol": 0.0163,
+      "entry_reason": "New coin (13.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +16.3%",
+      "day": 57
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 12.3,
+      "pnl_sol": 0.0123,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.3%",
+      "day": 57
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 5.55,
+      "pnl_sol": 0.0055,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +5.5%",
+      "day": 58
+    },
+    {
+      "symbol": "WOOFCOIN",
+      "pnl_pct": 21.5,
+      "pnl_sol": 0.0215,
+      "entry_reason": "New coin (15.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +21.5%",
+      "day": 59
+    },
+    {
+      "symbol": "SOLCOIN",
+      "pnl_pct": -6.58,
+      "pnl_sol": -0.0066,
+      "entry_reason": "New coin (12.0h) + Strong momentum",
+      "exit_reason": "Stop loss hit -6.6%",
+      "day": 60
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "pnl_pct": 20.33,
+      "pnl_sol": 0.0203,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +20.3%",
+      "day": 62
+    },
+    {
+      "symbol": "FLOKIAI",
+      "pnl_pct": -6.21,
+      "pnl_sol": -0.0062,
+      "entry_reason": "New coin (15.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -6.2%",
+      "day": 62
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": 9.13,
+      "pnl_sol": 0.0091,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +9.1%",
+      "day": 65
+    },
+    {
+      "symbol": "NEONTOKEN",
+      "pnl_pct": 15.93,
+      "pnl_sol": 0.0159,
+      "entry_reason": "New coin (12.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +15.9%",
+      "day": 67
+    },
+    {
+      "symbol": "SOLDEX",
+      "pnl_pct": 14.28,
+      "pnl_sol": 0.0143,
+      "entry_reason": "New coin (15.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +14.3%",
+      "day": 67
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 12.59,
+      "pnl_sol": 0.0126,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.6%",
+      "day": 69
+    },
+    {
+      "symbol": "NEONDAO",
+      "pnl_pct": 19.61,
+      "pnl_sol": 0.0196,
+      "entry_reason": "New coin (17.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +19.6%",
+      "day": 69
+    },
+    {
+      "symbol": "DOGEPAD",
+      "pnl_pct": 23.26,
+      "pnl_sol": 0.0233,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +23.3%",
+      "day": 71
+    },
+    {
+      "symbol": "PEPEPAD",
+      "pnl_pct": -2.6,
+      "pnl_sol": -0.0026,
+      "entry_reason": "New coin (10.0h) + Good momentum",
+      "exit_reason": "Stop loss hit -2.6%",
+      "day": 72
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.29,
+      "pnl_sol": 0.0153,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +15.3%",
+      "day": 72
+    },
+    {
+      "symbol": "DELTADAO",
+      "pnl_pct": -5.53,
+      "pnl_sol": -0.0055,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -5.5%",
+      "day": 73
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -6.72,
+      "pnl_sol": -0.0067,
+      "entry_reason": "New coin (10.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -6.7%",
+      "day": 74
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 19.77,
+      "pnl_sol": 0.0198,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +19.8%",
+      "day": 76
+    },
+    {
+      "symbol": "MOONAI",
+      "pnl_pct": -22.44,
+      "pnl_sol": -0.0224,
+      "entry_reason": "New coin (12.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 76
+    },
+    {
+      "symbol": "PEPE2",
+      "pnl_pct": 18.09,
+      "pnl_sol": 0.0181,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +18.1%",
+      "day": 77
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "entry_reason": "New coin (13.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +13.1%",
+      "day": 77
+    },
+    {
+      "symbol": "WOOF2",
+      "pnl_pct": 7.88,
+      "pnl_sol": 0.0079,
+      "entry_reason": "New coin (23.0h) + Strong momentum",
+      "exit_reason": "Target hit +7.9%",
+      "day": 78
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": 21.65,
+      "pnl_sol": 0.0217,
+      "entry_reason": "New coin (18.0h) + Strong momentum",
+      "exit_reason": "Target hit +21.7%",
+      "day": 78
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": -14.15,
+      "pnl_sol": -0.0142,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 80
+    },
+    {
+      "symbol": "ZETA2",
+      "pnl_pct": 20.83,
+      "pnl_sol": 0.0208,
+      "entry_reason": "New coin (16.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +20.8%",
+      "day": 80
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -3.28,
+      "pnl_sol": -0.0033,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -3.3%",
+      "day": 82
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.6%",
+      "day": 82
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": 5.93,
+      "pnl_sol": 0.0059,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +5.9%",
+      "day": 83
+    },
+    {
+      "symbol": "DELTAAI",
+      "pnl_pct": 24.49,
+      "pnl_sol": 0.0245,
+      "entry_reason": "New coin (15.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +24.5%",
+      "day": 83
+    },
+    {
+      "symbol": "MEME2",
+      "pnl_pct": 23.65,
+      "pnl_sol": 0.0236,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +23.6%",
+      "day": 84
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 13.17,
+      "pnl_sol": 0.0132,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +13.2%",
+      "day": 85
+    },
+    {
+      "symbol": "WOOF",
+      "pnl_pct": -7.68,
+      "pnl_sol": -0.0077,
+      "entry_reason": "New coin (11.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -7.7%",
+      "day": 86
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": -6.03,
+      "pnl_sol": -0.006,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -6.0%",
+      "day": 87
+    },
+    {
+      "symbol": "FLOKIDEX",
+      "pnl_pct": 22.04,
+      "pnl_sol": 0.022,
+      "entry_reason": "New coin (16.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +22.0%",
+      "day": 87
+    },
+    {
+      "symbol": "VOID2",
+      "pnl_pct": 7.89,
+      "pnl_sol": 0.0079,
+      "entry_reason": "New coin (6.0h) + Strong momentum",
+      "exit_reason": "Target hit +7.9%",
+      "day": 87
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -5.57,
+      "pnl_sol": -0.0056,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -5.6%",
+      "day": 88
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 14.58,
+      "pnl_sol": 0.0146,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +14.6%",
+      "day": 88
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": 10.37,
+      "pnl_sol": 0.0104,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +10.4%",
+      "day": 88
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 22.11,
+      "pnl_sol": 0.0221,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +22.1%",
+      "day": 89
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 13.35,
+      "pnl_sol": 0.0133,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +13.3%",
+      "day": 89
+    },
+    {
+      "symbol": "BONKDEX",
+      "pnl_pct": 17.03,
+      "pnl_sol": 0.017,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +17.0%",
+      "day": 89
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": -3.76,
+      "pnl_sol": -0.0038,
+      "entry_reason": "Ultra fresh launch (3.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -3.8%",
+      "day": 90
+    },
+    {
+      "symbol": "WOOFDAO",
+      "pnl_pct": 21.95,
+      "pnl_sol": 0.022,
+      "entry_reason": "New coin (12.0h) + Strong momentum",
+      "exit_reason": "Target hit +22.0%",
+      "day": 91
+    },
+    {
+      "symbol": "MOONX",
+      "pnl_pct": 18.04,
+      "pnl_sol": 0.018,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +18.0%",
+      "day": 92
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": -5.4,
+      "pnl_sol": -0.0054,
+      "entry_reason": "New coin (12.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -5.4%",
+      "day": 93
+    },
+    {
+      "symbol": "MEMEPAD",
+      "pnl_pct": 11.86,
+      "pnl_sol": 0.0119,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +11.9%",
+      "day": 94
+    },
+    {
+      "symbol": "LUNA2",
+      "pnl_pct": 17.15,
+      "pnl_sol": 0.0172,
+      "entry_reason": "New coin (15.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +17.2%",
+      "day": 94
+    },
+    {
+      "symbol": "ZETACOIN",
+      "pnl_pct": 18.99,
+      "pnl_sol": 0.019,
+      "entry_reason": "New coin (21.0h) + Strong momentum",
+      "exit_reason": "Target hit +19.0%",
+      "day": 95
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -5.19,
+      "pnl_sol": -0.0052,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -5.2%",
+      "day": 96
+    },
+    {
+      "symbol": "STARTOKEN",
+      "pnl_pct": -5.21,
+      "pnl_sol": -0.0052,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Stop loss hit -5.2%",
+      "day": 96
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": 12.22,
+      "pnl_sol": 0.0122,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.2%",
+      "day": 97
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 10.15,
+      "pnl_sol": 0.0101,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Good momentum",
+      "exit_reason": "Target hit +10.1%",
+      "day": 97
+    },
+    {
+      "symbol": "SIGMA2",
+      "pnl_pct": -5.96,
+      "pnl_sol": -0.006,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -6.0%",
+      "day": 98
+    },
+    {
+      "symbol": "ZETAPAD",
+      "pnl_pct": 17.43,
+      "pnl_sol": 0.0174,
+      "entry_reason": "New coin (10.0h) + Strong momentum",
+      "exit_reason": "Target hit +17.4%",
+      "day": 99
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": 20.3,
+      "pnl_sol": 0.0203,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +20.3%",
+      "day": 99
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": 16.31,
+      "pnl_sol": 0.0163,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +16.3%",
+      "day": 99
+    },
+    {
+      "symbol": "BARK2",
+      "pnl_pct": 15.55,
+      "pnl_sol": 0.0156,
+      "entry_reason": "New coin (9.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +15.6%",
+      "day": 101
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": -3.57,
+      "pnl_sol": -0.0036,
+      "entry_reason": "New coin (9.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -3.6%",
+      "day": 101
+    },
+    {
+      "symbol": "LUNA2",
+      "pnl_pct": 11.57,
+      "pnl_sol": 0.0116,
+      "entry_reason": "New coin (6.0h) + Good momentum",
+      "exit_reason": "Target hit +11.6%",
+      "day": 101
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 10.17,
+      "pnl_sol": 0.0102,
+      "entry_reason": "New coin (11.0h) + Strong momentum",
+      "exit_reason": "Target hit +10.2%",
+      "day": 102
+    },
+    {
+      "symbol": "STARDAO",
+      "pnl_pct": 20.7,
+      "pnl_sol": 0.0207,
+      "entry_reason": "Ultra fresh launch (2.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +20.7%",
+      "day": 102
+    },
+    {
+      "symbol": "ZETAX",
+      "pnl_pct": 18.39,
+      "pnl_sol": 0.0184,
+      "entry_reason": "Ultra fresh launch (4.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +18.4%",
+      "day": 102
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": 16.78,
+      "pnl_sol": 0.0168,
+      "entry_reason": "New coin (8.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +16.8%",
+      "day": 103
+    },
+    {
+      "symbol": "BASEDCOIN",
+      "pnl_pct": -2.19,
+      "pnl_sol": -0.0022,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -2.2%",
+      "day": 103
+    },
+    {
+      "symbol": "CATTOKEN",
+      "pnl_pct": 13.95,
+      "pnl_sol": 0.014,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +14.0%",
+      "day": 104
+    },
+    {
+      "symbol": "SOLX",
+      "pnl_pct": -15.66,
+      "pnl_sol": -0.0157,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 104
+    },
+    {
+      "symbol": "SHIBTOKEN",
+      "pnl_pct": 10.95,
+      "pnl_sol": 0.0109,
+      "entry_reason": "New coin (8.0h) + Good momentum",
+      "exit_reason": "Target hit +10.9%",
+      "day": 106
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 14.21,
+      "pnl_sol": 0.0142,
+      "entry_reason": "New coin (13.0h) + Strong momentum",
+      "exit_reason": "Target hit +14.2%",
+      "day": 106
+    },
+    {
+      "symbol": "SIGMACOIN",
+      "pnl_pct": 6.45,
+      "pnl_sol": 0.0064,
+      "entry_reason": "New coin (10.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +6.4%",
+      "day": 107
+    },
+    {
+      "symbol": "MEME",
+      "pnl_pct": -7.98,
+      "pnl_sol": -0.008,
+      "entry_reason": "New coin (8.0h) + High 5m volume",
+      "exit_reason": "Stop loss hit -8.0%",
+      "day": 108
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": -20.98,
+      "pnl_sol": -0.021,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Held too long / rug pull",
+      "day": 108
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 11.97,
+      "pnl_sol": 0.012,
+      "entry_reason": "Ultra fresh launch (1.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.0%",
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 17.7,
+      "pnl_sol": 0.0177,
+      "entry_reason": "New coin (6.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +17.7%",
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": -6.75,
+      "pnl_sol": -0.0068,
+      "entry_reason": "Ultra fresh launch (5.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Stop loss hit -6.8%",
+      "day": 111
+    },
+    {
+      "symbol": "DOGE2",
+      "pnl_pct": 9.68,
+      "pnl_sol": 0.0097,
+      "entry_reason": "New coin (16.0h) + Strong momentum",
+      "exit_reason": "Target hit +9.7%",
+      "day": 112
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 12.87,
+      "pnl_sol": 0.0129,
+      "entry_reason": "New coin (7.0h) + High 5m volume + Strong momentum",
+      "exit_reason": "Target hit +12.9%",
+      "day": 112
+    },
+    {
+      "symbol": "VOIDPAD",
+      "pnl_pct": 24.29,
+      "pnl_sol": 0.0243,
+      "entry_reason": "New coin (16.0h) + Strong momentum",
+      "exit_reason": "Target hit +24.3%",
+      "day": 112
+    }
+  ]
+}

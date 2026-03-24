@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test_metric",
+    "value": 100,
+    "timestamp": "2026-03-09T08:39:00.888111",
+    "unit": ""
+  },
+  {
+    "name": "test_metric",
+    "value": 150,
+    "timestamp": "2026-03-09T08:39:00.891432",
+    "unit": ""
+  }
+]

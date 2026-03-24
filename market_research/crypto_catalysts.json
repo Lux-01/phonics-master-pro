@@ -1,0 +1,202 @@
+{
+  "XRP": {
+    "ticker": "XRP",
+    "focus": [
+      "SEC resolution",
+      "Institutional adoption",
+      "CBDC partnerships"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-03-15",
+        "event": "SEC vs Ripple case developments",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-04-01",
+        "event": "Q1 institutional holdings report",
+        "impact": "MEDIUM"
+      },
+      {
+        "date": "2024-06-01",
+        "event": "Potential ETF approval window",
+        "impact": "HIGH"
+      }
+    ],
+    "price_target_bull": 2.5,
+    "price_target_bear": 0.4,
+    "current_estimate": 0.6,
+    "risk_level": "MEDIUM",
+    "narrative": "Legal clarity play - institutional grade"
+  },
+  "ADA": {
+    "ticker": "ADA",
+    "focus": [
+      "Hydra scaling",
+      "DeFi TVL growth",
+      "Governance"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-03-20",
+        "event": "Hydra mainnet milestone",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-04-15",
+        "event": "Cardano Summit announcements",
+        "impact": "MEDIUM"
+      },
+      {
+        "date": "2024-05-01",
+        "event": "Partner chain launches",
+        "impact": "MEDIUM"
+      }
+    ],
+    "price_target_bull": 1.2,
+    "price_target_bear": 0.25,
+    "current_estimate": 0.7,
+    "risk_level": "MEDIUM",
+    "narrative": "Academic approach, slow but steady"
+  },
+  "SOL": {
+    "ticker": "SOL",
+    "focus": [
+      "Firedancer upgrade",
+      "Institutional inflows",
+      "DeFi dominance"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-03-18",
+        "event": "Firedancer testnet progress",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-04-01",
+        "event": "Q1 network metrics",
+        "impact": "MEDIUM"
+      },
+      {
+        "date": "2024-06-01",
+        "event": "Breakpoint conference",
+        "impact": "MEDIUM"
+      }
+    ],
+    "price_target_bull": 250.0,
+    "price_target_bear": 80.0,
+    "current_estimate": 150.0,
+    "risk_level": "MEDIUM-HIGH",
+    "narrative": "High performance, ecosystem growth"
+  },
+  "ETH": {
+    "ticker": "ETH",
+    "focus": [
+      "ETF developments",
+      "L2 scaling",
+      "Staking yields"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-03-15",
+        "event": "Spot ETF decision window",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-04-12",
+        "event": "Dencun upgrade effects",
+        "impact": "MEDIUM"
+      },
+      {
+        "date": "2024-05-15",
+        "event": "Staking rate changes",
+        "impact": "LOW"
+      }
+    ],
+    "price_target_bull": 5000.0,
+    "price_target_bear": 2000.0,
+    "current_estimate": 3500.0,
+    "risk_level": "MEDIUM",
+    "narrative": "Institutional favorite, ETF play"
+  },
+  "BTC": {
+    "ticker": "BTC",
+    "focus": [
+      "Halving aftermath",
+      "Institutional adoption",
+      "Macro correlation"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-04-20",
+        "event": "Post-halving supply dynamics",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-05-01",
+        "event": "FOMC decision impact",
+        "impact": "MEDIUM"
+      },
+      {
+        "date": "2024-06-15",
+        "event": "Institutional Q2 flows",
+        "impact": "MEDIUM"
+      }
+    ],
+    "price_target_bull": 100000.0,
+    "price_target_bear": 40000.0,
+    "current_estimate": 70000.0,
+    "risk_level": "LOW-MEDIUM",
+    "narrative": "Digital gold, macro asset"
+  },
+  "SUI": {
+    "ticker": "SUI",
+    "focus": [
+      "Gaming adoption",
+      "Move language",
+      "Parallel execution"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-03-25",
+        "event": "Major gaming partnership",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-04-10",
+        "event": "DeFi ecosystem expansion",
+        "impact": "MEDIUM"
+      }
+    ],
+    "price_target_bull": 3.0,
+    "price_target_bear": 0.8,
+    "current_estimate": 1.5,
+    "risk_level": "HIGH",
+    "narrative": "Emerging L1, gaming focus"
+  },
+  "TIA": {
+    "ticker": "TIA",
+    "focus": [
+      "Modular blockchain",
+      "Data availability",
+      "Celestia ecosystem"
+    ],
+    "catalysts": [
+      {
+        "date": "2024-04-01",
+        "event": "Mainnet upgrades",
+        "impact": "HIGH"
+      },
+      {
+        "date": "2024-05-01",
+        "event": "Ecosystem grant results",
+        "impact": "MEDIUM"
+      }
+    ],
+    "price_target_bull": 25.0,
+    "price_target_bear": 8.0,
+    "current_estimate": 15.0,
+    "risk_level": "HIGH",
+    "narrative": "Modular thesis, infrastructure play"
+  }
+}

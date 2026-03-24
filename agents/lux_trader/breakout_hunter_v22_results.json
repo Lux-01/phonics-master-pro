@@ -1,0 +1,15 @@
+{
+  "strategy": "Breakout Hunter v2.2",
+  "version": "2.2",
+  "improvements": [
+    "50% top positions",
+    "40% trailing",
+    "Pyramid entry"
+  ],
+  "start": 1.0,
+  "end": 23.287505762019308,
+  "multiplier": 23.287505762019308,
+  "trades": 58,
+  "wins": 39,
+  "rugs": 4
+}

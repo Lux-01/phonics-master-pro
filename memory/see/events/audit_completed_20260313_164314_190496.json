@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-13T16:43:14.190473",
+  "type": "audit_completed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "captcha-solver",
+    "audit_file": "/home/skux/.openclaw/workspace/memory/see/audit_history/captcha-solver_20260313_164314.md"
+  }
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "HUFtfcseksiYyRHNFr79ZgbmMkLnv3kKXmXou4cFpump",
+    "mcap": 27984.53,
+    "liq": 0,
+    "vol24": 75625.45,
+    "vol5m": 9326.21,
+    "age_hours": 2.0302014855555557,
+    "score": 10,
+    "grade": "A \u2705",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 208,
+    "top10_pct": 49.148334891046,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "LP locked 95%+ \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "fZDWDPxB6HRwTpZU5Ahbcm5P8s5x8ihvkFCbviwpump",
+    "mcap": 27932,
+    "liq": 13327.02,
+    "vol24": 76025.87,
+    "vol5m": 13493.27,
+    "age_hours": 0.3084145338888889,
+    "score": 11,
+    "grade": "A \u2705",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 469,
+    "top10_pct": 46.137644148814005,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [
+      "\u26a0\ufe0f TOO NEW (0.3h < 30m)"
+    ],
+    "checks": [
+      "MCAP range \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Not honeypot \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "G57mDyoMfFDsc47v4qMQWYU1mTqAuobDjt8nbotrpump",
+    "mcap": 12922.51,
+    "liq": 0,
+    "vol24": 100379.49,
+    "vol5m": 5205.93,
+    "age_hours": 0.7645499416666667,
+    "score": 10,
+    "grade": "A \u2705",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 215,
+    "top10_pct": 62.02195713334112,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "LP locked 95%+ \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "EnvfgDahohVyXFRbMZBfQ5La45BTgi8aTCA56i3bpump",
+    "mcap": 10274.38,
+    "liq": 0,
+    "vol24": 36032.97,
+    "vol5m": 253.28,
+    "age_hours": 0.843897305,
+    "score": 9,
+    "grade": "B \ud83d\udfe1",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 101,
+    "top10_pct": 77.31363086502076,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "LP locked 95%+ \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "CBhWmCL8Gkux3obLgeWiCfDQSjsR24cV1kehksHgpump",
+    "mcap": 55143,
+    "liq": 19438.08,
+    "vol24": 232637.38,
+    "vol5m": 5770.78,
+    "age_hours": 1.1700509727777777,
+    "score": 12,
+    "grade": "A \u2705",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 595,
+    "top10_pct": 39.07244008879471,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "AK6r5GzVq155toFcwNj6HqwLTdUBQB9i3Ld3zsnZpump",
+    "mcap": 44546,
+    "liq": 24149.75,
+    "vol24": 350440.51,
+    "vol5m": 3321.09,
+    "age_hours": 1.614098971111111,
+    "score": 11,
+    "grade": "A \u2705",
+    "verified": false,
+    "mint_revoked": true,
+    "lp_locked": 100,
+    "holders": 526,
+    "top10_pct": 49.43112235745494,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Age > 30m \u2705",
+      "Not honeypot \u2705"
+    ]
+  }
+]

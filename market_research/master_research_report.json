@@ -1,0 +1,672 @@
+{
+  "generated_at": "2026-03-14T17:28:15.222781",
+  "modules": {
+    "crypto_catalysts": {
+      "XRP": {
+        "ticker": "XRP",
+        "focus": [
+          "SEC resolution",
+          "Institutional adoption",
+          "CBDC partnerships"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-03-15",
+            "event": "SEC vs Ripple case developments",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-04-01",
+            "event": "Q1 institutional holdings report",
+            "impact": "MEDIUM"
+          },
+          {
+            "date": "2024-06-01",
+            "event": "Potential ETF approval window",
+            "impact": "HIGH"
+          }
+        ],
+        "price_target_bull": 2.5,
+        "price_target_bear": 0.4,
+        "current_estimate": 0.6,
+        "risk_level": "MEDIUM",
+        "narrative": "Legal clarity play - institutional grade"
+      },
+      "ADA": {
+        "ticker": "ADA",
+        "focus": [
+          "Hydra scaling",
+          "DeFi TVL growth",
+          "Governance"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-03-20",
+            "event": "Hydra mainnet milestone",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-04-15",
+            "event": "Cardano Summit announcements",
+            "impact": "MEDIUM"
+          },
+          {
+            "date": "2024-05-01",
+            "event": "Partner chain launches",
+            "impact": "MEDIUM"
+          }
+        ],
+        "price_target_bull": 1.2,
+        "price_target_bear": 0.25,
+        "current_estimate": 0.7,
+        "risk_level": "MEDIUM",
+        "narrative": "Academic approach, slow but steady"
+      },
+      "SOL": {
+        "ticker": "SOL",
+        "focus": [
+          "Firedancer upgrade",
+          "Institutional inflows",
+          "DeFi dominance"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-03-18",
+            "event": "Firedancer testnet progress",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-04-01",
+            "event": "Q1 network metrics",
+            "impact": "MEDIUM"
+          },
+          {
+            "date": "2024-06-01",
+            "event": "Breakpoint conference",
+            "impact": "MEDIUM"
+          }
+        ],
+        "price_target_bull": 250.0,
+        "price_target_bear": 80.0,
+        "current_estimate": 150.0,
+        "risk_level": "MEDIUM-HIGH",
+        "narrative": "High performance, ecosystem growth"
+      },
+      "ETH": {
+        "ticker": "ETH",
+        "focus": [
+          "ETF developments",
+          "L2 scaling",
+          "Staking yields"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-03-15",
+            "event": "Spot ETF decision window",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-04-12",
+            "event": "Dencun upgrade effects",
+            "impact": "MEDIUM"
+          },
+          {
+            "date": "2024-05-15",
+            "event": "Staking rate changes",
+            "impact": "LOW"
+          }
+        ],
+        "price_target_bull": 5000.0,
+        "price_target_bear": 2000.0,
+        "current_estimate": 3500.0,
+        "risk_level": "MEDIUM",
+        "narrative": "Institutional favorite, ETF play"
+      },
+      "BTC": {
+        "ticker": "BTC",
+        "focus": [
+          "Halving aftermath",
+          "Institutional adoption",
+          "Macro correlation"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-04-20",
+            "event": "Post-halving supply dynamics",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-05-01",
+            "event": "FOMC decision impact",
+            "impact": "MEDIUM"
+          },
+          {
+            "date": "2024-06-15",
+            "event": "Institutional Q2 flows",
+            "impact": "MEDIUM"
+          }
+        ],
+        "price_target_bull": 100000.0,
+        "price_target_bear": 40000.0,
+        "current_estimate": 70000.0,
+        "risk_level": "LOW-MEDIUM",
+        "narrative": "Digital gold, macro asset"
+      },
+      "SUI": {
+        "ticker": "SUI",
+        "focus": [
+          "Gaming adoption",
+          "Move language",
+          "Parallel execution"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-03-25",
+            "event": "Major gaming partnership",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-04-10",
+            "event": "DeFi ecosystem expansion",
+            "impact": "MEDIUM"
+          }
+        ],
+        "price_target_bull": 3.0,
+        "price_target_bear": 0.8,
+        "current_estimate": 1.5,
+        "risk_level": "HIGH",
+        "narrative": "Emerging L1, gaming focus"
+      },
+      "TIA": {
+        "ticker": "TIA",
+        "focus": [
+          "Modular blockchain",
+          "Data availability",
+          "Celestia ecosystem"
+        ],
+        "catalysts": [
+          {
+            "date": "2024-04-01",
+            "event": "Mainnet upgrades",
+            "impact": "HIGH"
+          },
+          {
+            "date": "2024-05-01",
+            "event": "Ecosystem grant results",
+            "impact": "MEDIUM"
+          }
+        ],
+        "price_target_bull": 25.0,
+        "price_target_bear": 8.0,
+        "current_estimate": 15.0,
+        "risk_level": "HIGH",
+        "narrative": "Modular thesis, infrastructure play"
+      }
+    },
+    "dividend_tracker": {
+      "top_picks": {
+        "SCHD": {
+          "name": "Schwab US Dividend Equity ETF",
+          "yield": 3.45,
+          "category": "ETF - Broad Dividend",
+          "ex_div_date": "2024-03-20",
+          "frequency": "Quarterly",
+          "rating": "STRONG BUY",
+          "reason": "Low cost, quality screening, consistent growth"
+        },
+        "VYM": {
+          "name": "Vanguard High Dividend Yield ETF",
+          "yield": 2.89,
+          "category": "ETF - High Yield",
+          "ex_div_date": "2024-03-18",
+          "frequency": "Quarterly",
+          "rating": "BUY",
+          "reason": "Diversified, low expense ratio"
+        },
+        "JEPI": {
+          "name": "JPMorgan Equity Premium Income",
+          "yield": 7.12,
+          "category": "ETF - Covered Call",
+          "ex_div_date": "2024-03-28",
+          "frequency": "Monthly",
+          "rating": "BUY",
+          "reason": "High yield, options strategy"
+        },
+        "JNJ": {
+          "name": "Johnson & Johnson",
+          "yield": 3.02,
+          "category": "Healthcare - Blue Chip",
+          "ex_div_date": "2024-03-25",
+          "frequency": "Quarterly",
+          "rating": "STRONG BUY",
+          "reason": "Dividend Aristocrat (61 years), defensive"
+        },
+        "PG": {
+          "name": "Procter & Gamble",
+          "yield": 2.41,
+          "category": "Consumer Staples",
+          "ex_div_date": "2024-04-18",
+          "frequency": "Quarterly",
+          "rating": "STRONG BUY",
+          "reason": "Dividend King (67 years), recession proof"
+        },
+        "KO": {
+          "name": "Coca-Cola",
+          "yield": 3.15,
+          "category": "Consumer Staples",
+          "ex_div_date": "2024-03-14",
+          "frequency": "Quarterly",
+          "rating": "BUY",
+          "reason": "Dividend King (61 years), global brand"
+        },
+        "V": {
+          "name": "Visa Inc",
+          "yield": 0.72,
+          "category": "Financial Services",
+          "ex_div_date": "2024-05-16",
+          "frequency": "Quarterly",
+          "rating": "STRONG BUY",
+          "reason": "Low yield but massive growth, dividend growth"
+        },
+        "MSFT": {
+          "name": "Microsoft",
+          "yield": 0.71,
+          "category": "Technology",
+          "ex_div_date": "2024-05-15",
+          "frequency": "Quarterly",
+          "rating": "STRONG BUY",
+          "reason": "AI leader, consistent dividend growth"
+        },
+        "ABBV": {
+          "name": "AbbVie Inc",
+          "yield": 3.45,
+          "category": "Healthcare",
+          "ex_div_date": "2024-04-12",
+          "frequency": "Quarterly",
+          "rating": "BUY",
+          "reason": "High yield, Humira cliff priced in"
+        },
+        "O": {
+          "name": "Realty Income",
+          "yield": 5.89,
+          "category": "REIT",
+          "ex_div_date": "2024-03-28",
+          "frequency": "Monthly",
+          "rating": "BUY",
+          "reason": "Monthly dividend, triple-net lease stability"
+        }
+      },
+      "upcoming_ex_div": [
+        {
+          "date": "2024-03-14",
+          "ticker": "KO",
+          "amount": "$0.485",
+          "yield": "3.15%"
+        },
+        {
+          "date": "2024-03-18",
+          "ticker": "VYM",
+          "amount": "$0.821",
+          "yield": "2.89%"
+        },
+        {
+          "date": "2024-03-20",
+          "ticker": "SCHD",
+          "amount": "$0.654",
+          "yield": "3.45%"
+        },
+        {
+          "date": "2024-03-25",
+          "ticker": "JNJ",
+          "amount": "$1.19",
+          "yield": "3.02%"
+        },
+        {
+          "date": "2024-03-28",
+          "ticker": "O",
+          "amount": "$0.257",
+          "yield": "5.89%"
+        },
+        {
+          "date": "2024-03-28",
+          "ticker": "JEPI",
+          "amount": "$0.423",
+          "yield": "7.12%"
+        },
+        {
+          "date": "2024-04-12",
+          "ticker": "ABBV",
+          "amount": "$1.55",
+          "yield": "3.45%"
+        },
+        {
+          "date": "2024-04-18",
+          "ticker": "PG",
+          "amount": "$0.95",
+          "yield": "2.41%"
+        },
+        {
+          "date": "2024-05-15",
+          "ticker": "MSFT",
+          "amount": "$0.75",
+          "yield": "0.71%"
+        },
+        {
+          "date": "2024-05-16",
+          "ticker": "V",
+          "amount": "$0.52",
+          "yield": "0.72%"
+        }
+      ],
+      "last_updated": "2026-03-14T17:28:15.216138"
+    },
+    "gold_monitor": {
+      "current_price": 2175.5,
+      "24h_change": "+1.2%",
+      "trend": "BULLISH",
+      "support_levels": [
+        2150.0,
+        2120.0,
+        2080.0
+      ],
+      "resistance_levels": [
+        2200.0,
+        2250.0,
+        2300.0
+      ],
+      "conflict_correlation": {
+        "description": "Gold acts as safe haven during geopolitical tensions",
+        "typical_move": "+2-5% on major escalation",
+        "lag_time": "0-24 hours",
+        "sustained_rally": "If conflict persists >1 week"
+      },
+      "monitoring_keywords": [
+        "escalation",
+        "conflict",
+        "war",
+        "tensions",
+        "sanctions",
+        "geopolitical",
+        "crisis",
+        "attack",
+        "invasion",
+        "ceasefire broken"
+      ],
+      "current_geopolitical_risks": [
+        {
+          "region": "Middle East",
+          "risk_level": "HIGH",
+          "impact_on_gold": "+3-5% potential",
+          "last_event": "Ongoing tensions"
+        },
+        {
+          "region": "Eastern Europe",
+          "risk_level": "MEDIUM",
+          "impact_on_gold": "+1-2% potential",
+          "last_event": "Continued conflict"
+        },
+        {
+          "region": "South China Sea",
+          "risk_level": "MEDIUM",
+          "impact_on_gold": "+2-3% potential",
+          "last_event": "Naval tensions"
+        }
+      ],
+      "trading_strategy": {
+        "entry": "Buy on confirmed escalation news",
+        "stop_loss": "2% below entry",
+        "take_profit": "5-8% above entry",
+        "position_size": "5-10% of portfolio max",
+        "hold_time": "Until de-escalation signals"
+      },
+      "news_sources": [
+        "Reuters Geopolitical",
+        "Bloomberg Markets",
+        "ForexLive",
+        "ZeroHedge (for sentiment)",
+        "Twitter/X Geopolitical accounts"
+      ]
+    },
+    "oil_monitor": {
+      "benchmarks": {
+        "WTI": {
+          "price": 81.25,
+          "change": "+0.8%",
+          "trend": "CONSOLIDATING"
+        },
+        "BRENT": {
+          "price": 85.7,
+          "change": "+0.9%",
+          "trend": "CONSOLIDATING"
+        }
+      },
+      "supply_factors": {
+        "OPEC+": "Maintaining cuts through Q2 2024",
+        "US Production": "Record highs (13.2mbpd)",
+        "Strategic Reserves": "US SPR at 40-year lows",
+        "Iran": "Sanctions limiting exports (~1mbpd restricted)",
+        "Venezuela": "Limited capacity, sanctions easing slowly"
+      },
+      "demand_factors": {
+        "China": "Economic recovery concerns, demand growth +1.5mbpd expected",
+        "US": "Strong demand, summer driving season approaching",
+        "Europe": "Weak industrial demand, transition to renewables",
+        "Global": "IEA forecasts +1.2mbpd growth in 2024"
+      },
+      "geopolitical_premium": {
+        "current": "$5-8/barrel",
+        "risks": [
+          "Middle East supply disruption",
+          "Russia-Ukraine affecting flows",
+          "Houthi attacks on shipping"
+        ],
+        "upside_scenario": "+15-25/barrel if major supply disrupted"
+      },
+      "catalysts": [
+        {
+          "date": "2024-04-03",
+          "event": "OPEC+ meeting",
+          "impact": "HIGH"
+        },
+        {
+          "date": "2024-04-11",
+          "event": "IEA Monthly Report",
+          "impact": "MEDIUM"
+        },
+        {
+          "date": "2024-04-17",
+          "event": "EIA Weekly Inventory",
+          "impact": "MEDIUM"
+        },
+        {
+          "date": "2024-05-01",
+          "event": "OPEC+ Production decision",
+          "impact": "HIGH"
+        },
+        {
+          "date": "2024-06-01",
+          "event": "Summer driving season start",
+          "impact": "MEDIUM"
+        }
+      ],
+      "monitoring_keywords": [
+        "OPEC",
+        "supply disruption",
+        "inventory",
+        "SPR release",
+        "sanctions",
+        "China demand",
+        "refinery",
+        "pipeline",
+        "Houthi",
+        "Red Sea",
+        "Strait of Hormuz"
+      ],
+      "trading_instruments": {
+        "USO": "WTI ETF - easy exposure",
+        "BNO": "Brent ETF",
+        "XLE": "Energy sector ETF",
+        "XOM": "Exxon - integrated major",
+        "CVX": "Chevron - dividend + growth"
+      },
+      "price_targets": {
+        "WTI_bull": 95.0,
+        "WTI_base": 82.0,
+        "WTI_bear": 70.0,
+        "Brent_bull": 100.0,
+        "Brent_base": 86.0,
+        "Brent_bear": 75.0
+      }
+    },
+    "income_dashboard": {
+      "streams": {
+        "crypto_trading": {
+          "name": "Crypto Trading (LuxTrader)",
+          "type": "Active Trading",
+          "frequency": "Real-time",
+          "current_balance": 2.01,
+          "currency": "SOL",
+          "usd_value": 402.0,
+          "mtd_pnl": 0.0099,
+          "ytd_pnl": 0.0099,
+          "status": "ACTIVE",
+          "risk_level": "HIGH"
+        },
+        "crypto_bluechip": {
+          "name": "Blue-Chip Crypto Holdings",
+          "type": "Long-term Hold",
+          "frequency": "Weekly DCA",
+          "target_allocation": {
+            "BTC": 40,
+            "ETH": 30,
+            "SOL": 20,
+            "Other": 10
+          },
+          "weekly_deposit": 100.0,
+          "currency": "USD",
+          "status": "PLANNED"
+        },
+        "dividend_stocks": {
+          "name": "US Dividend Stocks",
+          "type": "Dividend Income",
+          "frequency": "Quarterly",
+          "target_allocation": {
+            "SCHD": 30,
+            "VYM": 20,
+            "JNJ": 15,
+            "PG": 15,
+            "Individual": 20
+          },
+          "weekly_deposit": 200.0,
+          "currency": "USD",
+          "estimated_yield": 3.5,
+          "status": "PLANNED"
+        },
+        "gold_trading": {
+          "name": "Gold (XAU/USD)",
+          "type": "Event-Driven",
+          "frequency": "As opportunities arise",
+          "strategy": "Buy on escalation",
+          "position_size": "5-10% portfolio",
+          "status": "MONITORING"
+        },
+        "oil_exposure": {
+          "name": "Oil/Energy",
+          "type": "Sector Rotation",
+          "frequency": "Monthly rebalancing",
+          "instruments": [
+            "XLE",
+            "USO",
+            "XOM"
+          ],
+          "target_allocation": 10,
+          "status": "MONITORING"
+        }
+      },
+      "weekly_deposit_schedule": {
+        "total_weekly": 300.0,
+        "breakdown": {
+          "crypto_bluechip": 100.0,
+          "dividend_stocks": 200.0
+        }
+      },
+      "monthly_projections": {
+        "deposits": 1200.0,
+        "estimated_dividends": 35.0,
+        "crypto_trading_target": 50.0,
+        "total_monthly_inflow": 1285.0
+      },
+      "kpi_targets": {
+        "annual_dividend_yield": 3.5,
+        "crypto_trading_win_rate": 60,
+        "max_portfolio_drawdown": 15,
+        "monthly_savings_rate": 20
+      },
+      "tracking_metrics": [
+        "Total portfolio value",
+        "Monthly income by stream",
+        "Win rate (trading)",
+        "Dividend yield",
+        "Drawdown %",
+        "Sharpe ratio",
+        "Monthly deposits vs target"
+      ]
+    },
+    "success_factors": {
+      "macro_monitoring": {
+        "description": "Track macro factors affecting all markets",
+        "items": [
+          "Fed interest rate decisions (FOMC)",
+          "CPI/PCE inflation data",
+          "Employment reports (NFP)",
+          "GDP growth rates",
+          "Dollar index (DXY)",
+          "10Y Treasury yields"
+        ]
+      },
+      "risk_management": {
+        "description": "Essential risk controls",
+        "items": [
+          "Max 5% in any single position",
+          "Stop losses on all trades",
+          "Monthly portfolio rebalancing",
+          "Emergency cash reserve (6 months)",
+          "Correlation monitoring (don't double down)",
+          "Tax-loss harvesting"
+        ]
+      },
+      "automation": {
+        "description": "Set up automated systems",
+        "items": [
+          "Auto DCA for weekly deposits",
+          "Price alerts for entry/exit",
+          "News alerts for catalysts",
+          "Dividend reinvestment (DRIP)",
+          "Monthly performance reports",
+          "Tax document collection"
+        ]
+      },
+      "education": {
+        "description": "Continuous learning",
+        "items": [
+          "Weekly market recap review",
+          "Earnings call summaries",
+          "Fed speech analysis",
+          "Sector rotation tracking",
+          "New strategy backtesting"
+        ]
+      },
+      "tools": {
+        "description": "Recommended tools to use",
+        "items": [
+          "TradingView (charts)",
+          "Yahoo Finance (news)",
+          "Seeking Alpha (analysis)",
+          "Dividend.com (ex-dates)",
+          "CoinGecko (crypto data)",
+          "OpenClaw skills (automation)"
+        ]
+      }
+    }
+  }
+}

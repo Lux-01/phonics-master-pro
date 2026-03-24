@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-03-14T17:43:19.516967",
+  "source": "Binance API",
+  "prices": {
+    "XRP": {
+      "price": 1.3873,
+      "price_formatted": "$1.3873",
+      "change_24h": -0.0282,
+      "change_percent_24h": -1.992,
+      "high_24h": 1.4528,
+      "low_24h": 1.3834,
+      "volume": 155346196.5,
+      "trend": "DOWN"
+    },
+    "ADA": {
+      "price": 0.2619,
+      "price_formatted": "$0.2619",
+      "change_24h": -0.0108,
+      "change_percent_24h": -3.96,
+      "high_24h": 0.2816,
+      "low_24h": 0.2616,
+      "volume": 157098645.0,
+      "trend": "DOWN"
+    },
+    "SOL": {
+      "price": 87.13,
+      "price_formatted": "$87.1300",
+      "change_24h": -1.43,
+      "change_percent_24h": -1.615,
+      "high_24h": 92.98,
+      "low_24h": 86.92,
+      "volume": 3753454.222,
+      "trend": "DOWN"
+    },
+    "ETH": {
+      "price": 2075.32,
+      "price_formatted": "$2,075.32",
+      "change_24h": -19.9,
+      "change_percent_24h": -0.95,
+      "high_24h": 2209.03,
+      "low_24h": 2068.28,
+      "volume": 507000.4248,
+      "trend": "DOWN"
+    },
+    "BTC": {
+      "price": 70465.45,
+      "price_formatted": "$70,465.45",
+      "change_24h": -812.22,
+      "change_percent_24h": -1.14,
+      "high_24h": 73913.74,
+      "low_24h": 70317.0,
+      "volume": 32770.37653,
+      "trend": "DOWN"
+    },
+    "SUI": {
+      "price": 0.9828,
+      "price_formatted": "$0.9828",
+      "change_24h": -0.0505,
+      "change_percent_24h": -4.887,
+      "high_24h": 1.0565,
+      "low_24h": 0.9812,
+      "volume": 54011530.5,
+      "trend": "DOWN"
+    },
+    "TIA": {
+      "price": 0.3417,
+      "price_formatted": "$0.3417",
+      "change_24h": -0.0085,
+      "change_percent_24h": -2.427,
+      "high_24h": 0.3653,
+      "low_24h": 0.3411,
+      "volume": 16478129.52,
+      "trend": "DOWN"
+    }
+  }
+}

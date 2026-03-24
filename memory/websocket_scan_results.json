@@ -1,0 +1,57 @@
+{
+  "scan_time": "2026-03-20T22:44:00",
+  "tokens_analyzed": 5,
+  "grade_a_count": 1,
+  "results": [
+    {
+      "symbol": "Mirai",
+      "ca": "HznU78M65j8zKtMDYYRULhCMkvq2M5x8CgbNAMd1pump",
+      "mcap": 12188.25,
+      "liq": 0,
+      "vol": 63373.48,
+      "age": 0.6395787358262803,
+      "score": 2,
+      "grade": "C"
+    },
+    {
+      "symbol": "GOONERBI",
+      "ca": "HwAGqSBwhFm9MK7qe9ewukjXPQmFGoKFGPrJQyeTpump",
+      "mcap": 83458,
+      "liq": 23354.64,
+      "vol": 239293.69,
+      "age": 0.33019416246202254,
+      "score": 12,
+      "grade": "A"
+    },
+    {
+      "symbol": "Sanae",
+      "ca": "HMo1bVbAeZ28m3PUfQRuPgf5HqJEgxqt9hEsfV5Bvn7M",
+      "mcap": 74317,
+      "liq": 23672.05,
+      "vol": 7937.15,
+      "age": 0.2435891224500868,
+      "score": 8,
+      "grade": "B"
+    },
+    {
+      "symbol": "Void",
+      "ca": "6329ahdFztFo1VVvp8N4TQeE5AQHBKiJHg9qJdQtpump",
+      "mcap": 18609.11,
+      "liq": 0,
+      "vol": 35625.25,
+      "age": 0.6817550086805556,
+      "score": 0,
+      "grade": "C"
+    },
+    {
+      "symbol": "Judy",
+      "ca": "HqsNMpRn3xvLQpvaND3H2naQQQWG642J5uKKdQZqpump",
+      "mcap": 20066.57,
+      "liq": 0,
+      "vol": 101663.88,
+      "age": 1.3407030569797092,
+      "score": 4,
+      "grade": "C"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-03-15T20:18:43.111127",
+  "skills": [
+    {
+      "name": "fiverr-gig-optimizer",
+      "path": "/home/skux/.openclaw/workspace/skills/fiverr-gig-optimizer"
+    },
+    {
+      "name": "client-proposal-writer",
+      "path": "/home/skux/.openclaw/workspace/skills/client-proposal-writer"
+    },
+    {
+      "name": "portfolio-website-builder",
+      "path": "/home/skux/.openclaw/workspace/skills/portfolio-website-builder"
+    },
+    {
+      "name": "social-content-generator",
+      "path": "/home/skux/.openclaw/workspace/skills/social-content-generator"
+    },
+    {
+      "name": "freelancer-competitive-analysis",
+      "path": "/home/skux/.openclaw/workspace/skills/freelancer-competitive-analysis"
+    }
+  ],
+  "purpose": "Fiverr freelancing support"
+}

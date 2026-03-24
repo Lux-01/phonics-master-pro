@@ -1,0 +1,719 @@
+======================================================================
+🚀 SKYLAR CONTINUOUS TRADER v2.0
+======================================================================
+Size: 0.01 SOL x 5
+Exit: +15% / -7% / 4h
+======================================================================
+
+
+======================================================================
+🚀 CYCLE #1 - BUYING NEW POSITIONS
+======================================================================
+📡 Fetching tokens...
+
+📊 Found 18 setups, buying top 5
+
+🎯 BUY #1: UNKNOWN
+   Grade: A Score: 90
+   TX: 5KAgjYd77QhV87zPrz25f9o1wbnKBQHkPx8Dfa4YeDfH3kMMpHQwm13AoRUh6UirKeStURze9V61Sws4STZpuSLi
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #2: UNKNOWN
+   Grade: A Score: 90
+   TX: 2N74PJub9ZYHM3veoGyJaGnv29vqQgSapGC5zBzoYpGyDuKRPeYn8ADqVpGLhzdBqp5LzMveiaacsh4Rq3SVEcvy
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #3: UNKNOWN
+   Grade: A Score: 90
+   TX: 2x9dTCVEwNN1juu9MTTiirrWxCh6hs1NPPJbijzWKxZnxM7FBYLJdFaVA5NYUbUnMkpYmWW5Wmto6ndDGBpBP1jN
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #4: UNKNOWN
+   Grade: A Score: 90
+   TX: 38MpGc93bxztjAu2L3cWhc7bGXAdJwFLPb8ppL195tvE2JH7SGfaozmdUNA8z4qmM2ra7afni1XCVeTJHjwuJCBQ
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #5: UNKNOWN
+   Grade: A Score: 80
+   TX: gtop8sp4xDJo6bAVyRDNLuP8C8PUcMhGmwcEwpUbvg9CMbPvELAzLuhpT4JyarWwvBfz7aXbK3i7f7JkMyMJnnM
+   ✅ BOUGHT!
+
+✅ Bought 5/5
+
+📡 Check #1 - 2:15:12 AM
+
+📊 Monitoring 5 positions
+------------------------------------------------------------
+
+   #1 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      ⚠️ Not in wallet - marking as sold
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009754 SOL | P&L: -2.46%
+      🟡 Holding
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009859 SOL | P&L: -1.41%
+      🟡 Holding
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008827 SOL | P&L: -11.73%
+      🚨 SL -11.7%!
+
+🔴 SELL UNKNOWN - SL -11.7%
+   ✅ SOLD! Received 0.009753 SOL
+
+   #5 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008692 SOL | P&L: -13.08%
+      🚨 SL -13.1%!
+
+🔴 SELL UNKNOWN - SL -13.1%
+   ✅ SOLD! Received 0.009750 SOL
+
+⏳ 2 positions holding
+   Next check in 30s
+
+
+📡 Check #2 - 2:15:50 AM
+
+📊 Monitoring 2 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.010115 SOL | P&L: 1.15%
+      🟡 Holding
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.011978 SOL | P&L: 19.78%
+      🚨 TP 19.8%!
+
+🔴 SELL UNKNOWN - TP 19.8%
+   ✅ SOLD! Received 0.012092 SOL
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #3 - 2:16:24 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009775 SOL | P&L: -2.25%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #4 - 2:16:56 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.011326 SOL | P&L: 13.26%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #5 - 2:17:28 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.010774 SOL | P&L: 7.74%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #6 - 2:18:00 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.010476 SOL | P&L: 4.76%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #7 - 2:18:32 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.010497 SOL | P&L: 4.97%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #8 - 2:19:04 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.010136 SOL | P&L: 1.36%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #9 - 2:19:36 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009839 SOL | P&L: -1.61%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #10 - 2:20:08 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009605 SOL | P&L: -3.95%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #11 - 2:20:40 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009562 SOL | P&L: -4.38%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #12 - 2:21:12 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009562 SOL | P&L: -4.38%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #13 - 2:21:44 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009520 SOL | P&L: -4.80%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #14 - 2:22:16 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.008755 SOL | P&L: -12.45%
+      🚨 SL -12.5%!
+
+🔴 SELL UNKNOWN - SL -12.5%
+   ✅ SOLD! Received 0.008764 SOL
+
+🎉 All sold! Starting new cycle...
+⏳ Waiting 10s before next cycle...
+
+
+======================================================================
+🚀 CYCLE #2 - BUYING NEW POSITIONS
+======================================================================
+📡 Fetching tokens...
+
+📊 Found 17 setups, buying top 5
+
+🎯 BUY #1: UNKNOWN
+   Grade: A Score: 90
+   TX: 2wBmfF4n4eaJ4ekGRThTrSx19dz1NLNbcAUNCQsPeiPnYxb3zN4Rj8UcbsRkhCXUCEXuYy7iwWT4jfUecRFXScmU
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #2: UNKNOWN
+   Grade: A Score: 90
+   TX: 3sJ1ZLX6nSBe3Y7KhH1dWNKGHwFdbfgpi4gwZ4YC36kkUUqUMdspPkzc931LpuJMouYN3yfsod61xz16TA5QRfMx
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #3: UNKNOWN
+   Grade: A Score: 90
+   TX: 5Vx6fNbWrj5BCKXMorjrG8A8Ehvn6xQvRTfyrFMazmbreX3PM3SoQekmiBvQKDwJgEctXZWuHP4CJx3j8sjF9DqP
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #4: UNKNOWN
+   Grade: A Score: 90
+   TX: eHhtQ6mBq2BmkhNQmmmBao7LLBQUNRAxFER9jDaHUqbhnt39qoST239Sb4fWwx5ZXeDMCRSP1naWePfAYj9PTNo
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #5: UNKNOWN
+   Grade: A Score: 80
+   TX: 3FkVcoHcFN2paUGjQp7GgZPhfoDJ6g4BvQEa8t4fg8Ni2PbGM1wvmW6xfMPXeqDdJGzc5RJ4oBzph9NhL733hF32
+   ✅ BOUGHT!
+
+✅ Bought 5/5
+   Next check in 30s
+
+
+📡 Check #15 - 2:23:32 AM
+
+📊 Monitoring 5 positions
+------------------------------------------------------------
+
+   #1 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008122 SOL | P&L: -18.78%
+      🚨 SL -18.8%!
+
+🔴 SELL UNKNOWN - SL -18.8%
+   ✅ SOLD! Received 0.009684 SOL
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008947 SOL | P&L: -10.53%
+      🚨 SL -10.5%!
+
+🔴 SELL UNKNOWN - SL -10.5%
+   ✅ SOLD! Received 0.009751 SOL
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009161 SOL | P&L: -8.39%
+      🚨 SL -8.4%!
+
+🔴 SELL UNKNOWN - SL -8.4%
+   ✅ SOLD! Received 0.009265 SOL
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.010572 SOL | P&L: 5.72%
+      🟡 Holding
+
+   #5 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009072 SOL | P&L: -9.28%
+      🚨 SL -9.3%!
+
+🔴 SELL UNKNOWN - SL -9.3%
+   ✅ SOLD! Received 0.009753 SOL
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #16 - 2:24:14 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009765 SOL | P&L: -2.35%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #17 - 2:24:46 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009955 SOL | P&L: -0.45%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #18 - 2:25:18 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009573 SOL | P&L: -4.27%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #19 - 2:25:50 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009468 SOL | P&L: -5.32%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #20 - 2:26:22 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009382 SOL | P&L: -6.18%
+      🟡 Holding
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #21 - 2:26:54 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      Value: 0.009115 SOL | P&L: -8.85%
+      🚨 SL -8.8%!
+
+🔴 SELL UNKNOWN - SL -8.8%
+   ✅ SOLD! Received 0.009118 SOL
+
+🎉 All sold! Starting new cycle...
+⏳ Waiting 10s before next cycle...
+
+
+======================================================================
+🚀 CYCLE #3 - BUYING NEW POSITIONS
+======================================================================
+📡 Fetching tokens...
+
+📊 Found 16 setups, buying top 5
+
+🎯 BUY #1: UNKNOWN
+   Grade: A Score: 90
+   TX: 5v3VQqotWgjUb2v5Bvc1L62Qn1L7c7QhT24n9TDGiZoduzWSfdZysekW9eevm5zU7tGYRcbMsc5pgPpMFaEaDbDq
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #2: UNKNOWN
+   Grade: A Score: 80
+   TX: 4wPQERszawfQYSouzZgDd2yJjRGL1LDKSXDuCHL5d72juM8P5srLKMjVQAXKmqiLvHK4x4YQUCyDnXRpPjrFa37u
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #3: UNKNOWN
+   Grade: A Score: 80
+   TX: 4U6wY2BiFcVu1WExb5nC4rxq7Maqyadej44UdSszVUj9Vr4J1Au886bmpfrgvxr2e6XTk27DHxQ5tikavoK41USU
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #4: UNKNOWN
+   Grade: A Score: 80
+   TX: 4pNemhAgWcxPbZZaY7cZCDnL1QaMSzx5S36sKfCd18xE5ya2MGiCM8Sixh7CHeHcBCX66txnbwzm1eARv4UtVWri
+   ✅ BOUGHT!
+   ⏳ Waiting 5s...
+
+🎯 BUY #5: UNKNOWN
+   Grade: A Score: 80
+   TX: 3VimdBHcxaARoXDLnMb3Gb7cPWytkVCTLTDmkUgpHMidQT2kpWiqrgMqknsTMChLygcYtbzVk4yf9EFb8YiPVjiv
+   ✅ BOUGHT!
+
+✅ Bought 5/5
+   Next check in 30s
+
+
+📡 Check #22 - 2:28:09 AM
+
+📊 Monitoring 5 positions
+------------------------------------------------------------
+
+   #1 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008488 SOL | P&L: -15.12%
+      🚨 SL -15.1%!
+
+🔴 SELL UNKNOWN - SL -15.1%
+   ✅ SOLD! Received 0.008720 SOL
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009882 SOL | P&L: -1.18%
+      🟡 Holding
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      ⚠️ Error: Request failed with status code 400
+
+   #4 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008197 SOL | P&L: -18.03%
+      🚨 SL -18.0%!
+
+🔴 SELL UNKNOWN - SL -18.0%
+   ✅ SOLD! Received 0.009741 SOL
+
+   #5 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009408 SOL | P&L: -5.92%
+      🟡 Holding
+
+⏳ 3 positions holding
+   Next check in 30s
+
+
+📡 Check #23 - 2:28:47 AM
+
+📊 Monitoring 3 positions
+------------------------------------------------------------
+
+   #2 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.008913 SOL | P&L: -10.87%
+      🚨 SL -10.9%!
+
+🔴 SELL UNKNOWN - SL -10.9%
+   ✅ SOLD! Received 0.008967 SOL
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      ⚠️ Error: Request failed with status code 400
+
+   #5 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009408 SOL | P&L: -5.92%
+      🟡 Holding
+
+⏳ 2 positions holding
+   Next check in 30s
+
+
+📡 Check #24 - 2:29:22 AM
+
+📊 Monitoring 2 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      ⚠️ Error: Request failed with status code 400
+
+   #5 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      Value: 0.009231 SOL | P&L: -7.69%
+      🚨 SL -7.7%!
+
+🔴 SELL UNKNOWN - SL -7.7%
+   ✅ SOLD! Received 0.009481 SOL
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #25 - 2:29:57 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.0h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #26 - 2:30:29 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #27 - 2:31:01 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #28 - 2:31:33 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #29 - 2:32:05 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #30 - 2:32:37 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #31 - 2:33:10 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #32 - 2:33:40 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #33 - 2:34:12 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #34 - 2:34:45 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+
+
+📡 Check #35 - 2:35:17 AM
+
+📊 Monitoring 1 positions
+------------------------------------------------------------
+
+   #3 UNKNOWN:
+      Entry: 0.0100 SOL | Time: 0.1h
+      ⚠️ Error: Request failed with status code 400
+
+⏳ 1 positions holding
+   Next check in 30s
+

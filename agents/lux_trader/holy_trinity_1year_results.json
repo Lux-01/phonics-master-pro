@@ -1,0 +1,1367 @@
+{
+  "strategy": "Holy Trinity v1.0",
+  "components": [
+    "Rug-Radar",
+    "Mean-Reverter",
+    "LuxTrader"
+  ],
+  "weights": {
+    "rug_radar": 0.35,
+    "mean_reverter": 0.4,
+    "luxtrader": 0.25
+  },
+  "duration": "1 year",
+  "start_capital": 1.0,
+  "end_capital": 910.6954284140758,
+  "total_pnl": 909.6954284140758,
+  "roi_pct": 90969.54284140757,
+  "multiplier": 910.6954284140758,
+  "total_trades": 982,
+  "wins": 620,
+  "losses": 362,
+  "win_rate": 63.13645621181263,
+  "trades": [
+    {
+      "capital_before": 1.0,
+      "capital_after": 1.02088012,
+      "position_sol": 0.11460000000000002,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.020880120000000005,
+      "pnl_pct": 18.22,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "CHADDEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.02088012,
+      "capital_after": 1.038312056401048,
+      "position_sol": 0.11699286175200002,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.017431936401048002,
+      "pnl_pct": 14.899999999999999,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "LUNADEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.038312056401048,
+      "capital_after": 1.0587070386701822,
+      "position_sol": 0.11899056166356012,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.020394982269134204,
+      "pnl_pct": 17.14,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "SHIBAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0587070386701822,
+      "capital_after": 1.069590144719037,
+      "position_sol": 0.12132782663160291,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.010883106048854781,
+      "pnl_pct": 8.97,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "DEGENINU",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.069590144719037,
+      "capital_after": 1.0810876825878915,
+      "position_sol": 0.12257503058480167,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.011497537868854397,
+      "pnl_pct": 9.38,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "BETA",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0810876825878915,
+      "capital_after": 1.0726535770321821,
+      "position_sol": 0.11351420667172861,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": -0.008434105555709434,
+      "pnl_pct": -7.429999999999999,
+      "composite_score": 62.5,
+      "outcome": "loss",
+      "symbol": "WOJAK",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0726535770321821,
+      "capital_after": 1.0804716769875957,
+      "position_sol": 0.1229260999278881,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.007818099955413684,
+      "pnl_pct": 6.36,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "FLOKIAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0804716769875957,
+      "capital_after": 1.0984988066822952,
+      "position_sol": 0.11344952608369756,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": 0.018027129694699544,
+      "pnl_pct": 15.89,
+      "composite_score": 62.5,
+      "outcome": "win",
+      "symbol": "FLOKIAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0984988066822952,
+      "capital_after": 1.109315944131457,
+      "position_sol": 0.12292201646774882,
+      "position_pct": 11.19,
+      "pnl_sol": 0.010817137449161898,
+      "pnl_pct": 8.8,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "MEME",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.109315944131457,
+      "capital_after": 1.0936538229247295,
+      "position_sol": 0.127127607197465,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": -0.015662121206727688,
+      "pnl_pct": -12.32,
+      "composite_score": 86.5,
+      "outcome": "loss",
+      "symbol": "BARKINU",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0936538229247295,
+      "capital_after": 1.1053598997299394,
+      "position_sol": 0.12533272810717402,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.011706076805210054,
+      "pnl_pct": 9.34,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "FLOKIINU",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1053598997299394,
+      "capital_after": 1.091629362234672,
+      "position_sol": 0.12844282034861898,
+      "position_pct": 11.620000000000003,
+      "pnl_sol": -0.013730537495267368,
+      "pnl_pct": -10.69,
+      "composite_score": 90.5,
+      "outcome": "loss",
+      "symbol": "DOGEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 85,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.091629362234672,
+      "capital_after": 1.12181616715596,
+      "position_sol": 0.12510072491209343,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.03018680492128814,
+      "pnl_pct": 24.13,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "SIGMA",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.12181616715596,
+      "capital_after": 1.113612886433632,
+      "position_sol": 0.13125249155724736,
+      "position_pct": 11.700000000000003,
+      "pnl_sol": -0.00820328072232796,
+      "pnl_pct": -6.25,
+      "composite_score": 92.5,
+      "outcome": "loss",
+      "symbol": "ZETATOKEN",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 90,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.113612886433632,
+      "capital_after": 1.107132995770052,
+      "position_sol": 0.12461328199192342,
+      "position_pct": 11.19,
+      "pnl_sol": -0.0064798906635800185,
+      "pnl_pct": -5.2,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "APEAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.107132995770052,
+      "capital_after": 1.0837924622385475,
+      "position_sol": 0.12388818222666882,
+      "position_pct": 11.19,
+      "pnl_sol": -0.023340533531504407,
+      "pnl_pct": -18.84,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "BONK",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.0837924622385475,
+      "capital_after": 1.1088360339908554,
+      "position_sol": 0.12127637652449347,
+      "position_pct": 11.19,
+      "pnl_sol": 0.0250435717523079,
+      "pnl_pct": 20.65,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "SIGMAAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1088360339908554,
+      "capital_after": 1.135635647333425,
+      "position_sol": 0.12707260949535204,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.026799613342569747,
+      "pnl_pct": 21.09,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "STARCOIN",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.135635647333425,
+      "capital_after": 1.146654379328807,
+      "position_sol": 0.13196086222014403,
+      "position_pct": 11.620000000000003,
+      "pnl_sol": 0.011018731995382025,
+      "pnl_pct": 8.35,
+      "composite_score": 90.5,
+      "outcome": "win",
+      "symbol": "ALPHADAO",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 85,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.146654379328807,
+      "capital_after": 1.160807671931388,
+      "position_sol": 0.12773729785722912,
+      "position_pct": 11.14,
+      "pnl_sol": 0.014153292602580986,
+      "pnl_pct": 11.08,
+      "composite_score": 78.5,
+      "outcome": "win",
+      "symbol": "WOOFDEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 90,
+          "reason": "A grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.160807671931388,
+      "capital_after": 1.1510689134546455,
+      "position_sol": 0.13488585147842733,
+      "position_pct": 11.620000000000003,
+      "pnl_sol": -0.009738758476742453,
+      "pnl_pct": -7.22,
+      "composite_score": 90.5,
+      "outcome": "loss",
+      "symbol": "BETADEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 85,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1510689134546455,
+      "capital_after": 1.1469532435332102,
+      "position_sol": 0.1319124974819024,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": -0.004115669921435355,
+      "pnl_pct": -3.12,
+      "composite_score": 86.5,
+      "outcome": "loss",
+      "symbol": "DEGENX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1469532435332102,
+      "capital_after": 1.1299989921568347,
+      "position_sol": 0.12834406795136621,
+      "position_pct": 11.19,
+      "pnl_sol": -0.016954251376375476,
+      "pnl_pct": -13.209999999999999,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "ELON",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1299989921568347,
+      "capital_after": 1.1233901930512056,
+      "position_sol": 0.11864989417646767,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": -0.006608799105629249,
+      "pnl_pct": -5.57,
+      "composite_score": 62.5,
+      "outcome": "loss",
+      "symbol": "MOONX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1233901930512056,
+      "capital_after": 1.1489709336049785,
+      "position_sol": 0.12874051612366819,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.02558074055377287,
+      "pnl_pct": 19.87,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "MEME",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1489709336049785,
+      "capital_after": 1.1797295289213066,
+      "position_sol": 0.13167206899113057,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.030758595316328102,
+      "pnl_pct": 23.36,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "ELONDEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1797295289213066,
+      "capital_after": 1.1751328307848177,
+      "position_sol": 0.13519700401438176,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": -0.00459669813648898,
+      "pnl_pct": -3.4000000000000004,
+      "composite_score": 86.5,
+      "outcome": "loss",
+      "symbol": "DOGECOIN",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1751328307848177,
+      "capital_after": 1.181906742971937,
+      "position_sol": 0.13467022240794013,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.006773912187119389,
+      "pnl_pct": 5.03,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "CHADDAO",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.181906742971937,
+      "capital_after": 1.2103234213457508,
+      "position_sol": 0.135446512744584,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.028416678373813724,
+      "pnl_pct": 20.98,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "DEGENDEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2103234213457508,
+      "capital_after": 1.1819497488629713,
+      "position_sol": 0.13543519084858952,
+      "position_pct": 11.19,
+      "pnl_sol": -0.028373672482779503,
+      "pnl_pct": -20.95,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "BETA",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1819497488629713,
+      "capital_after": 1.1966437481408359,
+      "position_sol": 0.12410472363061201,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": 0.014693999277864462,
+      "pnl_pct": 11.84,
+      "composite_score": 62.5,
+      "outcome": "win",
+      "symbol": "CAT",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1966437481408359,
+      "capital_after": 1.188853597340439,
+      "position_sol": 0.12564759355478777,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": -0.007790150800396842,
+      "pnl_pct": -6.2,
+      "composite_score": 62.5,
+      "outcome": "loss",
+      "symbol": "SHIB",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.188853597340439,
+      "capital_after": 1.2088883246023236,
+      "position_sol": 0.13303271754239512,
+      "position_pct": 11.19,
+      "pnl_sol": 0.020034727261884707,
+      "pnl_pct": 15.06,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "BONK2",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2088883246023236,
+      "capital_after": 1.2262034738532677,
+      "position_sol": 0.13527460352300003,
+      "position_pct": 11.19,
+      "pnl_sol": 0.017315149250944004,
+      "pnl_pct": 12.8,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "BONKX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2262034738532677,
+      "capital_after": 1.2002284868537307,
+      "position_sol": 0.14248484366174974,
+      "position_pct": 11.620000000000003,
+      "pnl_sol": -0.02597498699953698,
+      "pnl_pct": -18.23,
+      "composite_score": 90.5,
+      "outcome": "loss",
+      "symbol": "ZETAAI",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 85,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2002284868537307,
+      "capital_after": 1.221163016148852,
+      "position_sol": 0.13754618459343756,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.0209345292951212,
+      "pnl_pct": 15.22,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "DEGEN2",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.221163016148852,
+      "capital_after": 1.2487042475777017,
+      "position_sol": 0.13994528165065848,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.027541231428849587,
+      "pnl_pct": 19.68,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "GAMMA2",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2487042475777017,
+      "capital_after": 1.2375566402001315,
+      "position_sol": 0.14310150677240463,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": -0.01114760737757032,
+      "pnl_pct": -7.79,
+      "composite_score": 86.5,
+      "outcome": "loss",
+      "symbol": "MEMEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2375566402001315,
+      "capital_after": 1.25338520001292,
+      "position_sol": 0.13848258803839472,
+      "position_pct": 11.19,
+      "pnl_sol": 0.015828559812788516,
+      "pnl_pct": 11.43,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "MEMEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.25338520001292,
+      "capital_after": 1.2453835888960374,
+      "position_sol": 0.1316054460013566,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": -0.008001611116882482,
+      "pnl_pct": -6.08,
+      "composite_score": 62.5,
+      "outcome": "loss",
+      "symbol": "FLOKI2",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2453835888960374,
+      "capital_after": 1.230483520746424,
+      "position_sol": 0.1427209592874859,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": -0.014900068149613527,
+      "pnl_pct": -10.44,
+      "composite_score": 86.5,
+      "outcome": "loss",
+      "symbol": "WOJAKPAD",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.230483520746424,
+      "capital_after": 1.2498869661657335,
+      "position_sol": 0.1410134114775402,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.019403445419309533,
+      "pnl_pct": 13.76,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "CAT",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2498869661657335,
+      "capital_after": 1.2196631744617472,
+      "position_sol": 0.14523686546845826,
+      "position_pct": 11.620000000000003,
+      "pnl_sol": -0.03022379170398616,
+      "pnl_pct": -20.81,
+      "composite_score": 90.5,
+      "outcome": "loss",
+      "symbol": "LUNADEX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 85,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Fresh <6h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2196631744617472,
+      "capital_after": 1.2123887739802002,
+      "position_sol": 0.1364803092222695,
+      "position_pct": 11.19,
+      "pnl_sol": -0.007274400481546964,
+      "pnl_pct": -5.33,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "CHADX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2123887739802002,
+      "capital_after": 1.220708476720558,
+      "position_sol": 0.13506010942139432,
+      "position_pct": 11.14,
+      "pnl_sol": 0.00831970274035789,
+      "pnl_pct": 6.16,
+      "composite_score": 78.5,
+      "outcome": "win",
+      "symbol": "ZETAINU",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 90,
+          "reason": "A grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.220708476720558,
+      "capital_after": 1.1959195496837938,
+      "position_sol": 0.12817439005565862,
+      "position_pct": 10.500000000000002,
+      "pnl_sol": -0.024788927036764375,
+      "pnl_pct": -19.34,
+      "composite_score": 62.5,
+      "outcome": "loss",
+      "symbol": "SHIB2",
+      "signals": {
+        "rug_radar": {
+          "confidence": 60,
+          "reason": "Safety: 60/100"
+        },
+        "mean_reverter": {
+          "confidence": 60,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 70,
+          "reason": "B grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.1959195496837938,
+      "capital_after": 1.2127545331030836,
+      "position_sol": 0.13382339760961653,
+      "position_pct": 11.19,
+      "pnl_sol": 0.01683498341928976,
+      "pnl_pct": 12.58,
+      "composite_score": 79.75,
+      "outcome": "win",
+      "symbol": "FLOKIX",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2127545331030836,
+      "capital_after": 1.2327678935101638,
+      "position_sol": 0.1389816694936134,
+      "position_pct": 11.460000000000003,
+      "pnl_sol": 0.020013360407080332,
+      "pnl_pct": 14.400000000000002,
+      "composite_score": 86.5,
+      "outcome": "win",
+      "symbol": "BONKDAO",
+      "signals": {
+        "rug_radar": {
+          "confidence": 90,
+          "reason": "Safety: 90/100"
+        },
+        "mean_reverter": {
+          "confidence": 75,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 100,
+          "reason": "A+ grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2327678935101638,
+      "capital_after": 1.2432049996037782,
+      "position_sol": 0.13733034333703226,
+      "position_pct": 11.14,
+      "pnl_sol": 0.010437106093614451,
+      "pnl_pct": 7.6,
+      "composite_score": 78.5,
+      "outcome": "win",
+      "symbol": "GAMMA",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 90,
+          "reason": "A grade | Recent <24h"
+        }
+      }
+    },
+    {
+      "capital_before": 1.2432049996037782,
+      "capital_after": 1.2253983257534533,
+      "position_sol": 0.13911463945566277,
+      "position_pct": 11.19,
+      "pnl_sol": -0.017806673850324833,
+      "pnl_pct": -12.8,
+      "composite_score": 79.75,
+      "outcome": "loss",
+      "symbol": "PEPE",
+      "signals": {
+        "rug_radar": {
+          "confidence": 80,
+          "reason": "Safety: 80/100"
+        },
+        "mean_reverter": {
+          "confidence": 70,
+          "reason": "Small dip: -8.0%"
+        },
+        "luxtrader": {
+          "confidence": 95,
+          "reason": "A grade | Early <12h"
+        }
+      }
+    }
+  ],
+  "weight_history": [
+    {
+      "trade": 100,
+      "capital": 1.7551939435541373,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 200,
+      "capital": 3.1126093820335337,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 300,
+      "capital": 5.9764942722755094,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 400,
+      "capital": 10.664655056938994,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 500,
+      "capital": 21.524445855754685,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 600,
+      "capital": 39.22814356666759,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 700,
+      "capital": 93.28570428891567,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 800,
+      "capital": 123.88138152103899,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 900,
+      "capital": 243.09878876558997,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    },
+    {
+      "trade": 1000,
+      "capital": 381.9792135158818,
+      "weights": {
+        "rug_radar": 0.35,
+        "mean_reverter": 0.4,
+        "luxtrader": 0.25
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "buyTx": "3Gg9cL9gAaohfmcK5xX7kznJJm71ZPkViG55TZ9bZgaYcxDwsJegvHUzyZ4BKMBrZ7ij7v2QWA1mcEjTtUf68mZp",
+  "sellTx": "26TX7eSapjEkG6jMhvHtzUupYx1Khe3CQ1BBtYbvyf3G7PpVtaYCnSvRqaJAE55SR3JNBX5LTNJdxVS52cpYz3B9",
+  "usdcReceived": 0.007808,
+  "usdcSold": 0.007808,
+  "balanceBefore": 1.174531301,
+  "balanceAfter": 1.174421601,
+  "fees": 0.00010970000000010138,
+  "pnl": 0,
+  "errors": []
+}

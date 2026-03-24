@@ -1,0 +1,130 @@
+/* Alternative Color Schemes for Bouncy Castle Website */
+/* Copy the scheme you like and replace the colors in style.css */
+
+/* ============================================
+   SCHEME 1: BRIGHT & FUN (Primary Colors)
+   Best for: Young kids, energetic vibe
+   ============================================ */
+:root {
+    --primary: #FF6B6B;        /* Bright Red */
+    --primary-dark: #EE5A5A;
+    --secondary: #4ECDC4;      /* Turquoise */
+    --accent: #FFE66D;         /* Yellow */
+    --background: #FFF9F0;     /* Cream */
+    --text: #2C3E50;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   SCHEME 2: PASTEL DREAM
+   Best for: Soft, friendly, Instagram-worthy
+   ============================================ */
+:root {
+    --primary: #FF9A9E;        /* Soft Pink */
+    --primary-dark: #F08080;
+    --secondary: #A8E6CF;      /* Mint Green */
+    --accent: #FFD3B6;         /* Peach */
+    --background: #FFF5F5;     /* Very light pink */
+    --text: #4A4A4A;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   SCHEME 3: SUNSET ORANGE (Current - Modified)
+   Best for: Warm, inviting, energetic
+   ============================================ */
+:root {
+    --primary: #FF8C42;        /* Orange */
+    --primary-dark: #E86A33;
+    --secondary: #6C5CE7;      /* Purple */
+    --accent: #FFD93D;         /* Golden Yellow */
+    --background: #FFF8F0;     /* Warm cream */
+    --text: #2D3436;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   SCHEME 4: OCEAN BREEZE
+   Best for: Calm, trustworthy, professional
+   ============================================ */
+:root {
+    --primary: #00B894;        /* Teal */
+    --primary-dark: #00A383;
+    --secondary: #0984E3;      /* Blue */
+    --accent: #FDCB6E;         /* Sand */
+    --background: #F0F9FF;     /* Light blue tint */
+    --text: #2D3436;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   SCHEME 5: RAINBOW FUN
+   Best for: Maximum fun, colorful parties
+   ============================================ */
+:root {
+    --primary: #FF6B6B;        /* Red */
+    --primary-dark: #EE5A5A;
+    --secondary: #9B59B6;      /* Purple */
+    --accent: #F1C40F;         /* Yellow */
+    --background: #FFFFFF;     /* White */
+    --text: #2C3E50;
+    --white: #FFFFFF;
+    --rainbow-1: #FF6B6B;       /* Red */
+    --rainbow-2: #FDCB6E;       /* Orange */
+    --rainbow-3: #FFE66D;       /* Yellow */
+    --rainbow-4: #6BCB77;       /* Green */
+    --rainbow-5: #4D96FF;       /* Blue */
+    --rainbow-6: #9B59B6;       /* Purple */
+}
+
+/* ============================================
+   SCHEME 6: PROFESSIONAL TRUST
+   Best for: Corporate events, premium service
+   ============================================ */
+:root {
+    --primary: #2C3E50;        /* Navy */
+    --primary-dark: #1A252F;
+    --secondary: #E74C3C;      /* Red accent */
+    --accent: #F39C12;         /* Gold */
+    --background: #ECF0F1;     /* Light gray */
+    --text: #2C3E50;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   SCHEME 7: CANDY SHOP
+   Best for: Sweet, playful, memorable
+   ============================================ */
+:root {
+    --primary: #FF6B9D;        /* Hot Pink */
+    --primary-dark: #E85A8A;
+    --secondary: #C44569;      /* Dark Pink */
+    --accent: #F8B500;         /* Candy Yellow */
+    --background: #FFF0F3;     /* Pink tint */
+    --text: #2D3436;
+    --white: #FFFFFF;
+}
+
+/* ============================================
+   HOW TO APPLY:
+   
+   1. Choose a scheme above
+   2. Replace these CSS variables in your style.css:
+      
+      Replace header background:
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      
+      Replace hero background:
+      background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+      
+      Replace features background:
+      background: var(--background);
+      
+      Replace text colors:
+      color: var(--text);
+      
+      Replace button colors:
+      background: var(--primary);
+      
+   3. Save and refresh!
+   ============================================ */

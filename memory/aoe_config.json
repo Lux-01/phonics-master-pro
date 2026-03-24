@@ -1,0 +1,54 @@
+{
+  "name": "aoe-opportunity-monitor",
+  "status": "ACTIVE",
+  "schedule": "Every 30 minutes",
+  "created": "2026-03-09T01:11:00+11:00",
+  "config": {
+    "alert_threshold": 82,
+    "queue_threshold": 75,
+    "scan_sources": ["dexscreener"],
+    "chains": ["solana"]
+  },
+  "scoring_weights": {
+    "potential": 0.25,
+    "probability": 0.25,
+    "speed": 0.15,
+    "fit": 0.15,
+    "alpha": 0.20,
+    "risk": -0.20,
+    "effort": -0.10
+  },
+  "filters": {
+    "min_market_cap": 500000,
+    "min_volume_24h": 50000,
+    "min_liquidity": 20000
+  },
+  "actions": {
+    "score_ge_90": "urgent_alert",
+    "score_82_89": "high_priority_alert",
+    "score_75_81": "add_to_queue",
+    "score_60_74": "log_only",
+    "score_lt_60": "ignore"
+  },
+  "discord_integration": false,
+  "telegram_integration": true,
+  "alerts": {
+    "immediately": {
+      "channels": ["telegram"],
+      "threshold": 82,
+      "cooldown_minutes": 15
+    },
+    "digest": {
+      "frequency": "daily",
+      "time": "09:00",
+      "timezone": "Australia/Sydney"
+    }
+  },
+  "stats": {
+    "totalScans": 1,
+    "opportunitiesFound": 2,
+    "alertsSent": 0,
+    "queueSize": 0,
+    "lastScan": "2026-03-09T01:11:54+11:00"
+  }
+}

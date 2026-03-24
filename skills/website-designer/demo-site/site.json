@@ -1,0 +1,36 @@
+{
+  "name": "Luxe Vision",
+  "description": "Handcrafted luxury sunglasses for the discerning individual",
+  "url": "https://luxevision.com",
+  "type": "business",
+  "created": "2026-03-11T04:34:47.408516",
+  "theme": {
+    "primary": "#D4AF37",
+    "secondary": "#1A1A1A",
+    "background": "#0A0A0A",
+    "surface": "#141414",
+    "text": "#FAF9F6",
+    "textMuted": "#A0A0A0",
+    "border": "#2A2A2A",
+    "success": "#D4AF37",
+    "warning": "#C9B037",
+    "error": "#FF4444",
+    "darkMode": true
+  },
+  "typography": {
+    "fontHeading": "Playfair Display, serif",
+    "fontBody": "Inter, sans-serif",
+    "scale": 1.125
+  },
+  "security": {
+    "csp": true,
+    "hsts": true,
+    "xss": true,
+    "scanOnBuild": true
+  },
+  "seo": {
+    "title": "Luxe Vision | Handcrafted Luxury Sunglasses",
+    "description": "Discover our collection of handcrafted luxury sunglasses. Italian acetate, Zeiss lenses, timeless design.",
+    "keywords": ["luxury sunglasses", "designer eyewear", "handcrafted", "Italian acetate", "premium lenses"]
+  }
+}

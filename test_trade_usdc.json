@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2026-03-14T23:38:00+11:00",
+    "system": "Manual Test",
+    "action": "PENDING - Swap 0.001 SOL to USDC",
+    "wallet": "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5",
+    "input": {
+      "token": "SOL",
+      "amount": 0.001,
+      "amountLamports": 1000000
+    },
+    "output": {
+      "token": "USDC",
+      "expectedAmount": "~0.14",
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    "slippage": 2.5,
+    "status": "PENDING",
+    "note": "Network connectivity issue - execution pending. Try via Jupiter directly: https://jup.ag"
+  }
+]

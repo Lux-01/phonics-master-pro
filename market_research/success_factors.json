@@ -1,0 +1,56 @@
+{
+  "macro_monitoring": {
+    "description": "Track macro factors affecting all markets",
+    "items": [
+      "Fed interest rate decisions (FOMC)",
+      "CPI/PCE inflation data",
+      "Employment reports (NFP)",
+      "GDP growth rates",
+      "Dollar index (DXY)",
+      "10Y Treasury yields"
+    ]
+  },
+  "risk_management": {
+    "description": "Essential risk controls",
+    "items": [
+      "Max 5% in any single position",
+      "Stop losses on all trades",
+      "Monthly portfolio rebalancing",
+      "Emergency cash reserve (6 months)",
+      "Correlation monitoring (don't double down)",
+      "Tax-loss harvesting"
+    ]
+  },
+  "automation": {
+    "description": "Set up automated systems",
+    "items": [
+      "Auto DCA for weekly deposits",
+      "Price alerts for entry/exit",
+      "News alerts for catalysts",
+      "Dividend reinvestment (DRIP)",
+      "Monthly performance reports",
+      "Tax document collection"
+    ]
+  },
+  "education": {
+    "description": "Continuous learning",
+    "items": [
+      "Weekly market recap review",
+      "Earnings call summaries",
+      "Fed speech analysis",
+      "Sector rotation tracking",
+      "New strategy backtesting"
+    ]
+  },
+  "tools": {
+    "description": "Recommended tools to use",
+    "items": [
+      "TradingView (charts)",
+      "Yahoo Finance (news)",
+      "Seeking Alpha (analysis)",
+      "Dividend.com (ex-dates)",
+      "CoinGecko (crypto data)",
+      "OpenClaw skills (automation)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ENT-ats",
+  "type": "skill",
+  "name": "ATS",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "analysis",
+    "trading"
+  ],
+  "created": "2026-03-20T04:52:13.787154"
+}

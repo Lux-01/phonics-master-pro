@@ -1,0 +1,300 @@
+{
+  "timestamp": "2026-03-22T20:15:58.154491",
+  "cycle_number": 3,
+  "mode": "LIVE_v2",
+  "tokens_available": 17,
+  "summary": {
+    "total_strategies": 10,
+    "total_capital_sol": 11.4,
+    "total_capital_usd": 1710.0,
+    "initial_capital_sol": 12.0,
+    "total_pnl_sol": 0.0,
+    "total_pnl_usd": 0.0,
+    "pnl_percentage": 0.0,
+    "total_trades": 10,
+    "open_positions": 5,
+    "closed_trades": 5,
+    "win_rate": 0.0,
+    "active_strategies": 10,
+    "evolution_generation": 0
+  },
+  "strategies": [
+    {
+      "id": 1,
+      "name": "Momentum Surge",
+      "description": "Buy on volume spike + price breakout. Ride momentum waves.",
+      "timeframe": "1h",
+      "risk_level": "high",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.2,
+      "invested_sol": 0,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 2,
+      "name": "Mean Reversion Dip",
+      "description": "Buy -10% to -15% dips, sell on bounce to mean.",
+      "timeframe": "30m",
+      "risk_level": "medium",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.2,
+      "invested_sol": 0,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 3,
+      "name": "Whale Shadow",
+      "description": "Copy trades from tracked whale wallets with slight delay.",
+      "timeframe": "real-time",
+      "risk_level": "medium",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.2,
+      "invested_sol": 0,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 4,
+      "name": "RSI Oversold",
+      "description": "Buy when RSI < 30 with volume confirmation. Classic technical.",
+      "timeframe": "15m",
+      "risk_level": "medium",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.2,
+      "invested_sol": 0,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 5,
+      "name": "Breakout Hunter",
+      "description": "Identify key resistance levels, buy on confirmed breakout.",
+      "timeframe": "1h",
+      "risk_level": "high",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.2,
+      "invested_sol": 0,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 0,
+      "open_positions": 0,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 6,
+      "name": "Social Sentiment",
+      "description": "Trade on Twitter mention spikes and social buzz.",
+      "timeframe": "15m",
+      "risk_level": "high",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.08,
+      "invested_sol": 0.12,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 2,
+      "open_positions": 1,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 7,
+      "name": "Liquidity Surfing",
+      "description": "Ride liquidity waves - enter on inflow, exit before drain.",
+      "timeframe": "30m",
+      "risk_level": "medium",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.08,
+      "invested_sol": 0.12,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 2,
+      "open_positions": 1,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 8,
+      "name": "EMA Cross",
+      "description": "Golden cross entry (EMA 9 > EMA 21), death cross exit.",
+      "timeframe": "1h",
+      "risk_level": "low",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.08,
+      "invested_sol": 0.12,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 2,
+      "open_positions": 1,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 9,
+      "name": "Range Trader",
+      "description": "Identify support/resistance ranges. Buy support, sell resistance.",
+      "timeframe": "30m",
+      "risk_level": "low",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.08,
+      "invested_sol": 0.12,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 2,
+      "open_positions": 1,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    },
+    {
+      "id": 10,
+      "name": "News Arbitrage",
+      "description": "React to major news within 60 seconds. Lightning fast.",
+      "timeframe": "5m",
+      "risk_level": "very_high",
+      "generation": 0,
+      "initial_sol": 1.2,
+      "current_sol": 1.08,
+      "invested_sol": 0.12,
+      "pnl_sol": 0.0,
+      "pnl_usd": 0.0,
+      "pnl_percentage": 0.0,
+      "total_trades": 2,
+      "open_positions": 1,
+      "win_count": 0,
+      "loss_count": 0,
+      "win_rate": 0.0
+    }
+  ],
+  "holdings": {
+    "MEME ": {
+      "symbol": "MEME ",
+      "total_sol_invested": 0.12,
+      "strategies": [
+        "Social Sentiment"
+      ],
+      "entry_prices": [
+        2.536e-06
+      ],
+      "avg_entry_price": 2.536e-06
+    },
+    "meme": {
+      "symbol": "meme",
+      "total_sol_invested": 0.24,
+      "strategies": [
+        "Liquidity Surfing",
+        "News Arbitrage"
+      ],
+      "entry_prices": [
+        2.783e-06,
+        2.783e-06
+      ],
+      "avg_entry_price": 2.783e-06
+    },
+    "MEME": {
+      "symbol": "MEME",
+      "total_sol_invested": 0.24,
+      "strategies": [
+        "EMA Cross",
+        "Range Trader"
+      ],
+      "entry_prices": [
+        0.00235,
+        0.00235
+      ],
+      "avg_entry_price": 0.00235
+    }
+  },
+  "closed_trade_history": [
+    {
+      "strategy": "Social Sentiment",
+      "symbol": "MEME",
+      "entry_price": 0.00235,
+      "exit_price": 0.00235,
+      "pnl_sol": 0,
+      "pnl_pct": 0,
+      "held_hours": 6.484110736666667
+    },
+    {
+      "strategy": "Liquidity Surfing",
+      "symbol": "meme",
+      "entry_price": 2.858e-06,
+      "exit_price": 2.858e-06,
+      "pnl_sol": 0,
+      "pnl_pct": 0,
+      "held_hours": 6.484110718611111
+    },
+    {
+      "strategy": "EMA Cross",
+      "symbol": "meme",
+      "entry_price": 2.858e-06,
+      "exit_price": 2.858e-06,
+      "pnl_sol": 0,
+      "pnl_pct": 0,
+      "held_hours": 6.484110626666666
+    },
+    {
+      "strategy": "Range Trader",
+      "symbol": "DOG",
+      "entry_price": 0.0006226,
+      "exit_price": 0.0006226,
+      "pnl_sol": 0,
+      "pnl_pct": 0,
+      "held_hours": 6.484110625833334
+    },
+    {
+      "strategy": "News Arbitrage",
+      "symbol": "meme",
+      "entry_price": 2.858e-06,
+      "exit_price": 2.858e-06,
+      "pnl_sol": 0,
+      "pnl_pct": 0,
+      "held_hours": 6.484110624166666
+    }
+  ],
+  "recent_actions": []
+}

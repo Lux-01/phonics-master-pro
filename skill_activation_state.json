@@ -1,0 +1,170 @@
+{
+  "audit_date": "2026-03-09T05:03:00+11:00",
+  "total_skills": 27,
+  "active_skills": 21,
+  "dormant_skills": 6,
+  "skills": {
+    "aloe": {
+      "status": "active",
+      "runner": "aloe_engine.py",
+      "tier": 5,
+      "last_updated": "2026-03-09T04:28:00+11:00"
+    },
+    "autonomous-agent": {
+      "status": "active",
+      "runner": "autonomous_agent.py",
+      "tier": 4,
+      "last_updated": "2026-03-09T04:26:00+11:00"
+    },
+    "autonomous-code-architect": {
+      "status": "active",
+      "runner": "autonomous_code_architect.py",
+      "tier": 4,
+      "last_updated": "2026-03-09T04:55:00+11:00"
+    },
+    "autonomous-opportunity-engine": {
+      "status": "active",
+      "runner": "aoe_runner.py",
+      "tier": 3,
+      "last_updated": "2026-03-09T04:21:00+11:00"
+    },
+    "autonomous-trading-strategist": {
+      "status": "active",
+      "runner": "ats_runner.py",
+      "tier": 3,
+      "last_updated": "2026-03-09T04:20:00+11:00"
+    },
+    "autonomous-workflow-builder": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 3,
+      "activation_required": true,
+      "notes": "Needs runner with EventBus integration"
+    },
+    "captcha-solver": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 1,
+      "activation_required": true,
+      "notes": "Has scripts but needs main runner"
+    },
+    "chart-analyzer": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 1,
+      "activation_required": true,
+      "notes": "Has scripts but needs main runner"
+    },
+    "code-evolution-tracker": {
+      "status": "active",
+      "runner": "code_evolution_tracker.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:10:00+11:00"
+    },
+    "context-optimizer": {
+      "status": "active",
+      "runner": "context_optimizer.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:04:00+11:00"
+    },
+    "decision-log": {
+      "status": "active",
+      "runner": "decision_log.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:06:00+11:00"
+    },
+    "event-bus": {
+      "status": "active",
+      "runner": "event_bus.py",
+      "tier": 5,
+      "last_updated": "2026-03-09T04:59:00+11:00"
+    },
+    "income-optimizer": {
+      "status": "active",
+      "runner": "income_tracker.py",
+      "tier": 3,
+      "last_updated": "2026-03-09T03:42:00+11:00"
+    },
+    "integration-orchestrator": {
+      "status": "active",
+      "runner": "integration_orchestrator.py",
+      "tier": 5,
+      "last_updated": "2026-03-09T03:49:00+11:00"
+    },
+    "knowledge-graph-engine": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 4,
+      "activation_required": true,
+      "notes": "Needs runner with EventBus integration"
+    },
+    "long-term-project-manager": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 4,
+      "activation_required": true,
+      "notes": "Needs runner with EventBus integration"
+    },
+    "memory-manager": {
+      "status": "active",
+      "runner": "memory_manager.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:11:00+11:00"
+    },
+    "multi-agent-coordinator": {
+      "status": "active",
+      "runner": "multi_agent_coordinator.py",
+      "tier": 4,
+      "last_updated": "2026-03-09T04:32:00+11:00"
+    },
+    "research-synthesizer": {
+      "status": "active",
+      "runner": "research_synthesizer.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:08:00+11:00"
+    },
+    "sensory-input-layer": {
+      "status": "active",
+      "runner": "sensory_input_layer.py",
+      "tier": 1,
+      "last_updated": "2026-03-09T04:30:00+11:00"
+    },
+    "skill-activation-manager": {
+      "status": "active",
+      "runner": "activation_manager.py",
+      "tier": 5,
+      "last_updated": "2026-03-09T03:42:00+11:00"
+    },
+    "skill-evolution-engine": {
+      "status": "active",
+      "runner": "skill_evolution_engine.py",
+      "tier": 5,
+      "last_updated": "2026-03-09T04:55:00+11:00"
+    },
+    "stealth-browser": {
+      "status": "dormant",
+      "runner": null,
+      "tier": 1,
+      "activation_required": true,
+      "notes": "Has scripts but needs main runner"
+    },
+    "tool-orchestrator": {
+      "status": "active",
+      "runner": "tool_orchestrator.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:09:00+11:00"
+    },
+    "workspace-organizer": {
+      "status": "active",
+      "runner": "workspace_organizer.py",
+      "tier": 2,
+      "last_updated": "2026-03-09T04:08:00+11:00"
+    }
+  },
+  "activation_plan": {
+    "tier_1_integration": ["decision-log", "research-synthesizer", "tool-orchestrator", "code-evolution-tracker"],
+    "tier_2_verify": ["sensory-input-layer", "multi-agent-coordinator"],
+    "tier_3_create_runners": ["autonomous-workflow-builder", "long-term-project-manager", "knowledge-graph-engine"],
+    "other_skills": ["stealth-browser", "captcha-solver", "chart-analyzer"]
+  }
+}

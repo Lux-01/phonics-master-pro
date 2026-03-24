@@ -1,0 +1,9 @@
+{
+  "patterns_found": 3,
+  "examples_collected": 5,
+  "technology_stack_recommended": [
+    "Python",
+    "FastAPI",
+    "React"
+  ]
+}

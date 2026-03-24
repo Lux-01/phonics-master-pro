@@ -1,0 +1,2230 @@
+{
+  "strategy": "Rug-Radar Scalper",
+  "description": "High-frequency micro-cap trading with strict rug filters",
+  "initial_balance": 1.0,
+  "final_balance": 3.8672,
+  "total_return_pct": 286.72,
+  "total_trades": 243,
+  "wins": 199,
+  "losses": 44,
+  "win_rate_pct": 81.89,
+  "avg_trade_return_pct": 11.8,
+  "rugs_avoided": 55,
+  "avg_risk_score": 0.011,
+  "avg_position_size_sol": 0.4913,
+  "learning_history": [
+    {
+      "trade_count": 15,
+      "win_rate": 0.8666666666666667,
+      "avg_risk": -0.016666666666666666,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.08,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.3,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 30,
+      "win_rate": 0.9333333333333333,
+      "avg_risk": 0.004166666666666665,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.0824,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.315,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 45,
+      "win_rate": 0.8888888888888888,
+      "avg_risk": 0.029166666666666667,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.0824,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.315,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 60,
+      "win_rate": 0.9,
+      "avg_risk": -0.020833333333333336,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.0824,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.315,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 75,
+      "win_rate": 0.88,
+      "avg_risk": 0.012499999999999999,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.084872,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 90,
+      "win_rate": 0.8666666666666667,
+      "avg_risk": 0.004166666666666669,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.084872,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 105,
+      "win_rate": 0.8666666666666667,
+      "avg_risk": 0.02916666666666667,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.084872,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 120,
+      "win_rate": 0.8583333333333333,
+      "avg_risk": 0.008333333333333333,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.08741816000000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 135,
+      "win_rate": 0.8444444444444444,
+      "avg_risk": -0.012499999999999999,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.08741816000000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 150,
+      "win_rate": 0.8333333333333334,
+      "avg_risk": 1.1564823173178713e-18,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.08741816000000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 165,
+      "win_rate": 0.8303030303030303,
+      "avg_risk": -0.004166666666666667,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.09004070480000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 180,
+      "win_rate": 0.8222222222222222,
+      "avg_risk": 0.004166666666666668,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.09004070480000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.30555,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 195,
+      "win_rate": 0.8256410256410256,
+      "avg_risk": 0.04583333333333334,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.09004070480000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.3208275,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 210,
+      "win_rate": 0.819047619047619,
+      "avg_risk": 0.012499999999999999,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.09004070480000001,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.311202675,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 225,
+      "win_rate": 0.8266666666666667,
+      "avg_risk": -0.004166666666666667,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.092741925944,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.311202675,
+        "volume_boost": 1.5
+      }
+    },
+    {
+      "trade_count": 240,
+      "win_rate": 0.8166666666666667,
+      "avg_risk": 0.03333333333333333,
+      "params": {
+        "min_mcap": 5000,
+        "max_mcap": 80000,
+        "max_age_hours": 36,
+        "profit_target": 0.092741925944,
+        "stop_loss": 0.05,
+        "base_position": 0.12,
+        "max_position": 0.25,
+        "rug_threshold": 0.32676280875,
+        "volume_boost": 1.5
+      }
+    }
+  ],
+  "final_params": {
+    "min_mcap": 5000,
+    "max_mcap": 80000,
+    "max_age_hours": 36,
+    "profit_target": 0.092741925944,
+    "stop_loss": 0.05,
+    "base_position": 0.12,
+    "max_position": 0.25,
+    "rug_threshold": 0.32676280875,
+    "volume_boost": 1.5
+  },
+  "trades": [
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 18.22,
+      "pnl_sol": 0.0182,
+      "risk_score": -0.05,
+      "mcap": 23201,
+      "day": 1
+    },
+    {
+      "symbol": "LUNADEX",
+      "pnl_pct": 14.9,
+      "pnl_sol": 0.0149,
+      "risk_score": 0.0,
+      "mcap": 46064,
+      "day": 1
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 17.14,
+      "pnl_sol": 0.0171,
+      "risk_score": -0.05,
+      "mcap": 34574,
+      "day": 1
+    },
+    {
+      "symbol": "DEGENINU",
+      "pnl_pct": 8.97,
+      "pnl_sol": 0.009,
+      "risk_score": -0.05,
+      "mcap": 29707,
+      "day": 1
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 9.34,
+      "pnl_sol": 0.0093,
+      "risk_score": -0.05,
+      "mcap": 51279,
+      "day": 2
+    },
+    {
+      "symbol": "SIGMA",
+      "pnl_pct": 24.13,
+      "pnl_sol": 0.0241,
+      "risk_score": -0.05,
+      "mcap": 15801,
+      "day": 2
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": 21.09,
+      "pnl_sol": 0.0211,
+      "risk_score": -0.05,
+      "mcap": 47352,
+      "day": 3
+    },
+    {
+      "symbol": "ALPHADAO",
+      "pnl_pct": 8.35,
+      "pnl_sol": 0.0084,
+      "risk_score": 0.05,
+      "mcap": 57504,
+      "day": 3
+    },
+    {
+      "symbol": "WOOFDEX",
+      "pnl_pct": 11.08,
+      "pnl_sol": 0.0111,
+      "risk_score": 0.05,
+      "mcap": 24198,
+      "day": 3
+    },
+    {
+      "symbol": "BETADEX",
+      "pnl_pct": -7.22,
+      "pnl_sol": -0.0072,
+      "risk_score": 0.05,
+      "mcap": 20886,
+      "day": 3
+    },
+    {
+      "symbol": "ELONDEX",
+      "pnl_pct": 23.36,
+      "pnl_sol": 0.0234,
+      "risk_score": -0.05,
+      "mcap": 41200,
+      "day": 4
+    },
+    {
+      "symbol": "DOGECOIN",
+      "pnl_pct": -3.4,
+      "pnl_sol": -0.0034,
+      "risk_score": 0.0,
+      "mcap": 58709,
+      "day": 4
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 5.03,
+      "pnl_sol": 0.005,
+      "risk_score": 0.0,
+      "mcap": 29901,
+      "day": 4
+    },
+    {
+      "symbol": "DEGENDEX",
+      "pnl_pct": 20.98,
+      "pnl_sol": 0.021,
+      "risk_score": -0.05,
+      "mcap": 48876,
+      "day": 4
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 15.22,
+      "pnl_sol": 0.0152,
+      "risk_score": -0.05,
+      "mcap": 32650,
+      "day": 5
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 19.68,
+      "pnl_sol": 0.0197,
+      "risk_score": 0.0,
+      "mcap": 27887,
+      "day": 5
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 13.76,
+      "pnl_sol": 0.0138,
+      "risk_score": -0.05,
+      "mcap": 31283,
+      "day": 6
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": 6.16,
+      "pnl_sol": 0.0062,
+      "risk_score": 0.05,
+      "mcap": 42678,
+      "day": 6
+    },
+    {
+      "symbol": "BONKDAO",
+      "pnl_pct": 14.4,
+      "pnl_sol": 0.0144,
+      "risk_score": 0.0,
+      "mcap": 75820,
+      "day": 7
+    },
+    {
+      "symbol": "APECOIN",
+      "pnl_pct": 21.08,
+      "pnl_sol": 0.0211,
+      "risk_score": -0.05,
+      "mcap": 60735,
+      "day": 8
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 23.03,
+      "pnl_sol": 0.023,
+      "risk_score": 0.0,
+      "mcap": 63537,
+      "day": 9
+    },
+    {
+      "symbol": "ALPHA",
+      "pnl_pct": 21.36,
+      "pnl_sol": 0.0214,
+      "risk_score": 0.05,
+      "mcap": 15999,
+      "day": 9
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 19.94,
+      "pnl_sol": 0.0199,
+      "risk_score": 0.3,
+      "mcap": 31778,
+      "day": 10
+    },
+    {
+      "symbol": "MEMEDEX",
+      "pnl_pct": 10.05,
+      "pnl_sol": 0.0101,
+      "risk_score": -0.05,
+      "mcap": 37174,
+      "day": 10
+    },
+    {
+      "symbol": "VOID",
+      "pnl_pct": 7.32,
+      "pnl_sol": 0.0073,
+      "risk_score": -0.05,
+      "mcap": 33794,
+      "day": 10
+    },
+    {
+      "symbol": "CAT",
+      "pnl_pct": 24.91,
+      "pnl_sol": 0.0249,
+      "risk_score": -0.05,
+      "mcap": 54814,
+      "day": 10
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.64,
+      "pnl_sol": 0.0216,
+      "risk_score": -0.05,
+      "mcap": 54963,
+      "day": 10
+    },
+    {
+      "symbol": "WOOF2",
+      "pnl_pct": 16.76,
+      "pnl_sol": 0.0168,
+      "risk_score": 0.0,
+      "mcap": 46067,
+      "day": 11
+    },
+    {
+      "symbol": "CATINU",
+      "pnl_pct": 5.31,
+      "pnl_sol": 0.0053,
+      "risk_score": 0.0,
+      "mcap": 67446,
+      "day": 11
+    },
+    {
+      "symbol": "BETA2",
+      "pnl_pct": 14.79,
+      "pnl_sol": 0.0148,
+      "risk_score": -0.05,
+      "mcap": 38089,
+      "day": 11
+    },
+    {
+      "symbol": "VOIDDAO",
+      "pnl_pct": 21.88,
+      "pnl_sol": 0.0219,
+      "risk_score": -0.05,
+      "mcap": 32339,
+      "day": 12
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "pnl_pct": 18.34,
+      "pnl_sol": 0.0183,
+      "risk_score": 0.05,
+      "mcap": 49391,
+      "day": 13
+    },
+    {
+      "symbol": "VOIDINU",
+      "pnl_pct": -3.49,
+      "pnl_sol": -0.0035,
+      "risk_score": 0.0,
+      "mcap": 52845,
+      "day": 13
+    },
+    {
+      "symbol": "FLOKIINU",
+      "pnl_pct": 21.02,
+      "pnl_sol": 0.021,
+      "risk_score": 0.0,
+      "mcap": 48268,
+      "day": 13
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -5.67,
+      "pnl_sol": -0.0057,
+      "risk_score": 0.0,
+      "mcap": 14172,
+      "day": 13
+    },
+    {
+      "symbol": "PEPEX",
+      "pnl_pct": -5.01,
+      "pnl_sol": -0.005,
+      "risk_score": 0.05,
+      "mcap": 53932,
+      "day": 14
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 16.85,
+      "pnl_sol": 0.0169,
+      "risk_score": 0.0,
+      "mcap": 31912,
+      "day": 14
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 23.28,
+      "pnl_sol": 0.0233,
+      "risk_score": 0.0,
+      "mcap": 58843,
+      "day": 14
+    },
+    {
+      "symbol": "GAMMAAI",
+      "pnl_pct": 7.7,
+      "pnl_sol": 0.0077,
+      "risk_score": 0.05,
+      "mcap": 40644,
+      "day": 15
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 15.5,
+      "pnl_sol": 0.0155,
+      "risk_score": 0.0,
+      "mcap": 31953,
+      "day": 15
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 10.04,
+      "pnl_sol": 0.01,
+      "risk_score": 0.05,
+      "mcap": 36124,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 9.11,
+      "pnl_sol": 0.0091,
+      "risk_score": 0.05,
+      "mcap": 46993,
+      "day": 15
+    },
+    {
+      "symbol": "LUNACOIN",
+      "pnl_pct": 13.57,
+      "pnl_sol": 0.0136,
+      "risk_score": 0.05,
+      "mcap": 40503,
+      "day": 15
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 8.59,
+      "pnl_sol": 0.0086,
+      "risk_score": 0.05,
+      "mcap": 53364,
+      "day": 16
+    },
+    {
+      "symbol": "DEGENDAO",
+      "pnl_pct": 21.76,
+      "pnl_sol": 0.0218,
+      "risk_score": 0.05,
+      "mcap": 38081,
+      "day": 16
+    },
+    {
+      "symbol": "BARKCOIN",
+      "pnl_pct": 22.5,
+      "pnl_sol": 0.0225,
+      "risk_score": 0.05,
+      "mcap": 56818,
+      "day": 16
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 25.0,
+      "pnl_sol": 0.025,
+      "risk_score": 0.0,
+      "mcap": 51020,
+      "day": 16
+    },
+    {
+      "symbol": "BETAX",
+      "pnl_pct": 6.51,
+      "pnl_sol": 0.0065,
+      "risk_score": 0.05,
+      "mcap": 46098,
+      "day": 16
+    },
+    {
+      "symbol": "BARKDEX",
+      "pnl_pct": 9.07,
+      "pnl_sol": 0.0091,
+      "risk_score": -0.05,
+      "mcap": 44504,
+      "day": 17
+    },
+    {
+      "symbol": "ZETADEX",
+      "pnl_pct": 10.18,
+      "pnl_sol": 0.0102,
+      "risk_score": 0.0,
+      "mcap": 39646,
+      "day": 17
+    },
+    {
+      "symbol": "SHIBDEX",
+      "pnl_pct": 12.13,
+      "pnl_sol": 0.0121,
+      "risk_score": -0.05,
+      "mcap": 41989,
+      "day": 17
+    },
+    {
+      "symbol": "CHADTOKEN",
+      "pnl_pct": 13.9,
+      "pnl_sol": 0.0139,
+      "risk_score": 0.0,
+      "mcap": 67939,
+      "day": 17
+    },
+    {
+      "symbol": "DEGENX",
+      "pnl_pct": 6.6,
+      "pnl_sol": 0.0066,
+      "risk_score": 0.0,
+      "mcap": 49958,
+      "day": 18
+    },
+    {
+      "symbol": "BASEDINU",
+      "pnl_pct": 21.85,
+      "pnl_sol": 0.0219,
+      "risk_score": -0.05,
+      "mcap": 50167,
+      "day": 18
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -3.55,
+      "pnl_sol": -0.0035,
+      "risk_score": -0.05,
+      "mcap": 17798,
+      "day": 19
+    },
+    {
+      "symbol": "APEAI",
+      "pnl_pct": 11.94,
+      "pnl_sol": 0.0119,
+      "risk_score": -0.05,
+      "mcap": 42149,
+      "day": 19
+    },
+    {
+      "symbol": "PEPEINU",
+      "pnl_pct": 5.66,
+      "pnl_sol": 0.0057,
+      "risk_score": 0.05,
+      "mcap": 41668,
+      "day": 20
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 12.95,
+      "pnl_sol": 0.0129,
+      "risk_score": -0.05,
+      "mcap": 47600,
+      "day": 20
+    },
+    {
+      "symbol": "APEX",
+      "pnl_pct": 16.97,
+      "pnl_sol": 0.017,
+      "risk_score": 0.05,
+      "mcap": 12777,
+      "day": 21
+    },
+    {
+      "symbol": "MEOWTOKEN",
+      "pnl_pct": 23.21,
+      "pnl_sol": 0.0232,
+      "risk_score": -0.05,
+      "mcap": 14490,
+      "day": 24
+    },
+    {
+      "symbol": "MEMEINU",
+      "pnl_pct": 16.5,
+      "pnl_sol": 0.0165,
+      "risk_score": -0.05,
+      "mcap": 23949,
+      "day": 24
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": -3.97,
+      "pnl_sol": -0.004,
+      "risk_score": 0.05,
+      "mcap": 46784,
+      "day": 24
+    },
+    {
+      "symbol": "SHIBX",
+      "pnl_pct": 20.37,
+      "pnl_sol": 0.0204,
+      "risk_score": 0.05,
+      "mcap": 37759,
+      "day": 25
+    },
+    {
+      "symbol": "PEPEDEX",
+      "pnl_pct": 23.58,
+      "pnl_sol": 0.0236,
+      "risk_score": -0.05,
+      "mcap": 55954,
+      "day": 25
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "pnl_pct": 23.9,
+      "pnl_sol": 0.0239,
+      "risk_score": -0.05,
+      "mcap": 38628,
+      "day": 26
+    },
+    {
+      "symbol": "LUNAX",
+      "pnl_pct": 19.52,
+      "pnl_sol": 0.0195,
+      "risk_score": -0.05,
+      "mcap": 28443,
+      "day": 27
+    },
+    {
+      "symbol": "ZETA2",
+      "pnl_pct": 21.78,
+      "pnl_sol": 0.0218,
+      "risk_score": 0.05,
+      "mcap": 22884,
+      "day": 28
+    },
+    {
+      "symbol": "LUNAAI",
+      "pnl_pct": 19.42,
+      "pnl_sol": 0.0194,
+      "risk_score": 0.0,
+      "mcap": 51795,
+      "day": 29
+    },
+    {
+      "symbol": "PEPE",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "risk_score": -0.05,
+      "mcap": 64127,
+      "day": 29
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": -5.14,
+      "pnl_sol": -0.0051,
+      "risk_score": -0.05,
+      "mcap": 27883,
+      "day": 30
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 5.57,
+      "pnl_sol": 0.0056,
+      "risk_score": 0.05,
+      "mcap": 70835,
+      "day": 31
+    },
+    {
+      "symbol": "MEOWPAD",
+      "pnl_pct": -5.45,
+      "pnl_sol": -0.0054,
+      "risk_score": -0.05,
+      "mcap": 48232,
+      "day": 31
+    },
+    {
+      "symbol": "ELONDAO",
+      "pnl_pct": 7.19,
+      "pnl_sol": 0.0072,
+      "risk_score": 0.3,
+      "mcap": 34176,
+      "day": 32
+    },
+    {
+      "symbol": "CHAD2",
+      "pnl_pct": 7.25,
+      "pnl_sol": 0.0073,
+      "risk_score": 0.05,
+      "mcap": 12000,
+      "day": 33
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 21.27,
+      "pnl_sol": 0.0213,
+      "risk_score": 0.0,
+      "mcap": 44293,
+      "day": 34
+    },
+    {
+      "symbol": "CAT2",
+      "pnl_pct": 18.7,
+      "pnl_sol": 0.0187,
+      "risk_score": 0.05,
+      "mcap": 57699,
+      "day": 35
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 22.83,
+      "pnl_sol": 0.0228,
+      "risk_score": -0.05,
+      "mcap": 25475,
+      "day": 37
+    },
+    {
+      "symbol": "WOJAKAI",
+      "pnl_pct": 22.99,
+      "pnl_sol": 0.023,
+      "risk_score": 0.0,
+      "mcap": 33626,
+      "day": 38
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": -4.51,
+      "pnl_sol": -0.0045,
+      "risk_score": -0.05,
+      "mcap": 48934,
+      "day": 39
+    },
+    {
+      "symbol": "GAMMA2",
+      "pnl_pct": 10.76,
+      "pnl_sol": 0.0108,
+      "risk_score": 0.0,
+      "mcap": 33021,
+      "day": 40
+    },
+    {
+      "symbol": "STAR2",
+      "pnl_pct": 23.52,
+      "pnl_sol": 0.0235,
+      "risk_score": -0.05,
+      "mcap": 28607,
+      "day": 40
+    },
+    {
+      "symbol": "MEMEAI",
+      "pnl_pct": 22.15,
+      "pnl_sol": 0.0221,
+      "risk_score": 0.15,
+      "mcap": 51441,
+      "day": 41
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 10.3,
+      "pnl_sol": 0.0103,
+      "risk_score": -0.05,
+      "mcap": 51207,
+      "day": 41
+    },
+    {
+      "symbol": "APE",
+      "pnl_pct": 15.15,
+      "pnl_sol": 0.0152,
+      "risk_score": -0.05,
+      "mcap": 56413,
+      "day": 42
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": -7.92,
+      "pnl_sol": -0.0079,
+      "risk_score": -0.05,
+      "mcap": 51062,
+      "day": 43
+    },
+    {
+      "symbol": "MEMEAI",
+      "pnl_pct": 8.68,
+      "pnl_sol": 0.0087,
+      "risk_score": -0.05,
+      "mcap": 41983,
+      "day": 43
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 22.47,
+      "pnl_sol": 0.0225,
+      "risk_score": -0.05,
+      "mcap": 39959,
+      "day": 43
+    },
+    {
+      "symbol": "BARKDAO",
+      "pnl_pct": 14.42,
+      "pnl_sol": 0.0144,
+      "risk_score": 0.05,
+      "mcap": 10350,
+      "day": 44
+    },
+    {
+      "symbol": "APEPAD",
+      "pnl_pct": -7.87,
+      "pnl_sol": -0.0079,
+      "risk_score": 0.15,
+      "mcap": 54548,
+      "day": 45
+    },
+    {
+      "symbol": "SOL",
+      "pnl_pct": 14.88,
+      "pnl_sol": 0.0149,
+      "risk_score": 0.05,
+      "mcap": 30713,
+      "day": 45
+    },
+    {
+      "symbol": "STARPAD",
+      "pnl_pct": 22.79,
+      "pnl_sol": 0.0228,
+      "risk_score": 0.05,
+      "mcap": 41983,
+      "day": 45
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.84,
+      "pnl_sol": 0.0068,
+      "risk_score": -0.05,
+      "mcap": 54398,
+      "day": 46
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 8.32,
+      "pnl_sol": 0.0083,
+      "risk_score": 0.0,
+      "mcap": 18672,
+      "day": 46
+    },
+    {
+      "symbol": "SHIBCOIN",
+      "pnl_pct": 21.13,
+      "pnl_sol": 0.0211,
+      "risk_score": -0.05,
+      "mcap": 27523,
+      "day": 47
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 5.73,
+      "pnl_sol": 0.0057,
+      "risk_score": 0.0,
+      "mcap": 44314,
+      "day": 47
+    },
+    {
+      "symbol": "BASED",
+      "pnl_pct": -6.69,
+      "pnl_sol": -0.0067,
+      "risk_score": 0.05,
+      "mcap": 19571,
+      "day": 48
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": -6.07,
+      "pnl_sol": -0.0061,
+      "risk_score": -0.05,
+      "mcap": 32953,
+      "day": 48
+    },
+    {
+      "symbol": "DOGE2",
+      "pnl_pct": 20.69,
+      "pnl_sol": 0.0207,
+      "risk_score": 0.15,
+      "mcap": 33116,
+      "day": 48
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 13.4,
+      "pnl_sol": 0.0134,
+      "risk_score": -0.05,
+      "mcap": 23862,
+      "day": 49
+    },
+    {
+      "symbol": "BONK2",
+      "pnl_pct": 20.27,
+      "pnl_sol": 0.0203,
+      "risk_score": 0.15,
+      "mcap": 16228,
+      "day": 49
+    },
+    {
+      "symbol": "ALPHA2",
+      "pnl_pct": 10.34,
+      "pnl_sol": 0.0103,
+      "risk_score": -0.05,
+      "mcap": 10857,
+      "day": 49
+    },
+    {
+      "symbol": "SOL",
+      "pnl_pct": 17.42,
+      "pnl_sol": 0.0174,
+      "risk_score": 0.05,
+      "mcap": 20279,
+      "day": 49
+    },
+    {
+      "symbol": "VOIDAI",
+      "pnl_pct": 7.41,
+      "pnl_sol": 0.0074,
+      "risk_score": 0.15,
+      "mcap": 79898,
+      "day": 50
+    },
+    {
+      "symbol": "ZETAAI",
+      "pnl_pct": 5.83,
+      "pnl_sol": 0.0058,
+      "risk_score": -0.05,
+      "mcap": 13420,
+      "day": 50
+    },
+    {
+      "symbol": "DEGENPAD",
+      "pnl_pct": 18.45,
+      "pnl_sol": 0.0184,
+      "risk_score": 0.05,
+      "mcap": 30861,
+      "day": 50
+    },
+    {
+      "symbol": "DOGEX",
+      "pnl_pct": -7.17,
+      "pnl_sol": -0.0072,
+      "risk_score": 0.15,
+      "mcap": 66066,
+      "day": 50
+    },
+    {
+      "symbol": "MEMEDAO",
+      "pnl_pct": 23.94,
+      "pnl_sol": 0.0239,
+      "risk_score": 0.0,
+      "mcap": 60749,
+      "day": 51
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 11.23,
+      "pnl_sol": 0.0112,
+      "risk_score": 0.05,
+      "mcap": 33697,
+      "day": 51
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 13.18,
+      "pnl_sol": 0.0132,
+      "risk_score": 0.05,
+      "mcap": 57340,
+      "day": 51
+    },
+    {
+      "symbol": "VOIDPAD",
+      "pnl_pct": 23.76,
+      "pnl_sol": 0.0238,
+      "risk_score": 0.05,
+      "mcap": 36729,
+      "day": 52
+    },
+    {
+      "symbol": "SIGMAAI",
+      "pnl_pct": 24.74,
+      "pnl_sol": 0.0247,
+      "risk_score": 0.05,
+      "mcap": 43965,
+      "day": 53
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 17.13,
+      "pnl_sol": 0.0171,
+      "risk_score": -0.05,
+      "mcap": 31171,
+      "day": 53
+    },
+    {
+      "symbol": "NEONINU",
+      "pnl_pct": 24.3,
+      "pnl_sol": 0.0243,
+      "risk_score": 0.0,
+      "mcap": 12049,
+      "day": 53
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": 8.57,
+      "pnl_sol": 0.0086,
+      "risk_score": -0.05,
+      "mcap": 28215,
+      "day": 54
+    },
+    {
+      "symbol": "ZETAPAD",
+      "pnl_pct": 15.82,
+      "pnl_sol": 0.0158,
+      "risk_score": 0.05,
+      "mcap": 53687,
+      "day": 55
+    },
+    {
+      "symbol": "BARK",
+      "pnl_pct": -7.62,
+      "pnl_sol": -0.0076,
+      "risk_score": -0.05,
+      "mcap": 69076,
+      "day": 56
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": -3.41,
+      "pnl_sol": -0.0034,
+      "risk_score": 0.05,
+      "mcap": 34753,
+      "day": 56
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": 12.83,
+      "pnl_sol": 0.0128,
+      "risk_score": 0.0,
+      "mcap": 33085,
+      "day": 56
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 18.49,
+      "pnl_sol": 0.0185,
+      "risk_score": 0.05,
+      "mcap": 36145,
+      "day": 57
+    },
+    {
+      "symbol": "BETADAO",
+      "pnl_pct": 16.33,
+      "pnl_sol": 0.0163,
+      "risk_score": -0.05,
+      "mcap": 16662,
+      "day": 57
+    },
+    {
+      "symbol": "DOGEAI",
+      "pnl_pct": 12.3,
+      "pnl_sol": 0.0123,
+      "risk_score": -0.05,
+      "mcap": 27791,
+      "day": 57
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -6.33,
+      "pnl_sol": -0.0063,
+      "risk_score": 0.05,
+      "mcap": 52413,
+      "day": 57
+    },
+    {
+      "symbol": "SHIBX",
+      "pnl_pct": 18.74,
+      "pnl_sol": 0.0187,
+      "risk_score": 0.05,
+      "mcap": 36819,
+      "day": 57
+    },
+    {
+      "symbol": "WOJAK2",
+      "pnl_pct": 5.55,
+      "pnl_sol": 0.0055,
+      "risk_score": -0.05,
+      "mcap": 24894,
+      "day": 58
+    },
+    {
+      "symbol": "WOOFCOIN",
+      "pnl_pct": 21.5,
+      "pnl_sol": 0.0215,
+      "risk_score": -0.05,
+      "mcap": 48718,
+      "day": 59
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 12.42,
+      "pnl_sol": 0.0124,
+      "risk_score": -0.05,
+      "mcap": 58482,
+      "day": 59
+    },
+    {
+      "symbol": "SOLCOIN",
+      "pnl_pct": -6.58,
+      "pnl_sol": -0.0066,
+      "risk_score": 0.0,
+      "mcap": 21260,
+      "day": 60
+    },
+    {
+      "symbol": "SOLDAO",
+      "pnl_pct": 22.14,
+      "pnl_sol": 0.0221,
+      "risk_score": 0.15,
+      "mcap": 42472,
+      "day": 60
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "pnl_pct": 20.33,
+      "pnl_sol": 0.0203,
+      "risk_score": -0.05,
+      "mcap": 44389,
+      "day": 62
+    },
+    {
+      "symbol": "FLOKIAI",
+      "pnl_pct": -6.21,
+      "pnl_sol": -0.0062,
+      "risk_score": -0.05,
+      "mcap": 46127,
+      "day": 62
+    },
+    {
+      "symbol": "DELTAPAD",
+      "pnl_pct": -4.11,
+      "pnl_sol": -0.0041,
+      "risk_score": 0.05,
+      "mcap": 29818,
+      "day": 63
+    },
+    {
+      "symbol": "MOONINU",
+      "pnl_pct": 23.13,
+      "pnl_sol": 0.0231,
+      "risk_score": -0.05,
+      "mcap": 50875,
+      "day": 63
+    },
+    {
+      "symbol": "MEMEDAO",
+      "pnl_pct": 7.91,
+      "pnl_sol": 0.0079,
+      "risk_score": 0.05,
+      "mcap": 56072,
+      "day": 65
+    },
+    {
+      "symbol": "ZETAINU",
+      "pnl_pct": 9.13,
+      "pnl_sol": 0.0091,
+      "risk_score": -0.05,
+      "mcap": 29228,
+      "day": 65
+    },
+    {
+      "symbol": "SOLX",
+      "pnl_pct": 11.89,
+      "pnl_sol": 0.0119,
+      "risk_score": -0.05,
+      "mcap": 64846,
+      "day": 66
+    },
+    {
+      "symbol": "BETACOIN",
+      "pnl_pct": -2.76,
+      "pnl_sol": -0.0028,
+      "risk_score": 0.05,
+      "mcap": 25262,
+      "day": 66
+    },
+    {
+      "symbol": "BARKDAO",
+      "pnl_pct": 22.32,
+      "pnl_sol": 0.0223,
+      "risk_score": 0.0,
+      "mcap": 61164,
+      "day": 67
+    },
+    {
+      "symbol": "NEONTOKEN",
+      "pnl_pct": 15.93,
+      "pnl_sol": 0.0159,
+      "risk_score": -0.05,
+      "mcap": 34596,
+      "day": 67
+    },
+    {
+      "symbol": "SOLDEX",
+      "pnl_pct": 14.28,
+      "pnl_sol": 0.0143,
+      "risk_score": -0.05,
+      "mcap": 14264,
+      "day": 67
+    },
+    {
+      "symbol": "WOOF",
+      "pnl_pct": -4.55,
+      "pnl_sol": -0.0046,
+      "risk_score": 0.15,
+      "mcap": 14871,
+      "day": 68
+    },
+    {
+      "symbol": "RAYTOKEN",
+      "pnl_pct": 7.56,
+      "pnl_sol": 0.0076,
+      "risk_score": -0.05,
+      "mcap": 68497,
+      "day": 68
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 12.59,
+      "pnl_sol": 0.0126,
+      "risk_score": -0.05,
+      "mcap": 45167,
+      "day": 69
+    },
+    {
+      "symbol": "NEONDAO",
+      "pnl_pct": 19.61,
+      "pnl_sol": 0.0196,
+      "risk_score": -0.05,
+      "mcap": 28995,
+      "day": 69
+    },
+    {
+      "symbol": "APETOKEN",
+      "pnl_pct": 5.44,
+      "pnl_sol": 0.0054,
+      "risk_score": -0.05,
+      "mcap": 58444,
+      "day": 70
+    },
+    {
+      "symbol": "DOGEPAD",
+      "pnl_pct": 23.26,
+      "pnl_sol": 0.0233,
+      "risk_score": -0.05,
+      "mcap": 49834,
+      "day": 71
+    },
+    {
+      "symbol": "CATAI",
+      "pnl_pct": 5.38,
+      "pnl_sol": 0.0054,
+      "risk_score": -0.05,
+      "mcap": 54443,
+      "day": 71
+    },
+    {
+      "symbol": "WOOFINU",
+      "pnl_pct": -2.02,
+      "pnl_sol": -0.002,
+      "risk_score": 0.05,
+      "mcap": 59032,
+      "day": 71
+    },
+    {
+      "symbol": "PEPEPAD",
+      "pnl_pct": -2.6,
+      "pnl_sol": -0.0026,
+      "risk_score": 0.05,
+      "mcap": 49834,
+      "day": 72
+    },
+    {
+      "symbol": "BARK",
+      "pnl_pct": 24.29,
+      "pnl_sol": 0.0243,
+      "risk_score": 0.05,
+      "mcap": 46388,
+      "day": 72
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.29,
+      "pnl_sol": 0.0153,
+      "risk_score": 0.05,
+      "mcap": 32690,
+      "day": 72
+    },
+    {
+      "symbol": "DELTADAO",
+      "pnl_pct": -5.53,
+      "pnl_sol": -0.0055,
+      "risk_score": -0.05,
+      "mcap": 48883,
+      "day": 73
+    },
+    {
+      "symbol": "ALPHAX",
+      "pnl_pct": 19.34,
+      "pnl_sol": 0.0193,
+      "risk_score": 0.05,
+      "mcap": 34692,
+      "day": 73
+    },
+    {
+      "symbol": "NEONX",
+      "pnl_pct": 23.79,
+      "pnl_sol": 0.0238,
+      "risk_score": 0.05,
+      "mcap": 57327,
+      "day": 73
+    },
+    {
+      "symbol": "GAMMAAI",
+      "pnl_pct": -6.01,
+      "pnl_sol": -0.006,
+      "risk_score": 0.05,
+      "mcap": 16330,
+      "day": 74
+    },
+    {
+      "symbol": "BASEDX",
+      "pnl_pct": 20.62,
+      "pnl_sol": 0.0206,
+      "risk_score": -0.05,
+      "mcap": 68438,
+      "day": 74
+    },
+    {
+      "symbol": "DOGEDAO",
+      "pnl_pct": 24.85,
+      "pnl_sol": 0.0248,
+      "risk_score": 0.05,
+      "mcap": 22028,
+      "day": 74
+    },
+    {
+      "symbol": "WOOFAI",
+      "pnl_pct": -7.32,
+      "pnl_sol": -0.0073,
+      "risk_score": -0.05,
+      "mcap": 56778,
+      "day": 75
+    },
+    {
+      "symbol": "NEONCOIN",
+      "pnl_pct": 5.11,
+      "pnl_sol": 0.0051,
+      "risk_score": 0.0,
+      "mcap": 64726,
+      "day": 75
+    },
+    {
+      "symbol": "BARKPAD",
+      "pnl_pct": 19.77,
+      "pnl_sol": 0.0198,
+      "risk_score": 0.05,
+      "mcap": 28096,
+      "day": 76
+    },
+    {
+      "symbol": "VOIDX",
+      "pnl_pct": 23.81,
+      "pnl_sol": 0.0238,
+      "risk_score": 0.05,
+      "mcap": 57357,
+      "day": 76
+    },
+    {
+      "symbol": "PEPE2",
+      "pnl_pct": 18.09,
+      "pnl_sol": 0.0181,
+      "risk_score": -0.05,
+      "mcap": 27542,
+      "day": 77
+    },
+    {
+      "symbol": "BONKDAO",
+      "pnl_pct": 16.95,
+      "pnl_sol": 0.0169,
+      "risk_score": -0.05,
+      "mcap": 66881,
+      "day": 77
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": 13.12,
+      "pnl_sol": 0.0131,
+      "risk_score": -0.05,
+      "mcap": 40221,
+      "day": 77
+    },
+    {
+      "symbol": "WOOF2",
+      "pnl_pct": 7.88,
+      "pnl_sol": 0.0079,
+      "risk_score": 0.0,
+      "mcap": 26927,
+      "day": 78
+    },
+    {
+      "symbol": "MEMEX",
+      "pnl_pct": 21.65,
+      "pnl_sol": 0.0217,
+      "risk_score": 0.0,
+      "mcap": 28918,
+      "day": 78
+    },
+    {
+      "symbol": "ALPHAINU",
+      "pnl_pct": -4.42,
+      "pnl_sol": -0.0044,
+      "risk_score": 0.05,
+      "mcap": 73487,
+      "day": 79
+    },
+    {
+      "symbol": "SIGMADEX",
+      "pnl_pct": 13.57,
+      "pnl_sol": 0.0136,
+      "risk_score": 0.05,
+      "mcap": 43815,
+      "day": 79
+    },
+    {
+      "symbol": "STARAI",
+      "pnl_pct": 13.53,
+      "pnl_sol": 0.0135,
+      "risk_score": -0.05,
+      "mcap": 58154,
+      "day": 79
+    },
+    {
+      "symbol": "ZETA2",
+      "pnl_pct": 20.83,
+      "pnl_sol": 0.0208,
+      "risk_score": -0.05,
+      "mcap": 15283,
+      "day": 80
+    },
+    {
+      "symbol": "STARCOIN",
+      "pnl_pct": -3.28,
+      "pnl_sol": -0.0033,
+      "risk_score": 0.05,
+      "mcap": 43939,
+      "day": 82
+    },
+    {
+      "symbol": "DOGEDEX",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "risk_score": -0.05,
+      "mcap": 35037,
+      "day": 82
+    },
+    {
+      "symbol": "SIGMATOKEN",
+      "pnl_pct": -2.59,
+      "pnl_sol": -0.0026,
+      "risk_score": 0.15,
+      "mcap": 39947,
+      "day": 83
+    },
+    {
+      "symbol": "ELONINU",
+      "pnl_pct": 7.88,
+      "pnl_sol": 0.0079,
+      "risk_score": 0.05,
+      "mcap": 36891,
+      "day": 83
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "pnl_pct": 5.93,
+      "pnl_sol": 0.0059,
+      "risk_score": -0.05,
+      "mcap": 29240,
+      "day": 83
+    },
+    {
+      "symbol": "DELTAAI",
+      "pnl_pct": 24.49,
+      "pnl_sol": 0.0245,
+      "risk_score": -0.05,
+      "mcap": 11698,
+      "day": 83
+    },
+    {
+      "symbol": "MEME2",
+      "pnl_pct": 23.65,
+      "pnl_sol": 0.0236,
+      "risk_score": 0.05,
+      "mcap": 23451,
+      "day": 84
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 13.17,
+      "pnl_sol": 0.0132,
+      "risk_score": 0.05,
+      "mcap": 26343,
+      "day": 85
+    },
+    {
+      "symbol": "WOOF",
+      "pnl_pct": -7.68,
+      "pnl_sol": -0.0077,
+      "risk_score": -0.05,
+      "mcap": 21165,
+      "day": 86
+    },
+    {
+      "symbol": "FLOKIDEX",
+      "pnl_pct": 22.04,
+      "pnl_sol": 0.022,
+      "risk_score": -0.05,
+      "mcap": 37936,
+      "day": 87
+    },
+    {
+      "symbol": "VOID2",
+      "pnl_pct": 7.89,
+      "pnl_sol": 0.0079,
+      "risk_score": 0.0,
+      "mcap": 37035,
+      "day": 87
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "pnl_pct": -5.57,
+      "pnl_sol": -0.0056,
+      "risk_score": 0.05,
+      "mcap": 36081,
+      "day": 88
+    },
+    {
+      "symbol": "STAR",
+      "pnl_pct": 14.58,
+      "pnl_sol": 0.0146,
+      "risk_score": -0.05,
+      "mcap": 15234,
+      "day": 88
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": 10.37,
+      "pnl_sol": 0.0104,
+      "risk_score": 0.05,
+      "mcap": 39900,
+      "day": 88
+    },
+    {
+      "symbol": "ALPHACOIN",
+      "pnl_pct": 9.42,
+      "pnl_sol": 0.0094,
+      "risk_score": 0.05,
+      "mcap": 64965,
+      "day": 88
+    },
+    {
+      "symbol": "SHIBAI",
+      "pnl_pct": 22.11,
+      "pnl_sol": 0.0221,
+      "risk_score": 0.3,
+      "mcap": 35778,
+      "day": 89
+    },
+    {
+      "symbol": "BETAAI",
+      "pnl_pct": 13.35,
+      "pnl_sol": 0.0133,
+      "risk_score": 0.05,
+      "mcap": 27160,
+      "day": 89
+    },
+    {
+      "symbol": "CHADDAO",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "risk_score": -0.05,
+      "mcap": 59428,
+      "day": 89
+    },
+    {
+      "symbol": "BONKDEX",
+      "pnl_pct": 17.03,
+      "pnl_sol": 0.017,
+      "risk_score": 0.05,
+      "mcap": 15938,
+      "day": 89
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "pnl_pct": 24.31,
+      "pnl_sol": 0.0243,
+      "risk_score": 0.0,
+      "mcap": 69787,
+      "day": 90
+    },
+    {
+      "symbol": "BETA",
+      "pnl_pct": -3.76,
+      "pnl_sol": -0.0038,
+      "risk_score": 0.05,
+      "mcap": 15219,
+      "day": 90
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 7.03,
+      "pnl_sol": 0.007,
+      "risk_score": -0.05,
+      "mcap": 65860,
+      "day": 90
+    },
+    {
+      "symbol": "RAYX",
+      "pnl_pct": 15.49,
+      "pnl_sol": 0.0155,
+      "risk_score": 0.05,
+      "mcap": 11480,
+      "day": 91
+    },
+    {
+      "symbol": "GAMMADEX",
+      "pnl_pct": 8.92,
+      "pnl_sol": 0.0089,
+      "risk_score": 0.15,
+      "mcap": 34726,
+      "day": 91
+    },
+    {
+      "symbol": "WOOFDAO",
+      "pnl_pct": 21.95,
+      "pnl_sol": 0.022,
+      "risk_score": 0.0,
+      "mcap": 19373,
+      "day": 91
+    },
+    {
+      "symbol": "WOJAKDAO",
+      "pnl_pct": 12.71,
+      "pnl_sol": 0.0127,
+      "risk_score": -0.05,
+      "mcap": 56582,
+      "day": 91
+    },
+    {
+      "symbol": "MOONX",
+      "pnl_pct": 18.04,
+      "pnl_sol": 0.018,
+      "risk_score": 0.3,
+      "mcap": 28766,
+      "day": 92
+    },
+    {
+      "symbol": "SOLPAD",
+      "pnl_pct": 15.12,
+      "pnl_sol": 0.0151,
+      "risk_score": 0.05,
+      "mcap": 43319,
+      "day": 93
+    },
+    {
+      "symbol": "MEMEPAD",
+      "pnl_pct": 11.86,
+      "pnl_sol": 0.0119,
+      "risk_score": 0.05,
+      "mcap": 40131,
+      "day": 94
+    },
+    {
+      "symbol": "LUNA2",
+      "pnl_pct": 17.15,
+      "pnl_sol": 0.0172,
+      "risk_score": -0.05,
+      "mcap": 35857,
+      "day": 94
+    },
+    {
+      "symbol": "DEGEN",
+      "pnl_pct": 6.43,
+      "pnl_sol": 0.0064,
+      "risk_score": 0.3,
+      "mcap": 51028,
+      "day": 94
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 16.91,
+      "pnl_sol": 0.0169,
+      "risk_score": 0.05,
+      "mcap": 55613,
+      "day": 95
+    },
+    {
+      "symbol": "ZETACOIN",
+      "pnl_pct": 18.99,
+      "pnl_sol": 0.019,
+      "risk_score": 0.0,
+      "mcap": 32025,
+      "day": 95
+    },
+    {
+      "symbol": "GAMMADAO",
+      "pnl_pct": -5.19,
+      "pnl_sol": -0.0052,
+      "risk_score": -0.05,
+      "mcap": 31137,
+      "day": 96
+    },
+    {
+      "symbol": "STARTOKEN",
+      "pnl_pct": -5.21,
+      "pnl_sol": -0.0052,
+      "risk_score": 0.05,
+      "mcap": 33786,
+      "day": 96
+    },
+    {
+      "symbol": "VOIDDEX",
+      "pnl_pct": 12.22,
+      "pnl_sol": 0.0122,
+      "risk_score": -0.05,
+      "mcap": 34426,
+      "day": 97
+    },
+    {
+      "symbol": "BASED2",
+      "pnl_pct": -4.89,
+      "pnl_sol": -0.0049,
+      "risk_score": -0.05,
+      "mcap": 63351,
+      "day": 97
+    },
+    {
+      "symbol": "SHIBPAD",
+      "pnl_pct": 10.15,
+      "pnl_sol": 0.0101,
+      "risk_score": -0.05,
+      "mcap": 38384,
+      "day": 97
+    },
+    {
+      "symbol": "SIGMA2",
+      "pnl_pct": -5.96,
+      "pnl_sol": -0.006,
+      "risk_score": 0.05,
+      "mcap": 26256,
+      "day": 98
+    },
+    {
+      "symbol": "ZETAPAD",
+      "pnl_pct": 17.43,
+      "pnl_sol": 0.0174,
+      "risk_score": 0.0,
+      "mcap": 24981,
+      "day": 99
+    },
+    {
+      "symbol": "GAMMAINU",
+      "pnl_pct": 20.3,
+      "pnl_sol": 0.0203,
+      "risk_score": -0.05,
+      "mcap": 28122,
+      "day": 99
+    },
+    {
+      "symbol": "DEGENDAO",
+      "pnl_pct": 12.47,
+      "pnl_sol": 0.0125,
+      "risk_score": 0.05,
+      "mcap": 56568,
+      "day": 99
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "pnl_pct": 16.31,
+      "pnl_sol": 0.0163,
+      "risk_score": -0.05,
+      "mcap": 37546,
+      "day": 99
+    },
+    {
+      "symbol": "ELON2",
+      "pnl_pct": 21.25,
+      "pnl_sol": 0.0213,
+      "risk_score": 0.05,
+      "mcap": 34965,
+      "day": 100
+    },
+    {
+      "symbol": "BARK2",
+      "pnl_pct": 15.55,
+      "pnl_sol": 0.0156,
+      "risk_score": -0.05,
+      "mcap": 38525,
+      "day": 101
+    },
+    {
+      "symbol": "MOONCOIN",
+      "pnl_pct": 22.1,
+      "pnl_sol": 0.0221,
+      "risk_score": 0.05,
+      "mcap": 53229,
+      "day": 101
+    },
+    {
+      "symbol": "LUNA2",
+      "pnl_pct": 11.57,
+      "pnl_sol": 0.0116,
+      "risk_score": 0.05,
+      "mcap": 15230,
+      "day": 101
+    },
+    {
+      "symbol": "FLOKI",
+      "pnl_pct": 12.56,
+      "pnl_sol": 0.0126,
+      "risk_score": -0.05,
+      "mcap": 51395,
+      "day": 102
+    },
+    {
+      "symbol": "DOGEINU",
+      "pnl_pct": 10.17,
+      "pnl_sol": 0.0102,
+      "risk_score": 0.0,
+      "mcap": 24500,
+      "day": 102
+    },
+    {
+      "symbol": "STARDAO",
+      "pnl_pct": 20.7,
+      "pnl_sol": 0.0207,
+      "risk_score": 0.05,
+      "mcap": 48017,
+      "day": 102
+    },
+    {
+      "symbol": "ZETAX",
+      "pnl_pct": 18.39,
+      "pnl_sol": 0.0184,
+      "risk_score": 0.05,
+      "mcap": 42237,
+      "day": 102
+    },
+    {
+      "symbol": "MOONPAD",
+      "pnl_pct": 16.78,
+      "pnl_sol": 0.0168,
+      "risk_score": -0.05,
+      "mcap": 31735,
+      "day": 103
+    },
+    {
+      "symbol": "BASEDCOIN",
+      "pnl_pct": -2.19,
+      "pnl_sol": -0.0022,
+      "risk_score": -0.05,
+      "mcap": 40739,
+      "day": 103
+    },
+    {
+      "symbol": "CATTOKEN",
+      "pnl_pct": 13.95,
+      "pnl_sol": 0.014,
+      "risk_score": -0.05,
+      "mcap": 37584,
+      "day": 104
+    },
+    {
+      "symbol": "STARINU",
+      "pnl_pct": 21.16,
+      "pnl_sol": 0.0212,
+      "risk_score": -0.05,
+      "mcap": 60829,
+      "day": 104
+    },
+    {
+      "symbol": "RAYX",
+      "pnl_pct": 13.13,
+      "pnl_sol": 0.0131,
+      "risk_score": 0.05,
+      "mcap": 56624,
+      "day": 104
+    },
+    {
+      "symbol": "FLOKI2",
+      "pnl_pct": 24.82,
+      "pnl_sol": 0.0248,
+      "risk_score": 0.3,
+      "mcap": 55118,
+      "day": 105
+    },
+    {
+      "symbol": "PEPECOIN",
+      "pnl_pct": -2.68,
+      "pnl_sol": -0.0027,
+      "risk_score": -0.05,
+      "mcap": 54805,
+      "day": 105
+    },
+    {
+      "symbol": "SHIBTOKEN",
+      "pnl_pct": 10.95,
+      "pnl_sol": 0.0109,
+      "risk_score": 0.05,
+      "mcap": 47024,
+      "day": 106
+    },
+    {
+      "symbol": "DEGEN2",
+      "pnl_pct": 14.21,
+      "pnl_sol": 0.0142,
+      "risk_score": 0.0,
+      "mcap": 36886,
+      "day": 106
+    },
+    {
+      "symbol": "BARKCOIN",
+      "pnl_pct": 12.13,
+      "pnl_sol": 0.0121,
+      "risk_score": 0.05,
+      "mcap": 48785,
+      "day": 107
+    },
+    {
+      "symbol": "SIGMACOIN",
+      "pnl_pct": 6.45,
+      "pnl_sol": 0.0064,
+      "risk_score": -0.05,
+      "mcap": 21400,
+      "day": 107
+    },
+    {
+      "symbol": "BASEDPAD",
+      "pnl_pct": -7.17,
+      "pnl_sol": -0.0072,
+      "risk_score": 0.15,
+      "mcap": 56882,
+      "day": 107
+    },
+    {
+      "symbol": "MEOWAI",
+      "pnl_pct": 15.37,
+      "pnl_sol": 0.0154,
+      "risk_score": -0.05,
+      "mcap": 52395,
+      "day": 108
+    },
+    {
+      "symbol": "CHADDEX",
+      "pnl_pct": 6.77,
+      "pnl_sol": 0.0068,
+      "risk_score": -0.05,
+      "mcap": 56524,
+      "day": 108
+    },
+    {
+      "symbol": "ALPHACOIN",
+      "pnl_pct": -5.71,
+      "pnl_sol": -0.0057,
+      "risk_score": 0.05,
+      "mcap": 28851,
+      "day": 108
+    },
+    {
+      "symbol": "ELONAI",
+      "pnl_pct": -3.06,
+      "pnl_sol": -0.0031,
+      "risk_score": -0.05,
+      "mcap": 57410,
+      "day": 109
+    },
+    {
+      "symbol": "DELTA",
+      "pnl_pct": 13.16,
+      "pnl_sol": 0.0132,
+      "risk_score": 0.05,
+      "mcap": 27647,
+      "day": 110
+    },
+    {
+      "symbol": "RAYCOIN",
+      "pnl_pct": 11.97,
+      "pnl_sol": 0.012,
+      "risk_score": 0.3,
+      "mcap": 41743,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": 17.7,
+      "pnl_sol": 0.0177,
+      "risk_score": -0.05,
+      "mcap": 48623,
+      "day": 110
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "pnl_pct": -6.75,
+      "pnl_sol": -0.0068,
+      "risk_score": 0.05,
+      "mcap": 48842,
+      "day": 111
+    },
+    {
+      "symbol": "DOGE2",
+      "pnl_pct": 9.68,
+      "pnl_sol": 0.0097,
+      "risk_score": 0.05,
+      "mcap": 44043,
+      "day": 112
+    },
+    {
+      "symbol": "DELTAX",
+      "pnl_pct": 12.87,
+      "pnl_sol": 0.0129,
+      "risk_score": -0.05,
+      "mcap": 45531,
+      "day": 112
+    },
+    {
+      "symbol": "VOIDPAD",
+      "pnl_pct": 24.29,
+      "pnl_sol": 0.0243,
+      "risk_score": 0.0,
+      "mcap": 20735,
+      "day": 112
+    }
+  ]
+}

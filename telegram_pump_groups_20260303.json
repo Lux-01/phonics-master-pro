@@ -1,0 +1,36 @@
+{
+  "scanned_at": "2026-03-03T20:34:43.892033",
+  "total_found": 5,
+  "groups": [
+    {
+      "name": "solana_pump_group",
+      "url": "https://t.me/solana_pump_group",
+      "source": "pattern_match",
+      "scanned_at": "2026-03-03T20:34:42.911019"
+    },
+    {
+      "name": "solana_gems_official",
+      "url": "https://t.me/solana_gems_official",
+      "source": "pattern_match",
+      "scanned_at": "2026-03-03T20:34:42.911070"
+    },
+    {
+      "name": "memecoin_100x",
+      "url": "https://t.me/memecoin_100x",
+      "source": "pattern_match",
+      "scanned_at": "2026-03-03T20:34:42.911088"
+    },
+    {
+      "name": "crypto_pump_signals",
+      "url": "https://t.me/crypto_pump_signals",
+      "source": "pattern_match",
+      "scanned_at": "2026-03-03T20:34:42.911103"
+    },
+    {
+      "name": "sol_pump_squad",
+      "url": "https://t.me/sol_pump_squad",
+      "source": "pattern_match",
+      "scanned_at": "2026-03-03T20:34:42.911117"
+    }
+  ]
+}

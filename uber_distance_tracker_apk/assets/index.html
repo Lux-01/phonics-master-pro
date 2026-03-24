@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#276EF1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Uber Distance Tracker</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #F6F8FA;
+            color: #1A1A1A;
+            min-height: 100vh;
+            padding-bottom: 20px;
+        }
+        
+        .header {
+            background: white;
+            padding: 16px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .container {
+            padding: 16px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .stats-row {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            flex: 1;
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .stat-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        
+        .stat-icon.blue {
+            background: rgba(39, 110, 241, 0.1);
+        }
+        
+        .stat-icon.green {
+            background: rgba(5, 148, 79, 0.1);
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .active-trip {
+            background: linear-gradient(135deg, #276EF1 0%, #1E54B7 100%);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 16px;
+            color: white;
+            box-shadow: 0 8px 24px rgba(39, 110, 241, 0.3);
+        }
+        
+        .trip-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .live-indicator {
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        .trip-header span {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+        
+        .distance-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .distance-value {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        .live-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .action-button {
+            width: 100%;
+            height: 60px;
+            border: none;
+            border-radius: 16px;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: white;
+            cursor: pointer;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.1s;
+        }
+        
+        .action-button:active {
+            transform: scale(0.98);
+        }
+        
+        .action-button.start {
+            background: #05944F;
+        }
+        
+        .action-button.stop {
+            background: #E11900;
+        }
+        
+        .action-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            padding: 0 4px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .refresh-btn {
+            background: none;
+            border: none;
+            color: #276EF1;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .trip-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .trip-card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .trip-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(39, 110, 241, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .trip-info {
+            flex: 1;
+        }
+        
+        .trip-distance {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        
+        .trip-date {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .trip-duration {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 48px 20px;
+            color: #999;
+        }
+        
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+        
+        .permission-banner {
+            background: #FFF3CD;
+            border: 1px solid #FFE69C;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .permission-banner h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #856404;
+        }
+        
+        .permission-banner p {
+            font-size: 14px;
+            color: #856404;
+            margin-bottom: 12px;
+        }
+        
+        .permission-btn {
+            background: #276EF1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .floating-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #05944F;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            display: none;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+            font-weight: 600;
+        }
+        
+        .floating-widget.active {
+            display: flex;
+        }
+        
+        .widget-stop-btn {
+            width: 32px;
+            height: 32px;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .install-banner {
+            background: #276EF1;
+            color: white;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            display: none;
+        }
+        
+        .install-banner.show {
+            display: block;
+        }
+        
+        .install-banner h3 {
+            margin-bottom: 8px;
+        }
+        
+        .install-banner p {
+            opacity: 0.9;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+        
+        .install-btn {
+            background: white;
+            color: #276EF1;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📍 Distance Tracker</h1>
+    </div>
+    
+    <div class="container">
+        <!-- Install Banner -->
+        <div id="installBanner" class="install-banner">
+            <h3>Install App</h3>
+            <p>Add to your home screen for the best experience</p>
+            <button class="install-btn" onclick="installApp()">Install</button>
+        </div>
+        
+        <!-- Permission Banner -->
+        <div id="permissionBanner" class="permission-banner" style="display: none;">
+            <h3>📍 Location Access Needed</h3>
+            <p>This app needs location permission to track your driving distance.</p>
+            <button class="permission-btn" onclick="requestPermission()">Grant Permission</button>
+        </div>
+        
+        <!-- Stats -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-icon blue">🛣️</div>
+                <div class="stat-value" id="totalDistance">0.0</div>
+                <div class="stat-label">Total km</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon green">🚗</div>
+                <div class="stat-value" id="totalTrips">0</div>
+                <div class="stat-label">Trips</div>
+            </div>
+        </div>
+        
+        <!-- Active Trip -->
+        <div id="activeTrip" class="active-trip" style="display: none;">
+            <div class="trip-header">
+                <div class="live-indicator"></div>
+                <span>TRIP IN PROGRESS</span>
+            </div>
+            <div class="distance-display">
+                <div class="distance-value" id="liveDistance">0.00 km</div>
+                <div class="live-badge">● LIVE</div>
+            </div>
+        </div>
+        
+        <!-- Action Button -->
+        <button id="actionBtn" class="action-button start" onclick="toggleTracking()">
+            START TRIP
+        </button>
+        
+        <!-- Recent Trips -->
+        <div class="section-header">
+            <span class="section-title">Recent Trips</span>
+            <button class="refresh-btn" onclick="loadTrips()">↻ Refresh</button>
+        </div>
+        
+        <div id="tripList" class="trip-list">
+            <div class="empty-state">
+                <div class="empty-state-icon">🚕</div>
+                <p>No trips yet</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Floating Widget -->
+    <div id="floatingWidget" class="floating-widget">
+        <span id="widgetDistance">0.0 km</span>
+        <button class="widget-stop-btn" onclick="toggleTracking()">⏹</button>
+    </div>
+
+    <script>
+        // State
+        let isTracking = false;
+        let watchId = null;
+        let currentTrip = null;
+        let lastPosition = null;
+        let totalDistance = 0;
+        let deferredPrompt = null;
+        
+        // Database (using localStorage)
+        const DB_KEY = 'uber_trips';
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTrips();
+            checkPermission();
+            
+            // Check for active trip
+            const active = localStorage.getItem('active_trip');
+            if (active) {
+                currentTrip = JSON.parse(active);
+                isTracking = true;
+                updateUI();
+                startTracking();
+            }
+        });
+        
+        // Install prompt
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('installBanner').classList.add('show');
+        });
+        
+        function installApp() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        document.getElementById('installBanner').style.display = 'none';
+                    }
+                    deferredPrompt = null;
+                });
+            }
+        }
+        
+        // Permission handling
+        async function checkPermission() {
+            if (!('geolocation' in navigator)) {
+                alert('Geolocation is not supported by your browser');
+                return;
+            }
+            
+            try {
+                const result = await navigator.permissions.query({ name: 'geolocation' });
+                if (result.state === 'prompt') {
+                    document.getElementById('permissionBanner').style.display = 'block';
+                } else if (result.state === 'denied') {
+                    document.getElementById('permissionBanner').style.display = 'block';
+                    document.querySelector('.permission-banner p').textContent = 
+                        'Location permission was denied. Please enable it in your browser settings.';
+                }
+            } catch (e) {
+                // Some browsers don't support permissions API
+            }
+        }
+        
+        async function requestPermission() {
+            try {
+                await navigator.geolocation.getCurrentPosition(() => {
+                    document.getElementById('permissionBanner').style.display = 'none';
+                }, (err) => {
+                    alert('Permission denied: ' + err.message);
+                });
+            } catch (e) {
+                alert('Error requesting permission: ' + e.message);
+            }
+        }
+        
+        // Distance calculation (Haversine formula)
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Earth's radius in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+        
+        // Format distance
+        function formatDistance(km) {
+            if (km < 1) {
+                return (km * 1000).toFixed(0) + ' m';
+            }
+            return km.toFixed(2) + ' km';
+        }
+        
+        // Toggle tracking
+        async function toggleTracking() {
+            if (isTracking) {
+                stopTracking();
+            } else {
+                await startTracking();
+            }
+        }
+        
+        async function startTracking() {
+            try {
+                // Get initial position
+                const position = await new Promise((resolve, reject) => {
+                    navigator.geolocation.getCurrentPosition(resolve, reject, {
+                        enableHighAccuracy: true,
+                        timeout: 10000,
+                        maximumAge: 0
+                    });
+                });
+                
+                // Create trip
+                currentTrip = {
+                    id: Date.now(),
+                    startTime: new Date().toISOString(),
+                    startLat: position.coords.latitude,
+                    startLng: position.coords.longitude,
+                    distance: 0,
+                    positions: [{
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude,
+                        time: Date.now()
+                    }]
+                };
+                
+                lastPosition = position;
+                isTracking = true;
+                
+                // Save active trip
+                localStorage.setItem('active_trip', JSON.stringify(currentTrip));
+                
+                // Start watching position
+                watchId = navigator.geolocation.watchPosition(
+                    onPositionUpdate,
+                    onPositionError,
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 10000,
+                        maximumAge: 0
+                    }
+                );
+                
+                // Keep screen on
+                if ('wakeLock' in navigator) {
+                    try {
+                        await navigator.wakeLock.request('screen');
+                    } catch (e) {}
+                }
+                
+                updateUI();
+                
+            } catch (err) {
+                alert('Error starting tracking: ' + err.message);
+            }
+        }
+        
+        function stopTracking() {
+            if (watchId !== null) {
+                navigator.geolocation.clearWatch(watchId);
+                watchId = null;
+            }
+            
+            if (currentTrip) {
+                currentTrip.endTime = new Date().toISOString();
+                currentTrip.distance = totalDistance;
+                
+                // Save to database
+                saveTrip(currentTrip);
+                
+                // Clear active trip
+                localStorage.removeItem('active_trip');
+                
+                // Reset
+                currentTrip = null;
+                lastPosition = null;
+                totalDistance = 0;
+            }
+            
+            isTracking = false;
+            updateUI();
+            loadTrips();
+            
+            // Release wake lock
+            if ('wakeLock' in navigator) {
+                // Wake lock releases automatically when page is hidden
+            }
+        }
+        
+        function onPositionUpdate(position) {
+            if (!lastPosition) {
+                lastPosition = position;
+                return;
+            }
+            
+            // Calculate distance
+            const distance = calculateDistance(
+                lastPosition.coords.latitude,
+                lastPosition.coords.longitude,
+                position.coords.latitude,
+                position.coords.longitude
+            );
+            
+            // Only add if moved more than 5 meters (filter noise)
+            if (distance > 0.005) {
+                totalDistance += distance;
+                currentTrip.distance = totalDistance;
+                currentTrip.positions.push({
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                    time: Date.now()
+                });
+                
+                // Update active trip in storage
+                localStorage.setItem('active_trip', JSON.stringify(currentTrip));
+                
+                updateUI();
+            }
+            
+            lastPosition = position;
+        }
+        
+        function onPositionError(err) {
+            console.error('Position error:', err);
+        }
+        
+        function updateUI() {
+            const btn = document.getElementById('actionBtn');
+            const activeTripEl = document.getElementById('activeTrip');
+            const liveDistanceEl = document.getElementById('liveDistance');
+            const widget = document.getElementById('floatingWidget');
+            const widgetDistance = document.getElementById('widgetDistance');
+            
+            if (isTracking) {
+                btn.textContent = 'STOP TRIP';
+                btn.classList.remove('start');
+                btn.classList.add('stop');
+                activeTripEl.style.display = 'block';
+                liveDistanceEl.textContent = formatDistance(totalDistance);
+                widget.classList.add('active');
+                widgetDistance.textContent = formatDistance(totalDistance);
+            } else {
+                btn.textContent = 'START TRIP';
+                btn.classList.remove('stop');
+                btn.classList.add('start');
+                activeTripEl.style.display = 'none';
+                widget.classList.remove('active');
+            }
+        }
+        
+        // Database functions
+        function getTrips() {
+            const trips = localStorage.getItem(DB_KEY);
+            return trips ? JSON.parse(trips) : [];
+        }
+        
+        function saveTrip(trip) {
+            const trips = getTrips();
+            trips.unshift(trip);
+            localStorage.setItem(DB_KEY, JSON.stringify(trips));
+        }
+        
+        function loadTrips() {
+            const trips = getTrips();
+            const listEl = document.getElementById('tripList');
+            
+            // Calculate stats
+            const totalKm = trips.reduce((sum, t) => sum + (t.distance || 0), 0);
+            document.getElementById('totalDistance').textContent = totalKm.toFixed(1);
+            document.getElementById('totalTrips').textContent = trips.length;
+            
+            if (trips.length === 0) {
+                listEl.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🚕</div>
+                        <p>No trips yet</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            listEl.innerHTML = trips.slice(0, 20).map(trip => {
+                const date = new Date(trip.startTime);
+                const dateStr = date.toLocaleDateString('en-US', { 
+                    month: 'short', day: 'numeric', year: 'numeric' 
+                });
+                const timeStr = date.toLocaleTimeString('en-US', { 
+                    hour: 'numeric', minute: '2-digit' 
+                });
+                
+                let duration = '';
+                if (trip.endTime) {
+                    const mins = Math.round((new Date(trip.endTime) - date) / 60000);
+                    duration = mins < 60 ? `${mins} min` : `${Math.floor(mins/60)}h ${mins%60}m`;
+                }
+                
+                return `
+                    <div class="trip-card">
+                        <div class="trip-icon">🚗</div>
+                        <div class="trip-info">
+                            <div class="trip-distance">${formatDistance(trip.distance || 0)}</div>
+                            <div class="trip-date">${dateStr} • ${timeStr}</div>
+                            ${duration ? `<div class="trip-duration">Duration: ${duration}</div>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Update UI every second while tracking
+        setInterval(() => {
+            if (isTracking) {
+                document.getElementById('liveDistance').textContent = formatDistance(totalDistance);
+                document.getElementById('widgetDistance').textContent = formatDistance(totalDistance);
+            }
+        }, 1000);
+        
+        // Handle visibility change (keep tracking when tab hidden)
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && isTracking) {
+                // Continue tracking - geolocation works in background on mobile
+            }
+        });
+    </script>
+</body>
+</html>

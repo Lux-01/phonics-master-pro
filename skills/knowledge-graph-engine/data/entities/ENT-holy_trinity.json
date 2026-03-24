@@ -1,0 +1,12 @@
+{
+  "id": "ENT-holy_trinity",
+  "type": "project",
+  "name": "Holy Trinity",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "trading",
+    "multi-strategy"
+  ],
+  "created": "2026-03-20T04:52:13.778711"
+}

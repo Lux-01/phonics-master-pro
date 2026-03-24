@@ -1,0 +1,16 @@
+{
+  "strategy": "Skylar v3.0",
+  "version": "3.0",
+  "upgrades": [
+    "3-tier exit",
+    "Narrative boost",
+    "Add-on dip",
+    "Streak boost",
+    "Market filter"
+  ],
+  "start": 1.0,
+  "end": 1371.9145033123887,
+  "multiplier": 1371.9145033123887,
+  "trades": 442,
+  "wins": 311
+}

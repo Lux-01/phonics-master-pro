@@ -1,0 +1,26 @@
+{
+  "trade_num": 2,
+  "timestamp": "2026-02-23T23:14:57.743261",
+  "sydney_time": "2026-02-23 23:14",
+  "token": "JUP",
+  "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvC8",
+  "grade": "A",
+  "entry_price": 0.845,
+  "exit_price": 0.9021,
+  "size_sol": 0.01,
+  "slippage_bps": 100,
+  "rules_passed": [
+    1,
+    6,
+    7,
+    8,
+    10,
+    21
+  ],
+  "tx_signature": "SIM_TX_2_1771848897",
+  "pnl_pct": 6.76,
+  "pnl_sol": 0.000676,
+  "duration_min": 27,
+  "status": "COMPLETED",
+  "balance_after": 1.0015
+}

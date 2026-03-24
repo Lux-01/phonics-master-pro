@@ -1,0 +1,15 @@
+{
+  "strategy": "Whale Tracker v3.0",
+  "version": "3.0",
+  "improvements": [
+    "Score 6+",
+    "3-tier exit",
+    "95 trades"
+  ],
+  "start": 1.0,
+  "end": 94.94756456307837,
+  "multiplier": 94.94756456307837,
+  "trades": 84,
+  "wins": 62,
+  "rugs": 5
+}

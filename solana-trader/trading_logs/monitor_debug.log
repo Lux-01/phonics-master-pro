@@ -1,0 +1,35 @@
+
+╔═══════════════════════════════════════════════════════╗
+║     🤖 Swing Trader Monitor Server v2.3              ║
+╠═══════════════════════════════════════════════════════╣
+║  Status: 🔴 STOPPED                          ║
+║  URL: http://localhost:8080                      ║
+╚═══════════════════════════════════════════════════════╝
+
+Open your browser and navigate to: http://localhost:8080
+
+Press Ctrl+C to stop the server
+
+[Monitor] Starting bot...
+[Bot stdout]: 
+🚀 Swing Trader v2.3 Starting...
+   Features: Break-even | Blacklist | Circuit Breaker
+   Entry Mode: 📉 DIP BUYING (buy low, sell high)
+   Trigger: Price down >= 8% from 6h ago
+   Max Dip: 15% (avoiding dead coins)
+
+
+[Bot stdout]: 
+⏰ Sydney Time: 22/02/2026, 22:25:13
+
+[Bot stdout]:    Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+[Bot stdout]: 
+🔍 Scanning for 📉 DIP BUYING signals...
+
+
+[Bot stdout]:    No signals found
+
+

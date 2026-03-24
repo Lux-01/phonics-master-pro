@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-27T21:03:46.066025",
+  "wallet": "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5",
+  "total_positions": 4,
+  "total_invested_sol": 0.04,
+  "take_profit_target": 0.046,
+  "stop_loss_limit": 0.037200000000000004,
+  "target_pnl_sol": 0.006,
+  "max_loss_sol": 0.0028000000000000004,
+  "positions": [
+    {
+      "trade_num": 1,
+      "token": "UNKNOWN",
+      "address": "GiFoBEGnHGXmJdpaNqjMHBkYP5QcyPYqutwREiec3RBi",
+      "entry_sol": 0.01,
+      "take_profit_sol": 0.0115,
+      "stop_loss_sol": 0.009300000000000001,
+      "entry_time": "2026-02-27T09:51:21.105Z",
+      "solscan": "https://solscan.io/tx/2wP4252RAmmSegucUQMU7TmW9BYCxxBwhkZcMHw8FE7a7f4LaP5pYRJLE5hTBkKMtcZzFLZfDGcg9oeZsqAw48CN"
+    },
+    {
+      "trade_num": 3,
+      "token": "UNKNOWN",
+      "address": "kjqPLo7Yez23kb9vAcoWqRG7hw6MeTNFAH5dtZQpump",
+      "entry_sol": 0.01,
+      "take_profit_sol": 0.0115,
+      "stop_loss_sol": 0.009300000000000001,
+      "entry_time": "2026-02-27T09:51:29.273Z",
+      "solscan": "https://solscan.io/tx/47dgkr4wF8XwP3V4nfuLbaSFFucqv7FiPNp9FL4tz25K5f3WVcrtwXtopy6J2FY4azHzXmykTviHkj8PE29dS2EG"
+    },
+    {
+      "trade_num": 4,
+      "token": "UNKNOWN",
+      "address": "2ieDnfWLzrat7zGFz4qFh5FMg75WkQrvmWaAHeSZoxHZ",
+      "entry_sol": 0.01,
+      "take_profit_sol": 0.0115,
+      "stop_loss_sol": 0.009300000000000001,
+      "entry_time": "2026-02-27T09:51:36.265Z",
+      "solscan": "https://solscan.io/tx/2pEawCLmvTyuyPtbjsXFnM5HgrqTjJjKJRHwzfwGYgbWqrQiK9FXxRA7cRAxygvLiJafAz2etP7BVWAYuScVvxEv"
+    },
+    {
+      "trade_num": 5,
+      "token": "UNKNOWN",
+      "address": "8QHLfMj1a9e19Kt8g25NCr9ahWLLmFBw47tk9kscpump",
+      "entry_sol": 0.01,
+      "take_profit_sol": 0.0115,
+      "stop_loss_sol": 0.009300000000000001,
+      "entry_time": "2026-02-27T09:51:43.300Z",
+      "solscan": "https://solscan.io/tx/2SCV3Xoruh29n9Z8bh4NY8em5QXRfBSrt69J4hTRLMtX7LH1Lb9ZWsUQ5dw4TXw8tPmsd9eLPUH2B2YPKYNJ9WSa"
+    }
+  ]
+}

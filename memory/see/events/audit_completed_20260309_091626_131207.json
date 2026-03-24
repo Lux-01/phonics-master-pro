@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-09T09:16:26.131185",
+  "type": "audit_completed",
+  "source": "SEE",
+  "payload": {
+    "skill_id": "context-optimizer",
+    "audit_file": "/home/skux/.openclaw/workspace/memory/see/audit_history/context-optimizer_20260309_091626.md"
+  }
+}

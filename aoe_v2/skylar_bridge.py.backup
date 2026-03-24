@@ -1,0 +1,218 @@
+#!/usr/bin/env python3
+"""
+AOE → Skylar Bridge
+Automatically triggers Skylar trades when AOE finds high-score opportunities.
+"""
+
+import json
+import requests
+import subprocess
+import os
+from pathlib import Path
+from typing import Dict, Optional
+from datetime import datetime
+
+# Import Skylar's trader
+import sys
+sys.path.insert(0, '/home/skux/.openclaw/workspace/agents/skylar')
+from skylar_strategy import SkylarTrader, CONFIG
+
+class SkylarBridge:
+    """Bridge between AOE alerts and Skylar trades"""
+    
+    TRIGGER_THRESHOLD = 75  # Execute on AOE score ≥75
+    
+    def __init__(self):
+        self.trader = SkylarTrader()
+        self.log_file = Path("/home/skux/.openclaw/workspace/memory/aoe_skylar_trades.json")
+        self.log_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    def on_aoe_alert(self, token_data: Dict, aoe_score: float, breakdown: Dict) -> Dict:
+        """
+        Called when AOE finds a high-score token.
+        
+        Args:
+            token_data: Token info from AOE
+            aoe_score: AOE opportunity score (0-100)
+            breakdown: Score breakdown dict
+        
+        Returns:
+            Trade result dict
+        """
+        result = {
+            "timestamp": datetime.now().isoformat(),
+            "aoe_score": aoe_score,
+            "token_symbol": token_data.get("symbol", "UNKNOWN"),
+            "token_address": token_data.get("address", ""),
+            "decision": "skip",
+            "reason": ""
+        }
+        
+        # Skip if below threshold
+        if aoe_score < self.TRIGGER_THRESHOLD:
+            result["decision"] = "skip"
+            result["reason"] = f"AOE score {aoe_score:.0f} < {self.TRIGGER_THRESHOLD} threshold"
+            return result
+        
+        # Convert AOE token to Skylar format
+        skylar_token = self._convert_token_format(token_data)
+        
+        # Have Skylar evaluate
+        skylar_signal = self.trader.evaluate_token(skylar_token)
+        
+        if not skylar_signal:
+            result["decision"] = "rejected"
+            result["reason"] = "Failed Skylar filters"
+            return result
+        
+        # Skylar approved - execute trade
+        result["skylar_score"] = skylar_signal.get("score", 0)
+        result["skylar_grade"] = skylar_signal.get("grade", "?")
+        result["entry_reason"] = skylar_signal.get("entry_reason", "")
+        
+        # Execute trade
+        trade_result = self._execute_trade(skylar_signal, aoe_score)
+        result["trade"] = trade_result
+        result["decision"] = "executed" if trade_result.get("success") else "failed"
+        
+        # Log it
+        self._log_trade(result)
+        
+        return result
+    
+    def _convert_token_format(self, token: Dict) -> Dict:
+        """Convert AOE token format to Skylar format"""
+        return {
+            "address": token.get("address", ""),
+            "symbol": token.get("symbol", ""),
+            "name": token.get("name", ""),
+            "price": token.get("price", 0),
+            "marketCap": token.get("market_cap", 0),
+            "liquidity": token.get("liquidity", 0),
+            "volume24h": token.get("volume_24h", 0),
+            "volume5m": token.get("__dict__", {}).get("volume_5m", token.get("volume_24h", 0) / 288),
+            "priceChange24h": token.get("price_change_24h", 0),
+            "priceChange1h": token.get("price_change_1h", 0),
+            "age_hours": token.get("__dict__", {}).get("age_hours", 6),
+            "txns5m": token.get("txns_24h", 0) / 288,  # Estimate
+        }
+    
+    def _execute_trade(self, signal: Dict, aoe_score: float) -> Dict:
+        """Execute trade via Skylar continuous trader"""
+        token = signal["token"]
+        
+        trade = {
+            "success": False,
+            "token": token.get("symbol"),
+            "address": token.get("address"),
+            "size": CONFIG["entry_size_sol"],
+            "target": CONFIG["target_profit_pct"],
+            "stop": CONFIG["stop_loss_pct"],
+            "time_stop": CONFIG["time_stop_max_minutes"]
+        }
+        
+        try:
+            # Check if we have active positions
+            active_file = Path("/home/skux/.openclaw/workspace/agents/skylar/skylar_active.json")
+            if active_file.exists():
+                with open(active_file) as f:
+                    active = json.load(f)
+                if len(active.get("positions", [])) >= CONFIG["max_positions"]:
+                    trade["success"] = False
+                    trade["error"] = "Max positions reached"
+                    return trade
+            
+            # Call Skylar continuous trader
+            result = subprocess.run([
+                "node", 
+                "/home/skux/.openclaw/workspace/agents/skylar/skylar_continuous_v2.js",
+                "--buy",
+                "--token", token.get("address", ""),
+                "--amount", str(CONFIG["entry_size_sol"]),
+                "--tp", str(CONFIG["target_profit_pct"]),
+                "--sl", str(CONFIG["stop_loss_pct"])
+            ], capture_output=True, text=True, timeout=60)
+            
+            trade["success"] = result.returncode == 0
+            trade["stdout"] = result.stdout
+            trade["stderr"] = result.stderr
+            
+            if not trade["success"]:
+                trade["error"] = "Trade execution failed"
+            
+        except Exception as e:
+            trade["success"] = False
+            trade["error"] = str(e)
+        
+        return trade
+    
+    def _log_trade(self, result: Dict):
+        """Log trade to file"""
+        logs = []
+        if self.log_file.exists():
+            with open(self.log_file) as f:
+                logs = json.load(f)
+        
+        logs.append(result)
+        
+        # Keep last 100
+        logs = logs[-100:]
+        
+        with open(self.log_file, 'w') as f:
+            json.dump(logs, f, indent=2)
+    
+    def get_stats(self) -> Dict:
+        """Get bridge statistics"""
+        if not self.log_file.exists():
+            return {"total": 0, "executed": 0, "rejected": 0, "skipped": 0}
+        
+        with open(self.log_file) as f:
+            logs = json.load(f)
+        
+        return {
+            "total": len(logs),
+            "executed": sum(1 for l in logs if l["decision"] == "executed"),
+            "rejected": sum(1 for l in logs if l["decision"] == "rejected"),
+            "skipped": sum(1 for l in logs if l["decision"] == "skip"),
+            "recent": logs[-5:] if logs else []
+        }
+
+
+def test_bridge():
+    """Test the bridge with sample data"""
+    bridge = SkylarBridge()
+    
+    # Simulate AOE alert
+    sample_token = {
+        "address": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+        "symbol": "TEST",
+        "name": "Test Token",
+        "price": 0.0001,
+        "market_cap": 45000,
+        "liquidity": 15000,
+        "volume_24h": 25000,
+        "price_change_24h": 25,
+        "price_change_1h": -8,
+        "__dict__": {"age_hours": 4, "volume_5m": 5000}
+    }
+    
+    print("Testing AOE → Skylar Bridge")
+    print("=" * 60)
+    
+    # Test high score
+    result = bridge.on_aoe_alert(sample_token, 82, {})
+    print(f"\nHigh score (82) test:")
+    print(f"  Decision: {result['decision']}")
+    print(f"  Reason: {result.get('reason', 'N/A')}")
+    
+    # Test low score
+    result2 = bridge.on_aoe_alert(sample_token, 70, {})
+    print(f"\nLow score (70) test:")
+    print(f"  Decision: {result2['decision']}")
+    print(f"  Reason: {result2.get('reason', 'N/A')}")
+    
+    print(f"\nStats: {bridge.get_stats()}")
+
+
+if __name__ == "__main__":
+    test_bridge()

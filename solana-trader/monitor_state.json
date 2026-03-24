@@ -1,0 +1,16 @@
+{
+  "status": "IDLE",
+  "token": null,
+  "entryPrice": null,
+  "currentPrice": null,
+  "peakPrice": null,
+  "scaled": false,
+  "alerts": [
+    {
+      "time": "10:06 PM",
+      "type": "INFO",
+      "msg": "Position manually closed - bot reset",
+      "data": {}
+    }
+  ]
+}

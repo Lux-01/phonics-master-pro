@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-03-25T05:00:04.773185",
+  "count": 13,
+  "tokens": [
+    {
+      "address": "DUr5rZAfYduvihaiyMnfqgnhqYWbPWJXvK954qyTpump",
+      "symbol": "SOLINU",
+      "volume_24h": 18388.01,
+      "market_cap": 190422.0
+    },
+    {
+      "address": "5ToDNkiBAK6k697RRyngTburU7yZNFZFx7jzsD1Uc7pK",
+      "symbol": "NPCS",
+      "volume_24h": 207.73,
+      "market_cap": 526734.0
+    },
+    {
+      "address": "PLAYs3GSSadH2q2JLS7djp7yzeT75NK78XgrE5YLrfq",
+      "symbol": "PLAY",
+      "volume_24h": 4194.35,
+      "market_cap": 2334744.0
+    },
+    {
+      "address": "SNS8DJbHc34nKySHVhLGMUUE72ho6igvJaxtq9T3cX3",
+      "symbol": "SNS",
+      "volume_24h": 203.31,
+      "market_cap": 3509746.0
+    },
+    {
+      "address": "HDa3zJc12ahykSsBRvgiWzr6WLEByf36yzKKbVvy4gnF",
+      "symbol": "SOS",
+      "volume_24h": 29207.95,
+      "market_cap": 577124.0
+    },
+    {
+      "address": "SoLiDMWBct5TurG1LNcocemBK7QmTn4P33GSrRrcd2n",
+      "symbol": "SOLID",
+      "volume_24h": 247.54,
+      "market_cap": 410105.0
+    },
+    {
+      "address": "EvEFaj8bU5vNa4jc15GgRQrVMqu7Wzf9Kz6aKn3yeB1z",
+      "symbol": "PLAY",
+      "volume_24h": 373.9,
+      "market_cap": 687736.0
+    },
+    {
+      "address": "FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump",
+      "symbol": "STORE",
+      "volume_24h": 1976.32,
+      "market_cap": 209371.0
+    },
+    {
+      "address": "3kM6vNo8WeCd7DY3EZBjPuFQ9h8gi3Bm5T8rFPQq1WBt",
+      "symbol": "HISS",
+      "volume_24h": 286.86,
+      "market_cap": 117723.0
+    },
+    {
+      "address": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
+      "symbol": "SPSC",
+      "volume_24h": 154747.39,
+      "market_cap": 790366.0
+    },
+    {
+      "address": "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+      "symbol": "GORK",
+      "volume_24h": 159237.94,
+      "market_cap": 1595772.0
+    },
+    {
+      "address": "7oXNE1dbpHUp6dn1JF8pRgCtzfCy4P2FuBneWjZHpump",
+      "symbol": "WHITEHOUSE",
+      "volume_24h": 74927.74,
+      "market_cap": 153674.0
+    },
+    {
+      "address": "2nCeHpECQvnMfzjU5fDMAKws1vBxMzxvWr6qqLpApump",
+      "symbol": "SUEDE",
+      "volume_24h": 1636.58,
+      "market_cap": 527427.0
+    }
+  ]
+}

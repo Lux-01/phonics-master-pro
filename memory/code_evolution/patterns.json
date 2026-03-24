@@ -1,0 +1,20 @@
+{
+  "patterns": [
+    {
+      "name": "Generic Improvement",
+      "description": "Fix for: Tokens less than 2 hours old getting Grade A and t...",
+      "applicable_to": [
+        "code"
+      ],
+      "when_to_use": "When similar issues arise",
+      "confidence": 0.7,
+      "first_used": "2026-03-20T02:04:21.861702",
+      "usage_count": 1,
+      "last_used": "2026-03-20T02:04:21.861702",
+      "source_evolutions": [
+        "EVO-20260320-020421"
+      ],
+      "success_rate": "100%"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "BCG4MBb279NJnJh9iFGooKbKzihymv7gVuEUtcdzpump",
+    "mcap": 127859,
+    "liq": 28891.01,
+    "sol_in_pool": 170.01195,
+    "vol24": 51080.09,
+    "vol5m": 17.91,
+    "vol_mcap_ratio": 0.3995032809579302,
+    "age_hours": 92.94667767777777,
+    "score": 16,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "onchain_mint_verified": true,
+    "lp_locked": 100,
+    "lp_depth_healthy": true,
+    "holders": 355,
+    "top10_pct": 72.80292947147295,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 0,
+    "narrative_type": "Generic",
+    "narrative_red_flags": [
+      "Red flag word: PUMP"
+    ],
+    "has_backdoor": false,
+    "backdoor_details": [],
+    "volume_anomaly": false,
+    "volume_anomaly_msg": "Volume 0.4x MCAP (normal)",
+    "data_consistent": true,
+    "data_discrepancies": [],
+    "red_flags": [],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP depth >= 20 SOL (170.0) \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume pattern normal \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked (on-chain verified) \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age >= 6h \u2705",
+      "Not honeypot \u2705",
+      "No backdoor \u2705",
+      "Wallet health \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "7K2iCApra5P3hGjTWnrS3r4DzzjNRSvUbNdadCvXpump",
+    "mcap": 47017,
+    "liq": 16819.1,
+    "sol_in_pool": 99.09254,
+    "vol24": 31129.49,
+    "vol5m": 31129.49,
+    "vol_mcap_ratio": 0.6620900950719952,
+    "age_hours": 0.1,
+    "score": 16,
+    "grade": "A \u2705",
+    "mint_revoked": true,
+    "onchain_mint_verified": true,
+    "lp_locked": 100,
+    "lp_depth_healthy": true,
+    "holders": 412,
+    "top10_pct": 37.83369209714676,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 6,
+    "narrative_type": "AI",
+    "narrative_red_flags": [],
+    "has_backdoor": false,
+    "backdoor_details": [],
+    "volume_anomaly": false,
+    "volume_anomaly_msg": "Volume 0.7x MCAP (normal)",
+    "data_consistent": true,
+    "data_discrepancies": [],
+    "red_flags": [
+      "\ud83d\udea8 TOO NEW (0.1h < 30m)"
+    ],
+    "checks": [
+      "MCAP range \u2705",
+      "Liquidity amount \u2705",
+      "LP depth >= 20 SOL (99.1) \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume 5m \u2705",
+      "Volume pattern normal \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked (on-chain verified) \u2705",
+      "Low cluster risk \u2705",
+      "Holders >300 \u2705",
+      "Twitter \u2705",
+      "Not honeypot \u2705",
+      "No backdoor \u2705",
+      "Wallet health \u2705",
+      "Strong narrative (AI) \u2705"
+    ]
+  },
+  {
+    "name": "?",
+    "symbol": "?",
+    "ca": "h6GEjBf7Y7FiNTb7yRZbHtJmsCgS2oZUvYWQupJBAGS",
+    "mcap": 22515,
+    "liq": 10498.91,
+    "sol_in_pool": 61.814,
+    "vol24": 66455.61,
+    "vol5m": 1455.87,
+    "vol_mcap_ratio": 2.9516149233844104,
+    "age_hours": 0.7358896236111111,
+    "score": 13.5,
+    "grade": "B \ud83d\udfe1",
+    "mint_revoked": true,
+    "onchain_mint_verified": true,
+    "lp_locked": 100,
+    "lp_depth_healthy": true,
+    "holders": 224,
+    "top10_pct": 49.15204047385804,
+    "cluster_risk": 0,
+    "honeypot": {
+      "is_honeypot": false,
+      "reason": "Normal buy/sell activity"
+    },
+    "tx_analysis": {
+      "total_sells": 0,
+      "coordinated_wallets": 0,
+      "sell_concentration": 0,
+      "is_wash_trading": false
+    },
+    "deployer_risk": false,
+    "wallet_health": 100.0,
+    "wallet_health_details": {
+      "sampled": 7,
+      "unhealthy": 0,
+      "unhealthy_pct": 0.0,
+      "details": []
+    },
+    "narrative_score": 0,
+    "narrative_type": "Generic",
+    "narrative_red_flags": [
+      "Red flag word: RUG"
+    ],
+    "has_backdoor": false,
+    "backdoor_details": [],
+    "volume_anomaly": false,
+    "volume_anomaly_msg": "Volume 3.0x MCAP (normal)",
+    "data_consistent": true,
+    "data_discrepancies": [],
+    "red_flags": [
+      "\u26a0\ufe0f TOO NEW (0.7h < 6h)"
+    ],
+    "checks": [
+      "MCAP range \u2705",
+      "LP depth >= 20 SOL (61.8) \u2705",
+      "LP locked 95%+ \u2705",
+      "Low slippage \u2705",
+      "Volume pattern normal \u2705",
+      "Volume 24h \u2705",
+      "Mint revoked (on-chain verified) \u2705",
+      "Low cluster risk \u2705",
+      "Website \u2705",
+      "Twitter \u2705",
+      "Age > 30m (partial) \u26a0\ufe0f",
+      "Not honeypot \u2705",
+      "No backdoor \u2705",
+      "Wallet health \u2705"
+    ]
+  }
+]

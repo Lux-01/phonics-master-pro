@@ -1,0 +1,33 @@
+{
+  "evolutions": [
+    {
+      "version": "0.1",
+      "timestamp": "2026-02-18T05:00:00",
+      "source": "manual",
+      "return_multiple": 1.0,
+      "notes": "Initial conservative strategy"
+    },
+    {
+      "version": "0.2",
+      "timestamp": "2026-03-13T08:55:00",
+      "source": "6_month_backtest",
+      "return_multiple": 7.1,
+      "notes": "A+ only, 20% target, 30% position size"
+    },
+    {
+      "version": "0.3",
+      "timestamp": "2026-03-13T09:40:00",
+      "source": "evolution_request",
+      "return_multiple": 5.411693981550297,
+      "trades_simulated": 90,
+      "improvements": [
+        "Multi-exit scaling (50%@10%, 25%@20%, 25% trail)",
+        "Rug pre-filter ($20K liquidity, 50% detection)",
+        "40% position size (up from 30%)",
+        "Breakeven stop after +8%"
+      ],
+      "rug_reduction": "5 rugs skipped",
+      "notes": "5.4x projected return in 6 months"
+    }
+  ]
+}

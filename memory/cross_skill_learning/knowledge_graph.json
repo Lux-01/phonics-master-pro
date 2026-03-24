@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "pattern-extractor": {
+      "id": "pattern-extractor",
+      "type": "skill",
+      "learnings_given": 1,
+      "learnings_received": 0,
+      "success_rate": 1.0
+    },
+    "autonomous-trading-strategist": {
+      "id": "autonomous-trading-strategist",
+      "type": "skill",
+      "learnings_given": 1,
+      "learnings_received": 1,
+      "success_rate": 1.0
+    },
+    "aoe": {
+      "id": "aoe",
+      "type": "skill",
+      "learnings_given": 0,
+      "learnings_received": 1,
+      "success_rate": 1.0
+    }
+  },
+  "edges": [
+    {
+      "source": "pattern-extractor",
+      "target": "autonomous-trading-strategist",
+      "type": "pattern_recognition",
+      "success": true,
+      "timestamp": "2026-03-22T00:24:38.942145"
+    },
+    {
+      "source": "autonomous-trading-strategist",
+      "target": "aoe",
+      "type": "risk_management",
+      "success": true,
+      "timestamp": "2026-03-22T00:24:38.942974"
+    }
+  ]
+}

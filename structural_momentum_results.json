@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-02-23T03:37:06.567637",
+  "strategy": "Structural Momentum with RSI Divergence",
+  "parameters": {
+    "rsi_period": 14,
+    "swing_lookback": 8,
+    "volume_multiplier": 1.5,
+    "target_pct": 4,
+    "stop_pct": 2,
+    "time_stop_hours": 2
+  },
+  "tokens": {
+    "BONK": {
+      "metrics": {
+        "total_trades": 0
+      },
+      "trades": []
+    },
+    "POPCAT": {
+      "metrics": {
+        "total_trades": 1,
+        "winning_trades": 1,
+        "losing_trades": 0,
+        "win_rate": 100.0,
+        "avg_win_pct": 1.527,
+        "avg_loss_pct": 0,
+        "profit_factor": Infinity,
+        "max_drawdown_pct": 1.9608,
+        "total_return_pct": 2.0,
+        "final_capital": 10200.0,
+        "initial_capital": 10000
+      },
+      "trades": [
+        {
+          "entry": "2026-02-15T09:45:00",
+          "exit": "2026-02-15T10:00:00",
+          "direction": "short",
+          "entry_price": 0.06356501,
+          "exit_price": 0.06259437,
+          "pnl_pct": 1.527,
+          "exit_reason": "stop_loss",
+          "targets_hit": 0
+        }
+      ]
+    },
+    "FARTCOIN": {
+      "metrics": {
+        "total_trades": 0
+      },
+      "trades": []
+    }
+  },
+  "aggregate": {
+    "total_trades": 1,
+    "symbols_tested": 7,
+    "win_rate": 100.0,
+    "profit_factor": Infinity,
+    "avg_trade_return": 1.5270008469997416,
+    "success": false
+  }
+}

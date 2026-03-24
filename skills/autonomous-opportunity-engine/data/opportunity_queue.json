@@ -1,0 +1,34 @@
+[
+  {
+    "id": "OPP-20260320043203-001",
+    "timestamp": "2026-03-20T04:32:03.320089",
+    "type": "crypto_trading",
+    "name": "Volume Spike Detected",
+    "description": "Token showing 5x average volume with +25% price",
+    "score": 77,
+    "grade": "B+",
+    "priority": 3,
+    "action": "queue",
+    "status": "active",
+    "token": {
+      "address": "EPjFWdd5...",
+      "symbol": "EXAMPLE"
+    }
+  },
+  {
+    "id": "OPP-20260320043203-002",
+    "timestamp": "2026-03-20T04:32:03.320131",
+    "type": "new_token",
+    "name": "New AI Token Launch",
+    "description": "Fresh launch in AI narrative with locked liquidity",
+    "score": 66,
+    "grade": "B",
+    "priority": 4,
+    "action": "ignore",
+    "status": "active",
+    "token": {
+      "address": "NEW1...",
+      "symbol": "AICO"
+    }
+  }
+]

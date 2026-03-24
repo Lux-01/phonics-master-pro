@@ -1,0 +1,2563 @@
+{
+  "strategy_version": "0.2",
+  "parameters": {
+    "target_profit": 0.2,
+    "stop_loss": -0.07,
+    "grade_filter": "A+ only",
+    "position_size": 0.01,
+    "starting_capital": 1.0
+  },
+  "results": {
+    "start_capital": 1.0,
+    "end_capital": 1.2996330000000023,
+    "pnl_sol": 0.29963300000000226,
+    "pnl_pct": 29.963300000000224,
+    "trades": 254,
+    "wins": 192,
+    "losses": 39,
+    "rugs": 23,
+    "win_rate": 75.59055118110236
+  },
+  "trades": [
+    {
+      "symbol": "CHADDEX",
+      "grade": "A+",
+      "original_pnl_pct": 18.22,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.002
+    },
+    {
+      "symbol": "LUNADEX",
+      "grade": "A+",
+      "original_pnl_pct": 14.9,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.004
+    },
+    {
+      "symbol": "SHIBAI",
+      "grade": "A+",
+      "original_pnl_pct": 17.14,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.006
+    },
+    {
+      "symbol": "DEGENINU",
+      "grade": "A+",
+      "original_pnl_pct": 8.97,
+      "new_pnl_pct": 8.97,
+      "pnl_sol": 0.0009,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0069
+    },
+    {
+      "symbol": "BETA",
+      "grade": "A+",
+      "original_pnl_pct": 9.38,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0089
+    },
+    {
+      "symbol": "FLOKIAI",
+      "grade": "A+",
+      "original_pnl_pct": 6.36,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0109
+    },
+    {
+      "symbol": "BARKINU",
+      "grade": "A+",
+      "original_pnl_pct": -12.32,
+      "new_pnl_pct": -12.32,
+      "pnl_sol": -0.00123,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0097
+    },
+    {
+      "symbol": "FLOKIINU",
+      "grade": "A+",
+      "original_pnl_pct": 9.34,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0117
+    },
+    {
+      "symbol": "DOGEX",
+      "grade": "A+",
+      "original_pnl_pct": -10.69,
+      "new_pnl_pct": -10.69,
+      "pnl_sol": -0.00107,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0106
+    },
+    {
+      "symbol": "SIGMA",
+      "grade": "A+",
+      "original_pnl_pct": 24.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0126
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "grade": "A+",
+      "original_pnl_pct": -6.25,
+      "new_pnl_pct": -6.25,
+      "pnl_sol": -0.00063,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.012
+    },
+    {
+      "symbol": "STARCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 21.09,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.014
+    },
+    {
+      "symbol": "ALPHADAO",
+      "grade": "A+",
+      "original_pnl_pct": 8.35,
+      "new_pnl_pct": 8.35,
+      "pnl_sol": 0.00083,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0148
+    },
+    {
+      "symbol": "BETADEX",
+      "grade": "A+",
+      "original_pnl_pct": -7.22,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0141
+    },
+    {
+      "symbol": "DEGENX",
+      "grade": "A+",
+      "original_pnl_pct": -3.12,
+      "new_pnl_pct": -3.12,
+      "pnl_sol": -0.00031,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.0138
+    },
+    {
+      "symbol": "MEME",
+      "grade": "A+",
+      "original_pnl_pct": 19.87,
+      "new_pnl_pct": 19.87,
+      "pnl_sol": 0.00199,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0158
+    },
+    {
+      "symbol": "ELONDEX",
+      "grade": "A+",
+      "original_pnl_pct": 23.36,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0178
+    },
+    {
+      "symbol": "DOGECOIN",
+      "grade": "A+",
+      "original_pnl_pct": -3.4,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0171
+    },
+    {
+      "symbol": "CHADDAO",
+      "grade": "A+",
+      "original_pnl_pct": 5.03,
+      "new_pnl_pct": 5.03,
+      "pnl_sol": 0.0005,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0176
+    },
+    {
+      "symbol": "DEGENDEX",
+      "grade": "A+",
+      "original_pnl_pct": 20.98,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0196
+    },
+    {
+      "symbol": "ZETAAI",
+      "grade": "A+",
+      "original_pnl_pct": -18.23,
+      "new_pnl_pct": -18.23,
+      "pnl_sol": -0.00182,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0178
+    },
+    {
+      "symbol": "DEGEN2",
+      "grade": "A+",
+      "original_pnl_pct": 15.22,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0198
+    },
+    {
+      "symbol": "GAMMA2",
+      "grade": "A+",
+      "original_pnl_pct": 19.68,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0218
+    },
+    {
+      "symbol": "MEMEX",
+      "grade": "A+",
+      "original_pnl_pct": -7.79,
+      "new_pnl_pct": -7.79,
+      "pnl_sol": -0.00078,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.021
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "grade": "A+",
+      "original_pnl_pct": -10.44,
+      "new_pnl_pct": -10.44,
+      "pnl_sol": -0.00104,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0199
+    },
+    {
+      "symbol": "CAT",
+      "grade": "A+",
+      "original_pnl_pct": 13.76,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0219
+    },
+    {
+      "symbol": "LUNADEX",
+      "grade": "A+",
+      "original_pnl_pct": -20.81,
+      "new_pnl_pct": -20.0,
+      "pnl_sol": -0.002,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0199
+    },
+    {
+      "symbol": "BONKDAO",
+      "grade": "A+",
+      "original_pnl_pct": 14.4,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0219
+    },
+    {
+      "symbol": "BETA2",
+      "grade": "A+",
+      "original_pnl_pct": -19.32,
+      "new_pnl_pct": -19.32,
+      "pnl_sol": -0.00193,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.02
+    },
+    {
+      "symbol": "APECOIN",
+      "grade": "A+",
+      "original_pnl_pct": 21.08,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.022
+    },
+    {
+      "symbol": "APEAI",
+      "grade": "A+",
+      "original_pnl_pct": 7.86,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.024
+    },
+    {
+      "symbol": "MOONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 23.03,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.026
+    },
+    {
+      "symbol": "ELONDEX",
+      "grade": "A+",
+      "original_pnl_pct": -12.93,
+      "new_pnl_pct": -12.93,
+      "pnl_sol": -0.00129,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0247
+    },
+    {
+      "symbol": "ALPHA",
+      "grade": "A+",
+      "original_pnl_pct": 21.36,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0267
+    },
+    {
+      "symbol": "CHADAI",
+      "grade": "A+",
+      "original_pnl_pct": 16.8,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0287
+    },
+    {
+      "symbol": "BETAX",
+      "grade": "A+",
+      "original_pnl_pct": 16.26,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0307
+    },
+    {
+      "symbol": "DOGEDEX",
+      "grade": "A+",
+      "original_pnl_pct": 19.94,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0327
+    },
+    {
+      "symbol": "MEMEDEX",
+      "grade": "A+",
+      "original_pnl_pct": 10.05,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0347
+    },
+    {
+      "symbol": "VOID",
+      "grade": "A+",
+      "original_pnl_pct": 7.32,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0367
+    },
+    {
+      "symbol": "CAT",
+      "grade": "A+",
+      "original_pnl_pct": 24.91,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0387
+    },
+    {
+      "symbol": "BASEDINU",
+      "grade": "A+",
+      "original_pnl_pct": 21.64,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0407
+    },
+    {
+      "symbol": "WOOF2",
+      "grade": "A+",
+      "original_pnl_pct": 16.76,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0427
+    },
+    {
+      "symbol": "CATINU",
+      "grade": "A+",
+      "original_pnl_pct": 5.31,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0447
+    },
+    {
+      "symbol": "BETA2",
+      "grade": "A+",
+      "original_pnl_pct": 14.79,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0467
+    },
+    {
+      "symbol": "PEPE",
+      "grade": "A+",
+      "original_pnl_pct": 6.84,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0487
+    },
+    {
+      "symbol": "MOON2",
+      "grade": "A+",
+      "original_pnl_pct": -23.44,
+      "new_pnl_pct": -20.0,
+      "pnl_sol": -0.002,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0467
+    },
+    {
+      "symbol": "STARX",
+      "grade": "A+",
+      "original_pnl_pct": -15.19,
+      "new_pnl_pct": -15.19,
+      "pnl_sol": -0.00152,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0452
+    },
+    {
+      "symbol": "VOIDDAO",
+      "grade": "A+",
+      "original_pnl_pct": 21.88,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0472
+    },
+    {
+      "symbol": "BASEDTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 18.34,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0492
+    },
+    {
+      "symbol": "VOIDINU",
+      "grade": "A+",
+      "original_pnl_pct": -3.49,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0485
+    },
+    {
+      "symbol": "FLOKIINU",
+      "grade": "A+",
+      "original_pnl_pct": 21.02,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0505
+    },
+    {
+      "symbol": "STARCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -5.67,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0498
+    },
+    {
+      "symbol": "STAR",
+      "grade": "A+",
+      "original_pnl_pct": 16.85,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0518
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 23.28,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0538
+    },
+    {
+      "symbol": "BASEDX",
+      "grade": "A+",
+      "original_pnl_pct": 15.5,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0558
+    },
+    {
+      "symbol": "DELTAX",
+      "grade": "A+",
+      "original_pnl_pct": 10.04,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0578
+    },
+    {
+      "symbol": "DOGEAI",
+      "grade": "A+",
+      "original_pnl_pct": 9.11,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0598
+    },
+    {
+      "symbol": "DOGEX",
+      "grade": "A+",
+      "original_pnl_pct": 21.14,
+      "new_pnl_pct": 21.14,
+      "pnl_sol": 0.00211,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0619
+    },
+    {
+      "symbol": "DOGEDAO",
+      "grade": "A+",
+      "original_pnl_pct": 8.59,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0639
+    },
+    {
+      "symbol": "DEGENDAO",
+      "grade": "A+",
+      "original_pnl_pct": 21.76,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0659
+    },
+    {
+      "symbol": "BARKCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 22.5,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0679
+    },
+    {
+      "symbol": "BONK2",
+      "grade": "A+",
+      "original_pnl_pct": -15.25,
+      "new_pnl_pct": -15.25,
+      "pnl_sol": -0.00153,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0664
+    },
+    {
+      "symbol": "MOONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 25.0,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0684
+    },
+    {
+      "symbol": "BETAX",
+      "grade": "A+",
+      "original_pnl_pct": 6.51,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0704
+    },
+    {
+      "symbol": "CHADAI",
+      "grade": "A+",
+      "original_pnl_pct": 7.2,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0724
+    },
+    {
+      "symbol": "BARKDEX",
+      "grade": "A+",
+      "original_pnl_pct": 9.07,
+      "new_pnl_pct": 9.07,
+      "pnl_sol": 0.00091,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0733
+    },
+    {
+      "symbol": "ZETADEX",
+      "grade": "A+",
+      "original_pnl_pct": 10.18,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0753
+    },
+    {
+      "symbol": "SHIBDEX",
+      "grade": "A+",
+      "original_pnl_pct": 12.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0773
+    },
+    {
+      "symbol": "CHADTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 13.9,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0793
+    },
+    {
+      "symbol": "MOONPAD",
+      "grade": "A+",
+      "original_pnl_pct": -23.09,
+      "new_pnl_pct": -20.0,
+      "pnl_sol": -0.002,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0773
+    },
+    {
+      "symbol": "DEGENX",
+      "grade": "A+",
+      "original_pnl_pct": 6.6,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0793
+    },
+    {
+      "symbol": "BASEDINU",
+      "grade": "A+",
+      "original_pnl_pct": 21.85,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0813
+    },
+    {
+      "symbol": "ALPHA",
+      "grade": "A+",
+      "original_pnl_pct": 17.88,
+      "new_pnl_pct": 17.88,
+      "pnl_sol": 0.00179,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0831
+    },
+    {
+      "symbol": "GAMMAINU",
+      "grade": "A+",
+      "original_pnl_pct": -3.55,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0824
+    },
+    {
+      "symbol": "APEAI",
+      "grade": "A+",
+      "original_pnl_pct": 11.94,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0844
+    },
+    {
+      "symbol": "ZETAINU",
+      "grade": "A+",
+      "original_pnl_pct": -5.09,
+      "new_pnl_pct": -5.09,
+      "pnl_sol": -0.00051,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0839
+    },
+    {
+      "symbol": "BETAAI",
+      "grade": "A+",
+      "original_pnl_pct": 12.68,
+      "new_pnl_pct": 12.68,
+      "pnl_sol": 0.00127,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0851
+    },
+    {
+      "symbol": "PEPEINU",
+      "grade": "A+",
+      "original_pnl_pct": 5.66,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0871
+    },
+    {
+      "symbol": "RAYCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 12.95,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0891
+    },
+    {
+      "symbol": "WOJAKPAD",
+      "grade": "A+",
+      "original_pnl_pct": -13.79,
+      "new_pnl_pct": -13.79,
+      "pnl_sol": -0.00138,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0878
+    },
+    {
+      "symbol": "MOONAI",
+      "grade": "A+",
+      "original_pnl_pct": 16.8,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0898
+    },
+    {
+      "symbol": "CAT2",
+      "grade": "A+",
+      "original_pnl_pct": -19.35,
+      "new_pnl_pct": -19.35,
+      "pnl_sol": -0.00194,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.0878
+    },
+    {
+      "symbol": "MEOWTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 23.21,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0898
+    },
+    {
+      "symbol": "MEMEINU",
+      "grade": "A+",
+      "original_pnl_pct": 16.5,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0918
+    },
+    {
+      "symbol": "PEPEDEX",
+      "grade": "A+",
+      "original_pnl_pct": 23.58,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0938
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 23.9,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0958
+    },
+    {
+      "symbol": "LUNAX",
+      "grade": "A+",
+      "original_pnl_pct": 19.52,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0978
+    },
+    {
+      "symbol": "PEPE",
+      "grade": "A+",
+      "original_pnl_pct": 13.12,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0998
+    },
+    {
+      "symbol": "STAR",
+      "grade": "A+",
+      "original_pnl_pct": -5.14,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0991
+    },
+    {
+      "symbol": "MEOWPAD",
+      "grade": "A+",
+      "original_pnl_pct": -5.45,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.0984
+    },
+    {
+      "symbol": "ELONDAO",
+      "grade": "A+",
+      "original_pnl_pct": 7.19,
+      "new_pnl_pct": 7.19,
+      "pnl_sol": 0.00072,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.0991
+    },
+    {
+      "symbol": "WOJAKX",
+      "grade": "A+",
+      "original_pnl_pct": -7.82,
+      "new_pnl_pct": -7.82,
+      "pnl_sol": -0.00078,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.0984
+    },
+    {
+      "symbol": "SHIB",
+      "grade": "A+",
+      "original_pnl_pct": -15.3,
+      "new_pnl_pct": -15.3,
+      "pnl_sol": -0.00153,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0968
+    },
+    {
+      "symbol": "PEPE",
+      "grade": "A+",
+      "original_pnl_pct": 5.38,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0988
+    },
+    {
+      "symbol": "CHADX",
+      "grade": "A+",
+      "original_pnl_pct": -3.17,
+      "new_pnl_pct": -3.17,
+      "pnl_sol": -0.00032,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.0985
+    },
+    {
+      "symbol": "PEPEDEX",
+      "grade": "A+",
+      "original_pnl_pct": -17.11,
+      "new_pnl_pct": -17.11,
+      "pnl_sol": -0.00171,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.0968
+    },
+    {
+      "symbol": "CHAD",
+      "grade": "A+",
+      "original_pnl_pct": 20.29,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.0988
+    },
+    {
+      "symbol": "DOGEDEX",
+      "grade": "A+",
+      "original_pnl_pct": 22.83,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1008
+    },
+    {
+      "symbol": "FLOKIX",
+      "grade": "A+",
+      "original_pnl_pct": -16.5,
+      "new_pnl_pct": -16.5,
+      "pnl_sol": -0.00165,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.0992
+    },
+    {
+      "symbol": "WOJAKAI",
+      "grade": "A+",
+      "original_pnl_pct": 22.99,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1012
+    },
+    {
+      "symbol": "BETAAI",
+      "grade": "A+",
+      "original_pnl_pct": -4.51,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1005
+    },
+    {
+      "symbol": "DEGENX",
+      "grade": "A+",
+      "original_pnl_pct": 12.89,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1025
+    },
+    {
+      "symbol": "MOON2",
+      "grade": "A+",
+      "original_pnl_pct": 5.82,
+      "new_pnl_pct": 5.82,
+      "pnl_sol": 0.00058,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.103
+    },
+    {
+      "symbol": "STAR2",
+      "grade": "A+",
+      "original_pnl_pct": 23.52,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.105
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "grade": "A+",
+      "original_pnl_pct": 10.3,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.107
+    },
+    {
+      "symbol": "APE",
+      "grade": "A+",
+      "original_pnl_pct": 15.15,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.109
+    },
+    {
+      "symbol": "CAT",
+      "grade": "A+",
+      "original_pnl_pct": 21.0,
+      "new_pnl_pct": 21.0,
+      "pnl_sol": 0.0021,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1111
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "grade": "A+",
+      "original_pnl_pct": -7.92,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1104
+    },
+    {
+      "symbol": "MEMEAI",
+      "grade": "A+",
+      "original_pnl_pct": 8.68,
+      "new_pnl_pct": 8.68,
+      "pnl_sol": 0.00087,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1113
+    },
+    {
+      "symbol": "DEGENPAD",
+      "grade": "A+",
+      "original_pnl_pct": 22.47,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1133
+    },
+    {
+      "symbol": "ELONPAD",
+      "grade": "A+",
+      "original_pnl_pct": -19.83,
+      "new_pnl_pct": -19.83,
+      "pnl_sol": -0.00198,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.1113
+    },
+    {
+      "symbol": "PEPE",
+      "grade": "A+",
+      "original_pnl_pct": -3.35,
+      "new_pnl_pct": -3.35,
+      "pnl_sol": -0.00034,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.111
+    },
+    {
+      "symbol": "BONK2",
+      "grade": "A+",
+      "original_pnl_pct": 8.48,
+      "new_pnl_pct": 8.48,
+      "pnl_sol": 0.00085,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1118
+    },
+    {
+      "symbol": "DEGEN",
+      "grade": "A+",
+      "original_pnl_pct": 6.84,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1138
+    },
+    {
+      "symbol": "MOONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 8.32,
+      "new_pnl_pct": 8.32,
+      "pnl_sol": 0.00083,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1147
+    },
+    {
+      "symbol": "SHIBCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 21.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1167
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "grade": "A+",
+      "original_pnl_pct": 5.73,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1187
+    },
+    {
+      "symbol": "GAMMAINU",
+      "grade": "A+",
+      "original_pnl_pct": -6.07,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.118
+    },
+    {
+      "symbol": "DOGEDAO",
+      "grade": "A+",
+      "original_pnl_pct": 13.4,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.12
+    },
+    {
+      "symbol": "ALPHA2",
+      "grade": "A+",
+      "original_pnl_pct": 10.34,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.122
+    },
+    {
+      "symbol": "SOL",
+      "grade": "A+",
+      "original_pnl_pct": 17.42,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.124
+    },
+    {
+      "symbol": "ZETAAI",
+      "grade": "A+",
+      "original_pnl_pct": 5.83,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.126
+    },
+    {
+      "symbol": "MEMEDAO",
+      "grade": "A+",
+      "original_pnl_pct": 23.94,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.128
+    },
+    {
+      "symbol": "CAT",
+      "grade": "A+",
+      "original_pnl_pct": 22.26,
+      "new_pnl_pct": 22.26,
+      "pnl_sol": 0.00223,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1302
+    },
+    {
+      "symbol": "SIGMAAI",
+      "grade": "A+",
+      "original_pnl_pct": 24.74,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1322
+    },
+    {
+      "symbol": "BETAAI",
+      "grade": "A+",
+      "original_pnl_pct": 17.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1342
+    },
+    {
+      "symbol": "NEONINU",
+      "grade": "A+",
+      "original_pnl_pct": 24.3,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1362
+    },
+    {
+      "symbol": "BETA",
+      "grade": "A+",
+      "original_pnl_pct": 8.57,
+      "new_pnl_pct": 8.57,
+      "pnl_sol": 0.00086,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.137
+    },
+    {
+      "symbol": "ZETAPAD",
+      "grade": "A+",
+      "original_pnl_pct": 15.82,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.139
+    },
+    {
+      "symbol": "BARK",
+      "grade": "A+",
+      "original_pnl_pct": -7.62,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1383
+    },
+    {
+      "symbol": "MEMEX",
+      "grade": "A+",
+      "original_pnl_pct": -3.41,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1376
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 12.83,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1396
+    },
+    {
+      "symbol": "DOGEINU",
+      "grade": "A+",
+      "original_pnl_pct": 18.49,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1416
+    },
+    {
+      "symbol": "BETADAO",
+      "grade": "A+",
+      "original_pnl_pct": 16.33,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1436
+    },
+    {
+      "symbol": "DOGEAI",
+      "grade": "A+",
+      "original_pnl_pct": 12.3,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1456
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -6.33,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1449
+    },
+    {
+      "symbol": "WOJAK2",
+      "grade": "A+",
+      "original_pnl_pct": 5.55,
+      "new_pnl_pct": 5.55,
+      "pnl_sol": 0.00056,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1455
+    },
+    {
+      "symbol": "WOOFCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 21.5,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1475
+    },
+    {
+      "symbol": "BARKPAD",
+      "grade": "A+",
+      "original_pnl_pct": 12.42,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1495
+    },
+    {
+      "symbol": "SOLCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -6.58,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1488
+    },
+    {
+      "symbol": "ALPHAX",
+      "grade": "A+",
+      "original_pnl_pct": 8.0,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1508
+    },
+    {
+      "symbol": "DOGE2",
+      "grade": "A+",
+      "original_pnl_pct": 11.64,
+      "new_pnl_pct": 11.64,
+      "pnl_sol": 0.00116,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.152
+    },
+    {
+      "symbol": "WOJAKCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 20.33,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.154
+    },
+    {
+      "symbol": "FLOKIAI",
+      "grade": "A+",
+      "original_pnl_pct": -6.21,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1533
+    },
+    {
+      "symbol": "MOONINU",
+      "grade": "A+",
+      "original_pnl_pct": 23.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1553
+    },
+    {
+      "symbol": "MEMEDAO",
+      "grade": "A+",
+      "original_pnl_pct": 7.91,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1573
+    },
+    {
+      "symbol": "ZETAINU",
+      "grade": "A+",
+      "original_pnl_pct": 9.13,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1593
+    },
+    {
+      "symbol": "APEAI",
+      "grade": "A+",
+      "original_pnl_pct": 13.15,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1613
+    },
+    {
+      "symbol": "SOLX",
+      "grade": "A+",
+      "original_pnl_pct": 11.89,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1633
+    },
+    {
+      "symbol": "SIGMA",
+      "grade": "A+",
+      "original_pnl_pct": 12.94,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1653
+    },
+    {
+      "symbol": "BARKDAO",
+      "grade": "A+",
+      "original_pnl_pct": 22.32,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1673
+    },
+    {
+      "symbol": "NEONTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 15.93,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1693
+    },
+    {
+      "symbol": "SOLDEX",
+      "grade": "A+",
+      "original_pnl_pct": 14.28,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1713
+    },
+    {
+      "symbol": "RAYTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 7.56,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1733
+    },
+    {
+      "symbol": "ALPHA",
+      "grade": "A+",
+      "original_pnl_pct": 16.57,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1753
+    },
+    {
+      "symbol": "NEONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 12.59,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1773
+    },
+    {
+      "symbol": "NEONDAO",
+      "grade": "A+",
+      "original_pnl_pct": 19.61,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1793
+    },
+    {
+      "symbol": "APETOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 5.44,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1813
+    },
+    {
+      "symbol": "DOGEPAD",
+      "grade": "A+",
+      "original_pnl_pct": 23.26,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1833
+    },
+    {
+      "symbol": "CATAI",
+      "grade": "A+",
+      "original_pnl_pct": 5.38,
+      "new_pnl_pct": 5.38,
+      "pnl_sol": 0.00054,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.1838
+    },
+    {
+      "symbol": "MEOWAI",
+      "grade": "A+",
+      "original_pnl_pct": 15.29,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1858
+    },
+    {
+      "symbol": "DELTADAO",
+      "grade": "A+",
+      "original_pnl_pct": -5.53,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1851
+    },
+    {
+      "symbol": "NEONX",
+      "grade": "A+",
+      "original_pnl_pct": 23.79,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1871
+    },
+    {
+      "symbol": "BASEDX",
+      "grade": "A+",
+      "original_pnl_pct": 20.62,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1891
+    },
+    {
+      "symbol": "WOOFAI",
+      "grade": "A+",
+      "original_pnl_pct": -7.32,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.1884
+    },
+    {
+      "symbol": "NEONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 5.11,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1904
+    },
+    {
+      "symbol": "BARKPAD",
+      "grade": "A+",
+      "original_pnl_pct": 19.77,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1924
+    },
+    {
+      "symbol": "MOONAI",
+      "grade": "A+",
+      "original_pnl_pct": -22.44,
+      "new_pnl_pct": -20.0,
+      "pnl_sol": -0.002,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.1904
+    },
+    {
+      "symbol": "ALPHAX",
+      "grade": "A+",
+      "original_pnl_pct": 17.66,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1924
+    },
+    {
+      "symbol": "BETA",
+      "grade": "A+",
+      "original_pnl_pct": 6.02,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1944
+    },
+    {
+      "symbol": "PEPE2",
+      "grade": "A+",
+      "original_pnl_pct": 18.09,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1964
+    },
+    {
+      "symbol": "BONKDAO",
+      "grade": "A+",
+      "original_pnl_pct": 16.95,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.1984
+    },
+    {
+      "symbol": "PEPECOIN",
+      "grade": "A+",
+      "original_pnl_pct": 13.12,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2004
+    },
+    {
+      "symbol": "WOOF2",
+      "grade": "A+",
+      "original_pnl_pct": 7.88,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2024
+    },
+    {
+      "symbol": "MEMEX",
+      "grade": "A+",
+      "original_pnl_pct": 21.65,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2044
+    },
+    {
+      "symbol": "STARAI",
+      "grade": "A+",
+      "original_pnl_pct": 13.53,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2064
+    },
+    {
+      "symbol": "BETA2",
+      "grade": "A+",
+      "original_pnl_pct": 6.19,
+      "new_pnl_pct": 6.19,
+      "pnl_sol": 0.00062,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.207
+    },
+    {
+      "symbol": "ALPHA",
+      "grade": "A+",
+      "original_pnl_pct": 15.51,
+      "new_pnl_pct": 15.51,
+      "pnl_sol": 0.00155,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2086
+    },
+    {
+      "symbol": "LUNATOKEN",
+      "grade": "A+",
+      "original_pnl_pct": -14.15,
+      "new_pnl_pct": -14.15,
+      "pnl_sol": -0.00142,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.2072
+    },
+    {
+      "symbol": "ZETA2",
+      "grade": "A+",
+      "original_pnl_pct": 20.83,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2092
+    },
+    {
+      "symbol": "WOJAKX",
+      "grade": "A+",
+      "original_pnl_pct": 14.42,
+      "new_pnl_pct": 14.42,
+      "pnl_sol": 0.00144,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2106
+    },
+    {
+      "symbol": "STARCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -3.28,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2099
+    },
+    {
+      "symbol": "DOGEDEX",
+      "grade": "A+",
+      "original_pnl_pct": 12.56,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2119
+    },
+    {
+      "symbol": "FLOKIDAO",
+      "grade": "A+",
+      "original_pnl_pct": 5.93,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2139
+    },
+    {
+      "symbol": "DELTAAI",
+      "grade": "A+",
+      "original_pnl_pct": 24.49,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2159
+    },
+    {
+      "symbol": "MEME2",
+      "grade": "A+",
+      "original_pnl_pct": 23.65,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2179
+    },
+    {
+      "symbol": "ALPHA2",
+      "grade": "A+",
+      "original_pnl_pct": -6.58,
+      "new_pnl_pct": -6.58,
+      "pnl_sol": -0.00066,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.2172
+    },
+    {
+      "symbol": "CAT",
+      "grade": "A+",
+      "original_pnl_pct": 12.7,
+      "new_pnl_pct": 12.7,
+      "pnl_sol": 0.00127,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2185
+    },
+    {
+      "symbol": "SHIBPAD",
+      "grade": "A+",
+      "original_pnl_pct": 13.17,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2205
+    },
+    {
+      "symbol": "BONKAI",
+      "grade": "A+",
+      "original_pnl_pct": 18.46,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2225
+    },
+    {
+      "symbol": "WOOF",
+      "grade": "A+",
+      "original_pnl_pct": -7.68,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2218
+    },
+    {
+      "symbol": "VOIDDEX",
+      "grade": "A+",
+      "original_pnl_pct": -6.03,
+      "new_pnl_pct": -6.03,
+      "pnl_sol": -0.0006,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.2212
+    },
+    {
+      "symbol": "FLOKIDEX",
+      "grade": "A+",
+      "original_pnl_pct": 22.04,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2232
+    },
+    {
+      "symbol": "VOID2",
+      "grade": "A+",
+      "original_pnl_pct": 7.89,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2252
+    },
+    {
+      "symbol": "MEOWCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -5.57,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2245
+    },
+    {
+      "symbol": "STAR",
+      "grade": "A+",
+      "original_pnl_pct": 14.58,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2265
+    },
+    {
+      "symbol": "BASED2",
+      "grade": "A+",
+      "original_pnl_pct": 10.37,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2285
+    },
+    {
+      "symbol": "ALPHAAI",
+      "grade": "A+",
+      "original_pnl_pct": -3.91,
+      "new_pnl_pct": -3.91,
+      "pnl_sol": -0.00039,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.2281
+    },
+    {
+      "symbol": "SHIBAI",
+      "grade": "A+",
+      "original_pnl_pct": 22.11,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2301
+    },
+    {
+      "symbol": "BETAAI",
+      "grade": "A+",
+      "original_pnl_pct": 13.35,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2321
+    },
+    {
+      "symbol": "CHADDAO",
+      "grade": "A+",
+      "original_pnl_pct": 12.56,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2341
+    },
+    {
+      "symbol": "BONKDEX",
+      "grade": "A+",
+      "original_pnl_pct": 17.03,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2361
+    },
+    {
+      "symbol": "FLOKI",
+      "grade": "A+",
+      "original_pnl_pct": -4.3,
+      "new_pnl_pct": -4.3,
+      "pnl_sol": -0.00043,
+      "exit_reason": "time_stop_v02",
+      "outcome": "loss",
+      "capital_after": 1.2357
+    },
+    {
+      "symbol": "FLOKICOIN",
+      "grade": "A+",
+      "original_pnl_pct": 24.31,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2377
+    },
+    {
+      "symbol": "BETA",
+      "grade": "A+",
+      "original_pnl_pct": -3.76,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.237
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 7.03,
+      "new_pnl_pct": 7.03,
+      "pnl_sol": 0.0007,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2377
+    },
+    {
+      "symbol": "WOOFDAO",
+      "grade": "A+",
+      "original_pnl_pct": 21.95,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2397
+    },
+    {
+      "symbol": "WOJAKDAO",
+      "grade": "A+",
+      "original_pnl_pct": 12.71,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2417
+    },
+    {
+      "symbol": "MOONX",
+      "grade": "A+",
+      "original_pnl_pct": 18.04,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2437
+    },
+    {
+      "symbol": "DEGENAI",
+      "grade": "A+",
+      "original_pnl_pct": 20.37,
+      "new_pnl_pct": 20.37,
+      "pnl_sol": 0.00204,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2457
+    },
+    {
+      "symbol": "MEMEPAD",
+      "grade": "A+",
+      "original_pnl_pct": 11.86,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2477
+    },
+    {
+      "symbol": "LUNA2",
+      "grade": "A+",
+      "original_pnl_pct": 17.15,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2497
+    },
+    {
+      "symbol": "DEGEN",
+      "grade": "A+",
+      "original_pnl_pct": 6.43,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2517
+    },
+    {
+      "symbol": "FLOKI2",
+      "grade": "A+",
+      "original_pnl_pct": 16.91,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2537
+    },
+    {
+      "symbol": "ZETACOIN",
+      "grade": "A+",
+      "original_pnl_pct": 18.99,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2557
+    },
+    {
+      "symbol": "GAMMADAO",
+      "grade": "A+",
+      "original_pnl_pct": -5.19,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.255
+    },
+    {
+      "symbol": "STARTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": -5.21,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2543
+    },
+    {
+      "symbol": "VOIDDEX",
+      "grade": "A+",
+      "original_pnl_pct": 12.22,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2563
+    },
+    {
+      "symbol": "BASED2",
+      "grade": "A+",
+      "original_pnl_pct": -4.89,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2556
+    },
+    {
+      "symbol": "SHIBPAD",
+      "grade": "A+",
+      "original_pnl_pct": 10.15,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2576
+    },
+    {
+      "symbol": "SIGMA2",
+      "grade": "A+",
+      "original_pnl_pct": -5.96,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2569
+    },
+    {
+      "symbol": "WOJAK2",
+      "grade": "A+",
+      "original_pnl_pct": 11.47,
+      "new_pnl_pct": 11.47,
+      "pnl_sol": 0.00115,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2581
+    },
+    {
+      "symbol": "ZETAPAD",
+      "grade": "A+",
+      "original_pnl_pct": 17.43,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2601
+    },
+    {
+      "symbol": "GAMMAINU",
+      "grade": "A+",
+      "original_pnl_pct": 20.3,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2621
+    },
+    {
+      "symbol": "ZETATOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 16.31,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2641
+    },
+    {
+      "symbol": "DOGE",
+      "grade": "A+",
+      "original_pnl_pct": 20.89,
+      "new_pnl_pct": 20.89,
+      "pnl_sol": 0.00209,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2662
+    },
+    {
+      "symbol": "MOON2",
+      "grade": "A+",
+      "original_pnl_pct": 13.92,
+      "new_pnl_pct": 13.92,
+      "pnl_sol": 0.00139,
+      "exit_reason": "manual_v02",
+      "outcome": "win",
+      "capital_after": 1.2676
+    },
+    {
+      "symbol": "BARK2",
+      "grade": "A+",
+      "original_pnl_pct": 15.55,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2696
+    },
+    {
+      "symbol": "BETAPAD",
+      "grade": "A+",
+      "original_pnl_pct": -15.58,
+      "new_pnl_pct": -15.58,
+      "pnl_sol": -0.00156,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.268
+    },
+    {
+      "symbol": "MOONCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 22.1,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.27
+    },
+    {
+      "symbol": "FLOKI",
+      "grade": "A+",
+      "original_pnl_pct": 12.56,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.272
+    },
+    {
+      "symbol": "DOGEINU",
+      "grade": "A+",
+      "original_pnl_pct": 10.17,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.274
+    },
+    {
+      "symbol": "STARDAO",
+      "grade": "A+",
+      "original_pnl_pct": 20.7,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.276
+    },
+    {
+      "symbol": "ZETAX",
+      "grade": "A+",
+      "original_pnl_pct": 18.39,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.278
+    },
+    {
+      "symbol": "MOONPAD",
+      "grade": "A+",
+      "original_pnl_pct": 16.78,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.28
+    },
+    {
+      "symbol": "BASEDCOIN",
+      "grade": "A+",
+      "original_pnl_pct": -2.19,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2793
+    },
+    {
+      "symbol": "CATTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 13.95,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2813
+    },
+    {
+      "symbol": "STARINU",
+      "grade": "A+",
+      "original_pnl_pct": 21.16,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2833
+    },
+    {
+      "symbol": "SOLX",
+      "grade": "A+",
+      "original_pnl_pct": -15.66,
+      "new_pnl_pct": -15.66,
+      "pnl_sol": -0.00157,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.2817
+    },
+    {
+      "symbol": "CATX",
+      "grade": "A+",
+      "original_pnl_pct": 24.65,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2837
+    },
+    {
+      "symbol": "FLOKI2",
+      "grade": "A+",
+      "original_pnl_pct": 24.82,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2857
+    },
+    {
+      "symbol": "PEPECOIN",
+      "grade": "A+",
+      "original_pnl_pct": -2.68,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.285
+    },
+    {
+      "symbol": "DEGEN2",
+      "grade": "A+",
+      "original_pnl_pct": 14.21,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.287
+    },
+    {
+      "symbol": "SIGMACOIN",
+      "grade": "A+",
+      "original_pnl_pct": 6.45,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.289
+    },
+    {
+      "symbol": "MEOWAI",
+      "grade": "A+",
+      "original_pnl_pct": 15.37,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.291
+    },
+    {
+      "symbol": "CHADDEX",
+      "grade": "A+",
+      "original_pnl_pct": 6.77,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.293
+    },
+    {
+      "symbol": "ZETAAI",
+      "grade": "A+",
+      "original_pnl_pct": -20.98,
+      "new_pnl_pct": -20.0,
+      "pnl_sol": -0.002,
+      "exit_reason": "rug",
+      "outcome": "rug",
+      "capital_after": 1.291
+    },
+    {
+      "symbol": "ELONAI",
+      "grade": "A+",
+      "original_pnl_pct": -3.06,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2903
+    },
+    {
+      "symbol": "RAYCOIN",
+      "grade": "A+",
+      "original_pnl_pct": 11.97,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2923
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": 17.7,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2943
+    },
+    {
+      "symbol": "WOJAKTOKEN",
+      "grade": "A+",
+      "original_pnl_pct": -6.75,
+      "new_pnl_pct": -7.0,
+      "pnl_sol": -0.0007,
+      "exit_reason": "stop_loss",
+      "outcome": "loss",
+      "capital_after": 1.2936
+    },
+    {
+      "symbol": "MOONAI",
+      "grade": "A+",
+      "original_pnl_pct": 19.5,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2956
+    },
+    {
+      "symbol": "DELTAX",
+      "grade": "A+",
+      "original_pnl_pct": 12.87,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2976
+    },
+    {
+      "symbol": "VOIDPAD",
+      "grade": "A+",
+      "original_pnl_pct": 24.29,
+      "new_pnl_pct": 20.0,
+      "pnl_sol": 0.002,
+      "exit_reason": "target_hit_v02",
+      "outcome": "win",
+      "capital_after": 1.2996
+    }
+  ]
+}

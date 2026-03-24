@@ -1,0 +1,25 @@
+{
+  "trade_num": 5,
+  "timestamp": "2026-02-23T23:15:06.098473",
+  "sydney_time": "2026-02-23 23:15",
+  "token": "WIF",
+  "mint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+  "grade": "A",
+  "entry_price": 0.2114,
+  "exit_price": 0.2256,
+  "size_sol": 0.01,
+  "slippage_bps": 100,
+  "rules_passed": [
+    1,
+    6,
+    7,
+    8,
+    10
+  ],
+  "tx_signature": "SIM_TX_5_1771848906",
+  "pnl_pct": 6.74,
+  "pnl_sol": 0.000674,
+  "duration_min": 26,
+  "status": "COMPLETED",
+  "balance_after": 1.0021
+}

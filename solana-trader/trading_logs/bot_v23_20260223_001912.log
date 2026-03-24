@@ -1,0 +1,244 @@
+
+🚀 Swing Trader v2.3 Starting...
+   Features: Break-even | Blacklist | Circuit Breaker
+   Entry Mode: 🚀 BREAKOUT (buy high, sell higher)
+   Trigger: Price up >= 5% from 6h ago
+   Time Window: 🟢 24/7 Trading (no restrictions)
+
+✅ Bot initialized: 8JGnzH1a...6Yc5
+
+
+📊 SESSION STATS:
+   Wins: 0 | Losses: 0
+   Consecutive Losses: 0
+
+
+⏰ Sydney Time: 23/02/2026, 00:19:12
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   Found 1 candidate(s):
+
+   1. PUMP1
+      Price: $0.04723000
+      Change: 🟢 23.28%
+      Score: 8/8
+
+
+🎯 STRONG SIGNAL: PUMP1 (Score: 8)
+   SOL Balance: 1.2157
+
+🟢 BUY SIGNAL: PUMP1
+   Amount: 0.5 SOL
+   Expected: ~897.56 PUMP1
+📤 Executing Buy PUMP1...
+⏳ Confirming...
+✅ Buy PUMP1 complete!
+   TX: https://solscan.io/tx/5tDRf8m7ynEbKnJtELvDgngHqB2ZcWv6YhNgLuuf7QhNY2zj1Bz5fUrSvsVJM65cKo1EBkKzpnmz748PqYipdKMF
+
+⏰ Sydney Time: 23/02/2026, 00:19:47
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+📊 Position Monitor: PUMP1
+   Current: $0.04689000
+   Entry: $1795.11644200
+   Peak: $1795.11644200
+   P&L: -100.00%
+   From Peak: -100.00%
+   Scaled: ⏳ NO
+   BE Stop: ⏳ WAITING
+   Remaining: 897.56 tokens
+
+🛑 TRAILING STOP HIT! -100.0% from peak
+
+🔴 SELLING ALL: PUMP1
+   Selling 896.98 tokens
+   Expected: ~0.4985 SOL
+📤 Executing Exit PUMP1...
+⏳ Confirming...
+✅ Exit PUMP1 complete!
+   TX: https://solscan.io/tx/5E2dJnE15xcKqczYZVHRtc7595Y62Xmbr3A72gFGhawSNaCMWDJckPwqR4Qh2SgGT6hwfb6wP5gHCAbG4EosQ7Dz
+   🚫 PUMP1 blacklisted (30 min cooldown)
+
+❌ LOSS recorded (-100.00%) - loss #1
+
+⏰ Sydney Time: 23/02/2026, 00:20:19
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 30 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:20:52
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 29 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:21:24
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 29 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:21:56
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 28 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:22:27
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 28 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:22:59
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 27 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:23:31
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 27 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:24:03
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 26 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:24:35
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 26 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:25:07
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 25 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:25:39
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 25 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:26:10
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 24 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:26:42
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 24 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:27:14
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 23 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:27:46
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 23 min remaining
+   No signals found
+
+
+⏰ Sydney Time: 23/02/2026, 00:28:18
+   Mode: 🟢 24/7 Trading (no time restrictions)
+   Status: 🟢 ACTIVE
+
+
+🔍 Scanning for 🚀 BREAKOUT signals...
+
+   ⏳ PUMP1 blacklisted - 22 min remaining
+   No signals found
+

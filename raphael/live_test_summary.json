@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-23",
+  "trades_completed": 5,
+  "starting_balance": 1.0,
+  "final_balance": 1.0021,
+  "total_pnl_sol": 0.0021,
+  "total_pnl_pct": 0.21,
+  "wins": 4,
+  "losses": 1,
+  "win_rate": 80.0,
+  "max_drawdown": -6.5,
+  "emergency_stop_triggered": false,
+  "rules_followed": 40,
+  "status": "SUCCESS"
+}

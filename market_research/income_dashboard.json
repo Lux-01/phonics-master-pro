@@ -1,0 +1,94 @@
+{
+  "streams": {
+    "crypto_trading": {
+      "name": "Crypto Trading (LuxTrader)",
+      "type": "Active Trading",
+      "frequency": "Real-time",
+      "current_balance": 2.01,
+      "currency": "SOL",
+      "usd_value": 402.0,
+      "mtd_pnl": 0.0099,
+      "ytd_pnl": 0.0099,
+      "status": "ACTIVE",
+      "risk_level": "HIGH"
+    },
+    "crypto_bluechip": {
+      "name": "Blue-Chip Crypto Holdings",
+      "type": "Long-term Hold",
+      "frequency": "Weekly DCA",
+      "target_allocation": {
+        "BTC": 40,
+        "ETH": 30,
+        "SOL": 20,
+        "Other": 10
+      },
+      "weekly_deposit": 100.0,
+      "currency": "USD",
+      "status": "PLANNED"
+    },
+    "dividend_stocks": {
+      "name": "US Dividend Stocks",
+      "type": "Dividend Income",
+      "frequency": "Quarterly",
+      "target_allocation": {
+        "SCHD": 30,
+        "VYM": 20,
+        "JNJ": 15,
+        "PG": 15,
+        "Individual": 20
+      },
+      "weekly_deposit": 200.0,
+      "currency": "USD",
+      "estimated_yield": 3.5,
+      "status": "PLANNED"
+    },
+    "gold_trading": {
+      "name": "Gold (XAU/USD)",
+      "type": "Event-Driven",
+      "frequency": "As opportunities arise",
+      "strategy": "Buy on escalation",
+      "position_size": "5-10% portfolio",
+      "status": "MONITORING"
+    },
+    "oil_exposure": {
+      "name": "Oil/Energy",
+      "type": "Sector Rotation",
+      "frequency": "Monthly rebalancing",
+      "instruments": [
+        "XLE",
+        "USO",
+        "XOM"
+      ],
+      "target_allocation": 10,
+      "status": "MONITORING"
+    }
+  },
+  "weekly_deposit_schedule": {
+    "total_weekly": 300.0,
+    "breakdown": {
+      "crypto_bluechip": 100.0,
+      "dividend_stocks": 200.0
+    }
+  },
+  "monthly_projections": {
+    "deposits": 1200.0,
+    "estimated_dividends": 35.0,
+    "crypto_trading_target": 50.0,
+    "total_monthly_inflow": 1285.0
+  },
+  "kpi_targets": {
+    "annual_dividend_yield": 3.5,
+    "crypto_trading_win_rate": 60,
+    "max_portfolio_drawdown": 15,
+    "monthly_savings_rate": 20
+  },
+  "tracking_metrics": [
+    "Total portfolio value",
+    "Monthly income by stream",
+    "Win rate (trading)",
+    "Dividend yield",
+    "Drawdown %",
+    "Sharpe ratio",
+    "Monthly deposits vs target"
+  ]
+}

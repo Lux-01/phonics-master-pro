@@ -1,0 +1,83 @@
+:root {
+  /* Luxury Color Palette - Gold & Black */
+  --color-primary: #D4AF37;
+  --color-primary-light: #E5C76B;
+  --color-primary-dark: #B8960C;
+  --color-secondary: #1A1A1A;
+  --color-bg: #0A0A0A;
+  --color-surface: #141414;
+  --color-surface-elevated: #1E1E1E;
+  --color-text: #FAF9F6;
+  --color-text-muted: #A0A0A0;
+  --color-border: #2A2A2A;
+  --color-success: #D4AF37;
+  --color-warning: #C9B037;
+  --color-error: #FF4444;
+  
+  /* Typography - Luxury Serif for headings */
+  --font-heading: 'Playfair Display', 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  
+  /* Spacing (8px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  
+  /* Layout */
+  --max-width: 1400px;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  
+  /* Luxury Shadows */
+  --shadow-sm: 0 2px 4px rgba(212, 175, 55, 0.1);
+  --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+  --shadow-gold: 0 0 30px rgba(212, 175, 55, 0.3);
+  
+  /* Transitions */
+  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-luxury: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark mode - Always dark for luxury */
+[data-theme="dark"],
+[data-theme="light"] {
+  --color-bg: #0A0A0A;
+  --color-surface: #141414;
+  --color-surface-elevated: #1E1E1E;
+  --color-text: #FAF9F6;
+  --color-text-muted: #A0A0A0;
+  --color-border: #2A2A2A;
+}
+
+/* Golden gradient accent */
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F4E4A6 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Luxury underline effect */
+.luxury-underline {
+  position: relative;
+}
+
+.luxury-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, #D4AF37, transparent);
+}

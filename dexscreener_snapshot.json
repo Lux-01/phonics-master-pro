@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-03-23T09:45:57.264933",
+  "sol_price_usd": 86.36,
+  "sol_24h_change_pct": -68.12,
+  "market_sentiment": "BEARISH \ud83d\udcc9",
+  "trending_count": 26,
+  "sample_tokens": [
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.000066,
+      "mcap": 79014166440.0,
+      "volume24h": 2926689.83
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.00023,
+      "mcap": 79027441212.0,
+      "volume24h": 201107.64
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.0002,
+      "mcap": 79024715937.0,
+      "volume24h": 10835.99
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.000025,
+      "mcap": 79010893926.0,
+      "volume24h": 68288.73
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.00011,
+      "mcap": 79018338937.0,
+      "volume24h": 7633.28
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.00011,
+      "mcap": 79018124875.0,
+      "volume24h": 1535.43
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.0001,
+      "mcap": 79017539492.0,
+      "volume24h": 99.88
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.0001,
+      "mcap": 79016811598.0,
+      "volume24h": 339.57
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.0001,
+      "mcap": 79016815409.0,
+      "volume24h": 22.91
+    },
+    {
+      "symbol": "USDC",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "price": 1.0004,
+      "mcap": 79040602650.0,
+      "volume24h": 82.36
+    }
+  ],
+  "data_source": "DexScreener API"
+}

@@ -1,0 +1,27 @@
+{
+  "strategy": "Rug-Radar v3.1",
+  "version": "3.1",
+  "improvements": [
+    "Shell wallet cluster detection",
+    "Micro-buy filtering (<$5)",
+    "Funding source analysis",
+    "Timing pattern detection",
+    "Red flags scoring integration",
+    "Auto-block safety_score < 4"
+  ],
+  "start": 1.0,
+  "end": 40.79026934107538,
+  "multiplier": 40.79026934107538,
+  "trades": 170,
+  "wins": 99,
+  "rugs": 13,
+  "skipped_low_score": 0,
+  "shell_detections": 0,
+  "shell_blocks": 0,
+  "red_flag_penalties": {
+    "micro_buy_flag": -3,
+    "cluster_age_flag": -4,
+    "funding_cluster_flag": -5,
+    "timing_pattern_flag": -3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "AGENT-3cc65547",
+  "type": "research",
+  "task": "Research Raydium DEX features",
+  "status": "completed",
+  "result": {
+    "agent_type": "research",
+    "task": "Research Raydium DEX features",
+    "output": "Completed Research Raydium DEX features",
+    "confidence": 0.85,
+    "data": {}
+  },
+  "error": null,
+  "started_at": "2026-03-20T04:32:03.592430",
+  "completed_at": "2026-03-20T04:32:03.592439",
+  "confidence": 0.85
+}

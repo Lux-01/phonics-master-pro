@@ -1,0 +1,124 @@
+{
+  "57e0aa1561dcd6ce": {
+    "job_id": "57e0aa1561dcd6ce",
+    "platform": "JobPlatform.LINKEDIN",
+    "title": "Senior Software Engineer - AI Products",
+    "description": "",
+    "url": "https://linkedin.com/jobs/example1",
+    "posted_date": "2026-03-21 14:05:07.979226",
+    "budget": null,
+    "hourly_rate": null,
+    "skills": [
+      "python",
+      "ai",
+      "tensorflow",
+      "aws"
+    ],
+    "client_info": {
+      "rating": "TechCorp",
+      "company": "TechCorp",
+      "stage": ""
+    },
+    "competition": {
+      "bids": 45,
+      "level": "high"
+    },
+    "match_score": 50.0,
+    "screened": false,
+    "applied": false
+  },
+  "64fa162cba932e29": {
+    "job_id": "64fa162cba932e29",
+    "platform": "JobPlatform.LINKEDIN",
+    "title": "Full Stack Developer (Contract)",
+    "description": "",
+    "url": "https://linkedin.com/jobs/example2",
+    "posted_date": "2026-03-22 14:05:07.979313",
+    "budget": null,
+    "hourly_rate": 85,
+    "skills": [
+      "react",
+      "node.js",
+      "typescript",
+      "postgresql"
+    ],
+    "client_info": {
+      "rating": "StartupXYZ",
+      "company": "StartupXYZ",
+      "stage": ""
+    },
+    "competition": {
+      "bids": 20,
+      "level": "high"
+    },
+    "match_score": 35.0,
+    "screened": false,
+    "applied": false
+  },
+  "c32bb87252b58f70": {
+    "job_id": "c32bb87252b58f70",
+    "platform": "JobPlatform.AIRTASKER",
+    "title": "Python script to automate data entry",
+    "description": "I need a Python script to automate copying data from Excel files into our web-based CRM system. The process currently takes 2-3 hours per file and I have 50+ files to process. Script should handle login, form filling, and error handling. CSV input and output required. Documentation needed for future modifications.",
+    "url": "https://www.airtasker.com/posts/python-automation-script-002/",
+    "posted_date": "2026-03-23 09:29:31.584677",
+    "budget": {
+      "min": 300.0,
+      "max": 500.0,
+      "type": "fixed"
+    },
+    "hourly_rate": null,
+    "skills": [
+      "python",
+      "automation",
+      "selenium",
+      "excel",
+      "data entry"
+    ],
+    "client_info": {
+      "rating": 4.5,
+      "company": "",
+      "stage": ""
+    },
+    "competition": {
+      "bids": 0,
+      "level": "low"
+    },
+    "match_score": 45.0,
+    "screened": false,
+    "applied": false
+  },
+  "8d6f6d5317df7a33": {
+    "job_id": "8d6f6d5317df7a33",
+    "platform": "JobPlatform.AIRTASKER",
+    "title": "Web scraping script for market research",
+    "description": "Need a Python script to scrape competitor pricing data from 5-10 e-commerce websites. Data should include: Product name, price, availability, and rating. Output to CSV with daily automated runs. Must respect robots.txt and include rate limiting to avoid blocks.",
+    "url": "https://www.airtasker.com/posts/web-scraping-research-005/",
+    "posted_date": "2026-03-23 02:29:31.586665",
+    "budget": {
+      "min": 450.0,
+      "max": 750.0,
+      "type": "fixed"
+    },
+    "hourly_rate": null,
+    "skills": [
+      "python",
+      "web scraping",
+      "beautifulsoup",
+      "selenium",
+      "data"
+    ],
+    "client_info": {
+      "rating": 4.5,
+      "company": "",
+      "stage": ""
+    },
+    "competition": {
+      "bids": 0,
+      "level": "low"
+    },
+    "match_score": 25.0,
+    "screened": false,
+    "applied": false
+  }
+}

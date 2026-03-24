@@ -1,0 +1,13 @@
+{
+  "id": "ENT-crypto_scanner_v5.5",
+  "type": "project",
+  "name": "Crypto Scanner v5.5",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "scanner",
+    "solana",
+    "charts"
+  ],
+  "created": "2026-03-20T04:52:13.777480"
+}

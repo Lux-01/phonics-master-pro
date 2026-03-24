@@ -1,0 +1,31 @@
+{
+  "name": "WalletCopyTrader",
+  "version": "1.0",
+  
+  "mode": "PAPER",
+  
+  "target_wallets": [
+    "8JGnzH1aP8GW3UR1spVUtxVi9m58oe1aSDXnnP1b6Yc5"
+  ],
+  
+  "trading_settings": {
+    "position_size_sol": 0.01,
+    "profit_target_pct": 15,
+    "stop_loss_pct": 15,
+    "max_hold_hours": 4,
+    "min_token_mc": 5000,
+    "max_token_mc": 500000,
+    "slippage_bps": 150
+  },
+  
+  "api_keys": {
+    "helius": "350aa83c-44a4-4068-a511-580f82930d84",
+    "birdeye": "6335463fca7340f9a2c73eacd5a37f64"
+  },
+  
+  "files": {
+    "state": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_tracker_state.json",
+    "trade_log": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_tracker_trades.json",
+    "log": "/home/skux/.openclaw/workspace/agents/wallet_tracker/wallet_tracker.log"
+  }
+}

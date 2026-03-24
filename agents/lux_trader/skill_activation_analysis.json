@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-14T03:24:01.567597",
+  "context": "Live Trading Systems",
+  "recommendations": [
+    {
+      "skill": "kpi-performance-tracker",
+      "relevance": "HIGH",
+      "reason": "Live trading needs real-time KPI monitoring",
+      "use_case": "Track win rates, PnL, drawdown in real-time",
+      "dormant": true,
+      "suggested_action": "Activate to monitor trading performance"
+    },
+    {
+      "skill": "autonomous-maintenance-repair",
+      "relevance": "CRITICAL",
+      "reason": "Live system needs self-healing if errors occur",
+      "use_case": "Auto-restart failed agents, fix corrupted state",
+      "dormant": false,
+      "suggested_action": "Already used - keep monitoring"
+    },
+    {
+      "skill": "sensory-input-layer",
+      "relevance": "MEDIUM",
+      "reason": "Monitor external data sources (Discord, Telegram, Twitter)",
+      "use_case": "Detect alpha from social channels",
+      "dormant": true,
+      "suggested_action": "Connect to trading signals"
+    },
+    {
+      "skill": "aloe",
+      "relevance": "HIGH",
+      "reason": "Track trade outcomes, learn patterns",
+      "use_case": "After trades complete, analyze what worked",
+      "dormant": false,
+      "suggested_action": "Already learning from trades"
+    },
+    {
+      "skill": "decision-log",
+      "relevance": "MEDIUM",
+      "reason": "Important decisions being made (MODE changes, entry/exit)",
+      "use_case": "Log why trades were taken or skipped",
+      "dormant": true,
+      "suggested_action": "Log the switch to LIVE mode decision"
+    },
+    {
+      "skill": "code-evolution-tracker",
+      "relevance": "MEDIUM",
+      "reason": "Trading code will evolve based on results",
+      "use_case": "Track improvements to strategies",
+      "dormant": false,
+      "suggested_action": "Already tracking - continue"
+    },
+    {
+      "skill": "business-strategy-engine",
+      "relevance": "LOW",
+      "reason": "Small scale - not business-level yet",
+      "use_case": "When trading scales to serious capital",
+      "dormant": true,
+      "suggested_action": "Not needed at current scale"
+    },
+    {
+      "skill": "long-term-project-manager",
+      "relevance": "HIGH",
+      "reason": "This is an ongoing project with phases",
+      "use_case": "Track v3.0 \u2192 v3.1 \u2192 v4.0 evolution roadmap",
+      "dormant": true,
+      "suggested_action": "Create trading evolution roadmap"
+    },
+    {
+      "skill": "research-synthesizer",
+      "relevance": "MEDIUM",
+      "reason": "Constantly researching new strategies, tokens, narratives",
+      "use_case": "Research alpha sources, compare strategies",
+      "dormant": true,
+      "suggested_action": "Activate for strategy research"
+    },
+    {
+      "skill": "multi-agent-coordinator",
+      "relevance": "HIGH",
+      "reason": "Already running 2 agents in parallel",
+      "use_case": "Coordinate LuxTrader + Holy Trinity execution",
+      "dormant": false,
+      "suggested_action": "Already used - maintain coordination"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "files_read": [
+    {
+      "path": "/test/file1.py",
+      "hash": "92a46308",
+      "timestamp": "2026-03-09T04:12:00.855975",
+      "read_count": 1
+    },
+    {
+      "path": "/test/file2.py",
+      "hash": "5a30b245",
+      "timestamp": "2026-03-09T04:12:00.856455",
+      "read_count": 1
+    }
+  ],
+  "session_start": "2026-03-09T04:12:00.854604",
+  "message_count": 2,
+  "last_refresh": "2026-03-09T04:12:00.854619",
+  "context_fatigue_score": 10,
+  "suggestions": []
+}

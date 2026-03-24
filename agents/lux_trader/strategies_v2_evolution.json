@@ -1,0 +1,84 @@
+{
+  "version": "2.0",
+  "evolved_at": "2026-03-13T09:50:00+11:00",
+  "based_on": "6_month_backtest_v1",
+  "strategies": {
+    "breakout_hunter": {
+      "worked": [
+        "40% position size",
+        "Let winners run to 25-30%",
+        "Low rug rate (2)"
+      ],
+      "improve": [
+        "Add trailing stop after +15%",
+        "Tighten entry criteria to score 12+"
+      ],
+      "new_params": {
+        "position_pct": 0.45,
+        "min_score": 12,
+        "trail_activation": 0.15
+      }
+    },
+    "rug_radar": {
+      "worked": [
+        "82.6% win rate",
+        "Quick 8% exits",
+        "Strict A+ filtering"
+      ],
+      "improve": [
+        "Add dynamic sizing based on safety score",
+        "Increase target for safety score 13+ to 12%"
+      ],
+      "new_params": {
+        "position_pct": 0.3,
+        "dynamic_target": true,
+        "safety_bonus": 0.04
+      }
+    },
+    "mean_reverter": {
+      "worked": [
+        "Only 1 rug",
+        "64% win rate acceptable"
+      ],
+      "improve": [
+        "Require deeper oversold (-10% vs -5%)",
+        "Larger positions on strong deviations"
+      ],
+      "new_params": {
+        "position_pct": 0.35,
+        "min_deviation": -0.1,
+        "deviation_multiplier": 1.5
+      }
+    },
+    "whale_tracker": {
+      "worked": [
+        "Whale score detection",
+        "Volume spike timing"
+      ],
+      "improve": [
+        "Stricter whale score (8+ vs 7+)",
+        "Multi-scale exits like breakout"
+      ],
+      "new_params": {
+        "min_whale_score": 8,
+        "multi_exit": true,
+        "rug_filter_pct": 0.45
+      }
+    },
+    "social_sentinel": {
+      "worked": [
+        "Narrative momentum capturing",
+        "Freshness filtering"
+      ],
+      "improve": [
+        "Require bull market phase",
+        "Earlier exits on fading momentum"
+      ],
+      "new_params": {
+        "require_bull": true,
+        "momentum_cutoff": 0.08,
+        "early_exit": true
+      }
+    }
+  }
+}

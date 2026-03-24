@@ -1,0 +1,12 @@
+{
+  "id": "ENT-luxtrader",
+  "type": "project",
+  "name": "LuxTrader",
+  "aliases": [],
+  "properties": {},
+  "tags": [
+    "trading",
+    "automation"
+  ],
+  "created": "2026-03-20T04:52:13.777964"
+}

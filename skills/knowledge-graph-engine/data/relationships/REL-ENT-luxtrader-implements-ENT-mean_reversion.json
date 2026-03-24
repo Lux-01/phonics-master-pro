@@ -1,0 +1,8 @@
+{
+  "id": "REL-ENT-luxtrader-implements-ENT-mean_reversion",
+  "type": "implements",
+  "from": "ENT-luxtrader",
+  "to": "ENT-mean_reversion",
+  "properties": {},
+  "created": "2026-03-20T04:52:13.807176"
+}
