@@ -1,0 +1,47 @@
+name: Build Flutter APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.16.0'
+          channel: 'stable'
+      
+      - name: Install dependencies
+        run: |
+          cd phonics_app
+          flutter pub get
+      
+      - name: Build APK
+        run: |
+          cd phonics_app
+          flutter build apk --release
+      
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: phonics-master-pro-apk
+          path: phonics_app/build/app/outputs/flutter-apk/app-release.apk
+      
+      - name: Upload Release APK to GitHub Releases
+        if: github.event_name == 'push' &c& github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: phonics_app/build/app/outputs/flutter-apk/app-release.apk
+          tag_name: v${{ github.run_number }}
+          name: "PhonicsMaster Pro v${ github.run_number }}"
+          body: "Build ${ github.run_number } - ${{ github.sha }}"
+        env:
+          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
