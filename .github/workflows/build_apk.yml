@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
@@ -30,14 +30,14 @@ jobs:
           flutter build apk --release
       
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: phonics-master-pro-apk
           path: phonics_app/build/app/outputs/flutter-apk/app-release.apk
       
       - name: Upload Release APK to GitHub Releases
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: phonics_app/build/app/outputs/flutter-apk/app-release.apk
           tag_name: v${{ github.run_number }}
