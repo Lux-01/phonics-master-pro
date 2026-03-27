@@ -1,87 +1,45 @@
-# OpenClaw Workspace - Git Ignore
-# Generated: 2026-03-11
-
-# Node.js dependencies
-node_modules/
-package-lock.json
-yarn.lock
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Large binary files
-*.glb
-*.gltf
-*.fbx
-*.blend
-*.3ds
-*.obj
-*.stl
-
-# Temporary files
-*.tmp
+# Miscellaneous
+*.class
 *.log
-*.temp
-.cache/
-tmp/
-temp/
-
-# Environment secrets
-.env
-.env.local
-.env.*.local
-auth-profiles.json
-*/auth-profiles.json
-
-# IDE
-.vscode/
-.idea/
+*.pyc
 *.swp
-*.swo
-*~
-
-# OS
 .DS_Store
-Thumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
 
-# Large directories
-avatar_project/*.glb
-avatar_project/*.gltf
-solana-trader/node_modules/
-agents/*/node_modules/
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# Build outputs
-dist/
-build/
-*.min.js
-*.min.css
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Test coverage
-coverage/
-.nyc_output/
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
 
-# Runtime data
-*.pid
-*.seed
-*.pid.lock
+# Symbolication related
+app.*.symbols
 
-# OpenClaw specific
-.openclaw/cache/
-.openclaw/temp/
-EOF
+# Obfuscation related
+app.*.map.json
 
-# Keys
-*.key
-
-# Secrets directory
-secrets/
-node_modules/
-*.db
-*.zip
-__pycache__/
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
 flutter/
 phonics_app/

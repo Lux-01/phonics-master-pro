@@ -1,0 +1,29 @@
+
+// This is a generated file; do not edit or check into version control.
+rootProject.name = 'phonicsmaster_pro'
+
+include ':app'
+
+// Plugin configuration
+apply from: "${flutterRoot}/packages/flutter_tools/gradle/module/settings.gradle"
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { stream ->
+        localProperties.load(stream)
+    }
+}
+
+def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
+def plugins = new Properties()
+def pluginsFile = new File(flutterProjectRoot.toFile(), '.flutter-plugins')
+if (pluginsFile.exists()) {
+    pluginsFile.withInputStream { stream -> plugins.load(stream) }
+}
+
+plugins.each { name, path ->
+    def pluginDirectory = flutterProjectRoot.resolve(path).resolve('android').toFile()
+    include ":$name"
+    project(":$name").projectDir = pluginDirectory
+}
