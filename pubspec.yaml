@@ -43,8 +43,8 @@ flutter:
   #       - asset: assets/fonts/Nunito-Bold.ttf
   #         weight: 700
 
-flutter_native_splash:
-  color: "#6C63FF"
-  image: assets/images/splash_icon.png
-  android: true
-  ios: false
+# flutter_native_splash:
+#   color: "#6C63FF"
+#   image: assets/images/splash_icon.png
+#   android: true
+#   ios: false
