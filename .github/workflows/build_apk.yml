@@ -13,35 +13,54 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.16.0'
+          flutter-version: '3.19.0'
           channel: 'stable'
       
+      - name: Check Flutter
+        run: flutter doctor -v
+      
+      - name: Cache Flutter dependencies
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/.pub-cache
+          key: ${{ runner.os }}-pub-${{ hashFiles('phonics_app/pubspec.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+      
       - name: Install dependencies
-        run: |
-          cd phonics_app
-          flutter pub get
+        working-directory: ./phonics_app
+        run: flutter pub get
       
       - name: Build APK
-        run: |
-          cd phonics_app
-          flutter build apk --release
+        working-directory: ./phonics_app
+        run: flutter build apk --release
       
-      - name: Upload APK
+      - name: Upload APK as artifact
         uses: actions/upload-artifact@v4
         with:
           name: phonics-master-pro-apk
           path: phonics_app/build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
       
-      - name: Upload Release APK to GitHub Releases
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Upload to GitHub Releases
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && success()
         uses: softprops/action-gh-release@v2
         with:
           files: phonics_app/build/app/outputs/flutter-apk/app-release.apk
           tag_name: v${{ github.run_number }}
           name: "PhonicsMaster Pro v${{ github.run_number }}"
-          body: "Build ${{ github.run_number }} - ${{ github.sha }}"
+          body: |
+            Build ${{ github.run_number }}
+            Commit: ${{ github.sha }}
+            Built with Flutter 3.19.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
