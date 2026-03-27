@@ -36,12 +36,12 @@ jobs:
           path: phonics_app/build/app/outputs/flutter-apk/app-release.apk
       
       - name: Upload Release APK to GitHub Releases
-        if: github.event_name == 'push' &c& github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v1
         with:
           files: phonics_app/build/app/outputs/flutter-apk/app-release.apk
           tag_name: v${{ github.run_number }}
-          name: "PhonicsMaster Pro v${ github.run_number }}"
-          body: "Build ${ github.run_number } - ${{ github.sha }}"
+          name: "PhonicsMaster Pro v${{ github.run_number }}"
+          body: "Build ${{ github.run_number }} - ${{ github.sha }}"
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
